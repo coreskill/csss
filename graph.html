@@ -1,0 +1,1001 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Dependency graph « CoreSkill Skill System (CSSS)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+    <style type="text/css">
+      #graph {
+        width: 900px;
+        height: 900px;
+        border: 1px solid lightgray;
+      }
+    </style>
+    <script src="http://visjs.org/dist/vis.js"></script>
+    <link href="http://visjs.org/dist/vis-network.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <main class="p-4">
+      <h1><a href="index.html">CSSS</a> » Dependency graph</h1>
+      <p>Clicking a skill highlights all its dependencies and dependants, double-clicking a skill opens its page.</p>
+      <div id="graph"></div>
+      <script>
+        let nodes = [
+  {
+    "id": "aria-roles-overview",
+    "label": "ARIA roles overview",
+    "group": "accessibility"
+  },
+  {
+    "id": "doctype-html-head-body",
+    "label": "<!doctype>, <html>, <head>, <body>",
+    "group": "basic-structure"
+  },
+  {
+    "id": "p",
+    "label": "<p>",
+    "group": "body"
+  },
+  {
+    "id": "a-paths-for-href",
+    "label": "<a>, #, paths for href",
+    "group": "body"
+  },
+  {
+    "id": "h1-to-h6",
+    "label": "<h1> to <h6>",
+    "group": "body"
+  },
+  {
+    "id": "div-span",
+    "label": "<div>, <span>",
+    "group": "body"
+  },
+  {
+    "id": "img-src-width-height-alt",
+    "label": "<img>, src, width, height, alt",
+    "group": "body"
+  },
+  {
+    "id": "ul-ol-li",
+    "label": "<ul>, <ol>, <li>",
+    "group": "body"
+  },
+  {
+    "id": "em",
+    "label": "<em>",
+    "group": "body"
+  },
+  {
+    "id": "i",
+    "label": "<i>",
+    "group": "body"
+  },
+  {
+    "id": "strong",
+    "label": "<strong>",
+    "group": "body"
+  },
+  {
+    "id": "b",
+    "label": "<b>",
+    "group": "body"
+  },
+  {
+    "id": "small",
+    "label": "<small>",
+    "group": "body"
+  },
+  {
+    "id": "br",
+    "label": "<br>",
+    "group": "body"
+  },
+  {
+    "id": "main",
+    "label": "<main>",
+    "group": "body"
+  },
+  {
+    "id": "aside",
+    "label": "<aside>",
+    "group": "body"
+  },
+  {
+    "id": "header",
+    "label": "<header>",
+    "group": "body"
+  },
+  {
+    "id": "footer",
+    "label": "<footer>",
+    "group": "body"
+  },
+  {
+    "id": "nav",
+    "label": "<nav>",
+    "group": "body"
+  },
+  {
+    "id": "section",
+    "label": "<section>",
+    "group": "body"
+  },
+  {
+    "id": "article",
+    "label": "<article>",
+    "group": "body"
+  },
+  {
+    "id": "iframe",
+    "label": "<iframe>",
+    "group": "body"
+  },
+  {
+    "id": "table-tr-th-td-tbody",
+    "label": "<table>, <tr>, <th>, <td>, <tbody>",
+    "group": "body"
+  },
+  {
+    "id": "form-input-textarea-label-select-option-button",
+    "label": "<form>, <input>, <textarea>, <label>, <select>, <option>, <button>",
+    "group": "body"
+  },
+  {
+    "id": "fieldset-legend-optgroup",
+    "label": "<fieldset>, <legend>, <optgroup>",
+    "group": "body"
+  },
+  {
+    "id": "a-tabindex",
+    "label": "<a tabindex>",
+    "group": "body"
+  },
+  {
+    "id": "picture-source",
+    "label": "<picture>, <source>",
+    "group": "body"
+  },
+  {
+    "id": "noscript",
+    "label": "<noscript>",
+    "group": "body"
+  },
+  {
+    "id": "tfoot-thead-col-colgroup-caption",
+    "label": "<tfoot>, <thead>, <col>, <colgroup>, <caption>",
+    "group": "body"
+  },
+  {
+    "id": "map-img-usemap",
+    "label": "<map>, <img usemap>",
+    "group": "body"
+  },
+  {
+    "id": "dl-dt-dd",
+    "label": "<dl>, <dt>, <dd>",
+    "group": "body"
+  },
+  {
+    "id": "hgroup-figcaption-figure-menu-menuitem-meter-progress-time",
+    "label": "<hgroup>, <figcaption>, <figure>, <menu>, <menuitem>, <meter>, <progress>, <time>",
+    "group": "body"
+  },
+  {
+    "id": "pre",
+    "label": "<pre>",
+    "group": "body"
+  },
+  {
+    "id": "blockquote",
+    "label": "<blockquote>",
+    "group": "body"
+  },
+  {
+    "id": "sub-sup",
+    "label": "<sub>, <sup>",
+    "group": "body"
+  },
+  {
+    "id": "code",
+    "label": "<code>",
+    "group": "body"
+  },
+  {
+    "id": "del",
+    "label": "<del>",
+    "group": "body"
+  },
+  {
+    "id": "embed",
+    "label": "<embed>",
+    "group": "body"
+  },
+  {
+    "id": "hr",
+    "label": "<hr>",
+    "group": "body"
+  },
+  {
+    "id": "ins",
+    "label": "<ins>",
+    "group": "body"
+  },
+  {
+    "id": "kbd",
+    "label": "<kbd>",
+    "group": "body"
+  },
+  {
+    "id": "mark",
+    "label": "<mark>",
+    "group": "body"
+  },
+  {
+    "id": "object-param",
+    "label": "<object>, <param>",
+    "group": "body"
+  },
+  {
+    "id": "output",
+    "label": "<output>",
+    "group": "body"
+  },
+  {
+    "id": "samp",
+    "label": "<samp>",
+    "group": "body"
+  },
+  {
+    "id": "u",
+    "label": "<u>",
+    "group": "body"
+  },
+  {
+    "id": "var",
+    "label": "<var>",
+    "group": "body"
+  },
+  {
+    "id": "q",
+    "label": "<q>",
+    "group": "body"
+  },
+  {
+    "id": "s",
+    "label": "<s>",
+    "group": "body"
+  },
+  {
+    "id": "wbr",
+    "label": "<wbr>",
+    "group": "body"
+  },
+  {
+    "id": "video-audio",
+    "label": "<video>, <audio>",
+    "group": "body"
+  },
+  {
+    "id": "title",
+    "label": "<title>",
+    "group": "head"
+  },
+  {
+    "id": "link",
+    "label": "<link>",
+    "group": "head"
+  },
+  {
+    "id": "meta-description",
+    "label": "<meta description>",
+    "group": "head"
+  },
+  {
+    "id": "favicons",
+    "label": "Favicons",
+    "group": "head"
+  },
+  {
+    "id": "microdata-httpschemaorg",
+    "label": "Microdata (http://schema.org)",
+    "group": "other"
+  },
+  {
+    "id": "overview",
+    "label": "Overview",
+    "group": "git"
+  },
+  {
+    "id": "clone",
+    "label": "clone",
+    "group": "git"
+  },
+  {
+    "id": "pull",
+    "label": "pull",
+    "group": "git"
+  },
+  {
+    "id": "init",
+    "label": "init",
+    "group": "git"
+  },
+  {
+    "id": "status",
+    "label": "status",
+    "group": "git"
+  },
+  {
+    "id": "diff",
+    "label": "diff",
+    "group": "git"
+  },
+  {
+    "id": "add",
+    "label": "add",
+    "group": "git"
+  },
+  {
+    "id": "commit",
+    "label": "commit",
+    "group": "git"
+  },
+  {
+    "id": "push",
+    "label": "push",
+    "group": "git"
+  },
+  {
+    "id": "gitignore",
+    "label": ".gitignore",
+    "group": "git"
+  },
+  {
+    "id": "checkout-as-tool-to-revert-files-to-commited-state",
+    "label": "checkout (as tool to revert files to commited state)",
+    "group": "git"
+  },
+  {
+    "id": "branch-add",
+    "label": "branch add",
+    "group": "git"
+  },
+  {
+    "id": "branch-list",
+    "label": "branch list",
+    "group": "git"
+  },
+  {
+    "id": "checkout",
+    "label": "checkout",
+    "group": "git"
+  },
+  {
+    "id": "merge",
+    "label": "merge",
+    "group": "git"
+  },
+  {
+    "id": "branch-delete",
+    "label": "branch delete",
+    "group": "git"
+  },
+  {
+    "id": "branching-strategies-gitflow",
+    "label": "branching strategies (GitFlow)",
+    "group": "git"
+  },
+  {
+    "id": "stash",
+    "label": "stash",
+    "group": "git"
+  },
+  {
+    "id": "conflicts",
+    "label": "conflicts",
+    "group": "git"
+  },
+  {
+    "id": "revert",
+    "label": "revert",
+    "group": "git"
+  },
+  {
+    "id": "rebase",
+    "label": "rebase",
+    "group": "git"
+  },
+  {
+    "id": "config",
+    "label": "config",
+    "group": "git"
+  },
+  {
+    "id": "aliases",
+    "label": "aliases",
+    "group": "git"
+  },
+  {
+    "id": "gitkeep",
+    "label": ".gitkeep",
+    "group": "git"
+  },
+  {
+    "id": "set-up-account",
+    "label": "Set up account",
+    "group": "github-and-gitlab"
+  },
+  {
+    "id": "set-up-repository",
+    "label": "Set up repository",
+    "group": "github-and-gitlab"
+  },
+  {
+    "id": "merge-pull-request",
+    "label": "Merge (Pull) Request",
+    "group": "github-and-gitlab"
+  }
+];
+        let edges = [
+  {
+    "from": "doctype-html-head-body",
+    "to": "aria-roles-overview",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "p",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "a-paths-for-href",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "h1-to-h6",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "div-span",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "img-src-width-height-alt",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "ul-ol-li",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "em",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "i",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "strong",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "b",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "small",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "br",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "main",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "aside",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "header",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "footer",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "nav",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "section",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "article",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "iframe",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "table-tr-th-td-tbody",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "form-input-textarea-label-select-option-button",
+    "arrows": "to"
+  },
+  {
+    "from": "a-paths-for-href",
+    "to": "form-input-textarea-label-select-option-button",
+    "arrows": "to"
+  },
+  {
+    "from": "form-input-textarea-label-select-option-button",
+    "to": "fieldset-legend-optgroup",
+    "arrows": "to"
+  },
+  {
+    "from": "a-paths-for-href",
+    "to": "a-tabindex",
+    "arrows": "to"
+  },
+  {
+    "from": "img-src-width-height-alt",
+    "to": "picture-source",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "noscript",
+    "arrows": "to"
+  },
+  {
+    "from": "table-tr-th-td-tbody",
+    "to": "tfoot-thead-col-colgroup-caption",
+    "arrows": "to"
+  },
+  {
+    "from": "a-paths-for-href",
+    "to": "map-img-usemap",
+    "arrows": "to"
+  },
+  {
+    "from": "img-src-width-height-alt",
+    "to": "map-img-usemap",
+    "arrows": "to"
+  },
+  {
+    "from": "ul-ol-li",
+    "to": "dl-dt-dd",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "hgroup-figcaption-figure-menu-menuitem-meter-progress-time",
+    "arrows": "to"
+  },
+  {
+    "from": "h1-to-h6",
+    "to": "hgroup-figcaption-figure-menu-menuitem-meter-progress-time",
+    "arrows": "to"
+  },
+  {
+    "from": "img-src-width-height-alt",
+    "to": "hgroup-figcaption-figure-menu-menuitem-meter-progress-time",
+    "arrows": "to"
+  },
+  {
+    "from": "ul-ol-li",
+    "to": "hgroup-figcaption-figure-menu-menuitem-meter-progress-time",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "pre",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "blockquote",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "sub-sup",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "code",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "del",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "embed",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "hr",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "ins",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "kbd",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "mark",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "object-param",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "output",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "samp",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "u",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "var",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "q",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "s",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "wbr",
+    "arrows": "to"
+  },
+  {
+    "from": "br",
+    "to": "wbr",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "video-audio",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "title",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "link",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "meta-description",
+    "arrows": "to"
+  },
+  {
+    "from": "link",
+    "to": "favicons",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "microdata-httpschemaorg",
+    "arrows": "to"
+  },
+  {
+    "from": "overview",
+    "to": "clone",
+    "arrows": "to"
+  },
+  {
+    "from": "overview",
+    "to": "pull",
+    "arrows": "to"
+  },
+  {
+    "from": "overview",
+    "to": "init",
+    "arrows": "to"
+  },
+  {
+    "from": "clone",
+    "to": "status",
+    "arrows": "to"
+  },
+  {
+    "from": "init",
+    "to": "status",
+    "arrows": "to"
+  },
+  {
+    "from": "clone",
+    "to": "diff",
+    "arrows": "to"
+  },
+  {
+    "from": "init",
+    "to": "diff",
+    "arrows": "to"
+  },
+  {
+    "from": "clone",
+    "to": "add",
+    "arrows": "to"
+  },
+  {
+    "from": "init",
+    "to": "add",
+    "arrows": "to"
+  },
+  {
+    "from": "clone",
+    "to": "commit",
+    "arrows": "to"
+  },
+  {
+    "from": "init",
+    "to": "commit",
+    "arrows": "to"
+  },
+  {
+    "from": "clone",
+    "to": "push",
+    "arrows": "to"
+  },
+  {
+    "from": "init",
+    "to": "push",
+    "arrows": "to"
+  },
+  {
+    "from": "pull",
+    "to": "push",
+    "arrows": "to"
+  },
+  {
+    "from": "status",
+    "to": "gitignore",
+    "arrows": "to"
+  },
+  {
+    "from": "status",
+    "to": "checkout-as-tool-to-revert-files-to-commited-state",
+    "arrows": "to"
+  },
+  {
+    "from": "add",
+    "to": "checkout-as-tool-to-revert-files-to-commited-state",
+    "arrows": "to"
+  },
+  {
+    "from": "commit",
+    "to": "checkout-as-tool-to-revert-files-to-commited-state",
+    "arrows": "to"
+  },
+  {
+    "from": "commit",
+    "to": "branch-add",
+    "arrows": "to"
+  },
+  {
+    "from": "status",
+    "to": "branch-add",
+    "arrows": "to"
+  },
+  {
+    "from": "commit",
+    "to": "branch-list",
+    "arrows": "to"
+  },
+  {
+    "from": "status",
+    "to": "branch-list",
+    "arrows": "to"
+  },
+  {
+    "from": "commit",
+    "to": "checkout",
+    "arrows": "to"
+  },
+  {
+    "from": "status",
+    "to": "checkout",
+    "arrows": "to"
+  },
+  {
+    "from": "commit",
+    "to": "merge",
+    "arrows": "to"
+  },
+  {
+    "from": "branch-add",
+    "to": "merge",
+    "arrows": "to"
+  },
+  {
+    "from": "checkout",
+    "to": "merge",
+    "arrows": "to"
+  },
+  {
+    "from": "branch-add",
+    "to": "branch-delete",
+    "arrows": "to"
+  },
+  {
+    "from": "branch-list",
+    "to": "branch-delete",
+    "arrows": "to"
+  },
+  {
+    "from": "checkout",
+    "to": "branch-delete",
+    "arrows": "to"
+  },
+  {
+    "from": "branch-add",
+    "to": "branching-strategies-gitflow",
+    "arrows": "to"
+  },
+  {
+    "from": "branch-list",
+    "to": "branching-strategies-gitflow",
+    "arrows": "to"
+  },
+  {
+    "from": "checkout",
+    "to": "branching-strategies-gitflow",
+    "arrows": "to"
+  },
+  {
+    "from": "commit",
+    "to": "stash",
+    "arrows": "to"
+  },
+  {
+    "from": "checkout",
+    "to": "stash",
+    "arrows": "to"
+  },
+  {
+    "from": "merge",
+    "to": "conflicts",
+    "arrows": "to"
+  },
+  {
+    "from": "stash",
+    "to": "conflicts",
+    "arrows": "to"
+  },
+  {
+    "from": "commit",
+    "to": "revert",
+    "arrows": "to"
+  },
+  {
+    "from": "merge",
+    "to": "rebase",
+    "arrows": "to"
+  },
+  {
+    "from": "overview",
+    "to": "config",
+    "arrows": "to"
+  },
+  {
+    "from": "overview",
+    "to": "aliases",
+    "arrows": "to"
+  },
+  {
+    "from": "overview",
+    "to": "gitkeep",
+    "arrows": "to"
+  },
+  {
+    "from": "gitignore",
+    "to": "gitkeep",
+    "arrows": "to"
+  },
+  {
+    "from": "set-up-account",
+    "to": "set-up-repository",
+    "arrows": "to"
+  },
+  {
+    "from": "set-up-repository",
+    "to": "merge-pull-request",
+    "arrows": "to"
+  },
+  {
+    "from": "clone",
+    "to": "merge-pull-request",
+    "arrows": "to"
+  },
+  {
+    "from": "branch-add",
+    "to": "merge-pull-request",
+    "arrows": "to"
+  },
+  {
+    "from": "commit",
+    "to": "merge-pull-request",
+    "arrows": "to"
+  },
+  {
+    "from": "push",
+    "to": "merge-pull-request",
+    "arrows": "to"
+  },
+  {
+    "from": "merge",
+    "to": "merge-pull-request",
+    "arrows": "to"
+  }
+];
+      </script>
+      <script src="graph.js"></script>
+    </main>
+  </body>
+</html>
