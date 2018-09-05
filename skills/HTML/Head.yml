@@ -1,0 +1,46 @@
+---
+
+skill: <title>
+level: 1
+sublevel: 2
+
+requires:
+  - Basic structure // <!doctype>, <html>, <head>, <body>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title
+
+---
+
+skill: <link>
+level: 2
+
+requires:
+  - Basic structure // <!doctype>, <html>, <head>, <body>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link
+
+---
+
+skill: <meta description>
+level: 2
+
+requires:
+  - Basic structure // <!doctype>, <html>, <head>, <body>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+  - https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Adding_an_author_and_description
+
+---
+
+skill: Favicons
+level: 4
+
+requires:
+  - <link>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link
+  - https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Adding_custom_icons_to_your_site

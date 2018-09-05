@@ -1,0 +1,18 @@
+<a href="{{slug}}.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+  <span>
+    {{#ifCategoriesNotEqual categories compareCategories}}
+      <span class="text-muted">
+        {{#each categories}}{{name}} » {{/each}}
+      </span>
+    {{/ifCategoriesNotEqual}}
+    {{name}}
+  </span>
+  {{#if level}}
+    <span>
+      <span class="badge badge-primary badge-pill">{{level}}</span>
+      {{#if sublevel}}
+        <span class="badge badge-secondary badge-pill">{{sublevel}}</span>
+      {{/if}}
+    </span>
+  {{/if}}
+</a>

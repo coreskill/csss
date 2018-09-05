@@ -1,0 +1,315 @@
+---
+
+skill: Overview
+level: 2
+sublevel: 1
+
+resources:
+  - https://guides.github.com/introduction/git-handbook/
+  - https://www.atlassian.com/git/tutorials/what-is-version-control
+
+---
+
+skill: clone
+level: 2
+sublevel: 1
+
+requires:
+  - Overview
+
+resources:
+  - https://guides.github.com/introduction/git-handbook/#basic-git
+  - https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone
+
+---
+
+skill: pull
+level: 2
+sublevel: 1
+
+requires:
+  - Overview
+
+resources:
+  - https://guides.github.com/introduction/git-handbook/#basic-git
+  - https://www.atlassian.com/git/tutorials/syncing/git-pull
+
+---
+
+skill: init
+level: 2
+sublevel: 1
+
+requires:
+  - Overview
+
+resources:
+  - https://guides.github.com/introduction/git-handbook/#basic-git
+  - https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-init
+
+---
+
+skill: status
+level: 2
+sublevel: 2
+
+requires:
+  - clone
+  - init
+
+resources:
+  - https://guides.github.com/introduction/git-handbook/#basic-git
+  - https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-status
+
+---
+
+skill: diff
+level: 2
+sublevel: 2
+
+requires:
+  - clone
+  - init
+
+resources:
+  - https://www.atlassian.com/git/tutorials/saving-changes/git-diff
+
+---
+
+skill: add
+level: 2
+sublevel: 2
+
+requires:
+  - clone
+  - init
+
+resources:
+  - https://guides.github.com/introduction/git-handbook/#basic-git
+  - https://www.atlassian.com/git/tutorials/saving-changes/git-add
+
+---
+
+skill: commit
+level: 2
+sublevel: 2
+
+requires:
+  - clone
+  - init
+
+resources:
+  - https://guides.github.com/introduction/git-handbook/#basic-git
+  - https://www.atlassian.com/git/tutorials/saving-changes/git-commit
+
+---
+
+skill: push
+level: 2
+sublevel: 2
+
+requires:
+  - clone
+  - init
+  - pull
+
+resources:
+  - https://guides.github.com/introduction/git-handbook/#basic-git
+  - https://www.atlassian.com/git/tutorials/syncing/git-push
+
+---
+
+skill: .gitignore
+level: 3
+sublevel: 3
+
+requires:
+  - status
+
+resources:
+  - https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+
+---
+
+skill: checkout (as tool to revert files to commited state)
+level: 3
+sublevel: 4
+
+requires:
+  - status
+  - add
+  - commit
+
+resources:
+  - https://www.atlassian.com/git/tutorials/undoing-changes
+  - https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
+
+---
+
+skill: branch add
+level: 3
+sublevel: 5
+
+requires:
+  - commit
+  - status
+
+resources:
+  - https://www.atlassian.com/git/tutorials/using-branches
+
+---
+
+skill: branch list
+level: 3
+sublevel: 5
+
+requires:
+  - commit
+  - status
+
+resources:
+  - https://www.atlassian.com/git/tutorials/using-branches
+
+---
+
+skill: checkout
+level: 3
+sublevel: 5
+
+requires:
+  - commit
+  - status
+
+resources:
+  - https://www.atlassian.com/git/tutorials/using-branches/git-checkout
+
+---
+
+skill: merge
+level: 3
+sublevel: 6
+
+requires:
+  - commit
+  - branch add
+  - checkout
+
+resources:
+  - https://www.atlassian.com/git/tutorials/using-branches/git-merge
+
+---
+
+skill: branch delete
+level: 3
+sublevel: 6
+
+requires:
+  - branch add
+  - branch list
+  - checkout
+
+resources:
+  - https://www.atlassian.com/git/tutorials/using-branches
+
+---
+
+skill: branching strategies (GitFlow)
+level: 3
+sublevel: 6
+
+requires:
+  - branch add
+  - branch list
+  - checkout
+
+resources:
+  - https://www.atlassian.com/git/tutorials/comparing-workflows
+  - https://guides.github.com/introduction/flow/
+
+---
+
+skill: stash
+level: 3
+sublevel: 7
+
+requires:
+  - commit
+  - checkout
+
+resources:
+  - https://www.atlassian.com/git/tutorials/saving-changes/git-stash
+
+---
+
+skill: conflicts
+level: 3
+sublevel: 7
+
+requires:
+  - merge
+  - stash
+
+resources:
+  - https://blog.github.com/2018-08-22-merge-conflicts-in-the-classroom/
+
+---
+
+skill: revert
+level: 3
+sublevel: 8
+
+requires:
+  - commit
+
+resources:
+  - https://www.atlassian.com/git/tutorials/undoing-changes/git-revert
+  - https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
+
+---
+
+skill: rebase
+level: 4
+sublevel: 9
+
+requires:
+  - merge
+
+resources:
+  - https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase
+  - https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+
+---
+
+skill: config
+level: 5
+sublevel: 10
+
+requires:
+  - Overview
+
+resources:
+  - https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config
+
+---
+
+skill: aliases
+level: 5
+sublevel: 10
+
+requires:
+  - Overview
+
+resources:
+  - https://githowto.com/aliases
+
+---
+
+skill: .gitkeep
+level: extra
+
+requires:
+  - Overview
+  - .gitignore
+
+resources:
+  - https://stackoverflow.com/questions/7229885/what-are-the-differences-between-gitignore-and-gitkeep

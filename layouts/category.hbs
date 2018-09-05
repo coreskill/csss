@@ -1,0 +1,37 @@
+{{#with category}}
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>{{name}} « CoreSkill Skill System (CSSS)</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+    </head>
+    <body>
+      <main class="p-4">
+        <h1>
+          <a href="index.html">CSSS</a> »
+          {{#each categories}}
+            <a href="{{slug}}.html">{{name}}</a> »
+          {{/each}}
+          {{name}}
+        </h1>
+
+        {{#if children.[0].skill}}
+          <h2 class="mt-5">Skills in this category</h2>
+          <div class="list-group">
+            {{#each children}}
+              {{> list-item}}
+            {{/each}}
+          </div>
+        {{else}}
+          <h2 class="mt-5">Subcategories in this category</h2>
+          <div class="list-group">
+            {{#each children}}
+              {{> list-item}}
+            {{/each}}
+          </div>
+        {{/if}}
+      </main>
+    </body>
+  </html>
+{{/with}}

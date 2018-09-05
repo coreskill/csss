@@ -1,0 +1,68 @@
+{{#with skill}}
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>{{name}} « CoreSkill Skill System (CSSS)</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+    </head>
+    <body>
+      <main class="p-4">
+        <h1>
+          <a href="index.html">CSSS</a> »
+          {{#each categories}}
+            <a href="{{slug}}.html">{{name}}</a> »
+          {{/each}}
+          {{name}}
+        </h1>
+        <p><a href="graph.html#{{slug}}">Show in dependency graph</a></p>
+
+        {{#if requires.length}}
+          <h2 class="mt-5">Skills required before this skill</h2>
+          <div class="list-group">
+            {{#each requires}}
+              {{> list-item compareCategories=../categories}}
+            {{/each}}
+          </div>
+        {{/if}}
+
+        {{!-- <h2 class="mt-5 text-info">What does CoreSkill say about this?</h2>
+        <div class="alert alert-secondary">
+          <p>Lorem ipsum about what Git: status is…</p>
+        </div> --}}
+
+        {{#if resources.length}}
+          <h2 class="mt-5">Resources</h2>
+          <div class="list-group">
+            {{#each resources}}
+              <a href="{{this}}" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">{{this}}</h5>
+                </div>
+                {{!-- <p class="mb-1">a comment about this resource</p> --}}
+              </a>
+            {{/each}}
+          </div>
+        {{/if}}
+
+        {{#if sameLevelSkills.length}}
+          <h2 class="mt-5">Also learn these skills</h2>
+          <div class="list-group">
+            {{#each sameLevelSkills}}
+              {{> list-item compareCategories=../categories}}
+            {{/each}}
+          </div>
+        {{/if}}
+
+        {{#if requiredBy.length}}
+          <h2 class="mt-5">Following skills</h2>
+          <div class="list-group">
+            {{#each requiredBy}}
+              {{> list-item compareCategories=../categories}}
+            {{/each}}
+          </div>
+        {{/if}}
+      </main>
+    </body>
+  </html>
+{{/with}}

@@ -1,0 +1,11 @@
+---
+
+skill: ARIA roles overview
+level: 1
+
+requires:
+  - Basic structure // <!doctype>, <html>, <head>, <body>
+
+resources:
+  - https://www.vzhurudolu.cz/prirucka/html5-struktura
+  - https://www.vzhurudolu.cz/prirucka/wai-aria

@@ -1,0 +1,22 @@
+{{#with root}}
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>CoreSkill Skill System (CSSS)</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+    </head>
+    <body>
+      <main class="p-4">
+        <h1>CoreSkill Skill System (CSSS)</h1>
+        <p><a href="graph.html">Show dependency graph</a></p>
+
+        <div class="list-group">
+          {{#each children}}
+            {{> node-item}}
+          {{/each}}
+        </div>
+      </main>
+    </body>
+  </html>
+{{/with}}

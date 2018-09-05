@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Dependency graph « CoreSkill Skill System (CSSS)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+    <style type="text/css">
+      #graph {
+        width: 900px;
+        height: 900px;
+        border: 1px solid lightgray;
+      }
+    </style>
+    <script src="http://visjs.org/dist/vis.js"></script>
+    <link href="http://visjs.org/dist/vis-network.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <main class="p-4">
+      <h1><a href="index.html">CSSS</a> » Dependency graph</h1>
+      <p>Clicking a skill highlights all its dependencies and dependants, double-clicking a skill opens its page.</p>
+      <div id="graph"></div>
+      <script>
+        let nodes = {{nodes skills}};
+        let edges = {{edges skills}};
+      </script>
+      <script src="graph.js"></script>
+    </main>
+  </body>
+</html>

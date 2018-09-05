@@ -1,0 +1,583 @@
+---
+
+skill: <p>
+level: 1
+
+requires:
+  - Basic structure // <!doctype>, <html>, <head>, <body>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p
+
+---
+
+skill: "<a>, #, paths for href"
+level: 1
+
+requires:
+  - Basic structure // <!doctype>, <html>, <head>, <body>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+
+---
+
+skill: <h1> to <h6>
+level: 1
+
+requires:
+  - Basic structure // <!doctype>, <html>, <head>, <body>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h2
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h3
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h4
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h5
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h6
+
+---
+
+skill: <div>, <span>
+level: 1
+
+requires:
+  - Basic structure // <!doctype>, <html>, <head>, <body>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span
+
+---
+
+skill: <img>, src, width, height, alt
+level: 1
+
+requires:
+  - Basic structure // <!doctype>, <html>, <head>, <body>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
+
+---
+
+skill: <ul>, <ol>, <li>
+level: 1
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li
+
+---
+
+skill: <em>
+level: 2
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em
+
+---
+
+skill: <i>
+level: 2
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i
+
+---
+
+skill: <strong>
+level: 2
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong
+
+---
+
+skill: <b>
+level: 2
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b
+
+---
+
+skill: <small>
+level: 2
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small
+
+---
+
+skill: <br>
+level: 2
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br
+
+---
+
+skill: <main>
+level: 3
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main
+
+---
+
+skill: <aside>
+level: 3
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside
+
+---
+
+skill: <header>
+level: 3
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header
+
+---
+
+skill: <footer>
+level: 3
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer
+
+---
+
+skill: <nav>
+level: 3
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav
+
+---
+
+skill: <section>
+level: 3
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section
+
+---
+
+skill: <article>
+level: 3
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article
+
+---
+
+skill: <iframe>
+level: 4
+
+requires:
+  - Basic structure // <!doctype>, <html>, <head>, <body>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe
+
+---
+
+skill: <table>, <tr>, <th>, <td>, <tbody>
+level: 4
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody
+
+---
+
+skill: <form>, <input>, <textarea>, <label>, <select>, <option>, <button>
+level: 4
+
+requires:
+  - <div>, <span>
+  - "<a>, #, paths for href"
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
+
+---
+
+skill: <fieldset>, <legend>, <optgroup>
+level: 5
+
+requires:
+  - <form>, <input>, <textarea>, <label>, <select>, <option>, <button>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup
+
+---
+
+skill: <a tabindex>
+level: 5
+
+requires:
+  - "<a>, #, paths for href"
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+
+---
+
+skill: <picture>, <source>
+level: 5
+
+requires:
+  - <img>, src, width, height, alt
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source
+
+---
+
+skill: <noscript>
+level: 5
+
+requires:
+  - Basic structure // <!doctype>, <html>, <head>, <body>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript
+
+---
+
+skill: <tfoot>, <thead>, <col>, <colgroup>, <caption>
+level: extra
+
+requires:
+  - <table>, <tr>, <th>, <td>, <tbody>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption
+
+---
+
+skill: <map>, <img usemap>
+level: extra
+
+requires:
+  - "<a>, #, paths for href"
+  - <img>, src, width, height, alt
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
+
+---
+
+skill: <dl>, <dt>, <dd>
+level: extra
+
+requires:
+  - <ul>, <ol>, <li>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd
+
+---
+
+skill: <hgroup>, <figcaption>, <figure>, <menu>, <menuitem>, <meter>, <progress>, <time>
+level: extra
+
+requires:
+  - <div>, <span>
+  - <h1> to <h6>
+  - <img>, src, width, height, alt
+  - <ul>, <ol>, <li>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menu
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menuitem
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time
+
+---
+
+skill: <pre>
+level: extra
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre
+
+---
+
+skill: <blockquote>
+level: extra
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote
+
+---
+
+skill: <sub>, <sup>
+level: extra
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup
+
+---
+
+skill: <code>
+level: extra
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code
+
+---
+
+skill: <del>
+level: extra
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del
+
+---
+
+skill: <embed>
+level: extra
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed
+
+---
+
+skill: <hr>
+level: extra
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr
+
+---
+
+skill: <ins>
+level: extra
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins
+
+---
+
+skill: <kbd>
+level: extra
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd
+
+---
+
+skill: <mark>
+level: extra
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark
+
+---
+
+skill: <object>, <param>
+level: extra
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/param
+
+---
+
+skill: <output>
+level: extra
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output
+
+---
+
+skill: <samp>
+level: extra
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp
+
+---
+
+skill: <u>
+level: extra
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u
+
+---
+
+skill: <var>
+level: extra
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var
+
+---
+
+skill: <q>
+level: extra
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q
+
+---
+
+skill: <s>
+level: extra
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s
+
+---
+
+skill: <wbr>
+level: extra
+
+requires:
+  - <div>, <span>
+  - <br>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr
+
+---
+
+skill: <video>, <audio>
+level: extra
+
+requires:
+  - <div>, <span>
+
+resources:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
+

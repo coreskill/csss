@@ -1,0 +1,28 @@
+{
+  "name": "@coreskill/csss",
+  "private": true,
+  "author": "Kate Miháliková <kate@katemihalikova.cz>",
+  "description": "CoreSkill Skill System (CSSS)",
+  "repository": "coreskill/csss",
+  "scripts": {
+    "build": "ts-node index.ts"
+  },
+  "dependencies": {
+    "js-yaml": "^3.12.0",
+    "jstransformer-handlebars": "^1.1.0",
+    "metalsmith": "^2.3.0",
+    "metalsmith-discover-partials": "^0.1.2",
+    "metalsmith-layouts": "^2.2.0",
+    "node-dir": "^0.1.17",
+    "slug": "^0.9.1"
+  },
+  "devDependencies": {
+    "@types/handlebars": "^4.0.39",
+    "@types/js-yaml": "^3.11.2",
+    "@types/node": "^10.9.4",
+    "@types/node-dir": "0.0.32",
+    "@types/slug": "^0.9.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.3"
+  }
+}
