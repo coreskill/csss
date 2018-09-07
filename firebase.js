@@ -9,7 +9,7 @@ let config = {
 firebase.initializeApp(config);
 firebase.firestore().settings({timestampsInSnapshots: true});
 
-let removeFirebaseListener;
+let removeFirebaseListener = () => {};
 function addFirebaseListener(uid) {
   return new Promise((resolve, reject) => {
     removeFirebaseListener = firebase.firestore()
@@ -17,7 +17,7 @@ function addFirebaseListener(uid) {
     .collection("users").doc(uid)
     .onSnapshot(snapshot => {
       resolve();
-      setStateOfAllIndicators(snapshot.data());
+      setStateOfAllIndicators(snapshot.data() || {});
     }, error => {
       console.error(error);
       reject(error);
@@ -39,7 +39,7 @@ function addIndicatorButtonListener(uid) {
       let isDone = indicatorButton.classList.contains("is-done");
       firebase.firestore().collection("db").doc("v1")
         .collection("users").doc(uid)
-        .update(indicatorButton.dataset.slug, !isDone)
+        .set({[indicatorButton.dataset.slug]: !isDone}, {merge: true})
         .catch(error => console.error(error));
     };
     indicatorButton.addEventListener("click", indicatorButtonListener, false);
