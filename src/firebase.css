@@ -1,0 +1,7 @@
+.indicator, .done, .indicator.is-done .not-done, .logged-in .login, .logout {
+  display: none;
+}
+
+.logged-in .indicator, .indicator.is-done .done, .logged-in .logout {
+  display: initial;
+}

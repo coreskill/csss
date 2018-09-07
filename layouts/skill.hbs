@@ -5,15 +5,32 @@
       <meta charset="utf-8">
       <title>{{name}} « CoreSkill Skill System (CSSS)</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="firebase.css">
+      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
     </head>
     <body>
+      <header class="navbar navbar-dark bg-primary">
+        <span class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</span>
+        <form class="form-inline">
+          <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
+          <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
+        </form>
+      </header>
       <main class="p-4">
-        <h1>
-          <a href="index.html">CSSS</a> »
-          {{#each categories}}
-            <a href="{{slug}}.html">{{name}}</a> »
-          {{/each}}
-          {{name}}
+        <h1 class="d-flex justify-content-between">
+          <span>
+            <a href="index.html">CSSS</a> »
+            {{#each categories}}
+              <a href="{{slug}}.html">{{name}}</a> »
+            {{/each}}
+            {{name}}
+          </span>
+          <button type="button" class="btn btn-primary indicator indicator-button" data-slug="{{slug}}">
+            <span class="done">✔️</span>
+            <span class="not-done">❌</span>
+          </button>
         </h1>
         <p><a href="graph.html#{{slug}}">Show in dependency graph</a></p>
 
@@ -63,6 +80,7 @@
           </div>
         {{/if}}
       </main>
+      <script src="firebase.js"></script>
     </body>
   </html>
 {{/with}}
