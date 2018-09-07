@@ -4,14 +4,31 @@
       <meta charset="utf-8">
       <title>&lt;title&gt; « CoreSkill Skill System (CSSS)</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="firebase.css">
+      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
     </head>
     <body>
+      <header class="navbar navbar-dark bg-primary">
+        <span class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</span>
+        <form class="form-inline">
+          <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
+          <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
+        </form>
+      </header>
       <main class="p-4">
-        <h1>
-          <a href="index.html">CSSS</a> »
-            <a href="html.html">HTML</a> »
-            <a href="head.html">Head</a> »
-          &lt;title&gt;
+        <h1 class="d-flex justify-content-between">
+          <span>
+            <a href="index.html">CSSS</a> »
+              <a href="html.html">HTML</a> »
+              <a href="head.html">Head</a> »
+            &lt;title&gt;
+          </span>
+          <button type="button" class="btn btn-primary indicator indicator-button" data-slug="title">
+            <span class="done">✔️</span>
+            <span class="not-done">❌</span>
+          </button>
         </h1>
         <p><a href="graph.html#title">Show in dependency graph</a></p>
 
@@ -19,6 +36,10 @@
           <div class="list-group">
               <a href="doctype-html-head-body.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
                 <span>
+                  <span class="indicator" data-slug="doctype-html-head-body">
+                    <span class="done">✔️</span>
+                    <span class="not-done">❌</span>
+                  </span>
                     <span class="text-muted">
                       HTML » Basic structure » 
                     </span>
@@ -44,6 +65,10 @@
           <div class="list-group">
               <a href="aria-roles-overview.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
                 <span>
+                  <span class="indicator" data-slug="aria-roles-overview">
+                    <span class="done">✔️</span>
+                    <span class="not-done">❌</span>
+                  </span>
                     <span class="text-muted">
                       HTML » Accessibility » 
                     </span>
@@ -54,6 +79,10 @@
                   </span>
               </a>              <a href="p.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
                 <span>
+                  <span class="indicator" data-slug="p">
+                    <span class="done">✔️</span>
+                    <span class="not-done">❌</span>
+                  </span>
                     <span class="text-muted">
                       HTML » Body » 
                     </span>
@@ -64,6 +93,10 @@
                   </span>
               </a>              <a href="a-paths-for-href.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
                 <span>
+                  <span class="indicator" data-slug="a-paths-for-href">
+                    <span class="done">✔️</span>
+                    <span class="not-done">❌</span>
+                  </span>
                     <span class="text-muted">
                       HTML » Body » 
                     </span>
@@ -74,6 +107,10 @@
                   </span>
               </a>              <a href="h1-to-h6.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
                 <span>
+                  <span class="indicator" data-slug="h1-to-h6">
+                    <span class="done">✔️</span>
+                    <span class="not-done">❌</span>
+                  </span>
                     <span class="text-muted">
                       HTML » Body » 
                     </span>
@@ -84,6 +121,10 @@
                   </span>
               </a>              <a href="div-span.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
                 <span>
+                  <span class="indicator" data-slug="div-span">
+                    <span class="done">✔️</span>
+                    <span class="not-done">❌</span>
+                  </span>
                     <span class="text-muted">
                       HTML » Body » 
                     </span>
@@ -94,6 +135,10 @@
                   </span>
               </a>              <a href="img-src-width-height-alt.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
                 <span>
+                  <span class="indicator" data-slug="img-src-width-height-alt">
+                    <span class="done">✔️</span>
+                    <span class="not-done">❌</span>
+                  </span>
                     <span class="text-muted">
                       HTML » Body » 
                     </span>
@@ -104,6 +149,10 @@
                   </span>
               </a>              <a href="iframe.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
                 <span>
+                  <span class="indicator" data-slug="iframe">
+                    <span class="done">✔️</span>
+                    <span class="not-done">❌</span>
+                  </span>
                     <span class="text-muted">
                       HTML » Body » 
                     </span>
@@ -114,6 +163,10 @@
                   </span>
               </a>              <a href="noscript.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
                 <span>
+                  <span class="indicator" data-slug="noscript">
+                    <span class="done">✔️</span>
+                    <span class="not-done">❌</span>
+                  </span>
                     <span class="text-muted">
                       HTML » Body » 
                     </span>
@@ -124,6 +177,10 @@
                   </span>
               </a>              <a href="link.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
                 <span>
+                  <span class="indicator" data-slug="link">
+                    <span class="done">✔️</span>
+                    <span class="not-done">❌</span>
+                  </span>
                   &lt;link&gt;
                 </span>
                   <span>
@@ -131,6 +188,10 @@
                   </span>
               </a>              <a href="meta-description.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
                 <span>
+                  <span class="indicator" data-slug="meta-description">
+                    <span class="done">✔️</span>
+                    <span class="not-done">❌</span>
+                  </span>
                   &lt;meta description&gt;
                 </span>
                   <span>
@@ -138,6 +199,10 @@
                   </span>
               </a>              <a href="microdata-httpschemaorg.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
                 <span>
+                  <span class="indicator" data-slug="microdata-httpschemaorg">
+                    <span class="done">✔️</span>
+                    <span class="not-done">❌</span>
+                  </span>
                     <span class="text-muted">
                       HTML » Other » 
                     </span>
@@ -149,5 +214,6 @@
               </a>          </div>
 
       </main>
+      <script src="firebase.js"></script>
     </body>
   </html>
