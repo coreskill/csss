@@ -29,12 +29,7 @@ requires:
   - Basic structure // <!doctype>, <html>, <head>, <body>
 
 resources:
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h2
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h3
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h4
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h5
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h6
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
 
 ---
 
