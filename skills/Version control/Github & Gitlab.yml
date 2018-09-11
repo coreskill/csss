@@ -1,6 +1,6 @@
 ---
 
-skill: Set up account
+skill: Set up an account
 level: 1
 
 resources:
@@ -8,11 +8,11 @@ resources:
 
 ---
 
-skill: Set up repository
+skill: Set up a repository
 level: 2
 
 requires:
-  - Set up account
+  - Set up an account
 
 resources:
   - https://guides.github.com/activities/hello-world/
@@ -23,7 +23,7 @@ skill: Merge (Pull) Request
 level: 3
 
 requires:
-  - Set up repository
+  - Set up a repository
   - Git // clone
   - Git // branch add
   - Git // commit
@@ -32,3 +32,15 @@ requires:
 
 resources:
   - https://guides.github.com/introduction/flow/
+
+---
+
+skill: Gist
+level: extra
+
+requires:
+  - Set up an account
+
+resources:
+  - https://gist.github.com/
+  - https://help.github.com/articles/about-gists/
