@@ -34,6 +34,86 @@
     <script>
       let nodes = [
   {
+    "id": "basic-commands-and-principles",
+    "label": "Basic commands & principles",
+    "group": "cli"
+  },
+  {
+    "id": "install-and-configure",
+    "label": "install & configure",
+    "group": "cli"
+  },
+  {
+    "id": "copy-and-paste-in-cli",
+    "label": "copy and paste in CLI",
+    "group": "cli"
+  },
+  {
+    "id": "completion",
+    "label": "completion",
+    "group": "cli"
+  },
+  {
+    "id": "history-up-and-down-arrows-to-repeat",
+    "label": "history (up & down arrows to repeat)",
+    "group": "cli"
+  },
+  {
+    "id": "piping",
+    "label": "piping",
+    "group": "cli"
+  },
+  {
+    "id": "aliases",
+    "label": "aliases",
+    "group": "cli"
+  },
+  {
+    "id": "files-and-folders",
+    "label": "Files and folders",
+    "group": "files"
+  },
+  {
+    "id": "text-vs-binary-files",
+    "label": "text vs. binary files",
+    "group": "files"
+  },
+  {
+    "id": "special-characters",
+    "label": "special characters",
+    "group": "files"
+  },
+  {
+    "id": "line-endings-crlf-vs-lf",
+    "label": "line endings (CRLF vs. LF)",
+    "group": "files"
+  },
+  {
+    "id": "soft-vs-hard-line-wrapping",
+    "label": "soft vs. hard line wrapping",
+    "group": "files"
+  },
+  {
+    "id": "encodings",
+    "label": "encodings",
+    "group": "files"
+  },
+  {
+    "id": "w3c-vs-w3schools-vs-references",
+    "label": "W3C vs. W3Schools vs. references",
+    "group": "information-sources"
+  },
+  {
+    "id": "caniusecom",
+    "label": "caniuse.com",
+    "group": "information-sources"
+  },
+  {
+    "id": "advanced-searching-for-information",
+    "label": "advanced searching for information",
+    "group": "information-sources"
+  },
+  {
     "id": "aria-roles-overview",
     "label": "ARIA roles overview",
     "group": "accessibility"
@@ -434,22 +514,87 @@
     "group": "git"
   },
   {
-    "id": "set-up-account",
-    "label": "Set up account",
+    "id": "set-up-an-account",
+    "label": "Set up an account",
     "group": "github-and-gitlab"
   },
   {
-    "id": "set-up-repository",
-    "label": "Set up repository",
+    "id": "set-up-a-repository",
+    "label": "Set up a repository",
     "group": "github-and-gitlab"
   },
   {
     "id": "merge-pull-request",
     "label": "Merge (Pull) Request",
     "group": "github-and-gitlab"
+  },
+  {
+    "id": "gist",
+    "label": "Gist",
+    "group": "github-and-gitlab"
   }
 ];
       let edges = [
+  {
+    "from": "files-and-folders",
+    "to": "basic-commands-and-principles",
+    "arrows": "to"
+  },
+  {
+    "from": "files-and-folders",
+    "to": "install-and-configure",
+    "arrows": "to"
+  },
+  {
+    "from": "basic-commands-and-principles",
+    "to": "copy-and-paste-in-cli",
+    "arrows": "to"
+  },
+  {
+    "from": "basic-commands-and-principles",
+    "to": "completion",
+    "arrows": "to"
+  },
+  {
+    "from": "basic-commands-and-principles",
+    "to": "history-up-and-down-arrows-to-repeat",
+    "arrows": "to"
+  },
+  {
+    "from": "basic-commands-and-principles",
+    "to": "piping",
+    "arrows": "to"
+  },
+  {
+    "from": "basic-commands-and-principles",
+    "to": "aliases",
+    "arrows": "to"
+  },
+  {
+    "from": "files-and-folders",
+    "to": "text-vs-binary-files",
+    "arrows": "to"
+  },
+  {
+    "from": "text-vs-binary-files",
+    "to": "special-characters",
+    "arrows": "to"
+  },
+  {
+    "from": "special-characters",
+    "to": "line-endings-crlf-vs-lf",
+    "arrows": "to"
+  },
+  {
+    "from": "line-endings-crlf-vs-lf",
+    "to": "soft-vs-hard-line-wrapping",
+    "arrows": "to"
+  },
+  {
+    "from": "text-vs-binary-files",
+    "to": "encodings",
+    "arrows": "to"
+  },
   {
     "from": "doctype-html-head-body",
     "to": "aria-roles-overview",
@@ -971,12 +1116,12 @@
     "arrows": "to"
   },
   {
-    "from": "set-up-account",
-    "to": "set-up-repository",
+    "from": "set-up-an-account",
+    "to": "set-up-a-repository",
     "arrows": "to"
   },
   {
-    "from": "set-up-repository",
+    "from": "set-up-a-repository",
     "to": "merge-pull-request",
     "arrows": "to"
   },
@@ -1003,6 +1148,11 @@
   {
     "from": "merge",
     "to": "merge-pull-request",
+    "arrows": "to"
+  },
+  {
+    "from": "set-up-an-account",
+    "to": "gist",
     "arrows": "to"
   }
 ];
