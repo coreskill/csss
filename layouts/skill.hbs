@@ -43,10 +43,11 @@
           </div>
         {{/if}}
 
-        {{!-- <h2 class="mt-5 text-info">What does CoreSkill say about this?</h2>
-        <div class="alert alert-secondary">
-          <p>Lorem ipsum about what Git: status is…</p>
-        </div> --}}
+        {{#if text}}
+          <div class="alert alert-secondary p-3">
+            <p class="m-0">{{text}}</p>
+          </div>
+        {{/if}}
 
         {{#if resources.length}}
           <h2 class="mt-5">Resources</h2>
