@@ -8,4 +8,6 @@ requires:
 
 resources:
   - url: https://www.vzhurudolu.cz/prirucka/html5-struktura
+    lang: cs
   - url: https://www.vzhurudolu.cz/prirucka/wai-aria
+    lang: cs
