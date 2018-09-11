@@ -18,19 +18,24 @@
         </form>
       </header>
       <main class="p-4">
-        <h1 class="d-flex justify-content-between">
-          <span>
-            <a href="index.html">CSSS</a> »
-              <a href="version-control.html">Version control</a> »
-              <a href="git.html">Git</a> »
-            config
-          </span>
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
+                <li class="breadcrumb-item"><a href="version-control.html">Version control</a></li>
+                <li class="breadcrumb-item"><a href="git.html">Git</a></li>
+              <li class="breadcrumb-item active" aria-current="page">config</li>
+          </ol>
+        </nav>
+
+        <h1>
           <button type="button" class="btn btn-primary indicator indicator-button" data-slug="config">
             <span class="done">✔️</span>
             <span class="not-done">❌</span>
           </button>
+          config
         </h1>
-        <p><a href="graph.html#config">Show in dependency graph</a></p>
+        <p><small><a href="graph.html#config">Show in dependency graph</a></small></p>
 
           <h2 class="mt-5">Skills required before this skill</h2>
           <div class="list-group">
