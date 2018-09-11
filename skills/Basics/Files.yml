@@ -1,0 +1,38 @@
+---
+
+skill: Files and folders
+
+---
+
+skill: text vs. binary files
+
+requires:
+  - Files and folders
+
+---
+
+skill: special characters
+
+requires:
+  - text vs. binary files
+
+---
+
+skill: line endings (CRLF vs. LF)
+
+requires:
+  - special characters
+
+---
+
+skill: soft vs. hard line wrapping
+
+requires:
+  - line endings (CRLF vs. LF)
+
+---
+
+skill: encodings
+
+requires:
+  - text vs. binary files

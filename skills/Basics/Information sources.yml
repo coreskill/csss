@@ -1,0 +1,23 @@
+---
+
+skill: W3C vs. W3Schools vs. references
+
+resources:
+  - https://www.w3.org
+  - https://w3schools.com
+  - https://mdn.io
+  - https://htmlreference.io
+  - https://cssreference.io
+
+---
+
+skill: caniuse.com
+
+resources:
+  - https://caniuse.com
+
+---
+
+skill: advanced searching for information
+
+text: how and why, time limited search, exclusion, exact search, filetype, domain

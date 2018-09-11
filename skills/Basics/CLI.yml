@@ -1,0 +1,51 @@
+---
+
+skill: Basic commands & principles
+
+requires:
+  - Files // Files and folders
+
+---
+
+skill: install & configure
+
+requires:
+  - Files // Files and folders
+
+---
+
+skill: copy and paste in CLI
+
+requires:
+  - Basic commands & principles
+
+---
+
+skill: completion
+
+requires:
+  - Basic commands & principles
+
+---
+
+skill: history (up & down arrows to repeat)
+
+requires:
+  - Basic commands & principles
+
+---
+
+skill: piping
+level: 3
+
+requires:
+  - Basic commands & principles
+
+
+---
+
+skill: aliases
+level: 5
+
+requires:
+  - Basic commands & principles
