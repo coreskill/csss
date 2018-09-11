@@ -8,7 +8,7 @@ requires:
   - Basic structure // <!doctype>, <html>, <head>, <body>
 
 resources:
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title
 
 ---
 
@@ -19,7 +19,7 @@ requires:
   - Basic structure // <!doctype>, <html>, <head>, <body>
 
 resources:
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link
 
 ---
 
@@ -30,8 +30,8 @@ requires:
   - Basic structure // <!doctype>, <html>, <head>, <body>
 
 resources:
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
-  - https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Adding_an_author_and_description
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+  - url: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Adding_an_author_and_description
 
 ---
 
@@ -42,5 +42,5 @@ requires:
   - <link>
 
 resources:
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link
-  - https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Adding_custom_icons_to_your_site
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link
+  - url: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Adding_custom_icons_to_your_site

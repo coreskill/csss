@@ -4,7 +4,7 @@ skill: Set up an account
 level: 1
 
 resources:
-  - https://github.com/join
+  - url: https://github.com/join
 
 ---
 
@@ -15,7 +15,7 @@ requires:
   - Set up an account
 
 resources:
-  - https://guides.github.com/activities/hello-world/
+  - url: https://guides.github.com/activities/hello-world/
 
 ---
 
@@ -31,7 +31,7 @@ requires:
   - Git // merge
 
 resources:
-  - https://guides.github.com/introduction/flow/
+  - url: https://guides.github.com/introduction/flow/
 
 ---
 
@@ -42,5 +42,5 @@ requires:
   - Set up an account
 
 resources:
-  - https://gist.github.com/
-  - https://help.github.com/articles/about-gists/
+  - url: https://gist.github.com/
+  - url: https://help.github.com/articles/about-gists/

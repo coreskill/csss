@@ -53,11 +53,11 @@
           <h2 class="mt-5">Resources</h2>
           <div class="list-group">
             {{#each resources}}
-              <a href="{{this}}" class="list-group-item list-group-item-action flex-column align-items-start">
+              <a href="{{this.url}}" class="list-group-item list-group-item-action flex-column align-items-start">
                 <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1">{{this}}</h5>
+                  <h5 class="mb-1">{{this.url}}</h5>
                 </div>
-                {{!-- <p class="mb-1">a comment about this resource</p> --}}
+                <p class="mb-1">{{this.desc}}</p>
               </a>
             {{/each}}
           </div>

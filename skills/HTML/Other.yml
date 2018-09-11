@@ -7,4 +7,4 @@ requires:
   - Basic structure // <!doctype>, <html>, <head>, <body>
 
 resources:
-  - https://www.vzhurudolu.cz/prirucka/rich-snippets
+  - url: https://www.vzhurudolu.cz/prirucka/rich-snippets

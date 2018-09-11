@@ -5,7 +5,7 @@ level: 1
 sublevel: 1
 
 resources:
-  - https://developer.mozilla.org/en-US/docs/Glossary/Doctype
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head
-  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body
+  - url: https://developer.mozilla.org/en-US/docs/Glossary/Doctype
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body

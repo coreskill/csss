@@ -3,18 +3,23 @@
 skill: W3C vs. W3Schools vs. references
 
 resources:
-  - https://www.w3.org
-  - https://w3schools.com
-  - https://mdn.io
-  - https://htmlreference.io
-  - https://cssreference.io
+  - url: https://w3.org
+    desc: Organisation developing web standards.
+  - url: https://w3schools.com
+    desc: Do not use. Contains errors and bad practices.
+  - url: https://mdn.io
+    desc: Best reference. Very complete. HTML, CSS, JavaScript, SVG, …
+  - url: https://htmlreference.io
+    desc: Good HTML reference for beginners but not complete.
+  - url: https://cssreference.io
+    desc: Good CSS reference for beginners but not complete.
 
 ---
 
 skill: caniuse.com
 
 resources:
-  - https://caniuse.com
+  - url: https://caniuse.com
 
 ---
 
