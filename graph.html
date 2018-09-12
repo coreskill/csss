@@ -34,13 +34,33 @@
     <script>
       let nodes = [
   {
-    "id": "basic-commands-and-principles",
-    "label": "Basic commands & principles",
+    "id": "overview",
+    "label": "Overview",
     "group": "cli"
   },
   {
-    "id": "install-and-configure",
-    "label": "install & configure",
+    "id": "install",
+    "label": "install",
+    "group": "cli"
+  },
+  {
+    "id": "navigating-the-file-system",
+    "label": "Navigating the file system",
+    "group": "cli"
+  },
+  {
+    "id": "viewing-and-changing-the-file-system",
+    "label": "Viewing and changing the file system",
+    "group": "cli"
+  },
+  {
+    "id": "redirecting-input-and-output",
+    "label": "Redirecting input and output",
+    "group": "cli"
+  },
+  {
+    "id": "configuring-the-environment",
+    "label": "Configuring the Environment",
     "group": "cli"
   },
   {
@@ -56,16 +76,6 @@
   {
     "id": "history-up-and-down-arrows-to-repeat",
     "label": "history (up & down arrows to repeat)",
-    "group": "cli"
-  },
-  {
-    "id": "piping",
-    "label": "piping",
-    "group": "cli"
-  },
-  {
-    "id": "aliases",
-    "label": "aliases",
     "group": "cli"
   },
   {
@@ -537,37 +547,47 @@
       let edges = [
   {
     "from": "files-and-folders",
-    "to": "basic-commands-and-principles",
+    "to": "install",
+    "arrows": "to"
+  },
+  {
+    "from": "overview",
+    "to": "navigating-the-file-system",
     "arrows": "to"
   },
   {
     "from": "files-and-folders",
-    "to": "install-and-configure",
+    "to": "navigating-the-file-system",
     "arrows": "to"
   },
   {
-    "from": "basic-commands-and-principles",
+    "from": "navigating-the-file-system",
+    "to": "viewing-and-changing-the-file-system",
+    "arrows": "to"
+  },
+  {
+    "from": "viewing-and-changing-the-file-system",
+    "to": "redirecting-input-and-output",
+    "arrows": "to"
+  },
+  {
+    "from": "overview",
+    "to": "configuring-the-environment",
+    "arrows": "to"
+  },
+  {
+    "from": "overview",
     "to": "copy-and-paste-in-cli",
     "arrows": "to"
   },
   {
-    "from": "basic-commands-and-principles",
+    "from": "overview",
     "to": "completion",
     "arrows": "to"
   },
   {
-    "from": "basic-commands-and-principles",
+    "from": "overview",
     "to": "history-up-and-down-arrows-to-repeat",
-    "arrows": "to"
-  },
-  {
-    "from": "basic-commands-and-principles",
-    "to": "piping",
-    "arrows": "to"
-  },
-  {
-    "from": "basic-commands-and-principles",
-    "to": "aliases",
     "arrows": "to"
   },
   {
