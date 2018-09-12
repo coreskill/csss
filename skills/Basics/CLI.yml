@@ -7,7 +7,7 @@ resources:
 
 ---
 
-skill: install
+skill: Install
 
 requires:
   - Files // Files and folders

@@ -39,3 +39,10 @@ skill: encodings
 
 requires:
   - text vs. binary files
+
+---
+
+skill: hidden
+
+requires:
+  - Files and folders
