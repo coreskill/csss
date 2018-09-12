@@ -11,6 +11,7 @@ export interface CNode {
   slug: string;
   parent: Category | CRoot;
   children?: CNode[];
+  categories: Category[];
 }
 
 export interface CRoot {
@@ -33,7 +34,6 @@ export interface Skill extends CNode {
   requires: Skill[];
   requiredBy: Skill[];
   sameLevelSkills: Skill[];
-  categories: Category[];
 }
 
 const loadSkills = () => new Promise<Skill[]>((resolve, reject) => {
@@ -80,6 +80,7 @@ export default async () => {
           slug: slug(stringCategory).toLowerCase(),
           parent: node,
           children: [],
+          categories: [],
         };
         node.children.push(newCategory);
         categories.push(newCategory);
@@ -144,6 +145,13 @@ export default async () => {
     skill.categories = [];
     for (let parent: Category = skill.parent; parent.parent !== undefined; parent = parent.parent as Category) {
       skill.categories.unshift(parent);
+    }
+  });
+
+  // And flatten parent categories of a category
+  categories.forEach(category => {
+    for (let parent = category.parent as Category; parent.parent !== undefined; parent = parent.parent as Category) {
+      category.categories.unshift(parent);
     }
   });
 
