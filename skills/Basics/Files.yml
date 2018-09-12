@@ -2,6 +2,9 @@
 
 skill: Files and folders
 
+resources:
+  - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/navigation/exercises/filesystem
+
 ---
 
 skill: text vs. binary files

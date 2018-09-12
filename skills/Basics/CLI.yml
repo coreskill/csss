@@ -1,51 +1,108 @@
 ---
 
-skill: Basic commands & principles
+skill: Overview
 
-requires:
-  - Files // Files and folders
+resources:
+  - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/navigation/exercises/your-first-command
 
 ---
 
-skill: install & configure
+skill: install
 
 requires:
   - Files // Files and folders
+
+resources:
+  - url: http://cmder.net
+    desc: For Windows download and unpack “Full version”
+
+---
+
+skill: Navigating the file system
+
+requires:
+  - Overview
+  - Files // Files and folders
+
+resources:
+  - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/navigation/
+
+text: |
+  ls,
+  pwd,
+  cd,
+  mkdir,
+  touch
+
+---
+
+skill: Viewing and changing the file system
+
+requires:
+  - Navigating the file system
+
+resources:
+  - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/manipulation/
+
+text: |
+  ls -a,
+  ls -l,
+  ls -alt,
+  cp,
+  Wildcards,
+  mv,
+  rm
+
+---
+
+skill: Redirecting input and output
+
+requires:
+  - Viewing and changing the file system
+
+resources:
+  - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/redirection/
+
+text: |
+  stdin, stdout, and stderr,
+  Redirection,
+  >,
+  >>,
+  <,
+  |,
+  sort,
+  uniq,
+  grep,
+  sed
+
+---
+
+skill: Configuring the Environment
+level: 5
+
+requires:
+  - Overview
+
+resources:
+  - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/environment/
 
 ---
 
 skill: copy and paste in CLI
 
 requires:
-  - Basic commands & principles
+  - Overview
 
 ---
 
 skill: completion
 
 requires:
-  - Basic commands & principles
+  - Overview
 
 ---
 
 skill: history (up & down arrows to repeat)
 
 requires:
-  - Basic commands & principles
-
----
-
-skill: piping
-level: 3
-
-requires:
-  - Basic commands & principles
-
-
----
-
-skill: aliases
-level: 5
-
-requires:
-  - Basic commands & principles
+  - Overview
