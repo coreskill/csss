@@ -36,6 +36,15 @@ export interface Skill extends CNode {
   sameLevelSkills: Skill[];
 }
 
+const slugs = new Set();
+const getSlug = (input: string) => {
+  let slugFromInput = slug(input).toLowerCase();
+  let finalSlug = slugFromInput;
+  for (let i = 1; slugs.has(finalSlug); i++) finalSlug = slugFromInput + i.toString(36);
+  slugs.add(finalSlug);
+  return finalSlug;
+}
+
 const loadSkills = () => new Promise<Skill[]>((resolve, reject) => {
   let contents: string[] = [];
   dir.readFiles('./skills', (err, content, next) => {
@@ -50,7 +59,7 @@ const loadSkills = () => new Promise<Skill[]>((resolve, reject) => {
       content.forEach((skill) => {
         skill.name = skill.skill;
         skill.skill = true;
-        skill.slug = slug(skill.name).toLowerCase();
+        skill.slug = getSlug(skill.name);
         skill.stringCategories = categories;
         skill.stringRequires = (skill.requires || []).map((r: string) => r.split(' // '));
         delete skill.requires;
@@ -77,7 +86,7 @@ export default async () => {
       } else {
         let newCategory: Category = {
           name: stringCategory,
-          slug: slug(stringCategory).toLowerCase(),
+          slug: getSlug(stringCategory),
           parent: node,
           children: [],
           categories: [],
