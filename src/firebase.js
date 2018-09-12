@@ -25,42 +25,43 @@ function addFirebaseListener(uid) {
   });
 }
 
+let indicators = document.querySelectorAll(".indicator");
 function setStateOfAllIndicators(data) {
-  document.querySelectorAll(".indicator").forEach(indicator => {
+  indicators.forEach(indicator => {
     indicator.classList.toggle("is-done", Boolean(data[indicator.dataset.slug]));
   });
 }
 
-let indicatorButton = document.querySelector(".indicator-button");
-let indicatorButtonListener;
-function addIndicatorButtonListener(uid) {
-  if (indicatorButton) {
-    indicatorButtonListener = () => {
-      let isDone = indicatorButton.classList.contains("is-done");
-      firebase.firestore().collection("db").doc("v1")
-        .collection("users").doc(uid)
-        .set({[indicatorButton.dataset.slug]: !isDone}, {merge: true})
-        .catch(error => console.error(error));
-    };
-    indicatorButton.addEventListener("click", indicatorButtonListener, false);
-  }
+let indicatorListener;
+function addIndicatorListener(uid) {
+  indicatorListener = function(event) {
+    let isDone = this.classList.contains("is-done");
+    firebase.firestore().collection("db").doc("v1")
+      .collection("users").doc(uid)
+      .set({[this.dataset.slug]: !isDone}, {merge: true})
+      .catch(error => console.error(error));
+    event.preventDefault();
+  };
+  indicators.forEach(indicator => {
+    indicator.addEventListener("click", indicatorListener, false);
+  });
 }
-function removeIndicatorButtonListener() {
-  if (indicatorButton) {
-    indicatorButton.removeEventListener("change", indicatorButtonListener);
-  }
+function removeIndicatorListener() {
+  indicators.forEach(indicator => {
+    indicator.removeEventListener("click", indicatorListener);
+  });
 }
 
 firebase.auth().onAuthStateChanged(user => {
   if (user) {
     addFirebaseListener(user.uid)
       .then(() => {
-        addIndicatorButtonListener(user.uid);
+        addIndicatorListener(user.uid);
         document.body.classList.add("logged-in");
       });
   } else {
     document.body.classList.remove("logged-in");
-    removeIndicatorButtonListener();
+    removeIndicatorListener();
     removeFirebaseListener();
   }
 });
