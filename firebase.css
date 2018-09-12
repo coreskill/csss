@@ -5,3 +5,7 @@
 .logged-in .indicator, .indicator.is-done .done, .logged-in .logout {
   display: initial;
 }
+
+.indicator {
+  cursor: pointer;
+}
