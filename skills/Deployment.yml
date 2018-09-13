@@ -1,0 +1,24 @@
+---
+
+skill: Overview
+
+---
+
+skill: surge.sh
+
+requires:
+  - Overview
+
+---
+
+skill: FTP
+
+requires:
+  - Overview
+
+---
+
+skill: GitHub Pages
+
+requires:
+  - Overview
