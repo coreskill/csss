@@ -1,0 +1,25 @@
+---
+
+skill: Need for testing
+
+---
+
+skill: Principles and manual testing
+
+requires: 
+  - Need for testing
+    
+---
+
+skill: Browserstack
+    
+---
+
+skill: Bug reporting
+
+---
+
+skill: Automated testing
+
+requires: 
+  - Principles and manual testing
