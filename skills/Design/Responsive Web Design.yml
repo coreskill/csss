@@ -5,6 +5,8 @@ skill: Overview
 resources:
   - url: https://alistapart.com/article/responsive-web-design
     desc: The article that started it all.
+  - url: https://www.codecademy.com/learn/learn-responsive-design
+    desc: Interactive course at Codecademy.
 
 ---
 
