@@ -1,0 +1,91 @@
+---
+
+skill: BMP
+
+text: an example of uncompressed basic bitmap format
+
+---
+
+skill: GIF
+
+requires:
+  - BMP
+
+text: |
+  Palettes,
+  etc.
+
+---
+
+skill: GIF (animated)
+
+requires:
+  - GIF
+
+---
+
+skill: PNG
+
+requires:
+  - BMP
+  - GIF
+  
+---
+
+skill: JPG
+
+requires:
+  - BMP
+
+---
+
+skill: loosless vs. lossy compression
+
+requires:
+  - GIF
+  - PNG
+  - JPG
+
+---
+
+skill: bitmap vs. vector
+
+requires:
+  - BMP
+
+---
+
+skill: WebP
+  
+requires:
+  - GIF
+  - PNG
+  - JPG
+
+---
+
+skill: SVG overview
+  
+requires:
+  - bitmap vs. vector
+
+---
+
+skill: Other formats
+
+requires:
+  - GIF
+  - PNG
+  - JPG
+  - WebP
+
+text: (do not use)
+
+---
+
+skill: Favicons
+
+requires:
+  - BMP
+  - PNG
+  - SVG overview
