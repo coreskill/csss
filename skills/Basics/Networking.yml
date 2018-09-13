@@ -1,0 +1,57 @@
+#todo: connect skills
+---
+
+skill: DNS
+
+text: simplifed
+
+---
+
+skill: File transfer via http
+
+text: response, request, headers
+
+resources:
+  - url: https://marksheet.io/web.html#opening-a-webpage-in-your-browser
+
+---
+
+skill: Client and Server
+
+resources:
+  - url: https://marksheet.io/internet.html#client-and-server
+
+---
+
+skill: IP Address
+
+resources:
+  - url: https://marksheet.io/internet.html#ip-address
+
+---
+
+skill: Domains
+
+resources:
+  - url: https://marksheet.io/internet.html#domains
+
+---
+
+skill: Protocols
+
+resources:
+  - url: https://marksheet.io/internet.html#protocols
+
+---
+
+skill: URL
+
+resources:
+  - url: https://marksheet.io/internet.html#url
+
+---
+
+skill: Web browser
+
+resources:
+  - url: https://marksheet.io/browser.html
