@@ -48,26 +48,12 @@ requires:
 
 ---
 
-skill: bitmap vs. vector
-
-requires:
-  - BMP
-
----
-
 skill: WebP
   
 requires:
   - GIF
   - PNG
   - JPG
-
----
-
-skill: SVG overview
-  
-requires:
-  - bitmap vs. vector
 
 ---
 
@@ -88,4 +74,38 @@ skill: Favicons
 requires:
   - BMP
   - PNG
-  - SVG overview
+
+---
+
+skill: Bitmaps size optimization
+
+requires:
+  - BMP
+
+---
+
+skill: GIF size optimization
+
+requires:
+  - GIF
+
+---
+
+skill: PNG size optimization
+
+requires:
+  - PNG
+
+---
+
+skill: JPG size optimization
+
+requires:
+  - JPG
+
+---
+
+skill: Bitmap image resizing
+
+requires:
+  - BMP

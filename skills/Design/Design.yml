@@ -1,0 +1,76 @@
+---
+
+skill: Visual Design
+
+resources: 
+  - url: https://ebooks.webflow.com/chapter/essential-visual-design-principles-for-web-designers
+  - url: https://ebooks.webflow.com/chapter/how-element-spacing-works
+  - url: https://www.usability.gov/what-and-why/visual-design.html
+
+---
+
+skill: Color Theory
+
+resources: 
+  - url: https://ebooks.webflow.com/chapter/web-design-101-color-theory
+  - url: https://www.codecademy.com/courses/learn-color-design/lessons/learn-color-theory/exercises/intro
+
+requires:
+  - Visual Design
+  
+---
+
+skill: Usability
+
+resources: 
+  - url: https://ebooks.webflow.com/chapter/9-essential-ui-design-tips
+
+requires:
+  - Visual Design
+  
+---
+
+skill: Typography
+
+requires:
+  - Visual Design
+  
+resources: 
+  - url: https://ebooks.webflow.com/chapter/web-typography-101
+  - url: https://iamsteve.me/blog/entry/type-scale-line-height-lengths
+
+---
+
+skill: Content
+
+requires:
+  - Visual Design
+  
+resources: 
+  - url: https://ebooks.webflow.com/chapter/why-your-design-process-should-start-with-content
+
+---
+
+skill: Corporate Identity
+
+requires:
+  - Visual Design
+  - Typography
+
+---
+
+skill: Scales
+
+requires:
+  - Visual Design
+
+---
+
+skill: Animation
+
+resources: 
+  - url: https://en.wikipedia.org/wiki/12_basic_principles_of_animation
+  - url: https://ebooks.webflow.com/chapter/how-to-design-interactions-effectively
+
+requires:
+  - Visual Design
