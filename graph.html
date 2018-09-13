@@ -187,6 +187,31 @@
     "group": "image-formats"
   },
   {
+    "id": "need-for-testing",
+    "label": "Need for testing",
+    "group": "testing"
+  },
+  {
+    "id": "principles-and-manual-testing",
+    "label": "Principles and manual testing",
+    "group": "testing"
+  },
+  {
+    "id": "browserstack",
+    "label": "Browserstack",
+    "group": "testing"
+  },
+  {
+    "id": "bug-reporting",
+    "label": "Bug reporting",
+    "group": "testing"
+  },
+  {
+    "id": "automated-testing",
+    "label": "Automated testing",
+    "group": "testing"
+  },
+  {
     "id": "aria-roles-overview",
     "label": "ARIA roles overview",
     "group": "accessibility"
@@ -465,6 +490,56 @@
     "id": "microdata-httpschemaorg",
     "label": "Microdata (http://schema.org)",
     "group": "other"
+  },
+  {
+    "id": "why",
+    "label": "Why",
+    "group": "speed-optimization"
+  },
+  {
+    "id": "percieved-vs-real-speed",
+    "label": "Percieved vs. real speed",
+    "group": "speed-optimization"
+  },
+  {
+    "id": "internet-connection-speeds",
+    "label": "Internet connection speeds",
+    "group": "speed-optimization"
+  },
+  {
+    "id": "http-file-transfer",
+    "label": "HTTP file transfer",
+    "group": "speed-optimization"
+  },
+  {
+    "id": "strategies",
+    "label": "Strategies",
+    "group": "speed-optimization"
+  },
+  {
+    "id": "optimizing-css",
+    "label": "Optimizing CSS",
+    "group": "speed-optimization"
+  },
+  {
+    "id": "optimizing-javascript",
+    "label": "Optimizing JavaScript",
+    "group": "speed-optimization"
+  },
+  {
+    "id": "optimizing-svg",
+    "label": "Optimizing SVG",
+    "group": "speed-optimization"
+  },
+  {
+    "id": "blocking-and-non-blocking-assets",
+    "label": "Blocking and non-blocking assets",
+    "group": "speed-optimization"
+  },
+  {
+    "id": "lazy-loading",
+    "label": "Lazy loading",
+    "group": "speed-optimization"
   },
   {
     "id": "overview1",
@@ -784,6 +859,16 @@
     "arrows": "to"
   },
   {
+    "from": "need-for-testing",
+    "to": "principles-and-manual-testing",
+    "arrows": "to"
+  },
+  {
+    "from": "principles-and-manual-testing",
+    "to": "automated-testing",
+    "arrows": "to"
+  },
+  {
     "from": "doctype-html-head-body",
     "to": "aria-roles-overview",
     "arrows": "to"
@@ -1086,6 +1171,71 @@
   {
     "from": "doctype-html-head-body",
     "to": "microdata-httpschemaorg",
+    "arrows": "to"
+  },
+  {
+    "from": "why",
+    "to": "percieved-vs-real-speed",
+    "arrows": "to"
+  },
+  {
+    "from": "why",
+    "to": "internet-connection-speeds",
+    "arrows": "to"
+  },
+  {
+    "from": "internet-connection-speeds",
+    "to": "http-file-transfer",
+    "arrows": "to"
+  },
+  {
+    "from": "percieved-vs-real-speed",
+    "to": "strategies",
+    "arrows": "to"
+  },
+  {
+    "from": "internet-connection-speeds",
+    "to": "strategies",
+    "arrows": "to"
+  },
+  {
+    "from": "http-file-transfer",
+    "to": "strategies",
+    "arrows": "to"
+  },
+  {
+    "from": "strategies",
+    "to": "optimizing-css",
+    "arrows": "to"
+  },
+  {
+    "from": "strategies",
+    "to": "optimizing-javascript",
+    "arrows": "to"
+  },
+  {
+    "from": "strategies",
+    "to": "optimizing-svg",
+    "arrows": "to"
+  },
+  {
+    "from": "strategies",
+    "to": "blocking-and-non-blocking-assets",
+    "arrows": "to"
+  },
+  {
+    "from": "percieved-vs-real-speed",
+    "to": "lazy-loading",
+    "arrows": "to"
+  },
+  {
+    "from": "strategies",
+    "to": "lazy-loading",
+    "arrows": "to"
+  },
+  {
+    "from": "blocking-and-non-blocking-assets",
+    "to": "lazy-loading",
     "arrows": "to"
   },
   {
