@@ -1,8 +1,7 @@
 {{#if skill}}
   {{> list-item}}
 {{else}}
-  <div class="list-group-item">
-    <a href="{{slug}}.html" class="h3">{{name}}</a>
+    <p class="{{#if parent.parent}}h4 mt-4{{else}}h3 mt-5 display-4{{/if}}"><a href="{{slug}}.html">{{name}}</a></p>
     {{#if children.length}}
       <div class="list-group mt-2">
         {{#each children}}
@@ -10,5 +9,4 @@
         {{/each}}
       </div>
     {{/if}}
-  </div>
 {{/if}}

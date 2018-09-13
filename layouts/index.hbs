@@ -14,14 +14,11 @@
       {{> header}}
 
       <main class="container p-4">
-        <h1>CoreSkill Skill System (CSSS)</h1>
+        <h1 class="display-3">CoreSkill Skill System (CSSS)</h1>
         <p><a href="graph.html">Show dependency graph</a></p>
-
-        <div class="list-group">
           {{#each children}}
             {{> node-item}}
           {{/each}}
-        </div>
       </main>
       <script src="firebase.js"></script>
     </body>
