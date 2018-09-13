@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
     <style type="text/css">
       #graph {
-        width: 900px;
-        height: 900px;
+        width: 100%;
+        height: 80vh;
         border: 1px solid lightgray;
       }
     </style>
@@ -19,15 +19,18 @@
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
   </head>
   <body>
-    <header class="navbar navbar-dark bg-primary">
-      <span class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</span>
-      <form class="form-inline">
-        <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
-        <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
-      </form>
+    <header class="navbar navbar-dark bg-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
+        <form class="form-inline">
+          <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
+          <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
+        </form>
+      </div>
     </header>
-    <main class="p-4">
-      <h1><a href="index.html">CSSS</a> » Dependency graph</h1>
+
+    <main class="container-fluid p-4">
+      <h1>Dependency graph</h1>
       <p>Clicking a skill highlights all its dependencies and dependants, double-clicking a skill opens its page.</p>
       <div id="graph"></div>
     </main>
