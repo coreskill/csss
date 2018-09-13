@@ -1,0 +1,69 @@
+---
+
+skill: Overview
+
+resources:
+  - url: https://alistapart.com/article/responsive-web-design
+    desc: The article that started it all.
+
+---
+
+skill: Fluid web
+
+requires:
+  - Overview
+
+---
+
+skill: Mobile-first
+
+requires:
+  - Fluid web
+
+---
+
+skill: Breakpoints
+
+requires:
+  - Fluid web
+
+---
+
+skill: Simple responsive images
+
+requires:
+  - Overview
+
+---
+
+skill: Responsive images (srcset, sizes)
+         
+requires:
+  - Simple responsive images
+
+---
+
+skill: <picture>
+
+requires:
+  - Responsive images (srcset, sizes)
+
+---
+
+skill: Tools
+
+requires:
+  - Responsive images (srcset, sizes)
+  
+resources: 
+  - url: http://www.responsivebreakpoints.com
+
+---
+
+skill: picturefill.js
+
+requires:
+  - Responsive images (srcset, sizes)
+  
+resources:
+  - url: http://scottjehl.github.io/picturefill/
