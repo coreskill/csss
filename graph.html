@@ -132,6 +132,46 @@
     "group": "information-sources"
   },
   {
+    "id": "dns",
+    "label": "DNS",
+    "group": "networking"
+  },
+  {
+    "id": "file-transfer-via-http",
+    "label": "File transfer via http",
+    "group": "networking"
+  },
+  {
+    "id": "client-and-server",
+    "label": "Client and Server",
+    "group": "networking"
+  },
+  {
+    "id": "ip-address",
+    "label": "IP Address",
+    "group": "networking"
+  },
+  {
+    "id": "domains",
+    "label": "Domains",
+    "group": "networking"
+  },
+  {
+    "id": "protocols",
+    "label": "Protocols",
+    "group": "networking"
+  },
+  {
+    "id": "url",
+    "label": "URL",
+    "group": "networking"
+  },
+  {
+    "id": "web-browser",
+    "label": "Web browser",
+    "group": "networking"
+  },
+  {
     "id": "overview1",
     "label": "Overview",
     "group": "deployment"
@@ -154,57 +194,132 @@
   {
     "id": "bmp",
     "label": "BMP",
-    "group": "image-formats"
+    "group": "bitmaps"
   },
   {
     "id": "gif",
     "label": "GIF",
-    "group": "image-formats"
+    "group": "bitmaps"
   },
   {
     "id": "gif-animated",
     "label": "GIF (animated)",
-    "group": "image-formats"
+    "group": "bitmaps"
   },
   {
     "id": "png",
     "label": "PNG",
-    "group": "image-formats"
+    "group": "bitmaps"
   },
   {
     "id": "jpg",
     "label": "JPG",
-    "group": "image-formats"
+    "group": "bitmaps"
   },
   {
     "id": "loosless-vs-lossy-compression",
     "label": "loosless vs. lossy compression",
-    "group": "image-formats"
-  },
-  {
-    "id": "bitmap-vs-vector",
-    "label": "bitmap vs. vector",
-    "group": "image-formats"
+    "group": "bitmaps"
   },
   {
     "id": "webp",
     "label": "WebP",
-    "group": "image-formats"
-  },
-  {
-    "id": "svg-overview",
-    "label": "SVG overview",
-    "group": "image-formats"
+    "group": "bitmaps"
   },
   {
     "id": "other-formats",
     "label": "Other formats",
-    "group": "image-formats"
+    "group": "bitmaps"
   },
   {
     "id": "favicons",
     "label": "Favicons",
-    "group": "image-formats"
+    "group": "bitmaps"
+  },
+  {
+    "id": "bitmaps-size-optimization",
+    "label": "Bitmaps size optimization",
+    "group": "bitmaps"
+  },
+  {
+    "id": "gif-size-optimization",
+    "label": "GIF size optimization",
+    "group": "bitmaps"
+  },
+  {
+    "id": "png-size-optimization",
+    "label": "PNG size optimization",
+    "group": "bitmaps"
+  },
+  {
+    "id": "jpg-size-optimization",
+    "label": "JPG size optimization",
+    "group": "bitmaps"
+  },
+  {
+    "id": "bitmap-image-resizing",
+    "label": "Bitmap image resizing",
+    "group": "bitmaps"
+  },
+  {
+    "id": "pixels",
+    "label": "Pixels",
+    "group": "computer-graphics"
+  },
+  {
+    "id": "bitmap-vs-vector",
+    "label": "Bitmap vs. Vector",
+    "group": "computer-graphics"
+  },
+  {
+    "id": "antialiasing",
+    "label": "Antialiasing",
+    "group": "computer-graphics"
+  },
+  {
+    "id": "font-subpixel-antialiasing",
+    "label": "Font subpixel antialiasing",
+    "group": "computer-graphics"
+  },
+  {
+    "id": "visual-design",
+    "label": "Visual Design",
+    "group": "design1"
+  },
+  {
+    "id": "color-theory",
+    "label": "Color Theory",
+    "group": "design1"
+  },
+  {
+    "id": "usability",
+    "label": "Usability",
+    "group": "design1"
+  },
+  {
+    "id": "typography",
+    "label": "Typography",
+    "group": "design1"
+  },
+  {
+    "id": "content",
+    "label": "Content",
+    "group": "design1"
+  },
+  {
+    "id": "corporate-identity",
+    "label": "Corporate Identity",
+    "group": "design1"
+  },
+  {
+    "id": "scales",
+    "label": "Scales",
+    "group": "design1"
+  },
+  {
+    "id": "animation",
+    "label": "Animation",
+    "group": "design1"
   },
   {
     "id": "overview2",
@@ -899,11 +1014,6 @@
     "arrows": "to"
   },
   {
-    "from": "bmp",
-    "to": "bitmap-vs-vector",
-    "arrows": "to"
-  },
-  {
     "from": "gif",
     "to": "webp",
     "arrows": "to"
@@ -916,11 +1026,6 @@
   {
     "from": "jpg",
     "to": "webp",
-    "arrows": "to"
-  },
-  {
-    "from": "bitmap-vs-vector",
-    "to": "svg-overview",
     "arrows": "to"
   },
   {
@@ -954,8 +1059,78 @@
     "arrows": "to"
   },
   {
-    "from": "svg-overview",
-    "to": "favicons",
+    "from": "bmp",
+    "to": "bitmaps-size-optimization",
+    "arrows": "to"
+  },
+  {
+    "from": "gif",
+    "to": "gif-size-optimization",
+    "arrows": "to"
+  },
+  {
+    "from": "png",
+    "to": "png-size-optimization",
+    "arrows": "to"
+  },
+  {
+    "from": "jpg",
+    "to": "jpg-size-optimization",
+    "arrows": "to"
+  },
+  {
+    "from": "bmp",
+    "to": "bitmap-image-resizing",
+    "arrows": "to"
+  },
+  {
+    "from": "pixels",
+    "to": "antialiasing",
+    "arrows": "to"
+  },
+  {
+    "from": "antialiasing",
+    "to": "font-subpixel-antialiasing",
+    "arrows": "to"
+  },
+  {
+    "from": "visual-design",
+    "to": "color-theory",
+    "arrows": "to"
+  },
+  {
+    "from": "visual-design",
+    "to": "usability",
+    "arrows": "to"
+  },
+  {
+    "from": "visual-design",
+    "to": "typography",
+    "arrows": "to"
+  },
+  {
+    "from": "visual-design",
+    "to": "content",
+    "arrows": "to"
+  },
+  {
+    "from": "visual-design",
+    "to": "corporate-identity",
+    "arrows": "to"
+  },
+  {
+    "from": "typography",
+    "to": "corporate-identity",
+    "arrows": "to"
+  },
+  {
+    "from": "visual-design",
+    "to": "scales",
+    "arrows": "to"
+  },
+  {
+    "from": "visual-design",
+    "to": "animation",
     "arrows": "to"
   },
   {
