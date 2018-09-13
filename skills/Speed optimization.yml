@@ -1,0 +1,78 @@
+---
+
+skill: Why
+
+# requires: todo: add everything needed 
+
+---
+
+skill: Percieved vs. real speed
+
+requires:
+  - Why
+
+---
+
+skill: Internet connection speeds
+
+requires:
+  - Why
+
+---
+
+skill: HTTP file transfer
+
+requires:
+  - Internet connection speeds
+
+---
+
+skill: Strategies
+
+requires:
+  - Percieved vs. real speed
+  - Internet connection speeds
+  - HTTP file transfer
+
+---
+
+skill: Optimizing CSS
+
+requires:
+  - Strategies
+
+---
+
+skill: Optimizing JavaScript
+
+requires:
+  - Strategies
+
+---
+
+skill: Optimizing SVG
+
+requires:
+  - Strategies
+  
+resources:
+  - url: https://github.com/svg/svgo
+    desc: Optimizer is a Nodejs-based tool for optimizing SVG vector graphics files.
+  - url: https://jakearchibald.github.io/svgomg/
+    desc: SVGOMG is SVGO's Web GUI. 
+
+---
+
+skill: Blocking and non-blocking assets
+
+requires:
+  - Strategies
+
+---
+
+skill: Lazy loading
+
+requires:
+  - Percieved vs. real speed
+  - Strategies
+  - Blocking and non-blocking assets
