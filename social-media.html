@@ -1,0 +1,59 @@
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Social Media « CoreSkill Skill System (CSSS)</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="firebase.css">
+      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
+    </head>
+    <body>
+      <header class="navbar navbar-dark bg-dark">
+        <div class="container">
+          <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
+          <form class="form-inline">
+            <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
+            <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
+          </form>
+        </div>
+      </header>
+
+      <main class="container p-4">
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
+                <li class="breadcrumb-item"><a href="other1.html">Other</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Social Media</li>
+          </ol>
+        </nav>
+
+        <h1 class="display-3">Social Media</h1>
+
+          <h2 class="mt-5">Skills in this category</h2>
+          <div class="list-group">
+              <a href="facebook-open-graph.html" class=" list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                <span>
+                    <span class="indicator" data-slug="facebook-open-graph">
+                      <span class="done">✔️</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  Facebook Open Graph
+                </span>
+              </a>
+              <a href="twitter-cards.html" class=" list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                <span>
+                    <span class="indicator" data-slug="twitter-cards">
+                      <span class="done">✔️</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  Twitter Cards
+                </span>
+              </a>
+          </div>
+      </main>
+      <script src="firebase.js"></script>
+    </body>
+  </html>
