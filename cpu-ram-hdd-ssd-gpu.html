@@ -1,0 +1,57 @@
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>CPU, RAM, HDD, SSD, GPU « CoreSkill Skill System (CSSS)</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="firebase.css">
+      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
+    </head>
+    <body>
+      <header class="navbar navbar-dark bg-dark">
+        <div class="container">
+          <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
+          <form class="form-inline">
+            <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
+            <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
+          </form>
+        </div>
+      </header>
+
+      <main class="container p-4">
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
+                <li class="breadcrumb-item"><a href="basics.html">Basics</a></li>
+                <li class="breadcrumb-item"><a href="general-computer-science.html">General Computer Science</a></li>
+              <li class="breadcrumb-item active" aria-current="page">CPU, RAM, HDD, SSD, GPU</li>
+          </ol>
+        </nav>
+
+
+        <div class="mt-5 p-3 bg-light">
+
+          <h1 class="display-3">
+            <span class="indicator" data-slug="cpu-ram-hdd-ssd-gpu">
+              <span class="done">✔️</span>
+              <span class="not-done">❔</span>
+            </span>
+            CPU, RAM, HDD, SSD, GPU
+          </h1>
+
+          <p><small><a href="graph.html#cpu-ram-hdd-ssd-gpu">Show in dependency graph</a></small></p>
+
+              <p class="m-0">Very basic explanation of these terms and how they interact with each other regarding to web development.</p>
+
+
+        </div>
+
+
+
+      </main>
+      <script src="firebase.js"></script>
+    </body>
+  </html>
