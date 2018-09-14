@@ -1,0 +1,16 @@
+---
+
+skill: Facebook Open Graph
+
+resources: 
+  - url: https://developers.facebook.com/tools/debug/
+
+---
+
+skill: Twitter Cards
+
+requires:
+  - Facebook Open Graph
+
+resources: 
+  - url: https://cards-dev.twitter.com/validator
