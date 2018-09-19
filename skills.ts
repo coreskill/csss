@@ -141,15 +141,21 @@ export default async () => {
 
   // Also process same-level skills and flatten categories of a skill
   skills.forEach(skill => {
-    let sameLevelSkills = new Set();
-    skill.requires.forEach(requiredSkill => {
-      skills.forEach(anotherSkill => {
-        if (anotherSkill.requires.indexOf(requiredSkill) > -1) {
-          sameLevelSkills.add(anotherSkill);
-        }
-      })
-    });
-    skill.sameLevelSkills = [...sameLevelSkills].filter(s => s !== skill);
+    if (skill.requires.length > 0) {
+      let sameLevelSkills = new Set();
+      skill.requires.forEach(requiredSkill => {
+        skills.forEach(anotherSkill => {
+          if (anotherSkill.requires.indexOf(requiredSkill) > -1) {
+            sameLevelSkills.add(anotherSkill);
+          }
+        });
+      });
+      skill.sameLevelSkills = [...sameLevelSkills].filter(s => s !== skill);
+    } else {
+      skill.sameLevelSkills = skill.parent.children
+        .filter((node): node is Skill => "skill" in node)
+        .filter(anotherSkill => anotherSkill.requires.length === 0 && anotherSkill !== skill);
+    }
 
     skill.categories = [];
     for (let parent: Category = skill.parent; parent.parent !== undefined; parent = parent.parent as Category) {
