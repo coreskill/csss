@@ -8,6 +8,9 @@ skill: surge.sh
 
 requires:
   - Overview
+  
+resources:
+  - url: surge.sh
 
 ---
 
@@ -22,3 +25,6 @@ skill: GitHub Pages
 
 requires:
   - Overview
+
+resources:
+  - url: https://pages.github.com/
