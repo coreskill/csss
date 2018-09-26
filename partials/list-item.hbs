@@ -1,4 +1,14 @@
-<a href="{{slug}}.html" class="{{#unless skill}}list-group-item-secondary font-weight-bold{{/unless}} list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+<a
+  href="{{slug}}.html"
+  class="
+    {{#unless skill}}list-group-item-secondary font-weight-bold{{/unless}}
+    list-group-item
+    list-group-item-action
+    d-flex
+    justify-content-between
+    align-items-center
+  "
+>
   <span>
     {{#if skill}}
       <span class="indicator" data-slug="{{slug}}">
@@ -13,12 +23,15 @@
     {{/ifCategoriesNotEqual}}
     {{name}}
   </span>
-  {{#if level}}
-    <span>
+  <span>
+    {{#unless requires}}
+      <span class="badge badge-success">start here</span>
+    {{/unless}}
+    {{#if level}}
       <span class="badge badge-primary badge-pill">{{level}}</span>
-      {{#if sublevel}}
-        <span class="badge badge-secondary badge-pill">{{sublevel}}</span>
-      {{/if}}
-    </span>
-  {{/if}}
+        {{#if sublevel}}
+          <span class="badge badge-secondary badge-pill">{{sublevel}}</span>
+        {{/if}}
+    {{/if}}
+  </span>
 </a>
