@@ -7,3 +7,11 @@ text: Very basic explanation of these terms and how they interact with each othe
 resources: 
   - url: https://www.freecodecamp.org/news/beaucarnes/how-do-computers-and-the-internet-work--94i0Frgd4
     type: video
+
+---
+
+skill: Sleep vs. Hibernate
+level: extra
+
+requires:
+  - CPU, RAM, HDD, SSD, GPU
