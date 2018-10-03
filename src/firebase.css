@@ -1,8 +1,8 @@
-.indicator, .done, .indicator.is-done .not-done, .logged-in .login, .logout {
+.indicator, .done, .indicator.is-done .not-done, .logged-in .login, .logout, .user-select {
   display: none;
 }
 
-.logged-in .indicator, .indicator.is-done .done, .logged-in .logout {
+.logged-in .indicator, .indicator.is-done .done, .logged-in .logout, .admin .user-select {
   display: initial;
 }
 

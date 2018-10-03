@@ -9,12 +9,14 @@ let config = {
 firebase.initializeApp(config);
 firebase.firestore().settings({timestampsInSnapshots: true});
 
+const SELECTED_USER_ID = 'SELECTED_USER_ID';
+
 let removeFirebaseListener = () => {};
-function addFirebaseListener(uid) {
+function addFirebaseListener() {
   return new Promise((resolve, reject) => {
     removeFirebaseListener = firebase.firestore()
     .collection("db").doc("v1")
-    .collection("users").doc(uid)
+    .collection("users").doc(sessionStorage.getItem(SELECTED_USER_ID))
     .onSnapshot(snapshot => {
       resolve();
       setStateOfAllIndicators(snapshot.data() || {});
@@ -32,25 +34,17 @@ function setStateOfAllIndicators(data) {
   });
 }
 
-let indicatorListener;
-function addIndicatorListener(uid) {
-  indicatorListener = function(event) {
-    let isDone = this.classList.contains("is-done");
-    firebase.firestore().collection("db").doc("v1")
-      .collection("users").doc(uid)
-      .set({[this.dataset.slug]: !isDone}, {merge: true})
-      .catch(error => console.error(error));
-    event.preventDefault();
-  };
-  indicators.forEach(indicator => {
-    indicator.addEventListener("click", indicatorListener, false);
-  });
-}
-function removeIndicatorListener() {
-  indicators.forEach(indicator => {
-    indicator.removeEventListener("click", indicatorListener);
-  });
-}
+function indicatorListener(event) {
+  let isDone = this.classList.contains("is-done");
+  firebase.firestore().collection("db").doc("v1")
+    .collection("users").doc(sessionStorage.getItem(SELECTED_USER_ID))
+    .set({[this.dataset.slug]: !isDone}, {merge: true})
+    .catch(error => console.error(error));
+  event.preventDefault();
+};
+indicators.forEach(indicator => {
+  indicator.addEventListener("click", indicatorListener, false);
+});
 
 function saveUserData({uid, displayName, email, photoURL}) {
   return firebase.firestore()
@@ -60,16 +54,66 @@ function saveUserData({uid, displayName, email, photoURL}) {
     .catch(error => console.error(error));
 }
 
+let removeAdminListener = () => {};
+function addAdminSelectbox() {
+  return firebase.firestore()
+    .collection("db").doc("v1")
+    .collection("users").doc(firebase.auth().currentUser.uid)
+    .get()
+    .then(snapshot => {
+      if (snapshot.data().__user.isAdmin) {
+        return new Promise((resolve, reject) => {
+          removeAdminListener = firebase.firestore()
+            .collection("db").doc("v1")
+            .collection("users")
+            .onSnapshot(snapshot => {
+              let data = snapshot.docs.map(s => s.data() || {});
+              resolve(data);
+              fillAdminSelectbox(data);
+              document.body.classList.add("admin");
+            }, error => {
+              console.error(error);
+              reject(error);
+            });
+        });
+      }
+    });
+}
+
+let adminSelect = document.querySelector(".user-select select");
+function fillAdminSelectbox(users) {
+  console.log(users);
+  adminSelect.innerHTML = "";
+  users
+    .filter(user => user.__user && user.__user.uid)
+    .map(user => [user.__user.displayName || user.__user.email || user.__user.uid, user.__user.uid])
+    .sort(([a], [b]) => a < b ? -1 : a > b ? 1 : 0)
+    .map(([label, uid]) => new Option(label, uid))
+    .forEach(option => adminSelect.add(option));
+  adminSelect.value = sessionStorage.getItem(SELECTED_USER_ID);
+}
+
+adminSelect.addEventListener("change", () => {
+  sessionStorage.setItem(SELECTED_USER_ID, adminSelect.value);
+  removeFirebaseListener();
+  addFirebaseListener();
+}, false);
+
 firebase.auth().onAuthStateChanged(user => {
   if (user) {
+    if (!sessionStorage.getItem(SELECTED_USER_ID)) {
+      sessionStorage.setItem(SELECTED_USER_ID, user.uid);
+    }
     saveUserData(user)
-      .then(() => addFirebaseListener(user.uid))
-      .then(() => addIndicatorListener(user.uid))
+      .then(() => addFirebaseListener())
+      .then(() => addAdminSelectbox())
       .then(() => document.body.classList.add("logged-in"));
   } else {
-    document.body.classList.remove("logged-in");
-    removeIndicatorListener();
+    document.body.classList.remove("logged-in", "admin");
     removeFirebaseListener();
+    removeAdminListener();
+    sessionStorage.removeItem(SELECTED_USER_ID);
+    console.log('fufu');
   }
 });
 
