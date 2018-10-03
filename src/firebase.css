@@ -1,8 +1,19 @@
-.indicator, .done, .indicator.is-done .not-done, .logged-in .login, .logout, .user-select {
+.indicator,
+.done,
+.star,
+.indicator.is-done .not-done,
+.indicator.is-star .not-done,
+.logged-in .login,
+.logout,
+.user-select {
   display: none;
 }
 
-.logged-in .indicator, .indicator.is-done .done, .logged-in .logout, .admin .user-select {
+.logged-in .indicator,
+.indicator.is-done .done,
+.indicator.is-star .star,
+.logged-in .logout,
+.admin .user-select {
   display: initial;
 }
 
