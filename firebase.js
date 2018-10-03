@@ -52,13 +52,20 @@ function removeIndicatorListener() {
   });
 }
 
+function saveUserData({uid, displayName, email, photoURL}) {
+  return firebase.firestore()
+    .collection("db").doc("v1")
+    .collection("users").doc(uid)
+    .set({__user: {uid, displayName, email, photoURL}}, {merge: true})
+    .catch(error => console.error(error));
+}
+
 firebase.auth().onAuthStateChanged(user => {
   if (user) {
-    addFirebaseListener(user.uid)
-      .then(() => {
-        addIndicatorListener(user.uid);
-        document.body.classList.add("logged-in");
-      });
+    saveUserData(user)
+      .then(() => addFirebaseListener(user.uid))
+      .then(() => addIndicatorListener(user.uid))
+      .then(() => document.body.classList.add("logged-in"));
   } else {
     document.body.classList.remove("logged-in");
     removeIndicatorListener();
