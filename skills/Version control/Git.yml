@@ -7,6 +7,34 @@ sublevel: 1
 resources:
   - url: https://guides.github.com/introduction/git-handbook/
   - url: https://www.atlassian.com/git/tutorials/what-is-version-control
+  - url: https://www.codecademy.com/courses/learn-git/lessons/git-workflow/
+
+---
+
+skill: Installation
+level: 2
+sublevel: 1
+
+requires:
+  - Overview
+
+resources:
+  - url: https://git-scm.com/downloads
+  - url: https://www.atlassian.com/git/tutorials/install-git
+
+---
+
+skill: init
+level: 2
+sublevel: 1
+
+requires:
+  - Overview
+
+resources:
+  - url: https://guides.github.com/introduction/git-handbook/#basic-git
+  - url: https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-init
+  - url: https://www.codecademy.com/courses/learn-git/lessons/git-workflow/exercises/git-init
 
 ---
 
@@ -36,19 +64,6 @@ resources:
 
 ---
 
-skill: init
-level: 2
-sublevel: 1
-
-requires:
-  - Overview
-
-resources:
-  - url: https://guides.github.com/introduction/git-handbook/#basic-git
-  - url: https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-init
-
----
-
 skill: status
 level: 2
 sublevel: 2
@@ -60,6 +75,7 @@ requires:
 resources:
   - url: https://guides.github.com/introduction/git-handbook/#basic-git
   - url: https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-status
+  - url: https://www.codecademy.com/courses/learn-git/lessons/git-workflow/exercises/git-status
 
 ---
 
@@ -90,6 +106,19 @@ resources:
 
 ---
 
+skill: reset
+level: 2
+sublevel: 2
+
+requires:
+  - add
+
+resources:
+  - url: https://www.atlassian.com/git/tutorials/undoing-changes/git-reset
+  - url: https://www.codecademy.com/courses/learn-git/lessons/git-backtracking/exercises/git-reset-1
+
+---
+
 skill: commit
 level: 2
 sublevel: 2
@@ -101,6 +130,20 @@ requires:
 resources:
   - url: https://guides.github.com/introduction/git-handbook/#basic-git
   - url: https://www.atlassian.com/git/tutorials/saving-changes/git-commit
+
+---
+
+skill: log
+level: 2
+sublevel: 2
+
+requires:
+  - commit
+  - init
+
+resources:
+  - url: https://guides.github.com/introduction/git-handbook/#basic-git
+  - url: https://www.atlassian.com/git/tutorials/saving-changes/git-log
 
 ---
 
@@ -143,6 +186,7 @@ requires:
 resources:
   - url: https://www.atlassian.com/git/tutorials/undoing-changes
   - url: https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
+  - url: https://www.codecademy.com/courses/learn-git/lessons/git-backtracking/exercises/git-checkout-1
 
 ---
 
@@ -313,3 +357,15 @@ requires:
 
 resources:
   - url: https://stackoverflow.com/questions/7229885/what-are-the-differences-between-gitignore-and-gitkeep
+
+---
+
+skill: Other Git resources
+level: extra
+
+requires:
+  - Overview
+
+resources:
+  - url: https://ohshitgit.com/
+  - url: https://blog.github.com/2015-06-08-how-to-undo-almost-anything-with-git/
