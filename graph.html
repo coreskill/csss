@@ -900,8 +900,8 @@
     "group": "git"
   },
   {
-    "id": "branch-delete",
-    "label": "branch delete",
+    "id": "branch-d",
+    "label": "branch -d",
     "group": "git"
   },
   {
@@ -968,6 +968,16 @@
     "id": "gist",
     "label": "Gist",
     "group": "github-and-gitlab"
+  },
+  {
+    "id": "x",
+    "label": "X",
+    "group": "svg"
+  },
+  {
+    "id": "y",
+    "label": "Y",
+    "group": "svg"
   }
 ];
       let edges = [
@@ -1818,17 +1828,17 @@
   },
   {
     "from": "branch-add",
-    "to": "branch-delete",
+    "to": "branch-d",
     "arrows": "to"
   },
   {
     "from": "branch-list",
-    "to": "branch-delete",
+    "to": "branch-d",
     "arrows": "to"
   },
   {
     "from": "checkout",
-    "to": "branch-delete",
+    "to": "branch-d",
     "arrows": "to"
   },
   {
@@ -1939,6 +1949,11 @@
   {
     "from": "set-up-an-account",
     "to": "gist",
+    "arrows": "to"
+  },
+  {
+    "from": "x",
+    "to": "y",
     "arrows": "to"
   }
 ];
