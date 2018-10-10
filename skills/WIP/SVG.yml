@@ -1,0 +1,10 @@
+---
+
+skill: X
+
+---
+
+skill: Y
+
+requires:
+  - X
