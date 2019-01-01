@@ -20,14 +20,17 @@ requires:
   
 ---
 
-skill: Usability
+skill: UX
 
 resources: 
   - url: https://ebooks.webflow.com/chapter/9-essential-ui-design-tips
+  - url: http://www.jjg.net/elements/pdf/elements_ch02.pdf
+  - url: http://www.jjg.net/elements/pdf/elements.pdf
+  - url: http://www.jjg.net/elements/pdf/elements_simpleplanes.pdf
 
-requires:
-  - Visual Design
-  
+    
+text: Usability, Elements of User Experience, 
+
 ---
 
 skill: Typography
