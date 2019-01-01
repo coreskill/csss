@@ -14,7 +14,7 @@
     "metalsmith-discover-partials": "^0.1.2",
     "metalsmith-layouts": "^2.2.0",
     "node-dir": "^0.1.17",
-    "slug": "^0.9.1"
+    "slug": "^0.9.3"
   },
   "devDependencies": {
     "@types/handlebars": "^4.0.39",
