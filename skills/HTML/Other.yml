@@ -8,3 +8,4 @@ requires:
 
 resources:
   - url: https://www.vzhurudolu.cz/prirucka/rich-snippets
+    lang: cs
