@@ -1,0 +1,54 @@
+---
+
+skill: Basic CSS Syntax
+
+---
+
+skill: Inline CSS (style attribute)
+
+requires:
+  - Basic CSS Syntax
+
+---
+
+skill: <style> tag
+
+requires:
+  - Basic CSS Syntax
+
+---
+
+skill: Connecting with HTML (linking)
+
+requires:
+  - Basic CSS Syntax
+
+
+---
+
+skill: inheritance
+level: 1
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Cascade_and_inheritance
+
+requires:
+  - Basic CSS Syntax
+
+---
+
+skill: CSS reset and normalize.css (user agent styles)
+
+resources: 
+  - url: https://css-tricks.com/reboot-resets-reasoning/
+    desc: Article discussing different approaches  
+  - url: https://marksheet.io/css-reset.html
+    desc: Marksheet description (outdated)  
+  - url: https://necolas.github.io/normalize.css/
+    desc: Normalize.css
+  - url: https://getbootstrap.com/docs/4.2/content/reboot/
+    desc: Bootstrap’s normalize
+
+requires:
+  - Basic CSS Syntax
+  #- Bootstrap 

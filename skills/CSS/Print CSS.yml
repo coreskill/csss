@@ -1,0 +1,97 @@
+---
+
+skill: Overview
+
+text: Special print features, typical print CSS (colors, removing stuff)…
+
+requires: 
+  - General // Basic CSS Syntax
+
+---
+
+skill: "@page"
+
+requires: 
+  - Overview
+
+---
+
+skill: size
+
+requires: 
+  - Overview
+
+---
+
+skill: "margin (cm units) (in @page)"
+
+requires: 
+  - Overview
+
+---
+
+skill: "show links targets in print (content: attr(href))"
+level: 5
+
+requires: 
+  - Overview
+
+---
+
+skill: "page-break-inside: (all)"
+
+requires: 
+  - Overview
+
+---
+
+skill: "page-break-after, page-break-before (always, avoid, auto)"
+
+requires: 
+  - Overview
+
+---
+
+skill: widows
+
+requires: 
+  - Overview
+
+---
+
+skill: orphans
+
+requires: 
+  - Overview
+
+---
+
+skill: page-margin box
+level: extra
+
+requires: 
+  - Overview
+
+---
+
+skill: "@page :first, :left, :right"
+level: extra
+
+requires: 
+  - Overview
+
+---
+
+skill: marks
+level: extra
+
+requires: 
+  - Overview
+
+---
+
+skill: bleed
+level: extra
+
+requires: 
+  - Overview
