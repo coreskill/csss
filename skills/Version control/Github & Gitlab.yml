@@ -44,3 +44,16 @@ requires:
 resources:
   - url: https://gist.github.com/
   - url: https://help.github.com/articles/about-gists/
+
+---
+
+skill: README.md
+level: 5
+
+requires:
+  - Set up an account
+
+resources:
+  - url: https://www.makeareadme.com/
+
+
