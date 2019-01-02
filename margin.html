@@ -1,0 +1,2444 @@
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>margin « CoreSkill Skill System (CSSS)</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link rel="stylesheet" href="csss.css">
+      <link rel="stylesheet" href="firebase.css">
+      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
+    </head>
+    <body>
+      <header class="navbar navbar-dark bg-dark">
+        <div class="container">
+          <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
+          <form class="form-inline">
+            <span class="user-select"><select class="form-control mr-3"></select></span>
+            <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
+            <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
+          </form>
+        </div>
+      </header>
+
+      <main class="container p-4">
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
+                <li class="breadcrumb-item"><a href="css.html">CSS</a></li>
+                <li class="breadcrumb-item"><a href="css-properties.html">CSS Properties</a></li>
+              <li class="breadcrumb-item active" aria-current="page">margin</li>
+          </ol>
+        </nav>
+
+          <h2 class="mt-3">Prerequisites</h2>
+          <div class="list-group">
+              <a
+                href="basic-css-syntax.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="basic-css-syntax">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » General » 
+                    </span>
+                  Basic CSS Syntax
+                </span>
+                <span>
+                    <span class="badge badge-success">start here</span>
+                </span>
+              </a>
+          </div>
+
+        <div class="mt-5 p-3 bg-light">
+
+          <h1 class="display-3">
+            <span class="indicator" data-slug="margin">
+              <span class="done">✔️</span>
+              <span class="star">⭐</span>
+              <span class="not-done">❔</span>
+            </span>
+            margin
+          </h1>
+
+          <p><small><a href="graph.html#margin">Show in dependency graph</a></small></p>
+
+
+            <h2 class="mt-5">Resources</h2>
+            <div class="list-group">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/margin" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">https://developer.mozilla.org/en-US/docs/Web/CSS/margin</h5>
+                  </div>
+                  <p class="mb-1"></p>
+                </a>
+            </div>
+
+        </div>
+
+          <h2 class="mt-5">Also learn these skills</h2>
+          <div class="list-group">
+              <a
+                href="bem-basics.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="bem-basics">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Architecture » 
+                    </span>
+                  BEM basics
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">3</span>
+                </span>
+              </a>
+              <a
+                href="oocss-basics.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="oocss-basics">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Architecture » 
+                    </span>
+                  OOCSS basics
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">3</span>
+                </span>
+              </a>
+              <a
+                href="color.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="color">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  color
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="background-color.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="background-color">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  background-color
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="background-image-background-repeat-background-position.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="background-image-background-repeat-background-position">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  background-image, background-repeat, background-position
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">2</span>
+                </span>
+              </a>
+              <a
+                href="font-size.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="font-size">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  font-size
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="font-style-italic-font-style-normal.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="font-style-italic-font-style-normal">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  font-style: italic, font-style: normal
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="font-style-oblique.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="font-style-oblique">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  font-style: oblique
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                </span>
+              </a>
+              <a
+                href="font-variant-small-caps.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="font-variant-small-caps">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  font-variant: small-caps
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">4</span>
+                </span>
+              </a>
+              <a
+                href="font-display.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="font-display">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  font-display
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                </span>
+              </a>
+              <a
+                href="font-weight.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="font-weight">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  font-weight
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="font-family-including-fallbacks.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="font-family-including-fallbacks">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  font-family (including fallbacks)
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="line-height.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="line-height">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  line-height
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="text-align.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="text-align">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  text-align
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="text-decoration.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="text-decoration">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  text-decoration
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="padding.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="padding">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  padding
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="border.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="border">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  border
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="border-style.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="border-style">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  border-style
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="width.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="width">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  width
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="max-width-min-width.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="max-width-min-width">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  max-width, min-width
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="height.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="height">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  height
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="max-height-min-height.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="max-height-min-height">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  max-height, min-height
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="overflow.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="overflow">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  overflow
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="top-bottom-left-right.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="top-bottom-left-right">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  top, bottom, left, right
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="position-relative-position-static.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="position-relative-position-static">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  position: relative, position: static
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="position-absolute.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="position-absolute">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  position: absolute
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="position-fixed.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="position-fixed">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  position: fixed
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="position-sticky.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="position-sticky">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  position: sticky
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="z-index.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="z-index">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  z-index
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="box-sizing.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="box-sizing">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  box-sizing
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="content.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="content">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  content
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="float.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="float">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  float
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="clear.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="clear">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  clear
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="visibility.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="visibility">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  visibility
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="display-none.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="display-none">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  display: none
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="display-block-display-inline-display-inline-block.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="display-block-display-inline-display-inline-block">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  display: block, display: inline, display: inline-block
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="flexible-layout-module-flexbox.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="flexible-layout-module-flexbox">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  Flexible layout module (flexbox)
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">3</span>
+                </span>
+              </a>
+              <a
+                href="css-grid.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="css-grid">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  CSS Grid
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">4</span>
+                </span>
+              </a>
+              <a
+                href="css-animations.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="css-animations">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  CSS animations
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                </span>
+              </a>
+              <a
+                href="css-transitions.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="css-transitions">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  CSS transitions
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                </span>
+              </a>
+              <a
+                href="box-shadow.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="box-shadow">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  box-shadow
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">4</span>
+                </span>
+              </a>
+              <a
+                href="cursor.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="cursor">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  cursor
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                </span>
+              </a>
+              <a
+                href="list-style.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="list-style">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  list-style
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">4</span>
+                </span>
+              </a>
+              <a
+                href="opacity.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="opacity">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  opacity
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">3</span>
+                </span>
+              </a>
+              <a
+                href="outline.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="outline">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  outline
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">3</span>
+                </span>
+              </a>
+              <a
+                href="table-layout.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="table-layout">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  table-layout
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                </span>
+              </a>
+              <a
+                href="display-table-table-row-table-cell.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="display-table-table-row-table-cell">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  display: table, table-row, table-cell, …
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                </span>
+              </a>
+              <a
+                href="text-indent.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="text-indent">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  text-indent
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                </span>
+              </a>
+              <a
+                href="text-shadow.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="text-shadow">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  text-shadow
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">4</span>
+                </span>
+              </a>
+              <a
+                href="text-transform.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="text-transform">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  text-transform
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">3</span>
+                </span>
+              </a>
+              <a
+                href="transform.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="transform">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  transform
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                </span>
+              </a>
+              <a
+                href="vertical-align.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="vertical-align">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  vertical-align
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">3</span>
+                </span>
+              </a>
+              <a
+                href="white-space.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="white-space">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  white-space
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">4</span>
+                </span>
+              </a>
+              <a
+                href="best-practices.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="best-practices">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » CSS Units » 
+                    </span>
+                  Best practices
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="unitless.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="unitless">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » CSS Units » 
+                    </span>
+                  unitless
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href=".html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » CSS Units » 
+                    </span>
+                  %
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="px.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="px">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » CSS Units » 
+                    </span>
+                  px
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="em-rem.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="em-rem">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » CSS Units » 
+                    </span>
+                  em, rem
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="color-values-named.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="color-values-named">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » CSS Units » 
+                    </span>
+                  color values: named
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="color-values-hex-rrggbbaa.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="color-values-hex-rrggbbaa">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » CSS Units » 
+                    </span>
+                  color values: hex (RRGGBBAA)
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="color-values-rgb.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="color-values-rgb">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » CSS Units » 
+                    </span>
+                  color values: rgb()
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="color-values-rgba.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="color-values-rgba">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » CSS Units » 
+                    </span>
+                  color values: rgba()
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="color-values-hsl-hsla.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="color-values-hsl-hsla">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » CSS Units » 
+                    </span>
+                  color values: hsl(), hsla()
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="inherit.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="inherit">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » CSS Values » 
+                    </span>
+                  inherit
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="initial.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="initial">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » CSS Values » 
+                    </span>
+                  initial
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="inline-css-style-attribute.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="inline-css-style-attribute">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » General » 
+                    </span>
+                  Inline CSS (style attribute)
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="style-tag.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="style-tag">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » General » 
+                    </span>
+                  &lt;style&gt; tag
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="connecting-with-html-linking.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="connecting-with-html-linking">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » General » 
+                    </span>
+                  Connecting with HTML (linking)
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="inheritance.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="inheritance">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » General » 
+                    </span>
+                  inheritance
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                </span>
+              </a>
+              <a
+                href="css-reset-and-normalizecss-user-agent-styles.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="css-reset-and-normalizecss-user-agent-styles">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » General » 
+                    </span>
+                  CSS reset and normalize.css (user agent styles)
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="overview1.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="overview1">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Print CSS » 
+                    </span>
+                  Overview
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="link-related-active-visited-hover-focus-link.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="link-related-active-visited-hover-focus-link">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Pseudo Classes » 
+                    </span>
+                  link related: :active, :visited, :hover, :focus, :link
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">2</span>
+                </span>
+              </a>
+              <a
+                href="first-child-last-child-only-child.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="first-child-last-child-only-child">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Pseudo Classes » 
+                    </span>
+                  :first-child, :last-child, :only-child
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">3</span>
+                </span>
+              </a>
+              <a
+                href="first-of-type-last-of-type-only-of-type.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="first-of-type-last-of-type-only-of-type">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Pseudo Classes » 
+                    </span>
+                  :first-of-type, :last-of-type, :only-of-type
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">3</span>
+                </span>
+              </a>
+              <a
+                href="nth-child-nth-last-child.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="nth-child-nth-last-child">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Pseudo Classes » 
+                    </span>
+                  :nth-child(), :nth-last-child()
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">3</span>
+                </span>
+              </a>
+              <a
+                href="nth-of-type-nth-last-of-type.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="nth-of-type-nth-last-of-type">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Pseudo Classes » 
+                    </span>
+                  :nth-of-type(), :nth-last-of-type()
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">3</span>
+                </span>
+              </a>
+              <a
+                href="not.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="not">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Pseudo Classes » 
+                    </span>
+                  :not()
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">4</span>
+                </span>
+              </a>
+              <a
+                href="root.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="root">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Pseudo Classes » 
+                    </span>
+                  :root
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                </span>
+              </a>
+              <a
+                href="lang.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="lang">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Pseudo Classes » 
+                    </span>
+                  :lang()
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                </span>
+              </a>
+              <a
+                href="forms-related-pseudo-classes-checked-required-valid-invalid-enabled-disabled.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="forms-related-pseudo-classes-checked-required-valid-invalid-enabled-disabled">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Pseudo Classes » 
+                    </span>
+                  Forms related pseudo classes (:checked, :required, :valid + :invalid, :enabled + :disabled)
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                </span>
+              </a>
+              <a
+                href="target.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="target">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Pseudo Classes » 
+                    </span>
+                  :target
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                </span>
+              </a>
+              <a
+                href="in-range-out-of-range.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="in-range-out-of-range">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Pseudo Classes » 
+                    </span>
+                  :in-range, :out-of-range
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                </span>
+              </a>
+              <a
+                href="read-only-read-write.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="read-only-read-write">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Pseudo Classes » 
+                    </span>
+                  :read-only, :read-write
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                </span>
+              </a>
+              <a
+                href="optional.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="optional">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Pseudo Classes » 
+                    </span>
+                  :optional
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                </span>
+              </a>
+              <a
+                href="default.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="default">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Pseudo Classes » 
+                    </span>
+                  :default
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                </span>
+              </a>
+              <a
+                href="indeterminate.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="indeterminate">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Pseudo Classes » 
+                    </span>
+                  :indeterminate
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                </span>
+              </a>
+              <a
+                href="empty.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="empty">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Pseudo Classes » 
+                    </span>
+                  :empty
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                </span>
+              </a>
+              <a
+                href="page-related-first-left-right.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="page-related-first-left-right">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Pseudo Classes » 
+                    </span>
+                  @page related: :first, :left, :right
+                </span>
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                </span>
+              </a>
+              <a
+                href="type-selectors.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="type-selectors">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Selectors » 
+                    </span>
+                  Type selectors
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="class-selectors.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="class-selectors">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Selectors » 
+                    </span>
+                  Class selectors
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="id-selectors.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="id-selectors">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Selectors » 
+                    </span>
+                  Id selectors
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="descendant-combinator-x-y.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="descendant-combinator-x-y">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Selectors » 
+                    </span>
+                  Descendant combinator (x y)
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="child-combinator-xy.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="child-combinator-xy">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Selectors » 
+                    </span>
+                  Child combinator (x&gt;y)
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="attribute-selectors-ahrefx.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="attribute-selectors-ahrefx">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Selectors » 
+                    </span>
+                  Attribute selectors (a[href&#x3D;x])
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="adjacent-sibling-combinator-xy.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="adjacent-sibling-combinator-xy">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Selectors » 
+                    </span>
+                  Adjacent sibling combinator (x+y)
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="general-sibling-combinator-x~y.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="general-sibling-combinator-x~y">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Selectors » 
+                    </span>
+                  General sibling combinator (x~y)
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="selector-specificity.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="selector-specificity">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                    <span class="text-muted">
+                      CSS » Selectors » 
+                    </span>
+                  Selector Specificity
+                </span>
+                <span>
+                </span>
+              </a>
+          </div>
+
+
+      </main>
+      <script src="firebase.js"></script>
+    </body>
+  </html>

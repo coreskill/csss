@@ -1,0 +1,242 @@
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Selectors « CoreSkill Skill System (CSSS)</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link rel="stylesheet" href="csss.css">
+      <link rel="stylesheet" href="firebase.css">
+      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
+    </head>
+    <body>
+      <header class="navbar navbar-dark bg-dark">
+        <div class="container">
+          <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
+          <form class="form-inline">
+            <span class="user-select"><select class="form-control mr-3"></select></span>
+            <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
+            <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
+          </form>
+        </div>
+      </header>
+
+      <main class="container p-4">
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
+                <li class="breadcrumb-item"><a href="css.html">CSS</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Selectors</li>
+          </ol>
+        </nav>
+
+        <h1 class="display-3">Selectors</h1>
+
+          <h2 class="mt-5">Skills in this category</h2>
+          <div class="list-group">
+              <a
+                href="type-selectors.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="type-selectors">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  Type selectors
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="class-selectors.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="class-selectors">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  Class selectors
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="id-selectors.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="id-selectors">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  Id selectors
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="descendant-combinator-x-y.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="descendant-combinator-x-y">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  Descendant combinator (x y)
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="child-combinator-xy.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="child-combinator-xy">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  Child combinator (x&gt;y)
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="attribute-selectors-ahrefx.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="attribute-selectors-ahrefx">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  Attribute selectors (a[href&#x3D;x])
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="adjacent-sibling-combinator-xy.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="adjacent-sibling-combinator-xy">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  Adjacent sibling combinator (x+y)
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="general-sibling-combinator-x~y.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="general-sibling-combinator-x~y">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  General sibling combinator (x~y)
+                </span>
+                <span>
+                </span>
+              </a>
+              <a
+                href="selector-specificity.html"
+                class="
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="selector-specificity">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  Selector Specificity
+                </span>
+                <span>
+                </span>
+              </a>
+          </div>
+      </main>
+      <script src="firebase.js"></script>
+    </body>
+  </html>
