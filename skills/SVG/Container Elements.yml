@@ -1,0 +1,30 @@
+---
+
+skill: <svg>
+level: 2
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg
+
+---
+
+skill: <g>
+level: 3
+
+requires: 
+  - <svg>
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/SVG/Element/g
+
+---
+
+skill: <defs>
+level: 4
+
+requires: 
+  - <svg>
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/SVG/Element/defs
+
