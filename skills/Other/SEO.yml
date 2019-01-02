@@ -10,7 +10,7 @@ skill: "Overview: Goals, On and Off Page Factors"
 skill: HTML Semantics
 
 requires:
-  - url: "Overview: Goals, On and Off Page Factors"
+  - "Overview: Goals, On and Off Page Factors"
 
 ---
 
@@ -24,28 +24,28 @@ skill: JavaScript and SEO
 skill: Rich snippets
 
 requires:
-  - url: "Overview: Goals, On and Off Page Factors"
+  - "Overview: Goals, On and Off Page Factors"
 
 ---
 
 skill: "Off page factors: linking"
 
 requires:
-  - url: "Overview: Goals, On and Off Page Factors"
+  - "Overview: Goals, On and Off Page Factors"
 
 ---
 
 skill: Sitemap.xml
 
 requires:
-  - url: "Overview: Goals, On and Off Page Factors"
+  - "Overview: Goals, On and Off Page Factors"
 
 ---
 
 skill: Robots.txt
 
 requires:
-  - url: "Overview: Goals, On and Off Page Factors"
+  - "Overview: Goals, On and Off Page Factors"
 
 ---
 
