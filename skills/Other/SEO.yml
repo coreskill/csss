@@ -1,0 +1,58 @@
+---
+
+skill: "Overview: Goals, On and Off Page Factors"
+
+#requires: 
+# - HTML // Dostatečná úroveň pro řešení 
+
+---
+
+skill: HTML Semantics
+
+requires:
+  - url: "Overview: Goals, On and Off Page Factors"
+
+---
+
+skill: JavaScript and SEO
+
+#requires: 
+#  - JavaScript // Dostatečná úroveň pro řešení: DOM
+
+---
+
+skill: Rich snippets
+
+requires:
+  - url: "Overview: Goals, On and Off Page Factors"
+
+---
+
+skill: "Off page factors: linking"
+
+requires:
+  - url: "Overview: Goals, On and Off Page Factors"
+
+---
+
+skill: Sitemap.xml
+
+requires:
+  - url: "Overview: Goals, On and Off Page Factors"
+
+---
+
+skill: Robots.txt
+
+requires:
+  - url: "Overview: Goals, On and Off Page Factors"
+
+---
+
+skill: "Advanced SEO"
+level: 5
+
+resources: 
+  - url: https://slideslive.com/38902701/navod-co-ma-umet-vyvojar-aby-mohl-sebrat-seo-specialistum-praci
+    lang: cs
+    desc: Přednáška „Co má umět vývojář, aby mohl sebrat SEO specialistům práci“
