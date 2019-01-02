@@ -203,8 +203,7 @@ requires:
 skill: border-style
 level: 1
 
-text: 
-  "Key values: none, solid, dotted, dashed. Notable values: double, groove"
+text: "Key values: none, solid, dotted, dashed. Notable values: double, groove"
 
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/border-style
