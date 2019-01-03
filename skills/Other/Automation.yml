@@ -1,0 +1,41 @@
+---
+
+skill: npm scripts
+
+resources:
+  - url: https://medium.freecodecamp.org/introduction-to-npm-scripts-1dbb2ae01633
+
+---
+
+skill: Browsersync
+
+requires:
+  - npm scripts
+
+text: Installation, basic options, server mode, proxy mode
+
+resources:
+  - url: https://www.browsersync.io/
+
+---
+
+skill: Gulp
+
+requires:
+  - npm scripts
+
+resources:
+  - url: https://gulpjs.com/
+
+---
+
+skill: "PostCSS: autoprefixer"
+
+requires:
+  - npm scripts
+
+resources:
+  - url: https://github.com/postcss/autoprefixer
+  - url: https://autoprefixer.github.io/
+    desc: Online demo
+  - url: https://postcss.org/
