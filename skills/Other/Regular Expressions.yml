@@ -1,0 +1,42 @@
+---
+
+skill: Overview
+
+requires:
+  - Code Editing // Code Editor Installation
+
+resources:
+  - url: https://regexone.com/
+  - url: https://www.smashingmagazine.com/2009/06/essential-guide-to-regular-expressions-tools-tutorials-and-resources/
+      
+---
+
+skill: Finding & Replacing
+
+text: ^.+*[^a-z0-9]\n$
+
+requires:
+  - Overview
+
+---
+
+skill: online tools to test
+
+requires:
+  - Overview
+
+resources:
+  - url: https://regex101.com/
+  - url: https://regexr.com/
+  - url: https://www.debuggex.com/
+  - url: http://txt2re.com/
+  - url: http://www.regexp.cz/
+    lang: cs
+
+---
+
+skill: "capture groups () and replacing $1"
+
+requires:
+  - Overview
+
