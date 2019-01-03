@@ -1,0 +1,103 @@
+---
+
+skill: Overview
+
+---
+
+skill: "Working with text: clipboard operations, navigating, selecting, changing"
+
+requires:
+  - Overview
+
+resources:
+  - url: https://dusan.pc-slany.cz/klavesnice/pocitacovy_text.htm
+    lang: cs
+
+---
+
+skill: Code Editor Installation
+
+requires:
+  - Overview
+
+resources:
+  - url: https://code.visualstudio.com/
+
+---
+
+skill: Projects
+
+requires:
+  - Code Editor Installation
+
+---
+
+skill: "Basic editing: copy + cut + paste lines, indenting (including difference between tabs and spaces)"
+
+requires:
+  - Code Editor Installation
+
+---
+
+skill: Multiple selections
+
+requires:
+  - Code Editor Installation
+
+resources:
+  - url:
+
+---
+
+skill: Intellisense
+
+requires:
+  - Code Editor Installation
+
+resources:
+  - url: https://code.visualstudio.com/docs/editor/intellisense
+  - url: https://code.visualstudio.com/docs/languages/html
+  - url: https://code.visualstudio.com/docs/languages/css
+
+---
+
+skill: Emmet
+
+requires:
+  - Code Editor Installation
+
+resources:
+  - url: https://code.visualstudio.com/docs/editor/emmet
+
+---
+
+skill: Search and replace
+
+requires:
+  - Code Editor Installation
+
+resources:
+  - url: 
+
+---
+
+skill: Extensions/Plugins installation
+
+requires:
+  - Code Editor Installation
+
+resources:
+  - url:
+
+---
+
+skill: Autoindent and/or Beautify
+
+text: Prettier or Beatify
+
+requires:
+  - Extensions/Plugins installation
+
+resources:
+  - url: https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify
+  - url: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
