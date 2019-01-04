@@ -2,6 +2,9 @@
 
 skill: Overview
 
+requires: 
+  - Basics // Networking // Web browser
+
 ---
 
 skill: Elements (HTML, CSS)

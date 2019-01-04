@@ -57,3 +57,11 @@ skill: Web browser
 
 resources:
   - url: https://marksheet.io/browser.html
+
+---
+
+skill: User Agent Header
+level: 4
+
+requires:
+  - Web browser
