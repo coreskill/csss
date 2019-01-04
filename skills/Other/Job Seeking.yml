@@ -1,0 +1,46 @@
+---
+
+skill: Overview
+
+---
+
+skill: Interviews
+
+requires:
+  - Overview
+
+---
+
+skill: Where to find
+
+requires:
+  - Overview
+
+---
+
+skill: CV
+
+requires:
+  - Overview
+
+---
+
+skill: LinkedIn
+
+requires:
+  - Overview
+
+---
+
+skill: GitHub
+
+requires:
+  - Overview
+
+---
+
+skill: Stack Overflow
+
+requires:
+  - Overview
+
