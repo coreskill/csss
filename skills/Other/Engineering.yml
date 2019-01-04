@@ -1,0 +1,56 @@
+---
+
+skill: Asking questions
+level: 3
+
+---
+
+skill: Refactoring
+level: 2
+
+---
+
+skill: DRY v. Overengineering (KISS)
+level: 2
+
+---
+
+skill: YAGNI (premature optimization)
+level: 2
+
+---
+
+skill: Progressive enhancement and Graceful degradation
+level: 3
+
+---
+
+skill: Composition vs. Inheritance
+level: 4
+
+---
+
+skill: Fallbacks
+level: 3
+
+---
+
+skill: Ethics
+level: 5
+
+---
+
+skill: Server-client architecture
+level: 1
+
+---
+
+skill: Hashes
+level: 5
+
+text: What is it, Hash functions, uniqness, small change in input -> large change in output
+
+---
+
+skill: base64 encoding
+level: 5
