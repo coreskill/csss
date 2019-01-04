@@ -1,0 +1,323 @@
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Server-client architecture « CoreSkill Skill System (CSSS)</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link rel="stylesheet" href="csss.css">
+      <link rel="stylesheet" href="firebase.css">
+      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
+    </head>
+    <body>
+      <header class="navbar navbar-dark bg-dark">
+        <div class="container">
+          <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
+          <form class="form-inline">
+            <span class="user-select"><select class="form-control mr-3"></select></span>
+            <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
+            <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
+          </form>
+        </div>
+      </header>
+
+      <main class="container p-4">
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
+                <li class="breadcrumb-item"><a href="other1.html">Other</a></li>
+                <li class="breadcrumb-item"><a href="engineering.html">Engineering</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Server-client architecture</li>
+          </ol>
+        </nav>
+
+
+        <div class="mt-5 p-3 bg-light">
+
+          <h1 class="display-3">
+            <span class="indicator" data-slug="server-client-architecture">
+              <span class="done">✔️</span>
+              <span class="star">⭐</span>
+              <span class="not-done">❔</span>
+            </span>
+            Server-client architecture
+          </h1>
+
+          <p><small><a href="graph.html#server-client-architecture">Show in dependency graph</a></small></p>
+
+
+
+        </div>
+
+          <h2 class="mt-5">Also learn these skills</h2>
+          <div class="list-group">
+              <a
+                href="asking-questions.html"
+                class="
+                  skill-item
+                  
+                  text-info
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="asking-questions">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  Asking questions
+                </span>
+                <span>
+                    <span class="badge badge-success">start here</span>
+                    <span class="badge badge-primary badge-pill">3</span>
+                </span>
+              </a>
+              <a
+                href="refactoring.html"
+                class="
+                  skill-item
+                  
+                  text-info
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="refactoring">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  Refactoring
+                </span>
+                <span>
+                    <span class="badge badge-success">start here</span>
+                    <span class="badge badge-primary badge-pill">2</span>
+                </span>
+              </a>
+              <a
+                href="dry-v-overengineering-kiss.html"
+                class="
+                  skill-item
+                  
+                  text-info
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="dry-v-overengineering-kiss">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  DRY v. Overengineering (KISS)
+                </span>
+                <span>
+                    <span class="badge badge-success">start here</span>
+                    <span class="badge badge-primary badge-pill">2</span>
+                </span>
+              </a>
+              <a
+                href="yagni-premature-optimization.html"
+                class="
+                  skill-item
+                  
+                  text-info
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="yagni-premature-optimization">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  YAGNI (premature optimization)
+                </span>
+                <span>
+                    <span class="badge badge-success">start here</span>
+                    <span class="badge badge-primary badge-pill">2</span>
+                </span>
+              </a>
+              <a
+                href="progressive-enhancement-and-graceful-degradation.html"
+                class="
+                  skill-item
+                  
+                  text-info
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="progressive-enhancement-and-graceful-degradation">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  Progressive enhancement and Graceful degradation
+                </span>
+                <span>
+                    <span class="badge badge-success">start here</span>
+                    <span class="badge badge-primary badge-pill">3</span>
+                </span>
+              </a>
+              <a
+                href="composition-vs-inheritance.html"
+                class="
+                  skill-item
+                  
+                  text-info
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="composition-vs-inheritance">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  Composition vs. Inheritance
+                </span>
+                <span>
+                    <span class="badge badge-success">start here</span>
+                    <span class="badge badge-primary badge-pill">4</span>
+                </span>
+              </a>
+              <a
+                href="fallbacks.html"
+                class="
+                  skill-item
+                  
+                  text-info
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="fallbacks">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  Fallbacks
+                </span>
+                <span>
+                    <span class="badge badge-success">start here</span>
+                    <span class="badge badge-primary badge-pill">3</span>
+                </span>
+              </a>
+              <a
+                href="ethics.html"
+                class="
+                  skill-item
+                  
+                  text-info
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="ethics">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  Ethics
+                </span>
+                <span>
+                    <span class="badge badge-success">start here</span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                </span>
+              </a>
+              <a
+                href="hashes.html"
+                class="
+                  skill-item
+                  
+                  text-info
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="hashes">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  Hashes
+                </span>
+                <span>
+                    <span class="badge badge-success">start here</span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                </span>
+              </a>
+              <a
+                href="base64-encoding.html"
+                class="
+                  skill-item
+                  
+                  text-info
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                "
+              >
+                <span>
+                    <span class="indicator" data-slug="base64-encoding">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐</span>
+                      <span class="not-done">❔</span>
+                    </span>
+                  base64 encoding
+                </span>
+                <span>
+                    <span class="badge badge-success">start here</span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                </span>
+              </a>
+          </div>
+
+
+      </main>
+      <script src="firebase.js"></script>
+    </body>
+  </html>
