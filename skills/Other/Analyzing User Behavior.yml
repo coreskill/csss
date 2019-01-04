@@ -1,0 +1,22 @@
+---
+
+skill: "Google Analytics: Ability to get info about used technology (browsers)"
+sublevel: 1
+
+---
+
+skill: "Google Analytics: Understanding basic data (pageviews, visitors)"
+sublevel: 2
+
+---
+
+skill: "Google Analytics: Creating a website in GA and inserting basic code"
+sublevel: 3
+
+---
+
+skill: Click trackers
+sublevel: 4
+
+#requires:
+#  - JavaScript // Events
