@@ -1,0 +1,34 @@
+---
+
+skill: Font types
+
+text: serif, sans-serif, monospaced etc.
+
+requires: 
+  - Fonts // Typography
+
+---
+
+skill: Web Fonts Overview
+
+requires:
+  - Font types
+
+---
+
+skill: Linking and using from Google Fonts 
+
+text: including extended character ranges
+
+requires:
+  - Web Fonts Overview
+
+---
+
+skill: "@font-face (custom solution with local fonts)" 
+level: extra
+
+requires:
+  - Web Fonts Overview
+
+
