@@ -5,7 +5,7 @@ skill: Font types
 text: serif, sans-serif, monospaced etc.
 
 requires: 
-  - Fonts // Typography
+  - Design // Typography
 
 ---
 
