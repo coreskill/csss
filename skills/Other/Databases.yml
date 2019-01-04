@@ -1,0 +1,26 @@
+---
+
+skill: Overview
+
+---
+
+skill: Relational database
+
+text: tables, rows and columns
+
+requires:
+  - Overview
+
+---
+
+skill: CRUD via client (Adminer/PHPMyAdmin)
+
+requires:
+  - Relational database
+       
+---
+
+skill: noSQL
+
+requires:
+  - Overview
