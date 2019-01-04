@@ -3,7 +3,7 @@
 {{else}}
     <p class="{{#if parent.parent}}h4 mt-4{{else}}h3 mt-5 display-4{{/if}}"><a href="{{slug}}.html">{{name}}</a></p>
     {{#if children.length}}
-      <div class="list-group mt-2">
+      <div class="skill-group list-group mt-2">
         {{#each children}}
           {{> node-item}}
         {{/each}}

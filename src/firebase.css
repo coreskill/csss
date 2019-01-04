@@ -5,6 +5,7 @@
 .indicator.is-star .not-done,
 .logged-in .login,
 .logout,
+.filter-group,
 .user-select {
   display: none;
 }
@@ -13,6 +14,7 @@
 .indicator.is-done .done,
 .indicator.is-star .star,
 .logged-in .logout,
+.logged-in .filter-group,
 .admin .user-select {
   display: initial;
 }

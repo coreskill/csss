@@ -11,6 +11,9 @@ firebase.firestore().settings({timestampsInSnapshots: true});
 
 const SELECTED_USER_ID = 'SELECTED_USER_ID';
 
+const USER_LOGGED_OUT_CALLBACKS = [];
+const INDICATOR_CHANGE_CALLBACKS = [];
+
 let removeFirebaseListener = () => {};
 function addFirebaseListener() {
   return new Promise((resolve, reject) => {
@@ -20,6 +23,7 @@ function addFirebaseListener() {
     .onSnapshot(snapshot => {
       resolve();
       setStateOfAllIndicators(snapshot.data() || {});
+      INDICATOR_CHANGE_CALLBACKS.forEach(cb => cb());
     }, error => {
       console.error(error);
       reject(error);
@@ -85,7 +89,6 @@ function addAdminSelectbox() {
 
 let adminSelect = document.querySelector(".user-select select");
 function fillAdminSelectbox(users) {
-  console.log(users);
   adminSelect.innerHTML = "";
   users
     .filter(user => user.__user && user.__user.uid)
@@ -116,7 +119,7 @@ firebase.auth().onAuthStateChanged(user => {
     removeFirebaseListener();
     removeAdminListener();
     sessionStorage.removeItem(SELECTED_USER_ID);
-    console.log('fufu');
+    USER_LOGGED_OUT_CALLBACKS.forEach(cb => cb());
   }
 });
 

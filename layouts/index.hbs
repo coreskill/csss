@@ -18,11 +18,20 @@
       <main class="container p-4">
         <h1 class="display-3">CoreSkill Skill System (CSSS)</h1>
         <p><a href="graph.html">Show dependency graph</a></p>
+        <div class="filter-group">
+          <div class="btn-group btn-group-lg" role="group">
+            <button type="button" class="filter-done btn px-4 btn-outline-secondary active">✔</button>
+            <button type="button" class="filter-star btn px-4 btn-outline-secondary active">⭐</button>
+            <button type="button" class="filter-not-done btn px-4 btn-outline-secondary active">❔</button>
+          </div>
+        </div>
+        <div class="filter-nothing-found alert alert-dark mt-4 d-none" role="alert">Nothing has been found.</div>
         {{#each children}}
           {{> node-item}}
         {{/each}}
       </main>
       <script src="firebase.js"></script>
+      <script src="filter.js"></script>
     </body>
   </html>
 {{/with}}
