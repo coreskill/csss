@@ -15,3 +15,7 @@ a.list-group-item {
   -webkit-hyphens: auto;
   hyphens: auto;
 }
+
+.filter-group .btn:not(.active) {
+  filter: grayscale(1);
+}

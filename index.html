@@ -26,13 +26,22 @@
       <main class="container p-4">
         <h1 class="display-3">CoreSkill Skill System (CSSS)</h1>
         <p><a href="graph.html">Show dependency graph</a></p>
+        <div class="filter-group">
+          <div class="btn-group btn-group-lg" role="group">
+            <button type="button" class="filter-done btn px-4 btn-outline-secondary active">✔</button>
+            <button type="button" class="filter-star btn px-4 btn-outline-secondary active">⭐</button>
+            <button type="button" class="filter-not-done btn px-4 btn-outline-secondary active">❔</button>
+          </div>
+        </div>
+        <div class="filter-nothing-found alert alert-dark mt-4 d-none" role="alert">Nothing has been found.</div>
               <p class="h3 mt-5 display-4"><a href="basics.html">Basics</a></p>
-                <div class="list-group mt-2">
+                <div class="skill-group list-group mt-2">
                         <p class="h4 mt-4"><a href="cli.html">CLI</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="overview.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -57,6 +66,7 @@
                                 <a
                                   href="install.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -80,6 +90,7 @@
                                 <a
                                   href="navigating-the-file-system.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -103,6 +114,7 @@
                                 <a
                                   href="viewing-and-changing-the-file-system.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -126,6 +138,7 @@
                                 <a
                                   href="redirecting-input-and-output.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -149,6 +162,7 @@
                                 <a
                                   href="configuring-the-environment.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -173,6 +187,7 @@
                                 <a
                                   href="copy-and-paste-in-cli.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -196,6 +211,7 @@
                                 <a
                                   href="completion.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -219,6 +235,7 @@
                                 <a
                                   href="history-up-and-down-arrows-to-repeat.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -241,10 +258,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="files.html">Files</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="files-and-folders.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -269,6 +287,7 @@
                                 <a
                                   href="text-vs-binary-files.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -292,6 +311,7 @@
                                 <a
                                   href="special-characters.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -315,6 +335,7 @@
                                 <a
                                   href="line-endings-crlf-vs-lf.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -338,6 +359,7 @@
                                 <a
                                   href="soft-vs-hard-line-wrapping.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -361,6 +383,7 @@
                                 <a
                                   href="encodings.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -384,6 +407,7 @@
                                 <a
                                   href="hidden.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -406,10 +430,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="general-computer-science.html">General Computer Science</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="cpu-ram-hdd-ssd-gpu.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -434,6 +459,7 @@
                                 <a
                                   href="sleep-vs-hibernate.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -457,10 +483,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="information-sources.html">Information sources</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="w3c-vs-w3schools-vs-references.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -485,6 +512,7 @@
                                 <a
                                   href="caniusecom.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -509,6 +537,7 @@
                                 <a
                                   href="advanced-searching-for-information.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -532,10 +561,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="networking.html">Networking</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="dns.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -560,6 +590,7 @@
                                 <a
                                   href="file-transfer-via-http.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -584,6 +615,7 @@
                                 <a
                                   href="client-and-server.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -608,6 +640,7 @@
                                 <a
                                   href="ip-address.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -632,6 +665,7 @@
                                 <a
                                   href="domains.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -656,6 +690,7 @@
                                 <a
                                   href="protocols.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -680,6 +715,7 @@
                                 <a
                                   href="url.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -704,6 +740,7 @@
                                 <a
                                   href="web-browser.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -727,10 +764,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="text-editor.html">Text Editor</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="basic-text-editing-using-keyboard.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -755,6 +793,7 @@
                                 <a
                                   href="text-editor-control-using-keyboard.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -778,6 +817,7 @@
                                 <a
                                   href="working-with-text-in-a-text-editor.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -801,6 +841,7 @@
                                 <a
                                   href="working-with-projects.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -825,12 +866,13 @@
                           </div>
                 </div>
               <p class="h3 mt-5 display-4"><a href="css.html">CSS</a></p>
-                <div class="list-group mt-2">
+                <div class="skill-group list-group mt-2">
                         <p class="h4 mt-4"><a href="architecture.html">Architecture</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="bem-basics.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -855,6 +897,7 @@
                                 <a
                                   href="oocss-basics.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -878,10 +921,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="css-properties.html">CSS Properties</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="color.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -906,6 +950,7 @@
                                 <a
                                   href="background-color.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -930,6 +975,7 @@
                                 <a
                                   href="background-image-background-repeat-background-position.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -954,6 +1000,7 @@
                                 <a
                                   href="background-size.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -978,6 +1025,7 @@
                                 <a
                                   href="multiple-backgrounds.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1002,6 +1050,7 @@
                                 <a
                                   href="generated-images-gradients.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1026,6 +1075,7 @@
                                 <a
                                   href="font-size.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1050,6 +1100,7 @@
                                 <a
                                   href="font-style-italic-font-style-normal.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1074,6 +1125,7 @@
                                 <a
                                   href="font-style-oblique.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1098,6 +1150,7 @@
                                 <a
                                   href="font-variant-small-caps.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1122,6 +1175,7 @@
                                 <a
                                   href="font-display.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1146,6 +1200,7 @@
                                 <a
                                   href="font-weight.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1170,6 +1225,7 @@
                                 <a
                                   href="font-family-including-fallbacks.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1194,6 +1250,7 @@
                                 <a
                                   href="line-height.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1218,6 +1275,7 @@
                                 <a
                                   href="text-align.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1242,6 +1300,7 @@
                                 <a
                                   href="text-decoration.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1266,6 +1325,7 @@
                                 <a
                                   href="padding.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1290,6 +1350,7 @@
                                 <a
                                   href="border.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1314,6 +1375,7 @@
                                 <a
                                   href="border-style.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1338,6 +1400,7 @@
                                 <a
                                   href="margin.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1362,6 +1425,7 @@
                                 <a
                                   href="width.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1386,6 +1450,7 @@
                                 <a
                                   href="max-width-min-width.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1410,6 +1475,7 @@
                                 <a
                                   href="height.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1434,6 +1500,7 @@
                                 <a
                                   href="max-height-min-height.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1458,6 +1525,7 @@
                                 <a
                                   href="overflow.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1482,6 +1550,7 @@
                                 <a
                                   href="top-bottom-left-right.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1506,6 +1575,7 @@
                                 <a
                                   href="position-relative-position-static.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1530,6 +1600,7 @@
                                 <a
                                   href="position-absolute.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1554,6 +1625,7 @@
                                 <a
                                   href="position-fixed.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1578,6 +1650,7 @@
                                 <a
                                   href="position-sticky.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1602,6 +1675,7 @@
                                 <a
                                   href="z-index.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1626,6 +1700,7 @@
                                 <a
                                   href="box-sizing.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1650,6 +1725,7 @@
                                 <a
                                   href="content.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1674,6 +1750,7 @@
                                 <a
                                   href="float.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1698,6 +1775,7 @@
                                 <a
                                   href="clear.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1722,6 +1800,7 @@
                                 <a
                                   href="visibility.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1746,6 +1825,7 @@
                                 <a
                                   href="display-none.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1770,6 +1850,7 @@
                                 <a
                                   href="display-block-display-inline-display-inline-block.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1794,6 +1875,7 @@
                                 <a
                                   href="flexible-layout-module-flexbox.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1818,6 +1900,7 @@
                                 <a
                                   href="css-grid.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1842,6 +1925,7 @@
                                 <a
                                   href="css-animations.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1866,6 +1950,7 @@
                                 <a
                                   href="css-transitions.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1890,6 +1975,7 @@
                                 <a
                                   href="box-shadow.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1914,6 +2000,7 @@
                                 <a
                                   href="cursor.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1938,6 +2025,7 @@
                                 <a
                                   href="list-style.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1962,6 +2050,7 @@
                                 <a
                                   href="opacity.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -1986,6 +2075,7 @@
                                 <a
                                   href="outline.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -2010,6 +2100,7 @@
                                 <a
                                   href="table-layout.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -2034,6 +2125,7 @@
                                 <a
                                   href="display-table-table-row-table-cell.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -2058,6 +2150,7 @@
                                 <a
                                   href="text-indent.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -2082,6 +2175,7 @@
                                 <a
                                   href="text-shadow.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -2106,6 +2200,7 @@
                                 <a
                                   href="text-transform.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -2130,6 +2225,7 @@
                                 <a
                                   href="transform.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -2154,6 +2250,7 @@
                                 <a
                                   href="vertical-align.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -2178,6 +2275,7 @@
                                 <a
                                   href="white-space.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -2201,10 +2299,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="css-units.html">CSS Units</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="best-practices.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -2228,6 +2327,7 @@
                                 <a
                                   href="unitless.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2251,6 +2351,7 @@
                                 <a
                                   href=".html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2274,6 +2375,7 @@
                                 <a
                                   href="px.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2297,6 +2399,7 @@
                                 <a
                                   href="em-rem.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2320,6 +2423,7 @@
                                 <a
                                   href="color-values-named.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2343,6 +2447,7 @@
                                 <a
                                   href="color-values-hex-rrggbbaa.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2366,6 +2471,7 @@
                                 <a
                                   href="color-values-rgb.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2389,6 +2495,7 @@
                                 <a
                                   href="color-values-rgba.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2412,6 +2519,7 @@
                                 <a
                                   href="color-values-hsl-hsla.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2434,10 +2542,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="css-values.html">CSS Values</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="inherit.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -2461,6 +2570,7 @@
                                 <a
                                   href="initial.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -2484,6 +2594,7 @@
                                 <a
                                   href="all.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -2506,10 +2617,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="general.html">General</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="basic-css-syntax.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2534,6 +2646,7 @@
                                 <a
                                   href="inline-css-style-attribute.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2557,6 +2670,7 @@
                                 <a
                                   href="style-tag.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2580,6 +2694,7 @@
                                 <a
                                   href="connecting-with-html-linking.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2603,6 +2718,7 @@
                                 <a
                                   href="inheritance.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -2627,6 +2743,7 @@
                                 <a
                                   href="css-reset-and-normalizecss-user-agent-styles.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -2649,10 +2766,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="print-css.html">Print CSS</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="overview1.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2676,6 +2794,7 @@
                                 <a
                                   href="page.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2699,6 +2818,7 @@
                                 <a
                                   href="size.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2722,6 +2842,7 @@
                                 <a
                                   href="margin-cm-units-in-page.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2745,6 +2866,7 @@
                                 <a
                                   href="show-links-targets-in-print-content-attrhref.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2769,6 +2891,7 @@
                                 <a
                                   href="page-break-inside-all.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2792,6 +2915,7 @@
                                 <a
                                   href="page-break-after-page-break-before-always-avoid-auto.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2815,6 +2939,7 @@
                                 <a
                                   href="widows.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2838,6 +2963,7 @@
                                 <a
                                   href="orphans.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2861,6 +2987,7 @@
                                 <a
                                   href="page-margin-box.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2885,6 +3012,7 @@
                                 <a
                                   href="page-first-left-right.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2909,6 +3037,7 @@
                                 <a
                                   href="marks.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2933,6 +3062,7 @@
                                 <a
                                   href="bleed.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -2956,10 +3086,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="pseudo-classes.html">Pseudo Classes</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="link-related-active-visited-hover-focus-link.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -2984,6 +3115,7 @@
                                 <a
                                   href="first-child-last-child-only-child.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3008,6 +3140,7 @@
                                 <a
                                   href="first-of-type-last-of-type-only-of-type.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3032,6 +3165,7 @@
                                 <a
                                   href="nth-child-nth-last-child.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3056,6 +3190,7 @@
                                 <a
                                   href="nth-of-type-nth-last-of-type.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3080,6 +3215,7 @@
                                 <a
                                   href="not.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3104,6 +3240,7 @@
                                 <a
                                   href="root.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3128,6 +3265,7 @@
                                 <a
                                   href="lang.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3152,6 +3290,7 @@
                                 <a
                                   href="forms-related-pseudo-classes-checked-required-valid-invalid-enabled-disabled.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3176,6 +3315,7 @@
                                 <a
                                   href="target.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3200,6 +3340,7 @@
                                 <a
                                   href="in-range-out-of-range.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3224,6 +3365,7 @@
                                 <a
                                   href="read-only-read-write.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3248,6 +3390,7 @@
                                 <a
                                   href="optional.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3272,6 +3415,7 @@
                                 <a
                                   href="default.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3296,6 +3440,7 @@
                                 <a
                                   href="indeterminate.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3320,6 +3465,7 @@
                                 <a
                                   href="empty.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3344,6 +3490,7 @@
                                 <a
                                   href="page-related-first-left-right.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3367,10 +3514,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="pseudo-elements.html">Pseudo Elements</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="after-before.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3395,6 +3543,7 @@
                                 <a
                                   href="placeholder.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3420,6 +3569,7 @@
                                 <a
                                   href="selection.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3445,6 +3595,7 @@
                                 <a
                                   href="first-letter.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3470,6 +3621,7 @@
                                 <a
                                   href="first-line.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3494,10 +3646,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="sass.html">Sass</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="basic-principles-sass-vs-scss.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3522,6 +3675,7 @@
                                 <a
                                   href="import-also-partials.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -3546,6 +3700,7 @@
                                 <a
                                   href="comments.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -3570,6 +3725,7 @@
                                 <a
                                   href="media-queries.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -3594,6 +3750,7 @@
                                 <a
                                   href="variables.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3618,6 +3775,7 @@
                                 <a
                                   href="nesting-parent-reference-and.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3642,6 +3800,7 @@
                                 <a
                                   href="sassscript-calculations.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -3666,6 +3825,7 @@
                                 <a
                                   href="sourcemaps.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -3690,6 +3850,7 @@
                                 <a
                                   href="built-in-functions-mainly-color.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -3714,6 +3875,7 @@
                                 <a
                                   href="default1.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -3738,6 +3900,7 @@
                                 <a
                                   href="global.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -3762,6 +3925,7 @@
                                 <a
                                   href="datatypes-basic.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3786,6 +3950,7 @@
                                 <a
                                   href="datatypes-lists.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -3810,6 +3975,7 @@
                                 <a
                                   href="datatypes-maps.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -3834,6 +4000,7 @@
                                 <a
                                   href="using-mixins.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3858,6 +4025,7 @@
                                 <a
                                   href="defining-mixins.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -3882,6 +4050,7 @@
                                 <a
                                   href="debug.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -3906,6 +4075,7 @@
                                 <a
                                   href="if.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -3930,6 +4100,7 @@
                                 <a
                                   href="for-each.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -3954,6 +4125,7 @@
                                 <a
                                   href="function.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -3977,10 +4149,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="selectors.html">Selectors</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="type-selectors.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4004,6 +4177,7 @@
                                 <a
                                   href="class-selectors.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4027,6 +4201,7 @@
                                 <a
                                   href="id-selectors.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4050,6 +4225,7 @@
                                 <a
                                   href="descendant-combinator-x-y.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4073,6 +4249,7 @@
                                 <a
                                   href="child-combinator-xy.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4096,6 +4273,7 @@
                                 <a
                                   href="attribute-selectors-ahrefx.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4119,6 +4297,7 @@
                                 <a
                                   href="adjacent-sibling-combinator-xy.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4142,6 +4321,7 @@
                                 <a
                                   href="general-sibling-combinator-x~y.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4165,6 +4345,7 @@
                                 <a
                                   href="selector-specificity.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4188,10 +4369,11 @@
                           </div>
                 </div>
               <p class="h3 mt-5 display-4"><a href="deployment.html">Deployment</a></p>
-                <div class="list-group mt-2">
+                <div class="skill-group list-group mt-2">
                       <a
                         href="overview2.html"
                         class="
+                          skill-item
                           
                           text-info
                           list-group-item
@@ -4216,6 +4398,7 @@
                       <a
                         href="surgesh.html"
                         class="
+                          skill-item
                           
                           
                           list-group-item
@@ -4239,6 +4422,7 @@
                       <a
                         href="ftp.html"
                         class="
+                          skill-item
                           
                           text-info
                           list-group-item
@@ -4262,6 +4446,7 @@
                       <a
                         href="github-pages.html"
                         class="
+                          skill-item
                           
                           
                           list-group-item
@@ -4284,12 +4469,13 @@
                       </a>
                 </div>
               <p class="h3 mt-5 display-4"><a href="design.html">Design</a></p>
-                <div class="list-group mt-2">
+                <div class="skill-group list-group mt-2">
                         <p class="h4 mt-4"><a href="bitmaps.html">Bitmaps</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="bmp.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4314,6 +4500,7 @@
                                 <a
                                   href="gif.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4337,6 +4524,7 @@
                                 <a
                                   href="gif-animated.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4360,6 +4548,7 @@
                                 <a
                                   href="png.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4383,6 +4572,7 @@
                                 <a
                                   href="jpg.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4406,6 +4596,7 @@
                                 <a
                                   href="loosless-vs-lossy-compression.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4429,6 +4620,7 @@
                                 <a
                                   href="webp.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4452,6 +4644,7 @@
                                 <a
                                   href="other-formats.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4475,6 +4668,7 @@
                                 <a
                                   href="favicons.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4498,6 +4692,7 @@
                                 <a
                                   href="bitmaps-size-optimization.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4521,6 +4716,7 @@
                                 <a
                                   href="gif-size-optimization.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4544,6 +4740,7 @@
                                 <a
                                   href="png-size-optimization.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4567,6 +4764,7 @@
                                 <a
                                   href="jpg-size-optimization.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4590,6 +4788,7 @@
                                 <a
                                   href="bitmap-image-resizing.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4612,10 +4811,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="computer-graphics.html">Computer Graphics</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="pixels.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4640,6 +4840,7 @@
                                 <a
                                   href="bitmap-vs-vector.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4664,6 +4865,7 @@
                                 <a
                                   href="antialiasing.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4687,6 +4889,7 @@
                                 <a
                                   href="font-subpixel-antialiasing.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -4709,10 +4912,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="design1.html">Design</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="visual-design.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -4737,6 +4941,7 @@
                                 <a
                                   href="color-theory.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -4760,6 +4965,7 @@
                                 <a
                                   href="ux.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -4784,6 +4990,7 @@
                                 <a
                                   href="typography.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -4807,6 +5014,7 @@
                                 <a
                                   href="content1.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -4830,6 +5038,7 @@
                                 <a
                                   href="corporate-identity.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4853,6 +5062,7 @@
                                 <a
                                   href="scales.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4876,6 +5086,7 @@
                                 <a
                                   href="animation.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -4898,10 +5109,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="responsive-web-design.html">Responsive Web Design</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="overview3.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -4926,6 +5138,7 @@
                                 <a
                                   href="fluid-web.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4949,6 +5162,7 @@
                                 <a
                                   href="mobile-first.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4972,6 +5186,7 @@
                                 <a
                                   href="breakpoints.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -4995,6 +5210,7 @@
                                 <a
                                   href="simple-responsive-images.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -5018,6 +5234,7 @@
                                 <a
                                   href="responsive-images-srcset-sizes.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -5041,6 +5258,7 @@
                                 <a
                                   href="picture.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -5064,6 +5282,7 @@
                                 <a
                                   href="tools.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5087,6 +5306,7 @@
                                 <a
                                   href="picturefilljs.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5109,10 +5329,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="testing.html">Testing</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="need-for-testing.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -5137,6 +5358,7 @@
                                 <a
                                   href="principles-and-manual-testing.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -5160,6 +5382,7 @@
                                 <a
                                   href="browserstack.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -5184,6 +5407,7 @@
                                 <a
                                   href="bug-reporting.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -5208,6 +5432,7 @@
                                 <a
                                   href="automated-testing.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -5231,12 +5456,13 @@
                           </div>
                 </div>
               <p class="h3 mt-5 display-4"><a href="html.html">HTML</a></p>
-                <div class="list-group mt-2">
+                <div class="skill-group list-group mt-2">
                         <p class="h4 mt-4"><a href="accessibility.html">Accessibility</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="aria-roles-overview.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5260,10 +5486,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="basic-structure.html">Basic structure</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="doctype-html-head-body.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5289,10 +5516,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="body.html">Body</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="p.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5317,6 +5545,7 @@
                                 <a
                                   href="a-paths-for-href.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5341,6 +5570,7 @@
                                 <a
                                   href="h1-to-h6.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5365,6 +5595,7 @@
                                 <a
                                   href="div-span.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5389,6 +5620,7 @@
                                 <a
                                   href="img-src-width-height-alt.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5413,6 +5645,7 @@
                                 <a
                                   href="ul-ol-li.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5437,6 +5670,7 @@
                                 <a
                                   href="em.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5461,6 +5695,7 @@
                                 <a
                                   href="i.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5485,6 +5720,7 @@
                                 <a
                                   href="strong.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5509,6 +5745,7 @@
                                 <a
                                   href="b.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5533,6 +5770,7 @@
                                 <a
                                   href="small.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5557,6 +5795,7 @@
                                 <a
                                   href="br.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5581,6 +5820,7 @@
                                 <a
                                   href="main.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5605,6 +5845,7 @@
                                 <a
                                   href="aside.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5629,6 +5870,7 @@
                                 <a
                                   href="header.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5653,6 +5895,7 @@
                                 <a
                                   href="footer.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5677,6 +5920,7 @@
                                 <a
                                   href="nav.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5701,6 +5945,7 @@
                                 <a
                                   href="section.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5725,6 +5970,7 @@
                                 <a
                                   href="article.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5749,6 +5995,7 @@
                                 <a
                                   href="iframe.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5773,6 +6020,7 @@
                                 <a
                                   href="table-tr-th-td-tbody.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5797,6 +6045,7 @@
                                 <a
                                   href="form-input-textarea-label-select-option-button.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5821,6 +6070,7 @@
                                 <a
                                   href="fieldset-legend-optgroup.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5845,6 +6095,7 @@
                                 <a
                                   href="a-tabindex.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5869,6 +6120,7 @@
                                 <a
                                   href="picture-source.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5893,6 +6145,7 @@
                                 <a
                                   href="noscript.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5917,6 +6170,7 @@
                                 <a
                                   href="tfoot-thead-col-colgroup-caption.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5941,6 +6195,7 @@
                                 <a
                                   href="map-img-usemap.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5965,6 +6220,7 @@
                                 <a
                                   href="dl-dt-dd.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -5989,6 +6245,7 @@
                                 <a
                                   href="hgroup-figcaption-figure-menu-menuitem-meter-progress-time.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6013,6 +6270,7 @@
                                 <a
                                   href="pre.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6037,6 +6295,7 @@
                                 <a
                                   href="blockquote.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6061,6 +6320,7 @@
                                 <a
                                   href="sub-sup.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6085,6 +6345,7 @@
                                 <a
                                   href="code.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6109,6 +6370,7 @@
                                 <a
                                   href="del.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6133,6 +6395,7 @@
                                 <a
                                   href="embed.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6157,6 +6420,7 @@
                                 <a
                                   href="hr.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6181,6 +6445,7 @@
                                 <a
                                   href="ins.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6205,6 +6470,7 @@
                                 <a
                                   href="kbd.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6229,6 +6495,7 @@
                                 <a
                                   href="mark.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6253,6 +6520,7 @@
                                 <a
                                   href="object-param.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6277,6 +6545,7 @@
                                 <a
                                   href="output.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6301,6 +6570,7 @@
                                 <a
                                   href="samp.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6325,6 +6595,7 @@
                                 <a
                                   href="u.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6349,6 +6620,7 @@
                                 <a
                                   href="var.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6373,6 +6645,7 @@
                                 <a
                                   href="q.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6397,6 +6670,7 @@
                                 <a
                                   href="s.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6421,6 +6695,7 @@
                                 <a
                                   href="wbr.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6445,6 +6720,7 @@
                                 <a
                                   href="video-audio.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6468,10 +6744,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="head.html">Head</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="title.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6497,6 +6774,7 @@
                                 <a
                                   href="link.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6521,6 +6799,7 @@
                                 <a
                                   href="meta-description.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6545,6 +6824,7 @@
                                 <a
                                   href="favicons1.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6568,10 +6848,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="other.html">Other</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="microdata-httpschemaorg.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6596,10 +6877,11 @@
                           </div>
                 </div>
               <p class="h3 mt-5 display-4"><a href="law.html">Law</a></p>
-                <div class="list-group mt-2">
+                <div class="skill-group list-group mt-2">
                       <a
                         href="copyright-law-as-an-author.html"
                         class="
+                          skill-item
                           
                           text-info
                           list-group-item
@@ -6624,6 +6906,7 @@
                       <a
                         href="copyright-law-as-an-user.html"
                         class="
+                          skill-item
                           
                           text-info
                           list-group-item
@@ -6648,6 +6931,7 @@
                       <a
                         href="privacy-protection-laws.html"
                         class="
+                          skill-item
                           
                           text-info
                           list-group-item
@@ -6672,6 +6956,7 @@
                       <a
                         href="liability.html"
                         class="
+                          skill-item
                           
                           text-info
                           list-group-item
@@ -6695,12 +6980,13 @@
                       </a>
                 </div>
               <p class="h3 mt-5 display-4"><a href="other1.html">Other</a></p>
-                <div class="list-group mt-2">
+                <div class="skill-group list-group mt-2">
                         <p class="h4 mt-4"><a href="automation.html">Automation</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="npm-scripts.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6725,6 +7011,7 @@
                                 <a
                                   href="browsersync.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6748,6 +7035,7 @@
                                 <a
                                   href="gulp.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6771,6 +7059,7 @@
                                 <a
                                   href="postcss-autoprefixer.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6793,10 +7082,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="code-editing.html">Code Editing</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="overview4.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -6821,6 +7111,7 @@
                                 <a
                                   href="working-with-text-clipboard-operations-navigating-selecting-changing.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6844,6 +7135,7 @@
                                 <a
                                   href="code-editor-installation.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6867,6 +7159,7 @@
                                 <a
                                   href="projects.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -6890,6 +7183,7 @@
                                 <a
                                   href="basic-editing-copy-cut-paste-lines-indenting-including-difference-between-tabs-and-spaces.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -6913,6 +7207,7 @@
                                 <a
                                   href="multiple-selections.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6936,6 +7231,7 @@
                                 <a
                                   href="intellisense.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6959,6 +7255,7 @@
                                 <a
                                   href="emmet.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -6982,6 +7279,7 @@
                                 <a
                                   href="search-and-replace.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7005,6 +7303,7 @@
                                 <a
                                   href="extensionsplugins-installation.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7028,6 +7327,7 @@
                                 <a
                                   href="autoindent-andor-beautify.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7050,10 +7350,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="dev-tools.html">Dev Tools</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="overview5.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -7078,6 +7379,7 @@
                                 <a
                                   href="elements-html-css.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -7101,6 +7403,7 @@
                                 <a
                                   href="console.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -7124,6 +7427,7 @@
                                 <a
                                   href="network.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -7147,6 +7451,7 @@
                                 <a
                                   href="sources.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -7169,10 +7474,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="regular-expressions.html">Regular Expressions</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="overview6.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7196,6 +7502,7 @@
                                 <a
                                   href="finding-and-replacing.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -7219,6 +7526,7 @@
                                 <a
                                   href="online-tools-to-test.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7242,6 +7550,7 @@
                                 <a
                                   href="capture-groups-and-replacing-dollar1.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -7264,10 +7573,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="seo.html">SEO</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="overview-goals-on-and-off-page-factors.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -7292,6 +7602,7 @@
                                 <a
                                   href="html-semantics.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -7315,6 +7626,7 @@
                                 <a
                                   href="javascript-and-seo.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -7339,6 +7651,7 @@
                                 <a
                                   href="rich-snippets.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -7362,6 +7675,7 @@
                                 <a
                                   href="off-page-factors-linking.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -7385,6 +7699,7 @@
                                 <a
                                   href="sitemapxml.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -7408,6 +7723,7 @@
                                 <a
                                   href="robotstxt.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -7431,6 +7747,7 @@
                                 <a
                                   href="advanced-seo.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7455,10 +7772,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="social-media.html">Social Media</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="facebook-open-graph.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7483,6 +7801,7 @@
                                 <a
                                   href="twitter-cards.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7505,10 +7824,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="templates.html">Templates</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="overview7.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7532,6 +7852,7 @@
                                 <a
                                   href="variables-syntax-syntaxname.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7555,6 +7876,7 @@
                                 <a
                                   href="comments1.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7578,6 +7900,7 @@
                                 <a
                                   href="include.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7601,6 +7924,7 @@
                                 <a
                                   href="include-paramfoo-with-parameters.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7624,6 +7948,7 @@
                                 <a
                                   href="for.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7647,6 +7972,7 @@
                                 <a
                                   href="block.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7670,6 +7996,7 @@
                                 <a
                                   href="extends.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7693,6 +8020,7 @@
                                 <a
                                   href="parent.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7716,6 +8044,7 @@
                                 <a
                                   href="filters.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7738,10 +8067,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="tools1.html">Tools</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="checklists.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7765,10 +8095,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="twitter-bootstrap.html">Twitter Bootstrap</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="overview8.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7792,6 +8123,7 @@
                                 <a
                                   href="basic-usage-link-to-cdn-html-structure.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7815,6 +8147,7 @@
                                 <a
                                   href="grid.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7838,6 +8171,7 @@
                                 <a
                                   href="components-nav.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7861,6 +8195,7 @@
                                 <a
                                   href="components-navbar.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7884,6 +8219,7 @@
                                 <a
                                   href="components-card.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7907,6 +8243,7 @@
                                 <a
                                   href="customization-utility-classes.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7930,6 +8267,7 @@
                                 <a
                                   href="customization-variables.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7953,6 +8291,7 @@
                                 <a
                                   href="customization-own-css.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7976,6 +8315,7 @@
                                 <a
                                   href="customization-removing-modules.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -7999,6 +8339,7 @@
                                 <a
                                   href="bootstrap-javascript-via-data-attributes.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -8022,6 +8363,7 @@
                                 <a
                                   href="bootstrap-javascript-via-js.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -8045,12 +8387,13 @@
                           </div>
                 </div>
               <p class="h3 mt-5 display-4"><a href="projects1.html">Projects</a></p>
-                <div class="list-group mt-2">
+                <div class="skill-group list-group mt-2">
                         <p class="h4 mt-4"><a href="01-one-page.html">01 One Page</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="build-a-one-page-website.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -8074,10 +8417,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="02-generic-hipster-coffee.html">02 Generic Hipster Coffee</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="build-generic-hipster-coffee-website.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -8101,10 +8445,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="03-a-task-on-classic-stack.html">03 A task on classic stack</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="on-classic-stack-fix-a-bug-or-code-a-new-feature.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -8128,10 +8473,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="04-mailing.html">04 Mailing</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="create-a-template-for-html-e-mail-used-for-mass-mailing.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -8155,10 +8501,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="05-application.html">05 Application</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="build-a-small-javascript-application.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -8183,12 +8530,13 @@
                           </div>
                 </div>
               <p class="h3 mt-5 display-4"><a href="svg1.html">SVG</a></p>
-                <div class="list-group mt-2">
+                <div class="skill-group list-group mt-2">
                         <p class="h4 mt-4"><a href="basic-shapes.html">Basic Shapes</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="line.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -8213,6 +8561,7 @@
                                 <a
                                   href="rect.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -8237,6 +8586,7 @@
                                 <a
                                   href="circle.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -8261,6 +8611,7 @@
                                 <a
                                   href="ellipse.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -8285,6 +8636,7 @@
                                 <a
                                   href="polygon.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -8309,6 +8661,7 @@
                                 <a
                                   href="polyline.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -8333,6 +8686,7 @@
                                 <a
                                   href="a.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -8356,10 +8710,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="container-elements.html">Container Elements</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="svg.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -8385,6 +8740,7 @@
                                 <a
                                   href="g.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -8409,6 +8765,7 @@
                                 <a
                                   href="defs.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -8432,10 +8789,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="inkscape.html">Inkscape</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="overview9.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -8459,6 +8817,7 @@
                                 <a
                                   href="inkscape-svg-v-svg.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -8482,6 +8841,7 @@
                                 <a
                                   href="moving-rotating-and-scaling-objects-keyboard-mouse-and-number-inputs.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -8505,6 +8865,7 @@
                                 <a
                                   href="setting-fills-and-outlines.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -8528,6 +8889,7 @@
                                 <a
                                   href="stacking-order.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -8551,6 +8913,7 @@
                                 <a
                                   href="changing-nodes-bezier-curves.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -8574,6 +8937,7 @@
                                 <a
                                   href="groups.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -8597,6 +8961,7 @@
                                 <a
                                   href="snaping-objects-grid.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -8620,6 +8985,7 @@
                                 <a
                                   href="document-setup.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -8643,6 +9009,7 @@
                                 <a
                                   href="paths-vs-objects.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -8666,6 +9033,7 @@
                                 <a
                                   href="converting-text-to-path.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -8689,6 +9057,7 @@
                                 <a
                                   href="duplicating-objects.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -8712,6 +9081,7 @@
                                 <a
                                   href="aligning.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -8735,6 +9105,7 @@
                                 <a
                                   href="keyboard-shortcuts.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -8758,6 +9129,7 @@
                                 <a
                                   href="layers.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -8781,6 +9153,7 @@
                                 <a
                                   href="using-color-picker.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -8805,6 +9178,7 @@
                                 <a
                                   href="vectorization.html"
                                   class="
+                                    skill-item
                                     
                                     text-info
                                     list-group-item
@@ -8828,10 +9202,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="tools2.html">Tools</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="svgo.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -8855,10 +9230,11 @@
                           </div>
                 </div>
               <p class="h3 mt-5 display-4"><a href="speed-optimization.html">Speed optimization</a></p>
-                <div class="list-group mt-2">
+                <div class="skill-group list-group mt-2">
                       <a
                         href="why.html"
                         class="
+                          skill-item
                           
                           text-info
                           list-group-item
@@ -8883,6 +9259,7 @@
                       <a
                         href="percieved-vs-real-speed.html"
                         class="
+                          skill-item
                           
                           text-info
                           list-group-item
@@ -8906,6 +9283,7 @@
                       <a
                         href="internet-connection-speeds.html"
                         class="
+                          skill-item
                           
                           text-info
                           list-group-item
@@ -8929,6 +9307,7 @@
                       <a
                         href="http-file-transfer.html"
                         class="
+                          skill-item
                           
                           text-info
                           list-group-item
@@ -8952,6 +9331,7 @@
                       <a
                         href="strategies.html"
                         class="
+                          skill-item
                           
                           text-info
                           list-group-item
@@ -8975,6 +9355,7 @@
                       <a
                         href="optimizing-css.html"
                         class="
+                          skill-item
                           
                           text-info
                           list-group-item
@@ -8998,6 +9379,7 @@
                       <a
                         href="optimizing-javascript.html"
                         class="
+                          skill-item
                           
                           text-info
                           list-group-item
@@ -9021,6 +9403,7 @@
                       <a
                         href="optimizing-svg.html"
                         class="
+                          skill-item
                           
                           
                           list-group-item
@@ -9044,6 +9427,7 @@
                       <a
                         href="blocking-and-non-blocking-assets.html"
                         class="
+                          skill-item
                           
                           text-info
                           list-group-item
@@ -9067,6 +9451,7 @@
                       <a
                         href="lazy-loading.html"
                         class="
+                          skill-item
                           
                           text-info
                           list-group-item
@@ -9089,12 +9474,13 @@
                       </a>
                 </div>
               <p class="h3 mt-5 display-4"><a href="version-control.html">Version control</a></p>
-                <div class="list-group mt-2">
+                <div class="skill-group list-group mt-2">
                         <p class="h4 mt-4"><a href="git.html">Git</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="overviewa.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9121,6 +9507,7 @@
                                 <a
                                   href="installation.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9146,6 +9533,7 @@
                                 <a
                                   href="init.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9171,6 +9559,7 @@
                                 <a
                                   href="clone.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9196,6 +9585,7 @@
                                 <a
                                   href="pull.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9221,6 +9611,7 @@
                                 <a
                                   href="status.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9246,6 +9637,7 @@
                                 <a
                                   href="diff.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9271,6 +9663,7 @@
                                 <a
                                   href="add.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9296,6 +9689,7 @@
                                 <a
                                   href="reset.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9321,6 +9715,7 @@
                                 <a
                                   href="commit.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9346,6 +9741,7 @@
                                 <a
                                   href="log.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9371,6 +9767,7 @@
                                 <a
                                   href="push.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9396,6 +9793,7 @@
                                 <a
                                   href="gitignore.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9421,6 +9819,7 @@
                                 <a
                                   href="checkout-as-tool-to-revert-files-to-commited-state.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9446,6 +9845,7 @@
                                 <a
                                   href="branch-add.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9471,6 +9871,7 @@
                                 <a
                                   href="branch-list.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9496,6 +9897,7 @@
                                 <a
                                   href="checkout.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9521,6 +9923,7 @@
                                 <a
                                   href="merge.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9546,6 +9949,7 @@
                                 <a
                                   href="branch-d.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9571,6 +9975,7 @@
                                 <a
                                   href="branching-strategies-gitflow.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9596,6 +10001,7 @@
                                 <a
                                   href="stash.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9621,6 +10027,7 @@
                                 <a
                                   href="conflicts.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9646,6 +10053,7 @@
                                 <a
                                   href="revert.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9671,6 +10079,7 @@
                                 <a
                                   href="rebase.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9696,6 +10105,7 @@
                                 <a
                                   href="config.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9721,6 +10131,7 @@
                                 <a
                                   href="aliases.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9746,6 +10157,7 @@
                                 <a
                                   href="gitkeep.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9770,6 +10182,7 @@
                                 <a
                                   href="other-git-resources.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9793,10 +10206,11 @@
                                 </a>
                           </div>
                         <p class="h4 mt-4"><a href="github-and-gitlab.html">Github &amp; Gitlab</a></p>
-                          <div class="list-group mt-2">
+                          <div class="skill-group list-group mt-2">
                                 <a
                                   href="set-up-an-account.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9822,6 +10236,7 @@
                                 <a
                                   href="set-up-a-repository.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9846,6 +10261,7 @@
                                 <a
                                   href="merge-pull-request.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9870,6 +10286,7 @@
                                 <a
                                   href="gist.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9894,6 +10311,7 @@
                                 <a
                                   href="readmemd.html"
                                   class="
+                                    skill-item
                                     
                                     
                                     list-group-item
@@ -9919,5 +10337,6 @@
                 </div>
       </main>
       <script src="firebase.js"></script>
+      <script src="filter.js"></script>
     </body>
   </html>
