@@ -25,6 +25,31 @@ level: 3
 
 ---
 
+skill: Feature detection
+level: 4
+
+---
+
+skill: Modernizr
+level: 4
+
+requires:
+  - Feature detection
+
+resources:
+  - url: https://modernizr.com/
+
+---
+
+skill: Polyfills
+level: 4
+
+#requires:
+#  - JavaScript // 
+#  - CSS // 
+
+---
+
 skill: Composition vs. Inheritance
 level: 4
 

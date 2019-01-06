@@ -47,13 +47,23 @@ resources:
 
 ---
 
+skill: Markdown
+level: 4
+
+#requires:
+#  - HTML // …
+
+---
+
 skill: README.md
 level: 5
 
 requires:
   - Set up an account
+  - Markdown
 
 resources:
   - url: https://www.makeareadme.com/
+
 
 
