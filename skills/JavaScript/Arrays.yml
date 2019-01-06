@@ -53,7 +53,7 @@ resources:
 skill: length property
 
 requires:
-  - Principles
+  - Creating
 
 resources:
     - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/array-length
