@@ -1,0 +1,149 @@
+---
+
+skill: Principles
+
+requires:
+  - JavaScript // Basics // Overview
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays
+    
+---
+
+skill: Creating
+
+requires:
+  - Principles
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/create-an-array
+
+---
+
+skill: Accessing items
+
+requires:
+  - Creating
+
+resources:
+    - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/property-access
+
+---
+
+skill: Updating items
+
+requires:
+  - Accessing items
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/update-elements
+
+---
+
+skill: let vs. const with arrays
+
+requires:
+  - Creating
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/let-const-arrays
+
+---
+
+skill: length property
+
+requires:
+  - Principles
+
+resources:
+    - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/array-length
+
+---
+
+skill: push()
+
+requires:
+  - Creating
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/push-and-pop
+
+---
+
+skill: pop()
+
+requires:
+  - Creating
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/pop
+
+---
+
+skill: join()
+
+requires:
+  - Creating
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/more-array-methods
+
+---
+
+skill: slice()
+
+requires:
+  - Creating
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/more-array-methods
+
+---
+
+skill: splice()
+
+requires:
+  - Creating
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/more-array-methods
+
+---
+
+skill: shift()
+
+requires:
+  - Creating
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/more-array-methods
+
+---
+
+skill: unshift()
+
+requires:
+  - Creating
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/more-array-methods
+
+---
+
+skill: concat()
+
+requires:
+  - Creating
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/more-array-methods
+   
+---
+
+skill: Nested Arrays
+
+requires:
+  - Creating
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/nested-arrays
