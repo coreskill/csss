@@ -64,3 +64,18 @@ level: 4
 
 requires:
   - Web browser
+
+---
+
+skill: Cookies
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie
+
+---
+
+skill: Web Storage
+
+resourceS:
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
