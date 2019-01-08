@@ -10,7 +10,7 @@ requires:
   - General // Basic CSS Syntax
   #- Box model 
   - unitless
-  - "%"
+  - "percent (%)"
   - px
   - em, rem
 
@@ -23,7 +23,7 @@ requires:
 
 ---
 
-skill: "%"
+skill: "percent (%)"
 
 requires:
   - General // Basic CSS Syntax
