@@ -9,14 +9,15 @@
     d-flex
     justify-content-between
     align-items-center
+    py-1 pl-0 pr-2
   "
 >
   <span>
     {{#if skill}}
-      <span class="indicator" data-slug="{{slug}}">
+      <span class="indicator text-center p-1" data-slug="{{slug}}">
         <span class="done">✔️</span>
-        <span class="star">⭐</span>
-        <span class="not-done">❔</span>
+        <span class="star">⭐️</span>
+        <span class="not-done">❔️</span>
       </span>
     {{/if}}
     {{#ifCategoriesNotEqual categories compareCategories}}
