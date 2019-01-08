@@ -21,6 +21,11 @@
 
 .indicator {
   cursor: pointer;
+  min-width: 3ch;
+
+}
+
+.indicator-list {
   min-width: 5ch;
 }
 
