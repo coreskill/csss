@@ -16,9 +16,15 @@
 .logged-in .logout,
 .logged-in .filter-group,
 .admin .user-select {
-  display: initial;
+  display: inline-block;
 }
 
 .indicator {
   cursor: pointer;
+  min-width: 5ch;
+}
+
+.indicator:hover,
+.indicator:focus {
+  background-color: #d4d4d4;
 }
