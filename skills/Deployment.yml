@@ -28,3 +28,13 @@ requires:
 
 resources:
   - url: https://pages.github.com/
+
+---
+
+skill: Netlify
+
+requires:
+  - Overview
+
+resources:
+  - url: https://www.netlify.com/
