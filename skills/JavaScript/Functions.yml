@@ -1,0 +1,71 @@
+---
+
+skill: Principles
+
+requires:
+  - Basics // Overview
+    
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/intro-to-functions
+
+---
+
+skill: Declarations
+
+requires: 
+  - Principles
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/function-declaration
+
+---
+
+skill: Calling functions
+
+requires: 
+  - Principles
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/functions
+
+---
+
+skill: Parameters and Arguments
+
+requires:
+  - Principles
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/parameters
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/default-parameters
+
+---
+
+skill: Return
+
+requires:
+  - Principles
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/return
+
+---
+
+skill: Expressions (anonymous functions)
+
+requires:
+  - Principles
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/function-expressions
+
+---
+
+skill: Arrow functions (one parameter, implicit return)
+
+requires:
+  - Principles
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/arrow-functions
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/concise-body-arrow
