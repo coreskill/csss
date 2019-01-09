@@ -1,0 +1,39 @@
+---
+
+skill: Overview
+
+requires:
+  - Variables // Overview
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/scope/exercises/scope
+
+---
+
+skill: Blocks and Scope
+
+requires:
+  - Overview
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/scope/exercises/block-scope-iii
+
+---
+
+skill: Global Scope
+
+requires:
+  - Overview
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/scope/exercises/global-scope
+
+---
+
+skill: Block Scope
+
+requires:
+  - Overview
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/scope/exercises/block-scope
