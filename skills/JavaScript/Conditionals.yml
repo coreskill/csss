@@ -15,7 +15,7 @@ resources:
 ---
 
 skill: Comparison Operators
-  
+
 text: <, >, <=, >=, ==, ===, !=, !==
 
 requires:
@@ -27,7 +27,7 @@ resources:
 ---
 
 skill: Logical operators
-  
+
 text: "&&, ||"
 
 requires:

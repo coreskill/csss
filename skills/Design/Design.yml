@@ -17,7 +17,7 @@ resources:
 
 requires:
   - Visual Design
-  
+
 ---
 
 skill: UX
@@ -28,7 +28,6 @@ resources:
   - url: http://www.jjg.net/elements/pdf/elements.pdf
   - url: http://www.jjg.net/elements/pdf/elements_simpleplanes.pdf
 
-    
 text: Usability, Elements of User Experience, 
 
 ---
@@ -37,7 +36,7 @@ skill: Typography
 
 requires:
   - Visual Design
-  
+
 resources: 
   - url: https://ebooks.webflow.com/chapter/web-typography-101
   - url: https://iamsteve.me/blog/entry/type-scale-line-height-lengths
@@ -48,7 +47,7 @@ skill: Content
 
 requires:
   - Visual Design
-  
+
 resources: 
   - url: https://ebooks.webflow.com/chapter/why-your-design-process-should-start-with-content
 

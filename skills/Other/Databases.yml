@@ -17,7 +17,7 @@ skill: CRUD via client (Adminer/PHPMyAdmin)
 
 requires:
   - Relational database
-       
+
 ---
 
 skill: noSQL

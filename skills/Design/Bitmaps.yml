@@ -29,7 +29,7 @@ skill: PNG
 requires:
   - BMP
   - GIF
-  
+
 ---
 
 skill: JPG
@@ -49,7 +49,7 @@ requires:
 ---
 
 skill: WebP
-  
+
 requires:
   - GIF
   - PNG

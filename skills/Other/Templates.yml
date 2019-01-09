@@ -44,7 +44,7 @@ skill: "{% include param='foo' %} (with parameters)"
 
 requires:
   - Overview
-  
+
 resources: 
   - url: https://twig.symfony.com/doc/2.x/templates.html
 

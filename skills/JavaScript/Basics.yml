@@ -11,7 +11,7 @@ skill: Console
 
 requires: 
   - Overview
-    
+
 resources:
   - url: https://www.codecademy.com/learn/introduction-to-javascript
 ---
@@ -22,7 +22,7 @@ text: Strings, Numbers, Booleans, Null
 
 requires: 
   - Overview
-    
+
 resources:
   - url: https://www.codecademy.com/learn/introduction-to-javascript
 ---
@@ -33,7 +33,7 @@ text: +, -, *, /
 
 requires: 
   - Overview
-    
+
 resources:
   - url: https://www.codecademy.com/learn/introduction-to-javascript
 ---
@@ -44,7 +44,7 @@ text: principle, instances, length (example)
 
 requires: 
   - Overview
-    
+
 resources:
   - url: https://www.codecademy.com/learn/introduction-to-javascript
 ---
@@ -55,7 +55,7 @@ text: principle and examples (toUpperCase(), toLowerCase(), trim())
 
 requires: 
   - Overview
-    
+
 resources:
   - url: https://www.codecademy.com/learn/introduction-to-javascript
 ---
@@ -66,7 +66,7 @@ text: Math, Number (random(), floor(), ceil(), isInteger())
 
 requires: 
   - Overview
-    
+
 resources:
   - url: https://www.codecademy.com/learn/introduction-to-javascript
 ---
@@ -77,6 +77,6 @@ text: line and block
 
 requires: 
   - Overview
-    
+
 resources:
   - url: https://www.codecademy.com/learn/introduction-to-javascript

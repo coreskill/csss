@@ -4,7 +4,7 @@ skill: Principles
 
 requires:
   - Basics // Overview
-    
+
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/intro-to-functions
 

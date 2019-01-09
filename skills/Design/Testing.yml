@@ -12,11 +12,11 @@ skill: Principles and manual testing
 
 requires: 
   - Need for testing
-    
+
 ---
 
 skill: Browserstack
-    
+
 ---
 
 skill: Bug reporting

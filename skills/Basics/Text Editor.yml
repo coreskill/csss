@@ -15,7 +15,7 @@ text: |
 
   * use the same cursor movements to also select a text
   * select all
-  
+
 ---
 
 skill: Text Editor control using keyboard
@@ -31,7 +31,6 @@ text: |
   * Open file
   * Switch beetween opened files
   * Invoke search/replace
-
 
 ---
 

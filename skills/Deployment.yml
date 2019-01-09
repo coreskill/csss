@@ -8,7 +8,7 @@ skill: surge.sh
 
 requires:
   - Overview
-  
+
 resources:
   - url: surge.sh
 

@@ -54,7 +54,7 @@ skill: Optimizing SVG
 
 requires:
   - Strategies
-  
+
 resources:
   - url: https://github.com/svg/svgo
     desc: Optimizer is a Nodejs-based tool for optimizing SVG vector graphics files.

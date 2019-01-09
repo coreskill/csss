@@ -8,7 +8,7 @@ requires:
 resources:
   - url: https://regexone.com/
   - url: https://www.smashingmagazine.com/2009/06/essential-guide-to-regular-expressions-tools-tutorials-and-resources/
-      
+
 ---
 
 skill: Finding & Replacing
@@ -39,7 +39,6 @@ skill: "capture groups () and replacing $1"
 
 requires:
   - Overview
-
 
 ---
 

@@ -7,7 +7,7 @@ requires:
 
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays
-    
+
 ---
 
 skill: Creating
@@ -137,7 +137,7 @@ requires:
 
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/more-array-methods
-   
+
 ---
 
 skill: Nested Arrays
