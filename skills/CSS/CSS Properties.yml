@@ -116,7 +116,7 @@ skill: font-display
 level: 5
 
 resources:
-  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/font-display
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display
 
 requires:
   - General // Basic CSS Syntax
