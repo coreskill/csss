@@ -120,7 +120,7 @@ export default async () => {
       } while (currentNode);
 
       if (!node) {
-        console.error('ups, not found this required skill:', stringRequire);
+        console.error('ups, not found this required skill: “%s” for “%s” in “%s.yml”', stringRequire, skill.name, skill.parent.name);
         throw new Error('ups');
       }
 
