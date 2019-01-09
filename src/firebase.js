@@ -14,10 +14,10 @@ const SELECTED_USER_ID = 'SELECTED_USER_ID';
 const USER_LOGGED_OUT_CALLBACKS = [];
 const INDICATOR_CHANGE_CALLBACKS = [];
 
-let removeFirebaseListener = () => {};
-function addFirebaseListener() {
+let removeFirebaseIndicatorListener = () => {};
+function addFirebaseIndicatorListener() {
   return new Promise((resolve, reject) => {
-    removeFirebaseListener = firebase.firestore()
+    removeFirebaseIndicatorListener = firebase.firestore()
     .collection("db").doc("v1")
     .collection("users").doc(sessionStorage.getItem(SELECTED_USER_ID))
     .onSnapshot(snapshot => {
@@ -40,6 +40,8 @@ function setStateOfAllIndicators(data) {
 }
 
 function indicatorListener(event) {
+  event.preventDefault();
+
   let isDone = this.classList.contains("is-done");
   let isStar = this.classList.contains("is-star");
   let newValue = isDone ? false : isStar ? true : 'star';
@@ -47,10 +49,51 @@ function indicatorListener(event) {
     .collection("users").doc(sessionStorage.getItem(SELECTED_USER_ID))
     .set({[this.dataset.slug]: newValue}, {merge: true})
     .catch(error => console.error(error));
-  event.preventDefault();
 };
 indicators.forEach(indicator => {
   indicator.addEventListener("click", indicatorListener, false);
+});
+
+let removeFirebaseNoteListener = () => {};
+function addFirebaseNoteListener() {
+  return new Promise((resolve, reject) => {
+    removeFirebaseNoteListener = firebase.firestore()
+    .collection("db").doc("v1")
+    .collection("users").doc(sessionStorage.getItem(SELECTED_USER_ID))
+    .collection("metadata").doc("notes")
+    .onSnapshot(snapshot => {
+      resolve();
+      setStateOfAllNotes(snapshot.data() || {});
+    }, error => {
+      console.error(error);
+      reject(error);
+    });
+  });
+}
+
+let notes = document.querySelectorAll(".note");
+function setStateOfAllNotes(data) {
+  notes.forEach(note => {
+    note.classList.toggle("note-empty", !data[note.dataset.slug]);
+    note.querySelector(".note-value").textContent = data[note.dataset.slug];
+  });
+}
+
+function noteListener(event) {
+  event.preventDefault();
+  event.stopPropagation();
+
+  let newValue = prompt("New value:", this.parentElement.querySelector(".note-value").textContent);
+  firebase.firestore().collection("db").doc("v1")
+    .collection("users").doc(sessionStorage.getItem(SELECTED_USER_ID))
+    .collection("metadata").doc("notes")
+    .set({[this.parentElement.dataset.slug]: newValue}, {merge: true})
+    .catch(error => console.error(error));
+};
+notes.forEach(note => {
+  let changer = note.querySelector(".note-changer");
+  changer.addEventListener("keypress", noteListener, false);
+  changer.addEventListener("click", noteListener, false);
 });
 
 function saveUserData({uid, displayName, email, photoURL}) {
@@ -101,8 +144,10 @@ function fillAdminSelectbox(users) {
 
 adminSelect.addEventListener("change", () => {
   sessionStorage.setItem(SELECTED_USER_ID, adminSelect.value);
-  removeFirebaseListener();
-  addFirebaseListener();
+  removeFirebaseIndicatorListener();
+  removeFirebaseNoteListener();
+  addFirebaseIndicatorListener();
+  addFirebaseNoteListener();
 }, false);
 
 firebase.auth().onAuthStateChanged(user => {
@@ -111,12 +156,14 @@ firebase.auth().onAuthStateChanged(user => {
       sessionStorage.setItem(SELECTED_USER_ID, user.uid);
     }
     saveUserData(user)
-      .then(() => addFirebaseListener())
+      .then(() => addFirebaseIndicatorListener())
+      .then(() => addFirebaseNoteListener())
       .then(() => addAdminSelectbox())
       .then(() => document.body.classList.add("logged-in"));
   } else {
     document.body.classList.remove("logged-in", "admin");
-    removeFirebaseListener();
+    removeFirebaseIndicatorListener();
+    removeFirebaseNoteListener();
     removeAdminListener();
     sessionStorage.removeItem(SELECTED_USER_ID);
     USER_LOGGED_OUT_CALLBACKS.forEach(cb => cb());
