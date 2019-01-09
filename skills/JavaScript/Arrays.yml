@@ -1,9 +1,9 @@
 ---
 
-skill: Principles
+skill: Overview
 
 requires:
-  - JavaScript // Basics // Overview
+  - Basics // Overview
 
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays
@@ -13,7 +13,7 @@ resources:
 skill: Creating
 
 requires:
-  - Principles
+  - Overview
 
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/create-an-array

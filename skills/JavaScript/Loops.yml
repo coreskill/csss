@@ -1,0 +1,78 @@
+skill: Overview
+
+requires:
+  - Variables // Overview
+  - Arrays // Overview
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exercises/loops
+
+---
+
+skill: for
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exercises/for-loop
+
+requires:
+  - Overview
+
+---
+
+skill: Looping in reverse
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exercises/for-loop-ii
+
+requires:
+  - for
+
+---
+
+skill: Looping through Arrays
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exercises/for-loops-with-arrays
+
+requires:
+  - for
+  - Arrays // Overview
+
+---
+
+skill: Nested for Loops
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exercises/for-loops-iii
+
+requires:
+  - for
+
+---
+
+skill: while (do)
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exercises/while
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exercises/do-while-statement
+
+requires:
+  - for
+
+---
+
+skill: break
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exercises/break-keyword
+
+requires:
+  - for
+
+---
+
+skill: Concept (and prevention) of infinite loops
+
+requires:
+  - for
+
