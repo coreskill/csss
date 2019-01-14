@@ -42,7 +42,7 @@ requires:
 
 ---
 
-skill: hidden
+skill: Hidden files and folders
 
 requires:
   - Files and folders
