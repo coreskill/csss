@@ -13,6 +13,10 @@ resources:
     desc: Good HTML reference for beginners but not complete.
   - url: https://cssreference.io
     desc: Good CSS reference for beginners but not complete.
+  - url: https://24ways.org/2018/researching-a-property-in-the-css-specifications/
+    desc: Researching a Property in the CSS Specifications
+    type: article
+    
 
 ---
 
