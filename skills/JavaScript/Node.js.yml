@@ -10,6 +10,25 @@ requires:
 
 skill: Installation
 
+requires: 
+  - Overview
+
 resources:
   - url: https://nodejs.org/
     desc: Node.js official website
+
+---
+
+skill: npm install
+
+requires: 
+  - Installation
+
+---
+
+skill: package.json
+
+requires: 
+  - npm install
+
+text: npm init, npm install --save-dev
