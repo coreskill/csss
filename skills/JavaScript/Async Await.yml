@@ -1,0 +1,79 @@
+---
+
+skill: Overview
+
+requires:
+  - Promises // Overview
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/async-await/exercises/introduction
+
+---
+
+skill: The async Keyword
+
+requires:
+  - Overview
+
+#resources:
+#  - url: 
+
+---
+
+skill: The await Operator
+
+requires:
+  - Overview
+
+#resources:
+#  - url: 
+
+---
+
+skill: Writing async Functions
+
+requires:
+  - Overview
+
+#resources:
+#  - url: 
+
+---
+
+skill: Handling Dependent Promises
+
+requires:
+  - Overview
+
+#resources:
+#  - url: 
+
+---
+
+skill: Handling Errors
+
+requires:
+  - Overview
+
+#resources:
+#  - url: 
+
+---
+
+skill: Handling Independent Promises
+
+requires:
+  - Overview
+
+#resources:
+#  - url: 
+
+---
+
+skill: Await Promise.all()
+
+requires:
+  - Overview
+
+#resources:
+#  - url: 
