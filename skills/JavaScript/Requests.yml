@@ -1,0 +1,83 @@
+---
+
+skill: Overview
+
+requires:
+  - Overview
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/requests-intro-i
+
+---
+
+skill: HTTP Requests
+
+requires:
+  - Overview
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/http-requests
+
+---
+
+skill: XHR GET Requests
+
+requires:
+  - Overview
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/xhr-get-requests-i
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/xhr-get-requests-ii
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/xhr-get-requests-iii
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/xhr-get-requests-iv
+
+---
+
+skill: XHR POST Requests
+
+requires:
+  - Overview
+
+#resources:
+#  - url: 
+
+---
+
+skill: fetch() GET Requests
+
+requires:
+  - Overview
+
+#resources:
+#  - url: 
+
+---
+
+skill: fetch() POST Requests
+
+requires:
+  - Overview
+
+#resources:
+#  - url: 
+
+---
+
+skill: async GET Requests
+
+requires:
+  - Overview
+
+#resources:
+#  - url: 
+
+---
+
+skill: async POST Requests
+
+requires:
+  - Overview
+
+#resources:
+#  - url: 
+
