@@ -1,0 +1,15 @@
+---
+
+skill: Overview
+
+requires:
+  - Basics // CLI // Overview
+  - JavaScript // Basics // Overview
+
+---
+
+skill: Installation
+
+resources:
+  - url: https://nodejs.org/
+    desc: Node.js official website
