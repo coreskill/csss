@@ -1,0 +1,471 @@
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>export default « CoreSkill Skill System (CSSS)</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link rel="stylesheet" href="csss.css">
+      <link rel="stylesheet" href="firebase.css">
+      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
+    </head>
+    <body>
+      <header class="navbar navbar-dark bg-dark sticky-top">
+        <div class="container">
+          <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
+          <form class="form-inline">
+            <span class="user-select"><select class="form-control mr-3"></select></span>
+            <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
+            <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
+          </form>
+        </div>
+      </header>
+
+      <main class="container p-4">
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
+                <li class="breadcrumb-item"><a href="javascript.html">JavaScript</a></li>
+                <li class="breadcrumb-item"><a href="modules.html">Modules</a></li>
+              <li class="breadcrumb-item active" aria-current="page">export default</li>
+          </ol>
+        </nav>
+
+          <h2 class="mt-3">Prerequisites</h2>
+          <div class="list-group">
+              <a
+                href="overviewb.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="overviewb">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+              
+              
+                  Overview
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">4</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="overviewb">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+          </div>
+
+        <div class="mt-5 p-3 bg-light">
+
+          <h1 class="display-3">
+            <span class="indicator text-center p-1" data-slug="export-default">
+              <span class="done">✔️</span>
+              <span class="star">⭐️</span>
+              <span class="not-done">❔️</span>
+            </span>
+            export default
+          </h1>
+
+          <p><small><a href="graph.html#export-default">Show in dependency graph</a></small></p>
+
+
+            <h2 class="mt-5">Resources</h2>
+            <div class="list-group">
+
+                <a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/modules/exercises/export-default" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">https://www.codecademy.com/courses/introduction-to-javascript/lessons/modules/exercises/export-default</h5>
+                  </div>
+                  <p class="mb-1">
+                    
+                    
+                  </p>
+                </a>
+            </div>
+
+        </div>
+
+          <h2 class="mt-5">Also learn these skills</h2>
+          <div class="list-group">
+              <a
+                href="exports.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="exports">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+              
+              
+                  exports
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="exports">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="require.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="require">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+              
+              
+                  require
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="require">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="import.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="import">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+              
+              
+                  import
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="import">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="named-exports.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="named-exports">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  Named Exports
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="named-exports">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="named-imports.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="named-imports">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  Named Imports
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="named-imports">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="export-named-exports.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="export-named-exports">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  Export Named Exports
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="export-named-exports">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="import-named-imports.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="import-named-imports">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  Import Named Imports
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="import-named-imports">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="export-as.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="export-as">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  Export as
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="export-as">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="import-as.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="import-as">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  Import as
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="import-as">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="combining-export-statements.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="combining-export-statements">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  Combining Export Statements
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="combining-export-statements">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+          </div>
+
+
+      </main>
+      <script src="firebase.js"></script>
+    </body>
+  </html>
