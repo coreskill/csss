@@ -10,3 +10,24 @@ resources:
   - url: https://www.codecademy.com/learn/build-interactive-websites
     desc: Building Interactive JavaScript Websites (Codecademy PRO)
     type: interactive course
+
+---
+
+skill: Selecting elements
+
+requires:
+  - Overview
+
+---
+
+skill: Getting attributes
+
+requires:
+  - Selecting elements
+
+---
+
+skill: Changing attributes
+
+requires:
+  - Getting attributes
