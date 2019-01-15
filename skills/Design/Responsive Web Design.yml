@@ -52,7 +52,7 @@ requires:
 
 ---
 
-skill: Tools
+skill: Responsive Images Generator
 
 requires:
   - Responsive images (srcset, sizes)
