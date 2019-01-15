@@ -3,7 +3,7 @@
 skill: Overview
 
 requires:
-  - Basics // CLI // Overview
+#  - Basics // CLI // Overview
   - JavaScript // Basics // Overview
 
 ---
