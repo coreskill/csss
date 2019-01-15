@@ -1,0 +1,10 @@
+---
+
+skill: Overview
+
+requires:
+  - DOM // Overview
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Events
+

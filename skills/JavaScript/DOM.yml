@@ -1,0 +1,12 @@
+---
+
+skill: Overview
+
+requires:
+  - Objects // Overview
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+  - url: https://www.codecademy.com/learn/build-interactive-websites
+    desc: Building Interactive JavaScript Websites (Codecademy PRO)
+    type: interactive course
