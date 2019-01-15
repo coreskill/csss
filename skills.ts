@@ -128,7 +128,7 @@ export default async () => {
         node = node!.children!.find(c => c.name === r);
 
         if (!node) {
-          console.error('ups, not found this required skill:', stringRequire);
+          console.error('ups, not found this required skill: “%O” for “%s” in “%s.yml”', stringRequire, skill.name, skill.parent.name);
           throw new Error('ups');
         }
       });
