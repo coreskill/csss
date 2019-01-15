@@ -2,7 +2,7 @@
 
 skill: Visual Design
 
-resources: 
+resources:
   - url: https://ebooks.webflow.com/chapter/essential-visual-design-principles-for-web-designers
   - url: https://ebooks.webflow.com/chapter/how-element-spacing-works
   - url: https://www.usability.gov/what-and-why/visual-design.html
@@ -11,9 +11,12 @@ resources:
 
 skill: Color Theory
 
-resources: 
+resources:
   - url: https://ebooks.webflow.com/chapter/web-design-101-color-theory
   - url: https://www.codecademy.com/courses/learn-color-design/lessons/learn-color-theory/exercises/intro
+  - url: https://color.method.ac/
+    desc: color – a color matching game
+    type: game
 
 requires:
   - Visual Design
@@ -22,13 +25,13 @@ requires:
 
 skill: UX
 
-resources: 
+resources:
   - url: https://ebooks.webflow.com/chapter/9-essential-ui-design-tips
   - url: http://www.jjg.net/elements/pdf/elements_ch02.pdf
   - url: http://www.jjg.net/elements/pdf/elements.pdf
   - url: http://www.jjg.net/elements/pdf/elements_simpleplanes.pdf
 
-text: Usability, Elements of User Experience, 
+text: Usability, Elements of User Experience,
 
 ---
 
@@ -37,9 +40,28 @@ skill: Typography
 requires:
   - Visual Design
 
-resources: 
-  - url: https://ebooks.webflow.com/chapter/web-typography-101
+resources:
+  - url: https://practicaltypography.com/
+    desc: Butterick’s Practical Typography
+    type: online book
+  - url: http://webtypography.net/
+    desc: The Elements of Typographic Style Applied to the Web
+    type: online book
+  - url: https://prowebtype.com/
+    desc: Professional Web Typography
+    type: online book
   - url: https://iamsteve.me/blog/entry/type-scale-line-height-lengths
+    desc: Short article about type scale
+  - url: https://ebooks.webflow.com/chapter/web-typography-101
+  - url: https://www.pierrickcalvez.com/journal/a-five-minutes-guide-to-better-typography
+  - url: https://type.method.ac/
+    desc: Kerntype (fix kerning)
+    type: game
+  - url: http://typewar.com/
+    desc: typewar (distinguish different fonts)
+    type: game
+  - url: https://www.jakpsatweb.cz/interpunkce.html
+    lang: cs
 
 ---
 
@@ -48,7 +70,7 @@ skill: Content
 requires:
   - Visual Design
 
-resources: 
+resources:
   - url: https://ebooks.webflow.com/chapter/why-your-design-process-should-start-with-content
 
 ---
@@ -70,7 +92,7 @@ requires:
 
 skill: Animation
 
-resources: 
+resources:
   - url: https://en.wikipedia.org/wiki/12_basic_principles_of_animation
   - url: https://ebooks.webflow.com/chapter/how-to-design-interactions-effectively
 
