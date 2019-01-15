@@ -1,0 +1,136 @@
+---
+
+skill: Overview
+
+requires:
+  - Basics // Overview
+
+resources:
+  - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/why-jquery
+  - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/jquery-methods
+  - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/jquery-library
+  - url: https://jquery.com/
+
+---
+
+skill: Adding jQuery
+
+requires:
+  - Overview
+
+resources:
+  - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/adding-jquery
+
+---
+
+skill: Selecting elements
+
+requires:
+  - Overview
+
+resources:
+  - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/targeting-by-class
+  - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/targeting-by-id
+
+---
+
+skill: jQuery object
+
+requires:
+  - Overview
+
+resources:
+  - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/jquery-objects
+
+---
+
+skill: Event Handlers
+
+requires:
+  - Overview
+
+resources:
+  - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/event-handlers
+
+---
+
+skill: Effects
+
+requires:
+  - Overview
+
+resources:
+  - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-effects/exercises/effects-introduction
+
+---
+
+skill: .hide()
+
+requires:
+  - Effects
+
+resources:
+  - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-effects/exercises/hide
+
+---
+
+skill: .show()
+
+requires:
+  - Effects
+
+resources:
+  - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-effects/exercises/show
+
+---
+
+skill: .toggle()
+
+requires:
+  - Effects
+
+resources:
+  - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-effects/exercises/toggle
+
+---
+
+skill: .addClass()
+
+requires:
+  - Selecting elements
+
+#resources:
+#  - url: 
+
+---
+
+skill: .removeClass()
+
+requires:
+  - Selecting elements
+
+#resources:
+#  - url: 
+
+---
+
+skill: .toggleClass()
+
+requires:
+  - Selecting elements
+
+#resources:
+#  - url: 
+
+---
+
+skill: Traversing DOM
+
+text: Children, Parent, Siblings, Closest, Next, find
+
+requires:
+  - Selecting elements
+
+#resources:
+#  - url: 
+
