@@ -12,6 +12,10 @@ skill: text vs. binary files
 requires:
   - Files and folders
 
+resources:
+  - url: https://onlineasciitools.com/convert-ascii-to-binary
+    desc: Text to Binary convertor
+
 ---
 
 skill: special characters
