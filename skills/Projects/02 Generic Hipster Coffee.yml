@@ -1,3 +1,11 @@
 ---
 
 skill: Build Generic Hipster Coffee website
+
+---
+
+skill: Embed a Google Map using Google Maps JavaScript API
+
+resources:
+  - url: https://developers.google.com/maps/documentation/javascript/tutorial
+
