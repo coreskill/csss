@@ -1,0 +1,131 @@
+---
+
+skill: Overview
+
+requires:
+  - Basics // Overview
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/intro
+
+---
+
+skill: Creating Object Literals
+
+requires:
+  - Overview
+
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/objects
+
+---
+
+skill: Accessing Properties (Dot Notation)
+
+requires:
+  - Overview
+
+---
+
+skill: Accessing Properties (Bracket Notation)
+
+requires:
+  - Overview
+
+---
+
+skill: Property Assignment
+
+requires:
+  - Overview
+
+---
+
+skill: Methods
+
+requires:
+  - Overview
+
+---
+
+skill: Nested Objects
+
+requires:
+  - Overview
+
+---
+
+skill: Pass By Reference
+
+requires:
+  - Overview
+
+---
+
+skill: Looping Through Objects
+
+requires:
+  - Overview
+
+---
+
+skill: The this Keyword
+
+requires:
+  - Overview
+
+---
+
+skill: Arrow Functions and this
+
+requires:
+  - Overview
+
+---
+
+skill: Privacy
+
+requires:
+  - Overview
+
+---
+
+skill: Getters
+
+requires:
+  - Overview
+
+---
+
+skill: Setters
+
+requires:
+  - Overview
+
+---
+
+skill: Factory Functions
+
+requires:
+  - Overview
+
+---
+
+skill: Property Value Shorthand
+
+requires:
+  - Overview
+
+---
+
+skill: Destructured Assignment
+
+requires:
+  - Overview
+
+---
+
+skill: Built-in Object Methods
+
+requires:
+  - Overview
