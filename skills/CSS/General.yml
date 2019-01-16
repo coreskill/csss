@@ -51,3 +51,14 @@ resources:
 requires:
   - Basic CSS Syntax
   #- Bootstrap 
+
+---
+
+skill: "@supports"
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@supports
+
+requires:
+  - Basic CSS Syntax
+
