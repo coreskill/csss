@@ -24,7 +24,10 @@ requires:
 
 ---
 
-skill: Breakpoints
+skill: Breakpoints (@media queries)
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@media
 
 requires:
   - Fluid web
