@@ -61,7 +61,7 @@ const loadSkills = () => new Promise<Skill[]>((resolve, reject) => {
         skill.skill = true;
         skill.slug = getSlug(skill.name);
         skill.stringCategories = categories;
-        skill.stringRequires = (skill.requires || []).map((r: string) => r.split(' // '));
+        skill.stringRequires = (skill.requires || []).map((r: string) => r.split(/ ?\/\/ /));
         delete skill.requires;
         skill.requires = [];
         skill.requiredBy = [];
@@ -107,21 +107,25 @@ export default async () => {
     skill.requires = skill.stringRequires.map(stringRequire => {
 
       let firstParentName = stringRequire[0];
-      let node: CNode | undefined;
+      let node: CNode | CRoot | undefined;
 
-      let currentNode: Category | CRoot = skill.parent;
-      do {
-        node = currentNode.children!.find(c => c.name === firstParentName);
-        if (node) {
-          break;
+      if (firstParentName === '') {
+        node = root;
+      } else {
+        let currentNode: Category | CRoot = skill.parent;
+        do {
+          node = currentNode.children!.find(c => c.name === firstParentName);
+          if (node) {
+            break;
+          }
+
+          currentNode = currentNode.parent;
+        } while (currentNode);
+
+        if (!node) {
+          console.error('ups, not found this required skill: “%s” for “%s” in “%s.yml”', stringRequire, skill.name, skill.parent.name);
+          throw new Error('ups');
         }
-
-        currentNode = currentNode.parent;
-      } while (currentNode);
-
-      if (!node) {
-        console.error('ups, not found this required skill: “%s” for “%s” in “%s.yml”', stringRequire, skill.name, skill.parent.name);
-        throw new Error('ups');
       }
 
       stringRequire.slice(1).forEach(r => {
