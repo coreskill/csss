@@ -36,7 +36,7 @@ export interface Skill extends CNode {
   sameLevelSkills: Skill[];
 }
 
-const slugs = new Set();
+const slugs = new Set(['constructor']);
 const getSlug = (input: string) => {
   let slugFromInput = slug(input).toLowerCase();
   let finalSlug = slugFromInput;
