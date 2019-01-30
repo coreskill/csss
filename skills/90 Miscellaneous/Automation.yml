@@ -3,7 +3,7 @@
 skill: npm scripts
 
 requires:
-  - JavaScript // Node.js // Overview
+  - 40 JavaScript // Node.js // Overview
 
 resources:
   - url: https://medium.freecodecamp.org/introduction-to-npm-scripts-1dbb2ae01633

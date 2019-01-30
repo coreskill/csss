@@ -1,0 +1,36 @@
+---
+
+skill: Overview
+
+requires:
+  - 10 Basics // Networking // Web browser
+
+---
+
+skill: Elements (HTML, CSS)
+
+requires:
+  - Overview
+  - 30 CSS // General // Basic CSS Syntax
+  - 20 HTML // Basic structure // <!doctype>, <html>, <head>, <body>
+
+---
+
+skill: Console
+
+requires:
+  - Overview
+
+---
+
+skill: Network
+
+requires:
+  - Overview
+
+---
+
+skill: Sources
+
+requires:
+  - Overview

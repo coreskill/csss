@@ -48,8 +48,8 @@ skill: Polyfills
 level: 4
 
 #requires:
-#  - JavaScript //
-#  - 30 CSS //
+#  - JavaScript // 
+#  - 30 CSS // 
 
 ---
 

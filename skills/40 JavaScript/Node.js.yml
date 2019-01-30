@@ -3,14 +3,14 @@
 skill: Overview
 
 requires:
-  - // Basics // CLI // Overview
-  - JavaScript // Basics // Overview
+  - // 10 Basics // CLI // Overview
+  - 40 JavaScript // Basics // Overview
 
 ---
 
 skill: Installation
 
-requires: 
+requires:
   - Overview
 
 resources:
@@ -21,14 +21,14 @@ resources:
 
 skill: npm install
 
-requires: 
+requires:
   - Installation
 
 ---
 
 skill: package.json
 
-requires: 
+requires:
   - npm install
 
 text: npm init, npm install --save-dev
