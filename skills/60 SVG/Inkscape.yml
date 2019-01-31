@@ -2,9 +2,6 @@
 
 skill: Overview
 
-requires:
-  - Overview
-
 ---
 
 skill: Inkscape SVG v. SVG
