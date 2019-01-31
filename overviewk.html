@@ -1,43 +1,45 @@
   <!doctype html>
   <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <title>Overview « CoreSkill Skill System (CSSS)</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-      <link rel="stylesheet" href="csss.css">
-      <link rel="stylesheet" href="firebase.css">
-      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
-      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
-      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
-    </head>
-    <body>
-      <header class="navbar navbar-dark bg-dark sticky-top">
-        <div class="container">
-          <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
-          <form class="form-inline">
-            <span class="user-select"><select class="form-control mr-3"></select></span>
-            <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
-            <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
-          </form>
-        </div>
-      </header>
+  <head>
+    <meta charset="utf-8">
+    <title>Overview « CoreSkill Skill System (CSSS)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="csss.css">
+    <link rel="stylesheet" href="firebase.css">
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
+  </head>
+  <body>
+  <header class="navbar navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
+      <form class="form-inline">
+        <span class="user-select"><select class="form-control mr-3"></select></span>
+        <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
+        <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
+      </form>
+    </div>
+  </header>
 
-      <main class="container p-4">
+  <main class="container-fluid p-4">
 
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
-                <li class="breadcrumb-item"><a href="javascript.html">JavaScript</a></li>
-                <li class="breadcrumb-item"><a href="variables1.html">Variables</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Overview</li>
-          </ol>
-        </nav>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
+          <li class="breadcrumb-item"><a href="40-javascript.html">40 JavaScript</a></li>
+          <li class="breadcrumb-item"><a href="jquery.html">jQuery</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Overview</li>
+      </ol>
+    </nav>
 
+    <div class="row">
+      <div class="col-3">
           <h2 class="mt-3">Prerequisites</h2>
           <div class="list-group">
               <a
-                href="overview6.html"
+                href="overview5.html"
                 class="
                   skill-item
                   
@@ -50,14 +52,14 @@
                 "
               >
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="overview6">
+                    <span class="indicator indicator-list text-center p-1" data-slug="overview5">
                       <span class="done">✔️</span>
                       <span class="star">⭐️</span>
                       <span class="not-done">❔️</span>
                     </span>
               
                     <span class="text-muted">
-                      JavaScript » Basics » 
+                      40 JavaScript » Basics » 
                     </span>
               
               
@@ -67,7 +69,7 @@
               
                 <span>
                     <span class="badge badge-success">start here</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="overview6">
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="overview5">
                     <span class="note-value"></span>
                     <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
                   </span>
@@ -75,7 +77,9 @@
               </a>
               
           </div>
+      </div>
 
+      <div class="col-6">
         <div class="mt-5 p-3 bg-light">
 
           <h1 class="display-3">
@@ -87,16 +91,53 @@
             Overview
           </h1>
 
-          <p><small><a href="graph.html#overviewk">Show in dependency graph</a></small></p>
+          <p>
+            <small><a href="graph.html#overviewk">Show in dependency graph</a></small>
+          </p>
 
 
             <h2 class="mt-5">Resources</h2>
             <div class="list-group">
-
-                <a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/intro-variables" class="list-group-item list-group-item-action flex-column align-items-start">
+                <a href="https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/why-jquery" class="list-group-item list-group-item-action flex-column align-items-start">
                   <div class="d-flex w-100 justify-content-between">
                     <h5 class="mb-1">
-                      https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/intro-variables
+                      https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/why-jquery
+                      
+                    </h5>
+                  </div>
+                  <p class="mb-1">
+                    
+                    
+                  </p>
+                </a>
+                <a href="https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/jquery-methods" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">
+                      https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/jquery-methods
+                      
+                    </h5>
+                  </div>
+                  <p class="mb-1">
+                    
+                    
+                  </p>
+                </a>
+                <a href="https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/jquery-library" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">
+                      https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/jquery-library
+                      
+                    </h5>
+                  </div>
+                  <p class="mb-1">
+                    
+                    
+                  </p>
+                </a>
+                <a href="https://jquery.com/" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">
+                      https://jquery.com/
                       
                     </h5>
                   </div>
@@ -106,13 +147,12 @@
                   </p>
                 </a>
             </div>
-
         </div>
 
           <h2 class="mt-5">Also learn these skills</h2>
           <div class="list-group">
               <a
-                href="overview4.html"
+                href="overview3.html"
                 class="
                   skill-item
                   
@@ -125,14 +165,14 @@
                 "
               >
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="overview4">
+                    <span class="indicator indicator-list text-center p-1" data-slug="overview3">
                       <span class="done">✔️</span>
                       <span class="star">⭐️</span>
                       <span class="not-done">❔️</span>
                     </span>
               
                     <span class="text-muted">
-                      JavaScript » Arrays » 
+                      40 JavaScript » Arrays » 
                     </span>
               
               
@@ -141,7 +181,7 @@
                 </span>
               
                 <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="overview4">
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="overview3">
                     <span class="note-value"></span>
                     <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
                   </span>
@@ -169,7 +209,7 @@
                     </span>
               
                     <span class="text-muted">
-                      JavaScript » Basics » 
+                      40 JavaScript » Basics » 
                     </span>
               
               
@@ -206,7 +246,7 @@
                     </span>
               
                     <span class="text-muted">
-                      JavaScript » Basics » 
+                      40 JavaScript » Basics » 
                     </span>
               
               
@@ -243,7 +283,7 @@
                     </span>
               
                     <span class="text-muted">
-                      JavaScript » Basics » 
+                      40 JavaScript » Basics » 
                     </span>
               
               
@@ -280,7 +320,7 @@
                     </span>
               
                     <span class="text-muted">
-                      JavaScript » Basics » 
+                      40 JavaScript » Basics » 
                     </span>
               
               
@@ -317,7 +357,7 @@
                     </span>
               
                     <span class="text-muted">
-                      JavaScript » Basics » 
+                      40 JavaScript » Basics » 
                     </span>
               
               
@@ -354,7 +394,7 @@
                     </span>
               
                     <span class="text-muted">
-                      JavaScript » Basics » 
+                      40 JavaScript » Basics » 
                     </span>
               
               
@@ -391,7 +431,7 @@
                     </span>
               
                     <span class="text-muted">
-                      JavaScript » Basics » 
+                      40 JavaScript » Basics » 
                     </span>
               
               
@@ -408,7 +448,7 @@
               </a>
               
               <a
-                href="overview7.html"
+                href="overview6.html"
                 class="
                   skill-item
                   
@@ -421,14 +461,14 @@
                 "
               >
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="overview7">
+                    <span class="indicator indicator-list text-center p-1" data-slug="overview6">
                       <span class="done">✔️</span>
                       <span class="star">⭐️</span>
                       <span class="not-done">❔️</span>
                     </span>
               
                     <span class="text-muted">
-                      JavaScript » Browser Compatibility and Transpilation » 
+                      40 JavaScript » Browser Compatibility and Transpilation » 
                     </span>
               
               
@@ -437,7 +477,7 @@
                 </span>
               
                 <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="overview7">
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="overview6">
                     <span class="note-value"></span>
                     <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
                   </span>
@@ -465,7 +505,7 @@
                     </span>
               
                     <span class="text-muted">
-                      JavaScript » Conditionals » 
+                      40 JavaScript » Conditionals » 
                     </span>
               
               
@@ -502,7 +542,7 @@
                     </span>
               
                     <span class="text-muted">
-                      JavaScript » Conditionals » 
+                      40 JavaScript » Conditionals » 
                     </span>
               
               
@@ -539,7 +579,7 @@
                     </span>
               
                     <span class="text-muted">
-                      JavaScript » Conditionals » 
+                      40 JavaScript » Conditionals » 
                     </span>
               
               
@@ -576,7 +616,7 @@
                     </span>
               
                     <span class="text-muted">
-                      JavaScript » Conditionals » 
+                      40 JavaScript » Conditionals » 
                     </span>
               
               
@@ -613,7 +653,7 @@
                     </span>
               
                     <span class="text-muted">
-                      JavaScript » Conditionals » 
+                      40 JavaScript » Conditionals » 
                     </span>
               
               
@@ -650,7 +690,7 @@
                     </span>
               
                     <span class="text-muted">
-                      JavaScript » Conditionals » 
+                      40 JavaScript » Conditionals » 
                     </span>
               
               
@@ -687,7 +727,7 @@
                     </span>
               
                     <span class="text-muted">
-                      JavaScript » Functions » 
+                      40 JavaScript » Functions » 
                     </span>
               
               
@@ -704,7 +744,7 @@
               </a>
               
               <a
-                href="overviewb.html"
+                href="overviewa.html"
                 class="
                   skill-item
                   
@@ -717,14 +757,14 @@
                 "
               >
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="overviewb">
+                    <span class="indicator indicator-list text-center p-1" data-slug="overviewa">
                       <span class="done">✔️</span>
                       <span class="star">⭐️</span>
                       <span class="not-done">❔️</span>
                     </span>
               
                     <span class="text-muted">
-                      JavaScript » Higher-order Functions » 
+                      40 JavaScript » Higher-order Functions » 
                     </span>
               
               
@@ -733,7 +773,45 @@
                 </span>
               
                 <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="overviewb">
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="overviewa">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="overviewd.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="overviewd">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      40 JavaScript » Modules » 
+                    </span>
+              
+              
+                  Overview
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">4</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="overviewd">
                     <span class="note-value"></span>
                     <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
                   </span>
@@ -761,16 +839,16 @@
                     </span>
               
                     <span class="text-muted">
-                      JavaScript » Modules » 
+                      40 JavaScript » Node.js » 
                     </span>
               
+                      <span class="badge badge-light">🚧️</span>
               
                   Overview
               
                 </span>
               
                 <span>
-                    <span class="badge badge-primary badge-pill">4</span>
                   <span class="note note-empty badge badge-danger badge-pill" data-slug="overviewe">
                     <span class="note-value"></span>
                     <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
@@ -799,10 +877,9 @@
                     </span>
               
                     <span class="text-muted">
-                      JavaScript » Node.js » 
+                      40 JavaScript » Objects » 
                     </span>
               
-                      <span class="badge badge-light">🚧️</span>
               
                   Overview
               
@@ -837,7 +914,7 @@
                     </span>
               
                     <span class="text-muted">
-                      JavaScript » Objects » 
+                      40 JavaScript » Promises » 
                     </span>
               
               
@@ -847,121 +924,6 @@
               
                 <span>
                   <span class="note note-empty badge badge-danger badge-pill" data-slug="overviewg">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              
-              <a
-                href="overviewh.html"
-                class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
-                "
-              >
-                <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="overviewh">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-                    <span class="text-muted">
-                      JavaScript » Promises » 
-                    </span>
-              
-              
-                  Overview
-              
-                </span>
-              
-                <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="overviewh">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              
-              <a
-                href="overviewl.html"
-                class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
-                "
-              >
-                <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="overviewl">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-                    <span class="text-muted">
-                      JavaScript » jQuery » 
-                    </span>
-              
-              
-                  Overview
-              
-                </span>
-              
-                <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="overviewl">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              
-          </div>
-
-          <h2 class="mt-5">Following skills</h2>
-          <div class="list-group">
-              <a
-                href="overviewd.html"
-                class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
-                "
-              >
-                <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="overviewd">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-                    <span class="text-muted">
-                      JavaScript » Loops » 
-                    </span>
-              
-              
-                  Overview
-              
-                </span>
-              
-                <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="overviewd">
                     <span class="note-value"></span>
                     <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
                   </span>
@@ -989,7 +951,7 @@
                     </span>
               
                     <span class="text-muted">
-                      JavaScript » Scope » 
+                      40 JavaScript » Variables » 
                     </span>
               
               
@@ -1005,8 +967,15 @@
                 </span>
               </a>
               
+          </div>
+
+      </div>
+
+      <div class="col-3">
+          <h2 class="mt-5">Following skills</h2>
+          <div class="list-group">
               <a
-                href="creating-variables-var.html"
+                href="adding-jquery.html"
                 class="
                   skill-item
                   
@@ -1019,7 +988,7 @@
                 "
               >
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="creating-variables-var">
+                    <span class="indicator indicator-list text-center p-1" data-slug="adding-jquery">
                       <span class="done">✔️</span>
                       <span class="star">⭐️</span>
                       <span class="not-done">❔️</span>
@@ -1027,12 +996,12 @@
               
               
               
-                  Creating variables: var
+                  Adding jQuery
               
                 </span>
               
                 <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="creating-variables-var">
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="adding-jquery">
                     <span class="note-value"></span>
                     <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
                   </span>
@@ -1040,7 +1009,7 @@
               </a>
               
               <a
-                href="creating-variables-const.html"
+                href="selecting-elements1.html"
                 class="
                   skill-item
                   
@@ -1053,7 +1022,7 @@
                 "
               >
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="creating-variables-const">
+                    <span class="indicator indicator-list text-center p-1" data-slug="selecting-elements1">
                       <span class="done">✔️</span>
                       <span class="star">⭐️</span>
                       <span class="not-done">❔️</span>
@@ -1061,12 +1030,12 @@
               
               
               
-                  Creating variables: const
+                  Selecting elements
               
                 </span>
               
                 <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="creating-variables-const">
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="selecting-elements1">
                     <span class="note-value"></span>
                     <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
                   </span>
@@ -1074,7 +1043,7 @@
               </a>
               
               <a
-                href="creating-variables-let.html"
+                href="jquery-object.html"
                 class="
                   skill-item
                   
@@ -1087,7 +1056,7 @@
                 "
               >
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="creating-variables-let">
+                    <span class="indicator indicator-list text-center p-1" data-slug="jquery-object">
                       <span class="done">✔️</span>
                       <span class="star">⭐️</span>
                       <span class="not-done">❔️</span>
@@ -1095,12 +1064,12 @@
               
               
               
-                  Creating variables: let
+                  jQuery object
               
                 </span>
               
                 <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="creating-variables-let">
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="jquery-object">
                     <span class="note-value"></span>
                     <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
                   </span>
@@ -1108,7 +1077,7 @@
               </a>
               
               <a
-                href="undefined.html"
+                href="event-handlers.html"
                 class="
                   skill-item
                   
@@ -1121,7 +1090,7 @@
                 "
               >
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="undefined">
+                    <span class="indicator indicator-list text-center p-1" data-slug="event-handlers">
                       <span class="done">✔️</span>
                       <span class="star">⭐️</span>
                       <span class="not-done">❔️</span>
@@ -1129,12 +1098,12 @@
               
               
               
-                  Undefined
+                  Event Handlers
               
                 </span>
               
                 <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="undefined">
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="event-handlers">
                     <span class="note-value"></span>
                     <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
                   </span>
@@ -1142,7 +1111,7 @@
               </a>
               
               <a
-                href="mathematical-assignment-operators-.html"
+                href="effects.html"
                 class="
                   skill-item
                   
@@ -1155,7 +1124,7 @@
                 "
               >
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="mathematical-assignment-operators-">
+                    <span class="indicator indicator-list text-center p-1" data-slug="effects">
                       <span class="done">✔️</span>
                       <span class="star">⭐️</span>
                       <span class="not-done">❔️</span>
@@ -1163,114 +1132,12 @@
               
               
               
-                  Mathematical Assignment Operators (++, --, -&#x3D;, +&#x3D;, *&#x3D;)
+                  Effects
               
                 </span>
               
                 <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="mathematical-assignment-operators-">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              
-              <a
-                href="string-concatenation-with-variables.html"
-                class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
-                "
-              >
-                <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="string-concatenation-with-variables">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-              
-                  String Concatenation with Variables
-              
-                </span>
-              
-                <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="string-concatenation-with-variables">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              
-              <a
-                href="string-interpolation-es6-ie-foo-dollarvariable.html"
-                class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
-                "
-              >
-                <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="string-interpolation-es6-ie-foo-dollarvariable">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-              
-                  String Interpolation: ES6 i.e. &#x60;Foo ${variable}&#x60;
-              
-                </span>
-              
-                <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="string-interpolation-es6-ie-foo-dollarvariable">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              
-              <a
-                href="typeof-operator.html"
-                class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
-                "
-              >
-                <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="typeof-operator">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-              
-                  typeof operator
-              
-                </span>
-              
-                <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="typeof-operator">
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="effects">
                     <span class="note-value"></span>
                     <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
                   </span>
@@ -1278,8 +1145,10 @@
               </a>
               
           </div>
+      </div>
+    </div>
 
-      </main>
-      <script src="firebase.js"></script>
-    </body>
+  </main>
+  <script src="firebase.js"></script>
+  </body>
   </html>

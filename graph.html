@@ -40,6 +40,76 @@
     <script>
       let nodes = [
   {
+    "id": "laptop",
+    "label": "Laptop",
+    "group": "onboarding"
+  },
+  {
+    "id": "google-account",
+    "label": "Google Account",
+    "group": "onboarding"
+  },
+  {
+    "id": "key",
+    "label": "Key",
+    "group": "onboarding"
+  },
+  {
+    "id": "code-editor",
+    "label": "Code editor",
+    "group": "onboarding"
+  },
+  {
+    "id": "join-students-folder-on-google-drive",
+    "label": "Join student's folder on Google Drive",
+    "group": "onboarding"
+  },
+  {
+    "id": "frontendisti-slack-account",
+    "label": "Frontendisti Slack Account",
+    "group": "onboarding"
+  },
+  {
+    "id": "nodejs",
+    "label": "node.js",
+    "group": "onboarding"
+  },
+  {
+    "id": "chrome",
+    "label": "Chrome",
+    "group": "onboarding"
+  },
+  {
+    "id": "firefox",
+    "label": "Firefox",
+    "group": "onboarding"
+  },
+  {
+    "id": "github",
+    "label": "GitHub",
+    "group": "onboarding"
+  },
+  {
+    "id": "cmder",
+    "label": "Cmder",
+    "group": "onboarding"
+  },
+  {
+    "id": "agreement",
+    "label": "Agreement",
+    "group": "onboarding"
+  },
+  {
+    "id": "gitlab",
+    "label": "GitLab",
+    "group": "onboarding"
+  },
+  {
+    "id": "password-manager",
+    "label": "Password manager",
+    "group": "onboarding"
+  },
+  {
     "id": "overview",
     "label": "Overview",
     "group": "cli"
@@ -83,6 +153,76 @@
     "id": "history-up-and-down-arrows-to-repeat",
     "label": "history (up & down arrows to repeat)",
     "group": "cli"
+  },
+  {
+    "id": "overview1",
+    "label": "Overview",
+    "group": "code-editing"
+  },
+  {
+    "id": "working-with-text-clipboard-operations-navigating-selecting-changing",
+    "label": "Working with text: clipboard operations, navigating, selecting, changing",
+    "group": "code-editing"
+  },
+  {
+    "id": "code-editor-installation",
+    "label": "Code Editor Installation",
+    "group": "code-editing"
+  },
+  {
+    "id": "projects",
+    "label": "Projects",
+    "group": "code-editing"
+  },
+  {
+    "id": "basic-editing-copy-cut-paste-lines-indenting-including-difference-between-tabs-and-spaces",
+    "label": "Basic editing: copy + cut + paste lines, indenting (including difference between tabs and spaces)",
+    "group": "code-editing"
+  },
+  {
+    "id": "basic-text-editing-using-keyboard",
+    "label": "Basic Text editing using keyboard",
+    "group": "code-editing"
+  },
+  {
+    "id": "text-editor-control-using-keyboard",
+    "label": "Text Editor control using keyboard",
+    "group": "code-editing"
+  },
+  {
+    "id": "working-with-text-in-a-text-editor",
+    "label": "Working with text in a text editor",
+    "group": "code-editing"
+  },
+  {
+    "id": "multiple-selections",
+    "label": "Multiple selections",
+    "group": "code-editing"
+  },
+  {
+    "id": "intellisense",
+    "label": "Intellisense",
+    "group": "code-editing"
+  },
+  {
+    "id": "emmet",
+    "label": "Emmet",
+    "group": "code-editing"
+  },
+  {
+    "id": "search-and-replace",
+    "label": "Search and replace",
+    "group": "code-editing"
+  },
+  {
+    "id": "extensionsplugins-installation",
+    "label": "Extensions/Plugins installation",
+    "group": "code-editing"
+  },
+  {
+    "id": "autoindent-andor-beautify",
+    "label": "Autoindent and/or Beautify",
+    "group": "code-editing"
   },
   {
     "id": "files-and-folders",
@@ -200,24 +340,284 @@
     "group": "networking"
   },
   {
-    "id": "basic-text-editing-using-keyboard",
-    "label": "Basic Text editing using keyboard",
-    "group": "text-editor"
+    "id": "aria-roles-overview",
+    "label": "ARIA roles overview",
+    "group": "accessibility"
   },
   {
-    "id": "text-editor-control-using-keyboard",
-    "label": "Text Editor control using keyboard",
-    "group": "text-editor"
+    "id": "doctype-html-head-body",
+    "label": "<!doctype>, <html>, <head>, <body>",
+    "group": "basic-structure"
   },
   {
-    "id": "working-with-text-in-a-text-editor",
-    "label": "Working with text in a text editor",
-    "group": "text-editor"
+    "id": "p",
+    "label": "<p>",
+    "group": "body"
   },
   {
-    "id": "working-with-projects",
-    "label": "Working with projects",
-    "group": "text-editor"
+    "id": "a-paths-for-href",
+    "label": "<a>, #, paths for href",
+    "group": "body"
+  },
+  {
+    "id": "h1-to-h6",
+    "label": "<h1> to <h6>",
+    "group": "body"
+  },
+  {
+    "id": "div-span",
+    "label": "<div>, <span>",
+    "group": "body"
+  },
+  {
+    "id": "img-src-width-height-alt",
+    "label": "<img>, src, width, height, alt",
+    "group": "body"
+  },
+  {
+    "id": "ul-ol-li",
+    "label": "<ul>, <ol>, <li>",
+    "group": "body"
+  },
+  {
+    "id": "em",
+    "label": "<em>",
+    "group": "body"
+  },
+  {
+    "id": "i",
+    "label": "<i>",
+    "group": "body"
+  },
+  {
+    "id": "strong",
+    "label": "<strong>",
+    "group": "body"
+  },
+  {
+    "id": "b",
+    "label": "<b>",
+    "group": "body"
+  },
+  {
+    "id": "small",
+    "label": "<small>",
+    "group": "body"
+  },
+  {
+    "id": "br",
+    "label": "<br>",
+    "group": "body"
+  },
+  {
+    "id": "main",
+    "label": "<main>",
+    "group": "body"
+  },
+  {
+    "id": "aside",
+    "label": "<aside>",
+    "group": "body"
+  },
+  {
+    "id": "header",
+    "label": "<header>",
+    "group": "body"
+  },
+  {
+    "id": "footer",
+    "label": "<footer>",
+    "group": "body"
+  },
+  {
+    "id": "nav",
+    "label": "<nav>",
+    "group": "body"
+  },
+  {
+    "id": "section",
+    "label": "<section>",
+    "group": "body"
+  },
+  {
+    "id": "article",
+    "label": "<article>",
+    "group": "body"
+  },
+  {
+    "id": "iframe",
+    "label": "<iframe>",
+    "group": "body"
+  },
+  {
+    "id": "table-tr-th-td-tbody",
+    "label": "<table>, <tr>, <th>, <td>, <tbody>",
+    "group": "body"
+  },
+  {
+    "id": "form-input-textarea-label-select-option-button",
+    "label": "<form>, <input>, <textarea>, <label>, <select>, <option>, <button>",
+    "group": "body"
+  },
+  {
+    "id": "fieldset-legend-optgroup",
+    "label": "<fieldset>, <legend>, <optgroup>",
+    "group": "body"
+  },
+  {
+    "id": "a-tabindex",
+    "label": "<a tabindex>",
+    "group": "body"
+  },
+  {
+    "id": "picture-source",
+    "label": "<picture>, <source>",
+    "group": "body"
+  },
+  {
+    "id": "noscript",
+    "label": "<noscript>",
+    "group": "body"
+  },
+  {
+    "id": "tfoot-thead-col-colgroup-caption",
+    "label": "<tfoot>, <thead>, <col>, <colgroup>, <caption>",
+    "group": "body"
+  },
+  {
+    "id": "map-img-usemap",
+    "label": "<map>, <img usemap>",
+    "group": "body"
+  },
+  {
+    "id": "dl-dt-dd",
+    "label": "<dl>, <dt>, <dd>",
+    "group": "body"
+  },
+  {
+    "id": "hgroup-figcaption-figure-menu-menuitem-meter-progress-time",
+    "label": "<hgroup>, <figcaption>, <figure>, <menu>, <menuitem>, <meter>, <progress>, <time>",
+    "group": "body"
+  },
+  {
+    "id": "pre",
+    "label": "<pre>",
+    "group": "body"
+  },
+  {
+    "id": "blockquote",
+    "label": "<blockquote>",
+    "group": "body"
+  },
+  {
+    "id": "sub-sup",
+    "label": "<sub>, <sup>",
+    "group": "body"
+  },
+  {
+    "id": "code",
+    "label": "<code>",
+    "group": "body"
+  },
+  {
+    "id": "del",
+    "label": "<del>",
+    "group": "body"
+  },
+  {
+    "id": "embed",
+    "label": "<embed>",
+    "group": "body"
+  },
+  {
+    "id": "hr",
+    "label": "<hr>",
+    "group": "body"
+  },
+  {
+    "id": "ins",
+    "label": "<ins>",
+    "group": "body"
+  },
+  {
+    "id": "kbd",
+    "label": "<kbd>",
+    "group": "body"
+  },
+  {
+    "id": "mark",
+    "label": "<mark>",
+    "group": "body"
+  },
+  {
+    "id": "object-param",
+    "label": "<object>, <param>",
+    "group": "body"
+  },
+  {
+    "id": "output",
+    "label": "<output>",
+    "group": "body"
+  },
+  {
+    "id": "samp",
+    "label": "<samp>",
+    "group": "body"
+  },
+  {
+    "id": "u",
+    "label": "<u>",
+    "group": "body"
+  },
+  {
+    "id": "var",
+    "label": "<var>",
+    "group": "body"
+  },
+  {
+    "id": "q",
+    "label": "<q>",
+    "group": "body"
+  },
+  {
+    "id": "s",
+    "label": "<s>",
+    "group": "body"
+  },
+  {
+    "id": "wbr",
+    "label": "<wbr>",
+    "group": "body"
+  },
+  {
+    "id": "video-audio",
+    "label": "<video>, <audio>",
+    "group": "body"
+  },
+  {
+    "id": "title",
+    "label": "<title>",
+    "group": "head"
+  },
+  {
+    "id": "link",
+    "label": "<link>",
+    "group": "head"
+  },
+  {
+    "id": "meta-description",
+    "label": "<meta description>",
+    "group": "head"
+  },
+  {
+    "id": "favicons",
+    "label": "Favicons",
+    "group": "head"
+  },
+  {
+    "id": "microdata-httpschemaorg",
+    "label": "Microdata (http://schema.org)",
+    "group": "other"
   },
   {
     "id": "bem-basics",
@@ -605,7 +1005,7 @@
     "group": "general"
   },
   {
-    "id": "overview1",
+    "id": "overview2",
     "label": "Overview",
     "group": "print-css"
   },
@@ -925,607 +1325,7 @@
     "group": "selectors"
   },
   {
-    "id": "laptop",
-    "label": "Laptop",
-    "group": "onboarding"
-  },
-  {
-    "id": "google-account",
-    "label": "Google Account",
-    "group": "onboarding"
-  },
-  {
-    "id": "key",
-    "label": "Key",
-    "group": "onboarding"
-  },
-  {
-    "id": "code-editor",
-    "label": "Code editor",
-    "group": "onboarding"
-  },
-  {
-    "id": "join-students-folder-on-google-drive",
-    "label": "Join student's folder on Google Drive",
-    "group": "onboarding"
-  },
-  {
-    "id": "frontendisti-slack-account",
-    "label": "Frontendisti Slack Account",
-    "group": "onboarding"
-  },
-  {
-    "id": "nodejs",
-    "label": "node.js",
-    "group": "onboarding"
-  },
-  {
-    "id": "chrome",
-    "label": "Chrome",
-    "group": "onboarding"
-  },
-  {
-    "id": "firefox",
-    "label": "Firefox",
-    "group": "onboarding"
-  },
-  {
-    "id": "github",
-    "label": "GitHub",
-    "group": "onboarding"
-  },
-  {
-    "id": "cmder",
-    "label": "Cmder",
-    "group": "onboarding"
-  },
-  {
-    "id": "agreement",
-    "label": "Agreement",
-    "group": "onboarding"
-  },
-  {
-    "id": "gitlab",
-    "label": "GitLab",
-    "group": "onboarding"
-  },
-  {
-    "id": "password-manager",
-    "label": "Password manager",
-    "group": "onboarding"
-  },
-  {
-    "id": "overview2",
-    "label": "Overview",
-    "group": "deployment"
-  },
-  {
-    "id": "surgesh",
-    "label": "surge.sh",
-    "group": "deployment"
-  },
-  {
-    "id": "ftp",
-    "label": "FTP",
-    "group": "deployment"
-  },
-  {
-    "id": "github-pages",
-    "label": "GitHub Pages",
-    "group": "deployment"
-  },
-  {
-    "id": "netlify",
-    "label": "Netlify",
-    "group": "deployment"
-  },
-  {
-    "id": "bmp",
-    "label": "BMP",
-    "group": "bitmaps"
-  },
-  {
-    "id": "gif",
-    "label": "GIF",
-    "group": "bitmaps"
-  },
-  {
-    "id": "gif-animated",
-    "label": "GIF (animated)",
-    "group": "bitmaps"
-  },
-  {
-    "id": "png",
-    "label": "PNG",
-    "group": "bitmaps"
-  },
-  {
-    "id": "jpg",
-    "label": "JPG",
-    "group": "bitmaps"
-  },
-  {
-    "id": "loosless-vs-lossy-compression",
-    "label": "loosless vs. lossy compression",
-    "group": "bitmaps"
-  },
-  {
-    "id": "webp",
-    "label": "WebP",
-    "group": "bitmaps"
-  },
-  {
-    "id": "other-formats",
-    "label": "Other formats",
-    "group": "bitmaps"
-  },
-  {
-    "id": "favicons",
-    "label": "Favicons",
-    "group": "bitmaps"
-  },
-  {
-    "id": "bitmaps-size-optimization",
-    "label": "Bitmaps size optimization",
-    "group": "bitmaps"
-  },
-  {
-    "id": "gif-size-optimization",
-    "label": "GIF size optimization",
-    "group": "bitmaps"
-  },
-  {
-    "id": "png-size-optimization",
-    "label": "PNG size optimization",
-    "group": "bitmaps"
-  },
-  {
-    "id": "jpg-size-optimization",
-    "label": "JPG size optimization",
-    "group": "bitmaps"
-  },
-  {
-    "id": "bitmap-image-resizing",
-    "label": "Bitmap image resizing",
-    "group": "bitmaps"
-  },
-  {
-    "id": "pixels",
-    "label": "Pixels",
-    "group": "computer-graphics"
-  },
-  {
-    "id": "bitmap-vs-vector",
-    "label": "Bitmap vs. Vector",
-    "group": "computer-graphics"
-  },
-  {
-    "id": "antialiasing",
-    "label": "Antialiasing",
-    "group": "computer-graphics"
-  },
-  {
-    "id": "font-subpixel-antialiasing",
-    "label": "Font subpixel antialiasing",
-    "group": "computer-graphics"
-  },
-  {
-    "id": "visual-design",
-    "label": "Visual Design",
-    "group": "design1"
-  },
-  {
-    "id": "color-theory",
-    "label": "Color Theory",
-    "group": "design1"
-  },
-  {
-    "id": "ux",
-    "label": "UX",
-    "group": "design1"
-  },
-  {
-    "id": "typography",
-    "label": "Typography",
-    "group": "design1"
-  },
-  {
-    "id": "content1",
-    "label": "Content",
-    "group": "design1"
-  },
-  {
-    "id": "corporate-identity",
-    "label": "Corporate Identity",
-    "group": "design1"
-  },
-  {
-    "id": "scales",
-    "label": "Scales",
-    "group": "design1"
-  },
-  {
-    "id": "animation",
-    "label": "Animation",
-    "group": "design1"
-  },
-  {
-    "id": "font-types",
-    "label": "Font types",
-    "group": "fonts"
-  },
-  {
-    "id": "web-fonts-overview",
-    "label": "Web Fonts Overview",
-    "group": "fonts"
-  },
-  {
-    "id": "linking-and-using-from-google-fonts",
-    "label": "Linking and using from Google Fonts",
-    "group": "fonts"
-  },
-  {
-    "id": "font-face-custom-solution-with-local-fonts",
-    "label": "@font-face (custom solution with local fonts)",
-    "group": "fonts"
-  },
-  {
     "id": "overview3",
-    "label": "Overview",
-    "group": "responsive-web-design"
-  },
-  {
-    "id": "fluid-web",
-    "label": "Fluid web",
-    "group": "responsive-web-design"
-  },
-  {
-    "id": "mobile-first",
-    "label": "Mobile-first",
-    "group": "responsive-web-design"
-  },
-  {
-    "id": "breakpoints-media-queries",
-    "label": "Breakpoints (@media queries)",
-    "group": "responsive-web-design"
-  },
-  {
-    "id": "simple-responsive-images",
-    "label": "Simple responsive images",
-    "group": "responsive-web-design"
-  },
-  {
-    "id": "responsive-images-srcset-sizes",
-    "label": "Responsive images (srcset, sizes)",
-    "group": "responsive-web-design"
-  },
-  {
-    "id": "picture",
-    "label": "<picture>",
-    "group": "responsive-web-design"
-  },
-  {
-    "id": "responsive-images-generator",
-    "label": "Responsive Images Generator",
-    "group": "responsive-web-design"
-  },
-  {
-    "id": "picturefilljs",
-    "label": "picturefill.js",
-    "group": "responsive-web-design"
-  },
-  {
-    "id": "need-for-testing",
-    "label": "Need for testing",
-    "group": "testing"
-  },
-  {
-    "id": "browser-compatibility",
-    "label": "Browser compatibility",
-    "group": "testing"
-  },
-  {
-    "id": "principles-and-manual-testing",
-    "label": "Principles and manual testing",
-    "group": "testing"
-  },
-  {
-    "id": "browserstack",
-    "label": "Browserstack",
-    "group": "testing"
-  },
-  {
-    "id": "bug-reporting",
-    "label": "Bug reporting",
-    "group": "testing"
-  },
-  {
-    "id": "automated-testing",
-    "label": "Automated testing",
-    "group": "testing"
-  },
-  {
-    "id": "aria-roles-overview",
-    "label": "ARIA roles overview",
-    "group": "accessibility"
-  },
-  {
-    "id": "doctype-html-head-body",
-    "label": "<!doctype>, <html>, <head>, <body>",
-    "group": "basic-structure"
-  },
-  {
-    "id": "p",
-    "label": "<p>",
-    "group": "body"
-  },
-  {
-    "id": "a-paths-for-href",
-    "label": "<a>, #, paths for href",
-    "group": "body"
-  },
-  {
-    "id": "h1-to-h6",
-    "label": "<h1> to <h6>",
-    "group": "body"
-  },
-  {
-    "id": "div-span",
-    "label": "<div>, <span>",
-    "group": "body"
-  },
-  {
-    "id": "img-src-width-height-alt",
-    "label": "<img>, src, width, height, alt",
-    "group": "body"
-  },
-  {
-    "id": "ul-ol-li",
-    "label": "<ul>, <ol>, <li>",
-    "group": "body"
-  },
-  {
-    "id": "em",
-    "label": "<em>",
-    "group": "body"
-  },
-  {
-    "id": "i",
-    "label": "<i>",
-    "group": "body"
-  },
-  {
-    "id": "strong",
-    "label": "<strong>",
-    "group": "body"
-  },
-  {
-    "id": "b",
-    "label": "<b>",
-    "group": "body"
-  },
-  {
-    "id": "small",
-    "label": "<small>",
-    "group": "body"
-  },
-  {
-    "id": "br",
-    "label": "<br>",
-    "group": "body"
-  },
-  {
-    "id": "main",
-    "label": "<main>",
-    "group": "body"
-  },
-  {
-    "id": "aside",
-    "label": "<aside>",
-    "group": "body"
-  },
-  {
-    "id": "header",
-    "label": "<header>",
-    "group": "body"
-  },
-  {
-    "id": "footer",
-    "label": "<footer>",
-    "group": "body"
-  },
-  {
-    "id": "nav",
-    "label": "<nav>",
-    "group": "body"
-  },
-  {
-    "id": "section",
-    "label": "<section>",
-    "group": "body"
-  },
-  {
-    "id": "article",
-    "label": "<article>",
-    "group": "body"
-  },
-  {
-    "id": "iframe",
-    "label": "<iframe>",
-    "group": "body"
-  },
-  {
-    "id": "table-tr-th-td-tbody",
-    "label": "<table>, <tr>, <th>, <td>, <tbody>",
-    "group": "body"
-  },
-  {
-    "id": "form-input-textarea-label-select-option-button",
-    "label": "<form>, <input>, <textarea>, <label>, <select>, <option>, <button>",
-    "group": "body"
-  },
-  {
-    "id": "fieldset-legend-optgroup",
-    "label": "<fieldset>, <legend>, <optgroup>",
-    "group": "body"
-  },
-  {
-    "id": "a-tabindex",
-    "label": "<a tabindex>",
-    "group": "body"
-  },
-  {
-    "id": "picture-source",
-    "label": "<picture>, <source>",
-    "group": "body"
-  },
-  {
-    "id": "noscript",
-    "label": "<noscript>",
-    "group": "body"
-  },
-  {
-    "id": "tfoot-thead-col-colgroup-caption",
-    "label": "<tfoot>, <thead>, <col>, <colgroup>, <caption>",
-    "group": "body"
-  },
-  {
-    "id": "map-img-usemap",
-    "label": "<map>, <img usemap>",
-    "group": "body"
-  },
-  {
-    "id": "dl-dt-dd",
-    "label": "<dl>, <dt>, <dd>",
-    "group": "body"
-  },
-  {
-    "id": "hgroup-figcaption-figure-menu-menuitem-meter-progress-time",
-    "label": "<hgroup>, <figcaption>, <figure>, <menu>, <menuitem>, <meter>, <progress>, <time>",
-    "group": "body"
-  },
-  {
-    "id": "pre",
-    "label": "<pre>",
-    "group": "body"
-  },
-  {
-    "id": "blockquote",
-    "label": "<blockquote>",
-    "group": "body"
-  },
-  {
-    "id": "sub-sup",
-    "label": "<sub>, <sup>",
-    "group": "body"
-  },
-  {
-    "id": "code",
-    "label": "<code>",
-    "group": "body"
-  },
-  {
-    "id": "del",
-    "label": "<del>",
-    "group": "body"
-  },
-  {
-    "id": "embed",
-    "label": "<embed>",
-    "group": "body"
-  },
-  {
-    "id": "hr",
-    "label": "<hr>",
-    "group": "body"
-  },
-  {
-    "id": "ins",
-    "label": "<ins>",
-    "group": "body"
-  },
-  {
-    "id": "kbd",
-    "label": "<kbd>",
-    "group": "body"
-  },
-  {
-    "id": "mark",
-    "label": "<mark>",
-    "group": "body"
-  },
-  {
-    "id": "object-param",
-    "label": "<object>, <param>",
-    "group": "body"
-  },
-  {
-    "id": "output",
-    "label": "<output>",
-    "group": "body"
-  },
-  {
-    "id": "samp",
-    "label": "<samp>",
-    "group": "body"
-  },
-  {
-    "id": "u",
-    "label": "<u>",
-    "group": "body"
-  },
-  {
-    "id": "var",
-    "label": "<var>",
-    "group": "body"
-  },
-  {
-    "id": "q",
-    "label": "<q>",
-    "group": "body"
-  },
-  {
-    "id": "s",
-    "label": "<s>",
-    "group": "body"
-  },
-  {
-    "id": "wbr",
-    "label": "<wbr>",
-    "group": "body"
-  },
-  {
-    "id": "video-audio",
-    "label": "<video>, <audio>",
-    "group": "body"
-  },
-  {
-    "id": "title",
-    "label": "<title>",
-    "group": "head"
-  },
-  {
-    "id": "link",
-    "label": "<link>",
-    "group": "head"
-  },
-  {
-    "id": "meta-description",
-    "label": "<meta description>",
-    "group": "head"
-  },
-  {
-    "id": "favicons1",
-    "label": "Favicons",
-    "group": "head"
-  },
-  {
-    "id": "microdata-httpschemaorg",
-    "label": "Microdata (http://schema.org)",
-    "group": "other"
-  },
-  {
-    "id": "overview4",
     "label": "Overview",
     "group": "arrays"
   },
@@ -1600,7 +1400,7 @@
     "group": "arrays"
   },
   {
-    "id": "overview5",
+    "id": "overview4",
     "label": "Overview",
     "group": "async-await"
   },
@@ -1640,47 +1440,47 @@
     "group": "async-await"
   },
   {
-    "id": "overview6",
+    "id": "overview5",
     "label": "Overview",
-    "group": "basics1"
+    "group": "basics"
   },
   {
     "id": "console",
     "label": "Console",
-    "group": "basics1"
+    "group": "basics"
   },
   {
     "id": "data-types",
     "label": "Data Types",
-    "group": "basics1"
+    "group": "basics"
   },
   {
     "id": "math-operators",
     "label": "Math Operators",
-    "group": "basics1"
+    "group": "basics"
   },
   {
     "id": "properties",
     "label": "Properties",
-    "group": "basics1"
+    "group": "basics"
   },
   {
     "id": "built-in-methods",
     "label": "Built-in Methods",
-    "group": "basics1"
+    "group": "basics"
   },
   {
     "id": "built-in-libraries",
     "label": "Built-in Libraries",
-    "group": "basics1"
+    "group": "basics"
   },
   {
     "id": "comments1",
     "label": "Comments",
-    "group": "basics1"
+    "group": "basics"
   },
   {
-    "id": "overview7",
+    "id": "overview6",
     "label": "Overview",
     "group": "browser-compatibility-and-transpilation"
   },
@@ -1695,7 +1495,7 @@
     "group": "browser-compatibility-and-transpilation"
   },
   {
-    "id": "overview8",
+    "id": "overview7",
     "label": "Overview",
     "group": "classes"
   },
@@ -1760,12 +1560,12 @@
     "group": "conditionals"
   },
   {
-    "id": "overview9",
+    "id": "overview8",
     "label": "Overview",
     "group": "dom-events"
   },
   {
-    "id": "overviewa",
+    "id": "overview9",
     "label": "Overview",
     "group": "dom"
   },
@@ -1820,7 +1620,7 @@
     "group": "functions"
   },
   {
-    "id": "overviewb",
+    "id": "overviewa",
     "label": "Overview",
     "group": "higher-order-functions"
   },
@@ -1835,7 +1635,7 @@
     "group": "higher-order-functions"
   },
   {
-    "id": "overviewc",
+    "id": "overviewb",
     "label": "Overview",
     "group": "iterators"
   },
@@ -1860,7 +1660,7 @@
     "group": "iterators"
   },
   {
-    "id": "overviewd",
+    "id": "overviewc",
     "label": "Overview",
     "group": "loops"
   },
@@ -1900,7 +1700,7 @@
     "group": "loops"
   },
   {
-    "id": "overviewe",
+    "id": "overviewd",
     "label": "Overview",
     "group": "modules"
   },
@@ -1960,7 +1760,7 @@
     "group": "modules"
   },
   {
-    "id": "overviewf",
+    "id": "overviewe",
     "label": "Overview",
     "group": "nodejs1"
   },
@@ -1980,7 +1780,7 @@
     "group": "nodejs1"
   },
   {
-    "id": "overviewg",
+    "id": "overviewf",
     "label": "Overview",
     "group": "objects"
   },
@@ -2070,7 +1870,7 @@
     "group": "objects"
   },
   {
-    "id": "overviewh",
+    "id": "overviewg",
     "label": "Overview",
     "group": "promises"
   },
@@ -2115,7 +1915,7 @@
     "group": "promises"
   },
   {
-    "id": "overviewi",
+    "id": "overviewh",
     "label": "Overview",
     "group": "requests"
   },
@@ -2155,7 +1955,7 @@
     "group": "requests"
   },
   {
-    "id": "overviewj",
+    "id": "overviewi",
     "label": "Overview",
     "group": "scope"
   },
@@ -2175,7 +1975,7 @@
     "group": "scope"
   },
   {
-    "id": "overviewk",
+    "id": "overviewj",
     "label": "Overview",
     "group": "variables1"
   },
@@ -2225,7 +2025,7 @@
     "group": "variables1"
   },
   {
-    "id": "overviewl",
+    "id": "overviewk",
     "label": "Overview",
     "group": "jquery"
   },
@@ -2290,514 +2090,199 @@
     "group": "jquery"
   },
   {
-    "id": "copyright-law-as-an-author",
-    "label": "Copyright law as an author",
-    "group": "law"
+    "id": "bmp",
+    "label": "BMP",
+    "group": "bitmaps"
   },
   {
-    "id": "copyright-law-as-an-user",
-    "label": "Copyright law as an user",
-    "group": "law"
+    "id": "gif",
+    "label": "GIF",
+    "group": "bitmaps"
   },
   {
-    "id": "privacy-protection-laws",
-    "label": "Privacy protection laws",
-    "group": "law"
+    "id": "gif-animated",
+    "label": "GIF (animated)",
+    "group": "bitmaps"
   },
   {
-    "id": "liability",
-    "label": "Liability",
-    "group": "law"
+    "id": "png",
+    "label": "PNG",
+    "group": "bitmaps"
   },
   {
-    "id": "google-analytics-ability-to-get-info-about-used-technology-browsers",
-    "label": "Google Analytics: Ability to get info about used technology (browsers)",
-    "group": "analyzing-user-behavior"
+    "id": "jpg",
+    "label": "JPG",
+    "group": "bitmaps"
   },
   {
-    "id": "google-analytics-understanding-basic-data-pageviews-visitors",
-    "label": "Google Analytics: Understanding basic data (pageviews, visitors)",
-    "group": "analyzing-user-behavior"
+    "id": "loosless-vs-lossy-compression",
+    "label": "loosless vs. lossy compression",
+    "group": "bitmaps"
   },
   {
-    "id": "google-analytics-creating-a-website-in-ga-and-inserting-basic-code",
-    "label": "Google Analytics: Creating a website in GA and inserting basic code",
-    "group": "analyzing-user-behavior"
+    "id": "webp",
+    "label": "WebP",
+    "group": "bitmaps"
   },
   {
-    "id": "click-trackers",
-    "label": "Click trackers",
-    "group": "analyzing-user-behavior"
+    "id": "other-formats",
+    "label": "Other formats",
+    "group": "bitmaps"
   },
   {
-    "id": "google-search-console",
-    "label": "Google Search Console",
-    "group": "analyzing-user-behavior"
+    "id": "favicons1",
+    "label": "Favicons",
+    "group": "bitmaps"
   },
   {
-    "id": "npm-scripts",
-    "label": "npm scripts",
-    "group": "automation"
+    "id": "bitmaps-size-optimization",
+    "label": "Bitmaps size optimization",
+    "group": "bitmaps"
   },
   {
-    "id": "browsersync",
-    "label": "Browsersync",
-    "group": "automation"
+    "id": "gif-size-optimization",
+    "label": "GIF size optimization",
+    "group": "bitmaps"
   },
   {
-    "id": "gulp",
-    "label": "Gulp",
-    "group": "automation"
+    "id": "png-size-optimization",
+    "label": "PNG size optimization",
+    "group": "bitmaps"
   },
   {
-    "id": "postcss-autoprefixer",
-    "label": "PostCSS: autoprefixer",
-    "group": "automation"
+    "id": "jpg-size-optimization",
+    "label": "JPG size optimization",
+    "group": "bitmaps"
   },
   {
-    "id": "overviewm",
+    "id": "bitmap-image-resizing",
+    "label": "Bitmap image resizing",
+    "group": "bitmaps"
+  },
+  {
+    "id": "pixels",
+    "label": "Pixels",
+    "group": "computer-graphics"
+  },
+  {
+    "id": "bitmap-vs-vector",
+    "label": "Bitmap vs. Vector",
+    "group": "computer-graphics"
+  },
+  {
+    "id": "antialiasing",
+    "label": "Antialiasing",
+    "group": "computer-graphics"
+  },
+  {
+    "id": "font-subpixel-antialiasing",
+    "label": "Font subpixel antialiasing",
+    "group": "computer-graphics"
+  },
+  {
+    "id": "visual-design",
+    "label": "Visual Design",
+    "group": "design"
+  },
+  {
+    "id": "color-theory",
+    "label": "Color Theory",
+    "group": "design"
+  },
+  {
+    "id": "ux",
+    "label": "UX",
+    "group": "design"
+  },
+  {
+    "id": "typography",
+    "label": "Typography",
+    "group": "design"
+  },
+  {
+    "id": "content1",
+    "label": "Content",
+    "group": "design"
+  },
+  {
+    "id": "corporate-identity",
+    "label": "Corporate Identity",
+    "group": "design"
+  },
+  {
+    "id": "scales",
+    "label": "Scales",
+    "group": "design"
+  },
+  {
+    "id": "animation",
+    "label": "Animation",
+    "group": "design"
+  },
+  {
+    "id": "font-types",
+    "label": "Font types",
+    "group": "fonts"
+  },
+  {
+    "id": "web-fonts-overview",
+    "label": "Web Fonts Overview",
+    "group": "fonts"
+  },
+  {
+    "id": "linking-and-using-from-google-fonts",
+    "label": "Linking and using from Google Fonts",
+    "group": "fonts"
+  },
+  {
+    "id": "font-face-custom-solution-with-local-fonts",
+    "label": "@font-face (custom solution with local fonts)",
+    "group": "fonts"
+  },
+  {
+    "id": "overviewl",
     "label": "Overview",
-    "group": "code-editing"
+    "group": "responsive-web-design"
   },
   {
-    "id": "working-with-text-clipboard-operations-navigating-selecting-changing",
-    "label": "Working with text: clipboard operations, navigating, selecting, changing",
-    "group": "code-editing"
+    "id": "fluid-web",
+    "label": "Fluid web",
+    "group": "responsive-web-design"
   },
   {
-    "id": "code-editor-installation",
-    "label": "Code Editor Installation",
-    "group": "code-editing"
+    "id": "mobile-first",
+    "label": "Mobile-first",
+    "group": "responsive-web-design"
   },
   {
-    "id": "projects",
-    "label": "Projects",
-    "group": "code-editing"
+    "id": "breakpoints-media-queries",
+    "label": "Breakpoints (@media queries)",
+    "group": "responsive-web-design"
   },
   {
-    "id": "basic-editing-copy-cut-paste-lines-indenting-including-difference-between-tabs-and-spaces",
-    "label": "Basic editing: copy + cut + paste lines, indenting (including difference between tabs and spaces)",
-    "group": "code-editing"
+    "id": "simple-responsive-images",
+    "label": "Simple responsive images",
+    "group": "responsive-web-design"
   },
   {
-    "id": "multiple-selections",
-    "label": "Multiple selections",
-    "group": "code-editing"
+    "id": "responsive-images-srcset-sizes",
+    "label": "Responsive images (srcset, sizes)",
+    "group": "responsive-web-design"
   },
   {
-    "id": "intellisense",
-    "label": "Intellisense",
-    "group": "code-editing"
+    "id": "picture",
+    "label": "<picture>",
+    "group": "responsive-web-design"
   },
   {
-    "id": "emmet",
-    "label": "Emmet",
-    "group": "code-editing"
+    "id": "responsive-images-generator",
+    "label": "Responsive Images Generator",
+    "group": "responsive-web-design"
   },
   {
-    "id": "search-and-replace",
-    "label": "Search and replace",
-    "group": "code-editing"
-  },
-  {
-    "id": "extensionsplugins-installation",
-    "label": "Extensions/Plugins installation",
-    "group": "code-editing"
-  },
-  {
-    "id": "autoindent-andor-beautify",
-    "label": "Autoindent and/or Beautify",
-    "group": "code-editing"
-  },
-  {
-    "id": "overviewn",
-    "label": "Overview",
-    "group": "databases"
-  },
-  {
-    "id": "relational-database",
-    "label": "Relational database",
-    "group": "databases"
-  },
-  {
-    "id": "crud-via-client-adminerphpmyadmin",
-    "label": "CRUD via client (Adminer/PHPMyAdmin)",
-    "group": "databases"
-  },
-  {
-    "id": "nosql",
-    "label": "noSQL",
-    "group": "databases"
-  },
-  {
-    "id": "overviewo",
-    "label": "Overview",
-    "group": "dev-tools"
-  },
-  {
-    "id": "elements-html-css",
-    "label": "Elements (HTML, CSS)",
-    "group": "dev-tools"
-  },
-  {
-    "id": "console1",
-    "label": "Console",
-    "group": "dev-tools"
-  },
-  {
-    "id": "network",
-    "label": "Network",
-    "group": "dev-tools"
-  },
-  {
-    "id": "sources",
-    "label": "Sources",
-    "group": "dev-tools"
-  },
-  {
-    "id": "asking-questions",
-    "label": "Asking questions",
-    "group": "engineering"
-  },
-  {
-    "id": "refactoring",
-    "label": "Refactoring",
-    "group": "engineering"
-  },
-  {
-    "id": "dry-v-overengineering-kiss",
-    "label": "DRY v. Overengineering (KISS)",
-    "group": "engineering"
-  },
-  {
-    "id": "yagni-premature-optimization",
-    "label": "YAGNI (premature optimization)",
-    "group": "engineering"
-  },
-  {
-    "id": "progressive-enhancement-and-graceful-degradation",
-    "label": "Progressive enhancement and Graceful degradation",
-    "group": "engineering"
-  },
-  {
-    "id": "feature-detection",
-    "label": "Feature detection",
-    "group": "engineering"
-  },
-  {
-    "id": "modernizr",
-    "label": "Modernizr",
-    "group": "engineering"
-  },
-  {
-    "id": "polyfills",
-    "label": "Polyfills",
-    "group": "engineering"
-  },
-  {
-    "id": "composition-vs-inheritance",
-    "label": "Composition vs. Inheritance",
-    "group": "engineering"
-  },
-  {
-    "id": "fallbacks",
-    "label": "Fallbacks",
-    "group": "engineering"
-  },
-  {
-    "id": "ethics",
-    "label": "Ethics",
-    "group": "engineering"
-  },
-  {
-    "id": "server-client-architecture",
-    "label": "Server-client architecture",
-    "group": "engineering"
-  },
-  {
-    "id": "hashes",
-    "label": "Hashes",
-    "group": "engineering"
-  },
-  {
-    "id": "base64-encoding",
-    "label": "base64 encoding",
-    "group": "engineering"
-  },
-  {
-    "id": "overviewp",
-    "label": "Overview",
-    "group": "job-seeking"
-  },
-  {
-    "id": "interviews",
-    "label": "Interviews",
-    "group": "job-seeking"
-  },
-  {
-    "id": "where-to-find",
-    "label": "Where to find",
-    "group": "job-seeking"
-  },
-  {
-    "id": "cv",
-    "label": "CV",
-    "group": "job-seeking"
-  },
-  {
-    "id": "linkedin",
-    "label": "LinkedIn",
-    "group": "job-seeking"
-  },
-  {
-    "id": "github1",
-    "label": "GitHub",
-    "group": "job-seeking"
-  },
-  {
-    "id": "stack-overflow",
-    "label": "Stack Overflow",
-    "group": "job-seeking"
-  },
-  {
-    "id": "time-estimating",
-    "label": "Time estimating",
-    "group": "project-management"
-  },
-  {
-    "id": "project-management-triangle",
-    "label": "Project management triangle",
-    "group": "project-management"
-  },
-  {
-    "id": "waterfall-projects",
-    "label": "Waterfall projects",
-    "group": "project-management"
-  },
-  {
-    "id": "agile-projects",
-    "label": "Agile projects",
-    "group": "project-management"
-  },
-  {
-    "id": "overviewq",
-    "label": "Overview",
-    "group": "regular-expressions"
-  },
-  {
-    "id": "finding-and-replacing",
-    "label": "Finding & Replacing",
-    "group": "regular-expressions"
-  },
-  {
-    "id": "online-tools-to-test",
-    "label": "online tools to test",
-    "group": "regular-expressions"
-  },
-  {
-    "id": "capture-groups-and-replacing-dollar1",
-    "label": "capture groups () and replacing $1",
-    "group": "regular-expressions"
-  },
-  {
-    "id": "lookaheads-and-lookbehinds",
-    "label": "lookaheads and lookbehinds",
-    "group": "regular-expressions"
-  },
-  {
-    "id": "overview-goals-on-and-off-page-factors",
-    "label": "Overview: Goals, On and Off Page Factors",
-    "group": "seo"
-  },
-  {
-    "id": "html-semantics",
-    "label": "HTML Semantics",
-    "group": "seo"
-  },
-  {
-    "id": "javascript-and-seo",
-    "label": "JavaScript and SEO",
-    "group": "seo"
-  },
-  {
-    "id": "rich-snippets",
-    "label": "Rich snippets",
-    "group": "seo"
-  },
-  {
-    "id": "off-page-factors-linking",
-    "label": "Off page factors: linking",
-    "group": "seo"
-  },
-  {
-    "id": "sitemapxml",
-    "label": "Sitemap.xml",
-    "group": "seo"
-  },
-  {
-    "id": "robotstxt",
-    "label": "Robots.txt",
-    "group": "seo"
-  },
-  {
-    "id": "advanced-seo",
-    "label": "Advanced SEO",
-    "group": "seo"
-  },
-  {
-    "id": "facebook-open-graph",
-    "label": "Facebook Open Graph",
-    "group": "social-media"
-  },
-  {
-    "id": "twitter-cards",
-    "label": "Twitter Cards",
-    "group": "social-media"
-  },
-  {
-    "id": "overviewr",
-    "label": "Overview",
-    "group": "templates"
-  },
-  {
-    "id": "variables-syntax-syntaxname",
-    "label": "Variables {{ syntax }} {{ syntax.name }}",
-    "group": "templates"
-  },
-  {
-    "id": "comments2",
-    "label": "{# #} comments",
-    "group": "templates"
-  },
-  {
-    "id": "include",
-    "label": "{% include %}",
-    "group": "templates"
-  },
-  {
-    "id": "include-paramfoo-with-parameters",
-    "label": "{% include param='foo' %} (with parameters)",
-    "group": "templates"
-  },
-  {
-    "id": "for1",
-    "label": "{% for %}",
-    "group": "templates"
-  },
-  {
-    "id": "block",
-    "label": "{% block %}",
-    "group": "templates"
-  },
-  {
-    "id": "extends",
-    "label": "{% extends %}",
-    "group": "templates"
-  },
-  {
-    "id": "parent",
-    "label": "{{ parent() }}",
-    "group": "templates"
-  },
-  {
-    "id": "filters",
-    "label": "Filters",
-    "group": "templates"
-  },
-  {
-    "id": "checklists",
-    "label": "Checklists",
-    "group": "tools"
-  },
-  {
-    "id": "overviews",
-    "label": "Overview",
-    "group": "twitter-bootstrap"
-  },
-  {
-    "id": "basic-usage-link-to-cdn-html-structure",
-    "label": "Basic usage (link to CDN, HTML structure)",
-    "group": "twitter-bootstrap"
-  },
-  {
-    "id": "grid",
-    "label": "Grid",
-    "group": "twitter-bootstrap"
-  },
-  {
-    "id": "components-nav",
-    "label": "Components: Nav",
-    "group": "twitter-bootstrap"
-  },
-  {
-    "id": "components-navbar",
-    "label": "Components: Navbar",
-    "group": "twitter-bootstrap"
-  },
-  {
-    "id": "components-card",
-    "label": "Components: Card",
-    "group": "twitter-bootstrap"
-  },
-  {
-    "id": "customization-utility-classes",
-    "label": "Customization: Utility classes",
-    "group": "twitter-bootstrap"
-  },
-  {
-    "id": "customization-variables",
-    "label": "Customization: Variables",
-    "group": "twitter-bootstrap"
-  },
-  {
-    "id": "customization-own-css",
-    "label": "Customization: Own CSS",
-    "group": "twitter-bootstrap"
-  },
-  {
-    "id": "customization-removing-modules",
-    "label": "Customization: removing modules",
-    "group": "twitter-bootstrap"
-  },
-  {
-    "id": "bootstrap-javascript-via-data-attributes",
-    "label": "Bootstrap JavaScript (via data attributes)",
-    "group": "twitter-bootstrap"
-  },
-  {
-    "id": "bootstrap-javascript-via-js",
-    "label": "Bootstrap JavaScript (via JS)",
-    "group": "twitter-bootstrap"
-  },
-  {
-    "id": "build-a-one-page-website",
-    "label": "Build a one page website.",
-    "group": "01-one-page"
-  },
-  {
-    "id": "build-generic-hipster-coffee-website",
-    "label": "Build Generic Hipster Coffee website",
-    "group": "02-generic-hipster-coffee"
-  },
-  {
-    "id": "embed-a-google-map-using-google-maps-javascript-api",
-    "label": "Embed a Google Map using Google Maps JavaScript API",
-    "group": "02-generic-hipster-coffee"
-  },
-  {
-    "id": "on-classic-stack-fix-a-bug-or-code-a-new-feature",
-    "label": "On classic stack fix a bug or code a new feature.",
-    "group": "03-a-task-on-classic-stack"
-  },
-  {
-    "id": "create-a-template-for-html-e-mail-used-for-mass-mailing",
-    "label": "Create a template for HTML e-mail used for mass mailing",
-    "group": "04-mailing"
-  },
-  {
-    "id": "build-a-small-javascript-application",
-    "label": "Build a small JavaScript application.",
-    "group": "05-application"
+    "id": "picturefilljs",
+    "label": "picturefill.js",
+    "group": "responsive-web-design"
   },
   {
     "id": "line",
@@ -2850,7 +2335,7 @@
     "group": "container-elements"
   },
   {
-    "id": "overviewt",
+    "id": "overviewm",
     "label": "Overview",
     "group": "inkscape"
   },
@@ -2945,57 +2430,7 @@
     "group": "svg-tools"
   },
   {
-    "id": "why",
-    "label": "Why",
-    "group": "speed-optimization"
-  },
-  {
-    "id": "percieved-vs-real-speed",
-    "label": "Percieved vs. real speed",
-    "group": "speed-optimization"
-  },
-  {
-    "id": "internet-connection-speeds",
-    "label": "Internet connection speeds",
-    "group": "speed-optimization"
-  },
-  {
-    "id": "http-file-transfer",
-    "label": "HTTP file transfer",
-    "group": "speed-optimization"
-  },
-  {
-    "id": "strategies",
-    "label": "Strategies",
-    "group": "speed-optimization"
-  },
-  {
-    "id": "optimizing-css",
-    "label": "Optimizing CSS",
-    "group": "speed-optimization"
-  },
-  {
-    "id": "optimizing-javascript",
-    "label": "Optimizing JavaScript",
-    "group": "speed-optimization"
-  },
-  {
-    "id": "optimizing-svg",
-    "label": "Optimizing SVG",
-    "group": "speed-optimization"
-  },
-  {
-    "id": "blocking-and-non-blocking-assets",
-    "label": "Blocking and non-blocking assets",
-    "group": "speed-optimization"
-  },
-  {
-    "id": "lazy-loading",
-    "label": "Lazy loading",
-    "group": "speed-optimization"
-  },
-  {
-    "id": "overviewu",
+    "id": "overviewn",
     "label": "Overview",
     "group": "git"
   },
@@ -3163,6 +2598,566 @@
     "id": "readmemd",
     "label": "README.md",
     "group": "github-and-gitlab"
+  },
+  {
+    "id": "google-analytics-ability-to-get-info-about-used-technology-browsers",
+    "label": "Google Analytics: Ability to get info about used technology (browsers)",
+    "group": "analyzing-user-behavior"
+  },
+  {
+    "id": "google-analytics-understanding-basic-data-pageviews-visitors",
+    "label": "Google Analytics: Understanding basic data (pageviews, visitors)",
+    "group": "analyzing-user-behavior"
+  },
+  {
+    "id": "google-analytics-creating-a-website-in-ga-and-inserting-basic-code",
+    "label": "Google Analytics: Creating a website in GA and inserting basic code",
+    "group": "analyzing-user-behavior"
+  },
+  {
+    "id": "click-trackers",
+    "label": "Click trackers",
+    "group": "analyzing-user-behavior"
+  },
+  {
+    "id": "google-search-console",
+    "label": "Google Search Console",
+    "group": "analyzing-user-behavior"
+  },
+  {
+    "id": "npm-scripts",
+    "label": "npm scripts",
+    "group": "automation"
+  },
+  {
+    "id": "browsersync",
+    "label": "Browsersync",
+    "group": "automation"
+  },
+  {
+    "id": "gulp",
+    "label": "Gulp",
+    "group": "automation"
+  },
+  {
+    "id": "postcss-autoprefixer",
+    "label": "PostCSS: autoprefixer",
+    "group": "automation"
+  },
+  {
+    "id": "overviewo",
+    "label": "Overview",
+    "group": "databases"
+  },
+  {
+    "id": "relational-database",
+    "label": "Relational database",
+    "group": "databases"
+  },
+  {
+    "id": "crud-via-client-adminerphpmyadmin",
+    "label": "CRUD via client (Adminer/PHPMyAdmin)",
+    "group": "databases"
+  },
+  {
+    "id": "nosql",
+    "label": "noSQL",
+    "group": "databases"
+  },
+  {
+    "id": "overviewp",
+    "label": "Overview",
+    "group": "deployment"
+  },
+  {
+    "id": "surgesh",
+    "label": "surge.sh",
+    "group": "deployment"
+  },
+  {
+    "id": "ftp",
+    "label": "FTP",
+    "group": "deployment"
+  },
+  {
+    "id": "github-pages",
+    "label": "GitHub Pages",
+    "group": "deployment"
+  },
+  {
+    "id": "netlify",
+    "label": "Netlify",
+    "group": "deployment"
+  },
+  {
+    "id": "overviewq",
+    "label": "Overview",
+    "group": "dev-tools"
+  },
+  {
+    "id": "elements-html-css",
+    "label": "Elements (HTML, CSS)",
+    "group": "dev-tools"
+  },
+  {
+    "id": "console1",
+    "label": "Console",
+    "group": "dev-tools"
+  },
+  {
+    "id": "network",
+    "label": "Network",
+    "group": "dev-tools"
+  },
+  {
+    "id": "sources",
+    "label": "Sources",
+    "group": "dev-tools"
+  },
+  {
+    "id": "asking-questions",
+    "label": "Asking questions",
+    "group": "engineering"
+  },
+  {
+    "id": "refactoring",
+    "label": "Refactoring",
+    "group": "engineering"
+  },
+  {
+    "id": "dry-v-overengineering-kiss",
+    "label": "DRY v. Overengineering (KISS)",
+    "group": "engineering"
+  },
+  {
+    "id": "yagni-premature-optimization",
+    "label": "YAGNI (premature optimization)",
+    "group": "engineering"
+  },
+  {
+    "id": "progressive-enhancement-and-graceful-degradation",
+    "label": "Progressive enhancement and Graceful degradation",
+    "group": "engineering"
+  },
+  {
+    "id": "feature-detection",
+    "label": "Feature detection",
+    "group": "engineering"
+  },
+  {
+    "id": "modernizr",
+    "label": "Modernizr",
+    "group": "engineering"
+  },
+  {
+    "id": "polyfills",
+    "label": "Polyfills",
+    "group": "engineering"
+  },
+  {
+    "id": "composition-vs-inheritance",
+    "label": "Composition vs. Inheritance",
+    "group": "engineering"
+  },
+  {
+    "id": "fallbacks",
+    "label": "Fallbacks",
+    "group": "engineering"
+  },
+  {
+    "id": "ethics",
+    "label": "Ethics",
+    "group": "engineering"
+  },
+  {
+    "id": "server-client-architecture",
+    "label": "Server-client architecture",
+    "group": "engineering"
+  },
+  {
+    "id": "hashes",
+    "label": "Hashes",
+    "group": "engineering"
+  },
+  {
+    "id": "base64-encoding",
+    "label": "base64 encoding",
+    "group": "engineering"
+  },
+  {
+    "id": "overviewr",
+    "label": "Overview",
+    "group": "regular-expressions"
+  },
+  {
+    "id": "finding-and-replacing",
+    "label": "Finding & Replacing",
+    "group": "regular-expressions"
+  },
+  {
+    "id": "online-tools-to-test",
+    "label": "online tools to test",
+    "group": "regular-expressions"
+  },
+  {
+    "id": "capture-groups-and-replacing-dollar1",
+    "label": "capture groups () and replacing $1",
+    "group": "regular-expressions"
+  },
+  {
+    "id": "lookaheads-and-lookbehinds",
+    "label": "lookaheads and lookbehinds",
+    "group": "regular-expressions"
+  },
+  {
+    "id": "overview-goals-on-and-off-page-factors",
+    "label": "Overview: Goals, On and Off Page Factors",
+    "group": "seo"
+  },
+  {
+    "id": "html-semantics",
+    "label": "HTML Semantics",
+    "group": "seo"
+  },
+  {
+    "id": "javascript-and-seo",
+    "label": "JavaScript and SEO",
+    "group": "seo"
+  },
+  {
+    "id": "rich-snippets",
+    "label": "Rich snippets",
+    "group": "seo"
+  },
+  {
+    "id": "off-page-factors-linking",
+    "label": "Off page factors: linking",
+    "group": "seo"
+  },
+  {
+    "id": "sitemapxml",
+    "label": "Sitemap.xml",
+    "group": "seo"
+  },
+  {
+    "id": "robotstxt",
+    "label": "Robots.txt",
+    "group": "seo"
+  },
+  {
+    "id": "advanced-seo",
+    "label": "Advanced SEO",
+    "group": "seo"
+  },
+  {
+    "id": "facebook-open-graph",
+    "label": "Facebook Open Graph",
+    "group": "social-media"
+  },
+  {
+    "id": "twitter-cards",
+    "label": "Twitter Cards",
+    "group": "social-media"
+  },
+  {
+    "id": "why",
+    "label": "Why",
+    "group": "speed-optimization"
+  },
+  {
+    "id": "percieved-vs-real-speed",
+    "label": "Percieved vs. real speed",
+    "group": "speed-optimization"
+  },
+  {
+    "id": "internet-connection-speeds",
+    "label": "Internet connection speeds",
+    "group": "speed-optimization"
+  },
+  {
+    "id": "http-file-transfer",
+    "label": "HTTP file transfer",
+    "group": "speed-optimization"
+  },
+  {
+    "id": "strategies",
+    "label": "Strategies",
+    "group": "speed-optimization"
+  },
+  {
+    "id": "optimizing-css",
+    "label": "Optimizing CSS",
+    "group": "speed-optimization"
+  },
+  {
+    "id": "optimizing-javascript",
+    "label": "Optimizing JavaScript",
+    "group": "speed-optimization"
+  },
+  {
+    "id": "optimizing-svg",
+    "label": "Optimizing SVG",
+    "group": "speed-optimization"
+  },
+  {
+    "id": "blocking-and-non-blocking-assets",
+    "label": "Blocking and non-blocking assets",
+    "group": "speed-optimization"
+  },
+  {
+    "id": "lazy-loading",
+    "label": "Lazy loading",
+    "group": "speed-optimization"
+  },
+  {
+    "id": "overviews",
+    "label": "Overview",
+    "group": "templates"
+  },
+  {
+    "id": "variables-syntax-syntaxname",
+    "label": "Variables {{ syntax }} {{ syntax.name }}",
+    "group": "templates"
+  },
+  {
+    "id": "comments2",
+    "label": "{# #} comments",
+    "group": "templates"
+  },
+  {
+    "id": "include",
+    "label": "{% include %}",
+    "group": "templates"
+  },
+  {
+    "id": "include-paramfoo-with-parameters",
+    "label": "{% include param='foo' %} (with parameters)",
+    "group": "templates"
+  },
+  {
+    "id": "for1",
+    "label": "{% for %}",
+    "group": "templates"
+  },
+  {
+    "id": "block",
+    "label": "{% block %}",
+    "group": "templates"
+  },
+  {
+    "id": "extends",
+    "label": "{% extends %}",
+    "group": "templates"
+  },
+  {
+    "id": "parent",
+    "label": "{{ parent() }}",
+    "group": "templates"
+  },
+  {
+    "id": "filters",
+    "label": "Filters",
+    "group": "templates"
+  },
+  {
+    "id": "need-for-testing",
+    "label": "Need for testing",
+    "group": "testing"
+  },
+  {
+    "id": "browser-compatibility",
+    "label": "Browser compatibility",
+    "group": "testing"
+  },
+  {
+    "id": "principles-and-manual-testing",
+    "label": "Principles and manual testing",
+    "group": "testing"
+  },
+  {
+    "id": "browserstack",
+    "label": "Browserstack",
+    "group": "testing"
+  },
+  {
+    "id": "bug-reporting",
+    "label": "Bug reporting",
+    "group": "testing"
+  },
+  {
+    "id": "automated-testing",
+    "label": "Automated testing",
+    "group": "testing"
+  },
+  {
+    "id": "checklists",
+    "label": "Checklists",
+    "group": "tools"
+  },
+  {
+    "id": "overviewt",
+    "label": "Overview",
+    "group": "twitter-bootstrap"
+  },
+  {
+    "id": "basic-usage-link-to-cdn-html-structure",
+    "label": "Basic usage (link to CDN, HTML structure)",
+    "group": "twitter-bootstrap"
+  },
+  {
+    "id": "grid",
+    "label": "Grid",
+    "group": "twitter-bootstrap"
+  },
+  {
+    "id": "components-nav",
+    "label": "Components: Nav",
+    "group": "twitter-bootstrap"
+  },
+  {
+    "id": "components-navbar",
+    "label": "Components: Navbar",
+    "group": "twitter-bootstrap"
+  },
+  {
+    "id": "components-card",
+    "label": "Components: Card",
+    "group": "twitter-bootstrap"
+  },
+  {
+    "id": "customization-utility-classes",
+    "label": "Customization: Utility classes",
+    "group": "twitter-bootstrap"
+  },
+  {
+    "id": "customization-variables",
+    "label": "Customization: Variables",
+    "group": "twitter-bootstrap"
+  },
+  {
+    "id": "customization-own-css",
+    "label": "Customization: Own CSS",
+    "group": "twitter-bootstrap"
+  },
+  {
+    "id": "customization-removing-modules",
+    "label": "Customization: removing modules",
+    "group": "twitter-bootstrap"
+  },
+  {
+    "id": "bootstrap-javascript-via-data-attributes",
+    "label": "Bootstrap JavaScript (via data attributes)",
+    "group": "twitter-bootstrap"
+  },
+  {
+    "id": "bootstrap-javascript-via-js",
+    "label": "Bootstrap JavaScript (via JS)",
+    "group": "twitter-bootstrap"
+  },
+  {
+    "id": "overviewu",
+    "label": "Overview",
+    "group": "job-seeking"
+  },
+  {
+    "id": "interviews",
+    "label": "Interviews",
+    "group": "job-seeking"
+  },
+  {
+    "id": "where-to-find",
+    "label": "Where to find",
+    "group": "job-seeking"
+  },
+  {
+    "id": "cv",
+    "label": "CV",
+    "group": "job-seeking"
+  },
+  {
+    "id": "linkedin",
+    "label": "LinkedIn",
+    "group": "job-seeking"
+  },
+  {
+    "id": "github1",
+    "label": "GitHub",
+    "group": "job-seeking"
+  },
+  {
+    "id": "stack-overflow",
+    "label": "Stack Overflow",
+    "group": "job-seeking"
+  },
+  {
+    "id": "copyright-law-as-an-author",
+    "label": "Copyright law as an author",
+    "group": "law"
+  },
+  {
+    "id": "copyright-law-as-an-user",
+    "label": "Copyright law as an user",
+    "group": "law"
+  },
+  {
+    "id": "privacy-protection-laws",
+    "label": "Privacy protection laws",
+    "group": "law"
+  },
+  {
+    "id": "liability",
+    "label": "Liability",
+    "group": "law"
+  },
+  {
+    "id": "time-estimating",
+    "label": "Time estimating",
+    "group": "project-management"
+  },
+  {
+    "id": "project-management-triangle",
+    "label": "Project management triangle",
+    "group": "project-management"
+  },
+  {
+    "id": "waterfall-projects",
+    "label": "Waterfall projects",
+    "group": "project-management"
+  },
+  {
+    "id": "agile-projects",
+    "label": "Agile projects",
+    "group": "project-management"
+  },
+  {
+    "id": "build-a-one-page-website",
+    "label": "Build a one page website.",
+    "group": "01-one-page"
+  },
+  {
+    "id": "build-generic-hipster-coffee-website",
+    "label": "Build Generic Hipster Coffee website",
+    "group": "02-generic-hipster-coffee"
+  },
+  {
+    "id": "embed-a-google-map-using-google-maps-javascript-api",
+    "label": "Embed a Google Map using Google Maps JavaScript API",
+    "group": "02-generic-hipster-coffee"
+  },
+  {
+    "id": "on-classic-stack-fix-a-bug-or-code-a-new-feature",
+    "label": "On classic stack fix a bug or code a new feature.",
+    "group": "03-a-task-on-classic-stack"
+  },
+  {
+    "id": "create-a-template-for-html-e-mail-used-for-mass-mailing",
+    "label": "Create a template for HTML e-mail used for mass mailing",
+    "group": "04-mailing"
+  },
+  {
+    "id": "build-a-small-javascript-application",
+    "label": "Build a small JavaScript application.",
+    "group": "05-application"
   }
 ];
       let edges = [
@@ -3212,6 +3207,66 @@
     "arrows": "to"
   },
   {
+    "from": "overview1",
+    "to": "working-with-text-clipboard-operations-navigating-selecting-changing",
+    "arrows": "to"
+  },
+  {
+    "from": "overview1",
+    "to": "code-editor-installation",
+    "arrows": "to"
+  },
+  {
+    "from": "code-editor-installation",
+    "to": "projects",
+    "arrows": "to"
+  },
+  {
+    "from": "code-editor-installation",
+    "to": "basic-editing-copy-cut-paste-lines-indenting-including-difference-between-tabs-and-spaces",
+    "arrows": "to"
+  },
+  {
+    "from": "basic-text-editing-using-keyboard",
+    "to": "text-editor-control-using-keyboard",
+    "arrows": "to"
+  },
+  {
+    "from": "basic-text-editing-using-keyboard",
+    "to": "working-with-text-in-a-text-editor",
+    "arrows": "to"
+  },
+  {
+    "from": "code-editor-installation",
+    "to": "multiple-selections",
+    "arrows": "to"
+  },
+  {
+    "from": "code-editor-installation",
+    "to": "intellisense",
+    "arrows": "to"
+  },
+  {
+    "from": "code-editor-installation",
+    "to": "emmet",
+    "arrows": "to"
+  },
+  {
+    "from": "code-editor-installation",
+    "to": "search-and-replace",
+    "arrows": "to"
+  },
+  {
+    "from": "code-editor-installation",
+    "to": "extensionsplugins-installation",
+    "arrows": "to"
+  },
+  {
+    "from": "extensionsplugins-installation",
+    "to": "autoindent-andor-beautify",
+    "arrows": "to"
+  },
+  {
     "from": "files-and-folders",
     "to": "text-vs-binary-files",
     "arrows": "to"
@@ -3252,13 +3307,308 @@
     "arrows": "to"
   },
   {
-    "from": "basic-text-editing-using-keyboard",
-    "to": "text-editor-control-using-keyboard",
+    "from": "doctype-html-head-body",
+    "to": "aria-roles-overview",
     "arrows": "to"
   },
   {
-    "from": "basic-text-editing-using-keyboard",
-    "to": "working-with-text-in-a-text-editor",
+    "from": "doctype-html-head-body",
+    "to": "p",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "a-paths-for-href",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "h1-to-h6",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "div-span",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "img-src-width-height-alt",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "ul-ol-li",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "em",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "i",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "strong",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "b",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "small",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "br",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "main",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "aside",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "header",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "footer",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "nav",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "section",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "article",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "iframe",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "table-tr-th-td-tbody",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "form-input-textarea-label-select-option-button",
+    "arrows": "to"
+  },
+  {
+    "from": "a-paths-for-href",
+    "to": "form-input-textarea-label-select-option-button",
+    "arrows": "to"
+  },
+  {
+    "from": "form-input-textarea-label-select-option-button",
+    "to": "fieldset-legend-optgroup",
+    "arrows": "to"
+  },
+  {
+    "from": "a-paths-for-href",
+    "to": "a-tabindex",
+    "arrows": "to"
+  },
+  {
+    "from": "img-src-width-height-alt",
+    "to": "picture-source",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "noscript",
+    "arrows": "to"
+  },
+  {
+    "from": "table-tr-th-td-tbody",
+    "to": "tfoot-thead-col-colgroup-caption",
+    "arrows": "to"
+  },
+  {
+    "from": "a-paths-for-href",
+    "to": "map-img-usemap",
+    "arrows": "to"
+  },
+  {
+    "from": "img-src-width-height-alt",
+    "to": "map-img-usemap",
+    "arrows": "to"
+  },
+  {
+    "from": "ul-ol-li",
+    "to": "dl-dt-dd",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "hgroup-figcaption-figure-menu-menuitem-meter-progress-time",
+    "arrows": "to"
+  },
+  {
+    "from": "h1-to-h6",
+    "to": "hgroup-figcaption-figure-menu-menuitem-meter-progress-time",
+    "arrows": "to"
+  },
+  {
+    "from": "img-src-width-height-alt",
+    "to": "hgroup-figcaption-figure-menu-menuitem-meter-progress-time",
+    "arrows": "to"
+  },
+  {
+    "from": "ul-ol-li",
+    "to": "hgroup-figcaption-figure-menu-menuitem-meter-progress-time",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "pre",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "blockquote",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "sub-sup",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "code",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "del",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "embed",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "hr",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "ins",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "kbd",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "mark",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "object-param",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "output",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "samp",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "u",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "var",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "q",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "s",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "wbr",
+    "arrows": "to"
+  },
+  {
+    "from": "br",
+    "to": "wbr",
+    "arrows": "to"
+  },
+  {
+    "from": "div-span",
+    "to": "video-audio",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "title",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "link",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "meta-description",
+    "arrows": "to"
+  },
+  {
+    "from": "link",
+    "to": "favicons",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "microdata-httpschemaorg",
     "arrows": "to"
   },
   {
@@ -3668,66 +4018,66 @@
   },
   {
     "from": "basic-css-syntax",
-    "to": "overview1",
+    "to": "overview2",
     "arrows": "to"
   },
   {
-    "from": "overview1",
+    "from": "overview2",
     "to": "page",
     "arrows": "to"
   },
   {
-    "from": "overview1",
+    "from": "overview2",
     "to": "size",
     "arrows": "to"
   },
   {
-    "from": "overview1",
+    "from": "overview2",
     "to": "margin-cm-units-in-page",
     "arrows": "to"
   },
   {
-    "from": "overview1",
+    "from": "overview2",
     "to": "show-links-targets-in-print-content-attrhref",
     "arrows": "to"
   },
   {
-    "from": "overview1",
+    "from": "overview2",
     "to": "page-break-inside-all",
     "arrows": "to"
   },
   {
-    "from": "overview1",
+    "from": "overview2",
     "to": "page-break-after-page-break-before-always-avoid-auto",
     "arrows": "to"
   },
   {
-    "from": "overview1",
+    "from": "overview2",
     "to": "widows",
     "arrows": "to"
   },
   {
-    "from": "overview1",
+    "from": "overview2",
     "to": "orphans",
     "arrows": "to"
   },
   {
-    "from": "overview1",
+    "from": "overview2",
     "to": "page-margin-box",
     "arrows": "to"
   },
   {
-    "from": "overview1",
+    "from": "overview2",
     "to": "page-first-left-right",
     "arrows": "to"
   },
   {
-    "from": "overview1",
+    "from": "overview2",
     "to": "marks",
     "arrows": "to"
   },
   {
-    "from": "overview1",
+    "from": "overview2",
     "to": "bleed",
     "arrows": "to"
   },
@@ -3817,7 +4167,7 @@
     "arrows": "to"
   },
   {
-    "from": "overview1",
+    "from": "overview2",
     "to": "page-related-first-left-right",
     "arrows": "to"
   },
@@ -3972,23 +4322,783 @@
     "arrows": "to"
   },
   {
-    "from": "overview2",
-    "to": "surgesh",
+    "from": "overview5",
+    "to": "overview3",
     "arrows": "to"
   },
   {
-    "from": "overview2",
-    "to": "ftp",
+    "from": "overview3",
+    "to": "creating",
     "arrows": "to"
   },
   {
-    "from": "overview2",
-    "to": "github-pages",
+    "from": "creating",
+    "to": "accessing-items",
     "arrows": "to"
   },
   {
-    "from": "overview2",
-    "to": "netlify",
+    "from": "accessing-items",
+    "to": "updating-items",
+    "arrows": "to"
+  },
+  {
+    "from": "creating",
+    "to": "let-vs-const-with-arrays",
+    "arrows": "to"
+  },
+  {
+    "from": "creating",
+    "to": "length-property",
+    "arrows": "to"
+  },
+  {
+    "from": "creating",
+    "to": "push",
+    "arrows": "to"
+  },
+  {
+    "from": "creating",
+    "to": "pop",
+    "arrows": "to"
+  },
+  {
+    "from": "creating",
+    "to": "join",
+    "arrows": "to"
+  },
+  {
+    "from": "creating",
+    "to": "slice",
+    "arrows": "to"
+  },
+  {
+    "from": "creating",
+    "to": "splice",
+    "arrows": "to"
+  },
+  {
+    "from": "creating",
+    "to": "shift",
+    "arrows": "to"
+  },
+  {
+    "from": "creating",
+    "to": "unshift",
+    "arrows": "to"
+  },
+  {
+    "from": "creating",
+    "to": "concat",
+    "arrows": "to"
+  },
+  {
+    "from": "creating",
+    "to": "nested-arrays",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewg",
+    "to": "overview4",
+    "arrows": "to"
+  },
+  {
+    "from": "overview4",
+    "to": "the-async-keyword",
+    "arrows": "to"
+  },
+  {
+    "from": "overview4",
+    "to": "the-await-operator",
+    "arrows": "to"
+  },
+  {
+    "from": "overview4",
+    "to": "writing-async-functions",
+    "arrows": "to"
+  },
+  {
+    "from": "overview4",
+    "to": "handling-dependent-promises",
+    "arrows": "to"
+  },
+  {
+    "from": "overview4",
+    "to": "handling-errors",
+    "arrows": "to"
+  },
+  {
+    "from": "overview4",
+    "to": "handling-independent-promises",
+    "arrows": "to"
+  },
+  {
+    "from": "overview4",
+    "to": "await-promiseall",
+    "arrows": "to"
+  },
+  {
+    "from": "overview5",
+    "to": "console",
+    "arrows": "to"
+  },
+  {
+    "from": "overview5",
+    "to": "data-types",
+    "arrows": "to"
+  },
+  {
+    "from": "overview5",
+    "to": "math-operators",
+    "arrows": "to"
+  },
+  {
+    "from": "overview5",
+    "to": "properties",
+    "arrows": "to"
+  },
+  {
+    "from": "overview5",
+    "to": "built-in-methods",
+    "arrows": "to"
+  },
+  {
+    "from": "overview5",
+    "to": "built-in-libraries",
+    "arrows": "to"
+  },
+  {
+    "from": "overview5",
+    "to": "comments1",
+    "arrows": "to"
+  },
+  {
+    "from": "overview5",
+    "to": "overview6",
+    "arrows": "to"
+  },
+  {
+    "from": "overview6",
+    "to": "caniusecom-for-javascript",
+    "arrows": "to"
+  },
+  {
+    "from": "overview6",
+    "to": "transpilation-with-babel",
+    "arrows": "to"
+  },
+  {
+    "from": "npm-scripts",
+    "to": "transpilation-with-babel",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewf",
+    "to": "overview7",
+    "arrows": "to"
+  },
+  {
+    "from": "overview7",
+    "to": "constructor1",
+    "arrows": "to"
+  },
+  {
+    "from": "overview7",
+    "to": "instance",
+    "arrows": "to"
+  },
+  {
+    "from": "overview7",
+    "to": "methods",
+    "arrows": "to"
+  },
+  {
+    "from": "overview7",
+    "to": "method-calls",
+    "arrows": "to"
+  },
+  {
+    "from": "overview7",
+    "to": "inheritance1",
+    "arrows": "to"
+  },
+  {
+    "from": "overview7",
+    "to": "static-methods",
+    "arrows": "to"
+  },
+  {
+    "from": "overview5",
+    "to": "control-flow",
+    "arrows": "to"
+  },
+  {
+    "from": "overview5",
+    "to": "comparison-operators",
+    "arrows": "to"
+  },
+  {
+    "from": "overview5",
+    "to": "logical-operators",
+    "arrows": "to"
+  },
+  {
+    "from": "overview5",
+    "to": "truthy-and-falsy",
+    "arrows": "to"
+  },
+  {
+    "from": "overview5",
+    "to": "ternary-operator",
+    "arrows": "to"
+  },
+  {
+    "from": "overview5",
+    "to": "switch",
+    "arrows": "to"
+  },
+  {
+    "from": "overview9",
+    "to": "overview8",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewf",
+    "to": "overview9",
+    "arrows": "to"
+  },
+  {
+    "from": "overview9",
+    "to": "selecting-elements",
+    "arrows": "to"
+  },
+  {
+    "from": "selecting-elements",
+    "to": "getting-attributes",
+    "arrows": "to"
+  },
+  {
+    "from": "getting-attributes",
+    "to": "changing-attributes",
+    "arrows": "to"
+  },
+  {
+    "from": "overview5",
+    "to": "principles",
+    "arrows": "to"
+  },
+  {
+    "from": "principles",
+    "to": "declarations",
+    "arrows": "to"
+  },
+  {
+    "from": "principles",
+    "to": "calling-functions",
+    "arrows": "to"
+  },
+  {
+    "from": "principles",
+    "to": "parameters-and-arguments",
+    "arrows": "to"
+  },
+  {
+    "from": "principles",
+    "to": "return",
+    "arrows": "to"
+  },
+  {
+    "from": "principles",
+    "to": "expressions-anonymous-functions",
+    "arrows": "to"
+  },
+  {
+    "from": "principles",
+    "to": "arrow-functions-one-parameter-implicit-return",
+    "arrows": "to"
+  },
+  {
+    "from": "overview5",
+    "to": "overviewa",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewa",
+    "to": "functions-as-data",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewa",
+    "to": "functions-as-parameters",
+    "arrows": "to"
+  },
+  {
+    "from": "overview3",
+    "to": "overviewb",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewb",
+    "to": "foreach",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewb",
+    "to": "map",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewb",
+    "to": "filter",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewb",
+    "to": "overview-of-other-methods-eg-findindex-some-every-reduce",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewj",
+    "to": "overviewc",
+    "arrows": "to"
+  },
+  {
+    "from": "overview3",
+    "to": "overviewc",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewc",
+    "to": "for",
+    "arrows": "to"
+  },
+  {
+    "from": "for",
+    "to": "looping-in-reverse",
+    "arrows": "to"
+  },
+  {
+    "from": "for",
+    "to": "looping-through-arrays",
+    "arrows": "to"
+  },
+  {
+    "from": "overview3",
+    "to": "looping-through-arrays",
+    "arrows": "to"
+  },
+  {
+    "from": "for",
+    "to": "nested-for-loops",
+    "arrows": "to"
+  },
+  {
+    "from": "for",
+    "to": "while-do",
+    "arrows": "to"
+  },
+  {
+    "from": "for",
+    "to": "break",
+    "arrows": "to"
+  },
+  {
+    "from": "for",
+    "to": "concept-and-prevention-of-infinite-loops",
+    "arrows": "to"
+  },
+  {
+    "from": "overview5",
+    "to": "overviewd",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewd",
+    "to": "exports",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewd",
+    "to": "require",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewd",
+    "to": "export-default",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewd",
+    "to": "import",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewd",
+    "to": "named-exports",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewd",
+    "to": "named-imports",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewd",
+    "to": "export-named-exports",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewd",
+    "to": "import-named-imports",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewd",
+    "to": "export-as",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewd",
+    "to": "import-as",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewd",
+    "to": "combining-export-statements",
+    "arrows": "to"
+  },
+  {
+    "from": "overview",
+    "to": "overviewe",
+    "arrows": "to"
+  },
+  {
+    "from": "overview5",
+    "to": "overviewe",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewe",
+    "to": "installation",
+    "arrows": "to"
+  },
+  {
+    "from": "installation",
+    "to": "npm-install",
+    "arrows": "to"
+  },
+  {
+    "from": "npm-install",
+    "to": "packagejson",
+    "arrows": "to"
+  },
+  {
+    "from": "overview5",
+    "to": "overviewf",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewf",
+    "to": "creating-object-literals",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewf",
+    "to": "accessing-properties-dot-notation",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewf",
+    "to": "accessing-properties-bracket-notation",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewf",
+    "to": "property-assignment",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewf",
+    "to": "methods1",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewf",
+    "to": "nested-objects",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewf",
+    "to": "pass-by-reference",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewf",
+    "to": "looping-through-objects",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewf",
+    "to": "the-this-keyword",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewf",
+    "to": "arrow-functions-and-this",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewf",
+    "to": "privacy",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewf",
+    "to": "getters",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewf",
+    "to": "setters",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewf",
+    "to": "factory-functions",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewf",
+    "to": "property-value-shorthand",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewf",
+    "to": "destructured-assignment",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewf",
+    "to": "built-in-object-methods",
+    "arrows": "to"
+  },
+  {
+    "from": "overview5",
+    "to": "overviewg",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewg",
+    "to": "constructing-a-promise-object",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewg",
+    "to": "the-node-settimeout-function",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewg",
+    "to": "consuming-promises",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewg",
+    "to": "the-onfulfilled-and-onrejected-functions",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewg",
+    "to": "using-catch-with-promises",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewg",
+    "to": "chaining-multiple-promises",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewg",
+    "to": "avoiding-common-mistakes",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewg",
+    "to": "using-promiseall",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewh",
+    "to": "overviewh",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewh",
+    "to": "http-requests",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewh",
+    "to": "xhr-get-requests",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewh",
+    "to": "xhr-post-requests",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewh",
+    "to": "fetch-get-requests",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewh",
+    "to": "fetch-post-requests",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewh",
+    "to": "async-get-requests",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewh",
+    "to": "async-post-requests",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewj",
+    "to": "overviewi",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewi",
+    "to": "blocks-and-scope",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewi",
+    "to": "global-scope",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewi",
+    "to": "block-scope",
+    "arrows": "to"
+  },
+  {
+    "from": "overview5",
+    "to": "overviewj",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewj",
+    "to": "creating-variables-var",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewj",
+    "to": "creating-variables-const",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewj",
+    "to": "creating-variables-let",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewj",
+    "to": "undefined",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewj",
+    "to": "mathematical-assignment-operators-",
+    "arrows": "to"
+  },
+  {
+    "from": "mathematical-assignment-operators-",
+    "to": "the-increment-and-decrement-operator",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewj",
+    "to": "string-concatenation-with-variables",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewj",
+    "to": "string-interpolation-es6-ie-foo-dollarvariable",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewj",
+    "to": "typeof-operator",
+    "arrows": "to"
+  },
+  {
+    "from": "overview5",
+    "to": "overviewk",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewk",
+    "to": "adding-jquery",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewk",
+    "to": "selecting-elements1",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewk",
+    "to": "jquery-object",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewk",
+    "to": "event-handlers",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewk",
+    "to": "effects",
+    "arrows": "to"
+  },
+  {
+    "from": "effects",
+    "to": "hide",
+    "arrows": "to"
+  },
+  {
+    "from": "effects",
+    "to": "show",
+    "arrows": "to"
+  },
+  {
+    "from": "effects",
+    "to": "toggle",
+    "arrows": "to"
+  },
+  {
+    "from": "selecting-elements1",
+    "to": "addclass",
+    "arrows": "to"
+  },
+  {
+    "from": "selecting-elements1",
+    "to": "removeclass",
+    "arrows": "to"
+  },
+  {
+    "from": "selecting-elements1",
+    "to": "toggleclass",
+    "arrows": "to"
+  },
+  {
+    "from": "selecting-elements1",
+    "to": "traversing-dom",
     "arrows": "to"
   },
   {
@@ -4068,12 +5178,12 @@
   },
   {
     "from": "bmp",
-    "to": "favicons",
+    "to": "favicons1",
     "arrows": "to"
   },
   {
     "from": "png",
-    "to": "favicons",
+    "to": "favicons1",
     "arrows": "to"
   },
   {
@@ -4167,7 +5277,7 @@
     "arrows": "to"
   },
   {
-    "from": "overview3",
+    "from": "overviewl",
     "to": "fluid-web",
     "arrows": "to"
   },
@@ -4182,7 +5292,7 @@
     "arrows": "to"
   },
   {
-    "from": "overview3",
+    "from": "overviewl",
     "to": "simple-responsive-images",
     "arrows": "to"
   },
@@ -4204,1441 +5314,6 @@
   {
     "from": "responsive-images-srcset-sizes",
     "to": "picturefilljs",
-    "arrows": "to"
-  },
-  {
-    "from": "need-for-testing",
-    "to": "principles-and-manual-testing",
-    "arrows": "to"
-  },
-  {
-    "from": "principles-and-manual-testing",
-    "to": "automated-testing",
-    "arrows": "to"
-  },
-  {
-    "from": "doctype-html-head-body",
-    "to": "aria-roles-overview",
-    "arrows": "to"
-  },
-  {
-    "from": "doctype-html-head-body",
-    "to": "p",
-    "arrows": "to"
-  },
-  {
-    "from": "doctype-html-head-body",
-    "to": "a-paths-for-href",
-    "arrows": "to"
-  },
-  {
-    "from": "doctype-html-head-body",
-    "to": "h1-to-h6",
-    "arrows": "to"
-  },
-  {
-    "from": "doctype-html-head-body",
-    "to": "div-span",
-    "arrows": "to"
-  },
-  {
-    "from": "doctype-html-head-body",
-    "to": "img-src-width-height-alt",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "ul-ol-li",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "em",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "i",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "strong",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "b",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "small",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "br",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "main",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "aside",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "header",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "footer",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "nav",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "section",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "article",
-    "arrows": "to"
-  },
-  {
-    "from": "doctype-html-head-body",
-    "to": "iframe",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "table-tr-th-td-tbody",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "form-input-textarea-label-select-option-button",
-    "arrows": "to"
-  },
-  {
-    "from": "a-paths-for-href",
-    "to": "form-input-textarea-label-select-option-button",
-    "arrows": "to"
-  },
-  {
-    "from": "form-input-textarea-label-select-option-button",
-    "to": "fieldset-legend-optgroup",
-    "arrows": "to"
-  },
-  {
-    "from": "a-paths-for-href",
-    "to": "a-tabindex",
-    "arrows": "to"
-  },
-  {
-    "from": "img-src-width-height-alt",
-    "to": "picture-source",
-    "arrows": "to"
-  },
-  {
-    "from": "doctype-html-head-body",
-    "to": "noscript",
-    "arrows": "to"
-  },
-  {
-    "from": "table-tr-th-td-tbody",
-    "to": "tfoot-thead-col-colgroup-caption",
-    "arrows": "to"
-  },
-  {
-    "from": "a-paths-for-href",
-    "to": "map-img-usemap",
-    "arrows": "to"
-  },
-  {
-    "from": "img-src-width-height-alt",
-    "to": "map-img-usemap",
-    "arrows": "to"
-  },
-  {
-    "from": "ul-ol-li",
-    "to": "dl-dt-dd",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "hgroup-figcaption-figure-menu-menuitem-meter-progress-time",
-    "arrows": "to"
-  },
-  {
-    "from": "h1-to-h6",
-    "to": "hgroup-figcaption-figure-menu-menuitem-meter-progress-time",
-    "arrows": "to"
-  },
-  {
-    "from": "img-src-width-height-alt",
-    "to": "hgroup-figcaption-figure-menu-menuitem-meter-progress-time",
-    "arrows": "to"
-  },
-  {
-    "from": "ul-ol-li",
-    "to": "hgroup-figcaption-figure-menu-menuitem-meter-progress-time",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "pre",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "blockquote",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "sub-sup",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "code",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "del",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "embed",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "hr",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "ins",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "kbd",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "mark",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "object-param",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "output",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "samp",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "u",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "var",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "q",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "s",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "wbr",
-    "arrows": "to"
-  },
-  {
-    "from": "br",
-    "to": "wbr",
-    "arrows": "to"
-  },
-  {
-    "from": "div-span",
-    "to": "video-audio",
-    "arrows": "to"
-  },
-  {
-    "from": "doctype-html-head-body",
-    "to": "title",
-    "arrows": "to"
-  },
-  {
-    "from": "doctype-html-head-body",
-    "to": "link",
-    "arrows": "to"
-  },
-  {
-    "from": "doctype-html-head-body",
-    "to": "meta-description",
-    "arrows": "to"
-  },
-  {
-    "from": "link",
-    "to": "favicons1",
-    "arrows": "to"
-  },
-  {
-    "from": "doctype-html-head-body",
-    "to": "microdata-httpschemaorg",
-    "arrows": "to"
-  },
-  {
-    "from": "overview6",
-    "to": "overview4",
-    "arrows": "to"
-  },
-  {
-    "from": "overview4",
-    "to": "creating",
-    "arrows": "to"
-  },
-  {
-    "from": "creating",
-    "to": "accessing-items",
-    "arrows": "to"
-  },
-  {
-    "from": "accessing-items",
-    "to": "updating-items",
-    "arrows": "to"
-  },
-  {
-    "from": "creating",
-    "to": "let-vs-const-with-arrays",
-    "arrows": "to"
-  },
-  {
-    "from": "creating",
-    "to": "length-property",
-    "arrows": "to"
-  },
-  {
-    "from": "creating",
-    "to": "push",
-    "arrows": "to"
-  },
-  {
-    "from": "creating",
-    "to": "pop",
-    "arrows": "to"
-  },
-  {
-    "from": "creating",
-    "to": "join",
-    "arrows": "to"
-  },
-  {
-    "from": "creating",
-    "to": "slice",
-    "arrows": "to"
-  },
-  {
-    "from": "creating",
-    "to": "splice",
-    "arrows": "to"
-  },
-  {
-    "from": "creating",
-    "to": "shift",
-    "arrows": "to"
-  },
-  {
-    "from": "creating",
-    "to": "unshift",
-    "arrows": "to"
-  },
-  {
-    "from": "creating",
-    "to": "concat",
-    "arrows": "to"
-  },
-  {
-    "from": "creating",
-    "to": "nested-arrays",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewh",
-    "to": "overview5",
-    "arrows": "to"
-  },
-  {
-    "from": "overview5",
-    "to": "the-async-keyword",
-    "arrows": "to"
-  },
-  {
-    "from": "overview5",
-    "to": "the-await-operator",
-    "arrows": "to"
-  },
-  {
-    "from": "overview5",
-    "to": "writing-async-functions",
-    "arrows": "to"
-  },
-  {
-    "from": "overview5",
-    "to": "handling-dependent-promises",
-    "arrows": "to"
-  },
-  {
-    "from": "overview5",
-    "to": "handling-errors",
-    "arrows": "to"
-  },
-  {
-    "from": "overview5",
-    "to": "handling-independent-promises",
-    "arrows": "to"
-  },
-  {
-    "from": "overview5",
-    "to": "await-promiseall",
-    "arrows": "to"
-  },
-  {
-    "from": "overview6",
-    "to": "console",
-    "arrows": "to"
-  },
-  {
-    "from": "overview6",
-    "to": "data-types",
-    "arrows": "to"
-  },
-  {
-    "from": "overview6",
-    "to": "math-operators",
-    "arrows": "to"
-  },
-  {
-    "from": "overview6",
-    "to": "properties",
-    "arrows": "to"
-  },
-  {
-    "from": "overview6",
-    "to": "built-in-methods",
-    "arrows": "to"
-  },
-  {
-    "from": "overview6",
-    "to": "built-in-libraries",
-    "arrows": "to"
-  },
-  {
-    "from": "overview6",
-    "to": "comments1",
-    "arrows": "to"
-  },
-  {
-    "from": "overview6",
-    "to": "overview7",
-    "arrows": "to"
-  },
-  {
-    "from": "overview7",
-    "to": "caniusecom-for-javascript",
-    "arrows": "to"
-  },
-  {
-    "from": "overview7",
-    "to": "transpilation-with-babel",
-    "arrows": "to"
-  },
-  {
-    "from": "npm-scripts",
-    "to": "transpilation-with-babel",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewg",
-    "to": "overview8",
-    "arrows": "to"
-  },
-  {
-    "from": "overview8",
-    "to": "constructor1",
-    "arrows": "to"
-  },
-  {
-    "from": "overview8",
-    "to": "instance",
-    "arrows": "to"
-  },
-  {
-    "from": "overview8",
-    "to": "methods",
-    "arrows": "to"
-  },
-  {
-    "from": "overview8",
-    "to": "method-calls",
-    "arrows": "to"
-  },
-  {
-    "from": "overview8",
-    "to": "inheritance1",
-    "arrows": "to"
-  },
-  {
-    "from": "overview8",
-    "to": "static-methods",
-    "arrows": "to"
-  },
-  {
-    "from": "overview6",
-    "to": "control-flow",
-    "arrows": "to"
-  },
-  {
-    "from": "overview6",
-    "to": "comparison-operators",
-    "arrows": "to"
-  },
-  {
-    "from": "overview6",
-    "to": "logical-operators",
-    "arrows": "to"
-  },
-  {
-    "from": "overview6",
-    "to": "truthy-and-falsy",
-    "arrows": "to"
-  },
-  {
-    "from": "overview6",
-    "to": "ternary-operator",
-    "arrows": "to"
-  },
-  {
-    "from": "overview6",
-    "to": "switch",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewa",
-    "to": "overview9",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewg",
-    "to": "overviewa",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewa",
-    "to": "selecting-elements",
-    "arrows": "to"
-  },
-  {
-    "from": "selecting-elements",
-    "to": "getting-attributes",
-    "arrows": "to"
-  },
-  {
-    "from": "getting-attributes",
-    "to": "changing-attributes",
-    "arrows": "to"
-  },
-  {
-    "from": "overview6",
-    "to": "principles",
-    "arrows": "to"
-  },
-  {
-    "from": "principles",
-    "to": "declarations",
-    "arrows": "to"
-  },
-  {
-    "from": "principles",
-    "to": "calling-functions",
-    "arrows": "to"
-  },
-  {
-    "from": "principles",
-    "to": "parameters-and-arguments",
-    "arrows": "to"
-  },
-  {
-    "from": "principles",
-    "to": "return",
-    "arrows": "to"
-  },
-  {
-    "from": "principles",
-    "to": "expressions-anonymous-functions",
-    "arrows": "to"
-  },
-  {
-    "from": "principles",
-    "to": "arrow-functions-one-parameter-implicit-return",
-    "arrows": "to"
-  },
-  {
-    "from": "overview6",
-    "to": "overviewb",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewb",
-    "to": "functions-as-data",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewb",
-    "to": "functions-as-parameters",
-    "arrows": "to"
-  },
-  {
-    "from": "overview4",
-    "to": "overviewc",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewc",
-    "to": "foreach",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewc",
-    "to": "map",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewc",
-    "to": "filter",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewc",
-    "to": "overview-of-other-methods-eg-findindex-some-every-reduce",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewk",
-    "to": "overviewd",
-    "arrows": "to"
-  },
-  {
-    "from": "overview4",
-    "to": "overviewd",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewd",
-    "to": "for",
-    "arrows": "to"
-  },
-  {
-    "from": "for",
-    "to": "looping-in-reverse",
-    "arrows": "to"
-  },
-  {
-    "from": "for",
-    "to": "looping-through-arrays",
-    "arrows": "to"
-  },
-  {
-    "from": "overview4",
-    "to": "looping-through-arrays",
-    "arrows": "to"
-  },
-  {
-    "from": "for",
-    "to": "nested-for-loops",
-    "arrows": "to"
-  },
-  {
-    "from": "for",
-    "to": "while-do",
-    "arrows": "to"
-  },
-  {
-    "from": "for",
-    "to": "break",
-    "arrows": "to"
-  },
-  {
-    "from": "for",
-    "to": "concept-and-prevention-of-infinite-loops",
-    "arrows": "to"
-  },
-  {
-    "from": "overview6",
-    "to": "overviewe",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewe",
-    "to": "exports",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewe",
-    "to": "require",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewe",
-    "to": "export-default",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewe",
-    "to": "import",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewe",
-    "to": "named-exports",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewe",
-    "to": "named-imports",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewe",
-    "to": "export-named-exports",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewe",
-    "to": "import-named-imports",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewe",
-    "to": "export-as",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewe",
-    "to": "import-as",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewe",
-    "to": "combining-export-statements",
-    "arrows": "to"
-  },
-  {
-    "from": "overview",
-    "to": "overviewf",
-    "arrows": "to"
-  },
-  {
-    "from": "overview6",
-    "to": "overviewf",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewf",
-    "to": "installation",
-    "arrows": "to"
-  },
-  {
-    "from": "installation",
-    "to": "npm-install",
-    "arrows": "to"
-  },
-  {
-    "from": "npm-install",
-    "to": "packagejson",
-    "arrows": "to"
-  },
-  {
-    "from": "overview6",
-    "to": "overviewg",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewg",
-    "to": "creating-object-literals",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewg",
-    "to": "accessing-properties-dot-notation",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewg",
-    "to": "accessing-properties-bracket-notation",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewg",
-    "to": "property-assignment",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewg",
-    "to": "methods1",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewg",
-    "to": "nested-objects",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewg",
-    "to": "pass-by-reference",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewg",
-    "to": "looping-through-objects",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewg",
-    "to": "the-this-keyword",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewg",
-    "to": "arrow-functions-and-this",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewg",
-    "to": "privacy",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewg",
-    "to": "getters",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewg",
-    "to": "setters",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewg",
-    "to": "factory-functions",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewg",
-    "to": "property-value-shorthand",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewg",
-    "to": "destructured-assignment",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewg",
-    "to": "built-in-object-methods",
-    "arrows": "to"
-  },
-  {
-    "from": "overview6",
-    "to": "overviewh",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewh",
-    "to": "constructing-a-promise-object",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewh",
-    "to": "the-node-settimeout-function",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewh",
-    "to": "consuming-promises",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewh",
-    "to": "the-onfulfilled-and-onrejected-functions",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewh",
-    "to": "using-catch-with-promises",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewh",
-    "to": "chaining-multiple-promises",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewh",
-    "to": "avoiding-common-mistakes",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewh",
-    "to": "using-promiseall",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewi",
-    "to": "overviewi",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewi",
-    "to": "http-requests",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewi",
-    "to": "xhr-get-requests",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewi",
-    "to": "xhr-post-requests",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewi",
-    "to": "fetch-get-requests",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewi",
-    "to": "fetch-post-requests",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewi",
-    "to": "async-get-requests",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewi",
-    "to": "async-post-requests",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewk",
-    "to": "overviewj",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewj",
-    "to": "blocks-and-scope",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewj",
-    "to": "global-scope",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewj",
-    "to": "block-scope",
-    "arrows": "to"
-  },
-  {
-    "from": "overview6",
-    "to": "overviewk",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewk",
-    "to": "creating-variables-var",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewk",
-    "to": "creating-variables-const",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewk",
-    "to": "creating-variables-let",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewk",
-    "to": "undefined",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewk",
-    "to": "mathematical-assignment-operators-",
-    "arrows": "to"
-  },
-  {
-    "from": "mathematical-assignment-operators-",
-    "to": "the-increment-and-decrement-operator",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewk",
-    "to": "string-concatenation-with-variables",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewk",
-    "to": "string-interpolation-es6-ie-foo-dollarvariable",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewk",
-    "to": "typeof-operator",
-    "arrows": "to"
-  },
-  {
-    "from": "overview6",
-    "to": "overviewl",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewl",
-    "to": "adding-jquery",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewl",
-    "to": "selecting-elements1",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewl",
-    "to": "jquery-object",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewl",
-    "to": "event-handlers",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewl",
-    "to": "effects",
-    "arrows": "to"
-  },
-  {
-    "from": "effects",
-    "to": "hide",
-    "arrows": "to"
-  },
-  {
-    "from": "effects",
-    "to": "show",
-    "arrows": "to"
-  },
-  {
-    "from": "effects",
-    "to": "toggle",
-    "arrows": "to"
-  },
-  {
-    "from": "selecting-elements1",
-    "to": "addclass",
-    "arrows": "to"
-  },
-  {
-    "from": "selecting-elements1",
-    "to": "removeclass",
-    "arrows": "to"
-  },
-  {
-    "from": "selecting-elements1",
-    "to": "toggleclass",
-    "arrows": "to"
-  },
-  {
-    "from": "selecting-elements1",
-    "to": "traversing-dom",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewf",
-    "to": "npm-scripts",
-    "arrows": "to"
-  },
-  {
-    "from": "npm-scripts",
-    "to": "browsersync",
-    "arrows": "to"
-  },
-  {
-    "from": "npm-scripts",
-    "to": "gulp",
-    "arrows": "to"
-  },
-  {
-    "from": "npm-scripts",
-    "to": "postcss-autoprefixer",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewm",
-    "to": "working-with-text-clipboard-operations-navigating-selecting-changing",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewm",
-    "to": "code-editor-installation",
-    "arrows": "to"
-  },
-  {
-    "from": "code-editor-installation",
-    "to": "projects",
-    "arrows": "to"
-  },
-  {
-    "from": "code-editor-installation",
-    "to": "basic-editing-copy-cut-paste-lines-indenting-including-difference-between-tabs-and-spaces",
-    "arrows": "to"
-  },
-  {
-    "from": "code-editor-installation",
-    "to": "multiple-selections",
-    "arrows": "to"
-  },
-  {
-    "from": "code-editor-installation",
-    "to": "intellisense",
-    "arrows": "to"
-  },
-  {
-    "from": "code-editor-installation",
-    "to": "emmet",
-    "arrows": "to"
-  },
-  {
-    "from": "code-editor-installation",
-    "to": "search-and-replace",
-    "arrows": "to"
-  },
-  {
-    "from": "code-editor-installation",
-    "to": "extensionsplugins-installation",
-    "arrows": "to"
-  },
-  {
-    "from": "extensionsplugins-installation",
-    "to": "autoindent-andor-beautify",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewn",
-    "to": "relational-database",
-    "arrows": "to"
-  },
-  {
-    "from": "relational-database",
-    "to": "crud-via-client-adminerphpmyadmin",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewn",
-    "to": "nosql",
-    "arrows": "to"
-  },
-  {
-    "from": "web-browser",
-    "to": "overviewo",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewo",
-    "to": "elements-html-css",
-    "arrows": "to"
-  },
-  {
-    "from": "basic-css-syntax",
-    "to": "elements-html-css",
-    "arrows": "to"
-  },
-  {
-    "from": "doctype-html-head-body",
-    "to": "elements-html-css",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewo",
-    "to": "console1",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewo",
-    "to": "network",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewo",
-    "to": "sources",
-    "arrows": "to"
-  },
-  {
-    "from": "feature-detection",
-    "to": "modernizr",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewp",
-    "to": "interviews",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewp",
-    "to": "where-to-find",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewp",
-    "to": "cv",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewp",
-    "to": "linkedin",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewp",
-    "to": "github1",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewp",
-    "to": "stack-overflow",
-    "arrows": "to"
-  },
-  {
-    "from": "code-editor-installation",
-    "to": "overviewq",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewq",
-    "to": "finding-and-replacing",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewq",
-    "to": "online-tools-to-test",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewq",
-    "to": "capture-groups-and-replacing-dollar1",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewq",
-    "to": "lookaheads-and-lookbehinds",
-    "arrows": "to"
-  },
-  {
-    "from": "overview-goals-on-and-off-page-factors",
-    "to": "html-semantics",
-    "arrows": "to"
-  },
-  {
-    "from": "overview-goals-on-and-off-page-factors",
-    "to": "rich-snippets",
-    "arrows": "to"
-  },
-  {
-    "from": "overview-goals-on-and-off-page-factors",
-    "to": "off-page-factors-linking",
-    "arrows": "to"
-  },
-  {
-    "from": "overview-goals-on-and-off-page-factors",
-    "to": "sitemapxml",
-    "arrows": "to"
-  },
-  {
-    "from": "overview-goals-on-and-off-page-factors",
-    "to": "robotstxt",
-    "arrows": "to"
-  },
-  {
-    "from": "facebook-open-graph",
-    "to": "twitter-cards",
-    "arrows": "to"
-  },
-  {
-    "from": "doctype-html-head-body",
-    "to": "overviewr",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewr",
-    "to": "variables-syntax-syntaxname",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewr",
-    "to": "comments2",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewr",
-    "to": "include",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewr",
-    "to": "include-paramfoo-with-parameters",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewr",
-    "to": "for1",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewr",
-    "to": "block",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewr",
-    "to": "extends",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewr",
-    "to": "parent",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewr",
-    "to": "filters",
-    "arrows": "to"
-  },
-  {
-    "from": "doctype-html-head-body",
-    "to": "overviews",
-    "arrows": "to"
-  },
-  {
-    "from": "overviews",
-    "to": "basic-usage-link-to-cdn-html-structure",
-    "arrows": "to"
-  },
-  {
-    "from": "overviews",
-    "to": "grid",
-    "arrows": "to"
-  },
-  {
-    "from": "overviews",
-    "to": "components-nav",
-    "arrows": "to"
-  },
-  {
-    "from": "overviews",
-    "to": "components-navbar",
-    "arrows": "to"
-  },
-  {
-    "from": "overviews",
-    "to": "components-card",
-    "arrows": "to"
-  },
-  {
-    "from": "overviews",
-    "to": "customization-utility-classes",
-    "arrows": "to"
-  },
-  {
-    "from": "overviews",
-    "to": "customization-variables",
-    "arrows": "to"
-  },
-  {
-    "from": "variables",
-    "to": "customization-variables",
-    "arrows": "to"
-  },
-  {
-    "from": "overviews",
-    "to": "customization-own-css",
-    "arrows": "to"
-  },
-  {
-    "from": "import-also-partials",
-    "to": "customization-own-css",
-    "arrows": "to"
-  },
-  {
-    "from": "overviews",
-    "to": "customization-removing-modules",
-    "arrows": "to"
-  },
-  {
-    "from": "import-also-partials",
-    "to": "customization-removing-modules",
-    "arrows": "to"
-  },
-  {
-    "from": "comments",
-    "to": "customization-removing-modules",
-    "arrows": "to"
-  },
-  {
-    "from": "overviews",
-    "to": "bootstrap-javascript-via-data-attributes",
-    "arrows": "to"
-  },
-  {
-    "from": "overviews",
-    "to": "bootstrap-javascript-via-js",
     "arrows": "to"
   },
   {
@@ -5687,77 +5362,77 @@
     "arrows": "to"
   },
   {
-    "from": "overviewt",
-    "to": "overviewt",
+    "from": "overviewm",
+    "to": "overviewm",
     "arrows": "to"
   },
   {
-    "from": "overviewt",
+    "from": "overviewm",
     "to": "inkscape-svg-v-svg",
     "arrows": "to"
   },
   {
-    "from": "overviewt",
+    "from": "overviewm",
     "to": "moving-rotating-and-scaling-objects-keyboard-mouse-and-number-inputs",
     "arrows": "to"
   },
   {
-    "from": "overviewt",
+    "from": "overviewm",
     "to": "setting-fills-and-outlines",
     "arrows": "to"
   },
   {
-    "from": "overviewt",
+    "from": "overviewm",
     "to": "stacking-order",
     "arrows": "to"
   },
   {
-    "from": "overviewt",
+    "from": "overviewm",
     "to": "changing-nodes-bezier-curves",
     "arrows": "to"
   },
   {
-    "from": "overviewt",
+    "from": "overviewm",
     "to": "groups",
     "arrows": "to"
   },
   {
-    "from": "overviewt",
+    "from": "overviewm",
     "to": "snaping-objects-grid",
     "arrows": "to"
   },
   {
-    "from": "overviewt",
+    "from": "overviewm",
     "to": "document-setup",
     "arrows": "to"
   },
   {
-    "from": "overviewt",
+    "from": "overviewm",
     "to": "paths-vs-objects",
     "arrows": "to"
   },
   {
-    "from": "overviewt",
+    "from": "overviewm",
     "to": "converting-text-to-path",
     "arrows": "to"
   },
   {
-    "from": "overviewt",
+    "from": "overviewm",
     "to": "duplicating-objects",
     "arrows": "to"
   },
   {
-    "from": "overviewt",
+    "from": "overviewm",
     "to": "aligning",
     "arrows": "to"
   },
   {
-    "from": "overviewt",
+    "from": "overviewm",
     "to": "keyboard-shortcuts",
     "arrows": "to"
   },
   {
-    "from": "overviewt",
+    "from": "overviewm",
     "to": "layers",
     "arrows": "to"
   },
@@ -5767,87 +5442,22 @@
     "arrows": "to"
   },
   {
-    "from": "why",
-    "to": "percieved-vs-real-speed",
-    "arrows": "to"
-  },
-  {
-    "from": "why",
-    "to": "internet-connection-speeds",
-    "arrows": "to"
-  },
-  {
-    "from": "internet-connection-speeds",
-    "to": "http-file-transfer",
-    "arrows": "to"
-  },
-  {
-    "from": "percieved-vs-real-speed",
-    "to": "strategies",
-    "arrows": "to"
-  },
-  {
-    "from": "internet-connection-speeds",
-    "to": "strategies",
-    "arrows": "to"
-  },
-  {
-    "from": "http-file-transfer",
-    "to": "strategies",
-    "arrows": "to"
-  },
-  {
-    "from": "strategies",
-    "to": "optimizing-css",
-    "arrows": "to"
-  },
-  {
-    "from": "strategies",
-    "to": "optimizing-javascript",
-    "arrows": "to"
-  },
-  {
-    "from": "strategies",
-    "to": "optimizing-svg",
-    "arrows": "to"
-  },
-  {
-    "from": "strategies",
-    "to": "blocking-and-non-blocking-assets",
-    "arrows": "to"
-  },
-  {
-    "from": "percieved-vs-real-speed",
-    "to": "lazy-loading",
-    "arrows": "to"
-  },
-  {
-    "from": "strategies",
-    "to": "lazy-loading",
-    "arrows": "to"
-  },
-  {
-    "from": "blocking-and-non-blocking-assets",
-    "to": "lazy-loading",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewu",
+    "from": "overviewn",
     "to": "installation1",
     "arrows": "to"
   },
   {
-    "from": "overviewu",
+    "from": "overviewn",
     "to": "init",
     "arrows": "to"
   },
   {
-    "from": "overviewu",
+    "from": "overviewn",
     "to": "clone",
     "arrows": "to"
   },
   {
-    "from": "overviewu",
+    "from": "overviewn",
     "to": "pull",
     "arrows": "to"
   },
@@ -6047,17 +5657,17 @@
     "arrows": "to"
   },
   {
-    "from": "overviewu",
+    "from": "overviewn",
     "to": "config",
     "arrows": "to"
   },
   {
-    "from": "overviewu",
+    "from": "overviewn",
     "to": "aliases",
     "arrows": "to"
   },
   {
-    "from": "overviewu",
+    "from": "overviewn",
     "to": "gitkeep",
     "arrows": "to"
   },
@@ -6067,7 +5677,7 @@
     "arrows": "to"
   },
   {
-    "from": "overviewu",
+    "from": "overviewn",
     "to": "other-git-resources",
     "arrows": "to"
   },
@@ -6119,6 +5729,391 @@
   {
     "from": "markdown",
     "to": "readmemd",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewe",
+    "to": "npm-scripts",
+    "arrows": "to"
+  },
+  {
+    "from": "npm-scripts",
+    "to": "browsersync",
+    "arrows": "to"
+  },
+  {
+    "from": "npm-scripts",
+    "to": "gulp",
+    "arrows": "to"
+  },
+  {
+    "from": "npm-scripts",
+    "to": "postcss-autoprefixer",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewo",
+    "to": "relational-database",
+    "arrows": "to"
+  },
+  {
+    "from": "relational-database",
+    "to": "crud-via-client-adminerphpmyadmin",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewo",
+    "to": "nosql",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewp",
+    "to": "surgesh",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewp",
+    "to": "ftp",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewp",
+    "to": "github-pages",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewp",
+    "to": "netlify",
+    "arrows": "to"
+  },
+  {
+    "from": "web-browser",
+    "to": "overviewq",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewq",
+    "to": "elements-html-css",
+    "arrows": "to"
+  },
+  {
+    "from": "basic-css-syntax",
+    "to": "elements-html-css",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "elements-html-css",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewq",
+    "to": "console1",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewq",
+    "to": "network",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewq",
+    "to": "sources",
+    "arrows": "to"
+  },
+  {
+    "from": "feature-detection",
+    "to": "modernizr",
+    "arrows": "to"
+  },
+  {
+    "from": "code-editor-installation",
+    "to": "overviewr",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewr",
+    "to": "finding-and-replacing",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewr",
+    "to": "online-tools-to-test",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewr",
+    "to": "capture-groups-and-replacing-dollar1",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewr",
+    "to": "lookaheads-and-lookbehinds",
+    "arrows": "to"
+  },
+  {
+    "from": "overview-goals-on-and-off-page-factors",
+    "to": "html-semantics",
+    "arrows": "to"
+  },
+  {
+    "from": "overview-goals-on-and-off-page-factors",
+    "to": "rich-snippets",
+    "arrows": "to"
+  },
+  {
+    "from": "overview-goals-on-and-off-page-factors",
+    "to": "off-page-factors-linking",
+    "arrows": "to"
+  },
+  {
+    "from": "overview-goals-on-and-off-page-factors",
+    "to": "sitemapxml",
+    "arrows": "to"
+  },
+  {
+    "from": "overview-goals-on-and-off-page-factors",
+    "to": "robotstxt",
+    "arrows": "to"
+  },
+  {
+    "from": "facebook-open-graph",
+    "to": "twitter-cards",
+    "arrows": "to"
+  },
+  {
+    "from": "why",
+    "to": "percieved-vs-real-speed",
+    "arrows": "to"
+  },
+  {
+    "from": "why",
+    "to": "internet-connection-speeds",
+    "arrows": "to"
+  },
+  {
+    "from": "internet-connection-speeds",
+    "to": "http-file-transfer",
+    "arrows": "to"
+  },
+  {
+    "from": "percieved-vs-real-speed",
+    "to": "strategies",
+    "arrows": "to"
+  },
+  {
+    "from": "internet-connection-speeds",
+    "to": "strategies",
+    "arrows": "to"
+  },
+  {
+    "from": "http-file-transfer",
+    "to": "strategies",
+    "arrows": "to"
+  },
+  {
+    "from": "strategies",
+    "to": "optimizing-css",
+    "arrows": "to"
+  },
+  {
+    "from": "strategies",
+    "to": "optimizing-javascript",
+    "arrows": "to"
+  },
+  {
+    "from": "strategies",
+    "to": "optimizing-svg",
+    "arrows": "to"
+  },
+  {
+    "from": "strategies",
+    "to": "blocking-and-non-blocking-assets",
+    "arrows": "to"
+  },
+  {
+    "from": "percieved-vs-real-speed",
+    "to": "lazy-loading",
+    "arrows": "to"
+  },
+  {
+    "from": "strategies",
+    "to": "lazy-loading",
+    "arrows": "to"
+  },
+  {
+    "from": "blocking-and-non-blocking-assets",
+    "to": "lazy-loading",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "overviews",
+    "arrows": "to"
+  },
+  {
+    "from": "overviews",
+    "to": "variables-syntax-syntaxname",
+    "arrows": "to"
+  },
+  {
+    "from": "overviews",
+    "to": "comments2",
+    "arrows": "to"
+  },
+  {
+    "from": "overviews",
+    "to": "include",
+    "arrows": "to"
+  },
+  {
+    "from": "overviews",
+    "to": "include-paramfoo-with-parameters",
+    "arrows": "to"
+  },
+  {
+    "from": "overviews",
+    "to": "for1",
+    "arrows": "to"
+  },
+  {
+    "from": "overviews",
+    "to": "block",
+    "arrows": "to"
+  },
+  {
+    "from": "overviews",
+    "to": "extends",
+    "arrows": "to"
+  },
+  {
+    "from": "overviews",
+    "to": "parent",
+    "arrows": "to"
+  },
+  {
+    "from": "overviews",
+    "to": "filters",
+    "arrows": "to"
+  },
+  {
+    "from": "need-for-testing",
+    "to": "principles-and-manual-testing",
+    "arrows": "to"
+  },
+  {
+    "from": "principles-and-manual-testing",
+    "to": "automated-testing",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "overviewt",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewt",
+    "to": "basic-usage-link-to-cdn-html-structure",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewt",
+    "to": "grid",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewt",
+    "to": "components-nav",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewt",
+    "to": "components-navbar",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewt",
+    "to": "components-card",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewt",
+    "to": "customization-utility-classes",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewt",
+    "to": "customization-variables",
+    "arrows": "to"
+  },
+  {
+    "from": "variables",
+    "to": "customization-variables",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewt",
+    "to": "customization-own-css",
+    "arrows": "to"
+  },
+  {
+    "from": "import-also-partials",
+    "to": "customization-own-css",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewt",
+    "to": "customization-removing-modules",
+    "arrows": "to"
+  },
+  {
+    "from": "import-also-partials",
+    "to": "customization-removing-modules",
+    "arrows": "to"
+  },
+  {
+    "from": "comments",
+    "to": "customization-removing-modules",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewt",
+    "to": "bootstrap-javascript-via-data-attributes",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewt",
+    "to": "bootstrap-javascript-via-js",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewu",
+    "to": "interviews",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewu",
+    "to": "where-to-find",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewu",
+    "to": "cv",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewu",
+    "to": "linkedin",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewu",
+    "to": "github1",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewu",
+    "to": "stack-overflow",
     "arrows": "to"
   }
 ];

@@ -1,39 +1,86 @@
   <!doctype html>
   <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <title>Overview « CoreSkill Skill System (CSSS)</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-      <link rel="stylesheet" href="csss.css">
-      <link rel="stylesheet" href="firebase.css">
-      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
-      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
-      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
-    </head>
-    <body>
-      <header class="navbar navbar-dark bg-dark sticky-top">
-        <div class="container">
-          <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
-          <form class="form-inline">
-            <span class="user-select"><select class="form-control mr-3"></select></span>
-            <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
-            <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
-          </form>
-        </div>
-      </header>
+  <head>
+    <meta charset="utf-8">
+    <title>Overview « CoreSkill Skill System (CSSS)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="csss.css">
+    <link rel="stylesheet" href="firebase.css">
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
+  </head>
+  <body>
+  <header class="navbar navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
+      <form class="form-inline">
+        <span class="user-select"><select class="form-control mr-3"></select></span>
+        <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
+        <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
+      </form>
+    </div>
+  </header>
 
-      <main class="container p-4">
+  <main class="container-fluid p-4">
 
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
-                <li class="breadcrumb-item"><a href="deployment.html">Deployment</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Overview</li>
-          </ol>
-        </nav>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
+          <li class="breadcrumb-item"><a href="30-css.html">30 CSS</a></li>
+          <li class="breadcrumb-item"><a href="print-css.html">Print CSS</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Overview</li>
+      </ol>
+    </nav>
 
+    <div class="row">
+      <div class="col-3">
+          <h2 class="mt-3">Prerequisites</h2>
+          <div class="list-group">
+              <a
+                href="basic-css-syntax.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="basic-css-syntax">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » General » 
+                    </span>
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  Basic CSS Syntax
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-success">start here</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="basic-css-syntax">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+          </div>
+      </div>
 
+      <div class="col-6">
         <div class="mt-5 p-3 bg-light">
 
           <h1 class="display-3">
@@ -45,17 +92,18 @@
             Overview
           </h1>
 
-          <p><small><a href="graph.html#overview2">Show in dependency graph</a></small></p>
+          <p>
+            <small><a href="graph.html#overview2">Show in dependency graph</a></small>
+          </p>
 
-
+            <p class="m-0">Special print features, typical print CSS (colors, removing stuff)…</p>
 
         </div>
 
-
-          <h2 class="mt-5">Following skills</h2>
+          <h2 class="mt-5">Also learn these skills</h2>
           <div class="list-group">
               <a
-                href="surgesh.html"
+                href="bem-basics.html"
                 class="
                   skill-item
                   
@@ -68,20 +116,24 @@
                 "
               >
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="surgesh">
+                    <span class="indicator indicator-list text-center p-1" data-slug="bem-basics">
                       <span class="done">✔️</span>
                       <span class="star">⭐️</span>
                       <span class="not-done">❔️</span>
                     </span>
               
+                    <span class="text-muted">
+                      30 CSS » Architecture » 
+                    </span>
               
               
-                  surge.sh
+                  BEM basics
               
                 </span>
               
                 <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="surgesh">
+                    <span class="badge badge-primary badge-pill">3</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="bem-basics">
                     <span class="note-value"></span>
                     <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
                   </span>
@@ -89,7 +141,7 @@
               </a>
               
               <a
-                href="ftp.html"
+                href="oocss-basics.html"
                 class="
                   skill-item
                   
@@ -102,21 +154,2075 @@
                 "
               >
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="ftp">
+                    <span class="indicator indicator-list text-center p-1" data-slug="oocss-basics">
                       <span class="done">✔️</span>
                       <span class="star">⭐️</span>
                       <span class="not-done">❔️</span>
                     </span>
               
+                    <span class="text-muted">
+                      30 CSS » Architecture » 
+                    </span>
+              
+              
+                  OOCSS basics
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">3</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="oocss-basics">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="color.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="color">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  color
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="color">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="background-color.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="background-color">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  background-color
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="background-color">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="background-image-background-repeat-background-position.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="background-image-background-repeat-background-position">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  background-image, background-repeat, background-position
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">2</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="background-image-background-repeat-background-position">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="font-size.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="font-size">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  font-size
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="font-size">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="font-style-italic-font-style-normal.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="font-style-italic-font-style-normal">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  font-style: italic, font-style: normal
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="font-style-italic-font-style-normal">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="font-style-oblique.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="font-style-oblique">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  font-style: oblique
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="font-style-oblique">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="font-variant-small-caps.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="font-variant-small-caps">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  font-variant: small-caps
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">4</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="font-variant-small-caps">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="font-display.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="font-display">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  font-display
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="font-display">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="font-weight.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="font-weight">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  font-weight
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="font-weight">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="font-family-including-fallbacks.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="font-family-including-fallbacks">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  font-family (including fallbacks)
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="font-family-including-fallbacks">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="line-height.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="line-height">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  line-height
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="line-height">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="text-align.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="text-align">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  text-align
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="text-align">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="text-decoration.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="text-decoration">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  text-decoration
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="text-decoration">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="padding.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="padding">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  padding
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="padding">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="border.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="border">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  border
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="border">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="border-style.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="border-style">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  border-style
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="border-style">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="margin.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="margin">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  margin
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="margin">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="width.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="width">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  width
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="width">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="max-width-min-width.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="max-width-min-width">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  max-width, min-width
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="max-width-min-width">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="height.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="height">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  height
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="height">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="max-height-min-height.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="max-height-min-height">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  max-height, min-height
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="max-height-min-height">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="overflow.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="overflow">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  overflow
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="overflow">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="top-bottom-left-right.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="top-bottom-left-right">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  top, bottom, left, right
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="top-bottom-left-right">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="position-relative-position-static.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="position-relative-position-static">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  position: relative, position: static
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="position-relative-position-static">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="position-absolute.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="position-absolute">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  position: absolute
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="position-absolute">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="position-fixed.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="position-fixed">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  position: fixed
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="position-fixed">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="position-sticky.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="position-sticky">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  position: sticky
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="position-sticky">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="z-index.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="z-index">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  z-index
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="z-index">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="box-sizing.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="box-sizing">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  box-sizing
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="box-sizing">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="content.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="content">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  content
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="content">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="float.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="float">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  float
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="float">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="clear.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="clear">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  clear
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="clear">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="visibility.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="visibility">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  visibility
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="visibility">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="display-none.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="display-none">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  display: none
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="display-none">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="display-block-display-inline-display-inline-block.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="display-block-display-inline-display-inline-block">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  display: block, display: inline, display: inline-block
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="display-block-display-inline-display-inline-block">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="flexible-layout-module-flexbox.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="flexible-layout-module-flexbox">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  Flexible layout module (flexbox)
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">3</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="flexible-layout-module-flexbox">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="css-grid.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="css-grid">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  CSS Grid
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">4</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="css-grid">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="css-animations.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="css-animations">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  CSS animations
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="css-animations">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="css-transitions.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="css-transitions">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  CSS transitions
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="css-transitions">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="box-shadow.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="box-shadow">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  box-shadow
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">4</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="box-shadow">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="cursor.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="cursor">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  cursor
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="cursor">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="list-style.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="list-style">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  list-style
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">4</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="list-style">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="opacity.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="opacity">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  opacity
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">3</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="opacity">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="outline.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="outline">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  outline
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">3</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="outline">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="table-layout.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="table-layout">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  table-layout
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="table-layout">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="display-table-table-row-table-cell.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="display-table-table-row-table-cell">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  display: table, table-row, table-cell, …
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="display-table-table-row-table-cell">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="text-indent.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="text-indent">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  text-indent
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="text-indent">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="text-shadow.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="text-shadow">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  text-shadow
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">4</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="text-shadow">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="text-transform.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="text-transform">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  text-transform
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">3</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="text-transform">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="transform.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="transform">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  transform
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="transform">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="vertical-align.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="vertical-align">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  vertical-align
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">3</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="vertical-align">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="white-space.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="white-space">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Properties » 
+                    </span>
+              
+              
+                  white-space
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">4</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="white-space">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="best-practices.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="best-practices">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Units » 
+                    </span>
+              
+              
+                  Best practices
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="best-practices">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="unitless.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="unitless">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Units » 
+                    </span>
               
                       <span class="badge badge-light">🚧️</span>
               
-                  FTP
+                  unitless
               
                 </span>
               
                 <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="ftp">
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="unitless">
                     <span class="note-value"></span>
                     <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
                   </span>
@@ -124,7 +2230,7 @@
               </a>
               
               <a
-                href="github-pages.html"
+                href="percent.html"
                 class="
                   skill-item
                   
@@ -137,20 +2243,24 @@
                 "
               >
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="github-pages">
+                    <span class="indicator indicator-list text-center p-1" data-slug="percent">
                       <span class="done">✔️</span>
                       <span class="star">⭐️</span>
                       <span class="not-done">❔️</span>
                     </span>
               
+                    <span class="text-muted">
+                      30 CSS » CSS Units » 
+                    </span>
               
+                      <span class="badge badge-light">🚧️</span>
               
-                  GitHub Pages
+                  percent (%)
               
                 </span>
               
                 <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="github-pages">
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="percent">
                     <span class="note-value"></span>
                     <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
                   </span>
@@ -158,7 +2268,7 @@
               </a>
               
               <a
-                href="netlify.html"
+                href="px.html"
                 class="
                   skill-item
                   
@@ -171,20 +2281,1616 @@
                 "
               >
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="netlify">
+                    <span class="indicator indicator-list text-center p-1" data-slug="px">
                       <span class="done">✔️</span>
                       <span class="star">⭐️</span>
                       <span class="not-done">❔️</span>
                     </span>
               
+                    <span class="text-muted">
+                      30 CSS » CSS Units » 
+                    </span>
               
+                      <span class="badge badge-light">🚧️</span>
               
-                  Netlify
+                  px
               
                 </span>
               
                 <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="netlify">
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="px">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="em-rem.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="em-rem">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Units » 
+                    </span>
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  em, rem
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="em-rem">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="color-values-named.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="color-values-named">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Units » 
+                    </span>
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  color values: named
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="color-values-named">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="color-values-hex-rrggbbaa.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="color-values-hex-rrggbbaa">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Units » 
+                    </span>
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  color values: hex (RRGGBBAA)
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="color-values-hex-rrggbbaa">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="color-values-rgb.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="color-values-rgb">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Units » 
+                    </span>
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  color values: rgb()
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="color-values-rgb">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="color-values-rgba.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="color-values-rgba">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Units » 
+                    </span>
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  color values: rgba()
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="color-values-rgba">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="color-values-hsl-hsla.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="color-values-hsl-hsla">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Units » 
+                    </span>
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  color values: hsl(), hsla()
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="color-values-hsl-hsla">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="inherit.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="inherit">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Values » 
+                    </span>
+              
+              
+                  inherit
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="inherit">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="initial.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="initial">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » CSS Values » 
+                    </span>
+              
+              
+                  initial
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="initial">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="inline-css-style-attribute.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="inline-css-style-attribute">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » General » 
+                    </span>
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  Inline CSS (style attribute)
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="inline-css-style-attribute">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="style-tag.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="style-tag">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » General » 
+                    </span>
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  &lt;style&gt; tag
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="style-tag">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="connecting-with-html-linking.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="connecting-with-html-linking">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » General » 
+                    </span>
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  Connecting with HTML (linking)
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="connecting-with-html-linking">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="inheritance.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="inheritance">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » General » 
+                    </span>
+              
+              
+                  inheritance
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">1</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="inheritance">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="css-reset-and-normalizecss-user-agent-styles.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="css-reset-and-normalizecss-user-agent-styles">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » General » 
+                    </span>
+              
+              
+                  CSS reset and normalize.css (user agent styles)
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="css-reset-and-normalizecss-user-agent-styles">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="supports.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="supports">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » General » 
+                    </span>
+              
+              
+                  @supports
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="supports">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="link-related-active-visited-hover-focus-link.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="link-related-active-visited-hover-focus-link">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Pseudo Classes » 
+                    </span>
+              
+              
+                  link related: :active, :visited, :hover, :focus, :link
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">2</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="link-related-active-visited-hover-focus-link">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="first-child-last-child-only-child.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="first-child-last-child-only-child">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Pseudo Classes » 
+                    </span>
+              
+              
+                  :first-child, :last-child, :only-child
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">3</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="first-child-last-child-only-child">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="first-of-type-last-of-type-only-of-type.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="first-of-type-last-of-type-only-of-type">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Pseudo Classes » 
+                    </span>
+              
+              
+                  :first-of-type, :last-of-type, :only-of-type
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">3</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="first-of-type-last-of-type-only-of-type">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="nth-child-nth-last-child.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="nth-child-nth-last-child">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Pseudo Classes » 
+                    </span>
+              
+              
+                  :nth-child(), :nth-last-child()
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">3</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="nth-child-nth-last-child">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="nth-of-type-nth-last-of-type.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="nth-of-type-nth-last-of-type">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Pseudo Classes » 
+                    </span>
+              
+              
+                  :nth-of-type(), :nth-last-of-type()
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">3</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="nth-of-type-nth-last-of-type">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="not.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="not">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Pseudo Classes » 
+                    </span>
+              
+              
+                  :not()
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">4</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="not">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="root.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="root">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Pseudo Classes » 
+                    </span>
+              
+              
+                  :root
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="root">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="lang.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="lang">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Pseudo Classes » 
+                    </span>
+              
+              
+                  :lang()
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="lang">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="forms-related-pseudo-classes-checked-required-valid-invalid-enabled-disabled.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="forms-related-pseudo-classes-checked-required-valid-invalid-enabled-disabled">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Pseudo Classes » 
+                    </span>
+              
+              
+                  Forms related pseudo classes (:checked, :required, :valid + :invalid, :enabled + :disabled)
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="forms-related-pseudo-classes-checked-required-valid-invalid-enabled-disabled">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="target.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="target">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Pseudo Classes » 
+                    </span>
+              
+              
+                  :target
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="target">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="in-range-out-of-range.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="in-range-out-of-range">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Pseudo Classes » 
+                    </span>
+              
+              
+                  :in-range, :out-of-range
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="in-range-out-of-range">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="read-only-read-write.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="read-only-read-write">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Pseudo Classes » 
+                    </span>
+              
+              
+                  :read-only, :read-write
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="read-only-read-write">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="optional.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="optional">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Pseudo Classes » 
+                    </span>
+              
+              
+                  :optional
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="optional">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="default.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="default">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Pseudo Classes » 
+                    </span>
+              
+              
+                  :default
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="default">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="indeterminate.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="indeterminate">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Pseudo Classes » 
+                    </span>
+              
+              
+                  :indeterminate
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="indeterminate">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="empty.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="empty">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Pseudo Classes » 
+                    </span>
+              
+              
+                  :empty
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="empty">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="page-related-first-left-right.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="page-related-first-left-right">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Pseudo Classes » 
+                    </span>
+              
+              
+                  @page related: :first, :left, :right
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="page-related-first-left-right">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="basic-principles-sass-vs-scss.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="basic-principles-sass-vs-scss">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Sass » 
+                    </span>
+              
+              
+                  Basic principles, Sass vs. scss
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">2</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="basic-principles-sass-vs-scss">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="type-selectors.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="type-selectors">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Selectors » 
+                    </span>
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  Type selectors
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="type-selectors">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="class-selectors.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="class-selectors">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Selectors » 
+                    </span>
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  Class selectors
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="class-selectors">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="id-selectors.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="id-selectors">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Selectors » 
+                    </span>
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  Id selectors
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="id-selectors">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="descendant-combinator-x-y.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="descendant-combinator-x-y">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Selectors » 
+                    </span>
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  Descendant combinator (x y)
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="descendant-combinator-x-y">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="child-combinator-xy.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="child-combinator-xy">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Selectors » 
+                    </span>
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  Child combinator (x&gt;y)
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="child-combinator-xy">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="attribute-selectors-ahrefx.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="attribute-selectors-ahrefx">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Selectors » 
+                    </span>
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  Attribute selectors (a[href&#x3D;x])
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="attribute-selectors-ahrefx">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="adjacent-sibling-combinator-xy.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="adjacent-sibling-combinator-xy">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Selectors » 
+                    </span>
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  Adjacent sibling combinator (x+y)
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="adjacent-sibling-combinator-xy">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="general-sibling-combinator-x~y.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="general-sibling-combinator-x~y">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Selectors » 
+                    </span>
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  General sibling combinator (x~y)
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="general-sibling-combinator-x~y">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="selector-specificity.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="selector-specificity">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Selectors » 
+                    </span>
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  Selector Specificity
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="selector-specificity">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="elements-html-css.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="elements-html-css">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      90 Miscellaneous » Dev Tools » 
+                    </span>
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  Elements (HTML, CSS)
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="elements-html-css">
                     <span class="note-value"></span>
                     <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
                   </span>
@@ -193,7 +3899,479 @@
               
           </div>
 
-      </main>
-      <script src="firebase.js"></script>
-    </body>
+      </div>
+
+      <div class="col-3">
+          <h2 class="mt-5">Following skills</h2>
+          <div class="list-group">
+              <a
+                href="page.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="page">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  @page
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="page">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="size.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="size">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  size
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="size">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="margin-cm-units-in-page.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="margin-cm-units-in-page">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  margin (cm units) (in @page)
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="margin-cm-units-in-page">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="show-links-targets-in-print-content-attrhref.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="show-links-targets-in-print-content-attrhref">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  show links targets in print (content: attr(href))
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">5</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="show-links-targets-in-print-content-attrhref">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="page-break-inside-all.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="page-break-inside-all">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  page-break-inside: (all)
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="page-break-inside-all">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="page-break-after-page-break-before-always-avoid-auto.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="page-break-after-page-break-before-always-avoid-auto">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  page-break-after, page-break-before (always, avoid, auto)
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="page-break-after-page-break-before-always-avoid-auto">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="widows.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="widows">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  widows
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="widows">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="orphans.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="orphans">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  orphans
+              
+                </span>
+              
+                <span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="orphans">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="page-margin-box.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="page-margin-box">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  page-margin box
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="page-margin-box">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="page-first-left-right.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="page-first-left-right">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  @page :first, :left, :right
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="page-first-left-right">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="marks.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="marks">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  marks
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="marks">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="bleed.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="bleed">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+              
+                      <span class="badge badge-light">🚧️</span>
+              
+                  bleed
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="bleed">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+              <a
+                href="page-related-first-left-right.html"
+                class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  py-1 pl-0 pr-2
+                "
+              >
+                <span>
+                    <span class="indicator indicator-list text-center p-1" data-slug="page-related-first-left-right">
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+              
+                    <span class="text-muted">
+                      30 CSS » Pseudo Classes » 
+                    </span>
+              
+              
+                  @page related: :first, :left, :right
+              
+                </span>
+              
+                <span>
+                    <span class="badge badge-primary badge-pill">extra</span>
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="page-related-first-left-right">
+                    <span class="note-value"></span>
+                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                  </span>
+                </span>
+              </a>
+              
+          </div>
+      </div>
+    </div>
+
+  </main>
+  <script src="firebase.js"></script>
+  </body>
   </html>

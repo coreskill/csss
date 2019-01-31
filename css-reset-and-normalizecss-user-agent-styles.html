@@ -1,39 +1,41 @@
   <!doctype html>
   <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <title>CSS reset and normalize.css (user agent styles) « CoreSkill Skill System (CSSS)</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-      <link rel="stylesheet" href="csss.css">
-      <link rel="stylesheet" href="firebase.css">
-      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
-      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
-      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
-    </head>
-    <body>
-      <header class="navbar navbar-dark bg-dark sticky-top">
-        <div class="container">
-          <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
-          <form class="form-inline">
-            <span class="user-select"><select class="form-control mr-3"></select></span>
-            <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
-            <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
-          </form>
-        </div>
-      </header>
+  <head>
+    <meta charset="utf-8">
+    <title>CSS reset and normalize.css (user agent styles) « CoreSkill Skill System (CSSS)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="csss.css">
+    <link rel="stylesheet" href="firebase.css">
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
+  </head>
+  <body>
+  <header class="navbar navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
+      <form class="form-inline">
+        <span class="user-select"><select class="form-control mr-3"></select></span>
+        <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
+        <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
+      </form>
+    </div>
+  </header>
 
-      <main class="container p-4">
+  <main class="container-fluid p-4">
 
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
-                <li class="breadcrumb-item"><a href="css.html">CSS</a></li>
-                <li class="breadcrumb-item"><a href="general.html">General</a></li>
-              <li class="breadcrumb-item active" aria-current="page">CSS reset and normalize.css (user agent styles)</li>
-          </ol>
-        </nav>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
+          <li class="breadcrumb-item"><a href="30-css.html">30 CSS</a></li>
+          <li class="breadcrumb-item"><a href="general.html">General</a></li>
+        <li class="breadcrumb-item active" aria-current="page">CSS reset and normalize.css (user agent styles)</li>
+      </ol>
+    </nav>
 
+    <div class="row">
+      <div class="col-3">
           <h2 class="mt-3">Prerequisites</h2>
           <div class="list-group">
               <a
@@ -73,7 +75,9 @@
               </a>
               
           </div>
+      </div>
 
+      <div class="col-6">
         <div class="mt-5 p-3 bg-light">
 
           <h1 class="display-3">
@@ -85,12 +89,13 @@
             CSS reset and normalize.css (user agent styles)
           </h1>
 
-          <p><small><a href="graph.html#css-reset-and-normalizecss-user-agent-styles">Show in dependency graph</a></small></p>
+          <p>
+            <small><a href="graph.html#css-reset-and-normalizecss-user-agent-styles">Show in dependency graph</a></small>
+          </p>
 
 
             <h2 class="mt-5">Resources</h2>
             <div class="list-group">
-
                 <a href="https://css-tricks.com/reboot-resets-reasoning/" class="list-group-item list-group-item-action flex-column align-items-start">
                   <div class="d-flex w-100 justify-content-between">
                     <h5 class="mb-1">
@@ -103,7 +108,6 @@
                     https://css-tricks.com/reboot-resets-reasoning/
                   </p>
                 </a>
-
                 <a href="https://marksheet.io/css-reset.html" class="list-group-item list-group-item-action flex-column align-items-start">
                   <div class="d-flex w-100 justify-content-between">
                     <h5 class="mb-1">
@@ -116,7 +120,6 @@
                     https://marksheet.io/css-reset.html
                   </p>
                 </a>
-
                 <a href="https://necolas.github.io/normalize.css/" class="list-group-item list-group-item-action flex-column align-items-start">
                   <div class="d-flex w-100 justify-content-between">
                     <h5 class="mb-1">
@@ -129,7 +132,6 @@
                     https://necolas.github.io/normalize.css/
                   </p>
                 </a>
-
                 <a href="https://getbootstrap.com/docs/4.2/content/reboot/" class="list-group-item list-group-item-action flex-column align-items-start">
                   <div class="d-flex w-100 justify-content-between">
                     <h5 class="mb-1">
@@ -143,7 +145,6 @@
                   </p>
                 </a>
             </div>
-
         </div>
 
           <h2 class="mt-5">Also learn these skills</h2>
@@ -169,7 +170,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Architecture » 
+                      30 CSS » Architecture » 
                     </span>
               
               
@@ -207,7 +208,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Architecture » 
+                      30 CSS » Architecture » 
                     </span>
               
               
@@ -245,7 +246,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -283,7 +284,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -321,7 +322,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -359,7 +360,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -397,7 +398,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -435,7 +436,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -473,7 +474,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -511,7 +512,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -549,7 +550,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -587,7 +588,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -625,7 +626,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -663,7 +664,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -701,7 +702,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -739,7 +740,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -777,7 +778,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -815,7 +816,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -853,7 +854,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -891,7 +892,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -929,7 +930,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -967,7 +968,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1005,7 +1006,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1043,7 +1044,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1081,7 +1082,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1119,7 +1120,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1157,7 +1158,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1195,7 +1196,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1233,7 +1234,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1271,7 +1272,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1309,7 +1310,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1347,7 +1348,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1385,7 +1386,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1423,7 +1424,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1461,7 +1462,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1499,7 +1500,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1537,7 +1538,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1575,7 +1576,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1613,7 +1614,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1651,7 +1652,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1689,7 +1690,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1727,7 +1728,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1765,7 +1766,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1803,7 +1804,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1841,7 +1842,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1879,7 +1880,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1917,7 +1918,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1955,7 +1956,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -1993,7 +1994,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -2031,7 +2032,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -2069,7 +2070,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -2107,7 +2108,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -2145,7 +2146,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -2183,7 +2184,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Properties » 
+                      30 CSS » CSS Properties » 
                     </span>
               
               
@@ -2221,7 +2222,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Units » 
+                      30 CSS » CSS Units » 
                     </span>
               
               
@@ -2258,7 +2259,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Units » 
+                      30 CSS » CSS Units » 
                     </span>
               
                       <span class="badge badge-light">🚧️</span>
@@ -2296,7 +2297,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Units » 
+                      30 CSS » CSS Units » 
                     </span>
               
                       <span class="badge badge-light">🚧️</span>
@@ -2334,7 +2335,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Units » 
+                      30 CSS » CSS Units » 
                     </span>
               
                       <span class="badge badge-light">🚧️</span>
@@ -2372,7 +2373,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Units » 
+                      30 CSS » CSS Units » 
                     </span>
               
                       <span class="badge badge-light">🚧️</span>
@@ -2410,7 +2411,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Units » 
+                      30 CSS » CSS Units » 
                     </span>
               
                       <span class="badge badge-light">🚧️</span>
@@ -2448,7 +2449,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Units » 
+                      30 CSS » CSS Units » 
                     </span>
               
                       <span class="badge badge-light">🚧️</span>
@@ -2486,7 +2487,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Units » 
+                      30 CSS » CSS Units » 
                     </span>
               
                       <span class="badge badge-light">🚧️</span>
@@ -2524,7 +2525,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Units » 
+                      30 CSS » CSS Units » 
                     </span>
               
                       <span class="badge badge-light">🚧️</span>
@@ -2562,7 +2563,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Units » 
+                      30 CSS » CSS Units » 
                     </span>
               
                       <span class="badge badge-light">🚧️</span>
@@ -2600,7 +2601,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Values » 
+                      30 CSS » CSS Values » 
                     </span>
               
               
@@ -2637,7 +2638,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » CSS Values » 
+                      30 CSS » CSS Values » 
                     </span>
               
               
@@ -2828,7 +2829,7 @@
               </a>
               
               <a
-                href="overview1.html"
+                href="overview2.html"
                 class="
                   skill-item
                   
@@ -2841,14 +2842,14 @@
                 "
               >
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="overview1">
+                    <span class="indicator indicator-list text-center p-1" data-slug="overview2">
                       <span class="done">✔️</span>
                       <span class="star">⭐️</span>
                       <span class="not-done">❔️</span>
                     </span>
               
                     <span class="text-muted">
-                      CSS » Print CSS » 
+                      30 CSS » Print CSS » 
                     </span>
               
               
@@ -2857,7 +2858,7 @@
                 </span>
               
                 <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="overview1">
+                  <span class="note note-empty badge badge-danger badge-pill" data-slug="overview2">
                     <span class="note-value"></span>
                     <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
                   </span>
@@ -2885,7 +2886,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Pseudo Classes » 
+                      30 CSS » Pseudo Classes » 
                     </span>
               
               
@@ -2923,7 +2924,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Pseudo Classes » 
+                      30 CSS » Pseudo Classes » 
                     </span>
               
               
@@ -2961,7 +2962,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Pseudo Classes » 
+                      30 CSS » Pseudo Classes » 
                     </span>
               
               
@@ -2999,7 +3000,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Pseudo Classes » 
+                      30 CSS » Pseudo Classes » 
                     </span>
               
               
@@ -3037,7 +3038,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Pseudo Classes » 
+                      30 CSS » Pseudo Classes » 
                     </span>
               
               
@@ -3075,7 +3076,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Pseudo Classes » 
+                      30 CSS » Pseudo Classes » 
                     </span>
               
               
@@ -3113,7 +3114,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Pseudo Classes » 
+                      30 CSS » Pseudo Classes » 
                     </span>
               
               
@@ -3151,7 +3152,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Pseudo Classes » 
+                      30 CSS » Pseudo Classes » 
                     </span>
               
               
@@ -3189,7 +3190,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Pseudo Classes » 
+                      30 CSS » Pseudo Classes » 
                     </span>
               
               
@@ -3227,7 +3228,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Pseudo Classes » 
+                      30 CSS » Pseudo Classes » 
                     </span>
               
               
@@ -3265,7 +3266,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Pseudo Classes » 
+                      30 CSS » Pseudo Classes » 
                     </span>
               
               
@@ -3303,7 +3304,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Pseudo Classes » 
+                      30 CSS » Pseudo Classes » 
                     </span>
               
               
@@ -3341,7 +3342,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Pseudo Classes » 
+                      30 CSS » Pseudo Classes » 
                     </span>
               
               
@@ -3379,7 +3380,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Pseudo Classes » 
+                      30 CSS » Pseudo Classes » 
                     </span>
               
               
@@ -3417,7 +3418,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Pseudo Classes » 
+                      30 CSS » Pseudo Classes » 
                     </span>
               
               
@@ -3455,7 +3456,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Pseudo Classes » 
+                      30 CSS » Pseudo Classes » 
                     </span>
               
               
@@ -3493,7 +3494,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Pseudo Classes » 
+                      30 CSS » Pseudo Classes » 
                     </span>
               
               
@@ -3531,7 +3532,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Sass » 
+                      30 CSS » Sass » 
                     </span>
               
               
@@ -3569,7 +3570,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Selectors » 
+                      30 CSS » Selectors » 
                     </span>
               
                       <span class="badge badge-light">🚧️</span>
@@ -3607,7 +3608,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Selectors » 
+                      30 CSS » Selectors » 
                     </span>
               
                       <span class="badge badge-light">🚧️</span>
@@ -3645,7 +3646,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Selectors » 
+                      30 CSS » Selectors » 
                     </span>
               
                       <span class="badge badge-light">🚧️</span>
@@ -3683,7 +3684,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Selectors » 
+                      30 CSS » Selectors » 
                     </span>
               
                       <span class="badge badge-light">🚧️</span>
@@ -3721,7 +3722,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Selectors » 
+                      30 CSS » Selectors » 
                     </span>
               
                       <span class="badge badge-light">🚧️</span>
@@ -3759,7 +3760,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Selectors » 
+                      30 CSS » Selectors » 
                     </span>
               
                       <span class="badge badge-light">🚧️</span>
@@ -3797,7 +3798,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Selectors » 
+                      30 CSS » Selectors » 
                     </span>
               
                       <span class="badge badge-light">🚧️</span>
@@ -3835,7 +3836,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Selectors » 
+                      30 CSS » Selectors » 
                     </span>
               
                       <span class="badge badge-light">🚧️</span>
@@ -3873,7 +3874,7 @@
                     </span>
               
                     <span class="text-muted">
-                      CSS » Selectors » 
+                      30 CSS » Selectors » 
                     </span>
               
                       <span class="badge badge-light">🚧️</span>
@@ -3911,7 +3912,7 @@
                     </span>
               
                     <span class="text-muted">
-                      Other » Dev Tools » 
+                      90 Miscellaneous » Dev Tools » 
                     </span>
               
                       <span class="badge badge-light">🚧️</span>
@@ -3930,8 +3931,13 @@
               
           </div>
 
+      </div>
 
-      </main>
-      <script src="firebase.js"></script>
-    </body>
+      <div class="col-3">
+      </div>
+    </div>
+
+  </main>
+  <script src="firebase.js"></script>
+  </body>
   </html>

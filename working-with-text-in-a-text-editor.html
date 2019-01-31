@@ -1,39 +1,41 @@
   <!doctype html>
   <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <title>Working with text in a text editor « CoreSkill Skill System (CSSS)</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-      <link rel="stylesheet" href="csss.css">
-      <link rel="stylesheet" href="firebase.css">
-      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
-      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
-      <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
-    </head>
-    <body>
-      <header class="navbar navbar-dark bg-dark sticky-top">
-        <div class="container">
-          <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
-          <form class="form-inline">
-            <span class="user-select"><select class="form-control mr-3"></select></span>
-            <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
-            <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
-          </form>
-        </div>
-      </header>
+  <head>
+    <meta charset="utf-8">
+    <title>Working with text in a text editor « CoreSkill Skill System (CSSS)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="csss.css">
+    <link rel="stylesheet" href="firebase.css">
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
+  </head>
+  <body>
+  <header class="navbar navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
+      <form class="form-inline">
+        <span class="user-select"><select class="form-control mr-3"></select></span>
+        <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
+        <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
+      </form>
+    </div>
+  </header>
 
-      <main class="container p-4">
+  <main class="container-fluid p-4">
 
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
-                <li class="breadcrumb-item"><a href="basics.html">Basics</a></li>
-                <li class="breadcrumb-item"><a href="text-editor.html">Text Editor</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Working with text in a text editor</li>
-          </ol>
-        </nav>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
+          <li class="breadcrumb-item"><a href="10-basics.html">10 Basics</a></li>
+          <li class="breadcrumb-item"><a href="code-editing.html">Code Editing</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Working with text in a text editor</li>
+      </ol>
+    </nav>
 
+    <div class="row">
+      <div class="col-3">
           <h2 class="mt-3">Prerequisites</h2>
           <div class="list-group">
               <a
@@ -72,7 +74,9 @@
               </a>
               
           </div>
+      </div>
 
+      <div class="col-6">
         <div class="mt-5 p-3 bg-light">
 
           <h1 class="display-3">
@@ -84,9 +88,11 @@
             Working with text in a text editor
           </h1>
 
-          <p><small><a href="graph.html#working-with-text-in-a-text-editor">Show in dependency graph</a></small></p>
+          <p>
+            <small><a href="graph.html#working-with-text-in-a-text-editor">Show in dependency graph</a></small>
+          </p>
 
-              <p class="m-0">
+            <p class="m-0">
 * Copy and cut whole line (usually standard shortcuts without selection)
 * Delete a line
 * Duplicate a line
@@ -97,7 +103,6 @@
 
 Many of the above actions work even on multiple lines. For example indenting.
 </p>
-
 
         </div>
 
@@ -139,8 +144,13 @@ Many of the above actions work even on multiple lines. For example indenting.
               
           </div>
 
+      </div>
 
-      </main>
-      <script src="firebase.js"></script>
-    </body>
+      <div class="col-3">
+      </div>
+    </div>
+
+  </main>
+  <script src="firebase.js"></script>
+  </body>
   </html>

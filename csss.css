@@ -19,3 +19,14 @@ a.list-group-item {
 .filter-group .btn:not(.active) {
   filter: grayscale(1);
 }
+
+@media (min-width: 768px) {
+  .skill-sections {
+    display: flex;
+  }
+
+  .skill-section {
+    flex: 1 1 25vw;
+    min-width: 500px;
+  }
+}
