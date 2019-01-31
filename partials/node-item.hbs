@@ -1,12 +1,18 @@
 {{#if skill}}
   {{> list-item}}
 {{else}}
-    <p class="{{#if parent.parent}}h4 mt-4{{else}}h3 mt-5 display-4{{/if}}"><a href="{{slug}}.html">{{name}}</a></p>
-    {{#if children.length}}
-      <div class="skill-group list-group mt-2">
+  {{#unless parent.parent}}
+    <section class="skill-section mr-5">
+  {{/unless}}
+    <p class="{{#if parent.parent}}h4{{else}}h3 display-4{{/if}}">
+      <a href="{{slug}}.html">{{name}}</a>
+    </p>
+  {{#if children.length}}
+      <div class="skill-group list-group mt-2 mb-4">
         {{#each children}}
           {{> node-item}}
         {{/each}}
       </div>
-    {{/if}}
+  {{/if}}
+  {{#unless parent.parent}}</section>{{/unless}}
 {{/if}}

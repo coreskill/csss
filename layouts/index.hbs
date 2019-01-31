@@ -15,7 +15,7 @@
     <body>
       {{> header}}
 
-      <main class="container p-4">
+      <main class="container-fluid p-4">
         <h1 class="display-3">CoreSkill Skill System (CSSS)</h1>
         <p><a href="graph.html">Show dependency graph</a></p>
         <div class="filter-group bg-white p-2 sticky-top">
@@ -26,9 +26,11 @@
           </div>
         </div>
         <div class="filter-nothing-found alert alert-dark mt-4 d-none" role="alert">Nothing has been found.</div>
-        {{#each children}}
-          {{> node-item}}
-        {{/each}}
+        <div class="skill-sections">
+          {{#each children}}
+            {{> node-item}}
+          {{/each}}
+        </div>
       </main>
       <script src="firebase.js"></script>
       <script src="filter.js"></script>
