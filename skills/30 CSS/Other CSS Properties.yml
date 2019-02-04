@@ -1,0 +1,66 @@
+---
+
+skill: content
+level: 2
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/content
+
+requires:
+  - General // Basic CSS Syntax
+
+---
+
+skill: table-layout
+level: 5
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/table-layout
+
+requires:
+  - General // Basic CSS Syntax
+
+---
+
+skill: "display: table, table-row, table-cell, …"
+level: 5
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/display
+
+requires:
+  - General // Basic CSS Syntax
+
+---
+
+skill: CSS transitions
+level: 5
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/transition
+
+requires:
+  - General // Basic CSS Syntax
+
+---
+
+skill: CSS animations
+level: extra
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
+
+requires:
+  - General // Basic CSS Syntax
+
+---
+
+skill: cursor
+level: extra
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
+
+requires:
+  - General // Basic CSS Syntax
+

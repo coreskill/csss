@@ -1,0 +1,11 @@
+---
+
+skill: Flexible layout module (flexbox)
+level: 3
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+
+requires:
+  - General // Basic CSS Syntax
+

@@ -38,11 +38,11 @@ requires:
 
 skill: CSS reset and normalize.css (user agent styles)
 
-resources: 
+resources:
   - url: https://css-tricks.com/reboot-resets-reasoning/
-    desc: Article discussing different approaches  
+    desc: Article discussing different approaches
   - url: https://marksheet.io/css-reset.html
-    desc: Marksheet description (outdated)  
+    desc: Marksheet description (outdated)
   - url: https://necolas.github.io/normalize.css/
     desc: Normalize.css
   - url: https://getbootstrap.com/docs/4.2/content/reboot/
@@ -50,7 +50,7 @@ resources:
 
 requires:
   - Basic CSS Syntax
-  #- Bootstrap 
+  #- Bootstrap
 
 ---
 
@@ -62,3 +62,12 @@ resources:
 requires:
   - Basic CSS Syntax
 
+---
+
+skill: "Flow: Fluidity, Ordering and Stacking"
+
+resources:
+  - url: https://marksheet.io/css-the-flow.html
+
+requires:
+  - Basic CSS Syntax

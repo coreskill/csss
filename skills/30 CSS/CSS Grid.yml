@@ -1,0 +1,11 @@
+---
+
+skill: "CSS Grid"
+level: 4
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
+
+requires:
+  - General // Basic CSS Syntax
+

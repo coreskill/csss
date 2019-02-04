@@ -3,8 +3,8 @@
 skill: ::after, ::before
 level: 2
 
-requires: 
-  - CSS Properties // content
+requires:
+  - Other CSS Properties // content
 
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/::after
