@@ -241,6 +241,30 @@ resources:
 skill: <form>, <input>, <textarea>, <label>, <select>, <option>, <button>
 level: 4
 
+text: |
+  interesting input types:
+  - submit
+  - text
+  - hidden
+  - checkbox
+  - radio
+  - file
+  - number
+  - date
+  - email
+  - button
+
+  interesting attributes
+  - type
+  - value
+  - name
+  - disabled
+  - readonly
+  - required
+  - autocomplete
+  - autofocus
+  - tabindex
+
 requires:
   - <div>, <span>
   - "<a>, #, paths for href"
