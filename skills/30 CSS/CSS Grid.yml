@@ -5,6 +5,7 @@ level: 4
 
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
+  - url: https://mozilladevelopers.github.io/playground/css-grid
 
 requires:
   - General // Basic CSS Syntax
