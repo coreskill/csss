@@ -5,7 +5,7 @@ skill: Overview
 text: Pros and cons
 
 requires:
-  - 20 HTML // Basic structure // <!doctype>, <html>, <head>, <body>
+  - HTML // Basic structure // <!doctype>, <html>, <head>, <body>
 #  - Classes todo
 
 resources:
@@ -78,7 +78,7 @@ skill: "Customization: Variables"
 
 requires:
   - Overview
-  - 30 CSS // Sass // variables
+  - CSS // Sass // variables
 
 resources:
   - url: https://github.com/benabraham/bs4-nodejs-static/blob/master/src/scss/_1-custom-bootstrap-variables.scss
@@ -91,7 +91,7 @@ skill: "Customization: Own CSS"
 
 requires:
   - Overview
-  - 30 CSS // Sass // @import (also partials)
+  - CSS // Sass // @import (also partials)
 
 resources:
   - url: https://github.com/benabraham/bs4-nodejs-static/blob/master/src/scss/_base.scss
@@ -102,8 +102,8 @@ skill: "Customization: removing modules"
 
 requires:
   - Overview
-  - 30 CSS // Sass // @import (also partials)
-  - 30 CSS // Sass // //comments
+  - CSS // Sass // @import (also partials)
+  - CSS // Sass // //comments
 
 resources:
   - url: https://github.com/benabraham/bs4-nodejs-static/blob/master/src/scss/index.scss

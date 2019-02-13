@@ -3,7 +3,7 @@
 skill: Overview
 
 requires:
-  - 20 HTML // Basic structure // <!doctype>, <html>, <head>, <body>
+  - HTML // Basic structure // <!doctype>, <html>, <head>, <body>
 
 resources:
   - url: https://twig.symfony.com/doc/2.x/templates.html

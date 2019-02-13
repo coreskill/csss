@@ -3,7 +3,7 @@
 skill: Overview
 
 requires:
-  - // 10 Basics // Code Editing // Code Editor Installation
+  - // Basics // Code Editing // Code Editor Installation
 
 resources:
   - url: https://regexone.com/

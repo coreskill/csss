@@ -36,6 +36,11 @@ export interface Skill extends CNode {
   sameLevelSkills: Skill[];
 }
 
+export interface CategoryMetadata {
+  categories: string[];
+  metadata: object;
+}
+
 const slugs = new Set(['index', 'graph', 'constructor']);
 const getSlug = (input: string) => {
   let slugFromInput = slug(input).toLowerCase();
@@ -45,7 +50,7 @@ const getSlug = (input: string) => {
   return finalSlug;
 }
 
-const loadSkills = () => new Promise<Skill[]>((resolve, reject) => {
+const loadSkills = () => new Promise<[Skill[], CategoryMetadata[]]>((resolve, reject) => {
   let contents: string[] = [];
   dir.readFiles('./skills', (err, content, next) => {
     if (err) return reject(err);
@@ -53,9 +58,15 @@ const loadSkills = () => new Promise<Skill[]>((resolve, reject) => {
     next();
   }, (err, files) => {
     if (err) return reject(err);
-    resolve(files.reduce<Skill[]>((res, filename, i) => {
+    resolve(files.reduce<[Skill[], CategoryMetadata[]]>(([skills, categoryInfos], filename, i) => {
       let content = yaml.safeLoadAll(contents[i]);
-      let categories = filename.replace(/\.ya?ml$/, '').split(path.sep).slice(1);
+      let categories = filename.replace(/\.ya?ml$/, '').split(path.sep).slice(1).map(name => name.replace(/^\d+ /, ''));
+      if (!content[0].skill) {
+        categoryInfos.push({
+          categories,
+          metadata: content.shift(),
+        });
+      }
       content.forEach((skill) => {
         skill.name = skill.skill;
         skill.skill = true;
@@ -66,13 +77,13 @@ const loadSkills = () => new Promise<Skill[]>((resolve, reject) => {
         skill.requires = [];
         skill.requiredBy = [];
     });
-      return [...res, ...content];
-    }, []));
+      return [[...skills, ...content], categoryInfos];
+    }, [[], []]));
   });
 });
 
 export default async () => {
-  let skills = await loadSkills();
+  let [skills, categoryInfos] = await loadSkills();
   let root: CRoot = {children: []};
   let categories: Category[] = [];
 
@@ -173,6 +184,16 @@ export default async () => {
       category.categories.unshift(parent);
     }
   });
+
+  // And assign category metadata to their correct category
+  categoryInfos.forEach(({categories, metadata}) => {
+    let category: Category | CRoot = root;
+    categories.forEach(name => category = category.children.find(cat => cat.name === name) as Category);
+    Object.assign(category, metadata);
+  });
+
+  // And finally sort subcategories
+  root.children.forEach(cat => cat.children && (cat.children as Array<Category & {sort?: number}>).sort((a, b) => ((a.sort || Infinity) - (b.sort || Infinity)) || 0));
 
   return {root, categories, skills};
 }
