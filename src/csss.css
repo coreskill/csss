@@ -28,5 +28,6 @@ a.list-group-item {
   .skill-section {
     flex: 1 1 25vw;
     min-width: 500px;
+    max-width: 800px;
   }
 }

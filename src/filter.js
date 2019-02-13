@@ -1,5 +1,6 @@
 let allItems = document.querySelectorAll(".skill-item");
 let allGroups = document.querySelectorAll(".skill-group");
+let allColumns = document.querySelectorAll(".skill-section");
 let nothingFound = document.querySelector(".filter-nothing-found");
 
 let doneFilter = document.querySelector(".filter-done");
@@ -25,12 +26,17 @@ function filterItems() {
   });
 
   allGroups.forEach(el => {
-    let addOrRemove = el.querySelectorAll(".skill-item.d-flex").length === 0;
+    let addOrRemove = el.querySelectorAll(".skill-item.d-flex").length === 0 && (filters.done || filters.star || filters.notDone);
     el.classList.toggle("d-none", addOrRemove);
     el.previousElementSibling.classList.toggle("d-none", addOrRemove);
   });
 
-  let nothingWasFound = document.querySelectorAll(".skill-item.d-flex").length === 0;
+  allColumns.forEach(el => {
+    let addOrRemove = el.querySelectorAll(".skill-group:not(.d-none)").length === 0;
+    el.classList.toggle("d-none", addOrRemove);
+  });
+
+  let nothingWasFound = document.querySelectorAll(".skill-item.d-flex").length === 0 && (filters.done || filters.star || filters.notDone);
   nothingFound.classList.toggle("d-none", !nothingWasFound);
 };
 
