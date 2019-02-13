@@ -3,8 +3,8 @@
 skill: Overview
 
 requires:
-  - // 10 Basics // CLI // Overview
-  - 40 JavaScript // Basics // Overview
+  - // Basics // CLI // Overview
+  - JavaScript // Basics // Overview
 
 ---
 

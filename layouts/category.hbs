@@ -29,6 +29,10 @@
 
         <h1 class="display-3">{{name}}</h1>
 
+        {{#if text}}
+          <p class="m-0">{{text}}</p>
+        {{/if}}
+
         {{#if children.[0].skill}}
           <h2 class="mt-5">Skills in this category</h2>
           <div class="list-group">
