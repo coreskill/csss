@@ -324,6 +324,18 @@ resources:
 
 ---
 
+skill: rebase -i (interactive)
+level: 4
+sublevel: 10
+
+requires:
+  - rebase
+
+resources:
+  - url: https://www.atlassian.com/git/tutorials/rewriting-history#git-rebase-i
+
+---
+
 skill: config
 level: 5
 sublevel: 10
