@@ -95,6 +95,8 @@ skill: Animation
 resources:
   - url: https://en.wikipedia.org/wiki/12_basic_principles_of_animation
   - url: https://ebooks.webflow.com/chapter/how-to-design-interactions-effectively
+  - url: https://vimeo.com/93206523
+    type: video
 
 requires:
   - Visual Design
