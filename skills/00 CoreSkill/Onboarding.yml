@@ -36,12 +36,6 @@ text: "attendee: join, CoreSkill: invite (also to specific channels)"
 
 ---
 
-skill: node.js
-
-text: "attendee: install"
-
----
-
 skill: Chrome
 
 text: "attendee: install english version"
@@ -69,18 +63,25 @@ resources:
 
 ---
 
-skill: Cmder
-
-text: "attendee: install full version (Windows only)"
-
-resources:
-  - url: http://cmder.net/
-
----
-
 skill: Agreement
 
 text: "attendee: sign, CoreSkill: sign"
+
+---
+
+skill: Password manager
+
+text: "attendee: install (voluntary)"
+
+resources:
+  - url: https://1password.com/
+    desc: 1Password
+  - url: https://www.lastpass.com/
+    desc: LastPass
+  - url: https://www.dashlane.com/
+    desc: Dashlane
+  - url: https://keepass.info/
+    desc: Keepass
 
 ---
 
@@ -90,19 +91,3 @@ text: "attendee: provide or create if needed"
 
 resources:
   - url: https://gitlab.com/
-
----
-
-skill: Password manager
-
-text: "attendee: install (voluntary)"
-
-resources:
-  - url: https://keepass.info/
-    desc: Keepass
-  - url: https://www.lastpass.com/
-    desc: LastPass
-  - url: https://1password.com/
-    desc: 1Password
-  - url: https://www.dashlane.com/
-    desc: Dashlane
