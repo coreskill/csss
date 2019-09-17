@@ -1,6 +1,6 @@
 ---
 
-sort: 1
+sort: 10
 
 ---
 
@@ -11,13 +11,13 @@ resources:
 
 ---
 
-skill: Console
+skill: Console.log()
 
 requires: 
   - Overview
 
 resources:
-  - url: https://www.codecademy.com/learn/introduction-to-javascript
+  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction
 ---
 
 skill: Data Types
@@ -28,10 +28,10 @@ requires:
   - Overview
 
 resources:
-  - url: https://www.codecademy.com/learn/introduction-to-javascript
+  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction
 ---
 
-skill: Math Operators
+skill: Arithmetic Operators
 
 text: +, -, *, /
 
@@ -39,7 +39,7 @@ requires:
   - Overview
 
 resources:
-  - url: https://www.codecademy.com/learn/introduction-to-javascript
+  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction
 ---
 
 skill: Properties
@@ -50,7 +50,7 @@ requires:
   - Overview
 
 resources:
-  - url: https://www.codecademy.com/learn/introduction-to-javascript
+  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction
 ---
 
 skill: Built-in Methods
@@ -61,7 +61,16 @@ requires:
   - Overview
 
 resources:
-  - url: https://www.codecademy.com/learn/introduction-to-javascript
+  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction
+---
+
+skill: Data Instances in JavaScript
+
+requires: 
+  - Overview
+
+resources:
+  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction
 ---
 
 skill: Built-in Libraries
@@ -72,7 +81,7 @@ requires:
   - Overview
 
 resources:
-  - url: https://www.codecademy.com/learn/introduction-to-javascript
+  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction
 ---
 
 skill: Comments
@@ -83,4 +92,4 @@ requires:
   - Overview
 
 resources:
-  - url: https://www.codecademy.com/learn/introduction-to-javascript
+  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction
