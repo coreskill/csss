@@ -1,5 +1,17 @@
 ---
 
+sort: 100
+
+---
+
+skill: Color Contrast
+
+resources:
+  - url: https://color.review/
+  - url: https://www.w3.org/WAI/WCAG21/quickref/
+
+---
+
 skill: ARIA roles overview
 level: 1
 
