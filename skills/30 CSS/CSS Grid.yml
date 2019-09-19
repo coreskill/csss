@@ -4,13 +4,189 @@ sort: 100
 
 ---
 
-skill: "CSS Grid"
-level: 4
+skill: CSS Grid Overview
+
+text: "display: grid"
 
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
   - url: https://mozilladevelopers.github.io/playground/css-grid
 
 requires:
   - General // Basic CSS Syntax
 
+---
+
+skill: grid-template-rows, grid-template-columns
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns
+
+requires:
+  - CSS Grid Overview
+
+---
+
+skill: fr units
+
+requires:
+  - CSS Grid Overview
+
+---
+
+skill: repeat()
+
+requires:
+  - CSS Grid Overview
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/repeat
+
+---
+
+skill: max-content, min-content
+
+requires:
+  - CSS Grid Overview
+
+---
+
+skill: minmax()
+
+requires:
+  - CSS Grid Overview
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/minmax
+
+---
+
+skill: fit-content()
+
+requires:
+  - CSS Grid Overview
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/fit-content
+
+---
+
+skill: auto-flow
+
+requires:
+  - CSS Grid Overview
+
+---
+
+skill: dense
+
+requires:
+  - CSS Grid Overview
+
+---
+
+skill: span
+
+requires:
+  - CSS Grid Overview
+
+---
+
+skill: grid-template-areas
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas
+
+requires:
+  - grid-template-rows, grid-template-columns
+
+---
+
+skill: grid-template (shorthand)
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template
+
+requires:
+  - grid-template-areas
+
+---
+
+skill: row-gap, column-gap, gap
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/row-gap
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/column-gap
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/gap
+    desc: Shorthand
+
+requires:
+  - grid-template-rows, grid-template-columns
+
+---
+
+skill: grid-row-start, grid-row-end, grid-column-start, grid-column-end
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row-start
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row-end
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-start
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-end
+
+requires:
+  - grid-template-rows, grid-template-columns
+
+---
+
+skill: grid-auto-flow
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow
+
+requires:
+  - grid-template-rows, grid-template-columns
+
+---
+
+skill: grid-auto-rows, grid-auto-columns
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-rows
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-columns
+
+requires:
+  - grid-template-rows, grid-template-columns
+
+---
+
+skill: grid-row, grid-column (shorthands)
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column
+
+requires:
+  - grid-row-start, grid-row-end, grid-column-start, grid-column-end
+
+---
+
+skill: grid-area (shorthand)
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-area
+
+requires:
+  - grid-row-start, grid-row-end, grid-column-start, grid-column-end
+
+---
+
+skill: grid (shorhand)
+
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid
+
+requires:
+  - grid-template-rows, grid-template-columns
+  - grid-template-areas
