@@ -48,3 +48,5 @@ requires:
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link
   - url: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Adding_custom_icons_to_your_site
+  - url: https://realfavicongenerator.net/
+    desc: Best tool to generate favicon set.
