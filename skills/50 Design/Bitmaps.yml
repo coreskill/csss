@@ -1,5 +1,9 @@
 ---
 
+sort: 20
+
+---
+
 skill: BMP
 
 text: an example of uncompressed basic bitmap format
