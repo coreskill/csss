@@ -54,15 +54,6 @@ resources:
 
 ---
 
-skill: GitHub
-
-text: "attendee: provide or create if needed"
-
-resources:
-  - url: https://github.com/
-
----
-
 skill: Agreement
 
 text: "attendee: sign, CoreSkill: sign"
@@ -83,11 +74,3 @@ resources:
   - url: https://keepass.info/
     desc: Keepass
 
----
-
-skill: GitLab
-
-text: "attendee: provide or create if needed"
-
-resources:
-  - url: https://gitlab.com/
