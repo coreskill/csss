@@ -1,83 +1,61 @@
 ---
-
 sort: 80
 
 ---
-
 skill: "position: relative, position: static"
 level: 1
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/position
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: "position: absolute"
 level: 1
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/position
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: "position: fixed"
 level: 1
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/position
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: "position: sticky"
 level: 1
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/position
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: z-index
 level: 1
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: top, bottom, left, right
 level: 1
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/top
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/bottom
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/left
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/right
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: transform
 level: 5
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
-
 requires:
   - General // Basic CSS Syntax

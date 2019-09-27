@@ -1,47 +1,35 @@
 ---
-
 sort: 140
 
 ---
-
 skill: ::after, ::before
 level: 2
-
 requires:
   - Other CSS Properties // content
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/::after
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/::before
 
 ---
-
 skill: ::placeholder
 level: 4
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder
 
 ---
-
 skill: ::selection
 level: 5
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/::selection
 
 ---
-
 skill: ::first-letter
 level: extra
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter
 
 ---
-
 skill: ::first-line
 level: extra
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/::first-line

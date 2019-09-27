@@ -1,34 +1,24 @@
 ---
-
 sort: 80
 
 ---
-
 skill: Overview
-
 requires:
   - // Basics // Code Editing // Code Editor Installation
-
 resources:
   - url: https://regexone.com/
   - url: https://www.smashingmagazine.com/2009/06/essential-guide-to-regular-expressions-tools-tutorials-and-resources/
 
 ---
-
 skill: Finding & Replacing
-
 text: ^.+*[^a-z0-9]\n$
-
 requires:
   - Overview
 
 ---
-
 skill: online tools to test
-
 requires:
   - Overview
-
 resources:
   - url: https://regex101.com/
   - url: https://regexr.com/
@@ -38,16 +28,12 @@ resources:
     lang: cs
 
 ---
-
 skill: "capture groups () and replacing $1"
-
 requires:
   - Overview
 
 ---
-
 skill: lookaheads and lookbehinds
 level: extra
-
 requires:
   - Overview

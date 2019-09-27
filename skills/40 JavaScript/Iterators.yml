@@ -1,54 +1,38 @@
 ---
-
 sort: 80
 
 ---
-
 skill: Overview
-
 requires:
   - Arrays // Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/javascript-iterators/exercises/intro
 
 ---
-
 skill: forEach()
-
 requires:
   - Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/javascript-iterators/exercises/for-each
 
 ---
-
 skill: map()
-
 requires:
   - Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/javascript-iterators/exercises/map
 
 ---
-
 skill: filter()
-
 requires:
   - Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/javascript-iterators/exercises/filter
 
 ---
-
 skill: overview of other methods e.g. findIndex(), some(), every(), reduce()
-
 requires:
   - Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/javascript-iterators/exercises/find-index
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/javascript-iterators/exercises/reduce

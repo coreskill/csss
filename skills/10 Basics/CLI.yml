@@ -1,21 +1,15 @@
 ---
-
-sort: 20 
+sort: 20
 
 ---
-
 skill: Overview
-
 resources:
   - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/navigation/exercises/your-first-command
 
 ---
-
 skill: Install
-
 requires:
   - Files // Files and folders
-
 resources:
   - url: http://cmder.net
     desc: For Windows download and unpack “Full version”
@@ -23,34 +17,27 @@ resources:
     desc: iTerm2 (for OS X)
 
 ---
-
 skill: Navigating the file system
-
 requires:
   - Overview
   - Files // Files and folders
-
 resources:
   - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/navigation/
-
-text: |
+text: "
   ls,
   pwd,
   cd,
   mkdir,
   touch
+"
 
 ---
-
 skill: Viewing and changing the file system
-
 requires:
   - Navigating the file system
-
 resources:
   - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/manipulation/
-
-text: |
+text: "
   ls -a,
   ls -l,
   ls -alt,
@@ -58,18 +45,15 @@ text: |
   Wildcards,
   mv,
   rm
+"
 
 ---
-
 skill: Redirecting input and output
-
 requires:
   - Viewing and changing the file system
-
 resources:
   - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/redirection/
-
-text: |
+text: "
   stdin, stdout, and stderr,
   Redirection,
   >,
@@ -80,35 +64,26 @@ text: |
   uniq,
   grep,
   sed
-
+"
 ---
-
 skill: Configuring the Environment
 level: 5
-
 requires:
   - Overview
-
 resources:
   - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/environment/
 
 ---
-
 skill: copy and paste in CLI
-
 requires:
   - Overview
 
 ---
-
 skill: completion
-
 requires:
   - Overview
 
 ---
-
 skill: history (up & down arrows to repeat)
-
 requires:
   - Overview

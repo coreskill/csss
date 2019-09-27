@@ -1,103 +1,72 @@
 ---
-
 sort: 80
 
 ---
-
 skill: Overview
-
 requires:
   - HTML // Basic structure // <!doctype>, <html>, <head>, <body>
-
 resources:
   - url: https://twig.symfony.com/doc/2.x/templates.html
 
 ---
-
 skill: Variables {{ syntax }} {{ syntax.name }}
-
 requires:
   - Overview
-
 resources:
   - url: https://twig.symfony.com/doc/2.x/templates.html
 
 ---
-
 skill: "{# #} comments"
-
 requires:
   - Overview
-
 resources:
   - url: https://twig.symfony.com/doc/2.x/templates.html
 
 ---
-
 skill: "{% include %}"
-
 requires:
   - Overview
-
 resources:
   - url: https://twig.symfony.com/doc/2.x/templates.html
 
 ---
-
 skill: "{% include param='foo' %} (with parameters)"
-
 requires:
   - Overview
-
 resources:
   - url: https://twig.symfony.com/doc/2.x/templates.html
 
 ---
-
 skill: "{% for %}"
-
 requires:
   - Overview
-
 resources:
   - url: https://twig.symfony.com/doc/2.x/templates.html
 
 ---
-
 skill: "{% block %}"
-
 requires:
   - Overview
-
 resources:
   - url: https://twig.symfony.com/doc/2.x/templates.html
 
 ---
-
 skill: "{% extends %}"
-
 requires:
   - Overview
-
 resources:
   - url: https://twig.symfony.com/doc/2.x/templates.html
 
 ---
-
 skill: "{{ parent() }}"
-
 requires:
   - Overview
-
 resources:
   - url: https://twig.symfony.com/doc/2.x/templates.html
 
 ---
-
 skill: Filters
-
 requires:
   - Overview
-
 resources:
   - url: https://twig.symfony.com/doc/2.x/templates.html

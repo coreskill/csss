@@ -1,58 +1,41 @@
 ---
-
 sort: 100
 
 ---
-
 skill: Overview
-
 requires:
   - Objects // Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/classes/exercises/introduction
 
 ---
-
 skill: Constructor
-
 requires:
   - Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/classes/exercises/constructor-method
 
 ---
-
 skill: Instance
-
 requires:
   - Overview
 
 ---
-
 skill: Methods
-
 requires:
   - Overview
 
 ---
-
 skill: Method Calls
-
 requires:
   - Overview
 
 ---
-
 skill: Inheritance
-
 requires:
   - Overview
 
 ---
-
 skill: Static methods
-
 requires:
   - Overview

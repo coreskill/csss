@@ -1,26 +1,19 @@
 ---
-
 sort: 160
 
 ---
-
 skill: BEM basics
 level: 3
-
 requires:
   - General // Basic CSS Syntax
-
 resources: 
   - url: https://en.bem.info/methodology/quick-start/
 
 ---
-
 skill: OOCSS basics
 level: 3
-
 requires:
   - General // Basic CSS Syntax
-
 resources: 
   - url: https://www.vzhurudolu.cz/prirucka/oocss
     lang: cs

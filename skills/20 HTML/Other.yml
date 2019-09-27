@@ -1,26 +1,19 @@
 ---
-
 sort: 50
 
 ---
-
 skill: HTML Entities
 level: 2
-
 requires:
   - Basic structure // <!doctype>, <html>, <head>, <body>
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Glossary/Entity
 
 ---
-
 skill: Microdata (http://schema.org)
 level: 5
-
 requires:
   - Basic structure // <!doctype>, <html>, <head>, <body>
-
 resources:
   - url: https://www.vzhurudolu.cz/prirucka/rich-snippets
     lang: cs

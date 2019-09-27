@@ -1,33 +1,23 @@
 ---
-
 sort: 45
 
 ---
-
 skill: Overview
-
 requires:
   - Basics // Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/higher-order-functions/exercises/introduction
 
 ---
-
 skill: Functions as Data
-
 requires:
   - Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/higher-order-functions/exercises/functions-as-data
 
 ---
-
 skill: Functions as Parameters
-
 requires:
   - Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/higher-order-functions/exercises/functions-as-parameters

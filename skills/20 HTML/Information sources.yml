@@ -1,11 +1,8 @@
 ---
-
 sort: 5 
 
 ---
-
 skill: W3C vs. W3Schools vs. references
-
 resources:
   - url: https://w3.org
     desc: Organisation developing web standards.
@@ -23,14 +20,10 @@ resources:
     
 
 ---
-
 skill: caniuse.com
-
 resources:
   - url: https://caniuse.com
 
 ---
-
 skill: advanced searching for information
-
 text: how and why, time limited search, exclusion, exact search, filetype, domain

@@ -1,69 +1,46 @@
 ---
-
 skill: Laptop
-
 text: "attendee: have, CoreSkill: check (recommended: 16 GB RAM, i7 quadcore CPU, SSD, 20 GB free space, 1920×1080+ display, mouse"
 
 ---
-
 skill: Google Account
-
 text: "attendee: provide or create if needed (for calendar and shared documents)"
 
 ---
-
 skill: Key
-
 text: "CoreSkill: provide"
 
 ---
-
 skill: Code editor
-
 text: "atendee: install & setup: Visual Studio Code or Webstorm"
 
 ---
-
 skill: Join student's folder on Google Drive
-
 text: "attendee: join, CoreSkill: create (includes Agreement)"
 
 ---
-
 skill: Frontendisti Slack Account
-
 text: "attendee: join, CoreSkill: invite (also to specific channels)"
 
 ---
-
 skill: Chrome
-
 text: "attendee: install english version"
-
 resources:
   - url: https://www.google.com/chrome/
 
 ---
-
 skill: Firefox
-
 text: "attendee: install english version"
-
 resources:
   - url: https://www.mozilla.org
 
 ---
-
 skill: Agreement
-
 text: "attendee: sign, CoreSkill: sign"
 
 ---
-
 skill: Password manager
-
 text: "attendee: install (voluntary)"
-
 resources:
   - url: https://1password.com/
     desc: 1Password

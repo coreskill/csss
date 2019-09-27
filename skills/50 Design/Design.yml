@@ -1,49 +1,37 @@
 ---
-
 sort: 30
 
 ---
-
 skill: Visual Design
-
 resources:
   - url: https://ebooks.webflow.com/chapter/essential-visual-design-principles-for-web-designers
   - url: https://ebooks.webflow.com/chapter/how-element-spacing-works
   - url: https://www.usability.gov/what-and-why/visual-design.html
 
 ---
-
 skill: Color Theory
-
 resources:
   - url: https://ebooks.webflow.com/chapter/web-design-101-color-theory
   - url: https://www.codecademy.com/courses/learn-color-design/lessons/learn-color-theory/exercises/intro
   - url: https://color.method.ac/
     desc: color – a color matching game
     type: game
-
 requires:
   - Visual Design
 
 ---
-
 skill: UX
-
 resources:
   - url: https://ebooks.webflow.com/chapter/9-essential-ui-design-tips
   - url: http://www.jjg.net/elements/pdf/elements_ch02.pdf
   - url: http://www.jjg.net/elements/pdf/elements.pdf
   - url: http://www.jjg.net/elements/pdf/elements_simpleplanes.pdf
-
 text: Usability, Elements of User Experience,
 
 ---
-
 skill: Typography
-
 requires:
   - Visual Design
-
 resources:
   - url: https://practicaltypography.com/
     desc: Butterick’s Practical Typography
@@ -68,39 +56,29 @@ resources:
     lang: cs
 
 ---
-
 skill: Content
-
 requires:
   - Visual Design
-
 resources:
   - url: https://ebooks.webflow.com/chapter/why-your-design-process-should-start-with-content
 
 ---
-
 skill: Corporate Identity
-
 requires:
   - Visual Design
   - Typography
 
 ---
-
 skill: Scales
-
 requires:
   - Visual Design
 
 ---
-
 skill: Animation
-
 resources:
   - url: https://en.wikipedia.org/wiki/12_basic_principles_of_animation
   - url: https://ebooks.webflow.com/chapter/how-to-design-interactions-effectively
   - url: https://vimeo.com/93206523
     type: video
-
 requires:
   - Visual Design

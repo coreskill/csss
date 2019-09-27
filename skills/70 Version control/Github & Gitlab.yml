@@ -1,31 +1,23 @@
 ---
-
 sort: 20
 
 ---
-
 skill: Set up an account
 level: 1
-
 resources:
   - url: https://github.com/join
 
 ---
-
 skill: Set up a repository
 level: 2
-
 requires:
   - Set up an account
-
 resources:
   - url: https://guides.github.com/activities/hello-world/
 
 ---
-
 skill: Merge (Pull) Request
 level: 3
-
 requires:
   - Set up a repository
   - Git // clone
@@ -33,38 +25,29 @@ requires:
   - Git // commit
   - Git // push
   - Git // merge
-
 resources:
   - url: https://guides.github.com/introduction/flow/
 
 ---
-
 skill: Gist
 level: extra
-
 requires:
   - Set up an account
-
 resources:
   - url: https://gist.github.com/
   - url: https://help.github.com/articles/about-gists/
 
 ---
-
 skill: Markdown
 level: 4
-
 #requires:
 #  - HTML // …
 
 ---
-
 skill: README.md
 level: 5
-
 requires:
   - Set up an account
   - Markdown
-
 resources:
   - url: https://www.makeareadme.com/

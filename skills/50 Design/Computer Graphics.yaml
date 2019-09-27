@@ -3,26 +3,19 @@
 sort: 10
 
 ---
-
 skill: Pixels
 
 ---
-
 skill: Bitmap vs. Vector
 
 ---
-
 skill: Antialiasing
-
 requires:
   - Pixels
 
 ---
-
 skill: Font subpixel antialiasing
-
 resources:
   - https://www.smashingmagazine.com/2012/04/a-closer-look-at-font-rendering/
-
 requires:
   - Antialiasing

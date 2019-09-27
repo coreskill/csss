@@ -1,14 +1,10 @@
 ---
-
 sort: 140
 
 ---
-
 skill: SVGO
-
 requires:
   - Container Elements // <svg>
-
 resources:
   - url: https://github.com/svg/svgo
   - url: https://jakearchibald.github.io/svgomg/

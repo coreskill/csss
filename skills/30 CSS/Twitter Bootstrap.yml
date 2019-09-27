@@ -1,134 +1,96 @@
 ---
-
 sort: 200
 
 ---
-
 skill: Overview
-
 text: Pros and cons
-
 requires:
   - HTML // Basic structure // <!doctype>, <html>, <head>, <body>
 #  - Classes todo
-
 resources:
   - url: https://getbootstrap.com
 
 ---
-
 skill: Basic usage (link to CDN, HTML structure)
-
 requires:
   - Overview
-
 resources:
   - url: https://getbootstrap.com/docs/4.2/getting-started/introduction/
 
 ---
-
 skill: Grid
-
 requires:
   - Overview
 #  - Design // Grid
-
 resources:
   - url: https://getbootstrap.com/docs/4.2/layout/grid/
 
 ---
-
 skill: "Components: Nav"
-
 requires:
   - Overview
-
 resources:
   - url: https://getbootstrap.com/docs/4.2/components/nav/
 
 ---
-
 skill: "Components: Navbar"
-
 requires:
   - Overview
-
 resources:
   - url: https://getbootstrap.com/docs/4.2/components/navbar/
 
 ---
-
 skill: "Components: Card"
-
 requires:
   - Overview
-
 resources:
   - url: https://getbootstrap.com/docs/4.2/components/card/
 
 ---
-
 skill: "Customization: Utility classes"
-
 requires:
   - Overview
-
 resources:
   - url: https://getbootstrap.com/docs/4.2/utilities/
 
 ---
-
 skill: "Customization: Variables"
-
 requires:
   - Overview
   - CSS // Sass // variables
-
 resources:
   - url: https://github.com/benabraham/bs4-nodejs-static/blob/master/src/scss/_1-custom-bootstrap-variables.scss
   - url: https://github.com/benabraham/bs4-nodejs-static/blob/master/src/scss/_2-custom-bootstrap-variables.scss
   - url: https://github.com/benabraham/bs4-nodejs-static/blob/master/src/scss/_3-custom-bootstrap-variables.scss
 
 ---
-
 skill: "Customization: Own CSS"
-
 requires:
   - Overview
   - CSS // Sass // @import (also partials)
-
 resources:
   - url: https://github.com/benabraham/bs4-nodejs-static/blob/master/src/scss/_base.scss
 
 ---
-
 skill: "Customization: removing modules"
-
 requires:
   - Overview
   - CSS // Sass // @import (also partials)
   - CSS // Sass // //comments
-
 resources:
   - url: https://github.com/benabraham/bs4-nodejs-static/blob/master/src/scss/index.scss
 
 ---
-
 skill: Bootstrap JavaScript (via data attributes)
-
 requires:
   - Overview
-
 resources:
   - url: https://getbootstrap.com/docs/4.2/getting-started/javascript/
 
 ---
-
 skill: Bootstrap JavaScript (via JS)
-
 requires:
   - Overview
 #  - JavaScript
-
 resources:
   - url: https://getbootstrap.com/docs/4.2/getting-started/javascript/

@@ -1,15 +1,11 @@
 ---
-
 sort: 50
 
 ---
-
 skill: Best practices
-
 resources:
   - url: https://www.vzhurudolu.cz/prirucka/jednotky
     lang: cs
-
 requires:
   - General // Basic CSS Syntax
   #- Box model 
@@ -19,64 +15,46 @@ requires:
   - em, rem
 
 ---
-
 skill: unitless
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: "percent (%)"
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: px
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: em, rem
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: "color values: named"
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: "color values: hex (RRGGBBAA)"
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: "color values: rgb()"
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: "color values: rgba()"
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: "color values: hsl(), hsla()"
-
 requires:
   - General // Basic CSS Syntax

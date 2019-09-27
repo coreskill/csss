@@ -1,14 +1,10 @@
 ---
-
 sort: 300
 
 ---
-
 skill: Overview
-
 requires:
   - Objects // Overview
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
   - url: https://www.codecademy.com/learn/build-interactive-websites
@@ -16,22 +12,16 @@ resources:
     type: interactive course
 
 ---
-
 skill: Selecting elements
-
 requires:
   - Overview
 
 ---
-
 skill: Getting attributes
-
 requires:
   - Selecting elements
 
 ---
-
 skill: Changing attributes
-
 requires:
   - Getting attributes

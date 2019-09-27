@@ -1,34 +1,24 @@
 ---
-
 sort: 70
 
 ---
-
 skill: inherit
-
 requires:
   - General // Basic CSS Syntax
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/inherit
 
 ---
-
 skill: initial
-
 requires:
   - General // Basic CSS Syntax
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/initial
 
 ---
-
 skill: all
-
 requires:
   - inherit
   - initial
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/all

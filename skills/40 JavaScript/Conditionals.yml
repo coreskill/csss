@@ -1,75 +1,52 @@
 ---
-
 sort: 30
 
 ---
-
 skill: Control Flow
-
 text: if, else, else if
-
 requires:
   - Basics // Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/control-flow/exercises/control-flow-intro
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/control-flow/exercises/if-statement
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/control-flow/exercises/if-else-statements
 
 ---
-
 skill: Comparison Operators
-
 text: <, >, <=, >=, ==, ===, !=, !==
-
 requires:
   - Basics // Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/control-flow/exercises/comparison-operators
 
 ---
-
 skill: Logical operators
-
 text: "&&, ||"
-
 requires:
   - Basics // Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/control-flow/exercises/logical-operators
 
 ---
-
 skill: Truthy and Falsy
-
 text: negating (!)
-
 requires:
   - Basics // Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/control-flow/exercises/true-false-values
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/control-flow/exercises/truthy-falsy-operators
 
 ---
-
 skill: Ternary operator
-
 requires:
   - Basics // Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/control-flow/exercises/ternary-operator
 
 ---
-
 skill: Switch
-
 requires:
   - Basics // Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/control-flow/exercises/else-if
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/control-flow/exercises/switch

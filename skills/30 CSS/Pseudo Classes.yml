@@ -1,110 +1,83 @@
 ---
-
 sort: 130
 
 ---
-
 skill: "link related: :active, :visited, :hover, :focus, :link"
 level: 2
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:active
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:visited
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:hover
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:focus
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:link
-
 requires: 
   - General // Basic CSS Syntax
 
 ---
-
 skill: :first-child, :last-child, :only-child
 level: 3
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:first-child
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:last-child
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:only-child
-
 requires: 
   - General // Basic CSS Syntax
 
 ---
-
 skill: :first-of-type, :last-of-type, :only-of-type
 level: 3
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:first-of-type
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:only-of-type
-
 requires: 
   - General // Basic CSS Syntax
 
 ---
-
 skill: :nth-child(), :nth-last-child()
 level: 3
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-last-child
-
 requires: 
   - General // Basic CSS Syntax
 
 ---
-
 skill: :nth-of-type(), :nth-last-of-type()
 level: 3
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-last-of-type
-
 requires: 
   - General // Basic CSS Syntax
 
 ---
-
 skill: :not()
 level: 4
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:not
-
 requires: 
   - General // Basic CSS Syntax
 
 ---
-
 skill: :root
 level: 5
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:root
-
 requires: 
   - General // Basic CSS Syntax
 
 ---
-
 skill: :lang()
 level: 5
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:lang
-
 requires: 
   - General // Basic CSS Syntax
 
 ---
-
 skill: Forms related pseudo classes (:checked, :required, :valid + :invalid, :enabled + :disabled)
 level: 5
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:checked
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:required
@@ -112,100 +85,75 @@ resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:invalid
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:enabled
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:disabled
-
 requires: 
   - General // Basic CSS Syntax
  # - HTML \\ Forms
 
 ---
-
 skill: :target
 level: extra
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:target
-
 requires: 
   - General // Basic CSS Syntax
 
 ---
-
 skill: :in-range, :out-of-range
 level: extra
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:in-range
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:out-of-range
-
 requires: 
   - General // Basic CSS Syntax
 
 ---
-
 skill: :read-only, :read-write
 level: extra
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:read-only 
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:read-write
-
 requires: 
   - General // Basic CSS Syntax
 
 ---
-
 skill: :optional
 level: extra
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:optional
-
 requires: 
   - General // Basic CSS Syntax
 
 ---
-
 skill: :default
 level: extra
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:default
-
 requires: 
   - General // Basic CSS Syntax
 
 ---
-
 skill: :indeterminate
 level: extra
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:indeterminate
-
 requires: 
   - General // Basic CSS Syntax
 
 ---
-
 skill: :empty
 level: extra
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:empty
-
 requires: 
   - General // Basic CSS Syntax
 
 ---
-
 skill: "@page related: :first, :left, :right"
 level: extra
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:first
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:left
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:right
-
 requires: 
   - General // Basic CSS Syntax
   - Print CSS // Overview

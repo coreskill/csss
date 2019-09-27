@@ -1,84 +1,60 @@
 ---
-
 sort: 20 
 
 ---
-
 skill: DNS
-
 text: simplifed
 
 ---
-
 skill: File transfer via http
-
 text: response, request, headers
-
 resources:
   - url: https://marksheet.io/web.html#opening-a-webpage-in-your-browser
 
 ---
-
 skill: Client and Server
-
 resources:
   - url: https://marksheet.io/internet.html#client-and-server
 
 ---
-
 skill: IP Address
-
 resources:
   - url: https://marksheet.io/internet.html#ip-address
 
 ---
-
 skill: Domains
-
 resources:
   - url: https://marksheet.io/internet.html#domains
 
 ---
-
 skill: Protocols
-
 resources:
   - url: https://marksheet.io/internet.html#protocols
 
 ---
-
 skill: URL
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL
   - url: https://marksheet.io/internet.html#url
 
 ---
-
 skill: Web browser
-
 resources:
   - url: https://marksheet.io/browser.html
 
 ---
-
 skill: User Agent Header
 level: 4
-
 requires:
   - Web browser
 
 ---
-
 skill: Cookies
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
   - url: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie
 
 ---
-
 skill: Web Storage
-
 resourceS:
   - url: https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API

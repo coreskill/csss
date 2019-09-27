@@ -1,95 +1,62 @@
 ---
-
 sort: 10
 
 ---
-
 skill: Overview
-
 resources:
   - url: https://www.codecademy.com/learn/introduction-to-javascript
 
 ---
-
 skill: Console.log()
-
 requires: 
   - Overview
-
 resources:
   - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction
 ---
-
 skill: Data Types
-
 text: Strings, Numbers, Booleans, Null
-
 requires: 
   - Overview
-
 resources:
   - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction
 ---
-
 skill: Arithmetic Operators
-
 text: +, -, *, /
-
 requires: 
   - Overview
-
 resources:
   - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction
 ---
-
 skill: Properties
-
 text: principle, instances, length (example)
-
 requires: 
   - Overview
-
 resources:
   - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction
 ---
-
 skill: Built-in Methods
-
 text: principle and examples (toUpperCase(), toLowerCase(), trim())
-
 requires: 
   - Overview
-
 resources:
   - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction
 ---
-
 skill: Data Instances in JavaScript
-
 requires: 
   - Overview
-
 resources:
   - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction
 ---
-
 skill: Built-in Libraries
-
 text: Math, Number (random(), floor(), ceil(), isInteger())
-
 requires: 
   - Overview
-
 resources:
   - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction
 ---
-
 skill: Comments
-
 text: line and block
-
 requires: 
   - Overview
-
 resources:
   - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction

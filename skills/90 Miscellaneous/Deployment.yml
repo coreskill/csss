@@ -1,44 +1,31 @@
 ---
-
 sort: 20
 
 ---
-
 skill: Overview
 
 ---
-
 skill: surge.sh
-
 requires:
   - Overview
-
 resources:
   - url: surge.sh
 
 ---
-
 skill: FTP
-
 requires:
   - Overview
 
 ---
-
 skill: GitHub Pages
-
 requires:
   - Overview
-
 resources:
   - url: https://pages.github.com/
 
 ---
-
 skill: Netlify
-
 requires:
   - Overview
-
 resources:
   - url: https://www.netlify.com/

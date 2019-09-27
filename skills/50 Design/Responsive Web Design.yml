@@ -1,11 +1,8 @@
 ---
-
 sort: 50
 
 ---
-
 skill: Overview
-
 resources:
   - url: https://alistapart.com/article/responsive-web-design
     desc: The article that started it all.
@@ -13,66 +10,47 @@ resources:
     desc: Interactive course at Codecademy.
 
 ---
-
 skill: Fluid web
-
 requires:
   - Overview
 
 ---
-
 skill: Mobile-first
-
 requires:
   - Fluid web
 
 ---
-
 skill: Breakpoints (@media queries)
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@media
-
 requires:
   - Fluid web
 
 ---
-
 skill: Simple responsive images
-
 requires:
   - Overview
 
 ---
-
 skill: Responsive images (srcset, sizes)
-
 requires:
   - Simple responsive images
 
 ---
-
 skill: <picture>
-
 requires:
   - Responsive images (srcset, sizes)
 
 ---
-
 skill: Responsive Images Generator
-
 requires:
   - Responsive images (srcset, sizes)
-
 resources: 
   - url: http://www.responsivebreakpoints.com
 
 ---
-
 skill: picturefill.js
-
 requires:
   - Responsive images (srcset, sizes)
-
 resources:
   - url: http://scottjehl.github.io/picturefill/

@@ -1,38 +1,27 @@
 ---
-
 sort: 400
 
 ---
-
 skill: Overview
-
 requires:
   - // Basics // CLI // Overview
   - JavaScript // Basics // Overview
 
 ---
-
 skill: Installation
-
 requires:
   - Overview
-
 resources:
   - url: https://nodejs.org/
     desc: Node.js official website
 
 ---
-
 skill: npm install
-
 requires:
   - Installation
 
 ---
-
 skill: package.json
-
 requires:
   - npm install
-
 text: npm init, npm install --save-dev

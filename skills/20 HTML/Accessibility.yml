@@ -1,23 +1,17 @@
 ---
-
 sort: 90
 
 ---
-
 skill: Color Contrast
-
 resources:
   - url: https://color.review/
   - url: https://www.w3.org/WAI/WCAG21/quickref/
 
 ---
-
 skill: ARIA roles overview
 level: 1
-
 requires:
   - Basic structure // <!doctype>, <html>, <head>, <body>
-
 resources:
   - url: https://www.vzhurudolu.cz/prirucka/html5-struktura
     lang: cs

@@ -1,115 +1,82 @@
 ---
-
 sort: 20
 
 ---
-
 skill: BMP
-
 text: an example of uncompressed basic bitmap format
 
 ---
-
 skill: GIF
-
 requires:
   - BMP
-
-text: |
-  Palettes,
-  etc.
+text: Palettes, etc.
 
 ---
-
 skill: GIF (animated)
-
 requires:
   - GIF
 
 ---
-
 skill: PNG
-
 requires:
   - BMP
   - GIF
 
 ---
-
 skill: JPG
-
 requires:
   - BMP
 
 ---
-
 skill: loosless vs. lossy compression
-
 requires:
   - GIF
   - PNG
   - JPG
 
 ---
-
 skill: WebP
-
 requires:
   - GIF
   - PNG
   - JPG
 
 ---
-
 skill: Other formats
-
 requires:
   - GIF
   - PNG
   - JPG
   - WebP
-
 text: (do not use)
 
 ---
-
 skill: Favicons
-
 requires:
   - BMP
   - PNG
 
 ---
-
 skill: Bitmaps size optimization
-
 requires:
   - BMP
 
 ---
-
 skill: GIF size optimization
-
 requires:
   - GIF
 
 ---
-
 skill: PNG size optimization
-
 requires:
   - PNG
 
 ---
-
 skill: JPG size optimization
-
 requires:
   - JPG
 
 ---
-
 skill: Bitmap image resizing
-
 requires:
   - BMP

@@ -1,136 +1,99 @@
 ---
-
 sort: 120
 
 ---
-
 skill: Overview
 level: 4
-
 requires:
   - Basics // Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/modules/exercises/hello-modules
 
 ---
-
 skill: exports
 level: 5
-
 requires:
   - Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/modules/exercises/module-exports
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/modules/exercises/module-exports-ii
 
 ---
-
 skill: require
 level: 5
-
 requires:
   - Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/modules/exercises/require
 
 ---
-
 skill: export default
 level: 5
-
 requires:
   - Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/modules/exercises/export-default
 
 ---
-
 skill: import
 level: 5
-
 requires:
   - Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/modules/exercises/import
 
 ---
-
 skill: Named Exports
 level: extra
-
 requires:
   - Overview
-
 #resources:
 #  - url: 
 
 ---
-
 skill: Named Imports
 level: extra
-
 requires:
   - Overview
-
 #resources:
 #  - url: 
 
 ---
-
 skill: Export Named Exports
 level: extra
-
 requires:
   - Overview
-
 #resources:
 #  - url: 
 
 ---
-
 skill: Import Named Imports
 level: extra
-
 requires:
   - Overview
-
 #resources:
 #  - url: 
 
 ---
-
 skill: Export as
 level: extra
-
 requires:
   - Overview
-
 #resources:
 #  - url: 
 
 ---
-
 skill: Import as
 level: extra
-
 requires:
   - Overview
-
 #resources:
 #  - url: 
 
 ---
-
 skill: Combining Export Statements
 level: extra
-
 requires:
   - Overview
-
 #resources:
 #  - url: 

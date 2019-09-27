@@ -1,83 +1,61 @@
 ---
-
 sort: 60
 
 ---
-
 skill: background-color
 level: 1
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/background-color
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: background-image, background-repeat, background-position
 level: 2
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/background-image
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/background-position
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: background-size
 level: 2
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/background-size
-
 requires:
   - background-image, background-repeat, background-position
 
 ---
-
 skill: opacity
 level: 3
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/opacity
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: box-shadow
 level: 4
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: Multiple Backgrounds
 level: 5
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Using_multiple_backgrounds
-
 requires:
   - background-image, background-repeat, background-position
 
 ---
-
 skill: Generated Images (Gradients)
 level: 5
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients
-
 requires:
   - background-image, background-repeat, background-position
 

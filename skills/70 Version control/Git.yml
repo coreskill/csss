@@ -1,387 +1,300 @@
 ---
-
 sort: 10
 
 ---
-
 skill: Overview
 level: 2
 sublevel: 1
-
 resources:
   - url: https://guides.github.com/introduction/git-handbook/
   - url: https://www.atlassian.com/git/tutorials/what-is-version-control
   - url: https://www.codecademy.com/courses/learn-git/lessons/git-workflow/
 
 ---
-
 skill: Installation
 level: 2
 sublevel: 1
-
 requires:
   - Overview
-
 resources:
   - url: https://git-scm.com/downloads
   - url: https://www.atlassian.com/git/tutorials/install-git
 
 ---
-
 skill: init
 level: 2
 sublevel: 1
-
 requires:
   - Overview
-
 resources:
   - url: https://guides.github.com/introduction/git-handbook/#basic-git
   - url: https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-init
   - url: https://www.codecademy.com/courses/learn-git/lessons/git-workflow/exercises/git-init
 
 ---
-
 skill: clone
 level: 2
 sublevel: 1
-
 requires:
   - Overview
-
 resources:
   - url: https://guides.github.com/introduction/git-handbook/#basic-git
   - url: https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone
 
 ---
-
 skill: pull
 level: 2
 sublevel: 1
-
 requires:
   - Overview
-
 resources:
   - url: https://guides.github.com/introduction/git-handbook/#basic-git
   - url: https://www.atlassian.com/git/tutorials/syncing/git-pull
 
 ---
-
 skill: status
 level: 2
 sublevel: 2
-
 requires:
   - clone
   - init
-
 resources:
   - url: https://guides.github.com/introduction/git-handbook/#basic-git
   - url: https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-status
   - url: https://www.codecademy.com/courses/learn-git/lessons/git-workflow/exercises/git-status
 
 ---
-
 skill: diff
 level: 2
 sublevel: 2
-
 requires:
   - clone
   - init
-
 resources:
   - url: https://www.atlassian.com/git/tutorials/saving-changes/git-diff
 
 ---
-
 skill: add
 level: 2
 sublevel: 2
-
 requires:
   - clone
   - init
-
 resources:
   - url: https://guides.github.com/introduction/git-handbook/#basic-git
   - url: https://www.atlassian.com/git/tutorials/saving-changes/git-add
 
 ---
-
 skill: reset
 level: 2
 sublevel: 2
-
 requires:
   - add
-
 resources:
   - url: https://www.atlassian.com/git/tutorials/undoing-changes/git-reset
   - url: https://www.codecademy.com/courses/learn-git/lessons/git-backtracking/exercises/git-reset-1
 
 ---
-
 skill: commit
 level: 2
 sublevel: 2
-
 requires:
   - clone
   - init
-
 resources:
   - url: https://guides.github.com/introduction/git-handbook/#basic-git
   - url: https://www.atlassian.com/git/tutorials/saving-changes/git-commit
 
 ---
-
 skill: log
 level: 2
 sublevel: 2
-
 requires:
   - commit
   - init
-
 resources:
   - url: https://guides.github.com/introduction/git-handbook/#basic-git
   - url: https://www.atlassian.com/git/tutorials/saving-changes/git-log
 
 ---
-
 skill: push
 level: 2
 sublevel: 2
-
 requires:
   - clone
   - init
   - pull
-
 resources:
   - url: https://guides.github.com/introduction/git-handbook/#basic-git
   - url: https://www.atlassian.com/git/tutorials/syncing/git-push
 
 ---
-
 skill: .gitignore
 level: 3
 sublevel: 3
-
 requires:
   - status
-
 resources:
   - url: https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
 ---
-
 skill: checkout (as tool to revert files to commited state)
 level: 3
 sublevel: 4
-
 requires:
   - status
   - add
   - commit
-
 resources:
   - url: https://www.atlassian.com/git/tutorials/undoing-changes
   - url: https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
   - url: https://www.codecademy.com/courses/learn-git/lessons/git-backtracking/exercises/git-checkout-1
 
 ---
-
 skill: branch add
 level: 3
 sublevel: 5
-
 requires:
   - commit
   - status
-
 resources:
   - url: https://www.atlassian.com/git/tutorials/using-branches
 
 ---
-
 skill: branch list
 level: 3
 sublevel: 5
-
 requires:
   - commit
   - status
-
 resources:
   - url: https://www.atlassian.com/git/tutorials/using-branches
 
 ---
-
 skill: checkout
 level: 3
 sublevel: 5
-
 requires:
   - commit
   - status
-
 resources:
   - url: https://www.atlassian.com/git/tutorials/using-branches/git-checkout
 
 ---
-
 skill: merge
 level: 3
 sublevel: 6
-
 requires:
   - commit
   - branch add
   - checkout
-
 resources:
   - url: https://www.atlassian.com/git/tutorials/using-branches/git-merge
 
 ---
-
 skill: branch -d
 level: 3
 sublevel: 6
-
 requires:
   - branch add
   - branch list
   - checkout
-
 resources:
   - url: https://www.atlassian.com/git/tutorials/using-branches
 
 ---
-
 skill: branching strategies (GitFlow)
 level: 3
 sublevel: 6
-
 requires:
   - branch add
   - branch list
   - checkout
-
 resources:
   - url: https://www.atlassian.com/git/tutorials/comparing-workflows
   - url: https://guides.github.com/introduction/flow/
 
 ---
-
 skill: stash
 level: 3
 sublevel: 7
-
 requires:
   - commit
   - checkout
-
 resources:
   - url: https://www.atlassian.com/git/tutorials/saving-changes/git-stash
 
 ---
-
 skill: conflicts
 level: 3
 sublevel: 7
-
 requires:
   - merge
   - stash
-
 resources:
   - url: https://blog.github.com/2018-08-22-merge-conflicts-in-the-classroom/
 
 ---
-
 skill: revert
 level: 3
 sublevel: 8
-
 requires:
   - commit
-
 resources:
   - url: https://www.atlassian.com/git/tutorials/undoing-changes/git-revert
   - url: https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
 
 ---
-
 skill: rebase
 level: 4
 sublevel: 9
-
 requires:
   - merge
-
 resources:
   - url: https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase
   - url: https://www.atlassian.com/git/tutorials/merging-vs-rebasing
 
 ---
-
 skill: rebase -i (interactive)
 level: 4
 sublevel: 10
-
 requires:
   - rebase
-
 resources:
   - url: https://www.atlassian.com/git/tutorials/rewriting-history#git-rebase-i
 
 ---
-
 skill: config
 level: 5
 sublevel: 10
-
 requires:
   - Overview
-
 resources:
   - url: https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config
 
 ---
-
 skill: aliases
 level: 5
 sublevel: 10
-
 requires:
   - Overview
-
 resources:
   - url: https://githowto.com/aliases
 
 ---
-
 skill: .gitkeep
 level: extra
-
 requires:
   - Overview
   - .gitignore
-
 resources:
   - url: https://stackoverflow.com/questions/7229885/what-are-the-differences-between-gitignore-and-gitkeep
 
 ---
-
 skill: Other Git resources
 level: extra
-
 requires:
   - Overview
-
 resources:
   - url: https://ohshitgit.com/
   - url: https://blog.github.com/2015-06-08-how-to-undo-almost-anything-with-git/

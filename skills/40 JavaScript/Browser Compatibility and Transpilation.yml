@@ -1,37 +1,27 @@
 ---
-
 sort: 110
 
 ---
-
 skill: Overview
-
 requires:
   - Basics // Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/browser-compatibility-and-transpilation/exercises/browser-compatibility-introduction
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/browser-compatibility-and-transpilation/exercises/why-update
 
 ---
-
 skill: caniuse.com for JavaScript
-
 requires:
   - Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/browser-compatibility-and-transpilation/exercises/can-i-use-i
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/browser-compatibility-and-transpilation/exercises/can-i-use-ii
 
 ---
-
 skill: Transpilation with Babel
-
 requires:
   - Overview
   - Miscellaneous // Automation // npm scripts
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/browser-compatibility-and-transpilation/exercises/transpilation-with-babel
 

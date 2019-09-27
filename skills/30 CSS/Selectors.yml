@@ -1,66 +1,47 @@
 ---
-
 sort: 20
 
 ---
-
 skill: Type selectors
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: Class selectors
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: Id selectors
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: Descendant combinator (x y)
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: Child combinator (x>y)
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: Attribute selectors (a[href=x])
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: Adjacent sibling combinator (x+y)
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: General sibling combinator (x~y)
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: Selector Specificity
-
 requires:
   - General // Basic CSS Syntax

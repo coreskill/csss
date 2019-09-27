@@ -1,40 +1,29 @@
 ---
-
 sort: 10
 
 ---
-
 skill: Overview
-
 requires:
   - Related // Networking // Web browser
 
 ---
-
 skill: Elements (HTML, CSS)
-
 requires:
   - Overview
   - CSS // General // Basic CSS Syntax
   - HTML // Basic structure // <!doctype>, <html>, <head>, <body>
 
 ---
-
 skill: Console
-
 requires:
   - Overview
 
 ---
-
 skill: Network
-
 requires:
   - Overview
 
 ---
-
 skill: Sources
-
 requires:
   - Overview

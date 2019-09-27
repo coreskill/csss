@@ -1,80 +1,58 @@
 ---
-
 sort: 10
 
 ---
-
 skill: <line>
 level: 4
-
 requires:
   - Container Elements // <svg>
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/SVG/Element/line
 
 ---
-
 skill: <rect>
 level: 4
-
 requires:
   - Container Elements // <svg>
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect
 
 ---
-
 skill: <circle>
 level: 4
-
 requires:
   - Container Elements // <svg>
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/SVG/Element/circle
 
 ---
-
 skill: <ellipse>
 level: 4
-
 requires:
   - <circle>
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/SVG/Element/ellipse
 
 ---
-
 skill: <polygon>
 level: 4
-
 requires:
   - Container Elements // <svg>
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/SVG/Element/polygon
 
 ---
-
 skill: <polyline>
 level: 4
-
 requires:
   - <line>
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/SVG/Element/polyline
 
 ---
-
 skill: <a>
 level: 4
-
 requires:
   - Container Elements // <svg>
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/SVG/Element/a

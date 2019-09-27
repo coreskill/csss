@@ -1,94 +1,66 @@
 ---
-
 sort: 130
 
 ---
-
 skill: Overview
-
 requires:
   - Basics // Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/introduction
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/understanding-promises
 
 ---
-
 skill: Constructing a Promise Object
-
 requires:
   - Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/constructing-promises
 
 ---
-
 skill: The Node setTimeout() Function
-
 requires:
   - Overview
-
 #resources:
 #  - url: 
 
 ---
-
 skill: Consuming Promises
-
 requires:
   - Overview
-
 #resources:
 #  - url: 
 
 ---
-
 skill: The onFulfilled and onRejected Functions
-
 requires:
   - Overview
-
 #resources:
 #  - url: 
 
 ---
-
 skill: Using catch() with Promises
-
 requires:
   - Overview
-
 #resources:
 #  - url: 
 
 ---
-
 skill: Chaining Multiple Promises
-
 requires:
   - Overview
-
 #resources:
 #  - url: 
 
 ---
-
 skill: Avoiding Common Mistakes
-
 requires:
   - Overview
-
 #resources:
 #  - url: 
 
 ---
-
 skill: Using Promise.all()
-
 requires:
   - Overview
-
 #resources:
 #  - url: 

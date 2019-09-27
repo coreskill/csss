@@ -1,102 +1,71 @@
 ---
-
 sort: 20
 
 ---
-
 skill: Overview
-
 requires:
   - Basics // Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/intro-variables
 
 ---
-
 skill: "Creating variables: var"
-
 requires: 
  - Overview
-
 resources:
  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/var
 
 ---
-
 skill: "Creating variables: const"
-
 requires: 
  - Overview
-
 resources:
  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/const
 
 ---
-
 skill: "Creating variables: let"
-
 requires: 
  - Overview
-
 resources:
  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/let
 
 ---
-
 skill: Undefined
-
 requires: 
   - Overview
-
 resources:
   - url: x
 ---
-
 skill: Mathematical Assignment Operators (++, --, -=, +=, *=)
-
 requires: 
   - Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/mathematical-shortcuts
 
 ---
-
 skill: The Increment and Decrement Operator
-
 requires: 
   - Mathematical Assignment Operators (++, --, -=, +=, *=)
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/increment-decrement
 
 ---
-
 skill: String Concatenation with Variables
-
 requires: 
   - Overview
-
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/string-interpolation
 
 ---
-
 skill: "String Interpolation: ES6 i.e. `Foo ${variable}`"
-
 requires: 
  - Overview
-
 resources:
  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/string-interpolation-ii
 
 ---
-
 skill: typeof operator
-
 requires: 
  - Overview
-
 resources:
  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/typeof

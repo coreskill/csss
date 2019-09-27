@@ -1,39 +1,29 @@
 ---
-
 sort: 110
 
 ---
-
 skill: float
 level: 1
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/float
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: clear
 level: 1
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/clear
-
 requires:
   - General // Basic CSS Syntax
 
 ---
-
 skill: clearfix
 level: 2
-
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/clear
     desc: Also contains information about clearfix
   - url: https://css-tricks.com/clearfix-a-lesson-in-web-development-evolution/
     desc: Article about history of clearfixes
-
 requires:
   - clear
