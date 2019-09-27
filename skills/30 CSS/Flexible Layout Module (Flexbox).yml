@@ -1,15 +1,145 @@
 ---
-
 sort: 90
 
 ---
-
-skill: Flexible layout module (flexbox)
+skill: Flexible layout module (flexbox) concepts
 level: 3
-
+text: "
+concepts of flexbox: 
+- main and cross axis
+- start and end lines
+- containers and items
+- basis, growing and shrinking
+- aligning items
+"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
-
+    desc: MDN’s Guide
+  - url: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    desc: Good visual reference
+  - url: http://flexbox.malven.co
+    desc: Dense visual reference
+  - url: http://flexboxfroggy.com/
+    desc: Flexbox Froggy helps to learn part of the basics
+    type: game
+  - url: http://www.flexboxdefense.com/
+    desc: Second part of Flexbox Froggy game to learn more about flex
+    type: game
+  - url: https://flexbox.io/
+    desc: Free video course by Wes Bos
+    type: video
+  - url: https://www.codecademy.com/paths/web-development/tracks/getting-more-advanced-with-design/modules/layout-with-flexbox/lessons/learn-flexbox-l/exercises/flexbox
+    desc: Codecademy take on flexbox
+  - url: https://scrimba.com/g/gflexbox
+    desc: Interactive screencasts form
+  - url: https://internetingishard.com/html-and-css/flexbox/
+    desc: Older but good tutorial
 requires:
   - General // Basic CSS Syntax
 
+---
+skill: flex-wrap 
+level: 3
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap
+requires:
+  - Flexible layout module (flexbox) concepts
+
+---
+skill: flex-direction 
+level: 3
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction
+requires:
+  - Flexible layout module (flexbox) concepts
+
+---
+skill: flex-basis 
+level: 3
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis
+requires:
+  - Flexible layout module (flexbox) concepts
+
+---
+skill: flex-grow 
+level: 3
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow
+requires:
+  - Flexible layout module (flexbox) concepts
+
+---
+skill: flex-shrink 
+level: 3
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink
+requires:
+  - Flexible layout module (flexbox) concepts
+
+---
+skill: flex
+level: 3
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex
+requires:
+  - flex-grow
+  - flex-shrink
+  - flex-basis
+
+---
+skill: order 
+level: 3
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/order
+requires:
+  - Flexible layout module (flexbox) concepts
+
+---
+skill: flex-flow (shorthand)
+level: extra
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-flow
+requires:
+  - flex-direction
+  - flex-wrap
+
+---
+skill: justify-content
+level: 3
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
+requires:
+  - Flexible layout module (flexbox) concepts
+
+---
+skill: align-content
+level: 3
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/align-content
+requires:
+  - Flexible layout module (flexbox) concepts
+
+---
+skill: align-items
+level: 3
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/align-items
+requires:
+  - Flexible layout module (flexbox) concepts
+
+---
+skill: align-self
+level: 3
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/align-self
+requires:
+  - align-items
+
+---
+skill: justify-self
+level: 3
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/justify-self
+requires:
+  - justify-content
