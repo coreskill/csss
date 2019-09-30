@@ -30,16 +30,25 @@ requires:
 skill: Simple responsive images
 requires:
   - Overview
+resources:
+  - url: https://www.vzhurudolu.cz/blog/97-vdwd-ukazka
+    lang: cs
 
 ---
 skill: Responsive images (srcset, sizes)
 requires:
   - Simple responsive images
+resources:
+  - url: https://www.vzhurudolu.cz/blog/97-vdwd-ukazka
+    lang: cs
 
 ---
 skill: <picture>
 requires:
   - Responsive images (srcset, sizes)
+resources:
+  - url: https://www.vzhurudolu.cz/blog/97-vdwd-ukazka
+    lang: cs
 
 ---
 skill: Responsive Images Generator
@@ -47,6 +56,7 @@ requires:
   - Responsive images (srcset, sizes)
 resources: 
   - url: http://www.responsivebreakpoints.com
+    type: tool
 
 ---
 skill: picturefill.js
@@ -54,3 +64,4 @@ requires:
   - Responsive images (srcset, sizes)
 resources:
   - url: http://scottjehl.github.io/picturefill/
+    type: software
