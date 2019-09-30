@@ -13,11 +13,16 @@ resources:
 skill: Fluid web
 requires:
   - Overview
+resources:
+  - url: https://marksheet.io/css-the-flow.html
 
 ---
 skill: Mobile-first
 requires:
   - Fluid web
+resources:
+  - url: https://www.vzhurudolu.cz/prirucka/mobile-first
+    lang: cs
 
 ---
 skill: Breakpoints (@media queries)
