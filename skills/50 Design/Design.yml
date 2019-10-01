@@ -44,6 +44,9 @@ resources:
     type: online book
   - url: https://iamsteve.me/blog/entry/type-scale-line-height-lengths
     desc: Short article about type scale
+  - url: https://type-scale.com/
+    desc: Tool for testing different scales and fonts
+    type: tool
   - url: https://ebooks.webflow.com/chapter/web-typography-101
   - url: https://www.pierrickcalvez.com/journal/a-five-minutes-guide-to-better-typography
   - url: https://type.method.ac/
@@ -67,11 +70,6 @@ skill: Corporate Identity
 requires:
   - Visual Design
   - Typography
-
----
-skill: Scales
-requires:
-  - Visual Design
 
 ---
 skill: Animation
