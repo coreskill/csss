@@ -10,7 +10,7 @@ import './helpers';
 new Metalsmith(__dirname)
   .source('./src')
   .destination('./build')
-  .clean(true)
+  .clean(false)
   .use(async (files, _, done) => {
     const {root, categories, skills} = await getProcessedData();
 
