@@ -5,10 +5,11 @@
   "description": "CoreSkill Skill System (CSSS)",
   "repository": "coreskill/csss",
   "scripts": {
-    "build": "ts-node index.ts"
+    "build": "ts-node index.ts",
+    "browsersync": "npx browser-sync start -s \"build\" --files \"build/**/*.*\" --port 7777"
   },
   "dependencies": {
-    "js-yaml": "^3.12.0",
+    "js-yaml": "^3.13.1",
     "jstransformer-handlebars": "^1.1.0",
     "metalsmith": "^2.3.0",
     "metalsmith-discover-partials": "^0.1.2",
@@ -22,6 +23,7 @@
     "@types/node": "^10.9.4",
     "@types/node-dir": "0.0.32",
     "@types/slug": "^0.9.0",
+    "browser-sync": "^2.26.7",
     "ts-node": "^7.0.1",
     "typescript": "^3.0.3"
   }
