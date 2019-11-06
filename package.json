@@ -18,7 +18,7 @@
     "slug": "^0.9.3"
   },
   "devDependencies": {
-    "@types/handlebars": "^4.0.39",
+    "@types/handlebars": "^4.1.0",
     "@types/js-yaml": "^3.11.2",
     "@types/node": "^10.9.4",
     "@types/node-dir": "0.0.32",

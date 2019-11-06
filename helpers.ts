@@ -1,7 +1,7 @@
-import { registerHelper, SafeString } from 'handlebars';
+import { registerHelper, SafeString, HelperOptions } from 'handlebars';
 import { Skill } from './skills';
 
-registerHelper('ifCategoriesNotEqual', function(this: any, categories1, categories2, options) {
+registerHelper('ifCategoriesNotEqual', function(this: any, categories1: object[], categories2: object[], options: HelperOptions) {
   if (categories1 && categories2 && categories1[categories1.length - 1] !== categories2[categories2.length - 1]) {
     return options.fn(this);
   } else {
