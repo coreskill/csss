@@ -51,16 +51,6 @@ resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/fit-content
 
 ---
-skill: auto-flow
-requires:
-  - CSS Grid Overview
-
----
-skill: dense
-requires:
-  - CSS Grid Overview
-
----
 skill: span
 requires:
   - CSS Grid Overview
