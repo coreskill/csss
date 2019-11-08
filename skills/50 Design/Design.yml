@@ -57,6 +57,9 @@ resources:
     type: game
   - url: https://www.jakpsatweb.cz/interpunkce.html
     lang: cs
+  - url: https://www.typography.com/blog/typographic-illusions
+    desc: "Bonus: read only if you want to see a small fraction of what type designers do." 
+    type: article
 
 ---
 skill: Content
