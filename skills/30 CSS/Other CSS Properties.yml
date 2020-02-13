@@ -10,6 +10,15 @@ requires:
   - General // Basic CSS Syntax
 
 ---
+skill: border-collapse
+level: 5
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/border-collapse
+requires:
+  - General // Basic CSS Syntax
+  - HTML // Body // <table>, <tr>, <th>, <td>, <tbody>
+
+---
 skill: table-layout
 level: 5
 resources:
