@@ -2,17 +2,46 @@
 sort: 90
 
 ---
+skill: Overview
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility
+  - url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility
+
+---
+skill: HTML accessibility best practices
+requires: 
+  - Overview
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML
+
+---
+skill: CSS and JavaScript accessibility best practices
+requires: 
+  - Overview
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript
+
+---
+skill: Accessible multimedia
+requires: 
+  - Overview
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/Multimedia
+
+---
 skill: Color Contrast
+requires: 
+  - Overview
 resources:
   - url: https://color.review/
   - url: https://www.w3.org/WAI/WCAG21/quickref/
 
 ---
-skill: ARIA roles overview
-level: 1
+skill: WAI-ARIA roles overview
 requires:
   - Basic structure // <!doctype>, <html>, <head>, <body>
 resources:
+  - url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics
   - url: https://www.vzhurudolu.cz/prirucka/html5-struktura
     lang: cs
   - url: https://www.vzhurudolu.cz/prirucka/wai-aria
