@@ -42,9 +42,22 @@ text: "
   ls -l,
   ls -alt,
   cp,
-  Wildcards,
   mv,
   rm
+"
+---
+skill: Globs
+requires:
+  - Overview
+resources:
+  - url: https://github.com/isaacs/node-glob#glob-primer
+    desc: Globs for node.js
+  - url: https://globster.xyz/
+    desc: Tool to check globs against a customizable file list  
+text: "
+  *,
+  ** (globstar),
+  {a,b}
 "
 
 ---
