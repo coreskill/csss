@@ -6,7 +6,9 @@
   "repository": "coreskill/csss",
   "scripts": {
     "build": "ts-node index.ts",
-    "browsersync": "npx browser-sync start -s \"build\" --files \"build/**/*.*\" --port 7777"
+    "browsersync": "browser-sync start -s \"build\" --files \"build/**/*.*\" --port 7777",
+    "watch": "chokidar \"skills/**/*.yml\" \"(partials|layouts)/**/*.hbs\" , --command \"npm run build\" --initial --debounce 1000",
+    "dev": "concurrently \"npm run browsersync\" \"npm run watch\""
   },
   "dependencies": {
     "js-yaml": "^3.13.1",
@@ -24,6 +26,8 @@
     "@types/node-dir": "0.0.33",
     "@types/slug": "^0.9.1",
     "browser-sync": "^2.26.7",
+    "chokidar-cli": "^2.1.0",
+    "concurrently": "^5.1.0",
     "ts-node": "^7.0.1",
     "typescript": "^3.0.3"
   }
