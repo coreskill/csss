@@ -5,6 +5,8 @@ sort: 10
 skill: Overview
 requires:
   - Related // Networking // Web browser
+resources:
+  - url: https://developers.google.com/web/tools/chrome-devtools
 
 ---
 skill: Elements (HTML, CSS)
@@ -12,18 +14,37 @@ requires:
   - Overview
   - CSS // General // Basic CSS Syntax
   - HTML // Basic structure // <!doctype>, <html>, <head>, <body>
+resources:
+  - url: https://developers.google.com/web/tools/chrome-devtools/dom/
+  - url: https://developers.google.com/web/tools/chrome-devtools/css/
 
 ---
 skill: Console
 requires:
   - Overview
+  - JavaScript // Basics // Overview
+resources:
+  - url: https://developers.google.com/web/tools/chrome-devtools/console
+  - url: https://developers.google.com/web/tools/chrome-devtools/console/log
+  - url: https://developers.google.com/web/tools/chrome-devtools/console/javascript
+
+---
+skill: Device mode
+requires:
+  - Overview
+resources:
+  - url: https://developers.google.com/web/tools/chrome-devtools/device-mode
 
 ---
 skill: Network
 requires:
   - Overview
+resources:
+  - url: https://developers.google.com/web/tools/chrome-devtools/network
 
 ---
 skill: Sources
 requires:
   - Overview
+resources:
+  - url: https://developers.google.com/web/tools/chrome-devtools/resources
