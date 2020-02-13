@@ -11,7 +11,7 @@ resources:
 
 ---
 skill: Finding & Replacing
-text: ^.+*[^a-z0-9]\n$
+text: ^(.+.*)[^a-z0-9]?\n$
 requires:
   - Overview
 
@@ -26,11 +26,6 @@ resources:
   - url: http://txt2re.com/
   - url: http://www.regexp.cz/
     lang: cs
-
----
-skill: "capture groups () and replacing $1"
-requires:
-  - Overview
 
 ---
 skill: lookaheads and lookbehinds
