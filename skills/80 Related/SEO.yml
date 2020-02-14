@@ -4,42 +4,87 @@ sort: 40
 ---
 skill: "Overview: Goals, On and Off Page Factors"
 #requires: 
-# - HTML // Dostatečná úroveň pro řešení 
+# - HTML // todo: Dostatečná úroveň pro řešení
+resources:
+  - url: https://mangools.com/blog/learn-seo/#part1
+    desc: simpler (just the SEO Basics part)
+  - url: https://moz.com/beginners-guide-to-seo
+  - url: https://moz.com/beginners-guide-to-seo/why-search-engine-marketing-is-necessary
+    desc: more detailed
 
 ---
-skill: HTML Semantics
+skill: How search engines work
 requires:
   - "Overview: Goals, On and Off Page Factors"
+resources:
+  - url: https://mangools.com/blog/learn-seo/#part2
+    desc: simpler (and enough)
+  - url: https://moz.com/beginners-guide-to-seo/how-search-engines-operate
+    desc: more detailed
+  - url: https://support.google.com/webmasters/answer/70897?hl=en
+    desc: by Google
+  - url: https://www.google.com/intl/en/search/howsearchworks/algorithms/
+    desc: Google search algorithms described
 
 ---
-skill: JavaScript and SEO
-#requires: 
-#  - JavaScript // Dostatečná úroveň pro řešení: DOM
+skill: On-page and technical SEO
+requires:
+  - "Overview: Goals, On and Off Page Factors"
+resources:
+  - url: https://mangools.com/blog/learn-seo/#part3
+    desc: simpler
+  - url: https://moz.com/beginners-guide-to-seo/on-page-seo
+    desc: more detailed about on-page SEO
+  - url: https://moz.com/beginners-guide-to-seo/technical-seo
+    desc: more detailed about technical SEO
 
 ---
 skill: Rich snippets
 requires:
   - "Overview: Goals, On and Off Page Factors"
+  - HTML // Basic structure // <!doctype>, <html>, <head>, <body>
+resources:
+  - url: https://schema.org/
+    desc: Official website of the standard
+  - url: https://mangools.com/blog/google-rich-snippets-guide/
+    desc: description what it is
+  - url: https://www.vzhurudolu.cz/prirucka/rich-snippets
+    desc: stručný popis
+    lang: cs
 
 ---
-skill: "Off page factors: linking"
+skill: "Off page factors (link building)"
 requires:
   - "Overview: Goals, On and Off Page Factors"
+resources:
+  - url: https://mangools.com/blog/learn-seo/#part6
+    desc: simpler
+  - url: https://moz.com/beginners-guide-to-seo/growing-popularity-and-links
+    desc: more detailed
 
 ---
 skill: Sitemap.xml
 requires:
-  - "Overview: Goals, On and Off Page Factors"
+  - On-page and technical SEO
+resources:
+  - url: https://www.sitemaps.org/
+    desc: Protocol official website
 
 ---
 skill: Robots.txt
 requires:
-  - "Overview: Goals, On and Off Page Factors"
+  - On-page and technical SEO
+resource:
+  - url: https://moz.com/learn/seo/robotstxt
+    desc: 
+  - url: https://www.robotstxt.org/
+    desc: Official website
 
 ---
 skill: "Advanced SEO"
-level: 5
-resources: 
+level: extra
+resources:
   - url: https://slideslive.com/38902701/navod-co-ma-umet-vyvojar-aby-mohl-sebrat-seo-specialistum-praci
-    lang: cs
     desc: Přednáška „Co má umět vývojář, aby mohl sebrat SEO specialistům práci“
+    lang: cs
+    type: video
