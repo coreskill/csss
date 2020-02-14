@@ -575,11 +575,6 @@
     "group": "other"
   },
   {
-    "id": "microdata-httpschemaorg",
-    "label": "Microdata (http://schema.org)",
-    "group": "other"
-  },
-  {
     "id": "facebook-open-graph",
     "label": "Facebook Open Graph",
     "group": "social-media"
@@ -2970,13 +2965,13 @@
     "group": "seo"
   },
   {
-    "id": "html-semantics",
-    "label": "HTML Semantics",
+    "id": "how-search-engines-work",
+    "label": "How search engines work",
     "group": "seo"
   },
   {
-    "id": "javascript-and-seo",
-    "label": "JavaScript and SEO",
+    "id": "on-page-and-technical-seo",
+    "label": "On-page and technical SEO",
     "group": "seo"
   },
   {
@@ -2985,8 +2980,8 @@
     "group": "seo"
   },
   {
-    "id": "off-page-factors-linking",
-    "label": "Off page factors: linking",
+    "id": "off-page-factors-link-building",
+    "label": "Off page factors (link building)",
     "group": "seo"
   },
   {
@@ -3819,11 +3814,6 @@
   {
     "from": "doctype-html-head-body",
     "to": "html-entities",
-    "arrows": "to"
-  },
-  {
-    "from": "doctype-html-head-body",
-    "to": "microdata-httpschemaorg",
     "arrows": "to"
   },
   {
@@ -6288,7 +6278,12 @@
   },
   {
     "from": "overview-goals-on-and-off-page-factors",
-    "to": "html-semantics",
+    "to": "how-search-engines-work",
+    "arrows": "to"
+  },
+  {
+    "from": "overview-goals-on-and-off-page-factors",
+    "to": "on-page-and-technical-seo",
     "arrows": "to"
   },
   {
@@ -6297,17 +6292,22 @@
     "arrows": "to"
   },
   {
-    "from": "overview-goals-on-and-off-page-factors",
-    "to": "off-page-factors-linking",
+    "from": "doctype-html-head-body",
+    "to": "rich-snippets",
     "arrows": "to"
   },
   {
     "from": "overview-goals-on-and-off-page-factors",
+    "to": "off-page-factors-link-building",
+    "arrows": "to"
+  },
+  {
+    "from": "on-page-and-technical-seo",
     "to": "sitemapxml",
     "arrows": "to"
   },
   {
-    "from": "overview-goals-on-and-off-page-factors",
+    "from": "on-page-and-technical-seo",
     "to": "robotstxt",
     "arrows": "to"
   },
