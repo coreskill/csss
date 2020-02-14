@@ -74,7 +74,7 @@ resources:
 skill: Robots.txt
 requires:
   - On-page and technical SEO
-resource:
+resources:
   - url: https://moz.com/learn/seo/robotstxt
     desc: 
   - url: https://www.robotstxt.org/
