@@ -282,21 +282,44 @@ resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd
 
 ---
-skill: <hgroup>, <figcaption>, <figure>, <menu>, <menuitem>, <meter>, <progress>, <time>
+skill: <hgroup>
 level: extra
 requires:
-  - <div>, <span>
   - <h1> to <h6>
-  - <img>, src, width, height, alt
-  - <ul>, <ol>, <li>
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup
+
+---
+skill: <figcaption>, <figure>
+level: extra
+requires:
+  - <img>, src, width, height, alt
+resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure
-  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menu
-  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menuitem
+
+---
+skill: <meter>
+level: extra
+requires:
+  - Basic structure // <!doctype>, <html>, <head>, <body>
+resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter
+
+---
+skill: <progress>
+level: extra
+requires:
+  - Basic structure // <!doctype>, <html>, <head>, <body>
+resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress
+
+---
+skill: <time>
+level: extra
+requires:
+  - Basic structure // <!doctype>, <html>, <head>, <body>
+resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time
 
 ---
