@@ -435,8 +435,28 @@
     "group": "body"
   },
   {
-    "id": "hgroup-figcaption-figure-menu-menuitem-meter-progress-time",
-    "label": "<hgroup>, <figcaption>, <figure>, <menu>, <menuitem>, <meter>, <progress>, <time>",
+    "id": "hgroup",
+    "label": "<hgroup>",
+    "group": "body"
+  },
+  {
+    "id": "figcaption-figure",
+    "label": "<figcaption>, <figure>",
+    "group": "body"
+  },
+  {
+    "id": "meter",
+    "label": "<meter>",
+    "group": "body"
+  },
+  {
+    "id": "progress",
+    "label": "<progress>",
+    "group": "body"
+  },
+  {
+    "id": "time",
+    "label": "<time>",
     "group": "body"
   },
   {
@@ -3672,23 +3692,28 @@
     "arrows": "to"
   },
   {
-    "from": "div-span",
-    "to": "hgroup-figcaption-figure-menu-menuitem-meter-progress-time",
-    "arrows": "to"
-  },
-  {
     "from": "h1-to-h6",
-    "to": "hgroup-figcaption-figure-menu-menuitem-meter-progress-time",
+    "to": "hgroup",
     "arrows": "to"
   },
   {
     "from": "img-src-width-height-alt",
-    "to": "hgroup-figcaption-figure-menu-menuitem-meter-progress-time",
+    "to": "figcaption-figure",
     "arrows": "to"
   },
   {
-    "from": "ul-ol-li",
-    "to": "hgroup-figcaption-figure-menu-menuitem-meter-progress-time",
+    "from": "doctype-html-head-body",
+    "to": "meter",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "progress",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "time",
     "arrows": "to"
   },
   {
