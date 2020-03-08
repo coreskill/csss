@@ -9,3 +9,9 @@ resources:
   - url: https://github.com/svg/svgo
   - url: https://jakearchibald.github.io/svgomg/
     desc: Online SVGO
+---
+skill: Optimizing SVGs
+requires:
+  - Container Elements // <svg>
+resources:
+  - url: https://css-irl.info/optimising-svgs-for-the-web/
