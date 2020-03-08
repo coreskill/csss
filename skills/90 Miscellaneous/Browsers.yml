@@ -1,0 +1,13 @@
+---
+sort: 100
+
+---
+skill: How browser works
+level: extra
+requires:
+  - JavaScript // Node.js // Overview
+resources:
+  - url: https://developers.google.com/web/updates/2018/09/inside-browser-part1
+  - url: https://developers.google.com/web/updates/2018/09/inside-browser-part2
+  - url: https://developers.google.com/web/updates/2018/09/inside-browser-part3
+  - url: https://developers.google.com/web/updates/2018/09/inside-browser-part4
