@@ -55,3 +55,10 @@ resources:
   - url: https://marksheet.io/css-the-flow.html
 requires:
   - Basic CSS Syntax
+
+---
+skill: "Cascade"
+resources:
+  - url: https://wattenberger.com/blog/css-cascade
+requires:
+  - Basic CSS Syntax
