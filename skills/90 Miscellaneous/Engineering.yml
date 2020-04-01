@@ -70,6 +70,9 @@ level: 1
 skill: Hashes
 level: 5
 text: What is it, Hash functions, uniqness, small change in input -> large change in output
+resources: 
+  - url: https://www.freecodecamp.org/news/md5-vs-sha-1-vs-sha-2-which-is-the-most-secure-encryption-hash-and-how-to-check-them/
+    desc: Basic article about hashes
 
 ---
 skill: base64 encoding
