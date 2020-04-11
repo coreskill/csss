@@ -44,6 +44,7 @@ skill: Responsive images (srcset, sizes)
 requires:
   - Simple responsive images
 resources:
+  - url: https://cloudfour.com/thinks/responsive-images-the-simple-way/
   - url: https://www.vzhurudolu.cz/blog/97-vdwd-ukazka
     lang: cs
 
