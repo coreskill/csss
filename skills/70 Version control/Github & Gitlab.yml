@@ -42,7 +42,11 @@ skill: Markdown
 level: 4
 #requires:
 #  - HTML // …
-
+resources:
+  - url: https://guides.github.com/features/mastering-markdown/
+    desc: Basic description + GitHub Flavored Markdown
+  - url: https://en.wikipedia.org/wiki/Markdown
+    desc: General info about Markdown including history and flavors
 ---
 skill: README.md
 level: 5
