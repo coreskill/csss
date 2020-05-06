@@ -5,7 +5,7 @@ sort: 30
 skill: CPU, RAM, HDD, SSD, GPU
 text: Very basic explanation of these terms and how they interact with each other regarding to web development.
 resources: 
-  - url: https://www.freecodecamp.org/news/beaucarnes/how-do-computers-and-the-internet-work--94i0Frgd4
+  - url: https://www.youtube.com/watch?v=AV_VYsJnHQQ
     type: video
 
 ---
