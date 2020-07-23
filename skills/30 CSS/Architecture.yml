@@ -2,18 +2,52 @@
 sort: 160
 
 ---
-skill: BEM basics
+skill: Overview
 level: 3
 requires:
   - General // Basic CSS Syntax
 resources: 
-  - url: https://en.bem.info/methodology/quick-start/
+  - url: https://www.vzhurudolu.cz/prirucka/css-metodiky
+    lang: cs
+  - url: https://www.vzhurudolu.cz/prirucka/rcss-zasady
+    lang: cs
 
 ---
-skill: OOCSS basics
+skill: OOCSS
 level: 3
 requires:
-  - General // Basic CSS Syntax
+  - Overview
 resources: 
+  - url: https://www.slideshare.net/stubbornella/object-oriented-css
   - url: https://www.vzhurudolu.cz/prirucka/oocss
+    lang: cs
+
+---
+skill: BEM
+level: 4
+requires:
+  - Overview
+resources: 
+  - url: https://en.bem.info/methodology/quick-start/
+  - url: https://www.vzhurudolu.cz/prirucka/bem
+    lang: cs
+
+---
+skill: SUIT CSS
+level: 5
+requires:
+  - Overview
+resources: 
+  - url: https://suitcss.github.io/
+    lang: cs
+
+
+---
+skill: ITCSS
+level: 5
+requires:
+  - Overview
+resources: 
+  - url: https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/
+  - url: https://frontend.garden/proc-je-itcss-nejpokrocilejsi-metodika-organizace-css/
     lang: cs
