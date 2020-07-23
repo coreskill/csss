@@ -16,6 +16,8 @@ resources:
   - url: https://color.method.ac/
     desc: color – a color matching game
     type: game
+  - url: https://ciechanow.ski/lights-and-shadows/
+    desc: interesting article (not required)
 requires:
   - Visual Design
 
