@@ -80,3 +80,11 @@ requires:
 skill: Bitmap image resizing
 requires:
   - BMP
+
+---
+skill: Making screenshots
+text: Ability to make screenshot in both operating system and in the browser (full page screenshots)
+requires:
+  - PNG
+  - JPG
+  - Miscellaneous // Dev Tools // Command Menu
