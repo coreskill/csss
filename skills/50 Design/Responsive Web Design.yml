@@ -63,11 +63,3 @@ requires:
 resources: 
   - url: http://www.responsivebreakpoints.com
     type: tool
-
----
-skill: picturefill.js
-requires:
-  - Responsive images (srcset, sizes)
-resources:
-  - url: http://scottjehl.github.io/picturefill/
-    type: software
