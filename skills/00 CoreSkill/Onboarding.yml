@@ -1,14 +1,14 @@
 ---
-skill: Laptop
+skill: Agreement
+text: "attendee: sign, CoreSkill: sign"
+
+---
+skill: Computer
 text: "attendee: have, CoreSkill: check (recommended: 16 GB RAM, i7 quadcore CPU, SSD, 20 GB free space, 1920×1080+ display, mouse, secondary 1920×1080+ display recommended"
 
 ---
 skill: Google Account
 text: "attendee: provide or create if needed (for calendar and shared documents)"
-
----
-skill: Code editor
-text: "atendee: install & setup: Visual Studio Code or Webstorm"
 
 ---
 skill: Join folders on Google Drive
@@ -17,6 +17,10 @@ text: "attendee: join, CoreSkill: create (includes Agreement)"
 ---
 skill: Junior Guru Club Discord
 text: "attendee: join, CoreSkill: invite to CoreSkill channels"
+
+---
+skill: Code editor
+text: "atendee: install & setup: Visual Studio Code or Webstorm"
 
 ---
 skill: Chrome
@@ -31,11 +35,8 @@ resources:
   - url: https://www.mozilla.org
 
 ---
-skill: Agreement
-text: "attendee: sign, CoreSkill: sign"
-
----
 skill: Password manager
+level: extra
 text: "attendee: install (voluntary)"
 resources:
   - url: https://keepassxc.org/
