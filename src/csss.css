@@ -1,18 +1,54 @@
+:root {
+  --bs-font-sans-serif: Rubik, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+
+  /*
+
+  $blue: $cs-blue; $blue: $blue !global; // #007bff
+  $red: $cs-red; $red: $red !global; // #dc3545
+  $orange: $cs-orange; $orange: $orange !global; // #fd7e14
+  $yellow: $cs-yellow; $yellow: $yellow !global;// #ffc107
+  $green: $cs-green; $green: $green !global; // #28a745
+  $secondary: $gray-700; $secondary: $secondary !global; // $gray-600
+  $dark: #2c3432; $dark: $dark !global; // $gray-800
+  */
+
+  /*  $cs-black: #2c3432; // hsl(165, 8%, 19%) rgb(44,52,50)*/
+
+  --bs-blue: #2b54d9;
+  /*--bs-indigo: #6610f2;*/
+  /*--bs-purple: #6f42c1;*/
+  /*--bs-pink: #d63384;*/
+  --bs-red: #db3f02;
+  --bs-orange: #f27405;
+  --bs-yellow: #fff829;
+  --bs-green: #a2d939;
+  /*--bs-teal: #20c997;*/
+  /*--bs-cyan: #0dcaf0;*/
+  /*--bs-white: #fff;*/
+  /*--bs-gray: #6c757d;*/
+  /*--bs-gray-dark: #343a40;*/
+  /*--bs-primary: #0d6efd;*/
+  --bs-secondary: #495057;
+  /*--bs-success: #198754;*/
+  /*--bs-info: #0dcaf0;*/
+  /*--bs-warning: #ffc107;*/
+  /*--bs-danger: #dc3545;*/
+  /*--bs-light: #f8f9fa;*/
+  --bs-dark: #2c3432;
+}
+
 a.list-group-item {
   /* These are technically the same, but use both */
   overflow-wrap: break-word;
   word-wrap: break-word;
 
-  -ms-word-break: break-all;
   /* This is the dangerous one in WebKit, as it breaks things wherever */
   word-break: break-all;
   /* Instead use this non-standard one: */
   word-break: break-word;
 
-  /* Adds a hyphen where the word breaks, if supported (No Blink) */
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  -webkit-hyphens: auto;
   hyphens: auto;
 }
 
@@ -26,8 +62,13 @@ a.list-group-item {
   }
 
   .skill-section {
-    flex: 1 1 25vw;
-    min-width: 500px;
-    max-width: 800px;
+    flex: 1 1 auto;
+    min-width: 30rem;
+    max-width: 40rem;
   }
+}
+
+.badge {
+  font-weight: 400;
+  font-size: .85em;
 }

@@ -2,13 +2,13 @@
   {{> list-item}}
 {{else}}
   {{#unless parent.parent}}
-    <section class="skill-section mr-5">
+    <section class="skill-section me-5">
   {{/unless}}
-    <p class="{{#if parent.parent}}h4{{else}}h3 display-4{{/if}}">
+    <p class="{{#if parent.parent}}h4 mb-0{{else}}h1 mb-4{{/if}}">
       <a href="{{slug}}.html">{{name}}</a>
     </p>
   {{#if children.length}}
-      <div class="skill-group list-group mt-2 mb-4">
+      <div class="skill-group list-group-flush list-group mt-2 mb-4">
         {{#each children}}
           {{> node-item}}
         {{/each}}

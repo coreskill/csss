@@ -1,21 +1,29 @@
-.indicator,
+.not-done,
 .done,
 .star,
+
 .indicator.is-done .not-done,
 .indicator.is-star .not-done,
-.note,
-.note-changer,
+
+.logged-in .locked,
+.indicator.not-done .locked,
+.indicator.is-done .locked,
+.indicator.is-star .locked,
+
 .logged-in .note.note-empty,
 .logged-in .login,
+
 .logout,
 .filter-group,
+.note,
+.note-changer,
 .user-select {
   display: none;
 }
 
-.logged-in .indicator,
 .indicator.is-done .done,
 .indicator.is-star .star,
+.logged-in .not-done,
 .logged-in .note,
 .admin .note-changer,
 .admin .note.note-empty,
@@ -32,7 +40,8 @@
 }
 
 .indicator-list {
-  min-width: 5ch;
+  min-width: 4ch;
+  display: inline-block;
 }
 
 .indicator:hover,

@@ -5,7 +5,9 @@
     <meta charset="utf-8">
     <title>{{name}} « CoreSkill Skill System (CSSS)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="csss.css">
     <link rel="stylesheet" href="firebase.css">
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
@@ -31,7 +33,7 @@
       <div class="col-3">
         {{#if requires.length}}
           <h2 class="mt-3">Prerequisites</h2>
-          <div class="list-group">
+          <div class="list-group list-group-flush">
             {{#each requires}}
               {{> list-item compareCategories=../categories}}
             {{/each}}
@@ -61,17 +63,17 @@
 
           {{#if resources.length}}
             <h2 class="mt-5">Resources</h2>
-            <div class="list-group">
+            <div class="list-group list-group-flush">
               {{#each resources}}
                 <a href="{{this.url}}" class="list-group-item list-group-item-action flex-column align-items-start">
                   <div class="d-flex w-100 justify-content-between">
                     <h5 class="mb-1">
                       {{#if this.desc}}{{this.desc}}{{else}}{{this.url}}{{/if}}
-                      {{#if this.lang}}<span class="badge badge-danger">{{this.lang}}</span> {{/if}}
+                      {{#if this.lang}}<span class="badge bg-danger">{{this.lang}}</span> {{/if}}
                     </h5>
                   </div>
                   <p class="mb-1">
-                    {{#if this.type}}<span class="badge badge-secondary">{{this.type}}</span> {{/if}}
+                    {{#if this.type}}<span class="badge bg-secondary">{{this.type}}</span> {{/if}}
                     {{#if this.desc}}{{this.url}}{{else}}{{this.desc}}{{/if}}
                   </p>
                 </a>
@@ -82,7 +84,7 @@
 
         {{#if sameLevelSkills.length}}
           <h2 class="mt-5">Also learn these skills</h2>
-          <div class="list-group">
+          <div class="list-group list-group-flush">
             {{#each sameLevelSkills}}
               {{> list-item compareCategories=../categories}}
             {{/each}}
@@ -94,7 +96,7 @@
       <div class="col-3">
         {{#if requiredBy.length}}
           <h2 class="mt-5">Following skills</h2>
-          <div class="list-group">
+          <div class="list-group list-group-flush">
             {{#each requiredBy}}
               {{> list-item compareCategories=../categories}}
             {{/each}}
