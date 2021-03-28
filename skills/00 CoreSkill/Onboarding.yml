@@ -1,14 +1,10 @@
 ---
 skill: Laptop
-text: "attendee: have, CoreSkill: check (recommended: 16 GB RAM, i7 quadcore CPU, SSD, 20 GB free space, 1920×1080+ display, mouse"
+text: "attendee: have, CoreSkill: check (recommended: 16 GB RAM, i7 quadcore CPU, SSD, 20 GB free space, 1920×1080+ display, mouse, secondary 1920×1080+ display recommended"
 
 ---
 skill: Google Account
 text: "attendee: provide or create if needed (for calendar and shared documents)"
-
----
-skill: Key
-text: "CoreSkill: provide"
 
 ---
 skill: Code editor
@@ -19,8 +15,8 @@ skill: Join student's folder on Google Drive
 text: "attendee: join, CoreSkill: create (includes Agreement)"
 
 ---
-skill: Frontendisti Slack Account
-text: "attendee: join, CoreSkill: invite (also to specific channels)"
+skill: Junior Guru Club Discord
+text: "attendee: join, CoreSkill: invite to CoreSkill channels"
 
 ---
 skill: Chrome
@@ -42,12 +38,9 @@ text: "attendee: sign, CoreSkill: sign"
 skill: Password manager
 text: "attendee: install (voluntary)"
 resources:
+  - url: https://keepassxc.org/
+    desc: KeePassXC is free and Open Source password manager
   - url: https://1password.com/
     desc: 1Password
   - url: https://www.lastpass.com/
     desc: LastPass
-  - url: https://www.dashlane.com/
-    desc: Dashlane
-  - url: https://keepass.info/
-    desc: Keepass
-
