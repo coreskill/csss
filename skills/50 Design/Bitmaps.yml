@@ -87,4 +87,4 @@ text: Ability to make screenshot in both operating system and in the browser (fu
 requires:
   - PNG
   - JPG
-  - Miscellaneous // Dev Tools // Command Menu
+  - Advanced // Dev Tools // Command Menu

@@ -21,7 +21,6 @@ resources:
 skill: Transpilation with Babel
 requires:
   - Overview
-  - Miscellaneous // Automation // npm scripts
+  - Advanced // Automation // npm scripts
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/browser-compatibility-and-transpilation/exercises/transpilation-with-babel
-
