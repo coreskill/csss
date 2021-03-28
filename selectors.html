@@ -4,7 +4,9 @@
       <meta charset="utf-8">
       <title>Selectors « CoreSkill Skill System (CSSS)</title>
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
       <link rel="stylesheet" href="csss.css">
       <link rel="stylesheet" href="firebase.css">
       <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
@@ -12,11 +14,22 @@
       <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
     </head>
     <body>
-      <header class="navbar navbar-dark bg-dark sticky-top">
-        <div class="container">
+      <header class="navbar navbar-dark bg-dark justify-items-start sticky-top">
+        <div class="container-fluid">
           <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
-          <form class="form-inline">
-            <span class="user-select"><select class="form-control mr-3"></select></span>
+          <div>
+            <div class="filter-group bg-white ms-5">
+              <div class="btn-group btn-group-lg bg-dark" role="group">
+                <button type="button" class="filter-done btn px-4 btn-outline-light active">✔️</button>
+                <button type="button" class="filter-star btn px-4 btn-outline-light active">⭐️</button>
+                <button type="button" class="filter-not-done btn px-4 btn-outline-light active">❔️</button>
+              </div>
+            </div>
+            <span class="filter-nothing-found alert alert-danger mt-4 d-none" role="alert">Nothing has been found.</span>
+            <a href="graph.html" class="text-white-50 ms-5">Show dependency graph</a>
+          </div>
+          <form class="form-inline ms-auto">
+            <span class="user-select"><select class="form-control me-3"></select></span>
             <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
             <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
           </form>
@@ -37,322 +50,286 @@
 
 
           <h2 class="mt-5">Skills in this category</h2>
-          <div class="list-group">
-              <a
-                href="type-selectors.html"
-                class="
+          <div class="list-group list-group-flush">
+              <a href="type-selectors.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="type-selectors">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+                      <span class="badge ps-0 pe-2">🚧️</span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="type-selectors">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   Type selectors
-              
                 </span>
               
-                <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="type-selectors">
+                <span class="ms-auto ps-3">
+                  <span class="note note-empty badge bg-light" data-slug="type-selectors">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="class-selectors.html"
-                class="
+              <a href="class-selectors.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="class-selectors">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+                      <span class="badge ps-0 pe-2">🚧️</span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="class-selectors">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   Class selectors
-              
                 </span>
               
-                <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="class-selectors">
+                <span class="ms-auto ps-3">
+                  <span class="note note-empty badge bg-light" data-slug="class-selectors">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="id-selectors.html"
-                class="
+              <a href="id-selectors.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="id-selectors">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+                      <span class="badge ps-0 pe-2">🚧️</span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="id-selectors">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   Id selectors
-              
                 </span>
               
-                <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="id-selectors">
+                <span class="ms-auto ps-3">
+                  <span class="note note-empty badge bg-light" data-slug="id-selectors">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="descendant-combinator-x-y.html"
-                class="
+              <a href="descendant-combinator-x-y.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="descendant-combinator-x-y">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+                      <span class="badge ps-0 pe-2">🚧️</span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="descendant-combinator-x-y">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   Descendant combinator (x y)
-              
                 </span>
               
-                <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="descendant-combinator-x-y">
+                <span class="ms-auto ps-3">
+                  <span class="note note-empty badge bg-light" data-slug="descendant-combinator-x-y">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="child-combinator-xy.html"
-                class="
+              <a href="child-combinator-xy.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="child-combinator-xy">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+                      <span class="badge ps-0 pe-2">🚧️</span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="child-combinator-xy">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   Child combinator (x&gt;y)
-              
                 </span>
               
-                <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="child-combinator-xy">
+                <span class="ms-auto ps-3">
+                  <span class="note note-empty badge bg-light" data-slug="child-combinator-xy">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="attribute-selectors-ahrefx.html"
-                class="
+              <a href="attribute-selectors-ahrefx.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="attribute-selectors-ahrefx">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+                      <span class="badge ps-0 pe-2">🚧️</span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="attribute-selectors-ahrefx">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   Attribute selectors (a[href&#x3D;x])
-              
                 </span>
               
-                <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="attribute-selectors-ahrefx">
+                <span class="ms-auto ps-3">
+                  <span class="note note-empty badge bg-light" data-slug="attribute-selectors-ahrefx">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="adjacent-sibling-combinator-xy.html"
-                class="
+              <a href="adjacent-sibling-combinator-xy.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="adjacent-sibling-combinator-xy">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+                      <span class="badge ps-0 pe-2">🚧️</span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="adjacent-sibling-combinator-xy">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   Adjacent sibling combinator (x+y)
-              
                 </span>
               
-                <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="adjacent-sibling-combinator-xy">
+                <span class="ms-auto ps-3">
+                  <span class="note note-empty badge bg-light" data-slug="adjacent-sibling-combinator-xy">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="general-sibling-combinator-x~y.html"
-                class="
+              <a href="general-sibling-combinator-x~y.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="general-sibling-combinator-x~y">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+                      <span class="badge ps-0 pe-2">🚧️</span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="general-sibling-combinator-x~y">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   General sibling combinator (x~y)
-              
                 </span>
               
-                <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="general-sibling-combinator-x~y">
+                <span class="ms-auto ps-3">
+                  <span class="note note-empty badge bg-light" data-slug="general-sibling-combinator-x~y">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="selector-specificity.html"
-                class="
+              <a href="selector-specificity.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="selector-specificity">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+                      <span class="badge ps-0 pe-2">🚧️</span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="selector-specificity">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   Selector Specificity
-              
                 </span>
               
-                <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="selector-specificity">
+                <span class="ms-auto ps-3">
+                  <span class="note note-empty badge bg-light" data-slug="selector-specificity">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
           </div>
       </main>
       <script src="firebase.js"></script>

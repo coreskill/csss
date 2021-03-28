@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <title>merge « CoreSkill Skill System (CSSS)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="csss.css">
     <link rel="stylesheet" href="firebase.css">
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
@@ -12,11 +14,22 @@
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
   </head>
   <body>
-  <header class="navbar navbar-dark bg-dark sticky-top">
-    <div class="container">
+  <header class="navbar navbar-dark bg-dark justify-items-start sticky-top">
+    <div class="container-fluid">
       <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
-      <form class="form-inline">
-        <span class="user-select"><select class="form-control mr-3"></select></span>
+      <div>
+        <div class="filter-group bg-white ms-5">
+          <div class="btn-group btn-group-lg bg-dark" role="group">
+            <button type="button" class="filter-done btn px-4 btn-outline-light active">✔️</button>
+            <button type="button" class="filter-star btn px-4 btn-outline-light active">⭐️</button>
+            <button type="button" class="filter-not-done btn px-4 btn-outline-light active">❔️</button>
+          </div>
+        </div>
+        <span class="filter-nothing-found alert alert-danger mt-4 d-none" role="alert">Nothing has been found.</span>
+        <a href="graph.html" class="text-white-50 ms-5">Show dependency graph</a>
+      </div>
+      <form class="form-inline ms-auto">
+        <span class="user-select"><select class="form-control me-3"></select></span>
         <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
         <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
       </form>
@@ -37,115 +50,103 @@
     <div class="row">
       <div class="col-3">
           <h2 class="mt-3">Prerequisites</h2>
-          <div class="list-group">
-              <a
-                href="commit.html"
-                class="
+          <div class="list-group list-group-flush">
+              <a href="commit.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="commit">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="commit">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-              
                   commit
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-primary badge-pill">2</span>
-                        <span class="badge badge-secondary badge-pill">2</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="commit">
+                <span class="ms-auto ps-3">
+                    <span class="badge rounded-pill bg-primary">2</span>
+                      <span class="badge rounded-pill bg-secondary">2</span>
+                  <span class="note note-empty badge bg-light" data-slug="commit">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="branch-add.html"
-                class="
+              <a href="branch-add.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="branch-add">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="branch-add">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-              
                   branch add
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-primary badge-pill">3</span>
-                        <span class="badge badge-secondary badge-pill">5</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="branch-add">
+                <span class="ms-auto ps-3">
+                    <span class="badge rounded-pill bg-primary">3</span>
+                      <span class="badge rounded-pill bg-secondary">5</span>
+                  <span class="note note-empty badge bg-light" data-slug="branch-add">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="checkout.html"
-                class="
+              <a href="checkout.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="checkout">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="checkout">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-              
                   checkout
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-primary badge-pill">3</span>
-                        <span class="badge badge-secondary badge-pill">5</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="checkout">
+                <span class="ms-auto ps-3">
+                    <span class="badge rounded-pill bg-primary">3</span>
+                      <span class="badge rounded-pill bg-secondary">5</span>
+                  <span class="note note-empty badge bg-light" data-slug="checkout">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
           </div>
       </div>
 
@@ -167,7 +168,7 @@
 
 
             <h2 class="mt-5">Resources</h2>
-            <div class="list-group">
+            <div class="list-group list-group-flush">
                 <a href="https://www.atlassian.com/git/tutorials/using-branches/git-merge" class="list-group-item list-group-item-action flex-column align-items-start">
                   <div class="d-flex w-100 justify-content-between">
                     <h5 class="mb-1">
@@ -184,486 +185,434 @@
         </div>
 
           <h2 class="mt-5">Also learn these skills</h2>
-          <div class="list-group">
-              <a
-                href="log.html"
-                class="
+          <div class="list-group list-group-flush">
+              <a href="log.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="log">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="log">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-              
                   log
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-primary badge-pill">2</span>
-                        <span class="badge badge-secondary badge-pill">2</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="log">
+                <span class="ms-auto ps-3">
+                    <span class="badge rounded-pill bg-primary">2</span>
+                      <span class="badge rounded-pill bg-secondary">2</span>
+                  <span class="note note-empty badge bg-light" data-slug="log">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="checkout-as-tool-to-revert-files-to-commited-state.html"
-                class="
+              <a href="checkout-as-tool-to-revert-files-to-commited-state.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="checkout-as-tool-to-revert-files-to-commited-state">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="checkout-as-tool-to-revert-files-to-commited-state">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-              
                   checkout (as tool to revert files to commited state)
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-primary badge-pill">3</span>
-                        <span class="badge badge-secondary badge-pill">4</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="checkout-as-tool-to-revert-files-to-commited-state">
+                <span class="ms-auto ps-3">
+                    <span class="badge rounded-pill bg-primary">3</span>
+                      <span class="badge rounded-pill bg-secondary">4</span>
+                  <span class="note note-empty badge bg-light" data-slug="checkout-as-tool-to-revert-files-to-commited-state">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="branch-add.html"
-                class="
+              <a href="branch-add.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="branch-add">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="branch-add">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-              
                   branch add
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-primary badge-pill">3</span>
-                        <span class="badge badge-secondary badge-pill">5</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="branch-add">
+                <span class="ms-auto ps-3">
+                    <span class="badge rounded-pill bg-primary">3</span>
+                      <span class="badge rounded-pill bg-secondary">5</span>
+                  <span class="note note-empty badge bg-light" data-slug="branch-add">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="branch-list.html"
-                class="
+              <a href="branch-list.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="branch-list">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="branch-list">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-              
                   branch list
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-primary badge-pill">3</span>
-                        <span class="badge badge-secondary badge-pill">5</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="branch-list">
+                <span class="ms-auto ps-3">
+                    <span class="badge rounded-pill bg-primary">3</span>
+                      <span class="badge rounded-pill bg-secondary">5</span>
+                  <span class="note note-empty badge bg-light" data-slug="branch-list">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="checkout.html"
-                class="
+              <a href="checkout.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="checkout">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="checkout">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-              
                   checkout
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-primary badge-pill">3</span>
-                        <span class="badge badge-secondary badge-pill">5</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="checkout">
+                <span class="ms-auto ps-3">
+                    <span class="badge rounded-pill bg-primary">3</span>
+                      <span class="badge rounded-pill bg-secondary">5</span>
+                  <span class="note note-empty badge bg-light" data-slug="checkout">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="stash.html"
-                class="
+              <a href="stash.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="stash">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="stash">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-              
                   stash
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-primary badge-pill">3</span>
-                        <span class="badge badge-secondary badge-pill">7</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="stash">
+                <span class="ms-auto ps-3">
+                    <span class="badge rounded-pill bg-primary">3</span>
+                      <span class="badge rounded-pill bg-secondary">7</span>
+                  <span class="note note-empty badge bg-light" data-slug="stash">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="revert.html"
-                class="
+              <a href="revert.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="revert">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="revert">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-              
                   revert
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-primary badge-pill">3</span>
-                        <span class="badge badge-secondary badge-pill">8</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="revert">
+                <span class="ms-auto ps-3">
+                    <span class="badge rounded-pill bg-primary">3</span>
+                      <span class="badge rounded-pill bg-secondary">8</span>
+                  <span class="note note-empty badge bg-light" data-slug="revert">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="merge-pull-request.html"
-                class="
+              <a href="merge-pull-request.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
-                <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="merge-pull-request">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
+                  <span class="indicator indicator-list text-center p-1" data-slug="merge-pull-request">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
               
+                <span>
                     <span class="text-muted">
                       Version control » Github &amp; Gitlab » 
                     </span>
-              
-              
                   Merge (Pull) Request
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-primary badge-pill">3</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="merge-pull-request">
+                <span class="ms-auto ps-3">
+                    <span class="badge rounded-pill bg-primary">3</span>
+                  <span class="note note-empty badge bg-light" data-slug="merge-pull-request">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="branch-d.html"
-                class="
+              <a href="branch-d.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="branch-d">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="branch-d">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-              
                   branch -d
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-primary badge-pill">3</span>
-                        <span class="badge badge-secondary badge-pill">6</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="branch-d">
+                <span class="ms-auto ps-3">
+                    <span class="badge rounded-pill bg-primary">3</span>
+                      <span class="badge rounded-pill bg-secondary">6</span>
+                  <span class="note note-empty badge bg-light" data-slug="branch-d">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="branching-strategies-gitflow.html"
-                class="
+              <a href="branching-strategies-gitflow.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="branching-strategies-gitflow">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="branching-strategies-gitflow">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-              
                   branching strategies (GitFlow)
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-primary badge-pill">3</span>
-                        <span class="badge badge-secondary badge-pill">6</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="branching-strategies-gitflow">
+                <span class="ms-auto ps-3">
+                    <span class="badge rounded-pill bg-primary">3</span>
+                      <span class="badge rounded-pill bg-secondary">6</span>
+                  <span class="note note-empty badge bg-light" data-slug="branching-strategies-gitflow">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
           </div>
 
       </div>
 
       <div class="col-3">
           <h2 class="mt-5">Following skills</h2>
-          <div class="list-group">
-              <a
-                href="conflicts.html"
-                class="
+          <div class="list-group list-group-flush">
+              <a href="conflicts.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="conflicts">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="conflicts">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-              
                   conflicts
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-primary badge-pill">3</span>
-                        <span class="badge badge-secondary badge-pill">7</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="conflicts">
+                <span class="ms-auto ps-3">
+                    <span class="badge rounded-pill bg-primary">3</span>
+                      <span class="badge rounded-pill bg-secondary">7</span>
+                  <span class="note note-empty badge bg-light" data-slug="conflicts">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="rebase.html"
-                class="
+              <a href="rebase.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="rebase">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="rebase">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-              
                   rebase
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-primary badge-pill">4</span>
-                        <span class="badge badge-secondary badge-pill">9</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="rebase">
+                <span class="ms-auto ps-3">
+                    <span class="badge rounded-pill bg-primary">4</span>
+                      <span class="badge rounded-pill bg-secondary">9</span>
+                  <span class="note note-empty badge bg-light" data-slug="rebase">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="merge-pull-request.html"
-                class="
+              <a href="merge-pull-request.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
-                <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="merge-pull-request">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
+                  <span class="indicator indicator-list text-center p-1" data-slug="merge-pull-request">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
               
+                <span>
                     <span class="text-muted">
                       Version control » Github &amp; Gitlab » 
                     </span>
-              
-              
                   Merge (Pull) Request
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-primary badge-pill">3</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="merge-pull-request">
+                <span class="ms-auto ps-3">
+                    <span class="badge rounded-pill bg-primary">3</span>
+                  <span class="note note-empty badge bg-light" data-slug="merge-pull-request">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
           </div>
       </div>
     </div>

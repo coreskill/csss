@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <title>Dependency graph « CoreSkill Skill System (CSSS)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="csss.css">
     <style type="text/css">
       #graph {
@@ -21,11 +23,22 @@
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
   </head>
   <body>
-    <header class="navbar navbar-dark bg-dark sticky-top">
-      <div class="container">
+    <header class="navbar navbar-dark bg-dark justify-items-start sticky-top">
+      <div class="container-fluid">
         <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
-        <form class="form-inline">
-          <span class="user-select"><select class="form-control mr-3"></select></span>
+        <div>
+          <div class="filter-group bg-white ms-5">
+            <div class="btn-group btn-group-lg bg-dark" role="group">
+              <button type="button" class="filter-done btn px-4 btn-outline-light active">✔️</button>
+              <button type="button" class="filter-star btn px-4 btn-outline-light active">⭐️</button>
+              <button type="button" class="filter-not-done btn px-4 btn-outline-light active">❔️</button>
+            </div>
+          </div>
+          <span class="filter-nothing-found alert alert-danger mt-4 d-none" role="alert">Nothing has been found.</span>
+          <a href="graph.html" class="text-white-50 ms-5">Show dependency graph</a>
+        </div>
+        <form class="form-inline ms-auto">
+          <span class="user-select"><select class="form-control me-3"></select></span>
           <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
           <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
         </form>
@@ -243,16 +256,6 @@
     "id": "hidden-files-and-folders",
     "label": "Hidden files and folders",
     "group": "files"
-  },
-  {
-    "id": "cpu-ram-hdd-ssd-gpu",
-    "label": "CPU, RAM, HDD, SSD, GPU",
-    "group": "general-computer-science"
-  },
-  {
-    "id": "sleep-vs-hibernate",
-    "label": "Sleep vs. Hibernate",
-    "group": "general-computer-science"
   },
   {
     "id": "overview2",
@@ -2885,196 +2888,6 @@
     "group": "github-and-gitlab"
   },
   {
-    "id": "google-analytics-ability-to-get-info-about-used-technology-browsers",
-    "label": "Google Analytics: Ability to get info about used technology (browsers)",
-    "group": "analyzing-user-behavior"
-  },
-  {
-    "id": "google-analytics-understanding-basic-data-pageviews-visitors",
-    "label": "Google Analytics: Understanding basic data (pageviews, visitors)",
-    "group": "analyzing-user-behavior"
-  },
-  {
-    "id": "google-analytics-creating-a-website-in-ga-and-inserting-basic-code",
-    "label": "Google Analytics: Creating a website in GA and inserting basic code",
-    "group": "analyzing-user-behavior"
-  },
-  {
-    "id": "click-trackers",
-    "label": "Click trackers",
-    "group": "analyzing-user-behavior"
-  },
-  {
-    "id": "google-search-console",
-    "label": "Google Search Console",
-    "group": "analyzing-user-behavior"
-  },
-  {
-    "id": "overviews",
-    "label": "Overview",
-    "group": "databases"
-  },
-  {
-    "id": "relational-database",
-    "label": "Relational database",
-    "group": "databases"
-  },
-  {
-    "id": "crud-via-client-adminerphpmyadmin",
-    "label": "CRUD via client (Adminer/PHPMyAdmin)",
-    "group": "databases"
-  },
-  {
-    "id": "nosql",
-    "label": "noSQL",
-    "group": "databases"
-  },
-  {
-    "id": "dns",
-    "label": "DNS",
-    "group": "networking"
-  },
-  {
-    "id": "file-transfer-via-http",
-    "label": "File transfer via http",
-    "group": "networking"
-  },
-  {
-    "id": "client-and-server",
-    "label": "Client and Server",
-    "group": "networking"
-  },
-  {
-    "id": "ip-address",
-    "label": "IP Address",
-    "group": "networking"
-  },
-  {
-    "id": "domains",
-    "label": "Domains",
-    "group": "networking"
-  },
-  {
-    "id": "protocols",
-    "label": "Protocols",
-    "group": "networking"
-  },
-  {
-    "id": "url",
-    "label": "URL",
-    "group": "networking"
-  },
-  {
-    "id": "web-browser",
-    "label": "Web browser",
-    "group": "networking"
-  },
-  {
-    "id": "user-agent-header",
-    "label": "User Agent Header",
-    "group": "networking"
-  },
-  {
-    "id": "cookies",
-    "label": "Cookies",
-    "group": "networking"
-  },
-  {
-    "id": "web-storage",
-    "label": "Web Storage",
-    "group": "networking"
-  },
-  {
-    "id": "time-estimating",
-    "label": "Time estimating",
-    "group": "project-management"
-  },
-  {
-    "id": "project-management-triangle",
-    "label": "Project management triangle",
-    "group": "project-management"
-  },
-  {
-    "id": "waterfall-projects",
-    "label": "Waterfall projects",
-    "group": "project-management"
-  },
-  {
-    "id": "agile-projects",
-    "label": "Agile projects",
-    "group": "project-management"
-  },
-  {
-    "id": "overview-goals-on-and-off-page-factors",
-    "label": "Overview: Goals, On and Off Page Factors",
-    "group": "seo"
-  },
-  {
-    "id": "how-search-engines-work",
-    "label": "How search engines work",
-    "group": "seo"
-  },
-  {
-    "id": "on-page-and-technical-seo",
-    "label": "On-page and technical SEO",
-    "group": "seo"
-  },
-  {
-    "id": "rich-snippets",
-    "label": "Rich snippets",
-    "group": "seo"
-  },
-  {
-    "id": "off-page-factors-link-building",
-    "label": "Off page factors (link building)",
-    "group": "seo"
-  },
-  {
-    "id": "sitemapxml",
-    "label": "Sitemap.xml",
-    "group": "seo"
-  },
-  {
-    "id": "robotstxt",
-    "label": "Robots.txt",
-    "group": "seo"
-  },
-  {
-    "id": "advanced-seo",
-    "label": "Advanced SEO",
-    "group": "seo"
-  },
-  {
-    "id": "need-for-testing",
-    "label": "Need for testing",
-    "group": "testing"
-  },
-  {
-    "id": "browser-compatibility",
-    "label": "Browser compatibility",
-    "group": "testing"
-  },
-  {
-    "id": "principles-and-manual-testing",
-    "label": "Principles and manual testing",
-    "group": "testing"
-  },
-  {
-    "id": "browserstack",
-    "label": "Browserstack",
-    "group": "testing"
-  },
-  {
-    "id": "bug-reporting",
-    "label": "Bug reporting",
-    "group": "testing"
-  },
-  {
-    "id": "automated-testing",
-    "label": "Automated testing",
-    "group": "testing"
-  },
-  {
     "id": "npm-scripts",
     "label": "npm scripts",
     "group": "automation"
@@ -3100,7 +2913,7 @@
     "group": "browsers"
   },
   {
-    "id": "overviewt",
+    "id": "overviews",
     "label": "Overview",
     "group": "deployment"
   },
@@ -3125,7 +2938,7 @@
     "group": "deployment"
   },
   {
-    "id": "overviewu",
+    "id": "overviewt",
     "label": "Overview",
     "group": "dev-tools"
   },
@@ -3235,7 +3048,7 @@
     "group": "engineering"
   },
   {
-    "id": "overviewv",
+    "id": "overviewu",
     "label": "Overview",
     "group": "regular-expressions"
   },
@@ -3315,6 +3128,186 @@
     "group": "speed-optimization"
   },
   {
+    "id": "google-analytics-ability-to-get-info-about-used-technology-browsers",
+    "label": "Google Analytics: Ability to get info about used technology (browsers)",
+    "group": "analyzing-user-behavior"
+  },
+  {
+    "id": "google-analytics-understanding-basic-data-pageviews-visitors",
+    "label": "Google Analytics: Understanding basic data (pageviews, visitors)",
+    "group": "analyzing-user-behavior"
+  },
+  {
+    "id": "google-analytics-creating-a-website-in-ga-and-inserting-basic-code",
+    "label": "Google Analytics: Creating a website in GA and inserting basic code",
+    "group": "analyzing-user-behavior"
+  },
+  {
+    "id": "click-trackers",
+    "label": "Click trackers",
+    "group": "analyzing-user-behavior"
+  },
+  {
+    "id": "google-search-console",
+    "label": "Google Search Console",
+    "group": "analyzing-user-behavior"
+  },
+  {
+    "id": "overviewv",
+    "label": "Overview",
+    "group": "databases"
+  },
+  {
+    "id": "relational-database",
+    "label": "Relational database",
+    "group": "databases"
+  },
+  {
+    "id": "crud-via-client-adminerphpmyadmin",
+    "label": "CRUD via client (Adminer/PHPMyAdmin)",
+    "group": "databases"
+  },
+  {
+    "id": "nosql",
+    "label": "noSQL",
+    "group": "databases"
+  },
+  {
+    "id": "cpu-ram-hdd-ssd-gpu",
+    "label": "CPU, RAM, HDD, SSD, GPU",
+    "group": "general-computer-science"
+  },
+  {
+    "id": "sleep-vs-hibernate",
+    "label": "Sleep vs. Hibernate",
+    "group": "general-computer-science"
+  },
+  {
+    "id": "dns",
+    "label": "DNS",
+    "group": "networking"
+  },
+  {
+    "id": "file-transfer-via-http",
+    "label": "File transfer via http",
+    "group": "networking"
+  },
+  {
+    "id": "client-and-server",
+    "label": "Client and Server",
+    "group": "networking"
+  },
+  {
+    "id": "ip-address",
+    "label": "IP Address",
+    "group": "networking"
+  },
+  {
+    "id": "domains",
+    "label": "Domains",
+    "group": "networking"
+  },
+  {
+    "id": "protocols",
+    "label": "Protocols",
+    "group": "networking"
+  },
+  {
+    "id": "url",
+    "label": "URL",
+    "group": "networking"
+  },
+  {
+    "id": "web-browser",
+    "label": "Web browser",
+    "group": "networking"
+  },
+  {
+    "id": "user-agent-header",
+    "label": "User Agent Header",
+    "group": "networking"
+  },
+  {
+    "id": "cookies",
+    "label": "Cookies",
+    "group": "networking"
+  },
+  {
+    "id": "web-storage",
+    "label": "Web Storage",
+    "group": "networking"
+  },
+  {
+    "id": "overview-goals-on-and-off-page-factors",
+    "label": "Overview: Goals, On and Off Page Factors",
+    "group": "seo"
+  },
+  {
+    "id": "how-search-engines-work",
+    "label": "How search engines work",
+    "group": "seo"
+  },
+  {
+    "id": "on-page-and-technical-seo",
+    "label": "On-page and technical SEO",
+    "group": "seo"
+  },
+  {
+    "id": "rich-snippets",
+    "label": "Rich snippets",
+    "group": "seo"
+  },
+  {
+    "id": "off-page-factors-link-building",
+    "label": "Off page factors (link building)",
+    "group": "seo"
+  },
+  {
+    "id": "sitemapxml",
+    "label": "Sitemap.xml",
+    "group": "seo"
+  },
+  {
+    "id": "robotstxt",
+    "label": "Robots.txt",
+    "group": "seo"
+  },
+  {
+    "id": "advanced-seo",
+    "label": "Advanced SEO",
+    "group": "seo"
+  },
+  {
+    "id": "need-for-testing",
+    "label": "Need for testing",
+    "group": "testing"
+  },
+  {
+    "id": "browser-compatibility",
+    "label": "Browser compatibility",
+    "group": "testing"
+  },
+  {
+    "id": "principles-and-manual-testing",
+    "label": "Principles and manual testing",
+    "group": "testing"
+  },
+  {
+    "id": "browserstack",
+    "label": "Browserstack",
+    "group": "testing"
+  },
+  {
+    "id": "bug-reporting",
+    "label": "Bug reporting",
+    "group": "testing"
+  },
+  {
+    "id": "automated-testing",
+    "label": "Automated testing",
+    "group": "testing"
+  },
+  {
     "id": "overvieww",
     "label": "Overview",
     "group": "job-seeking"
@@ -3370,6 +3363,26 @@
     "group": "law"
   },
   {
+    "id": "time-estimating",
+    "label": "Time estimating",
+    "group": "project-management"
+  },
+  {
+    "id": "project-management-triangle",
+    "label": "Project management triangle",
+    "group": "project-management"
+  },
+  {
+    "id": "waterfall-projects",
+    "label": "Waterfall projects",
+    "group": "project-management"
+  },
+  {
+    "id": "agile-projects",
+    "label": "Agile projects",
+    "group": "project-management"
+  },
+  {
     "id": "build-a-one-page-website",
     "label": "Build a one page website.",
     "group": "one-page"
@@ -3390,14 +3403,14 @@
     "group": "a-task-on-classic-stack"
   },
   {
-    "id": "create-a-template-for-html-e-mail-used-for-mass-mailing",
-    "label": "Create a template for HTML e-mail used for mass mailing",
-    "group": "mailing"
-  },
-  {
     "id": "build-a-small-javascript-application",
     "label": "Build a small JavaScript application.",
     "group": "application"
+  },
+  {
+    "id": "create-a-template-for-html-e-mail-used-for-mass-mailing",
+    "label": "Create a template for HTML e-mail used for mass mailing",
+    "group": "mailing"
   }
 ];
       let edges = [
@@ -3539,11 +3552,6 @@
   {
     "from": "files-and-folders",
     "to": "hidden-files-and-folders",
-    "arrows": "to"
-  },
-  {
-    "from": "cpu-ram-hdd-ssd-gpu",
-    "to": "sleep-vs-hibernate",
     "arrows": "to"
   },
   {
@@ -6352,71 +6360,6 @@
     "arrows": "to"
   },
   {
-    "from": "overviews",
-    "to": "relational-database",
-    "arrows": "to"
-  },
-  {
-    "from": "relational-database",
-    "to": "crud-via-client-adminerphpmyadmin",
-    "arrows": "to"
-  },
-  {
-    "from": "overviews",
-    "to": "nosql",
-    "arrows": "to"
-  },
-  {
-    "from": "web-browser",
-    "to": "user-agent-header",
-    "arrows": "to"
-  },
-  {
-    "from": "overview-goals-on-and-off-page-factors",
-    "to": "how-search-engines-work",
-    "arrows": "to"
-  },
-  {
-    "from": "overview-goals-on-and-off-page-factors",
-    "to": "on-page-and-technical-seo",
-    "arrows": "to"
-  },
-  {
-    "from": "overview-goals-on-and-off-page-factors",
-    "to": "rich-snippets",
-    "arrows": "to"
-  },
-  {
-    "from": "doctype-html-head-body",
-    "to": "rich-snippets",
-    "arrows": "to"
-  },
-  {
-    "from": "overview-goals-on-and-off-page-factors",
-    "to": "off-page-factors-link-building",
-    "arrows": "to"
-  },
-  {
-    "from": "on-page-and-technical-seo",
-    "to": "sitemapxml",
-    "arrows": "to"
-  },
-  {
-    "from": "on-page-and-technical-seo",
-    "to": "robotstxt",
-    "arrows": "to"
-  },
-  {
-    "from": "need-for-testing",
-    "to": "principles-and-manual-testing",
-    "arrows": "to"
-  },
-  {
-    "from": "principles-and-manual-testing",
-    "to": "automated-testing",
-    "arrows": "to"
-  },
-  {
     "from": "overviewi",
     "to": "npm-scripts",
     "arrows": "to"
@@ -6442,32 +6385,32 @@
     "arrows": "to"
   },
   {
-    "from": "overviewt",
+    "from": "overviews",
     "to": "surgesh",
     "arrows": "to"
   },
   {
-    "from": "overviewt",
+    "from": "overviews",
     "to": "ftp",
     "arrows": "to"
   },
   {
-    "from": "overviewt",
+    "from": "overviews",
     "to": "github-pages",
     "arrows": "to"
   },
   {
-    "from": "overviewt",
+    "from": "overviews",
     "to": "netlify",
     "arrows": "to"
   },
   {
     "from": "web-browser",
-    "to": "overviewu",
+    "to": "overviewt",
     "arrows": "to"
   },
   {
-    "from": "overviewu",
+    "from": "overviewt",
     "to": "elements-html-css",
     "arrows": "to"
   },
@@ -6482,7 +6425,7 @@
     "arrows": "to"
   },
   {
-    "from": "overviewu",
+    "from": "overviewt",
     "to": "console",
     "arrows": "to"
   },
@@ -6492,22 +6435,22 @@
     "arrows": "to"
   },
   {
-    "from": "overviewu",
+    "from": "overviewt",
     "to": "device-mode",
     "arrows": "to"
   },
   {
-    "from": "overviewu",
+    "from": "overviewt",
     "to": "network",
     "arrows": "to"
   },
   {
-    "from": "overviewu",
+    "from": "overviewt",
     "to": "sources",
     "arrows": "to"
   },
   {
-    "from": "overviewu",
+    "from": "overviewt",
     "to": "command-menu",
     "arrows": "to"
   },
@@ -6518,21 +6461,21 @@
   },
   {
     "from": "code-editor-installation",
-    "to": "overviewv",
+    "to": "overviewu",
     "arrows": "to"
   },
   {
-    "from": "overviewv",
+    "from": "overviewu",
     "to": "finding-and-replacing",
     "arrows": "to"
   },
   {
-    "from": "overviewv",
+    "from": "overviewu",
     "to": "online-tools-to-test",
     "arrows": "to"
   },
   {
-    "from": "overviewv",
+    "from": "overviewu",
     "to": "lookaheads-and-lookbehinds",
     "arrows": "to"
   },
@@ -6619,6 +6562,76 @@
   {
     "from": "blocking-and-non-blocking-assets",
     "to": "measuring-speed",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewv",
+    "to": "relational-database",
+    "arrows": "to"
+  },
+  {
+    "from": "relational-database",
+    "to": "crud-via-client-adminerphpmyadmin",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewv",
+    "to": "nosql",
+    "arrows": "to"
+  },
+  {
+    "from": "cpu-ram-hdd-ssd-gpu",
+    "to": "sleep-vs-hibernate",
+    "arrows": "to"
+  },
+  {
+    "from": "web-browser",
+    "to": "user-agent-header",
+    "arrows": "to"
+  },
+  {
+    "from": "overview-goals-on-and-off-page-factors",
+    "to": "how-search-engines-work",
+    "arrows": "to"
+  },
+  {
+    "from": "overview-goals-on-and-off-page-factors",
+    "to": "on-page-and-technical-seo",
+    "arrows": "to"
+  },
+  {
+    "from": "overview-goals-on-and-off-page-factors",
+    "to": "rich-snippets",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "rich-snippets",
+    "arrows": "to"
+  },
+  {
+    "from": "overview-goals-on-and-off-page-factors",
+    "to": "off-page-factors-link-building",
+    "arrows": "to"
+  },
+  {
+    "from": "on-page-and-technical-seo",
+    "to": "sitemapxml",
+    "arrows": "to"
+  },
+  {
+    "from": "on-page-and-technical-seo",
+    "to": "robotstxt",
+    "arrows": "to"
+  },
+  {
+    "from": "need-for-testing",
+    "to": "principles-and-manual-testing",
+    "arrows": "to"
+  },
+  {
+    "from": "principles-and-manual-testing",
+    "to": "automated-testing",
     "arrows": "to"
   },
   {

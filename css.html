@@ -4,7 +4,9 @@
       <meta charset="utf-8">
       <title>CSS « CoreSkill Skill System (CSSS)</title>
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
       <link rel="stylesheet" href="csss.css">
       <link rel="stylesheet" href="firebase.css">
       <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
@@ -12,11 +14,22 @@
       <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
     </head>
     <body>
-      <header class="navbar navbar-dark bg-dark sticky-top">
-        <div class="container">
+      <header class="navbar navbar-dark bg-dark justify-items-start sticky-top">
+        <div class="container-fluid">
           <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
-          <form class="form-inline">
-            <span class="user-select"><select class="form-control mr-3"></select></span>
+          <div>
+            <div class="filter-group bg-white ms-5">
+              <div class="btn-group btn-group-lg bg-dark" role="group">
+                <button type="button" class="filter-done btn px-4 btn-outline-light active">✔️</button>
+                <button type="button" class="filter-star btn px-4 btn-outline-light active">⭐️</button>
+                <button type="button" class="filter-not-done btn px-4 btn-outline-light active">❔️</button>
+              </div>
+            </div>
+            <span class="filter-nothing-found alert alert-danger mt-4 d-none" role="alert">Nothing has been found.</span>
+            <a href="graph.html" class="text-white-50 ms-5">Show dependency graph</a>
+          </div>
+          <form class="form-inline ms-auto">
+            <span class="user-select"><select class="form-control me-3"></select></span>
             <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
             <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
           </form>
@@ -36,565 +49,439 @@
 
 
           <h2 class="mt-5">Subcategories in this category</h2>
-          <div class="list-group">
-              <a
-                href="general.html"
-                class="
+          <div class="list-group list-group-flush">
+              <a href="general.html"
+                 class="
                   skill-item
-                  list-group-item-secondary font-weight-bold
+                  list-group-item-secondary fw-bold
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
                 <span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   General
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-success">start here</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="general">
+                <span class="ms-auto ps-3">
+                    <span class="badge bg-success">start here</span>
+                  <span class="note note-empty badge bg-light" data-slug="general">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="selectors.html"
-                class="
+              <a href="selectors.html"
+                 class="
                   skill-item
-                  list-group-item-secondary font-weight-bold
+                  list-group-item-secondary fw-bold
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
                 <span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   Selectors
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-success">start here</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="selectors">
+                <span class="ms-auto ps-3">
+                    <span class="badge bg-success">start here</span>
+                  <span class="note note-empty badge bg-light" data-slug="selectors">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="styling-text.html"
-                class="
+              <a href="styling-text.html"
+                 class="
                   skill-item
-                  list-group-item-secondary font-weight-bold
+                  list-group-item-secondary fw-bold
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
                 <span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   Styling Text
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-success">start here</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="styling-text">
+                <span class="ms-auto ps-3">
+                    <span class="badge bg-success">start here</span>
+                  <span class="note note-empty badge bg-light" data-slug="styling-text">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="box-model.html"
-                class="
+              <a href="box-model.html"
+                 class="
                   skill-item
-                  list-group-item-secondary font-weight-bold
+                  list-group-item-secondary fw-bold
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
                 <span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   Box Model
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-success">start here</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="box-model">
+                <span class="ms-auto ps-3">
+                    <span class="badge bg-success">start here</span>
+                  <span class="note note-empty badge bg-light" data-slug="box-model">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="css-units.html"
-                class="
+              <a href="css-units.html"
+                 class="
                   skill-item
-                  list-group-item-secondary font-weight-bold
+                  list-group-item-secondary fw-bold
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
                 <span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   CSS Units
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-success">start here</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="css-units">
+                <span class="ms-auto ps-3">
+                    <span class="badge bg-success">start here</span>
+                  <span class="note note-empty badge bg-light" data-slug="css-units">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="box-styling.html"
-                class="
+              <a href="box-styling.html"
+                 class="
                   skill-item
-                  list-group-item-secondary font-weight-bold
+                  list-group-item-secondary fw-bold
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
                 <span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   Box Styling
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-success">start here</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="box-styling">
+                <span class="ms-auto ps-3">
+                    <span class="badge bg-success">start here</span>
+                  <span class="note note-empty badge bg-light" data-slug="box-styling">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="css-values.html"
-                class="
+              <a href="css-values.html"
+                 class="
                   skill-item
-                  list-group-item-secondary font-weight-bold
+                  list-group-item-secondary fw-bold
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
                 <span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   CSS Values
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-success">start here</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="css-values">
+                <span class="ms-auto ps-3">
+                    <span class="badge bg-success">start here</span>
+                  <span class="note note-empty badge bg-light" data-slug="css-values">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="positioning.html"
-                class="
+              <a href="positioning.html"
+                 class="
                   skill-item
-                  list-group-item-secondary font-weight-bold
+                  list-group-item-secondary fw-bold
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
                 <span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   Positioning
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-success">start here</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="positioning">
+                <span class="ms-auto ps-3">
+                    <span class="badge bg-success">start here</span>
+                  <span class="note note-empty badge bg-light" data-slug="positioning">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="float1.html"
-                class="
+              <a href="float1.html"
+                 class="
                   skill-item
-                  list-group-item-secondary font-weight-bold
+                  list-group-item-secondary fw-bold
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
                 <span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   Float
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-success">start here</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="float1">
+                <span class="ms-auto ps-3">
+                    <span class="badge bg-success">start here</span>
+                  <span class="note note-empty badge bg-light" data-slug="float1">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="flexible-layout-module-flexbox.html"
-                class="
+              <a href="flexible-layout-module-flexbox.html"
+                 class="
                   skill-item
-                  list-group-item-secondary font-weight-bold
+                  list-group-item-secondary fw-bold
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
                 <span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   Flexible Layout Module (Flexbox)
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-success">start here</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="flexible-layout-module-flexbox">
+                <span class="ms-auto ps-3">
+                    <span class="badge bg-success">start here</span>
+                  <span class="note note-empty badge bg-light" data-slug="flexible-layout-module-flexbox">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="css-grid.html"
-                class="
+              <a href="css-grid.html"
+                 class="
                   skill-item
-                  list-group-item-secondary font-weight-bold
+                  list-group-item-secondary fw-bold
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
                 <span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   CSS Grid
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-success">start here</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="css-grid">
+                <span class="ms-auto ps-3">
+                    <span class="badge bg-success">start here</span>
+                  <span class="note note-empty badge bg-light" data-slug="css-grid">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="other-css-properties.html"
-                class="
+              <a href="other-css-properties.html"
+                 class="
                   skill-item
-                  list-group-item-secondary font-weight-bold
+                  list-group-item-secondary fw-bold
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
                 <span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   Other CSS Properties
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-success">start here</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="other-css-properties">
+                <span class="ms-auto ps-3">
+                    <span class="badge bg-success">start here</span>
+                  <span class="note note-empty badge bg-light" data-slug="other-css-properties">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="pseudo-classes.html"
-                class="
+              <a href="pseudo-classes.html"
+                 class="
                   skill-item
-                  list-group-item-secondary font-weight-bold
+                  list-group-item-secondary fw-bold
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
                 <span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   Pseudo Classes
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-success">start here</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="pseudo-classes">
+                <span class="ms-auto ps-3">
+                    <span class="badge bg-success">start here</span>
+                  <span class="note note-empty badge bg-light" data-slug="pseudo-classes">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="pseudo-elements.html"
-                class="
+              <a href="pseudo-elements.html"
+                 class="
                   skill-item
-                  list-group-item-secondary font-weight-bold
+                  list-group-item-secondary fw-bold
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
                 <span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   Pseudo Elements
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-success">start here</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="pseudo-elements">
+                <span class="ms-auto ps-3">
+                    <span class="badge bg-success">start here</span>
+                  <span class="note note-empty badge bg-light" data-slug="pseudo-elements">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="print-css.html"
-                class="
+              <a href="print-css.html"
+                 class="
                   skill-item
-                  list-group-item-secondary font-weight-bold
+                  list-group-item-secondary fw-bold
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
                 <span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   Print CSS
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-success">start here</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="print-css">
+                <span class="ms-auto ps-3">
+                    <span class="badge bg-success">start here</span>
+                  <span class="note note-empty badge bg-light" data-slug="print-css">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="architecture.html"
-                class="
+              <a href="architecture.html"
+                 class="
                   skill-item
-                  list-group-item-secondary font-weight-bold
+                  list-group-item-secondary fw-bold
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
                 <span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   Architecture
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-success">start here</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="architecture">
+                <span class="ms-auto ps-3">
+                    <span class="badge bg-success">start here</span>
+                  <span class="note note-empty badge bg-light" data-slug="architecture">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="sass.html"
-                class="
+              <a href="sass.html"
+                 class="
                   skill-item
-                  list-group-item-secondary font-weight-bold
+                  list-group-item-secondary fw-bold
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
                 <span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   Sass
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-success">start here</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="sass">
+                <span class="ms-auto ps-3">
+                    <span class="badge bg-success">start here</span>
+                  <span class="note note-empty badge bg-light" data-slug="sass">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="twitter-bootstrap.html"
-                class="
+              <a href="twitter-bootstrap.html"
+                 class="
                   skill-item
-                  list-group-item-secondary font-weight-bold
+                  list-group-item-secondary fw-bold
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
                 <span>
-              
-              
-                      <span class="badge badge-light">🚧️</span>
-              
                   Twitter Bootstrap
-              
                 </span>
               
-                <span>
-                    <span class="badge badge-success">start here</span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="twitter-bootstrap">
+                <span class="ms-auto ps-3">
+                    <span class="badge bg-success">start here</span>
+                  <span class="note note-empty badge bg-light" data-slug="twitter-bootstrap">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
           </div>
       </main>
       <script src="firebase.js"></script>

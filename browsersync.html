@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <title>Browsersync « CoreSkill Skill System (CSSS)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="csss.css">
     <link rel="stylesheet" href="firebase.css">
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
@@ -12,11 +14,22 @@
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
   </head>
   <body>
-  <header class="navbar navbar-dark bg-dark sticky-top">
-    <div class="container">
+  <header class="navbar navbar-dark bg-dark justify-items-start sticky-top">
+    <div class="container-fluid">
       <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
-      <form class="form-inline">
-        <span class="user-select"><select class="form-control mr-3"></select></span>
+      <div>
+        <div class="filter-group bg-white ms-5">
+          <div class="btn-group btn-group-lg bg-dark" role="group">
+            <button type="button" class="filter-done btn px-4 btn-outline-light active">✔️</button>
+            <button type="button" class="filter-star btn px-4 btn-outline-light active">⭐️</button>
+            <button type="button" class="filter-not-done btn px-4 btn-outline-light active">❔️</button>
+          </div>
+        </div>
+        <span class="filter-nothing-found alert alert-danger mt-4 d-none" role="alert">Nothing has been found.</span>
+        <a href="graph.html" class="text-white-50 ms-5">Show dependency graph</a>
+      </div>
+      <form class="form-inline ms-auto">
+        <span class="user-select"><select class="form-control me-3"></select></span>
         <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
         <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
       </form>
@@ -28,7 +41,7 @@
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
-          <li class="breadcrumb-item"><a href="miscellaneous.html">Miscellaneous</a></li>
+          <li class="breadcrumb-item"><a href="advanced.html">Advanced</a></li>
           <li class="breadcrumb-item"><a href="automation.html">Automation</a></li>
         <li class="breadcrumb-item active" aria-current="page">Browsersync</li>
       </ol>
@@ -37,41 +50,37 @@
     <div class="row">
       <div class="col-3">
           <h2 class="mt-3">Prerequisites</h2>
-          <div class="list-group">
-              <a
-                href="npm-scripts.html"
-                class="
+          <div class="list-group list-group-flush">
+              <a href="npm-scripts.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="npm-scripts">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="npm-scripts">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-              
                   npm scripts
-              
                 </span>
               
-                <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="npm-scripts">
+                <span class="ms-auto ps-3">
+                  <span class="note note-empty badge bg-light" data-slug="npm-scripts">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
           </div>
       </div>
 
@@ -94,7 +103,7 @@
             <p class="m-0 lead text-monospace">Installation, basic options, server mode, proxy mode</p>
 
             <h2 class="mt-5">Resources</h2>
-            <div class="list-group">
+            <div class="list-group list-group-flush">
                 <a href="https://www.browsersync.io/" class="list-group-item list-group-item-action flex-column align-items-start">
                   <div class="d-flex w-100 justify-content-between">
                     <h5 class="mb-1">
@@ -111,112 +120,100 @@
         </div>
 
           <h2 class="mt-5">Also learn these skills</h2>
-          <div class="list-group">
-              <a
-                href="transpilation-with-babel.html"
-                class="
+          <div class="list-group list-group-flush">
+              <a href="transpilation-with-babel.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
-                <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="transpilation-with-babel">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
+                  <span class="indicator indicator-list text-center p-1" data-slug="transpilation-with-babel">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
               
+                <span>
                     <span class="text-muted">
                       JavaScript » Browser Compatibility and Transpilation » 
                     </span>
-              
-              
                   Transpilation with Babel
-              
                 </span>
               
-                <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="transpilation-with-babel">
+                <span class="ms-auto ps-3">
+                  <span class="note note-empty badge bg-light" data-slug="transpilation-with-babel">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="gulp.html"
-                class="
+              <a href="gulp.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="gulp">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="gulp">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-              
                   Gulp
-              
                 </span>
               
-                <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="gulp">
+                <span class="ms-auto ps-3">
+                  <span class="note note-empty badge bg-light" data-slug="gulp">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
-              <a
-                href="postcss-autoprefixer.html"
-                class="
+              <a href="postcss-autoprefixer.html"
+                 class="
                   skill-item
                   
                   list-group-item
                   list-group-item-action
                   d-flex
-                  justify-content-between
-                  align-items-center
-                  py-1 pl-0 pr-2
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
                 "
               >
+                  <span class="indicator indicator-list text-center p-1" data-slug="postcss-autoprefixer">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
                 <span>
-                    <span class="indicator indicator-list text-center p-1" data-slug="postcss-autoprefixer">
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-              
-              
-              
                   PostCSS: autoprefixer
-              
                 </span>
               
-                <span>
-                  <span class="note note-empty badge badge-danger badge-pill" data-slug="postcss-autoprefixer">
+                <span class="ms-auto ps-3">
+                  <span class="note note-empty badge bg-light" data-slug="postcss-autoprefixer">
                     <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer font-weight-normal">✏️</span>
+                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
                   </span>
                 </span>
               </a>
-              
           </div>
 
       </div>
