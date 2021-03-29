@@ -35,8 +35,8 @@ a.list-group-item {
 
   .skill-section {
     flex: 1 1 auto;
-    min-width: 20rem;
-    max-width: 30rem;
+    min-width: 26rem;
+    max-width: 36rem;
   }
 }
 
