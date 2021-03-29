@@ -97,6 +97,8 @@ requires:
   - Overview
 
 ---
-skill: history (up & down arrows to repeat)
+skill: history
+text: "- up & down arrows to repeat
+- Ctrl+R to search history"
 requires:
   - Overview
