@@ -14,1228 +14,1228 @@
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
   </head>
   <body>
-  <header class="navbar navbar-dark bg-dark justify-items-start sticky-top">
-    <div class="container-fluid">
-      <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
-      <div>
-        <div class="filter-group bg-white ms-5">
-          <div class="btn-group bg-dark" role="group">
-            <button type="button" class="filter-done btn px-4 btn-outline-light active">✔️</button>
-            <button type="button" class="filter-star btn px-4 btn-outline-light active">⭐️</button>
-            <button type="button" class="filter-not-done btn px-4 btn-outline-light active">❔️</button>
+    <header class="navbar navbar-dark bg-dark justify-items-start sticky-top">
+      <div class="container-fluid">
+        <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
+        <div>
+          <div class="filter-group bg-white ms-5">
+            <div class="btn-group bg-dark" role="group">
+              <button type="button" class="filter-done btn px-4 btn-outline-light active">✔️</button>
+              <button type="button" class="filter-star btn px-4 btn-outline-light active">⭐️</button>
+              <button type="button" class="filter-not-done btn px-4 btn-outline-light active">❔️</button>
+            </div>
           </div>
+          <span class="filter-nothing-found alert alert-danger mt-4 d-none" role="alert">Nothing has been found.</span>
+          <a href="graph.html" class="text-white-50 ms-5">Show dependency graph</a>
         </div>
-        <span class="filter-nothing-found alert alert-danger mt-4 d-none" role="alert">Nothing has been found.</span>
-        <a href="graph.html" class="text-white-50 ms-5">Show dependency graph</a>
+        <form class="form-inline ms-auto">
+          <span class="user-select"><select class="form-control me-3"></select></span>
+          <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
+          <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
+        </form>
       </div>
-      <form class="form-inline ms-auto">
-        <span class="user-select"><select class="form-control me-3"></select></span>
-        <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
-        <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
-      </form>
-    </div>
-  </header>
+    </header>
 
-  <main class="container-fluid p-4">
+    <main class="container-fluid p-4">
 
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
-          <li class="breadcrumb-item"><a href="javascript.html">JavaScript</a></li>
-          <li class="breadcrumb-item"><a href="variables1.html">Variables</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Overview</li>
-      </ol>
-    </nav>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
+            <li class="breadcrumb-item"><a href="javascript.html">JavaScript</a></li>
+            <li class="breadcrumb-item"><a href="variables1.html">Variables</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Overview</li>
+        </ol>
+      </nav>
 
-    <div class="row">
-      <div class="col-3">
-          <h2 class="mt-3">Prerequisites</h2>
-          <div class="list-group list-group-flush">
-              <a href="overview9.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="overview9">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » Basics » 
-                    </span>
-                  Overview
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                    <span class="badge bg-success">start here</span>
-                  <span class="note note-empty badge bg-light" data-slug="overview9">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-          </div>
-      </div>
-
-      <div class="col-6">
-        <div class="mt-5 p-3 bg-light">
-
-          <h1 class="display-3">
-            <span class="indicator text-center p-1" data-slug="overviewn">
-              <span class="done">✔️</span>
-              <span class="star">⭐️</span>
-              <span class="not-done">❔️</span>
-            </span>
-            Overview
-          </h1>
-
-          <p>
-            <small><a href="graph.html#overviewn">Show in dependency graph</a></small>
-          </p>
-
-
-            <h2 class="mt-5">Resources</h2>
+      <div class="row">
+        <div class="col-3">
+            <h2 class="mt-3">Prerequisites</h2>
             <div class="list-group list-group-flush">
-                <a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/intro-variables" class="list-group-item list-group-item-action flex-column align-items-start">
-                  <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">
-                      https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/intro-variables
-                      
-                    </h5>
-                  </div>
-                  <p class="mb-1">
+                <a href="overview9.html"
+                   class="
+                    skill-item
                     
-                    
-                  </p>
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="overview9">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » Basics » 
+                      </span>
+                    Overview
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                        <!--<span class="badge bg-success">start here</span>-->
+                      <span class="note note-empty badge bg-light" data-slug="overview9">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
                 </a>
             </div>
         </div>
 
-          <h2 class="mt-5">Also learn these skills</h2>
-          <div class="list-group list-group-flush">
-              <a href="overview7.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="overview7">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » Arrays » 
-                    </span>
-                  Overview
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="overview7">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="consolelog.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="consolelog">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » Basics » 
-                    </span>
-                  Console.log()
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="consolelog">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="data-types.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="data-types">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » Basics » 
-                    </span>
-                  Data Types
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="data-types">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="arithmetic-operators.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="arithmetic-operators">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » Basics » 
-                    </span>
-                  Arithmetic Operators
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="arithmetic-operators">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="properties.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="properties">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » Basics » 
-                    </span>
-                  Properties
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="properties">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="built-in-methods.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="built-in-methods">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » Basics » 
-                    </span>
-                  Built-in Methods
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="built-in-methods">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="data-instances-in-javascript.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="data-instances-in-javascript">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » Basics » 
-                    </span>
-                  Data Instances in JavaScript
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="data-instances-in-javascript">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="built-in-libraries.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="built-in-libraries">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » Basics » 
-                    </span>
-                  Built-in Libraries
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="built-in-libraries">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="comments2.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="comments2">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » Basics » 
-                    </span>
-                  Comments
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="comments2">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="overviewa.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="overviewa">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » Browser Compatibility and Transpilation » 
-                    </span>
-                  Overview
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="overviewa">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="control-flow.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="control-flow">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » Conditionals » 
-                    </span>
-                  Control Flow
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="control-flow">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="comparison-operators.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="comparison-operators">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » Conditionals » 
-                    </span>
-                  Comparison Operators
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="comparison-operators">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="logical-operators.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="logical-operators">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » Conditionals » 
-                    </span>
-                  Logical operators
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="logical-operators">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="truthy-and-falsy.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="truthy-and-falsy">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » Conditionals » 
-                    </span>
-                  Truthy and Falsy
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="truthy-and-falsy">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="ternary-operator.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="ternary-operator">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » Conditionals » 
-                    </span>
-                  Ternary operator
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="ternary-operator">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="switch.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="switch">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » Conditionals » 
-                    </span>
-                  Switch
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="switch">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="principles.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="principles">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » Functions » 
-                    </span>
-                  Principles
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="principles">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="overviewe.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="overviewe">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » Higher-order Functions » 
-                    </span>
-                  Overview
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="overviewe">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="overviewh.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="overviewh">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » Modules » 
-                    </span>
-                  Overview
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                    <span class="badge rounded-pill bg-primary">4</span>
-                  <span class="note note-empty badge bg-light" data-slug="overviewh">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="overviewi.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="overviewi">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-                      <span class="badge ps-0 pe-2">🚧️</span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » Node.js » 
-                    </span>
-                  Overview
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="overviewi">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="overviewj.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="overviewj">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » Objects » 
-                    </span>
-                  Overview
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="overviewj">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="overviewk.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="overviewk">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » Promises » 
-                    </span>
-                  Overview
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="overviewk">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="overviewo.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="overviewo">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » jQuery » 
-                    </span>
-                  Overview
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="overviewo">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="console.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="console">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      Advanced » Dev Tools » 
-                    </span>
-                  Console
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="console">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
+        <div class="col-6">
+          <div class="mt-5 p-3 bg-light">
+
+            <h1 class="display-3">
+              <span class="indicator text-center p-1" data-slug="overviewn">
+                <span class="done">✔️</span>
+                <span class="star">⭐️</span>
+                <span class="not-done">❔️</span>
+              </span>
+              Overview
+            </h1>
+
+            <p>
+              <small><a href="graph.html#overviewn">Show in dependency graph</a></small>
+            </p>
+
+
+              <h2 class="mt-5">Resources</h2>
+              <div class="list-group list-group-flush">
+                  <a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/intro-variables" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">
+                        https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/intro-variables
+                        
+                      </h5>
+                    </div>
+                    <p class="mb-1">
+                      
+                      
+                    </p>
+                  </a>
+              </div>
           </div>
 
+            <h2 class="mt-5">Also learn these skills</h2>
+            <div class="list-group list-group-flush">
+                <a href="overview7.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="overview7">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » Arrays » 
+                      </span>
+                    Overview
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="overview7">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="consolelog.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="consolelog">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » Basics » 
+                      </span>
+                    Console.log()
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="consolelog">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="data-types.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="data-types">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » Basics » 
+                      </span>
+                    Data Types
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="data-types">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="arithmetic-operators.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="arithmetic-operators">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » Basics » 
+                      </span>
+                    Arithmetic Operators
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="arithmetic-operators">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="properties.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="properties">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » Basics » 
+                      </span>
+                    Properties
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="properties">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="built-in-methods.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="built-in-methods">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » Basics » 
+                      </span>
+                    Built-in Methods
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="built-in-methods">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="data-instances-in-javascript.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="data-instances-in-javascript">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » Basics » 
+                      </span>
+                    Data Instances in JavaScript
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="data-instances-in-javascript">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="built-in-libraries.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="built-in-libraries">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » Basics » 
+                      </span>
+                    Built-in Libraries
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="built-in-libraries">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="comments2.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="comments2">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » Basics » 
+                      </span>
+                    Comments
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="comments2">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="overviewa.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="overviewa">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » Browser Compatibility and Transpilation » 
+                      </span>
+                    Overview
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="overviewa">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="control-flow.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="control-flow">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » Conditionals » 
+                      </span>
+                    Control Flow
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="control-flow">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="comparison-operators.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="comparison-operators">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » Conditionals » 
+                      </span>
+                    Comparison Operators
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="comparison-operators">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="logical-operators.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="logical-operators">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » Conditionals » 
+                      </span>
+                    Logical operators
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="logical-operators">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="truthy-and-falsy.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="truthy-and-falsy">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » Conditionals » 
+                      </span>
+                    Truthy and Falsy
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="truthy-and-falsy">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="ternary-operator.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="ternary-operator">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » Conditionals » 
+                      </span>
+                    Ternary operator
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="ternary-operator">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="switch.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="switch">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » Conditionals » 
+                      </span>
+                    Switch
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="switch">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="principles.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="principles">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » Functions » 
+                      </span>
+                    Principles
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="principles">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="overviewe.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="overviewe">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » Higher-order Functions » 
+                      </span>
+                    Overview
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="overviewe">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="overviewh.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="overviewh">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » Modules » 
+                      </span>
+                    Overview
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                        <span class="badge rounded-pill bg-primary">4</span>
+                      <span class="note note-empty badge bg-light" data-slug="overviewh">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="overviewi.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="overviewi">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                        <span class="badge ps-0 pe-2">🚧️</span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » Node.js » 
+                      </span>
+                    Overview
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="overviewi">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="overviewj.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="overviewj">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » Objects » 
+                      </span>
+                    Overview
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="overviewj">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="overviewk.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="overviewk">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » Promises » 
+                      </span>
+                    Overview
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="overviewk">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="overviewo.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="overviewo">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » jQuery » 
+                      </span>
+                    Overview
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="overviewo">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="console.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="console">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        Advanced » Dev Tools » 
+                      </span>
+                    Console
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="console">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="col-3">
+            <h2 class="mt-5">Following skills</h2>
+            <div class="list-group list-group-flush">
+                <a href="overviewg.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="overviewg">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » Loops » 
+                      </span>
+                    Overview
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="overviewg">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="overviewm.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="overviewm">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        JavaScript » Scope » 
+                      </span>
+                    Overview
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="overviewm">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="creating-variables-var.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="creating-variables-var">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                    Creating variables: var
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="creating-variables-var">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="creating-variables-const.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="creating-variables-const">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                    Creating variables: const
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="creating-variables-const">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="creating-variables-let.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="creating-variables-let">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                    Creating variables: let
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="creating-variables-let">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="undefined.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="undefined">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                    Undefined
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="undefined">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="mathematical-assignment-operators.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="mathematical-assignment-operators">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                    Mathematical Assignment Operators (++, --, -&#x3D;, +&#x3D;, *&#x3D;)
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="mathematical-assignment-operators">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="string-concatenation-with-variables.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="string-concatenation-with-variables">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                    String Concatenation with Variables
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="string-concatenation-with-variables">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="string-interpolation-es6-ie-foo-variable.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="string-interpolation-es6-ie-foo-variable">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                    String Interpolation: ES6 i.e. &#x60;Foo ${variable}&#x60;
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="string-interpolation-es6-ie-foo-variable">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="typeof-operator.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="typeof-operator">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                    typeof operator
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="typeof-operator">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+            </div>
+        </div>
       </div>
 
-      <div class="col-3">
-          <h2 class="mt-5">Following skills</h2>
-          <div class="list-group list-group-flush">
-              <a href="overviewg.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="overviewg">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » Loops » 
-                    </span>
-                  Overview
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="overviewg">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="overviewm.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="overviewm">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      JavaScript » Scope » 
-                    </span>
-                  Overview
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="overviewm">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="creating-variables-var.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="creating-variables-var">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                  Creating variables: var
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="creating-variables-var">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="creating-variables-const.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="creating-variables-const">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                  Creating variables: const
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="creating-variables-const">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="creating-variables-let.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="creating-variables-let">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                  Creating variables: let
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="creating-variables-let">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="undefined.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="undefined">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                  Undefined
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="undefined">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="mathematical-assignment-operators.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="mathematical-assignment-operators">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                  Mathematical Assignment Operators (++, --, -&#x3D;, +&#x3D;, *&#x3D;)
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="mathematical-assignment-operators">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="string-concatenation-with-variables.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="string-concatenation-with-variables">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                  String Concatenation with Variables
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="string-concatenation-with-variables">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="string-interpolation-es6-ie-foo-variable.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="string-interpolation-es6-ie-foo-variable">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                  String Interpolation: ES6 i.e. &#x60;Foo ${variable}&#x60;
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="string-interpolation-es6-ie-foo-variable">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="typeof-operator.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="typeof-operator">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                  typeof operator
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="typeof-operator">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-          </div>
-      </div>
-    </div>
-
-  </main>
-  <script src="firebase.js"></script>
+    </main>
+    <script src="firebase.js"></script>
   </body>
   </html>

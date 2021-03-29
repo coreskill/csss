@@ -14,215 +14,215 @@
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
   </head>
   <body>
-  <header class="navbar navbar-dark bg-dark justify-items-start sticky-top">
-    <div class="container-fluid">
-      <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
-      <div>
-        <div class="filter-group bg-white ms-5">
-          <div class="btn-group bg-dark" role="group">
-            <button type="button" class="filter-done btn px-4 btn-outline-light active">✔️</button>
-            <button type="button" class="filter-star btn px-4 btn-outline-light active">⭐️</button>
-            <button type="button" class="filter-not-done btn px-4 btn-outline-light active">❔️</button>
+    <header class="navbar navbar-dark bg-dark justify-items-start sticky-top">
+      <div class="container-fluid">
+        <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
+        <div>
+          <div class="filter-group bg-white ms-5">
+            <div class="btn-group bg-dark" role="group">
+              <button type="button" class="filter-done btn px-4 btn-outline-light active">✔️</button>
+              <button type="button" class="filter-star btn px-4 btn-outline-light active">⭐️</button>
+              <button type="button" class="filter-not-done btn px-4 btn-outline-light active">❔️</button>
+            </div>
           </div>
+          <span class="filter-nothing-found alert alert-danger mt-4 d-none" role="alert">Nothing has been found.</span>
+          <a href="graph.html" class="text-white-50 ms-5">Show dependency graph</a>
         </div>
-        <span class="filter-nothing-found alert alert-danger mt-4 d-none" role="alert">Nothing has been found.</span>
-        <a href="graph.html" class="text-white-50 ms-5">Show dependency graph</a>
+        <form class="form-inline ms-auto">
+          <span class="user-select"><select class="form-control me-3"></select></span>
+          <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
+          <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
+        </form>
       </div>
-      <form class="form-inline ms-auto">
-        <span class="user-select"><select class="form-control me-3"></select></span>
-        <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
-        <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
-      </form>
-    </div>
-  </header>
+    </header>
 
-  <main class="container-fluid p-4">
+    <main class="container-fluid p-4">
 
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
-          <li class="breadcrumb-item"><a href="basics.html">Basics</a></li>
-          <li class="breadcrumb-item"><a href="files.html">Files</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Files and folders</li>
-      </ol>
-    </nav>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
+            <li class="breadcrumb-item"><a href="basics.html">Basics</a></li>
+            <li class="breadcrumb-item"><a href="files.html">Files</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Files and folders</li>
+        </ol>
+      </nav>
 
-    <div class="row">
-      <div class="col-3">
-      </div>
+      <div class="row">
+        <div class="col-3">
+        </div>
 
-      <div class="col-6">
-        <div class="mt-5 p-3 bg-light">
+        <div class="col-6">
+          <div class="mt-5 p-3 bg-light">
 
-          <h1 class="display-3">
-            <span class="indicator text-center p-1" data-slug="files-and-folders">
-              <span class="done">✔️</span>
-              <span class="star">⭐️</span>
-              <span class="not-done">❔️</span>
-            </span>
-            Files and folders
-          </h1>
+            <h1 class="display-3">
+              <span class="indicator text-center p-1" data-slug="files-and-folders">
+                <span class="done">✔️</span>
+                <span class="star">⭐️</span>
+                <span class="not-done">❔️</span>
+              </span>
+              Files and folders
+            </h1>
 
-          <p>
-            <small><a href="graph.html#files-and-folders">Show in dependency graph</a></small>
-          </p>
+            <p>
+              <small><a href="graph.html#files-and-folders">Show in dependency graph</a></small>
+            </p>
 
 
-            <h2 class="mt-5">Resources</h2>
-            <div class="list-group list-group-flush">
-                <a href="https://www.codecademy.com/courses/learn-the-command-line/lessons/navigation/exercises/filesystem" class="list-group-item list-group-item-action flex-column align-items-start">
-                  <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">
-                      https://www.codecademy.com/courses/learn-the-command-line/lessons/navigation/exercises/filesystem
+              <h2 class="mt-5">Resources</h2>
+              <div class="list-group list-group-flush">
+                  <a href="https://www.codecademy.com/courses/learn-the-command-line/lessons/navigation/exercises/filesystem" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">
+                        https://www.codecademy.com/courses/learn-the-command-line/lessons/navigation/exercises/filesystem
+                        
+                      </h5>
+                    </div>
+                    <p class="mb-1">
                       
-                    </h5>
-                  </div>
-                  <p class="mb-1">
+                      
+                    </p>
+                  </a>
+              </div>
+          </div>
+
+
+        </div>
+
+        <div class="col-3">
+            <h2 class="mt-5">Following skills</h2>
+            <div class="list-group list-group-flush">
+                <a href="install.html"
+                   class="
+                    skill-item
                     
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="install">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        Basics » CLI » 
+                      </span>
+                    Install
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="install">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="navigating-the-file-system.html"
+                   class="
+                    skill-item
                     
-                  </p>
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="navigating-the-file-system">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                      <span class="text-muted">
+                        Basics » CLI » 
+                      </span>
+                    Navigating the file system
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="navigating-the-file-system">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="text-vs-binary-files.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="text-vs-binary-files">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                    text vs. binary files
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="text-vs-binary-files">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="hidden-files-and-folders.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="hidden-files-and-folders">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                        <span class="badge ps-0 pe-2">🚧️</span>
+                
+                  <span>
+                    Hidden files and folders
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                      <span class="note note-empty badge bg-light" data-slug="hidden-files-and-folders">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
                 </a>
             </div>
         </div>
-
-
       </div>
 
-      <div class="col-3">
-          <h2 class="mt-5">Following skills</h2>
-          <div class="list-group list-group-flush">
-              <a href="install.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="install">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      Basics » CLI » 
-                    </span>
-                  Install
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="install">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="navigating-the-file-system.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="navigating-the-file-system">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                    <span class="text-muted">
-                      Basics » CLI » 
-                    </span>
-                  Navigating the file system
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="navigating-the-file-system">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="text-vs-binary-files.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="text-vs-binary-files">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-              
-                <span>
-                  text vs. binary files
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="text-vs-binary-files">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-              <a href="hidden-files-and-folders.html"
-                 class="
-                  skill-item
-                  
-                  list-group-item
-                  list-group-item-action
-                  d-flex
-                  justify-content-start
-                  align-items-baseline
-                  py-1 ps-0 pe-2
-                "
-              >
-                  <span class="indicator indicator-list text-center p-1" data-slug="hidden-files-and-folders">
-                    <span class="locked">🔒️</span>
-                    <span class="done">✔️</span>
-                    <span class="star">⭐️</span>
-                    <span class="not-done">❔️</span>
-                  </span>
-                      <span class="badge ps-0 pe-2">🚧️</span>
-              
-                <span>
-                  Hidden files and folders
-                </span>
-              
-                <span class="ms-auto ps-3 text-end">
-                  <span class="note note-empty badge bg-light" data-slug="hidden-files-and-folders">
-                    <span class="note-value"></span>
-                    <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                  </span>
-                </span>
-              </a>
-          </div>
-      </div>
-    </div>
-
-  </main>
-  <script src="firebase.js"></script>
+    </main>
+    <script src="firebase.js"></script>
   </body>
   </html>
