@@ -6,51 +6,99 @@ skill: Type selectors
 level: 1
 requires:
   - General // Basic CSS Syntax
-
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors
+    type: reference
+  
 ---
 skill: Class selectors
 level: 2
 requires:
-  - General // Basic CSS Syntax
+  - Type selectors
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors
+    type: reference
 
 ---
 skill: Id selectors
 level: 2
 requires:
-  - General // Basic CSS Syntax
+  - Type selectors
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors
+    type: reference
 
 ---
-skill: Selector Specificity
+skill: Selector list (x, y)
 level: 2
 requires:
-  - General // Basic CSS Syntax
+  - Type selectors
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/Selector_list
+    type: reference
 
 ---
 skill: Descendant combinator (x y)
 level: 2
 requires:
-  - General // Basic CSS Syntax
+  - Type selectors
+  - Class selectors
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator
+    type: reference
+
+---
+skill: Selector Specificity
+level: 2
+requires:
+  - Type selectors
+  - Class selectors
+  - Id selectors
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+    type: reference
+
+---
+skill: Universal selector (*)
+level: 2
+requires:
+  - Type selectors
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors
+    type: reference
 
 ---
 skill: Child combinator (x>y)
 level: 3
 requires:
-  - General // Basic CSS Syntax
+  - Descendant combinator (x y)
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator
+    type: reference
 
 ---
 skill: Adjacent sibling combinator (x+y)
 level: 4
 requires:
-  - General // Basic CSS Syntax
+  - Descendant combinator (x y)
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator
+    type: reference
 
 ---
 skill: General sibling combinator (x~y)
 level: 4
 requires:
-  - General // Basic CSS Syntax
+  - Descendant combinator (x y)
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator
+    type: reference
 
 ---
 skill: Attribute selectors (a[href=x])
 level: 4
 requires:
-  - General // Basic CSS Syntax
+  - Type selectors
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors
+    type: reference
