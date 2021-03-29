@@ -6,8 +6,8 @@
   "repository": "coreskill/csss",
   "scripts": {
     "build": "ts-node index.ts",
-    "browsersync": "browser-sync start --server \"build\" --files \"build/*.*\" --port 7777",
-    "watch": "chokidar \"skills/**/*.yml\" \"(partials|layouts)/**/*.hbs\", --command \"npm run build\" --debounce 2000",
+    "browsersync": "browser-sync start --config bs-config.js",
+    "watch": "chokidar \"skills/**/*.yml\" \"(partials|layouts)/**/*.hbs\" --debounce 3000 --throttle 3000 --command \"npm run build\"",
     "dev": "npm run build && concurrently --kill-others --names \"BSync,watch\" --prefix-colors \"yellow,green\" \"npm run browsersync\" \"npm run watch\""
   },
   "dependencies": {
