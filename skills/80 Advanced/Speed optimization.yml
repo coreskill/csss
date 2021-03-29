@@ -1,5 +1,5 @@
 ---
-sort: 90
+sort: 80
 
 ---
 skill: Why
@@ -148,4 +148,3 @@ resources:
     type: tool
   - url: https://gtmetrix.com/
     type: tool
-

@@ -1,0 +1,48 @@
+---
+sort: 5
+
+---
+skill: W3C vs. W3Schools vs. references
+resources:
+  - url: https://w3.org
+    desc: Organisation developing web standards.
+  - url: https://w3schools.com
+    desc: Do not use. Contains errors and bad practices.
+  - url: https://mdn.io
+    desc: Best reference. Very complete. HTML, CSS, JavaScript, SVG, …
+  - url: https://htmlreference.io
+    desc: Good HTML reference for beginners but not complete.
+  - url: https://cssreference.io
+    desc: Good CSS reference for beginners but not complete.
+  - url: https://24ways.org/2018/researching-a-property-in-the-css-specifications/
+    desc: Researching a Property in the CSS Specifications
+    type: article
+    
+
+---
+skill: caniuse.com
+resources:
+  - url: https://caniuse.com
+
+---
+skill: Advanced searching for information
+text: how and why, time limited search, exclusion, exact search, filetype, domain
+
+---
+skill: Magazines, blogs and other reliable resources 
+text: These are recommended sources to be trusted (not blindly though).
+resources:
+  - url: https://css-tricks.com/
+    desc: Magazine about building websites and all that entails, mostly from a front-end perspective.
+    type: magazine
+  - url: https://alistapart.com/
+    desc: For People Who Make Websites. A List Apart explores the design, development, and meaning of web content, with a special focus on web standards and best practices.
+    type: magazine
+  - url: https://www.smashingmagazine.com/
+    desc: Smashing Magazine delivers reliable, useful, but most importantly practical articles to web designers and developers
+    type: magazine
+  - url: https://ishadeed.com/
+    desc: Interesting CSS solutions.
+    type: blog
+  - url: https://moderncss.dev/
+    desc: “Modern CSS Solutions for Old CSS Problems”

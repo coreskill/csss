@@ -1,5 +1,5 @@
 ---
-sort: 90
+sort: 20
 
 ---
 skill: Overview
@@ -49,7 +49,7 @@ resources:
 ---
 skill: WAI-ARIA roles overview
 requires:
-  - Basic structure // <!doctype>, <html>, <head>, <body>
+  - HTML // Basic structure // <!doctype>, <html>, <head>, <body>
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics
   - url: https://www.vzhurudolu.cz/prirucka/html5-struktura
