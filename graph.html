@@ -1353,13 +1353,23 @@
     "group": "selectors"
   },
   {
-    "id": "selector-specificity",
-    "label": "Selector Specificity",
+    "id": "selector-list-x-y",
+    "label": "Selector list (x, y)",
     "group": "selectors"
   },
   {
     "id": "descendant-combinator-x-y",
     "label": "Descendant combinator (x y)",
+    "group": "selectors"
+  },
+  {
+    "id": "selector-specificity",
+    "label": "Selector Specificity",
+    "group": "selectors"
+  },
+  {
+    "id": "universal-selector",
+    "label": "Universal selector (*)",
     "group": "selectors"
   },
   {
@@ -4660,42 +4670,67 @@
     "arrows": "to"
   },
   {
-    "from": "basic-css-syntax",
+    "from": "type-selectors",
     "to": "class-selectors",
     "arrows": "to"
   },
   {
-    "from": "basic-css-syntax",
+    "from": "type-selectors",
     "to": "id-selectors",
     "arrows": "to"
   },
   {
-    "from": "basic-css-syntax",
-    "to": "selector-specificity",
+    "from": "type-selectors",
+    "to": "selector-list-x-y",
     "arrows": "to"
   },
   {
-    "from": "basic-css-syntax",
+    "from": "type-selectors",
     "to": "descendant-combinator-x-y",
     "arrows": "to"
   },
   {
-    "from": "basic-css-syntax",
+    "from": "class-selectors",
+    "to": "descendant-combinator-x-y",
+    "arrows": "to"
+  },
+  {
+    "from": "type-selectors",
+    "to": "selector-specificity",
+    "arrows": "to"
+  },
+  {
+    "from": "class-selectors",
+    "to": "selector-specificity",
+    "arrows": "to"
+  },
+  {
+    "from": "id-selectors",
+    "to": "selector-specificity",
+    "arrows": "to"
+  },
+  {
+    "from": "type-selectors",
+    "to": "universal-selector",
+    "arrows": "to"
+  },
+  {
+    "from": "descendant-combinator-x-y",
     "to": "child-combinator-xy",
     "arrows": "to"
   },
   {
-    "from": "basic-css-syntax",
+    "from": "descendant-combinator-x-y",
     "to": "adjacent-sibling-combinator-xy",
     "arrows": "to"
   },
   {
-    "from": "basic-css-syntax",
+    "from": "descendant-combinator-x-y",
     "to": "general-sibling-combinator-xy",
     "arrows": "to"
   },
   {
-    "from": "basic-css-syntax",
+    "from": "type-selectors",
     "to": "attribute-selectors-ahrefx",
     "arrows": "to"
   },
