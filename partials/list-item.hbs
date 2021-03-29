@@ -7,7 +7,7 @@
     d-flex
     justify-content-start
     align-items-baseline
-    py-1 ps-0 pe-2
+    {{#if skill}}py-1 ps-0 pe-2{{/if}}
   "
 >
   {{#if skill}}
@@ -22,8 +22,8 @@
         <span class="badge ps-0 pe-2">🚧️</span>
       {{/unless}}
     {{/unless}}
-
   {{/if}}
+
   <span>
     {{#ifCategoriesNotEqual categories compareCategories}}
       <span class="text-muted">
@@ -33,19 +33,21 @@
     {{name}}
   </span>
 
-  <span class="ms-auto ps-3 text-end">
-    {{#unless requires}}
-      <span class="badge bg-success">start here</span>
-    {{/unless}}
-    {{#if level}}
-      <span class="badge rounded-pill bg-primary">{{level}}</span>
-      {{#if sublevel}}
-        <span class="badge rounded-pill bg-secondary">{{sublevel}}</span>
+  {{#if skill}}
+    <span class="ms-auto ps-3 text-end">
+      {{#if level}}
+        <span class="badge rounded-pill bg-primary">{{level}}</span>
+        {{#if sublevel}}
+          <span class="badge rounded-pill bg-secondary">{{sublevel}}</span>
+        {{/if}}
       {{/if}}
-    {{/if}}
-    <span class="note note-empty badge bg-light" data-slug="{{slug}}">
+      {{#unless requires}}
+        <!--<span class="badge bg-success">start here</span>-->
+      {{/unless}}
+      <span class="note note-empty badge bg-light" data-slug="{{slug}}">
       <span class="note-value"></span>
       <span tabindex="0" class="note-changer fw-normal">✏️</span>
     </span>
   </span>
+  {{/if}}
 </a>
