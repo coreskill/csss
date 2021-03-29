@@ -59,7 +59,7 @@ const loadSkills = () => new Promise<[Skill[], CategoryMetadata[]]>((resolve, re
   }, (err, files) => {
     if (err) return reject(err);
     resolve(files.reduce<[Skill[], CategoryMetadata[]]>(([skills, categoryInfos], filename, i) => {
-      let content = yaml.safeLoadAll(contents[i]);
+      let content = yaml.loadAll(contents[i]);
       let categories = filename.replace(/\.ya?ml$/, '').split(path.sep).slice(1).map(name => name.replace(/^\d+ /, ''));
       if (!content[0].skill) {
         categoryInfos.push({

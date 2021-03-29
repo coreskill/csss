@@ -11,24 +11,24 @@
     "dev": "concurrently \"npm run browsersync\" \"npm run watch\""
   },
   "dependencies": {
-    "js-yaml": "^3.14.1",
+    "js-yaml": "^4.0.0",
     "jstransformer-handlebars": "^1.1.0",
     "metalsmith": "^2.3.0",
     "metalsmith-discover-partials": "^0.1.2",
     "metalsmith-layouts": "^2.3.1",
     "node-dir": "^0.1.17",
-    "slug": "^1.1.0"
+    "slug": "^4.0.3"
   },
   "devDependencies": {
     "@types/handlebars": "^4.1.0",
-    "@types/js-yaml": "^3.12.6",
-    "@types/node": "^10.17.56",
+    "@types/js-yaml": "^4.0.0",
+    "@types/node": "^14.14.37",
     "@types/node-dir": "0.0.33",
     "@types/slug": "^0.9.1",
     "browser-sync": "^2.26.14",
     "chokidar-cli": "^2.1.0",
     "concurrently": "^6.0.0",
-    "ts-node": "^7.0.1",
-    "typescript": "3.0.3"
+    "ts-node": "^9.1.1",
+    "typescript": "3.4.5"
   }
 }
