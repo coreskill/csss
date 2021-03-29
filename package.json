@@ -7,8 +7,8 @@
   "scripts": {
     "build": "ts-node index.ts",
     "browsersync": "browser-sync start --server \"build\" --files \"build/*.*\" --port 7777",
-    "watch": "chokidar \"skills/**/*.yml\" \"(partials|layouts)/**/*.hbs\", --command \"npm run build\" --initial --debounce 1000",
-    "dev": "concurrently \"npm run browsersync\" \"npm run watch\""
+    "watch": "chokidar \"skills/**/*.yml\" \"(partials|layouts)/**/*.hbs\", --command \"npm run build\" --debounce 2000",
+    "dev": "npm run build && concurrently --kill-others --names \"BSync,watch\" --prefix-colors \"yellow,green\" \"npm run browsersync\" \"npm run watch\""
   },
   "dependencies": {
     "js-yaml": "^4.0.0",
