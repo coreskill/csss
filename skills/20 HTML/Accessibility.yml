@@ -6,6 +6,9 @@ skill: Overview
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility
   - url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility
+  - url: https://www.w3.org/WAI/WCAG21/quickref/
+    desc: A customizable quick reference to Web Content Accessibility Guidelines (WCAG) 2 requirements (success criteria) and techniques.
+    type: reference
 
 ---
 skill: HTML accessibility best practices
@@ -34,7 +37,14 @@ requires:
   - Overview
 resources:
   - url: https://color.review/
-  - url: https://www.w3.org/WAI/WCAG21/quickref/
+    desc: Visualize color contrast. You can also get a link with current color combination.
+    type: tool
+  - url: https://contrast-grid.eightshapes.com/
+    desc: When you have more colors and want to see which can be combined. 
+    type: tool
+  - url: https://toolness.github.io/accessible-color-matrix/
+    desc: When you have more colors and want to see which can be combined.
+    type: tool
 
 ---
 skill: WAI-ARIA roles overview
