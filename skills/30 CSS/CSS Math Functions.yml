@@ -1,0 +1,34 @@
+---
+sort: 75
+
+---
+skill: calc()
+requires:
+  - General // Basic CSS Syntax
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/calc()
+
+---
+skill: max()
+requires:
+  - General // Basic CSS Syntax
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/max()
+
+---
+skill: min()
+requires:
+  - General // Basic CSS Syntax
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/min()
+
+---
+skill: clamp()
+requires:
+  - General // Basic CSS Syntax
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/clamp()
+    type: reference
+  - url: https://xgkft.csb.app/
+    desc: Calculator to get equation for width based usage of clamp()
+    type: tool

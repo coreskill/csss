@@ -58,3 +58,11 @@ resources:
 requires:
   - General // Basic CSS Syntax
 
+
+---
+skill: filter
+level: extra
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/filter
+requires:
+  - General // Basic CSS Syntax
