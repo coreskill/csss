@@ -32,6 +32,10 @@ requires:
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/clamp()
     type: reference
+  - url: https://ishadeed.com/article/css-min-max-clamp/
+    type: article
+  - url: https://web.dev/min-max-clamp/
+    type: article
   - url: https://xgkft.csb.app/
     desc: Calculator to get equation for width based usage of clamp()
     type: tool
