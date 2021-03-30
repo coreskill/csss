@@ -1,10 +1,10 @@
 ---
-sort: 500
+sort: 100
 
 ---
 skill: Overview
 requires:
-  - Basics // Overview
+  - JavaScript // Basics // Overview
 resources:
   - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/why-jquery
   - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/jquery-methods
@@ -96,4 +96,3 @@ requires:
   - Selecting elements
 #resources:
 #  - url: 
-

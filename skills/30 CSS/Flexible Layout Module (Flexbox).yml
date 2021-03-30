@@ -2,7 +2,7 @@
 sort: 90
 
 ---
-skill: Flexible layout module (flexbox) concepts
+skill: Flexbox concepts
 level: 3
 sublevel: 1
 text: "
@@ -45,7 +45,7 @@ sublevel: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap
 requires:
-  - Flexible layout module (flexbox) concepts
+  - Flexbox concepts
 
 ---
 skill: flex-direction 
@@ -54,7 +54,7 @@ sublevel: 3
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction
 requires:
-  - Flexible layout module (flexbox) concepts
+  - Flexbox concepts
 
 ---
 skill: flex-basis 
@@ -63,7 +63,7 @@ sublevel: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis
 requires:
-  - Flexible layout module (flexbox) concepts
+  - Flexbox concepts
 
 ---
 skill: flex-grow 
@@ -72,7 +72,7 @@ sublevel: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow
 requires:
-  - Flexible layout module (flexbox) concepts
+  - Flexbox concepts
 
 ---
 skill: flex-shrink 
@@ -81,7 +81,7 @@ sublevel: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink
 requires:
-  - Flexible layout module (flexbox) concepts
+  - Flexbox concepts
 
 ---
 skill: flex (shorthand)
@@ -101,7 +101,7 @@ sublevel: 5
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/order
 requires:
-  - Flexible layout module (flexbox) concepts
+  - Flexbox concepts
 
 ---
 skill: flex-flow (shorthand)
@@ -119,7 +119,7 @@ sublevel: 4
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
 requires:
-  - Flexible layout module (flexbox) concepts
+  - Flexbox concepts
 
 ---
 skill: align-content
@@ -128,7 +128,7 @@ sublevel: 4
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/align-content
 requires:
-  - Flexible layout module (flexbox) concepts
+  - Flexbox concepts
 
 ---
 skill: align-items
@@ -137,7 +137,7 @@ sublevel: 4
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/align-items
 requires:
-  - Flexible layout module (flexbox) concepts
+  - Flexbox concepts
 
 ---
 skill: align-self
