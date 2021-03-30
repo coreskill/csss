@@ -7,21 +7,24 @@ requires:
   - General // Basic CSS Syntax
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/calc()
-
+    type: reference
+    
 ---
 skill: max()
 requires:
   - General // Basic CSS Syntax
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/max()
-
+    type: reference
+    
 ---
 skill: min()
 requires:
   - General // Basic CSS Syntax
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/min()
-
+    type: reference
+    
 ---
 skill: clamp()
 requires:
