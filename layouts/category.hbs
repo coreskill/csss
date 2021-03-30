@@ -36,14 +36,14 @@
         {{/if}}
 
         {{#if children.[0].skill}}
-          <h2 class="mt-5">Skills in this category</h2>
+          <!--<h2 class="mt-5">Skills in this category</h2>-->
           <div class="list-group list-group-flush">
             {{#each children}}
               {{> list-item}}
             {{/each}}
           </div>
         {{else}}
-          <h2 class="mt-5">Subcategories in this category</h2>
+          <!--<h2 class="mt-5">This topic includes</h2>-->
           <div class="list-group list-group-flush">
             {{#each children}}
               {{> list-item}}
