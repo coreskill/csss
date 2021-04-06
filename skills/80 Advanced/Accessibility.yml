@@ -5,7 +5,9 @@ sort: 20
 skill: Overview
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility
+    desc: Read everything on the page and watch the video.
   - url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility
+    desc: Read everything on the page.
   - url: https://www.w3.org/WAI/WCAG21/quickref/
     desc: A customizable quick reference to Web Content Accessibility Guidelines (WCAG) 2 requirements (success criteria) and techniques.
     type: reference
@@ -16,6 +18,7 @@ requires:
   - Overview
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML
+    desc: Read everything on the page.
 
 ---
 skill: CSS and JavaScript accessibility best practices
@@ -23,6 +26,7 @@ requires:
   - Overview
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript
+    desc: Read everything on the page.
 
 ---
 skill: Accessible multimedia
@@ -30,12 +34,16 @@ requires:
   - Overview
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/Multimedia
+    desc: Read everything on the page.
 
 ---
 skill: Color Contrast
 requires: 
   - Overview
 resources:
+  - url: https://developer.chrome.com/docs/devtools/accessibility/reference/#contrast
+    desc: Color contrast tool built in Dev Tools
+    type: tool
   - url: https://color.review/
     desc: Visualize color contrast. You can also get a link with current color combination.
     type: tool
