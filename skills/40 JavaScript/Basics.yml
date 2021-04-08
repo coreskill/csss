@@ -12,12 +12,12 @@ resources:
 
 ---
 skill: Console.log()
-requires: 
+requires:
   - Overview
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/console
     type: interactive course
-    
+
 ---
 skill: Comments
 text: line and block
@@ -26,11 +26,11 @@ requires:
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/comments
     type: interactive course
-    
+
 ---
 skill: Data Types
 text: Strings, Numbers, Booleans, Null
-requires: 
+requires:
   - Console.log()
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/types
@@ -38,7 +38,7 @@ resources:
 ---
 skill: Arithmetic Operators
 text: +, -, *, /
-requires: 
+requires:
   - Data Types
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/math-operators
@@ -47,7 +47,7 @@ resources:
 ---
 skill: String Concatenation
 text: Using operators to concatenate strings.
-requires: 
+requires:
   - Arithmetic Operators
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/string-concatenation
@@ -56,7 +56,7 @@ resources:
 ---
 skill: Properties
 text: principle, instances, length (example)
-requires: 
+requires:
   - Overview
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/properties
@@ -65,17 +65,17 @@ resources:
 ---
 skill: Methods
 text: "principle and examples: toUpperCase(), toLowerCase(), trim()"
-requires: 
+requires:
   - Console.log()
   - Data Types
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/built-in-methods
     type: interactive course
-    
+
 ---
 skill: Built-in Objects
 text: "principle and examples: Math.random(), Math.floor()"
-requires: 
+requires:
   - Console.log()
   - Data Types
 resources:
