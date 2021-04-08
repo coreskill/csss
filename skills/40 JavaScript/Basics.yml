@@ -4,59 +4,80 @@ sort: 10
 ---
 skill: Overview
 resources:
-  - url: https://www.codecademy.com/learn/introduction-to-javascript
+  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet
+    desc: What basics mean
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/intro
+    desc: Learn here
+    type: interactive course
 
 ---
 skill: Console.log()
 requires: 
   - Overview
 resources:
-  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/console
+    type: interactive course
+    
+---
+skill: Comments
+text: line and block
+requires:
+  - Console.log()
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/comments
+    type: interactive course
+    
 ---
 skill: Data Types
 text: Strings, Numbers, Booleans, Null
 requires: 
-  - Overview
+  - Console.log()
 resources:
-  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/types
+
 ---
 skill: Arithmetic Operators
 text: +, -, *, /
 requires: 
-  - Overview
+  - Data Types
 resources:
-  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/math-operators
+    type: interactive course
+
+---
+skill: String Concatenation
+text: Using operators to concatenate strings.
+requires: 
+  - Arithmetic Operators
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/string-concatenation
+    type: interactive course
+
 ---
 skill: Properties
 text: principle, instances, length (example)
 requires: 
   - Overview
 resources:
-  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/properties
+    type: interactive course
+
 ---
-skill: Built-in Methods
-text: principle and examples (toUpperCase(), toLowerCase(), trim())
+skill: Methods
+text: "principle and examples: toUpperCase(), toLowerCase(), trim()"
 requires: 
-  - Overview
+  - Console.log()
+  - Data Types
 resources:
-  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/built-in-methods
+    type: interactive course
+    
 ---
-skill: Data Instances in JavaScript
+skill: Built-in Objects
+text: "principle and examples: Math.random(), Math.floor()"
 requires: 
-  - Overview
+  - Console.log()
+  - Data Types
 resources:
-  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction
----
-skill: Built-in Libraries
-text: Math, Number (random(), floor(), ceil(), isInteger())
-requires: 
-  - Overview
-resources:
-  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction
----
-skill: Comments
-text: line and block
-requires: 
-  - Overview
-resources:
-  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/libraries
+    type: interactive course
