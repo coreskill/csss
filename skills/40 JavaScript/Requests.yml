@@ -7,6 +7,8 @@ level: 4
 requires:
   - "Requests overview"
 resources:
+  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/intermediate-javascript-requests/cheatsheet
+    desc: "Overview"
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/requests-intro-i
     type: interactive course
 

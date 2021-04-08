@@ -7,6 +7,8 @@ level: 5
 requires:
   - "Basics // JavaScript overview"
 resources:
+  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/javascript-promises/cheatsheet
+    desc: "Overview"
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/introduction
     type: interactive course
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/understanding-promises
@@ -27,6 +29,8 @@ level: 5
 requires:
   - "Promises overview"
 resources:
+  - url:
+    desc: "Overview"
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/settimeout
     type: interactive course
 

@@ -7,6 +7,8 @@ level: 3
 requires:
   - "Basics // JavaScript overview"
 resources:
+  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-transpilation/cheatsheet
+    desc: "Overview"
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/browser-compatibility-and-transpilation/exercises/browser-compatibility-introduction
     type: interactive course
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/browser-compatibility-and-transpilation/exercises/why-update

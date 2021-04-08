@@ -7,6 +7,8 @@ level: 2
 requires:
   - "Basics // JavaScript overview"
 resources:
+  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-functions/cheatsheet
+    desc: "Overview"
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/intro-to-functions
     type: interactive course
 

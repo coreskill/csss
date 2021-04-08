@@ -7,6 +7,8 @@ level: 3
 requires:
   - "Basics // JavaScript overview"
 resources:
+  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-objects/cheatsheet
+    desc: "Overview"
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/intro
     type: interactive course
 

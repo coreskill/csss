@@ -7,6 +7,8 @@ level: 4
 requires:
   - "Arrays // Arrays overview"
 resources:
+  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-iterators/cheatsheet
+    desc: "Overview"
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/javascript-iterators/exercises/intro
     type: interactive course
 

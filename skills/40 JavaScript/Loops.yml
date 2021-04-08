@@ -8,57 +8,67 @@ requires:
   - "Variables // Variables overview"
   - "Arrays // Arrays overview"
 resources:
+  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-loops/cheatsheet
+    desc: "Overview"
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exercises/loops
+    type: interactive course
 
 ---
 skill: "for"
 level: 2
-resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exercises/for-loop
 requires:
   - "Loops overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exercises/for-loop
+    type: interactive course
 
 ---
 skill: "Looping in reverse"
 level: 2
-resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exercises/for-loop-ii
 requires:
   - "for"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exercises/for-loop-ii
+    type: interactive course
 
 ---
 skill: "Looping through Arrays"
 level: 2
-resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exercises/for-loops-with-arrays
 requires:
   - "for"
   - "Arrays // Arrays overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exercises/for-loops-with-arrays
+    type: interactive course
 
 ---
 skill: "Nested for Loops"
 level: 2
-resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exercises/for-loops-iii
 requires:
   - "for"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exercises/for-loops-iii
+    type: interactive course
 
 ---
 skill: "while (do)"
 level: 2
-resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exercises/while
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exercises/do-while-statement
 requires:
   - "for"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exercises/while
+    type: interactive course
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exercises/do-while-statement
+    type: interactive course
 
 ---
 skill: "break"
 level: 2
-resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exercises/break-keyword
 requires:
   - "for"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/loops/exercises/break-keyword
+    type: interactive course
 
 ---
 skill: "Concept (and prevention) of infinite loops"
