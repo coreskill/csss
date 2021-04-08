@@ -5,7 +5,7 @@ sort: 10
 skill: Overview
 resources:
   - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet
-    desc: What basics mean
+    desc: What are the basics?
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/intro
     desc: Learn here
     type: interactive course
