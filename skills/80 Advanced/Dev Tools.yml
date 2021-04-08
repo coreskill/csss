@@ -2,56 +2,56 @@
 sort: 10
 
 ---
-skill: Overview
+skill: "Dev Tools overview"
 requires:
   - Related // Networking // Web browser
 resources:
   - url: https://developers.google.com/web/tools/chrome-devtools
 
 ---
-skill: Elements (HTML, CSS)
+skill: "Elements (HTML, CSS)"
 requires:
-  - Overview
-  - CSS // General // Basic CSS Syntax
-  - HTML // Basic structure // <!doctype>, <html>, <head>, <body>
+  - "Dev Tools overview"
+  - "CSS // General // Basic CSS Syntax"
+  - "HTML // Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developers.google.com/web/tools/chrome-devtools/dom/
   - url: https://developers.google.com/web/tools/chrome-devtools/css/
 
 ---
-skill: Console
+skill: "Console"
 requires:
-  - Overview
-  - JavaScript // Basics // Overview
+  - "Dev Tools overview"
+  - "JavaScript // Basics // JavaScript overview"
 resources:
   - url: https://developers.google.com/web/tools/chrome-devtools/console
   - url: https://developers.google.com/web/tools/chrome-devtools/console/log
   - url: https://developers.google.com/web/tools/chrome-devtools/console/javascript
 
 ---
-skill: Device mode
+skill: "Device mode"
 requires:
-  - Overview
+  - "Dev Tools overview"
 resources:
   - url: https://developers.google.com/web/tools/chrome-devtools/device-mode
 
 ---
-skill: Network
+skill: "Network"
 requires:
-  - Overview
+  - "Dev Tools overview"
 resources:
   - url: https://developers.google.com/web/tools/chrome-devtools/network
 
 ---
-skill: Sources
+skill: "Sources"
 requires:
-  - Overview
+  - "Dev Tools overview"
 resources:
   - url: https://developers.google.com/web/tools/chrome-devtools/resources
 
 ---
-skill: Command Menu
+skill: "Command Menu"
 requires:
-  - Overview
+  - "Dev Tools overview"
 resources:
   - url: https://developers.google.com/web/tools/chrome-devtools/command-menu

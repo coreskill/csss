@@ -2,70 +2,94 @@
 sort: 20
 
 ---
-skill: Overview
+skill: "Variables overview"
+level: 1
 requires:
-  - Basics // Overview
+  - "Basics // JavaScript overview"
 resources:
+  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet
+    desc: "The bottom part contains list of what you need to know about variables."
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/intro-variables
+    type: interactive course
 
 ---
 skill: "Creating variables: var"
-requires: 
- - Overview
+level: 1
+requires:
+  - "Variables overview"
 resources:
- - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/var
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/var
+    type: interactive course
 
 ---
 skill: "Creating variables: const"
-requires: 
- - Overview
+level: 1
+requires:
+  - "Variables overview"
 resources:
- - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/const
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/const
+    type: interactive course
 
 ---
 skill: "Creating variables: let"
-requires: 
- - Overview
+level: 1
+requires:
+  - "Variables overview"
 resources:
- - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/let
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/let
+    type: interactive course
 
 ---
-skill: Undefined
-requires: 
-  - Overview
+skill: "Undefined"
+level: 1
+requires:
+  - "Variables overview"
 resources:
-  - url: x
+  - url: https://developer.mozilla.org/en-US/docs/Glossary/undefined
+    desc: "Basic explanation"
+    type: reference
+
 ---
-skill: Mathematical Assignment Operators (++, --, -=, +=, *=)
-requires: 
-  - Overview
+skill: "Mathematical Assignment Operators (++, --, -=, +=, *=)"
+level: 1
+requires:
+  - "Variables overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/mathematical-shortcuts
+    type: interactive course
 
 ---
-skill: The Increment and Decrement Operator
-requires: 
-  - Mathematical Assignment Operators (++, --, -=, +=, *=)
+skill: "The Increment and Decrement Operator"
+level: 1
+requires:
+  - "Mathematical Assignment Operators (++, --, -=, +=, *=)"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/increment-decrement
+    type: interactive course
 
 ---
-skill: String Concatenation with Variables
-requires: 
-  - Overview
+skill: "String Concatenation with Variables"
+level: 1
+requires:
+  - "Variables overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/string-interpolation
+    type: interactive course
 
 ---
 skill: "String Interpolation: ES6 i.e. `Foo ${variable}`"
-requires: 
- - Overview
+level: 1
+requires:
+  - "Variables overview"
 resources:
- - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/string-interpolation-ii
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/string-interpolation-ii
+    type: interactive course
 
 ---
-skill: typeof operator
-requires: 
- - Overview
+skill: "typeof operator"
+level: 1
+requires:
+  - "Variables overview"
 resources:
- - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/typeof
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/typeof
+    type: interactive course

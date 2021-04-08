@@ -2,7 +2,8 @@
 sort: 10
 
 ---
-skill: Overview
+skill: "JavaScript overview"
+level: 1
 resources:
   - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet
     desc: What are the basics?
@@ -11,73 +12,81 @@ resources:
     type: interactive course
 
 ---
-skill: Console.log()
+skill: "Console.log()"
+level: 1
 requires:
-  - Overview
+  - "JavaScript overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/console
     type: interactive course
 
 ---
-skill: Comments
-text: line and block
+skill: "Comments"
+level: 1
+text: "line and block"
 requires:
-  - Console.log()
+  - "Console.log()"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/comments
     type: interactive course
 
 ---
-skill: Data Types
-text: Strings, Numbers, Booleans, Null
+skill: "Data Types"
+level: 1
+text: "Strings, Numbers, Booleans, Null"
 requires:
-  - Console.log()
+  - "Console.log()"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/types
 
 ---
-skill: Arithmetic Operators
-text: +, -, *, /
+skill: "Arithmetic Operators"
+level: 1
+text: "+, -, *, /"
 requires:
-  - Data Types
+  - "Data Types"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/math-operators
     type: interactive course
 
 ---
-skill: String Concatenation
-text: Using operators to concatenate strings.
+skill: "String Concatenation"
+level: 1
+text: "Using operators to concatenate strings."
 requires:
-  - Arithmetic Operators
+  - "Arithmetic Operators"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/string-concatenation
     type: interactive course
 
 ---
-skill: Properties
-text: principle, instances, length (example)
+skill: "Properties"
+level: 1
+text: "principle, instances, length (example)"
 requires:
-  - Overview
+  - "JavaScript overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/properties
     type: interactive course
 
 ---
-skill: Methods (built-in)
+skill: "Methods (built-in)"
+level: 1
 text: "principle and examples: toUpperCase(), toLowerCase(), trim()"
 requires:
-  - Console.log()
-  - Data Types
+  - "Console.log()"
+  - "Data Types"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/built-in-methods
     type: interactive course
 
 ---
-skill: Built-in Objects
+skill: "Built-in Objects"
+level: 1
 text: "principle and examples: Math.random(), Math.floor()"
 requires:
-  - Console.log()
-  - Data Types
+  - "Console.log()"
+  - "Data Types"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/introduction-to-javascript/exercises/libraries
     type: interactive course

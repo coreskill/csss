@@ -2,33 +2,33 @@
 sort: 40
 
 ---
-skill: npm scripts
+skill: "npm scripts"
 requires:
-  - JavaScript // Node.js // Overview
+  - "JavaScript // Node.js // Node.js overview"
 resources:
   - url: https://medium.freecodecamp.org/introduction-to-npm-scripts-1dbb2ae01633
 
 ---
-skill: Browsersync
+skill: "Browsersync"
 requires:
-  - npm scripts
-text: Installation, basic options, server mode, proxy mode
+  - "npm scripts"
+text: "Installation, basic options, server mode, proxy mode"
 resources:
   - url: https://www.browsersync.io/
 
 ---
-skill: Gulp
+skill: "Gulp"
 requires:
-  - npm scripts
+  - "npm scripts"
 resources:
   - url: https://gulpjs.com/
 
 ---
 skill: "PostCSS: autoprefixer"
 requires:
-  - npm scripts
+  - "npm scripts"
 resources:
   - url: https://github.com/postcss/autoprefixer
   - url: https://autoprefixer.github.io/
-    desc: Online demo
+    desc: "Online demo"
   - url: https://postcss.org/

@@ -1,66 +1,85 @@
 ---
-sort: 130
+sort: 140
 
 ---
-skill: Overview
+skill: "Promises overview"
+level: 5
 requires:
-  - Basics // Overview
+  - "Basics // JavaScript overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/introduction
+    type: interactive course
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/understanding-promises
+    type: interactive course
 
 ---
-skill: Constructing a Promise Object
+skill: "Constructing a Promise Object"
+level: 5
 requires:
-  - Overview
+  - "Promises overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/constructing-promises
+    type: interactive course
 
 ---
-skill: The Node setTimeout() Function
+skill: "The Node setTimeout() Function"
+level: 5
 requires:
-  - Overview
-#resources:
-#  - url: 
+  - "Promises overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/settimeout
+    type: interactive course
 
 ---
-skill: Consuming Promises
+skill: "Consuming Promises"
+level: 5
 requires:
-  - Overview
-#resources:
-#  - url: 
+  - "Promises overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/then 
+    type: interactive course
 
 ---
-skill: The onFulfilled and onRejected Functions
+skill: "The onFulfilled and onRejected Functions"
+level: 5
 requires:
-  - Overview
-#resources:
-#  - url: 
+  - "Promises overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/onfulfilled-onrejected
+    type: interactive course
 
 ---
-skill: Using catch() with Promises
+skill: "Using catch() with Promises"
+level: 5
 requires:
-  - Overview
-#resources:
-#  - url: 
+  - "Promises overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/catch
+    type: interactive course
 
 ---
-skill: Chaining Multiple Promises
+skill: "Chaining Multiple Promises"
+level: 5
 requires:
-  - Overview
-#resources:
-#  - url: 
+  - "Promises overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/chaining-promises
+    type: interactive course
 
 ---
-skill: Avoiding Common Mistakes
+skill: "Avoiding Common Mistakes"
+level: 5
 requires:
-  - Overview
-#resources:
-#  - url: 
+  - "Promises overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/avoiding-common-mistakes
+    type: interactive course
 
 ---
-skill: Using Promise.all()
+skill: "Using Promise.all()"
+level: 5
 requires:
-  - Overview
-#resources:
-#  - url: 
+  - "Promises overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/promise-all
+    type: interactive course

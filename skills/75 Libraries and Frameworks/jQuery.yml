@@ -2,9 +2,9 @@
 sort: 100
 
 ---
-skill: Overview
+skill: "jQuery overview"
 requires:
-  - JavaScript // Basics // Overview
+  - "JavaScript // Basics // JavaScript overview"
 resources:
   - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/why-jquery
   - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/jquery-methods
@@ -12,87 +12,87 @@ resources:
   - url: https://jquery.com/
 
 ---
-skill: Adding jQuery
+skill: "Adding jQuery"
 requires:
-  - Overview
+  - "jQuery overview"
 resources:
   - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/adding-jquery
 
 ---
-skill: Selecting elements
+skill: "Selecting elements"
 requires:
-  - Overview
+  - "jQuery overview"
 resources:
   - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/targeting-by-class
   - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/targeting-by-id
 
 ---
-skill: jQuery object
+skill: "jQuery object"
 requires:
-  - Overview
+  - "jQuery overview"
 resources:
   - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/jquery-objects
 
 ---
-skill: Event Handlers
+skill: "Event Handlers"
 requires:
-  - Overview
+  - "jQuery overview"
 resources:
   - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/event-handlers
 
 ---
-skill: Effects
+skill: "Effects"
 requires:
-  - Overview
+  - "jQuery overview"
 resources:
   - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-effects/exercises/effects-introduction
 
 ---
-skill: .hide()
+skill: ".hide()"
 requires:
-  - Effects
+  - "Effects"
 resources:
   - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-effects/exercises/hide
 
 ---
-skill: .show()
+skill: ".show()"
 requires:
-  - Effects
+  - "Effects"
 resources:
   - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-effects/exercises/show
 
 ---
-skill: .toggle()
+skill: ".toggle()"
 requires:
-  - Effects
+  - "Effects"
 resources:
   - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-effects/exercises/toggle
 
 ---
-skill: .addClass()
+skill: ".addClass()"
 requires:
-  - Selecting elements
+  - "Selecting elements"
 #resources:
 #  - url: 
 
 ---
-skill: .removeClass()
+skill: ".removeClass()"
 requires:
-  - Selecting elements
+  - "Selecting elements"
 #resources:
 #  - url: 
 
 ---
-skill: .toggleClass()
+skill: ".toggleClass()"
 requires:
-  - Selecting elements
+  - "Selecting elements"
 #resources:
 #  - url: 
 
 ---
-skill: Traversing DOM
-text: Children, Parent, Siblings, Closest, Next, find
+skill: "Traversing DOM"
 requires:
-  - Selecting elements
+  - "Selecting elements"
+text: "Children, Parent, Siblings, Closest, Next, find"
 #resources:
 #  - url: 

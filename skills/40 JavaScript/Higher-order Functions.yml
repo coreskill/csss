@@ -1,23 +1,29 @@
 ---
-sort: 45
+sort: 80
 
 ---
-skill: Overview
+skill: "Overview"
+level: 3
 requires:
-  - Basics // Overview
+  - "Basics // JavaScript overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/higher-order-functions/exercises/introduction
+    type: interactive course
 
 ---
-skill: Functions as Data
+skill: "Functions as Data"
+level: 3
 requires:
-  - Overview
+  - "Overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/higher-order-functions/exercises/functions-as-data
+    type: interactive course
 
 ---
-skill: Functions as Parameters
+skill: "Functions as Parameters"
+level: 3
 requires:
-  - Overview
+  - "Overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/higher-order-functions/exercises/functions-as-parameters
+    type: interactive course

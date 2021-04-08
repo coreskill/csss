@@ -2,9 +2,9 @@
 sort: 310
 
 ---
-skill: Overview
+skill: "DOM Events overview"
+level: 4
 requires:
-  - DOM // Overview
+  - "DOM // DOM overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Events
-

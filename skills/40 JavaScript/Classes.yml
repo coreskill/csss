@@ -1,41 +1,73 @@
 ---
-sort: 100
+sort: 110
 
 ---
-skill: Overview
+skill: "Classes overview"
+level: 4
 requires:
-  - Objects // Overview
+  - "Objects // Objects overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/classes/exercises/introduction
+    type: interactive course
 
 ---
-skill: Constructor
+skill: "Constructor"
+level: 4
 requires:
-  - Overview
+  - "Classes overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/classes/exercises/constructor-method
+    type: interactive course
 
 ---
-skill: Instance
+skill: "Instance"
+level: 4
 requires:
-  - Overview
+  - "Classes overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/classes/exercises/instance
+    type: interactive course
 
 ---
-skill: Methods
+skill: "Methods"
+level: 4
 requires:
-  - Overview
+  - "Classes overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/classes/exercises/methods
+    type: interactive course
 
 ---
-skill: Method Calls
+skill: "Method Calls"
+level: 4
 requires:
-  - Overview
+  - "Classes overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/classes/exercises/method-calls
+    type: interactive course
 
 ---
-skill: Inheritance
+skill: "Inheritance"
+level: 4
 requires:
-  - Overview
+  - "Classes overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/classes/exercises/inheritance-i
+    type: interactive course
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/classes/exercises/inheritance-ii
+    type: interactive course
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/classes/exercises/inheritance-iii
+    type: interactive course
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/classes/exercises/inheritance-iv
+    type: interactive course
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/classes/exercises/inheritance-v
+    type: interactive course
 
 ---
-skill: Static methods
+skill: "Static methods"
+level: 4
 requires:
-  - Overview
+  - "Classes overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/classes/exercises/static-methods
+    type: interactive course

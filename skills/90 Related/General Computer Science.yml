@@ -7,9 +7,12 @@ text: Very basic explanation of these terms and how they interact with each othe
 resources: 
   - url: https://www.youtube.com/watch?v=AV_VYsJnHQQ
     type: video
+  - url: https://developers.google.com/web/updates/2018/09/inside-browser-part1
+    desc: "Read just the first part"
+    type: article
 
 ---
-skill: Sleep vs. Hibernate
+skill: "Sleep vs. Hibernate"
 level: extra
 requires:
-  - CPU, RAM, HDD, SSD, GPU
+  - "CPU, RAM, HDD, SSD, GPU"

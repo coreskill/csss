@@ -2,26 +2,30 @@
 sort: 300
 
 ---
-skill: Overview
+skill: "DOM overview"
+level: 3
 requires:
-  - Objects // Overview
+  - "Objects // Nested Objects"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
   - url: https://www.codecademy.com/learn/build-interactive-websites
-    desc: Building Interactive JavaScript Websites (Codecademy PRO)
+    desc: "Building Interactive JavaScript Websites (Codecademy PRO)"
     type: interactive course
 
 ---
-skill: Selecting elements
+skill: "Selecting elements"
+level: 3
 requires:
-  - Overview
+  - "DOM overview"
 
 ---
-skill: Getting attributes
+skill: "Getting attributes"
+level: 3
 requires:
-  - Selecting elements
+  - "Selecting elements"
 
 ---
-skill: Changing attributes
+skill: "Changing attributes"
+level: 3
 requires:
-  - Getting attributes
+  - "Getting attributes"

@@ -1,26 +1,34 @@
 ---
-sort: 110
+sort: 120
 
 ---
-skill: Overview
+skill: "Browser Compatibility and Transpilation overview"
+level: 3
 requires:
-  - Basics // Overview
+  - "Basics // JavaScript overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/browser-compatibility-and-transpilation/exercises/browser-compatibility-introduction
+    type: interactive course
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/browser-compatibility-and-transpilation/exercises/why-update
-
+    type: interactive course
+    
 ---
 skill: caniuse.com for JavaScript
+level: 3
 requires:
-  - Overview
+  - "Browser Compatibility and Transpilation overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/browser-compatibility-and-transpilation/exercises/can-i-use-i
+    type: interactive course
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/browser-compatibility-and-transpilation/exercises/can-i-use-ii
+    type: interactive course
 
 ---
 skill: Transpilation with Babel
+level: 4
 requires:
-  - Overview
-  - Advanced // Automation // npm scripts
+  - "Browser Compatibility and Transpilation overview"
+  - "Advanced // Automation // npm scripts"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/browser-compatibility-and-transpilation/exercises/transpilation-with-babel
+    type: interactive course

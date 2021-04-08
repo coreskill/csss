@@ -1,96 +1,164 @@
 ---
-sort: 90
+sort: 100
 
 ---
-skill: Overview
+skill: "Objects overview"
+level: 3
 requires:
-  - Basics // Overview
+  - "Basics // JavaScript overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/intro
+    type: interactive course
 
 ---
-skill: Creating Object Literals
+skill: "Creating Object Literals"
+level: 3
 requires:
-  - Overview
+  - "Objects overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/objects
+    type: interactive course
 
 ---
-skill: Accessing Properties (Dot Notation)
+skill: "Accessing Properties (Dot Notation)"
+level: 3
 requires:
-  - Overview
+  - "Objects overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/object-property-access
+    type: interactive course
 
 ---
-skill: Accessing Properties (Bracket Notation)
+skill: "Accessing Properties (Bracket Notation)"
+level: 3
 requires:
-  - Overview
+  - "Objects overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/object-property-access-ii
+    type: interactive course
 
 ---
-skill: Property Assignment
+skill: "Property Assignment"
+level: 3
 requires:
-  - Overview
+  - "Objects overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/add-property
+    type: interactive course
 
 ---
-skill: Methods
+skill: "Methods"
+level: 3
 requires:
-  - Overview
+  - "Objects overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/methods
+    type: interactive course
 
 ---
-skill: Nested Objects
+skill: "Nested Objects"
+level: 4
 requires:
-  - Overview
+  - "Objects overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/nested-objects
+    type: interactive course
 
 ---
-skill: Pass By Reference
+skill: "Pass By Reference"
+level: 4
 requires:
-  - Overview
+  - "Objects overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/pass-by-reference
+    type: interactive course
 
 ---
-skill: Looping Through Objects
+skill: "Looping Through Objects"
+level: 4
 requires:
-  - Overview
+  - "Objects overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/for-in
+    type: interactive course
 
 ---
-skill: The this Keyword
+skill: "The this Keyword"
+level: 4
 requires:
-  - Overview
+  - "Objects overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/adv-this
+    type: interactive course
 
 ---
-skill: Arrow Functions and this
+skill: "Arrow Functions and this"
+level: 4
 requires:
-  - Overview
+  - "Objects overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/arrow-and-this
+    type: interactive course
 
 ---
-skill: Privacy
+skill: "Privacy"
+level: 4
 requires:
-  - Overview
+  - "Objects overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/privacy
+    type: interactive course
 
 ---
-skill: Getters
+skill: "Getters"
+level: 4
 requires:
-  - Overview
+  - "Objects overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/getters
+    type: interactive course
 
 ---
-skill: Setters
+skill: "Setters"
+level: 4
 requires:
-  - Overview
+  - "Objects overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/setters
+    type: interactive course
 
 ---
-skill: Factory Functions
+skill: "Factory Functions"
+level: 5
 requires:
-  - Overview
+  - "Objects overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/factory-functions
+    type: interactive course
 
 ---
-skill: Property Value Shorthand
+skill: "Property Value Shorthand"
+level: 5
 requires:
-  - Overview
+  - "Objects overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/prop-val-shorthand
+    type: interactive course
 
 ---
-skill: Destructured Assignment
+skill: "Destructured Assignment"
+level: 5
 requires:
-  - Overview
+  - "Objects overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/destruct-assign
+    type: interactive course
 
 ---
-skill: Built-in Object Methods
+skill: "Built-in Object Methods"
+level: 5
 requires:
-  - Overview
+  - "Objects overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/object-methods
+    type: interactive course

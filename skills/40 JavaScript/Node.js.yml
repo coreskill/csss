@@ -2,26 +2,30 @@
 sort: 400
 
 ---
-skill: Overview
+skill: "Node.js overview"
+level: 3
 requires:
-  - // Basics // CLI // Overview
-  - JavaScript // Basics // Overview
+  - "// Basics // CLI // Overview"
+  - "Basics // JavaScript overview"
 
 ---
-skill: Installation
+skill: "Installation"
+level: 3
 requires:
-  - Overview
+  - "Node.js overview"
 resources:
   - url: https://nodejs.org/
-    desc: Node.js official website
+    desc: "Node.js official website"
 
 ---
-skill: npm install
+skill: "npm install"
+level: 3
 requires:
-  - Installation
+  - "Installation"
 
 ---
-skill: package.json
+skill: "package.json"
+level: 3
 requires:
-  - npm install
-text: npm init, npm install --save-dev
+  - "npm install"
+text: "npm init, npm install --save-dev"

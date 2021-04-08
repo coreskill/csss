@@ -2,61 +2,105 @@
 sort: 150
 
 ---
-skill: Overview
+skill: "Requests overview"
+level: 4
 requires:
-  - Overview
+  - "Requests overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/requests-intro-i
+    type: interactive course
 
 ---
-skill: HTTP Requests
+skill: "HTTP Requests"
+level: 4
 requires:
-  - Overview
+  - "Requests overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/http-requests
+    type: interactive course
 
 ---
-skill: XHR GET Requests
+skill: "XHR GET Requests"
+level: 4
 requires:
-  - Overview
+  - "HTTP Requests"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/xhr-get-requests-i
+    type: interactive course
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/xhr-get-requests-ii
+    type: interactive course
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/xhr-get-requests-iii
+    type: interactive course
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/xhr-get-requests-iv
+    type: interactive course
 
 ---
-skill: XHR POST Requests
+skill: "XHR POST Requests"
+level: 4
 requires:
-  - Overview
-#resources:
-#  - url: 
+  - "HTTP Requests"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/xhr-post-requests-i
+    type: interactive course
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/xhr-post-requests-ii
+    type: interactive course
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/xhr-post-requests-iii
+    type: interactive course
 
 ---
-skill: fetch() GET Requests
+skill: "fetch() GET Requests"
+level: 4
 requires:
-  - Overview
-#resources:
-#  - url: 
+  - "XHR GET Requests"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/fetch-get-requests-i
+    type: interactive course
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/fetch-get-requests-ii
+    type: interactive course
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/fetch-get-requests-iii
+    type: interactive course
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/fetch-get-requests-iv
+    type: interactive course
 
 ---
-skill: fetch() POST Requests
+skill: "fetch() POST Requests"
+level: 4
 requires:
-  - Overview
-#resources:
-#  - url: 
+  - "XHR POST Requests"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/fetch-post-requests-i
+    type: interactive course
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/fetch-post-requests-ii
+    type: interactive course
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/fetch-post-requests-iii
+    type: interactive course
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/fetch-post-requests-iv
+    type: interactive course
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/fetch-post-requests-v
+    type: interactive course
 
 ---
-skill: async GET Requests
+skill: "async GET Requests"
+level: 5
 requires:
-  - Overview
-#resources:
-#  - url: 
+  - "fetch() GET Requests"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/async-get-requests-i
+    type: interactive course
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/async-get-requests-ii
+    type: interactive course
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/async-get-requests-iii
+    type: interactive course
 
 ---
-skill: async POST Requests
+skill: "async POST Requests"
+level: 5
 requires:
-  - Overview
-#resources:
-#  - url: 
-
+  - "fetch() POST Requests"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/async-post-requests-i
+    type: interactive course
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/async-post-requests-ii
+    type: interactive course
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/async-post-requests-iii
+    type: interactive course

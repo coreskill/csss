@@ -2,29 +2,39 @@
 sort: 50
 
 ---
-skill: Overview
+skill: "Scope overview"
+level: 2
 requires:
-  - Variables // Overview
+  - "Variables // Variables overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/scope/exercises/scope
+    type: interactive course
 
 ---
-skill: Blocks and Scope
+skill: "Blocks and Scope"
+level: 2
 requires:
-  - Overview
+  - "Scope overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/scope/exercises/block-scope-iii
+    type: interactive course
 
 ---
-skill: Global Scope
+skill: "Global Scope"
+level: 2
 requires:
-  - Overview
+  - "Scope overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/scope/exercises/global-scope
+    type: interactive course
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/scope/exercises/global-scope-ii
+    type: interactive course
 
 ---
-skill: Block Scope
+skill: "Block Scope"
+level: 2
 requires:
-  - Overview
+  - "Scope overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/scope/exercises/block-scope
+    type: interactive course

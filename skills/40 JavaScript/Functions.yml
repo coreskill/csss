@@ -2,52 +2,70 @@
 sort: 40
 
 ---
-skill: Principles
+skill: "Principles"
+level: 2
 requires:
-  - Basics // Overview
+  - "Basics // JavaScript overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/intro-to-functions
+    type: interactive course
 
 ---
-skill: Declarations
-requires: 
-  - Principles
+skill: "Declarations"
+level: 2
+requires:
+  - "Principles"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/function-declaration
+    type: interactive course
 
 ---
-skill: Calling functions
-requires: 
-  - Principles
+skill: "Calling functions"
+level: 2
+requires:
+  - "Declarations"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/functions
+    type: interactive course
 
 ---
-skill: Parameters and Arguments
+skill: "Parameters and Arguments"
+level: 2
 requires:
-  - Principles
+  - "Calling functions"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/parameters
+    type: interactive course
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/default-parameters
+    type: interactive course
 
 ---
-skill: Return
+skill: "Return"
+level: 2
 requires:
-  - Principles
+  - "Calling functions"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/return
+    type: interactive course
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/return-ii
+    type: interactive course
 
 ---
-skill: Expressions (anonymous functions)
+skill: "Expressions (anonymous functions)"
+level: 2
 requires:
-  - Principles
+  - "Declarations"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/function-expressions
+    type: interactive course
 
 ---
-skill: Arrow functions (one parameter, implicit return)
+skill: "Arrow functions (one parameter, implicit return)"
+level: 2
 requires:
-  - Principles
+  - "Expressions (anonymous functions)"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/arrow-functions
+    type: interactive course
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/concise-body-arrow
+    type: interactive course

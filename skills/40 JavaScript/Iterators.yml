@@ -1,40 +1,53 @@
 ---
-sort: 80
+sort: 90
 
 ---
-skill: Overview
+skill: "Iterators overview"
+level: 4
 requires:
-  - Arrays // Overview
+  - "Arrays // Arrays overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/javascript-iterators/exercises/intro
+    type: interactive course
 
 ---
-skill: forEach()
+skill: ".forEach()"
+level: 4
 requires:
-  - Overview
+  - "Iterators overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/javascript-iterators/exercises/for-each
+    type: interactive course
 
 ---
-skill: map()
+skill: ".map()"
+level: 4
 requires:
-  - Overview
+  - "Iterators overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/javascript-iterators/exercises/map
+    type: interactive course
 
 ---
-skill: filter()
+skill: ".filter()"
+level: 4
 requires:
-  - Overview
+  - ".map()"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/javascript-iterators/exercises/filter
+    type: interactive course
 
 ---
-skill: overview of other methods e.g. findIndex(), some(), every(), reduce()
+skill: "overview of other methods e.g. .findIndex(), .some(), .every(), .reduce()"
+level: 4
 requires:
-  - Overview
+  - "Iterators overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/javascript-iterators/exercises/find-index
+    type: interactive course
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/javascript-iterators/exercises/reduce
+    type: interactive course
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/javascript-iterators/exercises/documentation
+    type: interactive course
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/javascript-iterators/exercises/choose-iterator
+    type: interactive course

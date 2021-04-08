@@ -1,58 +1,73 @@
 ---
-sort: 140
+sort: 150
 
 ---
-skill: Overview
+skill: "Async Await overview"
+level: 5
 requires:
-  - Promises // Overview
+  - "Promises // Promises overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/async-await/exercises/introduction
 
 ---
-skill: The async Keyword
+skill: "The async Keyword"
+level: 5
 requires:
-  - Overview
-#resources:
-#  - url: 
+  - "Async Await overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/async-await/exercises/async-function
+    type: interactive course
 
 ---
-skill: The await Operator
+skill: "The await Operator"
+level: 5
 requires:
-  - Overview
-#resources:
-#  - url: 
+  - "Async Await overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/async-await/exercises/await-operator
+    type: interactive course
 
 ---
-skill: Writing async Functions
+skill: "Writing async Functions"
+level: 5
 requires:
-  - Overview
-#resources:
-#  - url: 
+  - "Async Await overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/async-await/exercises/writing-async-functions
+    type: interactive course
 
 ---
-skill: Handling Dependent Promises
+skill: "Handling Dependent Promises"
+level: 5
 requires:
-  - Overview
-#resources:
-#  - url: 
+  - "Async Await overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/async-await/exercises/multiple-awaits
+    type: interactive course
 
 ---
-skill: Handling Errors
+skill: "Handling Errors"
+level: 5
 requires:
-  - Overview
-#resources:
-#  - url: 
+  - "Async Await overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/async-await/exercises/error-handling
+    type: interactive course
 
 ---
-skill: Handling Independent Promises
+skill: "Handling Independent Promises"
+level: 5
 requires:
-  - Overview
-#resources:
-#  - url: 
+  - "Async Await overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/async-await/exercises/concurrency
+    type: interactive course
 
 ---
-skill: Await Promise.all()
+skill: "Await Promise.all()"
+level: 5
 requires:
-  - Overview
-#resources:
-#  - url: 
+  - "Async Await overview"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/async-await/exercises/await-promise-all
+    type: interactive course

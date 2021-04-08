@@ -2,51 +2,69 @@
 sort: 30
 
 ---
-skill: Control Flow
-text: if, else, else if
+skill: "Control Flow"
+level: 1
+text: "if, else, else if"
 requires:
-  - Basics // Overview
+  - "Basics // JavaScript overview"
 resources:
+  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-control-flow/cheatsheet
+    desc: "Overview"
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/control-flow/exercises/control-flow-intro
+    type: interactive course
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/control-flow/exercises/if-statement
+    type: interactive course
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/control-flow/exercises/if-else-statements
+    type: interactive course
 
 ---
-skill: Comparison Operators
-text: <, >, <=, >=, ==, ===, !=, !==
+skill: "Comparison Operators"
+level: 1
+text: "<, >, <=, >=, ==, ===, !=, !=="
 requires:
-  - Basics // Overview
+  - "Basics // JavaScript overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/control-flow/exercises/comparison-operators
+    type: interactive course
 
 ---
-skill: Logical operators
+skill: "Logical operators"
+level: 1
 text: "&&, ||"
 requires:
-  - Basics // Overview
+  - "Basics // JavaScript overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/control-flow/exercises/logical-operators
+    type: interactive course
 
 ---
-skill: Truthy and Falsy
-text: negating (!)
+skill: "Truthy and Falsy"
+level: 1
+text: "negating (!)"
 requires:
-  - Basics // Overview
+  - "Basics // JavaScript overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/control-flow/exercises/true-false-values
+    type: interactive course
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/control-flow/exercises/truthy-falsy-operators
+    type: interactive course
 
 ---
-skill: Ternary operator
+skill: "Ternary operator"
+level: 1
 requires:
-  - Basics // Overview
+  - "Basics // JavaScript overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/control-flow/exercises/ternary-operator
+    type: interactive course
 
 ---
-skill: Switch
+skill: "Switch"
+level: 1
 requires:
-  - Basics // Overview
+  - "Basics // JavaScript overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/control-flow/exercises/else-if
+    type: interactive course
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/control-flow/exercises/switch
+    type: interactive course

@@ -2,106 +2,145 @@
 sort: 60
 
 ---
-skill: Overview
+skill: "Arrays overview"
+level: 2
 requires:
-  - Basics // Overview
+  - "Basics // JavaScript overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays
+    type: interactive course
 
 ---
-skill: Creating
+skill: "Creating Arrays"
+level: 2
 requires:
-  - Overview
+  - "Arrays overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/create-an-array
+    type: interactive course
 
 ---
-skill: Accessing items
+skill: "Accessing elements"
+level: 2
 requires:
-  - Creating
+  - "Creating Arrays"
 resources:
-    - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/property-access
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/property-access
+    type: interactive course
 
 ---
-skill: Updating items
+skill: "Updating elements"
+level: 2
 requires:
-  - Accessing items
+  - "Accessing elements"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/update-elements
+    type: interactive course
 
 ---
-skill: let vs. const with arrays
+skill: "let vs. const with arrays"
+level: 2
 requires:
-  - Creating
+  - "Creating Arrays"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/let-const-arrays
+    type: interactive course
 
 ---
-skill: length property
+skill: ".length"
+level: 2
 requires:
-  - Creating
+  - "Creating Arrays"
 resources:
-    - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/array-length
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/array-length
+    type: interactive course
 
 ---
-skill: push()
+skill: ".push()"
+level: 2
 requires:
-  - Creating
+  - "Creating Arrays"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/push-and-pop
+    type: interactive course
 
 ---
-skill: pop()
+skill: ".pop()"
+level: 2
 requires:
-  - Creating
+  - "Creating Arrays"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/pop
+    type: interactive course
 
 ---
-skill: join()
+skill: ".join()"
+level: 2
 requires:
-  - Creating
+  - "Creating Arrays"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/more-array-methods
+    type: interactive course
 
 ---
-skill: slice()
+skill: ".slice()"
+level: 2
 requires:
-  - Creating
+  - "Creating Arrays"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/more-array-methods
+    type: interactive course
 
 ---
-skill: splice()
+skill: ".splice()"
+level: 2
 requires:
-  - Creating
+  - "Creating Arrays"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/more-array-methods
+    type: interactive course
 
 ---
-skill: shift()
+skill: ".shift()"
+level: 2
 requires:
-  - Creating
+  - "Creating Arrays"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/more-array-methods
+    type: interactive course
 
 ---
-skill: unshift()
+skill: ".unshift()"
+level: 2
 requires:
-  - Creating
+  - "Creating Arrays"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/more-array-methods
+    type: interactive course
 
 ---
-skill: concat()
+skill: ".concat()"
+level: 2
 requires:
-  - Creating
+  - "Creating Arrays"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/more-array-methods
+    type: interactive course
 
 ---
-skill: Nested Arrays
+skill: "Arrays and Functions"
+level: 2
 requires:
-  - Creating
+  - "Creating Arrays"
+resources:
+  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/array-in-functions
+    type: interactive course
+
+---
+skill: "Nested Arrays"
+level: 2
+requires:
+  - "Creating Arrays"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/nested-arrays
+    type: interactive course

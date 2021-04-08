@@ -2,12 +2,17 @@
 sort: 90
 
 ---
-skill: How browser works
+skill: "How browser works"
 level: extra
 requires:
-  - JavaScript // Node.js // Overview
+  - "JavaScript // Node.js // Node.js overview"
 resources:
   - url: https://developers.google.com/web/updates/2018/09/inside-browser-part1
+    desc: "Also linked in General Computer Science, here just for completness"
+    type: article
   - url: https://developers.google.com/web/updates/2018/09/inside-browser-part2
+    type: article
   - url: https://developers.google.com/web/updates/2018/09/inside-browser-part3
+    type: article
   - url: https://developers.google.com/web/updates/2018/09/inside-browser-part4
+    type: article

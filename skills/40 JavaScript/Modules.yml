@@ -1,99 +1,105 @@
 ---
-sort: 120
+sort: 130
 
 ---
-skill: Overview
+skill: "Modules overview"
 level: 4
 requires:
-  - Basics // Overview
+  - "Basics // JavaScript overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/modules/exercises/hello-modules
+    type: interactive course
 
 ---
-skill: exports
+skill: "exports"
 level: 5
 requires:
-  - Overview
+  - "Modules overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/modules/exercises/module-exports
+    type: interactive course
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/modules/exercises/module-exports-ii
+    type: interactive course
 
 ---
-skill: require
+skill: "require"
 level: 5
 requires:
-  - Overview
+  - "Modules overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/modules/exercises/require
+    type: interactive course
 
 ---
-skill: export default
+skill: "export default"
 level: 5
 requires:
-  - Overview
+  - "Modules overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/modules/exercises/export-default
+    type: interactive course
 
 ---
-skill: import
+skill: "import"
 level: 5
 requires:
-  - Overview
+  - "Modules overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/modules/exercises/import
+    type: interactive course
 
 ---
-skill: Named Exports
+skill: "Named Exports"
 level: extra
 requires:
-  - Overview
+  - "Modules overview"
 #resources:
 #  - url: 
 
 ---
-skill: Named Imports
+skill: "Named Imports"
 level: extra
 requires:
-  - Overview
+  - "Modules overview"
 #resources:
 #  - url: 
 
 ---
-skill: Export Named Exports
+skill: "Export Named Exports"
 level: extra
 requires:
-  - Overview
+  - "Modules overview"
 #resources:
 #  - url: 
 
 ---
-skill: Import Named Imports
+skill: "Import Named Imports"
 level: extra
 requires:
-  - Overview
+  - "Modules overview"
 #resources:
 #  - url: 
 
 ---
-skill: Export as
+skill: "Export as"
 level: extra
 requires:
-  - Overview
+  - "Modules overview"
 #resources:
 #  - url: 
 
 ---
-skill: Import as
+skill: "Import as"
 level: extra
 requires:
-  - Overview
+  - "Modules overview"
 #resources:
 #  - url: 
 
 ---
-skill: Combining Export Statements
+skill: "Combining Export Statements"
 level: extra
 requires:
-  - Overview
+  - "Modules overview"
 #resources:
 #  - url: 
