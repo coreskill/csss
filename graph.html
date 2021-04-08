@@ -1623,6 +1623,11 @@
     "group": "basics1"
   },
   {
+    "id": "comments1",
+    "label": "Comments",
+    "group": "basics1"
+  },
+  {
     "id": "data-types",
     "label": "Data Types",
     "group": "basics1"
@@ -1633,28 +1638,23 @@
     "group": "basics1"
   },
   {
+    "id": "string-concatenation",
+    "label": "String Concatenation",
+    "group": "basics1"
+  },
+  {
     "id": "properties",
     "label": "Properties",
     "group": "basics1"
   },
   {
-    "id": "built-in-methods",
-    "label": "Built-in Methods",
+    "id": "methods",
+    "label": "Methods",
     "group": "basics1"
   },
   {
-    "id": "data-instances-in-javascript",
-    "label": "Data Instances in JavaScript",
-    "group": "basics1"
-  },
-  {
-    "id": "built-in-libraries",
-    "label": "Built-in Libraries",
-    "group": "basics1"
-  },
-  {
-    "id": "comments1",
-    "label": "Comments",
+    "id": "built-in-objects",
+    "label": "Built-in Objects",
     "group": "basics1"
   },
   {
@@ -1688,7 +1688,7 @@
     "group": "classes"
   },
   {
-    "id": "methods",
+    "id": "methods1",
     "label": "Methods",
     "group": "classes"
   },
@@ -1983,7 +1983,7 @@
     "group": "objects"
   },
   {
-    "id": "methods1",
+    "id": "methods2",
     "label": "Methods",
     "group": "objects"
   },
@@ -4990,13 +4990,23 @@
     "arrows": "to"
   },
   {
-    "from": "overview6",
+    "from": "consolelog",
+    "to": "comments1",
+    "arrows": "to"
+  },
+  {
+    "from": "consolelog",
     "to": "data-types",
     "arrows": "to"
   },
   {
-    "from": "overview6",
+    "from": "data-types",
     "to": "arithmetic-operators",
+    "arrows": "to"
+  },
+  {
+    "from": "arithmetic-operators",
+    "to": "string-concatenation",
     "arrows": "to"
   },
   {
@@ -5005,23 +5015,23 @@
     "arrows": "to"
   },
   {
-    "from": "overview6",
-    "to": "built-in-methods",
+    "from": "consolelog",
+    "to": "methods",
     "arrows": "to"
   },
   {
-    "from": "overview6",
-    "to": "data-instances-in-javascript",
+    "from": "data-types",
+    "to": "methods",
     "arrows": "to"
   },
   {
-    "from": "overview6",
-    "to": "built-in-libraries",
+    "from": "consolelog",
+    "to": "built-in-objects",
     "arrows": "to"
   },
   {
-    "from": "overview6",
-    "to": "comments1",
+    "from": "data-types",
+    "to": "built-in-objects",
     "arrows": "to"
   },
   {
@@ -5061,7 +5071,7 @@
   },
   {
     "from": "overview8",
-    "to": "methods",
+    "to": "methods1",
     "arrows": "to"
   },
   {
@@ -5371,7 +5381,7 @@
   },
   {
     "from": "overviewg",
-    "to": "methods1",
+    "to": "methods2",
     "arrows": "to"
   },
   {
