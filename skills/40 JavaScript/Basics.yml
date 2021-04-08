@@ -63,7 +63,7 @@ resources:
     type: interactive course
 
 ---
-skill: Methods
+skill: Methods (built-in)
 text: "principle and examples: toUpperCase(), toLowerCase(), trim()"
 requires:
   - Console.log()
