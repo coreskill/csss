@@ -65,6 +65,10 @@ requires:
 skill: GIF size optimization
 requires:
   - GIF
+resources:
+  - url: https://ezgif.com/
+    desc: Online tool to edit animated GIFs mostly focused on optimizing their size.
+    type: tool
 
 ---
 skill: PNG size optimization
