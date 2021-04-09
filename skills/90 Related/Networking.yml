@@ -2,59 +2,101 @@
 sort: 30 
 
 ---
-skill: DNS
-text: simplifed
-
----
-skill: File transfer via http
-text: response, request, headers
-resources:
-  - url: https://marksheet.io/web.html#opening-a-webpage-in-your-browser
-
----
-skill: Client and Server
+skill: "Client and Server"
+level: 2
 resources:
   - url: https://marksheet.io/internet.html#client-and-server
 
 ---
-skill: IP Address
+skill: "URL"
+level: 1
 resources:
-  - url: https://marksheet.io/internet.html#ip-address
+  - url: https://marksheet.io/internet.html#url
+    desc: "Minimalistic explanation"
+  - url: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL
+    desc: "More detailed explanation"
 
 ---
-skill: Domains
-resources:
-  - url: https://marksheet.io/internet.html#domains
-
----
-skill: Protocols
+skill: "Protocols"
+level: 1
 resources:
   - url: https://marksheet.io/internet.html#protocols
 
 ---
-skill: URL
-resources:
-  - url: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL
-  - url: https://marksheet.io/internet.html#url
-
----
-skill: Web browser
+skill: "Web browser"
+level: 1
 resources:
   - url: https://marksheet.io/browser.html
 
 ---
-skill: User Agent Header
+skill: "IP Address"
+level: 2
+resources:
+  - url: https://marksheet.io/internet.html#ip-address
+
+---
+skill: "Domains"
+level: 2
+resources:
+  - url: https://marksheet.io/internet.html#domains
+    desc: "Minimalistic explanation"
+  - url: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name
+    desc: "More detailed explanation"
+
+---
+skill: "DNS"
+level: 2
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Glossary/DNS
+text: "simplifed"
+
+---
+skill: "File transfer via http"
+level: 3
+text: "response, request, headers"
+resources:
+  - url: https://marksheet.io/web.html#opening-a-webpage-in-your-browser
+    desc: "Minimalistic explanation"
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
+    desc: "More detailed explanation"
+
+---
+skill: "HTTP Headers"
 level: 4
 requires:
   - Web browser
+text: "User Agent Headers, Expire, Accept-encoding, Accept-language"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
+    desc: "Headers overview"
+    type: reference
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language
+    desc: "Accept-language"
+    type: reference
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control
+    desc: "Cache-Control"
+    type: reference
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent
+    desc: "User-Agent"
+    type: reference
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTTP/Browser_detection_using_the_user_agent
+    desc: "Browser detection using the user agent"
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Encoding
+    desc: "Content-Encoding"
+    type: reference
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type
+    desc: "Content-Type"
+    type: reference
 
 ---
-skill: Cookies
+skill: "Cookies"
+level: 4
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
   - url: https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie
 
 ---
-skill: Web Storage
-resourceS:
+skill: "Web Storage"
+level: 5
+resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API

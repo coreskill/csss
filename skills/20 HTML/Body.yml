@@ -2,182 +2,210 @@
 sort: 30
 
 ---
-skill: <p>
+skill: "<p>"
 level: 1
 requires:
-  - Basic structure // <!doctype>, <html>, <head>, <body>
+  - "Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p
+    type: reference
 
 ---
 skill: "<a>, #, paths for href"
 level: 1
 requires:
-  - Basic structure // <!doctype>, <html>, <head>, <body>
+  - "Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+    type: reference
 
 ---
-skill: <h1> to <h6>
+skill: "<h1> to <h6>"
 level: 1
 requires:
-  - Basic structure // <!doctype>, <html>, <head>, <body>
+  - "Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
+    type: reference
 
 ---
-skill: <div>, <span>
+skill: "<div>, <span>"
 level: 1
 requires:
-  - Basic structure // <!doctype>, <html>, <head>, <body>
+  - "Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span
+    type: reference
 
 ---
-skill: <img>, src, width, height, alt
+skill: "<img>, src, width, height, alt"
 level: 1
 requires:
-  - Basic structure // <!doctype>, <html>, <head>, <body>
+  - "Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
+    type: reference
 
 ---
-skill: <ul>, <ol>, <li>
+skill: "<ul>, <ol>, <li>"
 level: 1
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li
+    type: reference
 
 ---
-skill: <em>
+skill: "<em>"
 level: 2
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em
+    type: reference
 
 ---
-skill: <i>
+skill: "<i>"
 level: 2
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i
+    type: reference
 
 ---
-skill: <strong>
+skill: "<strong>"
 level: 2
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong
+    type: reference
 
 ---
-skill: <b>
+skill: "<b>"
 level: 2
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b
+    type: reference
 
 ---
-skill: <small>
+skill: "<small>"
 level: 2
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small
+    type: reference
 
 ---
-skill: <br>
+skill: "<br>"
 level: 2
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br
+    type: reference
 
 ---
-skill: <main>
+skill: "<main>"
 level: 3
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main
+    type: reference
 
 ---
-skill: <aside>
+skill: "<aside>"
 level: 3
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside
+    type: reference
 
 ---
-skill: <header>
+skill: "<header>"
 level: 3
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header
+    type: reference
 
 ---
-skill: <footer>
+skill: "<footer>"
 level: 3
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer
+    type: reference
 
 ---
-skill: <nav>
+skill: "<nav>"
 level: 3
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav
+    type: reference
 
 ---
-skill: <section>
+skill: "<section>"
 level: 3
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section
+    type: reference
 
 ---
-skill: <article>
+skill: "<article>"
 level: 3
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article
+    type: reference
 
 ---
-skill: <iframe>
+skill: "<iframe>"
 level: 4
 requires:
-  - Basic structure // <!doctype>, <html>, <head>, <body>
+  - "Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe
+    type: reference
 
 ---
-skill: <table>, <tr>, <th>, <td>, <tbody>
+skill: "<table>, <tr>, <th>, <td>, <tbody>"
 level: 4
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody
+    type: reference
 
 ---
-skill: <form>, <input>, <textarea>, <label>, <select>, <option>, <button>
+skill: "<form>, <input>, <textarea>, <label>, <select>, <option>, <button>"
 level: 4
 text: "
   interesting input types:
@@ -203,277 +231,339 @@ interesting attributes
   - tabindex
 "
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
   - "<a>, #, paths for href"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
+    type: reference
 
 ---
-skill: <fieldset>, <legend>, <optgroup>
+skill: "POST and GET methods"
 level: 5
 requires:
-  - <form>, <input>, <textarea>, <label>, <select>, <option>, <button>
+  - "<form>, <input>, <textarea>, <label>, <select>, <option>, <button>"
 resources:
-  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset
-  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend
-  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST
+    type: reference
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET
+    type: reference
 
 ---
-skill: <a tabindex>
+skill: "<fieldset>, <legend>, <optgroup>"
+level: 5
+requires:
+  - "<form>, <input>, <textarea>, <label>, <select>, <option>, <button>"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset
+    type: reference
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend
+    type: reference
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup
+    type: reference
+
+---
+skill: "<a tabindex>"
 level: 5
 requires:
   - "<a>, #, paths for href"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+    type: reference
 
 ---
-skill: <picture>, <source>
+skill: "<picture>, <source>"
 level: 5
 requires:
-  - <img>, src, width, height, alt
+  - "<img>, src, width, height, alt"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source
+    type: reference
 
 ---
-skill: <noscript>
+skill: "<noscript>"
 level: 5
 requires:
-  - Basic structure // <!doctype>, <html>, <head>, <body>
+  - "Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript
 
 ---
-skill: <tfoot>, <thead>, <col>, <colgroup>, <caption>
+skill: "<tfoot>, <thead>, <col>, <colgroup>, <caption>"
 level: extra
 requires:
-  - <table>, <tr>, <th>, <td>, <tbody>
+  - "<table>, <tr>, <th>, <td>, <tbody>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption
+    type: reference
 
 ---
-skill: <map>, <img usemap>
+skill: "<map>, <img usemap>"
 level: extra
 requires:
   - "<a>, #, paths for href"
   - <img>, src, width, height, alt
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
+    type: reference
 
 ---
-skill: <dl>, <dt>, <dd>
+skill: "<dl>, <dt>, <dd>"
 level: extra
 requires:
-  - <ul>, <ol>, <li>
+  - "<ul>, <ol>, <li>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd
+    type: reference
 
 ---
-skill: <hgroup>
+skill: "<hgroup>"
 level: extra
 requires:
-  - <h1> to <h6>
+  - "<h1> to <h6>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup
+    type: reference
 
 ---
-skill: <figcaption>, <figure>
+skill: "<figcaption>, <figure>"
 level: extra
 requires:
-  - <img>, src, width, height, alt
+  - "<img>, src, width, height, alt"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure
+    type: reference
 
 ---
-skill: <meter>
+skill: "<meter>"
 level: extra
 requires:
-  - Basic structure // <!doctype>, <html>, <head>, <body>
+  - "Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter
+    type: reference
 
 ---
-skill: <progress>
+skill: "<progress>"
 level: extra
 requires:
-  - Basic structure // <!doctype>, <html>, <head>, <body>
+  - "Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress
+    type: reference
 
 ---
-skill: <time>
+skill: "<time>"
 level: extra
 requires:
-  - Basic structure // <!doctype>, <html>, <head>, <body>
+  - "Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time
+    type: reference
 
 ---
-skill: <pre>
+skill: "<pre>"
 level: extra
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre
+    type: reference
 
 ---
-skill: <blockquote>
+skill: "<blockquote>"
 level: extra
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote
+    type: reference
 
 ---
-skill: <sub>, <sup>
+skill: "<sub>, <sup>"
 level: extra
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup
+    type: reference
 
 ---
-skill: <code>
+skill: "<code>"
 level: extra
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code
+    type: reference
 
 ---
-skill: <del>
+skill: "<del>"
 level: extra
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del
+    type: reference
 
 ---
-skill: <embed>
+skill: "<embed>"
 level: extra
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed
+    type: reference
 
 ---
-skill: <hr>
+skill: "<hr>"
 level: extra
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr
+    type: reference
 
 ---
-skill: <ins>
+skill: "<ins>"
 level: extra
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins
+    type: reference
 
 ---
-skill: <kbd>
+skill: "<kbd>"
 level: extra
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd
+    type: reference
 
 ---
-skill: <mark>
+skill: "<mark>"
 level: extra
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark
+    type: reference
 
 ---
-skill: <object>, <param>
+skill: "<object>, <param>"
 level: extra
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/param
+    type: reference
 
 ---
-skill: <output>
+skill: "<output>"
 level: extra
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output
+    type: reference
 
 ---
-skill: <samp>
+skill: "<samp>"
 level: extra
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp
+    type: reference
 
 ---
-skill: <u>
+skill: "<u>"
 level: extra
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u
+    type: reference
 
 ---
-skill: <var>
+skill: "<var>"
 level: extra
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var
+    type: reference
 
 ---
-skill: <q>
+skill: "<q>"
 level: extra
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q
+    type: reference
 
 ---
-skill: <s>
+skill: "<s>"
 level: extra
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s
+    type: reference
 
 ---
-skill: <wbr>
+skill: "<wbr>"
 level: extra
 requires:
-  - <div>, <span>
-  - <br>
+  - "<div>, <span>"
+  - "<br>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr
+    type: reference
 
 ---
-skill: <video>, <audio>
+skill: "<video>, <audio>"
 level: extra
 requires:
-  - <div>, <span>
+  - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
+    type: reference
