@@ -7,7 +7,12 @@ level: 1
 sublevel: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Glossary/Doctype
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head
+    type: reference
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body
+    type: reference
   - url: https://htmlhead.dev/
+    desc: "Practical guide to <head> content"
