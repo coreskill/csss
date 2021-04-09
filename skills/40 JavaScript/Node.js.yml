@@ -15,7 +15,7 @@ requires:
   - "Node.js overview"
 resources:
   - url: https://nodejs.org/
-    desc: "Node.js official website"
+    desc: "Node.js official website contains installation instructions."
 
 ---
 skill: "npm install"
