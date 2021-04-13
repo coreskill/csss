@@ -27,7 +27,7 @@
     "@types/slug": "^0.9.1",
     "browser-sync": "^2.26.14",
     "chokidar-cli": "^2.1.0",
-    "concurrently": "^6.0.1",
+    "concurrently": "^6.0.2",
     "ts-node": "^9.1.1",
     "typescript": "3.4.5"
   }
