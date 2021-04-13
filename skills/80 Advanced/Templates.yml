@@ -2,71 +2,99 @@
 sort: 30
 
 ---
-skill: Overview
+skill: "Overview"
+level: 3
 requires:
-  - HTML // Basic structure // <!doctype>, <html>, <head>, <body>
+  - "HTML // Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
-  - url: https://twig.symfony.com/doc/2.x/templates.html
+  - url: https://mozilla.github.io/nunjucks/
+    desc: "Nunjucks homepage"
+    type: documentation
 
 ---
-skill: Variables {{ syntax }} {{ syntax.name }}
+skill: "Variables {{ example }}"
+level: 3
 requires:
-  - Overview
+  - "Overview"
+text: "Also know that {{ example.name }} and  {{ example['name'] }}"
 resources:
-  - url: https://twig.symfony.com/doc/2.x/templates.html
+  - url: https://mozilla.github.io/nunjucks/templating.html#variables
+    desc: "Nunjucks documentation"
+    type: documentation
 
 ---
-skill: "{# #} comments"
+skill: "Filters"
+level: 3
 requires:
-  - Overview
+  - "Variables {{ example }}"
+text: "Check `join`, `length`, `dump`, `default`, `nl2br` and `truncate`."
 resources:
-  - url: https://twig.symfony.com/doc/2.x/templates.html
-
----
-skill: "{% include %}"
-requires:
-  - Overview
-resources:
-  - url: https://twig.symfony.com/doc/2.x/templates.html
-
----
-skill: "{% include param='foo' %} (with parameters)"
-requires:
-  - Overview
-resources:
-  - url: https://twig.symfony.com/doc/2.x/templates.html
+  - url: https://mozilla.github.io/nunjucks/templating.html#builtin-filters
+    desc: "Nunjucks filters documentation"
+    type: documentation
 
 ---
 skill: "{% for %}"
+level: 3
 requires:
-  - Overview
+  - "Overview"
 resources:
-  - url: https://twig.symfony.com/doc/2.x/templates.html
+  - url: https://mozilla.github.io/nunjucks/templating.html#for
+    desc: "Nunjucks documentation"
+    type: documentation
 
 ---
-skill: "{% block %}"
+skill: "{# #} comments"
+level: 3
 requires:
-  - Overview
+  - "Overview"
 resources:
-  - url: https://twig.symfony.com/doc/2.x/templates.html
+  - url: https://mozilla.github.io/nunjucks/templating.html#comments
+    desc: "Nunjucks documentation"
+    type: documentation
 
 ---
-skill: "{% extends %}"
+skill: "{% include %}"
+level: 3
 requires:
-  - Overview
+  - "Overview"
 resources:
-  - url: https://twig.symfony.com/doc/2.x/templates.html
+  - url: https://mozilla.github.io/nunjucks/templating.html#include
+    desc: "Nunjucks documentation"
+    type: documentation
 
 ---
-skill: "{{ parent() }}"
+skill: "Template inheritance {% block %} and {% extends %}"
+level: 3
 requires:
-  - Overview
+  - "Overview"
 resources:
-  - url: https://twig.symfony.com/doc/2.x/templates.html
+  - url: https://mozilla.github.io/nunjucks/templating.html#template-inheritance
+    desc: "Nunjucks template inheritance explained"
+    type: documentation
+  - url: https://mozilla.github.io/nunjucks/templating.html#block
+    desc: "Nunjucks block documentation"
+    type: documentation
+  - url: https://mozilla.github.io/nunjucks/templating.html#extends
+    desc: "Nunjucks documentation"
+    type: documentation
 
 ---
-skill: Filters
+skill: "{{ parent() }} or {{ super() }}"
+level: 4
 requires:
-  - Overview
+  - "Template inheritance {% block %} and {% extends %}"
 resources:
-  - url: https://twig.symfony.com/doc/2.x/templates.html
+  - url: https://mozilla.github.io/nunjucks/templating.html#super
+    desc: "Nunjucks super() documentation"
+    type: documentation
+
+---
+skill: "{% set foo='bar' %}"
+level: 4
+requires:
+  - "Variables {{ example }}"
+resources:
+  - url: https://mozilla.github.io/nunjucks/templating.html#set
+    desc: "Nunjucks {% set %} documentation"
+    type: documentation
