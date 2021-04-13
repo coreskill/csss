@@ -3134,8 +3134,18 @@
     "group": "templates"
   },
   {
-    "id": "variables-syntax-syntaxname",
-    "label": "Variables {{ syntax }} {{ syntax.name }}",
+    "id": "variables-example",
+    "label": "Variables {{ example }}",
+    "group": "templates"
+  },
+  {
+    "id": "filters",
+    "label": "Filters",
+    "group": "templates"
+  },
+  {
+    "id": "for1",
+    "label": "{% for %}",
     "group": "templates"
   },
   {
@@ -3149,33 +3159,18 @@
     "group": "templates"
   },
   {
-    "id": "include-paramfoo-with-parameters",
-    "label": "{% include param='foo' %} (with parameters)",
+    "id": "template-inheritance-block-and-extends",
+    "label": "Template inheritance {% block %} and {% extends %}",
     "group": "templates"
   },
   {
-    "id": "for1",
-    "label": "{% for %}",
+    "id": "parent-or-super",
+    "label": "{{ parent() }} or {{ super() }}",
     "group": "templates"
   },
   {
-    "id": "block",
-    "label": "{% block %}",
-    "group": "templates"
-  },
-  {
-    "id": "extends",
-    "label": "{% extends %}",
-    "group": "templates"
-  },
-  {
-    "id": "parent",
-    "label": "{{ parent() }}",
-    "group": "templates"
-  },
-  {
-    "id": "filters",
-    "label": "Filters",
+    "id": "set-foobar",
+    "label": "{% set foo='bar' %}",
     "group": "templates"
   },
   {
@@ -6652,7 +6647,17 @@
   },
   {
     "from": "overviewc",
-    "to": "variables-syntax-syntaxname",
+    "to": "variables-example",
+    "arrows": "to"
+  },
+  {
+    "from": "variables-example",
+    "to": "filters",
+    "arrows": "to"
+  },
+  {
+    "from": "overviewc",
+    "to": "for1",
     "arrows": "to"
   },
   {
@@ -6667,32 +6672,17 @@
   },
   {
     "from": "overviewc",
-    "to": "include-paramfoo-with-parameters",
+    "to": "template-inheritance-block-and-extends",
     "arrows": "to"
   },
   {
-    "from": "overviewc",
-    "to": "for1",
+    "from": "template-inheritance-block-and-extends",
+    "to": "parent-or-super",
     "arrows": "to"
   },
   {
-    "from": "overviewc",
-    "to": "block",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewc",
-    "to": "extends",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewc",
-    "to": "parent",
-    "arrows": "to"
-  },
-  {
-    "from": "overviewc",
-    "to": "filters",
+    "from": "variables-example",
+    "to": "set-foobar",
     "arrows": "to"
   },
   {

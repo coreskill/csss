@@ -2,7 +2,7 @@
   <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ parent() }} « CoreSkill Skill System (CSSS)</title>
+    <title>Template inheritance {% block %} and {% extends %} « CoreSkill Skill System (CSSS)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -44,7 +44,7 @@
           <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
             <li class="breadcrumb-item"><a href="advanced.html">Advanced</a></li>
             <li class="breadcrumb-item"><a href="templates.html">Templates</a></li>
-          <li class="breadcrumb-item active" aria-current="page">{{ parent() }}</li>
+          <li class="breadcrumb-item active" aria-current="page">Template inheritance {% block %} and {% extends %}</li>
         </ol>
       </nav>
 
@@ -76,6 +76,7 @@
                   </span>
                 
                     <span class="ms-auto ps-3 text-end">
+                        <span class="badge rounded-pill bg-primary">3</span>
                       <span class="note note-empty badge bg-light" data-slug="overviewc">
                       <span class="note-value"></span>
                       <span tabindex="0" class="note-changer fw-normal">✏️</span>
@@ -89,31 +90,55 @@
           <div class="mt-5 p-3 bg-light">
 
             <h1 class="display-3">
-              <span class="indicator text-center p-1" data-slug="parent">
+              <span class="indicator text-center p-1" data-slug="template-inheritance-block-and-extends">
                 <span class="done">✔️</span>
                 <span class="star">⭐️</span>
                 <span class="not-done">❔️</span>
               </span>
-              {{ parent() }}
+              Template inheritance {% block %} and {% extends %}
             </h1>
 
             <p>
-              <small><a href="graph.html#parent">Show in dependency graph</a></small>
+              <small><a href="graph.html#template-inheritance-block-and-extends">Show in dependency graph</a></small>
             </p>
 
 
               <h2 class="mt-5">Resources</h2>
               <div class="list-group list-group-flush">
-                  <a href="https://twig.symfony.com/doc/2.x/templates.html" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <a href="https://mozilla.github.io/nunjucks/templating.html#template-inheritance" class="list-group-item list-group-item-action flex-column align-items-start">
                     <div class="d-flex w-100 justify-content-between">
                       <h5 class="mb-1">
-                        https://twig.symfony.com/doc/2.x/templates.html
+                        Nunjucks template inheritance explained
                         
                       </h5>
                     </div>
                     <p class="mb-1">
-                      
-                      
+                      <span class="badge bg-secondary">documentation</span> 
+                      https://mozilla.github.io/nunjucks/templating.html#template-inheritance
+                    </p>
+                  </a>
+                  <a href="https://mozilla.github.io/nunjucks/templating.html#block" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">
+                        Nunjucks block documentation
+                        
+                      </h5>
+                    </div>
+                    <p class="mb-1">
+                      <span class="badge bg-secondary">documentation</span> 
+                      https://mozilla.github.io/nunjucks/templating.html#block
+                    </p>
+                  </a>
+                  <a href="https://mozilla.github.io/nunjucks/templating.html#extends" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">
+                        Nunjucks documentation
+                        
+                      </h5>
+                    </div>
+                    <p class="mb-1">
+                      <span class="badge bg-secondary">documentation</span> 
+                      https://mozilla.github.io/nunjucks/templating.html#extends
                     </p>
                   </a>
               </div>
@@ -121,7 +146,7 @@
 
             <h2 class="mt-5">Also learn these skills</h2>
             <div class="list-group list-group-flush">
-                <a href="variables-syntax-syntaxname.html"
+                <a href="variables-example.html"
                    class="
                     skill-item
                     
@@ -133,7 +158,7 @@
                     py-1 ps-0 pe-2
                   "
                 >
-                    <span class="indicator indicator-list text-center p-1" data-slug="variables-syntax-syntaxname">
+                    <span class="indicator indicator-list text-center p-1" data-slug="variables-example">
                       <span class="locked">🔒️</span>
                       <span class="done">✔️</span>
                       <span class="star">⭐️</span>
@@ -141,11 +166,43 @@
                     </span>
                 
                   <span>
-                    Variables {{ syntax }} {{ syntax.name }}
+                    Variables {{ example }}
                   </span>
                 
                     <span class="ms-auto ps-3 text-end">
-                      <span class="note note-empty badge bg-light" data-slug="variables-syntax-syntaxname">
+                        <span class="badge rounded-pill bg-primary">3</span>
+                      <span class="note note-empty badge bg-light" data-slug="variables-example">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+                <a href="for1.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="for1">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                    {% for %}
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                        <span class="badge rounded-pill bg-primary">3</span>
+                      <span class="note note-empty badge bg-light" data-slug="for1">
                       <span class="note-value"></span>
                       <span tabindex="0" class="note-changer fw-normal">✏️</span>
                     </span>
@@ -175,6 +232,7 @@
                   </span>
                 
                     <span class="ms-auto ps-3 text-end">
+                        <span class="badge rounded-pill bg-primary">3</span>
                       <span class="note note-empty badge bg-light" data-slug="comments2">
                       <span class="note-value"></span>
                       <span tabindex="0" class="note-changer fw-normal">✏️</span>
@@ -205,157 +263,8 @@
                   </span>
                 
                     <span class="ms-auto ps-3 text-end">
+                        <span class="badge rounded-pill bg-primary">3</span>
                       <span class="note note-empty badge bg-light" data-slug="include">
-                      <span class="note-value"></span>
-                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                    </span>
-                  </span>
-                </a>
-                <a href="include-paramfoo-with-parameters.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="include-paramfoo-with-parameters">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    {% include param&#x3D;&#x27;foo&#x27; %} (with parameters)
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                      <span class="note note-empty badge bg-light" data-slug="include-paramfoo-with-parameters">
-                      <span class="note-value"></span>
-                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                    </span>
-                  </span>
-                </a>
-                <a href="for1.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="for1">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    {% for %}
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                      <span class="note note-empty badge bg-light" data-slug="for1">
-                      <span class="note-value"></span>
-                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                    </span>
-                  </span>
-                </a>
-                <a href="block.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="block">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    {% block %}
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                      <span class="note note-empty badge bg-light" data-slug="block">
-                      <span class="note-value"></span>
-                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                    </span>
-                  </span>
-                </a>
-                <a href="extends.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="extends">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    {% extends %}
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                      <span class="note note-empty badge bg-light" data-slug="extends">
-                      <span class="note-value"></span>
-                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                    </span>
-                  </span>
-                </a>
-                <a href="filters.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="filters">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    Filters
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                      <span class="note note-empty badge bg-light" data-slug="filters">
                       <span class="note-value"></span>
                       <span tabindex="0" class="note-changer fw-normal">✏️</span>
                     </span>
@@ -366,6 +275,40 @@
         </div>
 
         <div class="col-3">
+            <h2 class="mt-5">Following skills</h2>
+            <div class="list-group list-group-flush">
+                <a href="parent-or-super.html"
+                   class="
+                    skill-item
+                    
+                    list-group-item
+                    list-group-item-action
+                    d-flex
+                    justify-content-start
+                    align-items-baseline
+                    py-1 ps-0 pe-2
+                  "
+                >
+                    <span class="indicator indicator-list text-center p-1" data-slug="parent-or-super">
+                      <span class="locked">🔒️</span>
+                      <span class="done">✔️</span>
+                      <span class="star">⭐️</span>
+                      <span class="not-done">❔️</span>
+                    </span>
+                
+                  <span>
+                    {{ parent() }} or {{ super() }}
+                  </span>
+                
+                    <span class="ms-auto ps-3 text-end">
+                        <span class="badge rounded-pill bg-primary">4</span>
+                      <span class="note note-empty badge bg-light" data-slug="parent-or-super">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                  </span>
+                </a>
+            </div>
         </div>
       </div>
 
