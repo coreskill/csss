@@ -2624,6 +2624,11 @@
     "group": "git"
   },
   {
+    "id": "restore",
+    "label": "restore",
+    "group": "git"
+  },
+  {
     "id": "branch-add",
     "label": "branch add",
     "group": "git"
@@ -6068,6 +6073,21 @@
   {
     "from": "commit",
     "to": "checkout-as-tool-to-revert-files-to-commited-state",
+    "arrows": "to"
+  },
+  {
+    "from": "status",
+    "to": "restore",
+    "arrows": "to"
+  },
+  {
+    "from": "add",
+    "to": "restore",
+    "arrows": "to"
+  },
+  {
+    "from": "commit",
+    "to": "restore",
     "arrows": "to"
   },
   {
