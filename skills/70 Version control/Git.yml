@@ -167,6 +167,9 @@ requires:
 resources:
   - url: https://www.atlassian.com/git/tutorials/saving-changes/gitignore
     type: tutorial
+  - url: https://gitignore.io
+    desc: "Gitignore generator"
+    type: tool
 
 ---
 skill: "checkout (as tool to revert files to commited state)"
