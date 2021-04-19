@@ -6,56 +6,77 @@ skill: "position: relative, position: static"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/position
+    type: reference
+    lang: en
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
 
 ---
 skill: "position: absolute"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/position
+    type: reference
+    lang: en
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
 
 ---
 skill: "position: fixed"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/position
+    type: reference
+    lang: en
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
 
 ---
 skill: "position: sticky"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/position
+    type: reference
+    lang: en
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
 
 ---
-skill: z-index
+skill: "z-index"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
+    type: reference
+    lang: en
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
 
 ---
-skill: top, bottom, left, right
+skill: "top, bottom, left, right"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/top
+    type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/bottom
+    type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/left
+    type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/right
+    type: reference
+    lang: en
 requires:
-  - General // Basic CSS Syntax
+  - "position: absolute"
+  - "position: relative, position: static"
 
 ---
-skill: transform
+skill: "transform"
 level: 5
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+    type: reference
+    lang: en
 requires:
-  - General // Basic CSS Syntax
+  - "CSS Units // Time units (s, ms)"

@@ -2,72 +2,137 @@
 sort: 150
 
 ---
-skill: Overview
-text: Special print features, typical print CSS (colors, removing stuff)…
+skill: "Overview"
+level: 4
+text: "Special print features, typical print CSS (colors, removing stuff)…"
 requires: 
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/Guide/Printing
+    desc: "Read the first section"
+    type: guide
+    lang: en
+
+---
+skill: "media print"
+level: 4
+requires: 
+  - "Overview"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@media#print
+    type: reference
+    lang: en
 
 ---
 skill: "@page"
+level: 4
+text: "Note margin in cm units for in @page"
 requires: 
-  - Overview
+  - "Overview"
+  - "CSS Units // cm, mm"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@page
+    type: reference
+    lang: en
 
 ---
-skill: size
+skill: "size"
+level: 4
 requires: 
-  - Overview
+  - "Overview"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@page/size
+    type: reference
+    lang: en
 
 ---
-skill: "margin (cm units) (in @page)"
+skill: "break-inside: (all)"
+level: 4
+text: "replaced page-break-inside but check compatibility tables for your use case"
 requires: 
-  - Overview
+  - "Overview"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/break-inside
+    type: reference
+    lang: en
+
+---
+skill: "break-after, break-before (always, avoid, auto)"
+level: 4
+text: "replaced page-break-after and page-break-before but check compatibility tables for your use case"
+requires: 
+  - "Overview"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/break-after
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/break-before
+    type: reference
+    lang: en
 
 ---
 skill: "show links targets in print (content: attr(href))"
 level: 5
-requires: 
-  - Overview
+requires:
+  - "Overview"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/content
+    desc: "See attr(x) value."
+    type: reference
+    lang: en
 
 ---
-skill: "page-break-inside: (all)"
+skill: "widows"
+level: 5
 requires: 
-  - Overview
+  - "Overview"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/widows
+    type: reference
+    lang: en
 
 ---
-skill: "page-break-after, page-break-before (always, avoid, auto)"
+skill: "orphans"
+level: 5
 requires: 
-  - Overview
-
----
-skill: widows
-requires: 
-  - Overview
-
----
-skill: orphans
-requires: 
-  - Overview
-
----
-skill: page-margin box
-level: extra
-requires: 
-  - Overview
+  - "Overview"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/orphans
+    type: reference
+    lang: en
 
 ---
 skill: "@page :first, :left, :right"
 level: extra
 requires: 
-  - Overview
+  - "Overview"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:first
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:left
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:right
+    type: reference
+    lang: en
 
 ---
-skill: marks
+skill: "marks"
 level: extra
 requires: 
-  - Overview
+  - "Overview"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@page/marks
+    type: reference
+    lang: en
 
 ---
-skill: bleed
+skill: "bleed"
 level: extra
 requires: 
-  - Overview
+  - "Overview"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@page/bleed
+    type: reference
+    lang: en

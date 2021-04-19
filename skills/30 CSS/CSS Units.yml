@@ -2,62 +2,197 @@
 sort: 50
 
 ---
-skill: Best practices
+skill: "Best practices"
+level: 1
+requires:
+  - "General // Basic CSS Syntax"
 resources:
   - url: https://www.vzhurudolu.cz/prirucka/jednotky
     lang: cs
-  - url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units
-    type: reference
+  - url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#what_is_a_css_value
+    type: explanation
     lang: en
-requires:
-  - General // Basic CSS Syntax
-  #- Box model 
-  - unitless
-  - "percent (%)"
-  - px
-  - em, rem
 
 ---
-skill: unitless
+skill: "Length units"
+level: 1
 requires:
-  - General // Basic CSS Syntax
+  - "Best practices"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#lengths
+    type: explanation
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/length
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/length#absolute_length_units
+    type: reference
+    lang: en
+
+---
+skill: "px"
+level: 1
+requires:
+  - "Length units"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/length#px
+    type: reference
+    lang: en
+
+---
+skill: "em, rem"
+level: 1
+requires:
+  - "Length units"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#ems_and_rems
+    type: explanation
+    lang: en
 
 ---
 skill: "percent (%)"
+level: 1
 requires:
-  - General // Basic CSS Syntax
+  - "Length units"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#percentages
+    type: explanation
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/percentage
+    type: reference
+    lang: en
 
 ---
-skill: px
+skill: "unitless (number)"
+level: 1
 requires:
-  - General // Basic CSS Syntax
+  - "Best practices"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#numbers
+    type: explanation
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/number
+    type: reference
+    lang: en
 
 ---
-skill: em, rem
+skill: "unitless (integer)"
+level: 3
 requires:
-  - General // Basic CSS Syntax
+  - "Best practices"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/integer
+    type: reference
+    lang: en
 
 ---
-skill: "color values: named"
+skill: "vh, vw"
+level: 2
 requires:
-  - General // Basic CSS Syntax
+  - "Length units"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/length#vh
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/length#vw
+    type: reference
+    lang: en
+
+---
+skill: "vmin, vmax"
+level: 4
+requires:
+  - "vh, vw"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/length#vmin
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/length#vmax
+    type: reference
+    lang: en
+
+---
+skill: "ch"
+level: 3
+requires:
+  - "em, rem"
+text: "The advance measure (width) of the glyph “0” of the element’s font."
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/length#ch
+    type: reference
+    lang: en
+
+---
+skill: "cm, mm"
+level: 3
+requires:
+  - "Length units"
+text: "Useful for print CSS."
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/length#cm
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/length#mm
+    type: reference
+    lang: en
+
+---
+skill: "Time units (s, ms)"
+level: 4
+requires:
+  - "General // Basic CSS Syntax"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/time
+    type: reference
+    lang: en
+
+---
+skill: "Angle units (deg)"
+level: 5
+requires:
+  - "General // Basic CSS Syntax"
+text: "Deg is the most used unit."
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/angle
+    type: reference
+    lang: en
+
+---
+skill: "color values: keywords"
+level: 1
+requires:
+  - "Best practices"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#color_keywords 
+    type: explanation
+    lang: en
 
 ---
 skill: "color values: hex (RRGGBBAA)"
+level: 1
 requires:
-  - General // Basic CSS Syntax
+  - "Best practices"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#hexadecimal_rgb_values
+    type: explanation
+    lang: en
 
 ---
-skill: "color values: rgb()"
+skill: "color values: rgb(), rgba()"
+level: 1
 requires:
-  - General // Basic CSS Syntax
-
----
-skill: "color values: rgba()"
-requires:
-  - General // Basic CSS Syntax
+  - "Best practices"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#rgb_and_rgba_values
+    type: explanation
+    lang: en
 
 ---
 skill: "color values: hsl(), hsla()"
+level: 2
 requires:
-  - General // Basic CSS Syntax
+  - "Best practices"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#hsl_and_hsla_values
+    type: explanation
+    lang: en

@@ -2,67 +2,83 @@
 sort: 120
 
 ---
-skill: content
+skill: "content"
 level: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/content
+    type: reference
+    lang: en
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
 
 ---
-skill: border-collapse
+skill: "border-collapse"
 level: 5
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/border-collapse
+    type: reference
+    lang: en
 requires:
-  - General // Basic CSS Syntax
-  - HTML // Body // <table>, <tr>, <th>, <td>, <tbody>
+  - "General // Basic CSS Syntax"
+  - "HTML // Body // <table>, <tr>, <th>, <td>, <tbody>"
 
 ---
-skill: table-layout
+skill: "table-layout"
 level: 5
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/table-layout
+    type: reference
+    lang: en
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
 
 ---
 skill: "display: table, table-row, table-cell, …"
 level: 5
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/display
+    type: reference
+    lang: en
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
 
 ---
-skill: CSS transitions
+skill: "CSS transitions"
 level: 5
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/transition
+    type: reference
+    lang: en
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
+  - "CSS Units // Angle units (deg)"
 
 ---
-skill: CSS animations
+skill: "CSS animations"
 level: extra
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
+    type: reference
+    lang: en
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
 
 ---
-skill: cursor
+skill: "cursor"
 level: extra
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
+    type: reference
+    lang: en
 requires:
-  - General // Basic CSS Syntax
-
+  - "General // Basic CSS Syntax"
 
 ---
-skill: filter
+skill: "filter"
 level: extra
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/filter
+    type: reference
+    lang: en
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
