@@ -829,13 +829,8 @@
     "group": "css-units"
   },
   {
-    "id": "unitless",
-    "label": "unitless",
-    "group": "css-units"
-  },
-  {
-    "id": "percent",
-    "label": "percent (%)",
+    "id": "length-units",
+    "label": "Length units",
     "group": "css-units"
   },
   {
@@ -849,8 +844,53 @@
     "group": "css-units"
   },
   {
-    "id": "color-values-named",
-    "label": "color values: named",
+    "id": "percent",
+    "label": "percent (%)",
+    "group": "css-units"
+  },
+  {
+    "id": "unitless-number",
+    "label": "unitless (number)",
+    "group": "css-units"
+  },
+  {
+    "id": "unitless-integer",
+    "label": "unitless (integer)",
+    "group": "css-units"
+  },
+  {
+    "id": "vh-vw",
+    "label": "vh, vw",
+    "group": "css-units"
+  },
+  {
+    "id": "vmin-vmax",
+    "label": "vmin, vmax",
+    "group": "css-units"
+  },
+  {
+    "id": "ch",
+    "label": "ch",
+    "group": "css-units"
+  },
+  {
+    "id": "cm-mm",
+    "label": "cm, mm",
+    "group": "css-units"
+  },
+  {
+    "id": "time-units-s-ms",
+    "label": "Time units (s, ms)",
+    "group": "css-units"
+  },
+  {
+    "id": "angle-units-deg",
+    "label": "Angle units (deg)",
+    "group": "css-units"
+  },
+  {
+    "id": "color-values-keywords",
+    "label": "color values: keywords",
     "group": "css-units"
   },
   {
@@ -859,13 +899,8 @@
     "group": "css-units"
   },
   {
-    "id": "color-values-rgb",
-    "label": "color values: rgb()",
-    "group": "css-units"
-  },
-  {
-    "id": "color-values-rgba",
-    "label": "color values: rgba()",
+    "id": "color-values-rgb-rgba",
+    "label": "color values: rgb(), rgba()",
     "group": "css-units"
   },
   {
@@ -1099,6 +1134,11 @@
     "group": "print-css"
   },
   {
+    "id": "media-print",
+    "label": "media print",
+    "group": "print-css"
+  },
+  {
     "id": "page",
     "label": "@page",
     "group": "print-css"
@@ -1109,23 +1149,18 @@
     "group": "print-css"
   },
   {
-    "id": "margin-cm-units-in-page",
-    "label": "margin (cm units) (in @page)",
+    "id": "break-inside-all",
+    "label": "break-inside: (all)",
+    "group": "print-css"
+  },
+  {
+    "id": "break-after-break-before-always-avoid-auto",
+    "label": "break-after, break-before (always, avoid, auto)",
     "group": "print-css"
   },
   {
     "id": "show-links-targets-in-print-content-attrhref",
     "label": "show links targets in print (content: attr(href))",
-    "group": "print-css"
-  },
-  {
-    "id": "page-break-inside-all",
-    "label": "page-break-inside: (all)",
-    "group": "print-css"
-  },
-  {
-    "id": "page-break-after-page-break-before-always-avoid-auto",
-    "label": "page-break-after, page-break-before (always, avoid, auto)",
     "group": "print-css"
   },
   {
@@ -1136,11 +1171,6 @@
   {
     "id": "orphans",
     "label": "orphans",
-    "group": "print-css"
-  },
-  {
-    "id": "page-margin-box",
-    "label": "page-margin box",
     "group": "print-css"
   },
   {
@@ -4171,67 +4201,82 @@
     "arrows": "to"
   },
   {
-    "from": "unitless",
-    "to": "best-practices",
+    "from": "best-practices",
+    "to": "length-units",
     "arrows": "to"
   },
   {
-    "from": "percent",
-    "to": "best-practices",
-    "arrows": "to"
-  },
-  {
-    "from": "px",
-    "to": "best-practices",
-    "arrows": "to"
-  },
-  {
-    "from": "em-rem",
-    "to": "best-practices",
-    "arrows": "to"
-  },
-  {
-    "from": "basic-css-syntax",
-    "to": "unitless",
-    "arrows": "to"
-  },
-  {
-    "from": "basic-css-syntax",
-    "to": "percent",
-    "arrows": "to"
-  },
-  {
-    "from": "basic-css-syntax",
+    "from": "length-units",
     "to": "px",
     "arrows": "to"
   },
   {
-    "from": "basic-css-syntax",
+    "from": "length-units",
     "to": "em-rem",
     "arrows": "to"
   },
   {
-    "from": "basic-css-syntax",
-    "to": "color-values-named",
+    "from": "length-units",
+    "to": "percent",
+    "arrows": "to"
+  },
+  {
+    "from": "best-practices",
+    "to": "unitless-number",
+    "arrows": "to"
+  },
+  {
+    "from": "best-practices",
+    "to": "unitless-integer",
+    "arrows": "to"
+  },
+  {
+    "from": "length-units",
+    "to": "vh-vw",
+    "arrows": "to"
+  },
+  {
+    "from": "vh-vw",
+    "to": "vmin-vmax",
+    "arrows": "to"
+  },
+  {
+    "from": "em-rem",
+    "to": "ch",
+    "arrows": "to"
+  },
+  {
+    "from": "length-units",
+    "to": "cm-mm",
     "arrows": "to"
   },
   {
     "from": "basic-css-syntax",
+    "to": "time-units-s-ms",
+    "arrows": "to"
+  },
+  {
+    "from": "basic-css-syntax",
+    "to": "angle-units-deg",
+    "arrows": "to"
+  },
+  {
+    "from": "best-practices",
+    "to": "color-values-keywords",
+    "arrows": "to"
+  },
+  {
+    "from": "best-practices",
     "to": "color-values-hex-rrggbbaa",
     "arrows": "to"
   },
   {
-    "from": "basic-css-syntax",
-    "to": "color-values-rgb",
+    "from": "best-practices",
+    "to": "color-values-rgb-rgba",
     "arrows": "to"
   },
   {
-    "from": "basic-css-syntax",
-    "to": "color-values-rgba",
-    "arrows": "to"
-  },
-  {
-    "from": "basic-css-syntax",
+    "from": "best-practices",
     "to": "color-values-hsl-hsla",
     "arrows": "to"
   },
@@ -4426,6 +4471,11 @@
     "arrows": "to"
   },
   {
+    "from": "angle-units-deg",
+    "to": "css-transitions",
+    "arrows": "to"
+  },
+  {
     "from": "basic-css-syntax",
     "to": "css-animations",
     "arrows": "to"
@@ -4466,12 +4516,17 @@
     "arrows": "to"
   },
   {
-    "from": "basic-css-syntax",
+    "from": "position-absolute",
     "to": "top-bottom-left-right",
     "arrows": "to"
   },
   {
-    "from": "basic-css-syntax",
+    "from": "position-relative-position-static",
+    "to": "top-bottom-left-right",
+    "arrows": "to"
+  },
+  {
+    "from": "time-units-s-ms",
     "to": "transform",
     "arrows": "to"
   },
@@ -4482,6 +4537,16 @@
   },
   {
     "from": "overview3",
+    "to": "media-print",
+    "arrows": "to"
+  },
+  {
+    "from": "overview3",
+    "to": "page",
+    "arrows": "to"
+  },
+  {
+    "from": "cm-mm",
     "to": "page",
     "arrows": "to"
   },
@@ -4492,22 +4557,17 @@
   },
   {
     "from": "overview3",
-    "to": "margin-cm-units-in-page",
+    "to": "break-inside-all",
+    "arrows": "to"
+  },
+  {
+    "from": "overview3",
+    "to": "break-after-break-before-always-avoid-auto",
     "arrows": "to"
   },
   {
     "from": "overview3",
     "to": "show-links-targets-in-print-content-attrhref",
-    "arrows": "to"
-  },
-  {
-    "from": "overview3",
-    "to": "page-break-inside-all",
-    "arrows": "to"
-  },
-  {
-    "from": "overview3",
-    "to": "page-break-after-page-break-before-always-avoid-auto",
     "arrows": "to"
   },
   {
@@ -4518,11 +4578,6 @@
   {
     "from": "overview3",
     "to": "orphans",
-    "arrows": "to"
-  },
-  {
-    "from": "overview3",
-    "to": "page-margin-box",
     "arrows": "to"
   },
   {
