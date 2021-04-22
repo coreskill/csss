@@ -2,86 +2,127 @@
 sort: 30
 
 ---
-skill: Visual Design
+skill: "Visual Design"
 resources:
   - url: https://ebooks.webflow.com/chapter/essential-visual-design-principles-for-web-designers
+    type: article
+    lang: en
   - url: https://ebooks.webflow.com/chapter/how-element-spacing-works
+    type: article
+    lang: en
   - url: https://www.usability.gov/what-and-why/visual-design.html
+    lang: en
 
 ---
-skill: Color Theory
+skill: "Color Theory"
 resources:
   - url: https://ebooks.webflow.com/chapter/web-design-101-color-theory
+    type: article
+    lang: en
   - url: https://www.codecademy.com/courses/learn-color-design/lessons/learn-color-theory/exercises/intro
+    desc: "Free, but the following chapters are in paid version."
+    type: interactive course
+    lang: en
   - url: https://color.method.ac/
-    desc: color – a color matching game
+    desc: "color – a color matching game"
     type: game
   - url: https://ciechanow.ski/lights-and-shadows/
-    desc: interesting article (not required)
+    desc: "interesting article (not required)"
+    type: article
+    lang: en
 requires:
-  - Visual Design
+  - "Visual Design"
 
 ---
-skill: UX
+skill: "Information architecture"
+  - url: https://www.usability.gov/what-and-why/information-architecture.html
+    lang: en
+
+---
+skill: "UX"
 resources:
+  - url: https://www.usability.gov/what-and-why/user-experience.html
+    lang: en
   - url: https://ebooks.webflow.com/chapter/9-essential-ui-design-tips
+    type: article
+    lang: en
   - url: http://www.jjg.net/elements/pdf/elements_ch02.pdf
+    type: book
+    lang: en
   - url: http://www.jjg.net/elements/pdf/elements.pdf
+    type: book
+    lang: en
   - url: http://www.jjg.net/elements/pdf/elements_simpleplanes.pdf
-text: Usability, Elements of User Experience,
+    type: book
+    lang: en
+text: "Usability, Elements of User Experience"
 
 ---
-skill: Typography
+skill: "Typography"
 requires:
-  - Visual Design
+  - "Visual Design"
 resources:
   - url: https://practicaltypography.com/
-    desc: Butterick’s Practical Typography
+    desc: "Butterick’s Practical Typography"
     type: online book
+    lang: en
   - url: http://webtypography.net/
-    desc: The Elements of Typographic Style Applied to the Web
+    desc: "The Elements of Typographic Style Applied to the Web"
     type: online book
+    lang: en
   - url: https://prowebtype.com/
-    desc: Professional Web Typography
+    desc: "Professional Web Typography"
     type: online book
+    lang: en
   - url: https://iamsteve.me/blog/entry/type-scale-line-height-lengths
-    desc: Short article about type scale
+    desc: "Short article about type scale"
+    lang: en
   - url: https://type-scale.com/
-    desc: Tool for testing different scales and fonts
+    desc: "Tool for testing different scales and fonts"
     type: tool
+    lang: en
   - url: https://ebooks.webflow.com/chapter/web-typography-101
+    lang: en
   - url: https://www.pierrickcalvez.com/journal/a-five-minutes-guide-to-better-typography
+    lang: en
   - url: https://type.method.ac/
-    desc: Kerntype (fix kerning)
+    desc: "Kerntype (fix kerning)"
     type: game
-  - url: http://typewar.com/
-    desc: typewar (distinguish different fonts)
+    lang: en
+  - url: https://typewar.com/
+    desc: "typewar (distinguish different fonts)"
     type: game
+    lang: en
   - url: https://www.jakpsatweb.cz/interpunkce.html
     lang: cs
   - url: https://www.typography.com/blog/typographic-illusions
     desc: "Bonus: read only if you want to see a small fraction of what type designers do." 
     type: article
+    lang: en
 
 ---
-skill: Content
+skill: "Content"
 requires:
-  - Visual Design
+  - "Visual Design"
 resources:
   - url: https://ebooks.webflow.com/chapter/why-your-design-process-should-start-with-content
+    lang: en
 
 ---
-skill: Corporate Identity
+skill: "Corporate Identity"
 requires:
-  - Visual Design
-  - Typography
+  - "Visual Design"
+  - "Typography"
 
 ---
-skill: Animation
+skill: "Animation"
 resources:
   - url: https://en.wikipedia.org/wiki/12_basic_principles_of_animation
+    lang: en
   - url: https://ebooks.webflow.com/chapter/how-to-design-interactions-effectively
+    lang: en
   - url: https://vimeo.com/93206523
     type: video
+    lang: en
 requires:
-  - Visual Design
+  - "Visual Design"

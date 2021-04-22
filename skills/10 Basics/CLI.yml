@@ -11,7 +11,7 @@ skill: Install
 requires:
   - Files // Files and folders
 resources:
-  - url: http://cmder.net
+  - url: https://cmder.net
     desc: For Windows download and unpack “Full version”
   - url: https://www.iterm2.com/
     desc: iTerm2 (for OS X)

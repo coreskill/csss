@@ -2,33 +2,49 @@
 sort: 70
 
 ---
-skill: Overview
+skill: "Basic regular expressions"
+level: 3
 requires:
-  - // Basics // Code Editing // Code Editor Installation
+  - "// Basics // Code Editing // Code Editor Installation"
 resources:
   - url: https://regexone.com/
+    type: interactive tutorial
+    lang: en
   - url: https://www.smashingmagazine.com/2009/06/essential-guide-to-regular-expressions-tools-tutorials-and-resources/
+    type: article
+    lang: en
 
 ---
-skill: Finding & Replacing
-text: ^(.+.*)[^a-z0-9]?\n$
+skill: "online tools to test"
+level: 3
 requires:
-  - Overview
-
----
-skill: online tools to test
-requires:
-  - Overview
+  - "Basic regular expressions"
 resources:
   - url: https://regex101.com/
+    type: tool
+    lang: en
   - url: https://regexr.com/
+    type: tool
+    lang: en
   - url: https://www.debuggex.com/
-  - url: http://txt2re.com/
+    type: tool
+    lang: en
+  - url: https://www.txt2re.com/
+    type: tool
+    lang: en
   - url: http://www.regexp.cz/
+    type: tool
     lang: cs
 
 ---
-skill: lookaheads and lookbehinds
+skill: "Finding & Replacing"
+level: 4
+text: "^(.+.*)[^a-z0-9]?\n$"
+requires:
+  - "Basic regular expressions"
+
+---
+skill: "lookaheads and lookbehinds"
 level: extra
 requires:
-  - Overview
+  - "Basic regular expressions"

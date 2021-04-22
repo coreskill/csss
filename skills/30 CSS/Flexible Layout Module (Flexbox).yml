@@ -21,15 +21,15 @@ resources:
     desc: "Good visual reference"
     type: reference
     lang: en
-  - url: http://flexbox.malven.co
+  - url: https://flexbox.malven.co/
     desc: "Dense visual reference"
     type: reference
     lang: en
-  - url: http://flexboxfroggy.com/
+  - url: https://flexboxfroggy.com/
     desc: "Flexbox Froggy helps to learn part of the basics"
     type: game
     lang: en
-  - url: http://www.flexboxdefense.com/
+  - url: https://www.flexboxdefense.com/
     desc: "Second part of Flexbox Froggy game to learn more about flex"
     type: game
     lang: en
