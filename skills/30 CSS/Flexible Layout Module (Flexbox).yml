@@ -2,7 +2,7 @@
 sort: 90
 
 ---
-skill: Flexbox concepts
+skill: "Flexbox concepts"
 level: 3
 sublevel: 1
 text: "
@@ -15,144 +15,184 @@ concepts of flexbox:
 "
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
-    desc: MDN’s Guide
+    desc: "MDN’s Guide"
+    lang: en
   - url: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-    desc: Good visual reference
+    desc: "Good visual reference"
+    type: reference
+    lang: en
   - url: http://flexbox.malven.co
-    desc: Dense visual reference
+    desc: "Dense visual reference"
+    type: reference
+    lang: en
   - url: http://flexboxfroggy.com/
-    desc: Flexbox Froggy helps to learn part of the basics
+    desc: "Flexbox Froggy helps to learn part of the basics"
     type: game
+    lang: en
   - url: http://www.flexboxdefense.com/
-    desc: Second part of Flexbox Froggy game to learn more about flex
+    desc: "Second part of Flexbox Froggy game to learn more about flex"
     type: game
+    lang: en
   - url: https://flexbox.io/
-    desc: Free video course by Wes Bos
+    desc: "Free video course by Wes Bos"
     type: video
+    lang: en
   - url: https://www.codecademy.com/paths/web-development/tracks/getting-more-advanced-with-design/modules/layout-with-flexbox/lessons/learn-flexbox-l/exercises/flexbox
-    desc: Codecademy take on flexbox
+    desc: "Codecademy's take on flexbox"
+    type: interactive course
+    lang: en
   - url: https://scrimba.com/g/gflexbox
-    desc: Interactive screencasts form
+    desc: "Interactive screencasts"
+    type: interactive course
+    lang: en
   - url: https://internetingishard.com/html-and-css/flexbox/
-    desc: Older but good tutorial
+    desc: "Older but good tutorial"
+    type: tutorial
+    lang: en
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
 
 ---
-skill: flex-wrap 
+skill: "flex-wrap" 
 level: 3
 sublevel: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap
+    type: reference
+    lang: en
 requires:
-  - Flexbox concepts
+  - "Flexbox concepts"
 
 ---
-skill: flex-direction 
+skill: "flex-direction" 
 level: 3
 sublevel: 3
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction
+    type: reference
+    lang: en
 requires:
-  - Flexbox concepts
+  - "Flexbox concepts"
 
 ---
-skill: flex-basis 
+skill: "flex-basis" 
 level: 3
 sublevel: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis
+    type: reference
+    lang: en
 requires:
-  - Flexbox concepts
+  - "Flexbox concepts"
 
 ---
-skill: flex-grow 
+skill: "flex-grow" 
 level: 3
 sublevel: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow
+    type: reference
+    lang: en
 requires:
-  - Flexbox concepts
+  - "Flexbox concepts"
 
 ---
-skill: flex-shrink 
+skill: "flex-shrink" 
 level: 3
 sublevel: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink
+    type: reference
+    lang: en
 requires:
-  - Flexbox concepts
+  - "Flexbox concepts"
 
 ---
-skill: flex (shorthand)
+skill: "flex (shorthand)"
 level: 3
 sublevel: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex
+    type: reference
+    lang: en
 requires:
-  - flex-grow
-  - flex-shrink
-  - flex-basis
+  - "flex-grow"
+  - "flex-shrink"
+  - "flex-basis"
 
 ---
-skill: order 
+skill: "order" 
 level: 3
 sublevel: 5
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/order
+    type: reference
+    lang: en
 requires:
-  - Flexbox concepts
+  - "Flexbox concepts"
 
 ---
-skill: flex-flow (shorthand)
+skill: "flex-flow (shorthand)"
 level: extra
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-flow
+    type: reference
+    lang: en
 requires:
-  - flex-direction
-  - flex-wrap
+  - "flex-direction"
+  - "flex-wrap"
 
 ---
-skill: justify-content
+skill: "justify-content"
 level: 3
 sublevel: 4
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
+    type: reference
+    lang: en
 requires:
-  - Flexbox concepts
+  - "Flexbox concepts"
 
 ---
-skill: align-content
+skill: "align-content"
 level: 3
 sublevel: 4
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/align-content
+    type: reference
+    lang: en
 requires:
-  - Flexbox concepts
+  - "Flexbox concepts"
 
 ---
-skill: align-items
+skill: "align-items"
 level: 3
 sublevel: 4
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/align-items
+    type: reference
+    lang: en
 requires:
-  - Flexbox concepts
+  - "Flexbox concepts"
 
 ---
-skill: align-self
+skill: "align-self"
 level: 3
 sublevel: 5
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/align-self
+    type: reference
+    lang: en
 requires:
-  - align-items
+  - "align-items"
 
 ---
-skill: justify-self
+skill: "justify-self"
 level: 3
 sublevel: 5
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/justify-self
+    type: reference
+    lang: en
 requires:
-  - justify-content
+  - "justify-content"
