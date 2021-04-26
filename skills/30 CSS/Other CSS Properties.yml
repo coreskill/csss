@@ -12,6 +12,25 @@ requires:
   - "General // Basic CSS Syntax"
 
 ---
+skill: "Custom properties"
+level: 5
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/--*
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/var()
+    type: reference
+    lang: en
+  - url: https://scrimba.com/learn/cssvariables
+    type: interactive course
+    lang: en
+requires:
+  - "General // Basic CSS Syntax"
+
+---
 skill: "border-collapse"
 level: 5
 resources:
