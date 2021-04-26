@@ -35,6 +35,7 @@ requires:
 
 ---
 skill: "Information architecture"
+resources:
   - url: https://www.usability.gov/what-and-why/information-architecture.html
     lang: en
 
