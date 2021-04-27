@@ -16,16 +16,24 @@ skill: "Custom properties"
 level: 5
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/--*
+    desc: "Custom properties (--*): CSS variables"
     type: reference
     lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+    desc: "Using CSS custom properties (variables)"
     type: reference
     lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/var()
+    desc: "var()"
     type: reference
     lang: en
   - url: https://scrimba.com/learn/cssvariables
+    desc: "Learn CSS Variables (Free) at Scrimba"
     type: interactive course
+    lang: en
+  - url: https://piccalil.li/tutorial/getting-started-with-css-custom-properties
+    desc: "Getting started with CSS Custom Properties"
+    type: article
     lang: en
 requires:
   - "General // Basic CSS Syntax"
