@@ -7,7 +7,7 @@
   "scripts": {
     "build": "ts-node index.ts",
     "browsersync": "browser-sync start --config bs-config.js",
-    "watch": "chokidar \"skills/**/*.yml\" \"(partials|layouts)/**/*.hbs\" --debounce 1000 --throttle 1000 --command \"npm run build\"",
+    "watch": "chokidar \"skills/**/*.yml\" \"(partials|layouts)/**/*.hbs\" \"src/*.{js,css}\" --debounce 1000 --throttle 1000 --command \"npm run build\"",
     "dev": "npm run build && concurrently --kill-others --names \"BSync,watch\" --prefix-colors \"yellow,green\" \"npm run browsersync\" \"npm run watch\""
   },
   "dependencies": {
