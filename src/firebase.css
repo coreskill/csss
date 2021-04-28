@@ -47,6 +47,16 @@
   background-color: #d4d4d4;
 }
 
+.admin .note.note-empty {
+  background-color: transparent !important;
+}
+
+.admin .skill-item:hover .note.note-empty,
 .admin .skill-item:hover .note-changer {
   display: inline-block;
+}
+
+.note:hover .note-changer {
+  transform: scale(3);
+  transition: transform 100ms ease-in-out;
 }
