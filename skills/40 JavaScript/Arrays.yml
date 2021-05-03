@@ -11,6 +11,8 @@ resources:
     desc: "Overview"
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays
     type: interactive course
+  - url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+    type: reference
 
 ---
 skill: "Creating Arrays"
@@ -20,6 +22,8 @@ requires:
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/create-an-array
     type: interactive course
+  - url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#creating_an_array
+    type: reference
 
 ---
 skill: "Accessing elements"
@@ -29,6 +33,8 @@ requires:
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/property-access
     type: interactive course
+  - url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#accessing_array_elements
+    type: reference
 
 ---
 skill: "Updating elements"
@@ -56,6 +62,8 @@ requires:
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/array-length
     type: interactive course
+  - url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length
+    type: reference
 
 ---
 skill: ".push()"
@@ -65,6 +73,8 @@ requires:
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/push-and-pop
     type: interactive course
+  - url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/
+    type: reference
 
 ---
 skill: ".pop()"
@@ -74,6 +84,8 @@ requires:
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/pop
     type: interactive course
+  - url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/
+    type: reference
 
 ---
 skill: ".join()"
@@ -83,6 +95,8 @@ requires:
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/more-array-methods
     type: interactive course
+  - url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join
+    type: reference
 
 ---
 skill: ".slice()"
@@ -92,6 +106,8 @@ requires:
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/more-array-methods
     type: interactive course
+  - url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
+    type: reference
 
 ---
 skill: ".splice()"
@@ -101,6 +117,8 @@ requires:
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/more-array-methods
     type: interactive course
+  - url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
+    type: reference
 
 ---
 skill: ".shift()"
@@ -110,6 +128,8 @@ requires:
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/more-array-methods
     type: interactive course
+  - url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift
+    type: reference
 
 ---
 skill: ".unshift()"
@@ -119,15 +139,19 @@ requires:
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/more-array-methods
     type: interactive course
+  - url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift
+    type: reference
 
 ---
-skill: ".concat()"
+skill: ".indexOf()"
 level: 2
 requires:
   - "Creating Arrays"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/more-array-methods
     type: interactive course
+  - url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf
+    type: reference
 
 ---
 skill: "Arrays and Functions"
@@ -146,3 +170,5 @@ requires:
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/nested-arrays
     type: interactive course
+  - url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#creating_a_two-dimensional_array
+    type: reference
