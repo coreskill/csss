@@ -65,6 +65,12 @@ skill: margin
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/margin
+    type: reference
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing
+    desc: "Margin collapsing"
+  - url: https://www.joshwcomeau.com/css/rules-of-margin-collapse/
+    desc: "Margin collapsing"
+    type: article
 requires:
   - General // Basic CSS Syntax
 
