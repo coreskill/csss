@@ -63,6 +63,10 @@ skill: "Typography"
 requires:
   - "Visual Design"
 resources:
+  - url: https://www.youtube.com/watch?v=agbh1wbfJt8
+    desc: "Covers various topics"
+    type: video
+    lang: en
   - url: https://practicaltypography.com/
     desc: "Butterick’s Practical Typography"
     type: online book
