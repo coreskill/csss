@@ -29,6 +29,7 @@ resources:
   - url: https://color.method.ac/
     desc: "color – a color matching game"
     type: game
+    lang: en
   - url: https://ciechanow.ski/lights-and-shadows/
     desc: "interesting article (not required)"
     type: article

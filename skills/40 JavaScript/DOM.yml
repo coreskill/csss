@@ -8,9 +8,11 @@ requires:
   - "Objects // Nested Objects"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+    lang: en
   - url: https://www.codecademy.com/learn/build-interactive-websites
     desc: "Building Interactive JavaScript Websites (Codecademy PRO)"
     type: interactive course
+    lang: en
 
 ---
 skill: "Selecting elements"
