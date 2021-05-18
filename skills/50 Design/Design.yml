@@ -12,6 +12,9 @@ resources:
     lang: en
   - url: https://www.usability.gov/what-and-why/visual-design.html
     lang: en
+  - url: https://cantunsee.space/
+    type: game
+    lang: en
 
 ---
 skill: "Color Theory"
