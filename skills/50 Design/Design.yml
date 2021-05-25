@@ -46,6 +46,10 @@ resources:
 ---
 skill: "UX"
 resources:
+  - url: https://articles.uie.com/five_design_decision_styles/
+    desc: "5 Design Decision Styles"
+    lang: en
+    type: article
   - url: https://www.usability.gov/what-and-why/user-experience.html
     lang: en
   - url: https://ebooks.webflow.com/chapter/9-essential-ui-design-tips
