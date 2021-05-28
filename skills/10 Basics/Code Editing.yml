@@ -2,116 +2,117 @@
 sort: 15 
   
 ---
-skill: Overview
+skill: "Overview"
 
 ---
 skill: "Working with text: clipboard operations, navigating, selecting, changing"
 requires:
-  - Overview
+  - "Overview"
 resources:
   - url: https://dusan.pc-slany.cz/klavesnice/pocitacovy_text.htm
     lang: cs
 
 ---
-skill: Code Editor Installation
+skill: "Code Editor Installation"
 requires:
-  - Overview
+  - "Overview"
 resources:
   - url: https://code.visualstudio.com/
 
 ---
-skill: Projects
+skill: "Projects"
 requires:
-  - Code Editor Installation
+  - "Code Editor Installation"
 
 ---
 skill: "Basic editing: copy + cut + paste lines, indenting (including difference between tabs and spaces)"
 requires:
-  - Code Editor Installation
+  - "Code Editor Installation"
 
 ---
-skill: Basic Text editing using keyboard
-text: "
+skill: "Basic Text editing using keyboard"
+text: |
   You should know how to do this using only keyboard
-  * copy
-  * paste
-  * cut
-  * move text cursor
-  * to the start/end of the line
-  * to the start/end of the document
-  * one word forward and backwards
-  * use the same cursor movements to also select a text
-  * select all
-"
----
-skill: Text Editor control using keyboard
-requires:
-  - Basic Text editing using keyboard
-text: "
-  You should learn how to do these with your keyboard.
-  * Undo last action
-  * Save file
-  * Open file
-  * Switch beetween opened files
-  * Invoke search/replace
-"
----
-skill: Working with text in a text editor
-requires:
-  - Basic Text editing using keyboard
-text: "
-  * Copy and cut whole line (usually standard shortcuts without selection)
-  * Delete a line
-  * Duplicate a line
-  * Auto-indent (or even auto format) code
-  * Manually increase or decrease an indent (usually <kbd>Tab</kbd> key and unindent is Tab with some modifier).
-  * Comment out and delete comment either selection or a line
-  * Move line up or down
-  Many of the above actions work even on multiple lines. For example indenting.
-"
+  - copy
+  - paste
+  - cut
+  - move text cursor
+  - to the start/end of the line
+  - to the start/end of the document
+  - one word forward and backwards
+  - use the same cursor movements to also select a text
+  - select all
 
 ---
-skill: Multiple selections
+skill: "Text Editor control using keyboard"
 requires:
-  - Code Editor Installation
+  - "Basic Text editing using keyboard"
+text: |
+  You should learn how to do these with your keyboard.
+  - Undo last action
+  - Save file
+  - Open file
+  - Switch beetween opened files
+  - Invoke search/replace
+
+---
+skill: "Working with text in a text editor"
+requires:
+  - "Basic Text editing using keyboard"
+text: |
+  - Copy and cut whole line (usually standard shortcuts without selection)
+  - Delete a line
+  - Duplicate a line
+  - Auto-indent (or even auto format) code
+  - Manually increase or decrease an indent (usually <kbd>Tab</kbd> key and unindent is Tab with some modifier).
+  - Comment out and delete comment either selection or a line
+  - Move line up or down
+  
+  Many of the above actions work even on multiple lines. For example indenting.
+
+---
+skill: "Multiple selections"
+requires:
+  - "Code Editor Installation"
 resources:
   - url:
 
 ---
-skill: Intellisense
+skill: "Intellisense"
 requires:
-  - Code Editor Installation
+  - "Code Editor Installation"
 resources:
   - url: https://code.visualstudio.com/docs/editor/intellisense
   - url: https://code.visualstudio.com/docs/languages/html
   - url: https://code.visualstudio.com/docs/languages/css
 
 ---
-skill: Emmet
+skill: "Emmet"
 requires:
-  - Code Editor Installation
+  - "Code Editor Installation"
 resources:
   - url: https://code.visualstudio.com/docs/editor/emmet
 
 ---
-skill: Search and replace
+skill: "Search and replace"
 requires:
-  - Code Editor Installation
+  - "Code Editor Installation"
 resources:
   - url:
 
 ---
-skill: Extensions/Plugins installation
+skill: "Extensions/Plugins installation"
 requires:
-  - Code Editor Installation
+  - "Code Editor Installation"
 resources:
   - url:
 
 ---
-skill: Autoindent and/or Beautify
-text: Prettier or Beatify
+skill: "Autoindent and/or Beautify"
+text: | 
+  Prettier or Beatify
 requires:
-  - Extensions/Plugins installation
+  - "Extensions/Plugins installation"
 resources:
   - url: https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify
   - url: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode

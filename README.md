@@ -41,7 +41,8 @@ Generally we try to sort items according to their level but sometimes it makes m
 skill: "Example"
 level: 2
 sublevel: 1
-text: "Example text with the skill"
+text: |
+  Example text with the skill
 requires:
   - "Example from the same file"
   - "Example section // Example from the same section"

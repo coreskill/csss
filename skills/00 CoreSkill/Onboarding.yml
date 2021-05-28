@@ -1,47 +1,66 @@
 ---
-skill: Agreement
-text: "attendee: sign, CoreSkill: sign"
+skill: "Agreement"
+text: |
+  attendee: sign
+  CoreSkill: sign
 
 ---
-skill: Computer
-text: "recommended: 16 GB RAM, i7 quadcore CPU, SSD, 20 GB free space, 1920×1080+ display, mouse, secondary 1920×1080+ display optional, Windows, macOS or Linux"
+skill: "Computer"
+text: |
+  recommended: 
+    - 16 GB RAM (8 GB minimum)
+    - i5/i7/Ryzen/M1 CPU with 4+ cores 
+    - SSD with 20+ GB free space
+    - 1920×1080+ display
+    - mouse
+    - Windows, macOS or Linux
+  
+  optional:
+    - secondary 1920×1080+ display
 
 ---
-skill: Google Account
-text: "provide or create if needed (for calendar and shared documents)"
+skill: "Google Account"
+text: |
+  provide or create if needed (for calendar and shared documents)
 
 ---
-skill: Join folders on Google Drive
-text: "join"
+skill: "Join folders on Google Drive"
+text: |
+  Join
 
 ---
-skill: Junior Guru Club Discord
-text: "Join"
+skill: "Junior Guru Club Discord"
+text: |
+  Join
 
 ---
-skill: Code editor
-text: "Install: Visual Studio Code or Webstorm"
+skill: "Code editor"
+text: |
+  Install: Visual Studio Code or Webstorm
 
 ---
-skill: Chrome
-text: "Install English version"
+skill: "Chrome"
+text: |
+  Install English version
 resources:
   - url: https://www.google.com/chrome/
 
 ---
-skill: Firefox
-text: "Install English version"
+skill: "Firefox"
+text: |
+  Install English version
 resources:
   - url: https://www.mozilla.org
 
 ---
-skill: Password manager
+skill: "Password manager"
 level: extra
-text: "Install (voluntary)"
+text: |
+  Install (voluntary)
 resources:
   - url: https://keepassxc.org/
-    desc: KeePassXC is free and Open Source password manager
+    desc: "KeePassXC is free and Open Source password manager"
   - url: https://1password.com/
-    desc: 1Password
+    desc: "1Password"
   - url: https://www.lastpass.com/
-    desc: LastPass
+    desc: "LastPass"

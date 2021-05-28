@@ -4,7 +4,8 @@ sort: 150
 ---
 skill: "Overview"
 level: 4
-text: "Special print features, typical print CSS (colors, removing stuff)…"
+text: |
+  Special print features, typical print CSS (colors, removing stuff)…
 requires: 
   - "General // Basic CSS Syntax"
 resources:
@@ -26,7 +27,8 @@ resources:
 ---
 skill: "@page"
 level: 4
-text: "Note margin in cm units for in @page"
+text: |
+  Note `margin` in `cm` units used in `@page`
 requires: 
   - "Overview"
   - "CSS Units // cm, mm"
@@ -48,7 +50,8 @@ resources:
 ---
 skill: "break-inside: (all)"
 level: 4
-text: "replaced page-break-inside but check compatibility tables for your use case"
+text: |
+  replaced page-break-inside but check compatibility tables for your use case
 requires: 
   - "Overview"
 resources:
@@ -59,7 +62,8 @@ resources:
 ---
 skill: "break-after, break-before (always, avoid, auto)"
 level: 4
-text: "replaced page-break-after and page-break-before but check compatibility tables for your use case"
+text: |
+  replaced `page-break-after` and `page-break-before` but check compatibility tables for your use case
 requires: 
   - "Overview"
 resources:

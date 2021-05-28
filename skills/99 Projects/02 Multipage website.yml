@@ -1,10 +1,10 @@
 ---
-skill: Build Generic Hipster Coffee website
+skill: "Build Generic Hipster Coffee website"
 resources:
   - url: https://generic-hipster-coffee.surge.sh/
-    desc: Example of the result
+    desc: "Example of the result"
     
 ---
-skill: Embed a Google Map using Google Maps JavaScript API
+skill: "Embed a Google Map using Google Maps JavaScript API"
 resources:
   - url: https://developers.google.com/maps/documentation/javascript/tutorial

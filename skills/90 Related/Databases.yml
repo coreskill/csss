@@ -2,20 +2,21 @@
 sort: 60
 
 ---
-skill: Overview
+skill: "Databases overview"
 
 ---
-skill: Relational database
-text: tables, rows and columns
+skill: "Relational database"
+text: |
+  tables, rows and columns
 requires:
-  - Overview
+  - "Databases overview"
 
 ---
-skill: CRUD via client (Adminer/PHPMyAdmin)
+skill: "CRUD via client (Adminer/PHPMyAdmin)"
 requires:
-  - Relational database
+  - "Relational database"
 
 ---
-skill: noSQL
+skill: "noSQL"
 requires:
-  - Overview
+  - "Databases overview"

@@ -28,4 +28,6 @@ skill: "package.json"
 level: 3
 requires:
   - "npm install"
-text: "npm init, npm install --save-dev"
+text: |
+  npm init
+  npm install --save-dev

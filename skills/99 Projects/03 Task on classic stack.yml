@@ -1,7 +1,7 @@
 ---
-skill: On classic stack fix a bug or code a new feature.
+skill: "On classic stack fix a bug or code a new feature."
 resources:
   - url: https://github.com/pyvec/cz.pycon.org-2019
-    desc: Open source project you can work on
+    desc: "Open source project you can work on"
   - url: https://github.com/cesko-digital
-    desc: Open source projects you can work on 
+    desc: "Open source projects you can work on" 

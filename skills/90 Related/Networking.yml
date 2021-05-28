@@ -48,12 +48,14 @@ skill: "DNS"
 level: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Glossary/DNS
-text: "simplifed"
+text: |
+  simplifed
 
 ---
 skill: "File transfer via http"
 level: 3
-text: "response, request, headers"
+text: |
+  response, request, headers
 resources:
   - url: https://marksheet.io/web.html#opening-a-webpage-in-your-browser
     desc: "Minimalistic explanation"
@@ -65,7 +67,8 @@ skill: "HTTP Headers"
 level: 4
 requires:
   - Web browser
-text: "User Agent Headers, Expire, Accept-encoding, Accept-language"
+text: |
+  User Agent Headers, Expire, Accept-encoding, Accept-language
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
     desc: "Headers overview"

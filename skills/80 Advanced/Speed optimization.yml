@@ -2,83 +2,82 @@
 sort: 80
 
 ---
-skill: Why
+skill: "Why"
 # requires: todo: add everything needed 
 resources:
   - url: https://developers.google.com/web/fundamentals/performance/why-performance-matters
-    desc: Basic description by Google 
+    desc: "Basic description by Google" 
   - url: https://developer.mozilla.org/en-US/docs/Learn/Performance/why_web_performance
-    desc: Basic description by MDN
+    desc: "Basic description by MDN"
 
 ---
-skill: Percieved vs. real speed
+skill: "Percieved vs. real speed"
 requires:
-  - Why
+  - "Why"
 resources:
   - url: https://developers.google.com/web/fundamentals/performance/rail
   - url: https://developer.mozilla.org/en-US/docs/Learn/Performance/Perceived_performance
 
 ---
-skill: Internet connection speeds
+skill: "Internet connection speeds"
 requires:
-  - Why
+  - "Why"
 resources:
   - url: https://developers.google.com/web/fundamentals/performance/poor-connectivity
   - url: https://developer.mozilla.org/en-US/docs/Learn/Performance/Understanding_latency
 
 ---
-skill: HTTP file transfer
+skill: "HTTP file transfer"
 requires:
-  - Internet connection speeds
+  - "Internet connection speeds"
 resources:
   - url: https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching
   - url: https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer
   - url: https://developer.mozilla.org/en-US/docs/Learn/Performance/Populating_the_page:_how_browsers_work
 
 ---
-skill: Strategies
+skill: "Strategies"
 requires:
-  - Percieved vs. real speed
-  - Internet connection speeds
-  - HTTP file transfer
-text: "
-While it’s possible to work on speed after design and development it’s much better to think about this stuff from early phases of both.
-
-## There are (usually) no easy wins
-
-Most of the time there is not one thing you can do to make your site faster by a big difference. Many times you have to make several changes and each shaves off some non significant time and together they make a real difference. 
-
-## Don’t overoptimize
-
-Optimizing for speed can take a lot of time and while speed is important try to focus on low-hanging fruit: changes that make the most difference and are cheapest (quickest) to implement.
-
-It also makes sense to focus on optimizing pages critical to the bottom line, e.g. landing pages, registration pages or shopping carts. 
-
-While it's great to **think** about optimization early, it’s also important not to optimize too early.
-
-## Not loaded is the fastest
-
-You can spend a lot of effort to speed up loading of all the assets for complex web page but most effective way is just to not load them at all. 
-
-So the first rule is to evaluate every single piece of code if it really adds enough value to justify slowing down the page.
- 
-You can also try to load only assets really needed for the page. For example you might have a lightbox script that is needed only on gallery page so link it only there and not on homepage.
-
-## Can you load it later?
-
-Technique named _lazy loading_ means that you load assets later, after whole page is loaded. You can have pictures loaded later if user really scrolls down.
-
-This has the advantage not only in speed but also for users on metered connections where every megabyte costs real money.
-
-## Let’s make everything smaller
-
-If you really need to load something let’s make sure it’s as small as possible.
-"
+  - "Percieved vs. real speed"
+  - "Internet connection speeds"
+  - "HTTP file transfer"
+text: |
+  While it’s possible to work on speed after design and development it’s much better to think about this stuff from early phases of both.
+  
+  ## There are (usually) no easy wins
+  
+  Most of the time there is not one thing you can do to make your site faster by a big difference. Many times you have to make several changes and each shaves off some non significant time and together they make a real difference. 
+  
+  ## Don’t overoptimize
+  
+  Optimizing for speed can take a lot of time and while speed is important try to focus on low-hanging fruit: changes that make the most difference and are cheapest (quickest) to implement.
+  
+  It also makes sense to focus on optimizing pages critical to the bottom line, e.g. landing pages, registration pages or shopping carts. 
+  
+  While it's great to **think** about optimization early, it’s also important not to optimize too early.
+  
+  ## Not loaded is the fastest
+  
+  You can spend a lot of effort to speed up loading of all the assets for complex web page but most effective way is just to not load them at all. 
+  
+  So the first rule is to evaluate every single piece of code if it really adds enough value to justify slowing down the page.
+   
+  You can also try to load only assets really needed for the page. For example you might have a lightbox script that is needed only on gallery page so link it only there and not on homepage.
+  
+  ## Can you load it later?
+  
+  Technique named _lazy loading_ means that you load assets later, after whole page is loaded. You can have pictures loaded later if user really scrolls down.
+  
+  This has the advantage not only in speed but also for users on metered connections where every megabyte costs real money.
+  
+  ## Let’s make everything smaller
+  
+  If you really need to load something let’s make sure it’s as small as possible.
 
 ---
-skill: Optimizing CSS
+skill: "Optimizing CSS"
 requires:
-  - Strategies
+  - "Strategies"
 resources:
   - url: https://github.com/css/csso
     type: tool 
@@ -88,29 +87,29 @@ resources:
     type: tool
       
 ---
-skill: Optimizing JavaScript
+skill: "Optimizing JavaScript"
 requires:
-  - Strategies
+  - "Strategies"
 resources:
   - url: https://developers.google.com/web/fundamentals/performance/optimizing-javascript/tree-shaking
   - url: https://developers.google.com/web/fundamentals/performance/optimizing-javascript/code-splitting
 
 ---
-skill: Optimizing SVG
+skill: "Optimizing SVG"
 requires:
-  - Strategies
+  - "Strategies"
 resources:
   - url: https://github.com/svg/svgo
-    desc: Optimizer is a Nodejs-based tool for optimizing SVG vector graphics files.
+    desc: "Optimizer is a Nodejs-based tool for optimizing SVG vector graphics files."
     type: tool
   - url: https://jakearchibald.github.io/svgomg/
-    desc: SVGOMG is SVGO's Web GUI.
+    desc: "SVGOMG is SVGO's Web GUI."
     type: tool
 
 ---
-skill: Optimizing images
+skill: "Optimizing images"
 requires:
-  - Strategies
+  - "Strategies"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/Performance/Multimedia
   - url: https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization
@@ -118,32 +117,32 @@ resources:
     type: tool
 
 ---
-skill: Blocking and non-blocking assets
+skill: "Blocking and non-blocking assets"
 requires:
-  - Strategies
+  - "Strategies"
 resources:
   - url: https://developers.google.com/web/fundamentals/performance/critical-rendering-path/analyzing-crp/
   - url: https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/javascript-startup-optimization
 
 ---
-skill: Lazy loading
+skill: "Lazy loading"
 requires:
-  - Percieved vs. real speed
-  - Strategies
-  - Blocking and non-blocking assets
+  - "Percieved vs. real speed"
+  - "Strategies"
+  - "Blocking and non-blocking assets"
 resources:
   - url: https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video
 
 ---
-skill: Measuring speed
+skill: "Measuring speed"
 requires:
-  - Percieved vs. real speed
-  - Strategies
-  - Blocking and non-blocking assets
+  - "Percieved vs. real speed"
+  - "Strategies"
+  - "Blocking and non-blocking assets"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/Performance/Measuring_performance
   - url: https://developers.google.com/web/tools/chrome-devtools/evaluate-performance
-    desc: Tools built in Chrome Dev tools
+    desc: "Tools built in Chrome Dev tools"
   - url: https://www.webpagetest.org/
     type: tool
   - url: https://gtmetrix.com/

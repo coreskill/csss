@@ -93,6 +93,12 @@ requires:
 skill: "Traversing DOM"
 requires:
   - "Selecting elements"
-text: "Children, Parent, Siblings, Closest, Next, find"
+text: |
+  - children
+  - parent
+  - siblings
+  - closest
+  - next
+  - find
 #resources:
 #  - url: 

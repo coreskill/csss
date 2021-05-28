@@ -23,7 +23,8 @@ resources:
 ---
 skill: "Comments"
 level: 1
-text: "line and block"
+text: |
+  line and block
 requires:
   - "Console.log()"
 resources:
@@ -33,7 +34,11 @@ resources:
 ---
 skill: "Data Types"
 level: 1
-text: "Strings, Numbers, Booleans, Null"
+text: |
+  - Strings
+  - Numbers
+  - Booleans
+  - Null
 requires:
   - "Console.log()"
 resources:
@@ -42,7 +47,11 @@ resources:
 ---
 skill: "Arithmetic Operators"
 level: 1
-text: "+, -, *, /"
+text: |
+  - `+`
+  - `-`
+  - `*`
+  - `/`
 requires:
   - "Data Types"
 resources:
@@ -52,7 +61,8 @@ resources:
 ---
 skill: "String Concatenation"
 level: 1
-text: "Using operators to concatenate strings."
+text: |
+  Using operators to concatenate strings.
 requires:
   - "Arithmetic Operators"
 resources:
@@ -62,7 +72,10 @@ resources:
 ---
 skill: "Properties"
 level: 1
-text: "principle, instances, length (example)"
+text: |
+  - principle
+  - instances
+  - length (example)
 requires:
   - "JavaScript overview"
 resources:
@@ -72,7 +85,11 @@ resources:
 ---
 skill: "Methods (built-in)"
 level: 1
-text: "principle and examples: toUpperCase(), toLowerCase(), trim()"
+text: |
+  principle and examples: 
+  - `toUpperCase()`
+  - `toLowerCase()`
+  - `trim()`
 requires:
   - "Console.log()"
   - "Data Types"
@@ -83,7 +100,10 @@ resources:
 ---
 skill: "Built-in Objects"
 level: 1
-text: "principle and examples: Math.random(), Math.floor()"
+text: |
+  principle and examples: 
+  - `Math.random()`
+  - `Math.floor()`
 requires:
   - "Console.log()"
   - "Data Types"

@@ -2,14 +2,14 @@
 sort: 20
 
 ---
-skill: Overview
+skill: "Overview"
 resources:
   - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/navigation/exercises/your-first-command
 
 ---
-skill: Install
+skill: "Install"
 requires:
-  - Files // Files and folders
+  - "Files // Files and folders"
 resources:
   - url: https://cmder.net
     desc: For Windows download and unpack “Full version”
@@ -17,88 +17,87 @@ resources:
     desc: iTerm2 (for OS X)
 
 ---
-skill: Navigating the file system
+skill: "Navigating the file system"
 requires:
-  - Overview
-  - Files // Files and folders
+  - "Overview"
+  - "Files // Files and folders"
 resources:
   - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/navigation/
-text: "
-  ls,
-  pwd,
-  cd,
-  mkdir,
-  touch
-"
+text: |
+  - ls
+  - pwd
+  - cd
+  - mkdir
+  - touch
 
 ---
-skill: Viewing and changing the file system
+skill: "Viewing and changing the file system"
 requires:
-  - Navigating the file system
+  - "Navigating the file system"
 resources:
   - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/manipulation/
-text: "
-  ls -a,
-  ls -l,
-  ls -alt,
-  cp,
-  mv,
-  rm
-"
+text: |
+  - ls -a
+  - ls -l
+  - ls -alt
+  - cp
+  - mv
+  - rm
+
 ---
-skill: Globs
+skill: "Globs"
 requires:
-  - Overview
+  - "Overview"
 resources:
   - url: https://github.com/isaacs/node-glob#glob-primer
     desc: Globs for node.js
   - url: https://globster.xyz/
     desc: Tool to check globs against a customizable file list  
-text: "
-  *,
-  ** (globstar),
-  {a,b}
-"
+text: |
+  - *,
+  - ** (globstar),
+  - {a,b}
 
 ---
-skill: Redirecting input and output
+skill: "Redirecting input and output"
 requires:
-  - Viewing and changing the file system
+  - "Viewing and changing the file system"
 resources:
   - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/redirection/
-text: "
-  stdin, stdout, and stderr,
-  Redirection,
-  >,
-  >>,
-  <,
-  |,
-  sort,
-  uniq,
-  grep,
-  sed
-"
+text: |
+  - stdin, stdout, and stderr
+  - Redirection
+  - >
+  - >>
+  - <
+  - |
+  - sort
+  - uniq
+  - grep
+  - sed
+
 ---
-skill: Configuring the Environment
+skill: "Configuring the Environment"
 level: 5
 requires:
-  - Overview
+  - "Overview"
 resources:
   - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/environment/
 
 ---
-skill: copy and paste in CLI
+skill: "copy and paste in CLI"
 requires:
-  - Overview
+  - "Overview"
 
 ---
-skill: completion
+skill: "completion"
 requires:
-  - Overview
+  - "Overview"
 
 ---
-skill: history
-text: "- up & down arrows to repeat
-- Ctrl+R to search history"
+skill: "history"
+text: |
+  - up & down arrows to repeat
+  - Ctrl+R to search history
 requires:
-  - Overview
+  - "Overview"

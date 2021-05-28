@@ -2,66 +2,73 @@
 sort: 40
 
 ---
-skill: width
+skill: "width"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/width
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
 
 ---
-skill: max-width, min-width
+skill: "max-width, min-width"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/max-width
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/min-width
 requires:
-  - width
+  - "width"
 
 ---
-skill: height
+skill: "height"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/height
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
 
 ---
-skill: max-height, min-height
+skill: "max-height, min-height"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/max-height
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/min-height
 requires:
-  - height
+  - "height"
 
 ---
-skill: border
+skill: "border"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/border
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
 
 ---
-skill: border-style
+skill: "border-style"
 level: 1
-text: "Key values: none, solid, dotted, dashed. Notable values: double, groove"
+text: |
+  Key values: 
+  - `none`
+  - `solid`
+  - `dotted`
+  - `dashed`
+  
+  Notable values: `double` and `groove`
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/border-style
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
 
 ---
-skill: padding
+skill: "padding"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/padding
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
 
 ---
-skill: margin
+skill: "margin"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/margin
@@ -72,39 +79,39 @@ resources:
     desc: "Margin collapsing"
     type: article
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
 
 ---
-skill: box-sizing
+skill: "box-sizing"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
 
 ---
-skill: overflow
+skill: "overflow"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/overflow
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
 
 ---
-skill: visibility
+skill: "visibility"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/visibility
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
 
 ---
-skill: outline
+skill: "outline"
 level: 3
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/outline
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
 
 ---
 skill: "display: block, display: inline, display: inline-block"
@@ -112,7 +119,7 @@ level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/display
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
 
 ---
 skill: "display: none"
@@ -120,4 +127,4 @@ level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/display
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"

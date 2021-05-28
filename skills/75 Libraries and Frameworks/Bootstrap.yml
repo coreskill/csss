@@ -2,96 +2,97 @@
 sort: 20
 
 ---
-skill: Overview
-text: Pros and cons
+skill: "Bootstrap overview"
+text: |
+  Pros and cons
 requires:
-  - HTML // Basic structure // <!doctype>, <html>, <head>, <body>
-  - CSS // Selectors // Class selectors 
-  - CSS // Flexible Layout Module (Flexbox) // Flexbox concepts 
+  - "HTML // Basic structure // <!doctype>, <html>, <head>, <body>"
+  - "CSS // Selectors // Class selectors" 
+  - "CSS // Flexible Layout Module (Flexbox) // Flexbox concepts" 
 resources:
   - url: https://getbootstrap.com
 
 ---
-skill: Basic usage (link to CDN, HTML structure)
+skill: "Basic usage (link to CDN, HTML structure)"
 requires:
-  - Overview
+  - "Bootstrap overview"
 resources:
-  - url: https://getbootstrap.com/docs/4.2/getting-started/introduction/
+  - url: https://getbootstrap.com/docs/5.0/getting-started/introduction/
 
 ---
-skill: Grid
+skill: "Grid"
 requires:
-  - Overview
+  - "Bootstrap overview"
 #  - Design // Grid
 resources:
-  - url: https://getbootstrap.com/docs/4.2/layout/grid/
+  - url: https://getbootstrap.com/docs/5.0/layout/grid/
 
 ---
 skill: "Components: Nav"
 requires:
-  - Overview
+  - "Bootstrap overview"
 resources:
-  - url: https://getbootstrap.com/docs/4.2/components/nav/
+  - url: https://getbootstrap.com/docs/5.0/components/navs-tabs/
 
 ---
 skill: "Components: Navbar"
 requires:
-  - Overview
+  - "Bootstrap overview"
 resources:
-  - url: https://getbootstrap.com/docs/4.2/components/navbar/
+  - url: https://getbootstrap.com/docs/5.0/components/navbar/
 
 ---
 skill: "Components: Card"
 requires:
-  - Overview
+  - "Bootstrap overview"
 resources:
-  - url: https://getbootstrap.com/docs/4.2/components/card/
+  - url: https://getbootstrap.com/docs/5.0/components/card/
 
 ---
 skill: "Customization: Utility classes"
 requires:
-  - Overview
+  - "Bootstrap overview"
 resources:
-  - url: https://getbootstrap.com/docs/4.2/utilities/
+  - url: https://getbootstrap.com/docs/5.0/utilities/
 
 ---
 skill: "Customization: Variables"
 requires:
-  - Overview
-  - CSS // Sass // variables
+  - "Bootstrap overview"
+  - "CSS // Sass // variables"
 resources:
-  - url: https://github.com/benabraham/bs4-nodejs-static/blob/master/src/scss/_1-custom-bootstrap-variables.scss
-  - url: https://github.com/benabraham/bs4-nodejs-static/blob/master/src/scss/_2-custom-bootstrap-variables.scss
-  - url: https://github.com/benabraham/bs4-nodejs-static/blob/master/src/scss/_3-custom-bootstrap-variables.scss
+  - url: https://github.com/benabraham/bs5-static-site-starter/blob/master/src/scss/_1-customized-bootstrap-variables.scss
+  - url: https://github.com/benabraham/bs5-static-site-starter/blob/master/src/scss/_2-customized-bootstrap-variables.scss
+  - url: https://github.com/benabraham/bs5-static-site-starter/blob/master/src/scss/_3-customized-bootstrap-variables.scss
 
 ---
 skill: "Customization: Own CSS"
 requires:
-  - Overview
-  - CSS // Sass // @import (also partials)
+  - "Bootstrap overview"
+  - "CSS // Sass // @import (also partials)"
 resources:
-  - url: https://github.com/benabraham/bs4-nodejs-static/blob/master/src/scss/_base.scss
+  - url: https://github.com/benabraham/bs5-static-site-starter/blob/main/src/scss/_custom-css.scss
 
 ---
 skill: "Customization: removing modules"
 requires:
-  - Overview
-  - CSS // Sass // @import (also partials)
-  - CSS // Sass // //comments
+  - "Bootstrap overview"
+  - "CSS // Sass // @import (also partials)"
+  - "CSS // Sass // //comments"
 resources:
-  - url: https://github.com/benabraham/bs4-nodejs-static/blob/master/src/scss/index.scss
+  - url: https://github.com/benabraham/bs5-static-site-starter/blob/master/src/scss/index.scss
 
 ---
-skill: Bootstrap JavaScript (via data attributes)
+skill: "Bootstrap JavaScript (via data attributes)"
 requires:
-  - Overview
+  - "Bootstrap overview"
 resources:
-  - url: https://getbootstrap.com/docs/4.2/getting-started/javascript/
+  - url: https://getbootstrap.com/docs/5.0/getting-started/javascript/
 
 ---
-skill: Bootstrap JavaScript (via JS)
+skill: "Bootstrap JavaScript (via JS)"
 requires:
-  - Overview
+  - "Bootstrap overview"
 #  - JavaScript
 resources:
-  - url: https://getbootstrap.com/docs/4.2/getting-started/javascript/
+  - url: https://getbootstrap.com/docs/5.0/getting-started/javascript/

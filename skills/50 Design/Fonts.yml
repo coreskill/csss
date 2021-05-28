@@ -2,24 +2,26 @@
 sort: 40
 
 ---
-skill: Font types
-text: serif, sans-serif, monospaced etc.
+skill: "Font types"
+text: |
+  serif, sans-serif, monospaced etc.
 requires: 
-  - Design // Typography
+  - "Design // Typography"
 
 ---
-skill: Web Fonts Overview
+skill: "Web Fonts Overview"
 requires:
-  - Font types
+  - "Font types"
 
 ---
-skill: Linking and using from Google Fonts 
-text: including extended character ranges
+skill: "Linking and using from Google Fonts" 
+text: |
+  including extended character ranges
 requires:
-  - Web Fonts Overview
+  - "Web Fonts Overview"
 
 ---
 skill: "@font-face (custom solution with local fonts)" 
 level: extra
 requires:
-  - Web Fonts Overview
+  - "Web Fonts Overview"

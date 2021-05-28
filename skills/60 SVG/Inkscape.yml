@@ -2,81 +2,88 @@
 sort: 100
 
 ---
-skill: Overview
+skill: "Overview"
 
 ---
-skill: Inkscape SVG v. SVG
+skill: "Inkscape SVG v. SVG"
 requires:
-  - Overview
+  - "Overview"
 
 ---
-skill: Moving, rotating and scaling objects (keyboard, mouse and number inputs)
+skill: "Moving, rotating and scaling objects (keyboard, mouse and number inputs)"
 requires:
-  - Overview
+  - "Overview"
 
 ---
-skill: Setting fills and outlines
+skill: "Setting fills and outlines"
 requires:
-  - Overview
+  - "Overview"
 
 ---
-skill: Stacking order
+skill: "Stacking order"
 requires:
-  - Overview
+  - "Overview"
 
 ---
-skill: Changing nodes (Bezier curves)
+skill: "Changing nodes (Bezier curves)"
 requires:
-  - Overview
+  - "Overview"
 
 ---
-skill: Groups
+skill: "Groups"
 requires:
-  - Overview
+  - "Overview"
 
 ---
-skill: Snaping (objects, grid)
+skill: "Snaping (objects, grid)"
 requires:
-  - Overview
+  - "Overview"
 
 ---
-skill: Document setup
+skill: "Document setup"
 requires:
-  - Overview
+  - "Overview"
 
 ---
-skill: Paths vs. objects
+skill: "Paths vs. objects"
 requires:
-  - Overview
+  - "Overview"
 
 ---
-skill: Converting text to path
+skill: "Converting text to path"
 requires:
-  - Overview
+  - "Overview"
 
 ---
-skill: Duplicating objects
+skill: "Duplicating objects"
 requires:
-  - Overview
+  - "Overview"
 
 ---
-skill: Aligning
+skill: "Aligning"
 requires:
-  - Overview
+  - "Overview"
 
 ---
 skill: "Keyboard shortcuts"
-text: Arrows, Page Up, Page Down, End, Home, Ctrl+(Shift)+G, Ctrl+D
+text: |
+  - Arrows
+  - Page Up
+  - Page Down
+  - End
+  - Home
+  - Ctrl+(Shift)+G
+  - Ctrl+D
 requires:
-  - Overview
+  - "Overview"
 
 ---
-skill: Layers
+skill: "Layers"
 requires:
-  - Overview
+  - "Overview"
 
 ---
-skill: Using color picker
+skill: "Using color picker"
 
 ---
-skill: Vectorization
+skill: "Vectorization"

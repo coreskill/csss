@@ -116,7 +116,8 @@ skill: "ch"
 level: 3
 requires:
   - "em, rem"
-text: "The advance measure (width) of the glyph “0” of the element’s font."
+text: |
+  The advance measure (width) of the glyph “0” of the element’s font.
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/length#ch
     type: reference
@@ -127,7 +128,8 @@ skill: "cm, mm"
 level: 3
 requires:
   - "Length units"
-text: "Useful for print CSS."
+text: |
+  Useful for print CSS.
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/length#cm
     type: reference
@@ -151,7 +153,8 @@ skill: "Angle units (deg)"
 level: 5
 requires:
   - "General // Basic CSS Syntax"
-text: "Deg is the most used unit."
+text: |
+  Deg is the most used unit.
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/angle
     type: reference

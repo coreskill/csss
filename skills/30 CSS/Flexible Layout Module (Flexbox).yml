@@ -5,14 +5,14 @@ sort: 90
 skill: "Flexbox concepts"
 level: 3
 sublevel: 1
-text: "
-concepts of flexbox: 
-- main and cross axis
-- start and end lines
-- containers and items
-- basis, growing and shrinking
-- aligning items
-"
+text: |
+  concepts of flexbox:
+  
+  - main and cross axis
+  - start and end lines
+  - containers and items
+  - basis, growing and shrinking
+  - aligning items
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
     desc: "MDN’s Guide"

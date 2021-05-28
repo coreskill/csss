@@ -2,78 +2,79 @@
 sort: 60
 
 ---
-skill: Asking questions
+skill: "Asking questions"
 level: 3
 
 ---
-skill: Refactoring
+skill: "Refactoring"
 level: 2
 
 ---
-skill: Checklists
+skill: "Checklists"
 resources: 
   - url: https://frontendchecklist.io/
-  - url: http://humaan.com/checklist/
+  - url: https://humaan.com/checklist/
   - url: https://www.vzhurudolu.cz/checklist
     lang: cs
 
 ---
-skill: DRY v. Overengineering (KISS)
+skill: "DRY v. Overengineering (KISS)"
 level: 2
 
 ---
-skill: YAGNI (premature optimization)
+skill: "YAGNI (premature optimization)"
 level: 2
 
 ---
-skill: Progressive enhancement and Graceful degradation
+skill: "Progressive enhancement and Graceful degradation"
 level: 3
 resources:
   - url: https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement
 
 ---
-skill: Feature detection
+skill: "Feature detection"
 level: 4
 
 ---
-skill: Modernizr
+skill: "Modernizr"
 level: 4
 requires:
-  - Feature detection
+  - "Feature detection"
 resources:
   - url: https://modernizr.com/
 
 ---
-skill: Polyfills
+skill: "Polyfills"
 level: 4
 #requires:
-#  - JavaScript // 
-#  - CSS // 
+#  - "JavaScript //" 
+#  - "CSS //" 
 
 ---
-skill: Composition vs. Inheritance
+skill: "Composition vs. Inheritance"
 level: 4
 
 ---
-skill: Fallbacks
+skill: "Fallbacks"
 level: 3
 
 ---
-skill: Ethics
+skill: "Ethics"
 level: 5
 
 ---
-skill: Server-client architecture
+skill: "Server-client architecture"
 level: 1
 
 ---
-skill: Hashes
+skill: "Hashes"
 level: 5
-text: What is it, Hash functions, uniqness, small change in input -> large change in output
+text: |
+  What is it, Hash functions, uniqness, small change in input -> large change in output
 resources: 
   - url: https://www.freecodecamp.org/news/md5-vs-sha-1-vs-sha-2-which-is-the-most-secure-encryption-hash-and-how-to-check-them/
-    desc: Basic article about hashes
+    desc: "Basic article about hashes"
 
 ---
-skill: base64 encoding
+skill: "base64 encoding"
 level: 5

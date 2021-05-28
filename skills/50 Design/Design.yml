@@ -64,7 +64,8 @@ resources:
   - url: http://www.jjg.net/elements/pdf/elements_simpleplanes.pdf
     type: book
     lang: en
-text: "Usability, Elements of User Experience"
+text: |
+  Usability, Elements of User Experience
 
 ---
 skill: "Typography"

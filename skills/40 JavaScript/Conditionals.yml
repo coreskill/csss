@@ -4,7 +4,10 @@ sort: 30
 ---
 skill: "Control Flow"
 level: 1
-text: "if, else, else if"
+text: |
+  - `if`
+  - `else`
+  - `else if`
 requires:
   - "Basics // JavaScript overview"
 resources:
@@ -20,7 +23,15 @@ resources:
 ---
 skill: "Comparison Operators"
 level: 1
-text: "<, >, <=, >=, ==, ===, !=, !=="
+text: |
+  - `<`
+  - `>`
+  - `<=`
+  - `>=`
+  - `==`
+  - `===`
+  - `!=`
+  - `!==`
 requires:
   - "Basics // JavaScript overview"
 resources:
@@ -30,7 +41,9 @@ resources:
 ---
 skill: "Logical operators"
 level: 1
-text: "&&, ||"
+text: |
+  - `&&`
+  - `||`
 requires:
   - "Basics // JavaScript overview"
 resources:
@@ -40,7 +53,8 @@ resources:
 ---
 skill: "Truthy and Falsy"
 level: 1
-text: "negating (!)"
+text: |
+  negating (!)
 requires:
   - "Basics // JavaScript overview"
 resources:

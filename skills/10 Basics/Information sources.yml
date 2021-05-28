@@ -35,7 +35,8 @@ text: |
 
 ---
 skill: "Magazines, blogs and other reliable resources" 
-text: These are recommended sources to be trusted (not blindly though).
+text: |
+  These are recommended sources to be trusted (not blindly though).
 resources:
   - url: https://css-tricks.com/
     desc: "Magazine about building websites and all that entails, mostly from a front-end perspective."

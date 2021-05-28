@@ -2,10 +2,10 @@
 sort: 170
 
 ---
-skill: Basic principles, Sass vs. scss
+skill: "Basic principles, Sass vs. scss"
 level: 2
 requires: 
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
 resources:
   - url: https://marksheet.io/sass.html
 
@@ -13,60 +13,60 @@ resources:
 skill: "@import (also partials)"
 level: 2
 requires: 
-  - Basic principles, Sass vs. scss
+  - "Basic principles, Sass vs. scss"
 
 ---
-skill: //comments
+skill: "//comments"
 level: 2
 requires: 
-  - Basic principles, Sass vs. scss
+  - "Basic principles, Sass vs. scss"
 
 ---
 skill: "@media queries"
 level: 2
 requires: 
-  - Basic principles, Sass vs. scss
-  #- Media queries 
+  - "Basic principles, Sass vs. scss"
+  #- "Media queries" 
 
 ---
-skill: variables
+skill: "variables"
 level: 2
 requires: 
-  - Basic principles, Sass vs. scss
+  - "Basic principles, Sass vs. scss"
 resources:
   - url: https://marksheet.io/sass-variables.html
 
 ---
-skill: nesting + parent reference (&)
+skill: "nesting + parent reference (&)"
 level: 2
 requires: 
-  - Basic principles, Sass vs. scss
+  - "Basic principles, Sass vs. scss"
 resources:
   - url: https://marksheet.io/sass-nesting.html
 
 ---
-skill: SassScript (calculations)
+skill: "SassScript (calculations)"
 level: 3
 requires: 
-  - Basic principles, Sass vs. scss
+  - "Basic principles, Sass vs. scss"
 
 ---
-skill: sourcemaps
+skill: "sourcemaps"
 level: 3
 requires: 
-  - Basic principles, Sass vs. scss
+  - "Basic principles, Sass vs. scss"
 
 ---
-skill: built-in functions (mainly color)
+skill: "built-in functions (mainly color)"
 level: 3
 requires: 
-  - Basic principles, Sass vs. scss
+  - "Basic principles, Sass vs. scss"
 
 ---
 skill: "!default"
 level: 3
 requires: 
-  - Basic principles, Sass vs. scss
+  - "Basic principles, Sass vs. scss"
 
 ---
 skill: "!global"
@@ -77,10 +77,15 @@ requires:
 ---
 skill: "datatypes: basic"
 level: 3
-text: Null, Booleans, Number, Strings, Colors
+text: |
+  - Null
+  - Booleans
+  - Number
+  - Strings
+  - Colors
 requires: 
-  - Basic principles, Sass vs. scss
-  #- JavaScript data types
+  - "Basic principles, Sass vs. scss"
+  #- "JavaScript data types"
 resources:
   - url: https://www.sitepoint.com/data-types-in-sass/
 
@@ -97,18 +102,18 @@ requires:
   - "datatypes: basic"
 
 ---
-skill: Using mixins 
+skill: "Using mixins" 
 level: 3
 requires: 
-  - Basic principles, Sass vs. scss
+  - "Basic principles, Sass vs. scss"
 resources:
   - url: https://marksheet.io/sass-mixins.html
 
 ---
-skill: Defining mixins
+skill: "Defining mixins"
 level: extra
 requires: 
-  - Basic principles, Sass vs. scss
+  - "Basic principles, Sass vs. scss"
 resources:
   - url: https://marksheet.io/sass-mixins.html
 
@@ -116,22 +121,22 @@ resources:
 skill: "@debug"
 level: extra
 requires: 
-  - Basic principles, Sass vs. scss
+  - "Basic principles, Sass vs. scss"
 
 ---
 skill: "@if"
 level: extra
 requires: 
-  - Basic principles, Sass vs. scss
+  - "Basic principles, Sass vs. scss"
 
 ---
 skill: "@for, @each"
 level: extra
 requires: 
-  - Basic principles, Sass vs. scss
+  - "Basic principles, Sass vs. scss"
 
 ---
 skill: "@function"
 level: extra
 requires: 
-  - Basic principles, Sass vs. scss
+  - "Basic principles, Sass vs. scss"

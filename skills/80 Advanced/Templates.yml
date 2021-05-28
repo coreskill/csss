@@ -16,7 +16,8 @@ skill: "Variables {{ example }}"
 level: 3
 requires:
   - "Overview"
-text: "Also know that {{ example.name }} and  {{ example['name'] }}"
+text: |
+  Also know `{{ example.name }}` and `{{ example['name'] }}`
 resources:
   - url: https://mozilla.github.io/nunjucks/templating.html#variables
     desc: "Nunjucks documentation"
@@ -27,7 +28,8 @@ skill: "Filters"
 level: 3
 requires:
   - "Variables {{ example }}"
-text: "Check `join`, `length`, `dump`, `default`, `nl2br` and `truncate`."
+text: |
+  Check `join`, `length`, `dump`, `default`, `nl2br` and `truncate`.
 resources:
   - url: https://mozilla.github.io/nunjucks/templating.html#builtin-filters
     desc: "Nunjucks filters documentation"

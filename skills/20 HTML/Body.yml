@@ -207,7 +207,7 @@ resources:
 ---
 skill: "<form>, <input>, <textarea>, <label>, <select>, <option>, <button>"
 level: 4
-text: "
+text: |
   interesting input types:
   - submit
   - text
@@ -219,7 +219,8 @@ text: "
   - date
   - email
   - button
-interesting attributes
+  
+  interesting attributes
   - type
   - value
   - name
@@ -229,7 +230,7 @@ interesting attributes
   - autocomplete
   - autofocus
   - tabindex
-"
+
 requires:
   - "<div>, <span>"
   - "<a>, #, paths for href"

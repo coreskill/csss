@@ -12,7 +12,11 @@ resources:
 skill: "Browsersync"
 requires:
   - "npm scripts"
-text: "Installation, basic options, server mode, proxy mode"
+text: |
+  - installation
+  - basic options
+  - server mode
+  - proxy mode
 resources:
   - url: https://www.browsersync.io/
 
