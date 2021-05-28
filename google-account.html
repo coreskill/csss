@@ -13,326 +13,331 @@
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it@12.0.6/dist/markdown-it.min.js" integrity="sha256-mkusANAsHSTrjUlaSCtZbvJshVW2tZrPGQsuoDQ8eKc=" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="https://coreskill.tech/favicon.ico">
   </head>
   <body>
-    <header class="navbar navbar-dark bg-dark justify-items-start sticky-top">
-      <div class="container-fluid">
-        <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
-        <div>
-          <div class="filter-group bg-white ms-5">
-            <div class="btn-group bg-dark" role="group">
-              <button type="button" class="filter-done btn px-4 btn-outline-light active">✔️</button>
-              <button type="button" class="filter-star btn px-4 btn-outline-light active">⭐️</button>
-              <button type="button" class="filter-not-done btn px-4 btn-outline-light active">❔️</button>
-            </div>
+  <header class="navbar navbar-dark bg-dark justify-items-start sticky-top">
+    <div class="container-fluid">
+      <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
+      <div>
+        <div class="filter-group bg-white ms-5">
+          <div class="btn-group bg-dark" role="group">
+            <button type="button" class="filter-done btn px-4 btn-outline-light active">✔️</button>
+            <button type="button" class="filter-star btn px-4 btn-outline-light active">⭐️</button>
+            <button type="button" class="filter-not-done btn px-4 btn-outline-light active">❔️</button>
           </div>
-          <span class="filter-nothing-found alert alert-danger mt-4 d-none" role="alert">Nothing has been found.</span>
-          <a href="graph.html" class="text-white-50 ms-5">Show dependency graph</a>
         </div>
-        <form class="form-inline ms-auto">
-          <span class="user-select"><select class="form-control me-3"></select></span>
-          <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
-          <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
-        </form>
+        <span class="filter-nothing-found alert alert-danger mt-4 d-none" role="alert">Nothing has been found.</span>
+        <a href="graph.html" class="text-white-50 ms-5">Show dependency graph</a>
       </div>
-    </header>
+      <form class="form-inline ms-auto">
+        <span class="user-select"><select class="form-control me-3"></select></span>
+        <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
+        <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
+      </form>
+    </div>
+  </header>
 
-    <main class="container-fluid p-4">
+  <main class="container-fluid p-4">
 
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
-            <li class="breadcrumb-item"><a href="coreskill.html">CoreSkill</a></li>
-            <li class="breadcrumb-item"><a href="onboarding.html">Onboarding</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Google Account</li>
-        </ol>
-      </nav>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
+          <li class="breadcrumb-item"><a href="coreskill.html">CoreSkill</a></li>
+          <li class="breadcrumb-item"><a href="onboarding.html">Onboarding</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Google Account</li>
+      </ol>
+    </nav>
 
-      <div class="row">
-        <div class="col-3">
-        </div>
+    <div class="row">
+      <div class="col-3">
+      </div>
 
-        <div class="col-6">
-          <div class="mt-5 p-3 bg-light">
+      <div class="col-6">
+        <div class="mt-5 p-3 bg-light">
 
-            <h1 class="display-3">
+          <h1 class="display-3">
               <span class="indicator text-center p-1" data-slug="google-account">
                 <span class="done">✔️</span>
                 <span class="star">⭐️</span>
                 <span class="not-done">❔️</span>
               </span>
-              Google Account
-            </h1>
+            Google Account
+          </h1>
 
-            <p>
-              <small><a href="graph.html#google-account">Show in dependency graph</a></small>
-            </p>
+          <p>
+            <small><a href="graph.html#google-account">Show in dependency graph</a></small>
+          </p>
 
-              <p class="m-0 lead text-monospace">provide or create if needed (for calendar and shared documents)</p>
+            <div class="m-0 lead markdown-text">provide or create if needed (for calendar and shared documents)</div>
 
+        </div>
+
+          <h2 class="mt-5">Also learn these skills</h2>
+          <div class="list-group list-group-flush">
+              <a href="agreement.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="agreement">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  Agreement
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <!--<span class="badge bg-success">start here</span>-->
+                    <span class="note note-empty badge bg-dark" data-slug="agreement">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="computer.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="computer">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  Computer
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <!--<span class="badge bg-success">start here</span>-->
+                    <span class="note note-empty badge bg-dark" data-slug="computer">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="join-folders-on-google-drive.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="join-folders-on-google-drive">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  Join folders on Google Drive
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <!--<span class="badge bg-success">start here</span>-->
+                    <span class="note note-empty badge bg-dark" data-slug="join-folders-on-google-drive">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="junior-guru-club-discord.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="junior-guru-club-discord">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  Junior Guru Club Discord
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <!--<span class="badge bg-success">start here</span>-->
+                    <span class="note note-empty badge bg-dark" data-slug="junior-guru-club-discord">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="code-editor.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="code-editor">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  Code editor
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <!--<span class="badge bg-success">start here</span>-->
+                    <span class="note note-empty badge bg-dark" data-slug="code-editor">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="chrome.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="chrome">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  Chrome
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <!--<span class="badge bg-success">start here</span>-->
+                    <span class="note note-empty badge bg-dark" data-slug="chrome">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="firefox.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="firefox">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  Firefox
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <!--<span class="badge bg-success">start here</span>-->
+                    <span class="note note-empty badge bg-dark" data-slug="firefox">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="password-manager.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="password-manager">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  Password manager
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <span class="badge rounded-pill bg-primary">extra</span>
+                      <!--<span class="badge bg-success">start here</span>-->
+                    <span class="note note-empty badge bg-dark" data-slug="password-manager">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
           </div>
 
-            <h2 class="mt-5">Also learn these skills</h2>
-            <div class="list-group list-group-flush">
-                <a href="agreement.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="agreement">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    Agreement
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                        <!--<span class="badge bg-success">start here</span>-->
-                      <span class="note note-empty badge bg-dark" data-slug="agreement">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="computer.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="computer">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    Computer
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                        <!--<span class="badge bg-success">start here</span>-->
-                      <span class="note note-empty badge bg-dark" data-slug="computer">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="join-folders-on-google-drive.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="join-folders-on-google-drive">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    Join folders on Google Drive
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                        <!--<span class="badge bg-success">start here</span>-->
-                      <span class="note note-empty badge bg-dark" data-slug="join-folders-on-google-drive">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="junior-guru-club-discord.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="junior-guru-club-discord">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    Junior Guru Club Discord
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                        <!--<span class="badge bg-success">start here</span>-->
-                      <span class="note note-empty badge bg-dark" data-slug="junior-guru-club-discord">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="code-editor.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="code-editor">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    Code editor
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                        <!--<span class="badge bg-success">start here</span>-->
-                      <span class="note note-empty badge bg-dark" data-slug="code-editor">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="chrome.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="chrome">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    Chrome
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                        <!--<span class="badge bg-success">start here</span>-->
-                      <span class="note note-empty badge bg-dark" data-slug="chrome">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="firefox.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="firefox">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    Firefox
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                        <!--<span class="badge bg-success">start here</span>-->
-                      <span class="note note-empty badge bg-dark" data-slug="firefox">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="password-manager.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="password-manager">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    Password manager
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                        <span class="badge rounded-pill bg-primary">extra</span>
-                        <!--<span class="badge bg-success">start here</span>-->
-                      <span class="note note-empty badge bg-dark" data-slug="password-manager">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-            </div>
-
-        </div>
-
-        <div class="col-3">
-        </div>
       </div>
 
-    </main>
-    <script src="firebase.js"></script>
+      <div class="col-3">
+      </div>
+    </div>
+
+  </main>
+  <script src="firebase.js"></script>
+  <script>
+    md = new markdownit();
+    document.querySelectorAll('.markdown-text').forEach(text => text.innerHTML = md.render(text.innerHTML))
+  </script>
   </body>
   </html>

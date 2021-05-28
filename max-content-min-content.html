@@ -13,320 +13,325 @@
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it@12.0.6/dist/markdown-it.min.js" integrity="sha256-mkusANAsHSTrjUlaSCtZbvJshVW2tZrPGQsuoDQ8eKc=" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="https://coreskill.tech/favicon.ico">
   </head>
   <body>
-    <header class="navbar navbar-dark bg-dark justify-items-start sticky-top">
-      <div class="container-fluid">
-        <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
-        <div>
-          <div class="filter-group bg-white ms-5">
-            <div class="btn-group bg-dark" role="group">
-              <button type="button" class="filter-done btn px-4 btn-outline-light active">✔️</button>
-              <button type="button" class="filter-star btn px-4 btn-outline-light active">⭐️</button>
-              <button type="button" class="filter-not-done btn px-4 btn-outline-light active">❔️</button>
-            </div>
+  <header class="navbar navbar-dark bg-dark justify-items-start sticky-top">
+    <div class="container-fluid">
+      <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
+      <div>
+        <div class="filter-group bg-white ms-5">
+          <div class="btn-group bg-dark" role="group">
+            <button type="button" class="filter-done btn px-4 btn-outline-light active">✔️</button>
+            <button type="button" class="filter-star btn px-4 btn-outline-light active">⭐️</button>
+            <button type="button" class="filter-not-done btn px-4 btn-outline-light active">❔️</button>
           </div>
-          <span class="filter-nothing-found alert alert-danger mt-4 d-none" role="alert">Nothing has been found.</span>
-          <a href="graph.html" class="text-white-50 ms-5">Show dependency graph</a>
         </div>
-        <form class="form-inline ms-auto">
-          <span class="user-select"><select class="form-control me-3"></select></span>
-          <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
-          <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
-        </form>
+        <span class="filter-nothing-found alert alert-danger mt-4 d-none" role="alert">Nothing has been found.</span>
+        <a href="graph.html" class="text-white-50 ms-5">Show dependency graph</a>
       </div>
-    </header>
+      <form class="form-inline ms-auto">
+        <span class="user-select"><select class="form-control me-3"></select></span>
+        <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
+        <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
+      </form>
+    </div>
+  </header>
 
-    <main class="container-fluid p-4">
+  <main class="container-fluid p-4">
 
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
-            <li class="breadcrumb-item"><a href="css.html">CSS</a></li>
-            <li class="breadcrumb-item"><a href="css-grid.html">CSS Grid</a></li>
-          <li class="breadcrumb-item active" aria-current="page">max-content, min-content</li>
-        </ol>
-      </nav>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
+          <li class="breadcrumb-item"><a href="css.html">CSS</a></li>
+          <li class="breadcrumb-item"><a href="css-grid.html">CSS Grid</a></li>
+        <li class="breadcrumb-item active" aria-current="page">max-content, min-content</li>
+      </ol>
+    </nav>
 
-      <div class="row">
-        <div class="col-3">
-            <h2 class="mt-3">Prerequisites</h2>
-            <div class="list-group list-group-flush">
-                <a href="css-grid-overview.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="css-grid-overview">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
+    <div class="row">
+      <div class="col-3">
+          <h2 class="mt-3">Prerequisites</h2>
+          <div class="list-group list-group-flush">
+              <a href="css-grid-overview.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="css-grid-overview">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  CSS Grid Overview
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                    <span class="note note-empty badge bg-dark" data-slug="css-grid-overview">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
                     </span>
-                
-                  <span>
-                    CSS Grid Overview
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                      <span class="note note-empty badge bg-dark" data-slug="css-grid-overview">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-            </div>
-        </div>
+                </span>
+              </a>
+          </div>
+      </div>
 
-        <div class="col-6">
-          <div class="mt-5 p-3 bg-light">
+      <div class="col-6">
+        <div class="mt-5 p-3 bg-light">
 
-            <h1 class="display-3">
+          <h1 class="display-3">
               <span class="indicator text-center p-1" data-slug="max-content-min-content">
                 <span class="done">✔️</span>
                 <span class="star">⭐️</span>
                 <span class="not-done">❔️</span>
               </span>
-              max-content, min-content
-            </h1>
+            max-content, min-content
+          </h1>
 
-            <p>
-              <small><a href="graph.html#max-content-min-content">Show in dependency graph</a></small>
-            </p>
+          <p>
+            <small><a href="graph.html#max-content-min-content">Show in dependency graph</a></small>
+          </p>
 
 
+        </div>
+
+          <h2 class="mt-5">Also learn these skills</h2>
+          <div class="list-group list-group-flush">
+              <a href="grid-template-rows-grid-template-columns.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="grid-template-rows-grid-template-columns">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  grid-template-rows, grid-template-columns
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                    <span class="note note-empty badge bg-dark" data-slug="grid-template-rows-grid-template-columns">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="fr-units.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="fr-units">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  fr units
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                    <span class="note note-empty badge bg-dark" data-slug="fr-units">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="repeat.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="repeat">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  repeat()
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                    <span class="note note-empty badge bg-dark" data-slug="repeat">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="minmax.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="minmax">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  minmax()
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                    <span class="note note-empty badge bg-dark" data-slug="minmax">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="fit-content.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="fit-content">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  fit-content()
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                    <span class="note note-empty badge bg-dark" data-slug="fit-content">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="span.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="span">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+                      <span class="badge ps-0 pe-2">🚧️</span>
+              
+                <span>
+                  span
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                    <span class="note note-empty badge bg-dark" data-slug="span">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="justify-items.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="justify-items">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  justify-items
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                    <span class="note note-empty badge bg-dark" data-slug="justify-items">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
           </div>
 
-            <h2 class="mt-5">Also learn these skills</h2>
-            <div class="list-group list-group-flush">
-                <a href="grid-template-rows-grid-template-columns.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="grid-template-rows-grid-template-columns">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    grid-template-rows, grid-template-columns
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                      <span class="note note-empty badge bg-dark" data-slug="grid-template-rows-grid-template-columns">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="fr-units.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="fr-units">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    fr units
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                      <span class="note note-empty badge bg-dark" data-slug="fr-units">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="repeat.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="repeat">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    repeat()
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                      <span class="note note-empty badge bg-dark" data-slug="repeat">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="minmax.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="minmax">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    minmax()
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                      <span class="note note-empty badge bg-dark" data-slug="minmax">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="fit-content.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="fit-content">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    fit-content()
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                      <span class="note note-empty badge bg-dark" data-slug="fit-content">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="span.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="span">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                        <span class="badge ps-0 pe-2">🚧️</span>
-                
-                  <span>
-                    span
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                      <span class="note note-empty badge bg-dark" data-slug="span">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="justify-items.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="justify-items">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    justify-items
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                      <span class="note note-empty badge bg-dark" data-slug="justify-items">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-            </div>
-
-        </div>
-
-        <div class="col-3">
-        </div>
       </div>
 
-    </main>
-    <script src="firebase.js"></script>
+      <div class="col-3">
+      </div>
+    </div>
+
+  </main>
+  <script src="firebase.js"></script>
+  <script>
+    md = new markdownit();
+    document.querySelectorAll('.markdown-text').forEach(text => text.innerHTML = md.render(text.innerHTML))
+  </script>
   </body>
   </html>

@@ -13,328 +13,333 @@
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it@12.0.6/dist/markdown-it.min.js" integrity="sha256-mkusANAsHSTrjUlaSCtZbvJshVW2tZrPGQsuoDQ8eKc=" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="https://coreskill.tech/favicon.ico">
   </head>
   <body>
-    <header class="navbar navbar-dark bg-dark justify-items-start sticky-top">
-      <div class="container-fluid">
-        <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
-        <div>
-          <div class="filter-group bg-white ms-5">
-            <div class="btn-group bg-dark" role="group">
-              <button type="button" class="filter-done btn px-4 btn-outline-light active">✔️</button>
-              <button type="button" class="filter-star btn px-4 btn-outline-light active">⭐️</button>
-              <button type="button" class="filter-not-done btn px-4 btn-outline-light active">❔️</button>
-            </div>
+  <header class="navbar navbar-dark bg-dark justify-items-start sticky-top">
+    <div class="container-fluid">
+      <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
+      <div>
+        <div class="filter-group bg-white ms-5">
+          <div class="btn-group bg-dark" role="group">
+            <button type="button" class="filter-done btn px-4 btn-outline-light active">✔️</button>
+            <button type="button" class="filter-star btn px-4 btn-outline-light active">⭐️</button>
+            <button type="button" class="filter-not-done btn px-4 btn-outline-light active">❔️</button>
           </div>
-          <span class="filter-nothing-found alert alert-danger mt-4 d-none" role="alert">Nothing has been found.</span>
-          <a href="graph.html" class="text-white-50 ms-5">Show dependency graph</a>
         </div>
-        <form class="form-inline ms-auto">
-          <span class="user-select"><select class="form-control me-3"></select></span>
-          <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
-          <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
-        </form>
+        <span class="filter-nothing-found alert alert-danger mt-4 d-none" role="alert">Nothing has been found.</span>
+        <a href="graph.html" class="text-white-50 ms-5">Show dependency graph</a>
       </div>
-    </header>
+      <form class="form-inline ms-auto">
+        <span class="user-select"><select class="form-control me-3"></select></span>
+        <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
+        <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
+      </form>
+    </div>
+  </header>
 
-    <main class="container-fluid p-4">
+  <main class="container-fluid p-4">
 
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
-            <li class="breadcrumb-item"><a href="advanced.html">Advanced</a></li>
-            <li class="breadcrumb-item"><a href="speed-optimization.html">Speed optimization</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Optimizing CSS</li>
-        </ol>
-      </nav>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
+          <li class="breadcrumb-item"><a href="advanced.html">Advanced</a></li>
+          <li class="breadcrumb-item"><a href="speed-optimization.html">Speed optimization</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Optimizing CSS</li>
+      </ol>
+    </nav>
 
-      <div class="row">
-        <div class="col-3">
-            <h2 class="mt-3">Prerequisites</h2>
-            <div class="list-group list-group-flush">
-                <a href="strategies.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="strategies">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
+    <div class="row">
+      <div class="col-3">
+          <h2 class="mt-3">Prerequisites</h2>
+          <div class="list-group list-group-flush">
+              <a href="strategies.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="strategies">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  Strategies
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                    <span class="note note-empty badge bg-dark" data-slug="strategies">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
                     </span>
-                
-                  <span>
-                    Strategies
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                      <span class="note note-empty badge bg-dark" data-slug="strategies">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-            </div>
-        </div>
+                </span>
+              </a>
+          </div>
+      </div>
 
-        <div class="col-6">
-          <div class="mt-5 p-3 bg-light">
+      <div class="col-6">
+        <div class="mt-5 p-3 bg-light">
 
-            <h1 class="display-3">
+          <h1 class="display-3">
               <span class="indicator text-center p-1" data-slug="optimizing-css">
                 <span class="done">✔️</span>
                 <span class="star">⭐️</span>
                 <span class="not-done">❔️</span>
               </span>
-              Optimizing CSS
-            </h1>
+            Optimizing CSS
+          </h1>
 
-            <p>
-              <small><a href="graph.html#optimizing-css">Show in dependency graph</a></small>
-            </p>
+          <p>
+            <small><a href="graph.html#optimizing-css">Show in dependency graph</a></small>
+          </p>
 
 
-              <h2 class="mt-5">Resources</h2>
-              <div class="list-group list-group-flush">
-                  <a href="https://github.com/css/csso" class="list-group-item list-group-item-action flex-column align-items-start">
-                    <div class="d-flex w-100 justify-content-between">
-                      <h3 class="h5 mb-1">
-                        
-                        https://github.com/css/csso
-                      </h3>
-                    </div>
-                    <p class="mb-1">
-                      <span class="badge bg-secondary">tool</span> 
-                      
-                    </p>
-                  </a>
-                  <a href="https://cssnano.co/" class="list-group-item list-group-item-action flex-column align-items-start">
-                    <div class="d-flex w-100 justify-content-between">
-                      <h3 class="h5 mb-1">
-                        
-                        https://cssnano.co/
-                      </h3>
-                    </div>
-                    <p class="mb-1">
-                      <span class="badge bg-secondary">tool</span> 
-                      
-                    </p>
-                  </a>
-                  <a href="https://github.com/jakubpawlowicz/clean-css" class="list-group-item list-group-item-action flex-column align-items-start">
-                    <div class="d-flex w-100 justify-content-between">
-                      <h3 class="h5 mb-1">
-                        
-                        https://github.com/jakubpawlowicz/clean-css
-                      </h3>
-                    </div>
-                    <p class="mb-1">
-                      <span class="badge bg-secondary">tool</span> 
-                      
-                    </p>
-                  </a>
-              </div>
-          </div>
-
-            <h2 class="mt-5">Also learn these skills</h2>
+            <h2 class="mt-5">Resources</h2>
             <div class="list-group list-group-flush">
-                <a href="optimizing-javascript.html"
-                   class="
-                    skill-item
+                <a href="https://github.com/css/csso" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h3 class="h5 mb-1">
+                      
+                      https://github.com/css/csso
+                    </h3>
+                  </div>
+                  <p class="mb-1">
+                    <span class="badge bg-secondary">tool</span> 
                     
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="optimizing-javascript">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    Optimizing JavaScript
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                      <span class="note note-empty badge bg-dark" data-slug="optimizing-javascript">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
+                  </p>
                 </a>
-                <a href="optimizing-svg.html"
-                   class="
-                    skill-item
+                <a href="https://cssnano.co/" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h3 class="h5 mb-1">
+                      
+                      https://cssnano.co/
+                    </h3>
+                  </div>
+                  <p class="mb-1">
+                    <span class="badge bg-secondary">tool</span> 
                     
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="optimizing-svg">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    Optimizing SVG
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                      <span class="note note-empty badge bg-dark" data-slug="optimizing-svg">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
+                  </p>
                 </a>
-                <a href="optimizing-images.html"
-                   class="
-                    skill-item
+                <a href="https://github.com/jakubpawlowicz/clean-css" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h3 class="h5 mb-1">
+                      
+                      https://github.com/jakubpawlowicz/clean-css
+                    </h3>
+                  </div>
+                  <p class="mb-1">
+                    <span class="badge bg-secondary">tool</span> 
                     
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="optimizing-images">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    Optimizing images
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                      <span class="note note-empty badge bg-dark" data-slug="optimizing-images">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="blocking-and-non-blocking-assets.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="blocking-and-non-blocking-assets">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    Blocking and non-blocking assets
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                      <span class="note note-empty badge bg-dark" data-slug="blocking-and-non-blocking-assets">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="lazy-loading.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="lazy-loading">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    Lazy loading
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                      <span class="note note-empty badge bg-dark" data-slug="lazy-loading">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="measuring-speed.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="measuring-speed">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    Measuring speed
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                      <span class="note note-empty badge bg-dark" data-slug="measuring-speed">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
+                  </p>
                 </a>
             </div>
-
         </div>
 
-        <div class="col-3">
-        </div>
+          <h2 class="mt-5">Also learn these skills</h2>
+          <div class="list-group list-group-flush">
+              <a href="optimizing-javascript.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="optimizing-javascript">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  Optimizing JavaScript
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                    <span class="note note-empty badge bg-dark" data-slug="optimizing-javascript">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="optimizing-svg.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="optimizing-svg">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  Optimizing SVG
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                    <span class="note note-empty badge bg-dark" data-slug="optimizing-svg">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="optimizing-images.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="optimizing-images">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  Optimizing images
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                    <span class="note note-empty badge bg-dark" data-slug="optimizing-images">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="blocking-and-non-blocking-assets.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="blocking-and-non-blocking-assets">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  Blocking and non-blocking assets
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                    <span class="note note-empty badge bg-dark" data-slug="blocking-and-non-blocking-assets">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="lazy-loading.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="lazy-loading">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  Lazy loading
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                    <span class="note note-empty badge bg-dark" data-slug="lazy-loading">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="measuring-speed.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="measuring-speed">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  Measuring speed
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                    <span class="note note-empty badge bg-dark" data-slug="measuring-speed">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+          </div>
+
       </div>
 
-    </main>
-    <script src="firebase.js"></script>
+      <div class="col-3">
+      </div>
+    </div>
+
+  </main>
+  <script src="firebase.js"></script>
+  <script>
+    md = new markdownit();
+    document.querySelectorAll('.markdown-text').forEach(text => text.innerHTML = md.render(text.innerHTML))
+  </script>
   </body>
   </html>

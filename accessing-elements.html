@@ -13,543 +13,548 @@
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it@12.0.6/dist/markdown-it.min.js" integrity="sha256-mkusANAsHSTrjUlaSCtZbvJshVW2tZrPGQsuoDQ8eKc=" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="https://coreskill.tech/favicon.ico">
   </head>
   <body>
-    <header class="navbar navbar-dark bg-dark justify-items-start sticky-top">
-      <div class="container-fluid">
-        <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
-        <div>
-          <div class="filter-group bg-white ms-5">
-            <div class="btn-group bg-dark" role="group">
-              <button type="button" class="filter-done btn px-4 btn-outline-light active">✔️</button>
-              <button type="button" class="filter-star btn px-4 btn-outline-light active">⭐️</button>
-              <button type="button" class="filter-not-done btn px-4 btn-outline-light active">❔️</button>
-            </div>
+  <header class="navbar navbar-dark bg-dark justify-items-start sticky-top">
+    <div class="container-fluid">
+      <a href="index.html" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
+      <div>
+        <div class="filter-group bg-white ms-5">
+          <div class="btn-group bg-dark" role="group">
+            <button type="button" class="filter-done btn px-4 btn-outline-light active">✔️</button>
+            <button type="button" class="filter-star btn px-4 btn-outline-light active">⭐️</button>
+            <button type="button" class="filter-not-done btn px-4 btn-outline-light active">❔️</button>
           </div>
-          <span class="filter-nothing-found alert alert-danger mt-4 d-none" role="alert">Nothing has been found.</span>
-          <a href="graph.html" class="text-white-50 ms-5">Show dependency graph</a>
         </div>
-        <form class="form-inline ms-auto">
-          <span class="user-select"><select class="form-control me-3"></select></span>
-          <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
-          <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
-        </form>
+        <span class="filter-nothing-found alert alert-danger mt-4 d-none" role="alert">Nothing has been found.</span>
+        <a href="graph.html" class="text-white-50 ms-5">Show dependency graph</a>
       </div>
-    </header>
+      <form class="form-inline ms-auto">
+        <span class="user-select"><select class="form-control me-3"></select></span>
+        <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
+        <button type="button" class="btn btn-outline-light my-2 my-sm-0 logout">Sign out</button>
+      </form>
+    </div>
+  </header>
 
-    <main class="container-fluid p-4">
+  <main class="container-fluid p-4">
 
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
-            <li class="breadcrumb-item"><a href="javascript.html">JavaScript</a></li>
-            <li class="breadcrumb-item"><a href="arrays.html">Arrays</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Accessing elements</li>
-        </ol>
-      </nav>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">CSSS</a></li>
+          <li class="breadcrumb-item"><a href="javascript.html">JavaScript</a></li>
+          <li class="breadcrumb-item"><a href="arrays.html">Arrays</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Accessing elements</li>
+      </ol>
+    </nav>
 
-      <div class="row">
-        <div class="col-3">
-            <h2 class="mt-3">Prerequisites</h2>
-            <div class="list-group list-group-flush">
-                <a href="creating-arrays.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="creating-arrays">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
+    <div class="row">
+      <div class="col-3">
+          <h2 class="mt-3">Prerequisites</h2>
+          <div class="list-group list-group-flush">
+              <a href="creating-arrays.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="creating-arrays">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  Creating Arrays
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <span class="badge rounded-pill bg-primary">2</span>
+                    <span class="note note-empty badge bg-dark" data-slug="creating-arrays">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
                     </span>
-                
-                  <span>
-                    Creating Arrays
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                        <span class="badge rounded-pill bg-primary">2</span>
-                      <span class="note note-empty badge bg-dark" data-slug="creating-arrays">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-            </div>
-        </div>
+                </span>
+              </a>
+          </div>
+      </div>
 
-        <div class="col-6">
-          <div class="mt-5 p-3 bg-light">
+      <div class="col-6">
+        <div class="mt-5 p-3 bg-light">
 
-            <h1 class="display-3">
+          <h1 class="display-3">
               <span class="indicator text-center p-1" data-slug="accessing-elements">
                 <span class="done">✔️</span>
                 <span class="star">⭐️</span>
                 <span class="not-done">❔️</span>
               </span>
-              Accessing elements
-            </h1>
+            Accessing elements
+          </h1>
 
-            <p>
-              <small><a href="graph.html#accessing-elements">Show in dependency graph</a></small>
-            </p>
+          <p>
+            <small><a href="graph.html#accessing-elements">Show in dependency graph</a></small>
+          </p>
 
 
-              <h2 class="mt-5">Resources</h2>
-              <div class="list-group list-group-flush">
-                  <a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/property-access" class="list-group-item list-group-item-action flex-column align-items-start">
-                    <div class="d-flex w-100 justify-content-between">
-                      <h3 class="h5 mb-1">
-                        
-                        https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/property-access
-                      </h3>
-                    </div>
-                    <p class="mb-1">
-                      <span class="badge bg-secondary">interactive course</span> 
+            <h2 class="mt-5">Resources</h2>
+            <div class="list-group list-group-flush">
+                <a href="https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/property-access" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h3 class="h5 mb-1">
                       
-                    </p>
-                  </a>
-                  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#accessing_array_elements" class="list-group-item list-group-item-action flex-column align-items-start">
-                    <div class="d-flex w-100 justify-content-between">
-                      <h3 class="h5 mb-1">
-                        
-                        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#accessing_array_elements
-                      </h3>
-                    </div>
-                    <p class="mb-1">
-                      <span class="badge bg-secondary">reference</span> 
+                      https://www.codecademy.com/courses/introduction-to-javascript/lessons/arrays/exercises/property-access
+                    </h3>
+                  </div>
+                  <p class="mb-1">
+                    <span class="badge bg-secondary">interactive course</span> 
+                    
+                  </p>
+                </a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#accessing_array_elements" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h3 class="h5 mb-1">
                       
-                    </p>
-                  </a>
-              </div>
+                      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#accessing_array_elements
+                    </h3>
+                  </div>
+                  <p class="mb-1">
+                    <span class="badge bg-secondary">reference</span> 
+                    
+                  </p>
+                </a>
+            </div>
+        </div>
+
+          <h2 class="mt-5">Also learn these skills</h2>
+          <div class="list-group list-group-flush">
+              <a href="let-vs-const-with-arrays.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="let-vs-const-with-arrays">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  let vs. const with arrays
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <span class="badge rounded-pill bg-primary">2</span>
+                    <span class="note note-empty badge bg-dark" data-slug="let-vs-const-with-arrays">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="length.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="length">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  .length
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <span class="badge rounded-pill bg-primary">2</span>
+                    <span class="note note-empty badge bg-dark" data-slug="length">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="push.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="push">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  .push()
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <span class="badge rounded-pill bg-primary">2</span>
+                    <span class="note note-empty badge bg-dark" data-slug="push">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="pop.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="pop">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  .pop()
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <span class="badge rounded-pill bg-primary">2</span>
+                    <span class="note note-empty badge bg-dark" data-slug="pop">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="join.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="join">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  .join()
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <span class="badge rounded-pill bg-primary">2</span>
+                    <span class="note note-empty badge bg-dark" data-slug="join">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="slice.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="slice">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  .slice()
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <span class="badge rounded-pill bg-primary">2</span>
+                    <span class="note note-empty badge bg-dark" data-slug="slice">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="splice.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="splice">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  .splice()
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <span class="badge rounded-pill bg-primary">2</span>
+                    <span class="note note-empty badge bg-dark" data-slug="splice">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="shift.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="shift">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  .shift()
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <span class="badge rounded-pill bg-primary">2</span>
+                    <span class="note note-empty badge bg-dark" data-slug="shift">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="unshift.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="unshift">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  .unshift()
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <span class="badge rounded-pill bg-primary">2</span>
+                    <span class="note note-empty badge bg-dark" data-slug="unshift">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="indexof.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="indexof">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  .indexOf()
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <span class="badge rounded-pill bg-primary">2</span>
+                    <span class="note note-empty badge bg-dark" data-slug="indexof">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="arrays-and-functions.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="arrays-and-functions">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  Arrays and Functions
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <span class="badge rounded-pill bg-primary">2</span>
+                    <span class="note note-empty badge bg-dark" data-slug="arrays-and-functions">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="nested-arrays.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="nested-arrays">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  Nested Arrays
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <span class="badge rounded-pill bg-primary">2</span>
+                    <span class="note note-empty badge bg-dark" data-slug="nested-arrays">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
           </div>
 
-            <h2 class="mt-5">Also learn these skills</h2>
-            <div class="list-group list-group-flush">
-                <a href="let-vs-const-with-arrays.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="let-vs-const-with-arrays">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    let vs. const with arrays
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                        <span class="badge rounded-pill bg-primary">2</span>
-                      <span class="note note-empty badge bg-dark" data-slug="let-vs-const-with-arrays">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="length.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="length">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    .length
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                        <span class="badge rounded-pill bg-primary">2</span>
-                      <span class="note note-empty badge bg-dark" data-slug="length">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="push.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="push">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    .push()
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                        <span class="badge rounded-pill bg-primary">2</span>
-                      <span class="note note-empty badge bg-dark" data-slug="push">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="pop.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="pop">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    .pop()
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                        <span class="badge rounded-pill bg-primary">2</span>
-                      <span class="note note-empty badge bg-dark" data-slug="pop">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="join.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="join">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    .join()
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                        <span class="badge rounded-pill bg-primary">2</span>
-                      <span class="note note-empty badge bg-dark" data-slug="join">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="slice.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="slice">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    .slice()
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                        <span class="badge rounded-pill bg-primary">2</span>
-                      <span class="note note-empty badge bg-dark" data-slug="slice">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="splice.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="splice">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    .splice()
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                        <span class="badge rounded-pill bg-primary">2</span>
-                      <span class="note note-empty badge bg-dark" data-slug="splice">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="shift.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="shift">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    .shift()
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                        <span class="badge rounded-pill bg-primary">2</span>
-                      <span class="note note-empty badge bg-dark" data-slug="shift">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="unshift.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="unshift">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    .unshift()
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                        <span class="badge rounded-pill bg-primary">2</span>
-                      <span class="note note-empty badge bg-dark" data-slug="unshift">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="indexof.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="indexof">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    .indexOf()
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                        <span class="badge rounded-pill bg-primary">2</span>
-                      <span class="note note-empty badge bg-dark" data-slug="indexof">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="arrays-and-functions.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="arrays-and-functions">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    Arrays and Functions
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                        <span class="badge rounded-pill bg-primary">2</span>
-                      <span class="note note-empty badge bg-dark" data-slug="arrays-and-functions">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-                <a href="nested-arrays.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="nested-arrays">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    Nested Arrays
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                        <span class="badge rounded-pill bg-primary">2</span>
-                      <span class="note note-empty badge bg-dark" data-slug="nested-arrays">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-            </div>
-
-        </div>
-
-        <div class="col-3">
-            <h2 class="mt-5">Following skills</h2>
-            <div class="list-group list-group-flush">
-                <a href="updating-elements.html"
-                   class="
-                    skill-item
-                    
-                    list-group-item
-                    list-group-item-action
-                    d-flex
-                    justify-content-start
-                    align-items-baseline
-                    py-1 ps-0 pe-2
-                  "
-                >
-                    <span class="indicator indicator-list text-center p-1" data-slug="updating-elements">
-                      <span class="locked">🔒️</span>
-                      <span class="done">✔️</span>
-                      <span class="star">⭐️</span>
-                      <span class="not-done">❔️</span>
-                    </span>
-                
-                  <span>
-                    Updating elements
-                  </span>
-                
-                    <span class="ms-auto ps-3 text-end">
-                        <span class="badge rounded-pill bg-primary">2</span>
-                      <span class="note note-empty badge bg-dark" data-slug="updating-elements">
-                        <span class="note-value"></span>
-                        <span tabindex="0" class="note-changer fw-normal">✏️</span>
-                      </span>
-                  </span>
-                </a>
-            </div>
-        </div>
       </div>
 
-    </main>
-    <script src="firebase.js"></script>
+      <div class="col-3">
+          <h2 class="mt-5">Following skills</h2>
+          <div class="list-group list-group-flush">
+              <a href="updating-elements.html"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span class="indicator indicator-list text-center p-1" data-slug="updating-elements">
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  Updating elements
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <span class="badge rounded-pill bg-primary">2</span>
+                    <span class="note note-empty badge bg-dark" data-slug="updating-elements">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+          </div>
+      </div>
+    </div>
+
+  </main>
+  <script src="firebase.js"></script>
+  <script>
+    md = new markdownit();
+    document.querySelectorAll('.markdown-text').forEach(text => text.innerHTML = md.render(text.innerHTML))
+  </script>
   </body>
   </html>
