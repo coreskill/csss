@@ -14,6 +14,8 @@
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/markdown-it@12.0.6/dist/markdown-it.min.js" integrity="sha256-mkusANAsHSTrjUlaSCtZbvJshVW2tZrPGQsuoDQ8eKc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.7.2/build/styles/default.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.7.2/build/highlight.min.js"></script>
     <link rel="shortcut icon" href="https://coreskill.tech/favicon.ico">
   </head>
   <body>
@@ -557,8 +559,30 @@
   </main>
   <script src="firebase.js"></script>
   <script>
-    md = new markdownit();
-    document.querySelectorAll('.markdown-text').forEach(text => text.innerHTML = md.render(text.innerHTML))
+    function htmlDecode(input){
+      var e = document.createElement('textarea');
+      e.innerHTML = input;
+      // handle case of empty input
+      return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
+    }
+    md = new markdownit({
+      breaks: true, // Convert '\n' in paragraphs into <br>
+      linkify: true, // Autoconvert URL-like text to links
+      typographer: true, // Enable some language-neutral replacement + quotes beautification  For the full list of replacements, see https://github.com/markdown-it/markdown-it/blob/master/lib/rules_core/replacements.js
+      langPrefix:   'language-',
+      highlight: function (str, lang) {
+        if (lang && hljs.getLanguage(lang)) {
+          try {
+            return hljs.highlight(str, {language: lang}).value;
+          } catch (__) {
+          }
+        }
+        return ''; // use external default escaping
+      }
+    });
+    document.querySelectorAll('.markdown-text').forEach(
+            text => text.innerHTML = md.render(htmlDecode(text.innerHTML))
+    )
   </script>
   </body>
   </html>
