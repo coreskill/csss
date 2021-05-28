@@ -44,3 +44,7 @@ a.list-group-item {
   font-weight: 400;
   font-size: .85em;
 }
+
+.markdown-text {
+  max-width: 65ch;
+}
