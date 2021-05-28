@@ -18,7 +18,6 @@ resources:
     desc: "Researching a Property in the CSS Specifications"
     type: article
     
-
 ---
 skill: "caniuse.com"
 resources:
@@ -26,14 +25,13 @@ resources:
 
 ---
 skill: "Advanced searching for information"
-text: "
-- how and why
-- time limited search
-- exclusion
-- exact search
-- filetype
-- domain
-"
+text: |
+  - how and why
+  - time limited search
+  - exclusion
+  - exact search
+  - filetype
+  - domain
 
 ---
 skill: "Magazines, blogs and other reliable resources" 
