@@ -2,12 +2,12 @@
 sort: 15 
   
 ---
-skill: "Overview"
+skill: "Code editing overview"
 
 ---
 skill: "Working with text: clipboard operations, navigating, selecting, changing"
 requires:
-  - "Overview"
+  - "Code editing overview"
 resources:
   - url: https://dusan.pc-slany.cz/klavesnice/pocitacovy_text.htm
     lang: cs
@@ -15,14 +15,19 @@ resources:
 ---
 skill: "Code Editor Installation"
 requires:
-  - "Overview"
+  - "Code editing overview"
 resources:
   - url: https://code.visualstudio.com/
+    desc: "Download Visual Studio Code"
+    lang: en
 
 ---
-skill: "Projects"
+skill: "Projects and Workspaces"
 requires:
   - "Code Editor Installation"
+resources:
+  - url: https://code.visualstudio.com/docs/editor/workspaces
+    lang: en
 
 ---
 skill: "Basic editing: copy + cut + paste lines, indenting (including difference between tabs and spaces)"
@@ -75,16 +80,20 @@ skill: "Multiple selections"
 requires:
   - "Code Editor Installation"
 resources:
-  - url:
-
+  - url: https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor
+    lang: en
+    
 ---
 skill: "Intellisense"
 requires:
   - "Code Editor Installation"
 resources:
   - url: https://code.visualstudio.com/docs/editor/intellisense
+    lang: en
   - url: https://code.visualstudio.com/docs/languages/html
+    lang: en
   - url: https://code.visualstudio.com/docs/languages/css
+    lang: en
 
 ---
 skill: "Emmet"
@@ -92,20 +101,39 @@ requires:
   - "Code Editor Installation"
 resources:
   - url: https://code.visualstudio.com/docs/editor/emmet
-
+    lang: en
+    
 ---
 skill: "Search and replace"
 requires:
   - "Code Editor Installation"
 resources:
-  - url:
-
+  - url: https://code.visualstudio.com/docs/editor/codebasics#_search-and-replace
+    lang: en
+    
 ---
 skill: "Extensions/Plugins installation"
 requires:
   - "Code Editor Installation"
 resources:
-  - url:
+  - url: https://marketplace.visualstudio.com/
+    desc: "Extensions for VS Code"
+    lang: en
+  - url: https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag
+    desc: "Auto Rename Tag: Automatically rename paired HTML/XML tag"
+    lang: en
+  - url: https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
+    desc: "GitLens: extension for git"
+    lang: en
+  - url: https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph
+    desc: "Git Graph: extension for git"
+    lang: en
+  - url: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+    desc: "EditorConfig for Visual Studio Code"
+    lang: en
+  - url: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+    desc: "Prettier Formatter for Visual Studio Code"
+    lang: en
 
 ---
 skill: "Autoindent and/or Beautify"
@@ -115,4 +143,6 @@ requires:
   - "Extensions/Plugins installation"
 resources:
   - url: https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify
+    lang: en
   - url: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+    lang: en
