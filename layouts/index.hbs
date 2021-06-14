@@ -20,7 +20,14 @@
   {{> header}}
 
   <main class="container-fluid p-4">
-    <h1 class="display-3 mb-4">CoreSkill Skill System (CSSS)</h1>
+    <header class="mb-4">
+      <h1 class="display-3 mb-0">CoreSkill Skill System (CSSS) <sup class="fw-bold text-danger">beta</sup></h1>
+      <ul class="d-flex flex-wrap p-0">
+        <li class="mx-3">Login with Google Account to enable checklist functionality.</li>
+        <li class="mx-3">Items with 🚧️ have no detailed information</li>
+        <li class="mx-3">Numbers in blue indicate levels <span class="badge rounded-pill bg-primary">1</span> means everybody should know that. <span class="badge rounded-pill bg-primary">5</span> means not everyone needs it. <span class="badge rounded-pill bg-primary">extra</span> is nice to have if you’re interested.</li>
+      </ul>
+    </header>
     <div class="skill-sections">
       {{#each children}}
         {{> node-item}}
