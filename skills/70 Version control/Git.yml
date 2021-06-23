@@ -296,18 +296,6 @@ resources:
   - url: https://blog.github.com/2018-08-22-merge-conflicts-in-the-classroom/
 
 ---
-skill: "revert"
-level: 3
-sublevel: 8
-requires:
-  - "commit"
-resources:
-  - url: https://www.atlassian.com/git/tutorials/undoing-changes/git-revert
-    type: tutorial
-  - url: https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
-    type: tutorial
-
----
 skill: "rebase"
 level: 4
 sublevel: 9
@@ -327,6 +315,18 @@ requires:
   - "rebase"
 resources:
   - url: https://www.atlassian.com/git/tutorials/rewriting-history#git-rebase-i
+    type: tutorial
+
+---
+skill: "revert"
+level: 5
+sublevel: 10
+requires:
+  - "commit"
+resources:
+  - url: https://www.atlassian.com/git/tutorials/undoing-changes/git-revert
+    type: tutorial
+  - url: https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
     type: tutorial
 
 ---
