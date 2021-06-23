@@ -2,7 +2,7 @@
 
 ## View
 
-Go to [coreskill.github.io/csss](https://coreskill.github.io/csss/).
+Go to [your.coreskill.tech](https://your.coreskill.tech).
 
 ## Install
 
