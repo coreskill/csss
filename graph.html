@@ -22,7 +22,7 @@
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
-    <link rel="shortcut icon" href="https://coreskill.tech/favicon.ico">
+    <link rel="shortcut icon" href="/favicon.ico">
   </head>
   <body>
     <header class="navbar navbar-dark bg-dark justify-items-start sticky-top">
@@ -2710,11 +2710,6 @@
     "group": "git"
   },
   {
-    "id": "revert",
-    "label": "revert",
-    "group": "git"
-  },
-  {
     "id": "rebase",
     "label": "rebase",
     "group": "git"
@@ -2722,6 +2717,11 @@
   {
     "id": "rebase-i-interactive",
     "label": "rebase -i (interactive)",
+    "group": "git"
+  },
+  {
+    "id": "revert",
+    "label": "revert",
     "group": "git"
   },
   {
@@ -6257,11 +6257,6 @@
     "arrows": "to"
   },
   {
-    "from": "commit",
-    "to": "revert",
-    "arrows": "to"
-  },
-  {
     "from": "merge",
     "to": "rebase",
     "arrows": "to"
@@ -6269,6 +6264,11 @@
   {
     "from": "rebase",
     "to": "rebase-i-interactive",
+    "arrows": "to"
+  },
+  {
+    "from": "commit",
+    "to": "revert",
     "arrows": "to"
   },
   {
