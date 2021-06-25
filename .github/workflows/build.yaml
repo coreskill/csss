@@ -1,0 +1,37 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - latest
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+      with:
+        path: in
+    - uses: actions/checkout@master
+      with:
+        ref: gh-pages
+        path: out
+    - uses: actions/setup-node@v2
+    - name: Build static page
+      working-directory: in
+      run: |
+        npm install
+        npm run build
+    - name: Copy files to gh-pages branch
+      working-directory: out
+      run: |
+        ls -A | grep -vxE '.git|CNAME' | xargs rm -rf || exit 0
+        cp ../in/build/* .
+    - name: Commit & push changes
+      uses: my-actions/push@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: gh-pages
+        directory: out
+        message: "Build of ${{ github.sha }}"
+        empty: true
