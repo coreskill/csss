@@ -51,7 +51,12 @@ function filterItems() {
   nothingFound.classList.toggle("d-none", !nothingWasFound);
 
   let shownSkillsCount = document.querySelectorAll(".skill-item.d-flex").length
-  shownSkills.innerHTML = `${shownSkillsCount} (${Math.round(shownSkillsCount/allItemsCount * 100)} %)`;
+
+  if (shownSkillsCount) {
+    shownSkills.innerHTML = `${shownSkillsCount} (${Math.round(shownSkillsCount/allItemsCount * 100)} %)`;
+  } else {
+    shownSkills.innerHTML = `None`;
+  }
 }
 
 function showAllItems() {
