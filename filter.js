@@ -7,6 +7,8 @@ const doneFilter = document.querySelector(".filter-done");
 const starFilter = document.querySelector(".filter-star");
 const notDoneFilter = document.querySelector(".filter-not-done");
 const extraFilter = document.querySelector(".filter-extra");
+
+const filterCounter = document.querySelector(".filter-counter");
 const shownSkills = document.querySelector(".shown-skills");
 
 const allItemsCount = allItems.length
@@ -50,7 +52,13 @@ function filterItems() {
   let nothingWasFound = document.querySelectorAll(".skill-item.d-flex").length === 0 && (filtersValue.done || filtersValue.star || filtersValue.notDone);
   nothingFound.classList.toggle("d-none", !nothingWasFound);
 
-  let shownSkillsCount = document.querySelectorAll(".skill-item.d-flex").length
+  let shownSkillsCount = document.querySelectorAll(".skill-item.d-flex").length;
+
+  if (shownSkillsCount === allItemsCount) {
+    filterCounter.classList.add("d-none");
+  } else {
+    filterCounter.classList.remove("d-none");
+  }
 
   if (shownSkillsCount) {
     shownSkills.innerHTML = `${shownSkillsCount} (${Math.round(shownSkillsCount/allItemsCount * 100)} %)`;
