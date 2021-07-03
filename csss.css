@@ -48,3 +48,8 @@ a.list-group-item {
 .markdown-text {
   max-width: 65ch;
 }
+
+.btn-outline-light:focus:not(.active),
+.btn-outline-light:hover:not(.active) {
+  background-color: transparent;
+}
