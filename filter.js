@@ -1,12 +1,17 @@
-let allItems = document.querySelectorAll(".skill-item");
-let allGroups = document.querySelectorAll(".skill-group");
-let allColumns = document.querySelectorAll(".skill-section");
-let nothingFound = document.querySelector(".filter-nothing-found");
+const allItems = document.querySelectorAll(".skill-item");
+const allGroups = document.querySelectorAll(".skill-group");
+const allColumns = document.querySelectorAll(".skill-section");
+const nothingFound = document.querySelector(".filter-nothing-found");
 
-let doneFilter = document.querySelector(".filter-done");
-let starFilter = document.querySelector(".filter-star");
-let notDoneFilter = document.querySelector(".filter-not-done");
-let extraFilter = document.querySelector(".filter-extra");
+const doneFilter = document.querySelector(".filter-done");
+const starFilter = document.querySelector(".filter-star");
+const notDoneFilter = document.querySelector(".filter-not-done");
+const extraFilter = document.querySelector(".filter-extra");
+const shownSkills = document.querySelector(".shown-skills");
+
+const allItemsCount = allItems.length
+
+document.querySelector(".total-skills").innerHTML = allItemsCount;
 
 const FILTERS_VALUE = "FILTERS_VALUE";
 
@@ -23,7 +28,7 @@ function filterItems() {
     let type = indicator.classList.contains("is-done")
       ? "done" : indicator.classList.contains("is-star")
         ? "star" : "notDone";
-    let isExtra = indicator.classList.contains("is-extra")
+    let isExtra = indicator.classList.contains("is-extra");
 
     let isActive = isExtra && ! filtersValue.extra ? false : filtersValue[type];
 
@@ -44,6 +49,9 @@ function filterItems() {
 
   let nothingWasFound = document.querySelectorAll(".skill-item.d-flex").length === 0 && (filtersValue.done || filtersValue.star || filtersValue.notDone);
   nothingFound.classList.toggle("d-none", !nothingWasFound);
+
+  let shownSkillsCount = document.querySelectorAll(".skill-item.d-flex").length
+  shownSkills.innerHTML = `${shownSkillsCount} (${Math.round(shownSkillsCount/allItemsCount * 100)} %)`;
 }
 
 function showAllItems() {
