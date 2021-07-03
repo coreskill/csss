@@ -71,6 +71,7 @@ function showAllItems() {
   allItems.forEach(el => {
     el.classList.add("d-flex");
     el.classList.remove("d-none");
+    el.querySelector(".indicator").classList.remove("is-done", "is-star");
   });
 
   allGroups.forEach(el => {
