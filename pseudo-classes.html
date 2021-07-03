@@ -20,12 +20,13 @@
         <div class="container-fluid">
           <a href="/" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
           <div>
-            <div class="filter-group bg-white ms-5">
+            <div class="filter-group ms-5">
               <div class="btn-group bg-dark" role="group">
                 <button type="button" class="filter-done btn px-4 btn-outline-light active">✔️</button>
                 <button type="button" class="filter-star btn px-4 btn-outline-light active">⭐️</button>
                 <button type="button" class="filter-not-done btn px-4 btn-outline-light active">❔️</button>
               </div>
+              <button type="button" class="filter-extra btn px-4 ms-3 btn-outline-light active">extra</button>
             </div>
             <span class="filter-nothing-found alert alert-danger mt-4 d-none" role="alert">Nothing has been found.</span>
             <a href="graph.html" class="text-white-50 ms-5">Show dependency graph</a>
@@ -65,7 +66,7 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1" data-slug="link-related-active-visited-hover-focus-link">
+                  <span class="indicator indicator-list text-center p-1 " data-slug="link-related-active-visited-hover-focus-link">
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -98,7 +99,7 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1" data-slug="first-child-last-child-only-child">
+                  <span class="indicator indicator-list text-center p-1 " data-slug="first-child-last-child-only-child">
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -131,7 +132,7 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1" data-slug="first-of-type-last-of-type-only-of-type">
+                  <span class="indicator indicator-list text-center p-1 " data-slug="first-of-type-last-of-type-only-of-type">
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -164,7 +165,7 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1" data-slug="nth-child-nth-last-child">
+                  <span class="indicator indicator-list text-center p-1 " data-slug="nth-child-nth-last-child">
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -197,7 +198,7 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1" data-slug="nth-of-type-nth-last-of-type">
+                  <span class="indicator indicator-list text-center p-1 " data-slug="nth-of-type-nth-last-of-type">
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -230,7 +231,7 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1" data-slug="not">
+                  <span class="indicator indicator-list text-center p-1 " data-slug="not">
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -263,7 +264,7 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1" data-slug="root">
+                  <span class="indicator indicator-list text-center p-1 " data-slug="root">
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -296,7 +297,7 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1" data-slug="lang">
+                  <span class="indicator indicator-list text-center p-1 " data-slug="lang">
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -329,7 +330,7 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1" data-slug="forms-related-pseudo-classes-checked-required-valid-invalid-enabled-disabled">
+                  <span class="indicator indicator-list text-center p-1 " data-slug="forms-related-pseudo-classes-checked-required-valid-invalid-enabled-disabled">
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -362,7 +363,7 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1" data-slug="target">
+                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="target">
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -395,7 +396,7 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1" data-slug="in-range-out-of-range">
+                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="in-range-out-of-range">
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -428,7 +429,7 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1" data-slug="read-only-read-write">
+                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="read-only-read-write">
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -461,7 +462,7 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1" data-slug="optional">
+                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="optional">
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -494,7 +495,7 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1" data-slug="default">
+                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="default">
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -527,7 +528,7 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1" data-slug="indeterminate">
+                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="indeterminate">
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -560,7 +561,7 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1" data-slug="empty">
+                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="empty">
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -593,7 +594,7 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1" data-slug="page-related-first-left-right">
+                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="page-related-first-left-right">
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>

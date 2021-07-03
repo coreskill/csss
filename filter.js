@@ -6,27 +6,33 @@ let nothingFound = document.querySelector(".filter-nothing-found");
 let doneFilter = document.querySelector(".filter-done");
 let starFilter = document.querySelector(".filter-star");
 let notDoneFilter = document.querySelector(".filter-not-done");
+let extraFilter = document.querySelector(".filter-extra");
 
 const FILTERS_VALUE = "FILTERS_VALUE";
 
 function filterItems() {
-  let filters = {
+  let filtersValue = {
     done: doneFilter.classList.contains("active"),
     star: starFilter.classList.contains("active"),
     notDone: notDoneFilter.classList.contains("active"),
+    extra: extraFilter.classList.contains("active"),
   };
 
   allItems.forEach(el => {
     let indicator = el.querySelector(".indicator");
-    let type = indicator.classList.contains("is-done") ? "done" : indicator.classList.contains("is-star") ? "star" : "notDone";
-    let isActive = filters[type];
+    let type = indicator.classList.contains("is-done")
+      ? "done" : indicator.classList.contains("is-star")
+        ? "star" : "notDone";
+    let isExtra = indicator.classList.contains("is-extra")
+
+    let isActive = isExtra && ! filtersValue.extra ? false : filtersValue[type];
 
     el.classList.toggle("d-flex", isActive);
     el.classList.toggle("d-none", !isActive);
   });
 
   allGroups.forEach(el => {
-    let addOrRemove = el.querySelectorAll(".skill-item.d-flex").length === 0 && (filters.done || filters.star || filters.notDone);
+    let addOrRemove = el.querySelectorAll(".skill-item.d-flex").length === 0 && (filtersValue.done || filtersValue.star || filtersValue.notDone);
     el.classList.toggle("d-none", addOrRemove);
     el.previousElementSibling.classList.toggle("d-none", addOrRemove);
   });
@@ -36,9 +42,9 @@ function filterItems() {
     el.classList.toggle("d-none", addOrRemove);
   });
 
-  let nothingWasFound = document.querySelectorAll(".skill-item.d-flex").length === 0 && (filters.done || filters.star || filters.notDone);
+  let nothingWasFound = document.querySelectorAll(".skill-item.d-flex").length === 0 && (filtersValue.done || filtersValue.star || filtersValue.notDone);
   nothingFound.classList.toggle("d-none", !nothingWasFound);
-};
+}
 
 function showAllItems() {
   allItems.forEach(el => {
@@ -55,16 +61,17 @@ function showAllItems() {
 }
 
 function saveFilters() {
-  let filters = {
+  let filtersValue = {
     done: doneFilter.classList.contains("active"),
     star: starFilter.classList.contains("active"),
     notDone: notDoneFilter.classList.contains("active"),
+    extra: extraFilter.classList.contains("active"),
   };
 
   try {
-    localStorage.setItem(FILTERS_VALUE, JSON.stringify(filters));
+    localStorage.setItem(FILTERS_VALUE, JSON.stringify(filtersValue));
   } catch(e) {}
-};
+}
 
 function loadFilters() {
   let filters = localStorage.getItem(FILTERS_VALUE);
@@ -74,6 +81,7 @@ function loadFilters() {
       doneFilter.classList.toggle("active", filters.done);
       starFilter.classList.toggle("active", filters.star);
       notDoneFilter.classList.toggle("active", filters.notDone);
+      extraFilter.classList.toggle("active", filters.extra);
     } catch (e) {}
   }
 }
@@ -84,7 +92,7 @@ function onFilterButtonClick(e) {
   filterItems();
 }
 
-[doneFilter, starFilter, notDoneFilter].forEach(el => el.addEventListener("click", onFilterButtonClick));
+[doneFilter, starFilter, notDoneFilter, extraFilter].forEach(el => el.addEventListener("click", onFilterButtonClick));
 loadFilters();
 INDICATOR_CHANGE_CALLBACKS.push(filterItems);
 USER_LOGGED_OUT_CALLBACKS.push(showAllItems);
