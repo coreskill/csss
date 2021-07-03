@@ -15,6 +15,7 @@
 
 .logout,
 .filter-group,
+.filter-counter,
 .note,
 .note-changer,
 .user-select {
@@ -27,6 +28,7 @@
 .logged-in .note,
 .logged-in .logout,
 .logged-in .filter-group,
+.logged-in .filter-counter,
 .admin .user-select {
   display: inline-block;
 }
