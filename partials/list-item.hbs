@@ -11,7 +11,7 @@
   "
 >
   {{#if skill}}
-    <span class="indicator indicator-list text-center p-1" data-slug="{{slug}}">
+    <span class="indicator indicator-list text-center p-1 {{#ifEquals level "extra" }}is-extra{{/ifEquals}}" data-slug="{{slug}}">
       <span class="locked">🔒️</span>
       <span class="done">✔️</span>
       <span class="star">⭐️</span>

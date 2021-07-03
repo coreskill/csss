@@ -52,4 +52,5 @@ a.list-group-item {
 .btn-outline-light:focus:not(.active),
 .btn-outline-light:hover:not(.active) {
   background-color: transparent;
+  color: white;
 }
