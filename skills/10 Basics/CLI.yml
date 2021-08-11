@@ -3,26 +3,34 @@ sort: 20
 
 ---
 skill: "Overview"
+level: 2
 resources:
   - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/navigation/exercises/your-first-command
 
 ---
 skill: "Install"
+level: 2
 requires:
   - "Files // Files and folders"
 resources:
-  - url: https://cmder.net
-    desc: For Windows download and unpack “Full version”
   - url: https://www.iterm2.com/
     desc: iTerm2 (for OS X)
+  - url: https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux
+    desc: For Windows we use WSL (version 1) Enable with `dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart` in PowerShell (as Administrator) and restart computer.
+  - url: https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6#activetab=pivot:overviewtab
+    desc: Install Ubuntu in Windows after WSL is enabled
+  - url: https://cmder.net
+    desc: Alternatively for Windows download and unpack “Full version”
 
 ---
 skill: "Navigating the file system"
+level: 2
 requires:
   - "Overview"
   - "Files // Files and folders"
 resources:
   - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/navigation/
+  - url: https://www.codecademy.com/learn/learn-the-command-line/modules/learn-the-command-line-navigation/cheatsheet
 text: |
   - ls
   - pwd
@@ -32,10 +40,12 @@ text: |
 
 ---
 skill: "Viewing and changing the file system"
+level: 2
 requires:
   - "Navigating the file system"
 resources:
   - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/manipulation/
+  - url: https://www.codecademy.com/learn/learn-the-command-line/modules/learn-the-command-line-manipulation/cheatsheet
 text: |
   - ls -a
   - ls -l
@@ -46,11 +56,12 @@ text: |
 
 ---
 skill: "Globs"
+level: 3
 requires:
-  - "Overview"
+  - "Navigating the file system"
 resources:
   - url: https://github.com/isaacs/node-glob#glob-primer
-    desc: Globs for node.js
+    desc: Globs for node.js (stop reading at “Dots”)
   - url: https://globster.xyz/
     desc: Tool to check globs against a customizable file list  
 text: |
@@ -60,10 +71,12 @@ text: |
 
 ---
 skill: "Redirecting input and output"
+level: 4
 requires:
   - "Viewing and changing the file system"
 resources:
   - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/redirection/
+  - url: https://www.codecademy.com/learn/learn-the-command-line/modules/learn-the-command-line-redirection/cheatsheet
 text: |
   - stdin, stdout, and stderr
   - Redirection
@@ -83,21 +96,37 @@ requires:
   - "Overview"
 resources:
   - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/environment/
+  - url: https://www.codecademy.com/learn/learn-the-command-line/modules/learn-the-command-line-environment/cheatsheet
 
 ---
 skill: "copy and paste in CLI"
+level: 2
 requires:
   - "Overview"
 
 ---
 skill: "completion"
+level: 2
 requires:
   - "Overview"
 
 ---
 skill: "history"
+level: 2
 text: |
   - up & down arrows to repeat
-  - Ctrl+R to search history
+  - <kbd>Ctrl+R</kbd> to search history
 requires:
-  - "Overview"
+  - "Navigating the file system"
+
+---
+skill: "File permissions"
+level: extra
+text: |
+  Understanding basic file permissions (read, write, execute) and groups (owners, groups, others) on unix-based systems.
+requires:
+  - "Viewing and changing the file system"
+resources:
+  - url: https://blog.ssdnodes.com/blog/linux-permissions/
+    desc: An article explaining permissions. You may stop reading at “Changing Linux permissions using symbolic notation”.
+    lang: en
