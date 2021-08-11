@@ -62,8 +62,12 @@ requires:
 resources:
   - url: https://github.com/isaacs/node-glob#glob-primer
     desc: Globs for node.js (stop reading at “Dots”)
+  - url: https://www.malikbrowne.com/blog/a-beginners-guide-glob-patterns
+    desc: Or read this article instead.
+    type: article
   - url: https://globster.xyz/
-    desc: Tool to check globs against a customizable file list  
+    desc: Tool to check globs against a customizable file list
+    type: tool
 text: |
   - *,
   - ** (globstar),
