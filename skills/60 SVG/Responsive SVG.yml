@@ -3,6 +3,12 @@ sort: 120
 
 ---
 skill: Responsive SVG
+level: extra
+text: |
+  Media queries in SVG are based on SVG’s dimensions which allows you to have smart SVGs that show different artwork when they’re smaller or bigger.
+requires: 
+  - "// Design // Responsive Web Design // Breakpoints (@media queries)"
+
 resources:
   - url: http://www.responsivelogos.co.uk/
     desc: Gallery of responsive SVG logos
