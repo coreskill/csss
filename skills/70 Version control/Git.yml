@@ -332,18 +332,6 @@ resources:
     type: tutorial
 
 ---
-skill: "revert"
-level: 5
-sublevel: 10
-requires:
-  - "commit"
-resources:
-  - url: https://www.atlassian.com/git/tutorials/undoing-changes/git-revert
-    type: tutorial
-  - url: https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
-    type: tutorial
-
----
 skill: "config"
 level: 5
 sublevel: 10
@@ -351,6 +339,18 @@ requires:
   - "Git overview"
 resources:
   - url: https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config
+    type: tutorial
+
+---
+skill: "revert"
+level: extra
+sublevel: 10
+requires:
+  - "commit"
+resources:
+  - url: https://www.atlassian.com/git/tutorials/undoing-changes/git-revert
+    type: tutorial
+  - url: https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
     type: tutorial
 
 ---

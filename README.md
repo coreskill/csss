@@ -50,6 +50,8 @@ requires:
 resources:
   - url: https://example.com/
     desc: "Only url is required for resources, all others are optional"
+    text: |
+      Longer description explaining more about what is expected to do with this resource.
     type: reference
     lang: en
   - url: https://example.com/simplest-example
