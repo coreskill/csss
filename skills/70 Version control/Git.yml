@@ -172,22 +172,6 @@ resources:
     type: tool
 
 ---
-skill: "checkout (as tool to revert files to commited state)"
-level: 3
-sublevel: 4
-requires:
-  - "status"
-  - "add"
-  - "commit"
-resources:
-  - url: https://www.atlassian.com/git/tutorials/undoing-changes
-    type: tutorial
-  - url: https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
-    type: tutorial
-  - url: https://www.codecademy.com/courses/learn-git/lessons/git-backtracking/exercises/git-checkout-1
-    type: interactive course
-
----
 skill: "restore"
 level: 3
 sublevel: 4
@@ -198,6 +182,24 @@ requires:
 resources:
   - url: https://git-scm.com/docs/git-restore
     type: documentation
+  - url: https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
+    type: tutorial
+  - url: https://www.codecademy.com/courses/learn-git/lessons/git-backtracking/exercises/git-checkout-1
+    type: interactive course
+
+---
+skill: "checkout (revert files to commited state)"
+text: |
+   
+level: 3
+sublevel: 4
+requires:
+  - "status"
+  - "add"
+  - "commit"
+resources:
+  - url: https://www.atlassian.com/git/tutorials/undoing-changes
+    type: tutorial
   - url: https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
     type: tutorial
   - url: https://www.codecademy.com/courses/learn-git/lessons/git-backtracking/exercises/git-checkout-1
@@ -226,7 +228,7 @@ resources:
     type: tutorial
 
 ---
-skill: "checkout"
+skill: "switch"
 level: 3
 sublevel: 5
 requires:
@@ -235,6 +237,18 @@ requires:
 resources:
   - url: https://www.atlassian.com/git/tutorials/using-branches/git-checkout
     type: tutorial
+
+---
+skill: "checkout"
+level: 3
+sublevel: 5
+requires:
+  - "commit"
+  - "switch"
+  - "status"
+resources:
+  - url: https://git-scm.com/docs/git-switch
+    type: documentation
 
 ---
 skill: "merge"
