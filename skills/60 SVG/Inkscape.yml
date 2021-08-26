@@ -2,67 +2,67 @@
 sort: 100
 
 ---
-skill: "Overview"
+skill: "Inkscape overview"
 
 ---
 skill: "Inkscape SVG v. SVG"
 requires:
-  - "Overview"
+  - "Inkscape overview"
 
 ---
 skill: "Moving, rotating and scaling objects (keyboard, mouse and number inputs)"
 requires:
-  - "Overview"
+  - "Inkscape overview"
 
 ---
 skill: "Setting fills and outlines"
 requires:
-  - "Overview"
+  - "Inkscape overview"
 
 ---
 skill: "Stacking order"
 requires:
-  - "Overview"
+  - "Inkscape overview"
 
 ---
 skill: "Changing nodes (Bezier curves)"
 requires:
-  - "Overview"
+  - "Inkscape overview"
 
 ---
 skill: "Groups"
 requires:
-  - "Overview"
+  - "Inkscape overview"
 
 ---
 skill: "Snaping (objects, grid)"
 requires:
-  - "Overview"
+  - "Inkscape overview"
 
 ---
 skill: "Document setup"
 requires:
-  - "Overview"
+  - "Inkscape overview"
 
 ---
 skill: "Paths vs. objects"
 requires:
-  - "Overview"
+  - "Inkscape overview"
 
 ---
 skill: "Converting text to path"
 requires:
-  - "Overview"
+  - "Inkscape overview"
 
 ---
 skill: "Duplicating objects"
 requires:
-  - "Overview"
+  - "Inkscape overview"
 
 ---
 skill: "Aligning"
 requires:
-  - "Overview"
+  - "Inkscape overview"
 
 ---
 skill: "Keyboard shortcuts"
@@ -75,12 +75,12 @@ text: |
   - Ctrl+(Shift)+G
   - Ctrl+D
 requires:
-  - "Overview"
+  - "Inkscape overview"
 
 ---
 skill: "Layers"
 requires:
-  - "Overview"
+  - "Inkscape overview"
 
 ---
 skill: "Using color picker"

@@ -5,7 +5,7 @@ sort: 400
 skill: "Node.js overview"
 level: 3
 requires:
-  - "// Basics // CLI // Overview"
+  - "// Basics // CLI // CLI overview"
   - "Basics // JavaScript overview"
 
 ---

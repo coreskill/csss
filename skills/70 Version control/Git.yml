@@ -2,7 +2,7 @@
 sort: 10
 
 ---
-skill: "Overview"
+skill: "Git overview"
 level: 2
 sublevel: 1
 resources:
@@ -21,7 +21,7 @@ skill: "Installation"
 level: 2
 sublevel: 1
 requires:
-  - "Overview"
+  - "Git overview"
 resources:
   - url: https://git-scm.com/downloads
     desc: "Official download from Git website"
@@ -34,7 +34,7 @@ skill: "init"
 level: 2
 sublevel: 1
 requires:
-  - "Overview"
+  - "Git overview"
 resources:
   - url: https://guides.github.com/introduction/git-handbook/#basic-git
     type: tutorial
@@ -48,7 +48,7 @@ skill: "clone"
 level: 2
 sublevel: 1
 requires:
-  - "Overview"
+  - "Git overview"
 resources:
   - url: https://guides.github.com/introduction/git-handbook/#basic-git
     type: tutorial
@@ -60,7 +60,7 @@ skill: "pull"
 level: 2
 sublevel: 1
 requires:
-  - "Overview"
+  - "Git overview"
 resources:
   - url: https://guides.github.com/introduction/git-handbook/#basic-git
     type: tutorial
@@ -334,7 +334,7 @@ skill: "config"
 level: 5
 sublevel: 10
 requires:
-  - "Overview"
+  - "Git overview"
 resources:
   - url: https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config
     type: tutorial
@@ -344,7 +344,7 @@ skill: "aliases"
 level: 5
 sublevel: 10
 requires:
-  - "Overview"
+  - "Git overview"
 resources:
   - url: https://githowto.com/aliases
 
@@ -352,7 +352,7 @@ resources:
 skill: ".gitkeep"
 level: extra
 requires:
-  - "Overview"
+  - "Git overview"
   - ".gitignore"
 resources:
   - url: https://stackoverflow.com/questions/7229885/what-are-the-differences-between-gitignore-and-gitkeep
@@ -361,7 +361,7 @@ resources:
 skill: "Other Git resources"
 level: extra
 requires:
-  - "Overview"
+  - "Git overview"
 resources:
   - url: https://ohshitgit.com/
   - url: https://blog.github.com/2015-06-08-how-to-undo-almost-anything-with-git/

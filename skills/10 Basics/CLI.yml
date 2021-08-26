@@ -2,7 +2,7 @@
 sort: 20
 
 ---
-skill: "Overview"
+skill: "CLI overview"
 level: 2
 resources:
   - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/navigation/exercises/your-first-command
@@ -26,7 +26,7 @@ resources:
 skill: "Navigating the file system"
 level: 2
 requires:
-  - "Overview"
+  - "CLI overview"
   - "Files // Files and folders"
 resources:
   - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/navigation/
@@ -97,7 +97,7 @@ text: |
 skill: "Configuring the Environment"
 level: 5
 requires:
-  - "Overview"
+  - "CLI overview"
 resources:
   - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/environment/
   - url: https://www.codecademy.com/learn/learn-the-command-line/modules/learn-the-command-line-environment/cheatsheet
@@ -106,13 +106,13 @@ resources:
 skill: "copy and paste in CLI"
 level: 2
 requires:
-  - "Overview"
+  - "CLI overview"
 
 ---
 skill: "completion"
 level: 2
 requires:
-  - "Overview"
+  - "CLI overview"
 
 ---
 skill: "history"

@@ -2,7 +2,7 @@
 sort: 150
 
 ---
-skill: "Print CSS Overview"
+skill: "Print CSS overview"
 level: 4
 text: |
   Special print features, typical print CSS (colors, removing stuff)…
@@ -18,7 +18,7 @@ resources:
 skill: "media print"
 level: 4
 requires: 
-  - "Print CSS Overview"
+  - "Print CSS overview"
   - "// Design // Responsive Web Design // Breakpoints (@media queries)"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@media#print
@@ -31,7 +31,7 @@ level: 4
 text: |
   Note `margin` in `cm` units used in `@page`
 requires: 
-  - "Print CSS Overview"
+  - "Print CSS overview"
   - "CSS Units // cm, mm"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@page
@@ -42,7 +42,7 @@ resources:
 skill: "size"
 level: 4
 requires: 
-  - "Print CSS Overview"
+  - "Print CSS overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@page/size
     type: reference
@@ -54,7 +54,7 @@ level: 4
 text: |
   replaced page-break-inside but check compatibility tables for your use case
 requires: 
-  - "Print CSS Overview"
+  - "Print CSS overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/break-inside
     type: reference
@@ -66,7 +66,7 @@ level: 4
 text: |
   replaced `page-break-after` and `page-break-before` but check compatibility tables for your use case
 requires: 
-  - "Print CSS Overview"
+  - "Print CSS overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/break-after
     type: reference
@@ -79,7 +79,7 @@ resources:
 skill: "show links targets in print (content: attr(href))"
 level: 5
 requires:
-  - "Print CSS Overview"
+  - "Print CSS overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/content
     desc: "See attr(x) value."
@@ -90,7 +90,7 @@ resources:
 skill: "widows"
 level: 5
 requires: 
-  - "Print CSS Overview"
+  - "Print CSS overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/widows
     type: reference
@@ -100,7 +100,7 @@ resources:
 skill: "orphans"
 level: 5
 requires: 
-  - "Print CSS Overview"
+  - "Print CSS overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/orphans
     type: reference
@@ -110,7 +110,7 @@ resources:
 skill: "@page :first, :left, :right"
 level: extra
 requires: 
-  - "Print CSS Overview"
+  - "Print CSS overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:first
     type: reference
@@ -126,7 +126,7 @@ resources:
 skill: "marks"
 level: extra
 requires: 
-  - "Print CSS Overview"
+  - "Print CSS overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@page/marks
     type: reference
@@ -136,7 +136,7 @@ resources:
 skill: "bleed"
 level: extra
 requires: 
-  - "Print CSS Overview"
+  - "Print CSS overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@page/bleed
     type: reference

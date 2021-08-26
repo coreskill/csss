@@ -2,7 +2,7 @@
 sort: 30
 
 ---
-skill: "Overview"
+skill: "Templates overview"
 level: 3
 requires:
   - "HTML // Basic structure // <!doctype>, <html>, <head>, <body>"
@@ -15,7 +15,7 @@ resources:
 skill: "Variables {{ example }}"
 level: 3
 requires:
-  - "Overview"
+  - "Templates overview"
 text: |
   Also know `{{ example.name }}` and `{{ example['name'] }}`
 resources:
@@ -39,7 +39,7 @@ resources:
 skill: "{% for %}"
 level: 3
 requires:
-  - "Overview"
+  - "Templates overview"
 resources:
   - url: https://mozilla.github.io/nunjucks/templating.html#for
     desc: "Nunjucks documentation"
@@ -49,7 +49,7 @@ resources:
 skill: "{# #} comments"
 level: 3
 requires:
-  - "Overview"
+  - "Templates overview"
 resources:
   - url: https://mozilla.github.io/nunjucks/templating.html#comments
     desc: "Nunjucks documentation"
@@ -59,7 +59,7 @@ resources:
 skill: "{% include %}"
 level: 3
 requires:
-  - "Overview"
+  - "Templates overview"
 resources:
   - url: https://mozilla.github.io/nunjucks/templating.html#include
     desc: "Nunjucks documentation"
@@ -69,7 +69,7 @@ resources:
 skill: "Template inheritance {% block %} and {% extends %}"
 level: 3
 requires:
-  - "Overview"
+  - "Templates overview"
 resources:
   - url: https://mozilla.github.io/nunjucks/templating.html#template-inheritance
     desc: "Nunjucks template inheritance explained"
