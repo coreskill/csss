@@ -2667,13 +2667,13 @@
     "group": "git"
   },
   {
-    "id": "checkout-as-tool-to-revert-files-to-commited-state",
-    "label": "checkout (as tool to revert files to commited state)",
+    "id": "restore",
+    "label": "restore",
     "group": "git"
   },
   {
-    "id": "restore",
-    "label": "restore",
+    "id": "checkout-revert-files-to-commited-state",
+    "label": "checkout (revert files to commited state)",
     "group": "git"
   },
   {
@@ -2684,6 +2684,11 @@
   {
     "id": "branch-list",
     "label": "branch list",
+    "group": "git"
+  },
+  {
+    "id": "switch1",
+    "label": "switch",
     "group": "git"
   },
   {
@@ -6155,32 +6160,32 @@
   },
   {
     "from": "status",
-    "to": "checkout-as-tool-to-revert-files-to-commited-state",
+    "to": "restore",
     "arrows": "to"
   },
   {
     "from": "add",
-    "to": "checkout-as-tool-to-revert-files-to-commited-state",
+    "to": "restore",
     "arrows": "to"
   },
   {
     "from": "commit",
-    "to": "checkout-as-tool-to-revert-files-to-commited-state",
+    "to": "restore",
     "arrows": "to"
   },
   {
     "from": "status",
-    "to": "restore",
+    "to": "checkout-revert-files-to-commited-state",
     "arrows": "to"
   },
   {
     "from": "add",
-    "to": "restore",
+    "to": "checkout-revert-files-to-commited-state",
     "arrows": "to"
   },
   {
     "from": "commit",
-    "to": "restore",
+    "to": "checkout-revert-files-to-commited-state",
     "arrows": "to"
   },
   {
@@ -6205,6 +6210,21 @@
   },
   {
     "from": "commit",
+    "to": "switch1",
+    "arrows": "to"
+  },
+  {
+    "from": "status",
+    "to": "switch1",
+    "arrows": "to"
+  },
+  {
+    "from": "commit",
+    "to": "checkout",
+    "arrows": "to"
+  },
+  {
+    "from": "switch1",
     "to": "checkout",
     "arrows": "to"
   },
