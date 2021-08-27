@@ -2,23 +2,32 @@
 sort: 70
 
 ---
-skill: inherit
+skill: "inherit"
+level: 4
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/inherit
+    type: reference
+    lang: en
 
 ---
-skill: initial
+skill: "initial"
+level: 5
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/initial
+    type: reference
+    lang: en
 
 ---
-skill: all
+skill: "all"
+level: 5
 requires:
-  - inherit
-  - initial
+  - "inherit"
+  - "initial"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/all
+    type: reference
+    lang: en

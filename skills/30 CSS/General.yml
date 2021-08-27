@@ -2,63 +2,77 @@
 sort: 10
 
 ---
-skill: Basic CSS Syntax
+skill: "Basic CSS Syntax"
+level: 1
 
 ---
-skill: Inline CSS (style attribute)
+skill: "Flow: Fluidity, Ordering and Stacking"
+level: 1
+resources:
+  - url: https://marksheet.io/css-the-flow.html
 requires:
-  - Basic CSS Syntax
+  - "Basic CSS Syntax"
 
 ---
-skill: <style> tag
-requires:
-  - Basic CSS Syntax
-
----
-skill: Connecting with HTML (linking)
-requires:
-  - Basic CSS Syntax
-
----
-skill: inheritance
+skill: "inheritance"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Cascade_and_inheritance
 requires:
-  - Basic CSS Syntax
-
----
-skill: CSS reset and normalize.css (user agent styles)
-resources:
-  - url: https://css-tricks.com/reboot-resets-reasoning/
-    desc: Article discussing different approaches
-  - url: https://marksheet.io/css-reset.html
-    desc: Marksheet description (outdated)
-  - url: https://necolas.github.io/normalize.css/
-    desc: Normalize.css
-  - url: https://getbootstrap.com/docs/4.2/content/reboot/
-    desc: Bootstrap’s normalize
-requires:
-  - Basic CSS Syntax
-  #- Bootstrap
-
----
-skill: "@supports"
-resources:
-  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@supports
-requires:
-  - Basic CSS Syntax
-
----
-skill: "Flow: Fluidity, Ordering and Stacking"
-resources:
-  - url: https://marksheet.io/css-the-flow.html
-requires:
-  - Basic CSS Syntax
+  - "Basic CSS Syntax"
 
 ---
 skill: "Cascade"
+level: 1
 resources:
   - url: https://wattenberger.com/blog/css-cascade
 requires:
-  - Basic CSS Syntax
+  - "Basic CSS Syntax"
+
+---
+skill: "CSS reset and normalize.css (user agent styles)"
+level: 2
+resources:
+  - url: https://css-tricks.com/reboot-resets-reasoning/
+    desc: Comparison of different approaches
+    type: article
+    lang: en
+  - url: https://marksheet.io/css-reset.html
+    desc: Marksheet description (outdated)
+    lang: en
+  - url: https://necolas.github.io/normalize.css/
+    desc: Normalize.css is a traditional CSS doing a basic normalizing
+    type: documentation
+    lang: en
+  - url: https://getbootstrap.com/docs/5.1/content/reboot/
+    desc: Bootstrap’s normalize
+    type: documentation
+    lang: en
+requires:
+  - "Basic CSS Syntax"
+
+---
+skill: "Connecting with HTML (linking)"
+level: 1
+requires:
+  - "Basic CSS Syntax"
+
+---
+skill: "<style> tag"
+level: 2
+requires:
+  - "Basic CSS Syntax"
+
+---
+skill: "Inline CSS (style attribute)"
+level: 4
+requires:
+  - "Basic CSS Syntax"
+
+---
+skill: "@supports"
+level: 3
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@supports
+requires:
+  - "Basic CSS Syntax"
