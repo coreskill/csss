@@ -2,13 +2,23 @@
 sort: 100
 
 ---
-skill: Facebook Open Graph
+skill: "Facebook Open Graph"
+level: 4
 resources: 
   - url: https://developers.facebook.com/tools/debug/
+    description: "Tool to check syntax and look on Facebook."
+    text: |
+      You can also invalidate FB’s cache there.
+    type: tool
+    lang: en
 
 ---
-skill: Twitter Cards
+skill: "Twitter Cards"
+level: 4
 requires:
-  - Facebook Open Graph
+  - "Facebook Open Graph"
 resources: 
   - url: https://cards-dev.twitter.com/validator
+    description: "Tool to check syntax and look on Twitter"
+    type: tool
+    lang: en
