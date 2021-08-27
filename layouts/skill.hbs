@@ -59,7 +59,7 @@
               {{name}}
             </span>
             {{#if level}}
-              <span class="ms-auto ps-3"><span class="badge rounded-pill bg-primary">{{level}}</span></span>
+              <span class="ms-auto ps-3"><span class="badge rounded-pill bg-primary">{{#ifEquals level "extra" }}{{level}} level{{else}}level {{level}}{{/ifEquals}}</span></span>
             {{/if}}
           </h1>
 
