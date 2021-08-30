@@ -68,7 +68,7 @@
           </p>
 
           {{#if text}}
-            <div class="m-0 lead markdown-text">{{text}}</div>
+            <div class="m-0 lead markdown-text">{{{text}}}</div>
           {{/if}}
 
           {{#if resources.length}}
@@ -125,6 +125,7 @@
       return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
     }
     md = new markdownit({
+      html: true, // Enable HTML tags in source
       breaks: true, // Convert '\n' in paragraphs into <br>
       linkify: true, // Autoconvert URL-like text to links
       typographer: true, // Enable some language-neutral replacement + quotes beautification  For the full list of replacements, see https://github.com/markdown-it/markdown-it/blob/master/lib/rules_core/replacements.js
