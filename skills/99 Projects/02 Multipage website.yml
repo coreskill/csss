@@ -1,10 +1,12 @@
 ---
 skill: "Build Generic Hipster Coffee website"
+level: 3
 resources:
   - url: https://generic-hipster-coffee.surge.sh/
     desc: "Example of the result"
     
 ---
 skill: "Embed a Google Map using Google Maps JavaScript API"
+level: 3
 resources:
   - url: https://developers.google.com/maps/documentation/javascript/tutorial

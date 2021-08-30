@@ -1,5 +1,6 @@
 ---
 skill: "On classic stack fix a bug or code a new feature."
+level: 4
 resources:
   - url: https://github.com/pyvec/cz.pycon.org-2019
     desc: "Open source project you can work on"
