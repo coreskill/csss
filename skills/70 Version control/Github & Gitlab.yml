@@ -32,6 +32,15 @@ resources:
     lang: en
     
 ---
+skill: "GitHub with SSH"
+level: 5
+requires:
+  - "Set up an account"
+resources:
+  - url: https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
+    lang: en
+    
+---
 skill: "Gist"
 level: extra
 requires:
