@@ -2,13 +2,17 @@
 sort: 30
 
 ---
-skill: Copyright law as an author
+skill: "Copyright law as an author"
+level: 5
 
 ---
-skill: Copyright law as an user
+skill: "Copyright law as an user"
+level: 5
 
 ---
-skill: Privacy protection laws
+skill: "Liability"
+level: 5
 
 ---
-skill: Liability
+skill: "Privacy protection laws"
+level: extra
