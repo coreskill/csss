@@ -3,6 +3,7 @@ sort: 5
 
 ---
 skill: "W3C vs. W3Schools vs. references"
+level: 1
 resources:
   - url: https://w3.org
     desc: "Organisation developing web standards."
@@ -20,11 +21,15 @@ resources:
     
 ---
 skill: "caniuse.com"
+level: 2
 resources:
   - url: https://caniuse.com
-
+    desc: "Can I use provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers."
+    lang: en
+    
 ---
 skill: "Advanced searching for information"
+level: 1
 text: |
   - how and why
   - time limited search
@@ -32,9 +37,19 @@ text: |
   - exact search
   - filetype
   - domain
+  
+  You can do all these with the search operators.
+resources:
+  - url: https://www.google.com/advanced_search
+    desc: "Google’s Advanced Search page"
+    type: tool
+  - url: https://support.google.com/websearch/answer/2466433?visit_id=637659497095122698-2040464061&p=adv_operators&hl=en&rd=1
+    desc: "Google’s Search Help for operators"
+    type: reference
 
 ---
-skill: "Magazines, blogs and other reliable resources" 
+skill: "Magazines, blogs and other reliable resources"
+level: extra
 text: |
   These are recommended sources to be trusted (not blindly though).
 resources:
