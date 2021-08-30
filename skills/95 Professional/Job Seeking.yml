@@ -2,34 +2,41 @@
 sort: 10
 
 ---
-skill: Overview
+skill: "Overview"
+level: 5
 
 ---
-skill: Interviews
+skill: "Interviews"
+level: 5
 requires:
-  - Overview
+  - "Overview"
 
 ---
-skill: Where to find
+skill: "Where to find"
+level: 5
 requires:
-  - Overview
+  - "Overview"
 
 ---
-skill: CV
+skill: "CV"
+level: 5
 requires:
-  - Overview
+  - "Overview"
 
 ---
-skill: LinkedIn
+skill: "LinkedIn"
+level: 5
 requires:
-  - Overview
+  - "Overview"
 
 ---
-skill: GitHub
+skill: "GitHub"
+level: 5
 requires:
-  - Overview
+  - "Overview"
 
 ---
-skill: Stack Overflow
+skill: "Stack Overflow"
+level: extra
 requires:
-  - Overview
+  - "Overview"
