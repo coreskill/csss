@@ -7,7 +7,7 @@ text: |
   Blockly Games is a no-code programming intro.
 
   Learn to solve “real world” challenges with algorithms.
-level: 2
+level: 1
 resources:
   - url: https://blockly.games/puzzle?lang=en
     desc: "Learn how to use Blockly games"
@@ -16,7 +16,7 @@ resources:
 
 ---
 skill: "Maze"
-level: 2
+level: 1
 requires:
   - "Intro to Blockly Games"
 resources:
@@ -26,7 +26,7 @@ resources:
 
 ---
 skill: "Bird"
-level: 2
+level: 1
 requires:
   - "Maze"
 resources:
@@ -36,7 +36,7 @@ resources:
 
 ---
 skill: "Music"
-level: 2
+level: 1
 requires:
   - "Bird"
 resources:
@@ -46,7 +46,7 @@ resources:
 
 ---
 skill: "Pond Tutor"
-level: 2
+level: 1
 requires:
   - "Music"
 resources:
@@ -56,7 +56,7 @@ resources:
 
 ---
 skill: "Pond"
-level: 2
+level: 1
 requires:
   - "Pond Tutor"
 resources:
