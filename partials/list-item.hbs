@@ -36,7 +36,18 @@
   {{#if skill}}
     <span class="ms-auto ps-3 text-end">
       {{#ifNotEquals level ""}}
-        <span class="badge rounded-pill bg-primary">{{level}}</span>
+        <span
+          class="
+            badge rounded-pill
+            {{#ifEquals level 0 }}bg-success{{/ifEquals}}
+            {{#ifEquals level 1 }}bg-success{{/ifEquals}}
+            {{#ifEquals level 2 }}bg-info{{/ifEquals}}
+            {{#ifEquals level 3 }}bg-info{{/ifEquals}}
+            {{#ifEquals level 4 }}bg-primary{{/ifEquals}}
+            {{#ifEquals level 5 }}bg-dark{{/ifEquals}}
+            {{#ifEquals level "extra" }}bg-warning{{/ifEquals}}
+          "
+        >{{level}}</span>
         <!--
         {{#if sublevel}}
           <span class="badge rounded-pill bg-secondary">{{sublevel}}</span>

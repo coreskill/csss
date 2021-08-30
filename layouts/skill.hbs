@@ -59,7 +59,22 @@
               {{name}}
             </span>
             {{#ifNotEquals level ""}}
-              <span class="ms-auto ps-3"><span class="badge rounded-pill bg-primary">{{#ifEquals level "extra" }}{{level}} level{{else}}level {{level}}{{/ifEquals}}</span></span>
+              <span class="ms-auto ps-3">
+                <span
+                  class="
+                    badge rounded-pill
+                    {{#ifEquals level 0 }}bg-success{{/ifEquals}}
+                    {{#ifEquals level 1 }}bg-success{{/ifEquals}}
+                    {{#ifEquals level 2 }}bg-info{{/ifEquals}}
+                    {{#ifEquals level 3 }}bg-info{{/ifEquals}}
+                    {{#ifEquals level 4 }}bg-primary{{/ifEquals}}
+                    {{#ifEquals level 5 }}bg-dark{{/ifEquals}}
+                    {{#ifEquals level "extra" }}bg-warning{{/ifEquals}}
+                  "
+                >
+                  {{#ifEquals level "extra" }}{{level}} level{{else}}level {{level}}{{/ifEquals}}
+                </span>
+              </span>
             {{/ifNotEquals}}
           </h1>
 
