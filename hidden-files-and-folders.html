@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="csss.css">
     <link rel="stylesheet" href="firebase.css">
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
@@ -82,6 +82,9 @@
                 </span>
               
                   <span class="ms-auto ps-3 text-end">
+                      <span class="badge rounded-pill bg-primary">1</span>
+                      <!--
+                      -->
                       <!--<span class="badge bg-success">start here</span>-->
                     <span class="note note-empty badge bg-dark" data-slug="files-and-folders">
                       <span class="note-value"></span>
@@ -104,13 +107,53 @@
               </span>
               Hidden files and folders
             </span>
+              <span class="ms-auto ps-3"><span class="badge rounded-pill bg-primary">level 1</span></span>
           </h1>
 
           <p>
             <small><a href="graph.html#hidden-files-and-folders">Show in dependency graph</a></small>
           </p>
 
+            <div class="m-0 lead markdown-text">- What they are (read resources below).
+- How to show them on your operating system.
 
+> ## Intro
+> In computing, a **hidden folder** (sometimes **hidden directory**) or **hidden file** is a folder or file which filesystem utilities do not display by default when showing a directory listing. They are commonly used for storing user preferences or preserving the state of a utility, and are frequently created implicitly by using various utilities. They are not a security mechanism because access is not restricted - usually the intent is simply to not "clutter" the display of the contents of a directory listing with files the user did not directly create. 
+> 
+> ## Unix and Unix-like environments 
+> 
+> In Unix-like operating systems, any file or folder that starts with a dot character (for example, `/home/user/.config`), commonly called a **dot file** or **dotfile**, is to be treated as hidden – that is, the `ls` command does not display them unless the `-a` or `-A` flags (`ls -a` or `ls -A`) are used. In most command-line shells, wildcards will not match files whose names start with `.` unless the wildcard itself starts with an explicit `.` . 
+> 
+> A convention arose of using dotfiles in the user's home directory to store per-user configuration or informational text. Early uses of this were the well-known dotfiles `.profile`, `.login`, and `.cshrc`, which are configuration files for the Bourne shell and C shell and shells compatible with them, and `.plan` and `.project`, both used by the `finger` and `name` commands. 
+> 
+> ### macOS 
+> 
+> In addition to the "dotfile" behaviour, files with the "Invisible" attribute are hidden in Finder, although not in `ls`. The "Invisible" attribute can be set or cleared using the `SetFile` command; for example, invoking `SetFile -a V jimbo` will hide the file "jimbo". Starting in Mac OS X Snow Leopard, the `chflags` command can also be used; for example, `chflags hidden jimbo` will hide the file "jimbo". 
+> 
+> ## DOS and MS Windows 
+> 
+> In DOS systems, file directory entries include a Hidden file attribute which is manipulated using the  command. Using the command line command `dir /ah` displays the files with the Hidden attribute. In addition, there is a System file attribute that can be set on a file, which also causes the file to be hidden in directory listings. Use the command line command `dir /as` to display the files with the System attribute. 
+> 
+> Under Windows Explorer, Hidden files and directories are, by default, not displayed - though they are still accessible by entering the full path into the explorer address bar. System files *are* displayed, unless they are also hidden. There are two options that enable the display of hidden files. The main 'Hidden files and folders' option can be used to turn on the display of hidden files but this won't, on its own, display hidden *system* files. A second option, 'Hide protected operating system files' additionally needs to be turned off in order for hidden system files to be shown. Hidden files are displayed with a slight transparency, so even when they are visible they are visually delineated from non-hidden files. 
+
+_(Wikipedia)_
+</div>
+
+            <h2 class="mt-5">Resources</h2>
+            <div class="list-group list-group-flush">
+                <a href="https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h3 class="h5 mb-1">
+                      <span class="badge bg-info">en</span> 
+                      <b>Wikipedia source for text above</b>
+                    </h3>
+                  </div>
+                  <p class="mb-1">
+                    
+                    https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory
+                  </p>
+                </a>
+            </div>
         </div>
 
           <h2 class="mt-5">Also learn these skills</h2>
@@ -211,6 +254,9 @@
                 </span>
               
                   <span class="ms-auto ps-3 text-end">
+                      <span class="badge rounded-pill bg-primary">1</span>
+                      <!--
+                      -->
                     <span class="note note-empty badge bg-dark" data-slug="text-vs-binary-files">
                       <span class="note-value"></span>
                       <span tabindex="0" class="note-changer fw-normal">✏️</span>
@@ -228,17 +274,19 @@
   </main>
   <script src="firebase.js"></script>
   <script>
-    function htmlDecode(input){
+    function htmlDecode(input) {
       var e = document.createElement('textarea');
       e.innerHTML = input;
       // handle case of empty input
       return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
     }
+
     md = new markdownit({
+      html: true, // Enable HTML tags in source
       breaks: true, // Convert '\n' in paragraphs into <br>
       linkify: true, // Autoconvert URL-like text to links
       typographer: true, // Enable some language-neutral replacement + quotes beautification  For the full list of replacements, see https://github.com/markdown-it/markdown-it/blob/master/lib/rules_core/replacements.js
-      langPrefix:   'language-',
+      langPrefix: 'language-',
       highlight: function (str, lang) {
         if (lang && hljs.getLanguage(lang)) {
           try {
@@ -250,7 +298,7 @@
       }
     });
     document.querySelectorAll('.markdown-text').forEach(
-            text => text.innerHTML = md.render(htmlDecode(text.innerHTML))
+      text => text.innerHTML = md.render(htmlDecode(text.innerHTML))
     )
   </script>
   </body>

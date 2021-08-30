@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="csss.css">
     <link rel="stylesheet" href="firebase.css">
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
@@ -82,6 +82,9 @@
                 </span>
               
                   <span class="ms-auto ps-3 text-end">
+                      <span class="badge rounded-pill bg-primary">1</span>
+                      <!--
+                      -->
                     <span class="note note-empty badge bg-dark" data-slug="text-vs-binary-files">
                       <span class="note-value"></span>
                       <span tabindex="0" class="note-changer fw-normal">✏️</span>
@@ -103,13 +106,43 @@
               </span>
               special characters
             </span>
+              <span class="ms-auto ps-3"><span class="badge rounded-pill bg-primary">level 1</span></span>
           </h1>
 
           <p>
             <small><a href="graph.html#special-characters">Show in dependency graph</a></small>
           </p>
 
+            <div class="m-0 lead markdown-text">There are characters beyond letters, numbers and punctuation. Some of them are _control characters_ or _non-printing characters_ and some of them are _whitespaces characters_. Notable examples are space, tab, carriage return (CR) or line feed (LF).
+</div>
 
+            <h2 class="mt-5">Resources</h2>
+            <div class="list-group list-group-flush">
+                <a href="https://en.wikipedia.org/wiki/Control_character" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h3 class="h5 mb-1">
+                      <span class="badge bg-info">en</span> 
+                      <b>Wikipedia page contains a lot of information if you’re intested but is not necessary to read it.</b>
+                    </h3>
+                  </div>
+                  <p class="mb-1">
+                    
+                    https://en.wikipedia.org/wiki/Control_character
+                  </p>
+                </a>
+                <a href="https://en.wikipedia.org/wiki/Whitespace_character" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h3 class="h5 mb-1">
+                      <span class="badge bg-info">en</span> 
+                      <b>Wikipedia page contains a lot of information if you’re intested but is not necessary to read it.</b>
+                    </h3>
+                  </div>
+                  <p class="mb-1">
+                    
+                    https://en.wikipedia.org/wiki/Whitespace_character
+                  </p>
+                </a>
+            </div>
         </div>
 
           <h2 class="mt-5">Also learn these skills</h2>
@@ -132,13 +165,15 @@
                     <span class="star">⭐️</span>
                     <span class="not-done">❔️</span>
                   </span>
-                      <span class="badge ps-0 pe-2">🚧️</span>
               
                 <span>
                   encodings
                 </span>
               
                   <span class="ms-auto ps-3 text-end">
+                      <span class="badge rounded-pill bg-primary">1</span>
+                      <!--
+                      -->
                     <span class="note note-empty badge bg-dark" data-slug="encodings">
                       <span class="note-value"></span>
                       <span tabindex="0" class="note-changer fw-normal">✏️</span>
@@ -170,13 +205,15 @@
                     <span class="star">⭐️</span>
                     <span class="not-done">❔️</span>
                   </span>
-                      <span class="badge ps-0 pe-2">🚧️</span>
               
                 <span>
                   line endings (CRLF vs. LF)
                 </span>
               
                   <span class="ms-auto ps-3 text-end">
+                      <span class="badge rounded-pill bg-primary">1</span>
+                      <!--
+                      -->
                     <span class="note note-empty badge bg-dark" data-slug="line-endings-crlf-vs-lf">
                       <span class="note-value"></span>
                       <span tabindex="0" class="note-changer fw-normal">✏️</span>
@@ -190,17 +227,19 @@
   </main>
   <script src="firebase.js"></script>
   <script>
-    function htmlDecode(input){
+    function htmlDecode(input) {
       var e = document.createElement('textarea');
       e.innerHTML = input;
       // handle case of empty input
       return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
     }
+
     md = new markdownit({
+      html: true, // Enable HTML tags in source
       breaks: true, // Convert '\n' in paragraphs into <br>
       linkify: true, // Autoconvert URL-like text to links
       typographer: true, // Enable some language-neutral replacement + quotes beautification  For the full list of replacements, see https://github.com/markdown-it/markdown-it/blob/master/lib/rules_core/replacements.js
-      langPrefix:   'language-',
+      langPrefix: 'language-',
       highlight: function (str, lang) {
         if (lang && hljs.getLanguage(lang)) {
           try {
@@ -212,7 +251,7 @@
       }
     });
     document.querySelectorAll('.markdown-text').forEach(
-            text => text.innerHTML = md.render(htmlDecode(text.innerHTML))
+      text => text.innerHTML = md.render(htmlDecode(text.innerHTML))
     )
   </script>
   </body>

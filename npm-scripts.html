@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="csss.css">
     <link rel="stylesheet" href="firebase.css">
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
@@ -348,17 +348,19 @@
   </main>
   <script src="firebase.js"></script>
   <script>
-    function htmlDecode(input){
+    function htmlDecode(input) {
       var e = document.createElement('textarea');
       e.innerHTML = input;
       // handle case of empty input
       return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
     }
+
     md = new markdownit({
+      html: true, // Enable HTML tags in source
       breaks: true, // Convert '\n' in paragraphs into <br>
       linkify: true, // Autoconvert URL-like text to links
       typographer: true, // Enable some language-neutral replacement + quotes beautification  For the full list of replacements, see https://github.com/markdown-it/markdown-it/blob/master/lib/rules_core/replacements.js
-      langPrefix:   'language-',
+      langPrefix: 'language-',
       highlight: function (str, lang) {
         if (lang && hljs.getLanguage(lang)) {
           try {
@@ -370,7 +372,7 @@
       }
     });
     document.querySelectorAll('.markdown-text').forEach(
-            text => text.innerHTML = md.render(htmlDecode(text.innerHTML))
+      text => text.innerHTML = md.render(htmlDecode(text.innerHTML))
     )
   </script>
   </body>

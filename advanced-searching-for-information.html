@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="csss.css">
     <link rel="stylesheet" href="firebase.css">
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
@@ -70,6 +70,7 @@
               </span>
               Advanced searching for information
             </span>
+              <span class="ms-auto ps-3"><span class="badge rounded-pill bg-primary">level 1</span></span>
           </h1>
 
           <p>
@@ -82,8 +83,37 @@
 - exact search
 - filetype
 - domain
+
+You can do all these with the search operators.
 </div>
 
+            <h2 class="mt-5">Resources</h2>
+            <div class="list-group list-group-flush">
+                <a href="https://www.google.com/advanced_search" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h3 class="h5 mb-1">
+                      
+                      <b>Google’s Advanced Search page</b>
+                    </h3>
+                  </div>
+                  <p class="mb-1">
+                    <span class="badge bg-secondary">tool</span> 
+                    https://www.google.com/advanced_search
+                  </p>
+                </a>
+                <a href="https://support.google.com/websearch/answer/2466433?visit_id&#x3D;637659497095122698-2040464061&amp;p&#x3D;adv_operators&amp;hl&#x3D;en&amp;rd&#x3D;1" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h3 class="h5 mb-1">
+                      
+                      <b>Google’s Search Help for operators</b>
+                    </h3>
+                  </div>
+                  <p class="mb-1">
+                    <span class="badge bg-secondary">reference</span> 
+                    https://support.google.com/websearch/answer/2466433?visit_id&#x3D;637659497095122698-2040464061&amp;p&#x3D;adv_operators&amp;hl&#x3D;en&amp;rd&#x3D;1
+                  </p>
+                </a>
+            </div>
         </div>
 
           <h2 class="mt-5">Also learn these skills</h2>
@@ -112,6 +142,9 @@
                 </span>
               
                   <span class="ms-auto ps-3 text-end">
+                      <span class="badge rounded-pill bg-primary">1</span>
+                      <!--
+                      -->
                       <!--<span class="badge bg-success">start here</span>-->
                     <span class="note note-empty badge bg-dark" data-slug="w3c-vs-w3schools-vs-references">
                       <span class="note-value"></span>
@@ -143,6 +176,9 @@
                 </span>
               
                   <span class="ms-auto ps-3 text-end">
+                      <span class="badge rounded-pill bg-primary">2</span>
+                      <!--
+                      -->
                       <!--<span class="badge bg-success">start here</span>-->
                     <span class="note note-empty badge bg-dark" data-slug="caniusecom">
                       <span class="note-value"></span>
@@ -162,7 +198,7 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="magazines-blogs-and-other-reliable-resources">
+                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="magazines-blogs-and-other-reliable-resources">
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -174,6 +210,9 @@
                 </span>
               
                   <span class="ms-auto ps-3 text-end">
+                      <span class="badge rounded-pill bg-primary">extra</span>
+                      <!--
+                      -->
                       <!--<span class="badge bg-success">start here</span>-->
                     <span class="note note-empty badge bg-dark" data-slug="magazines-blogs-and-other-reliable-resources">
                       <span class="note-value"></span>
@@ -192,17 +231,19 @@
   </main>
   <script src="firebase.js"></script>
   <script>
-    function htmlDecode(input){
+    function htmlDecode(input) {
       var e = document.createElement('textarea');
       e.innerHTML = input;
       // handle case of empty input
       return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
     }
+
     md = new markdownit({
+      html: true, // Enable HTML tags in source
       breaks: true, // Convert '\n' in paragraphs into <br>
       linkify: true, // Autoconvert URL-like text to links
       typographer: true, // Enable some language-neutral replacement + quotes beautification  For the full list of replacements, see https://github.com/markdown-it/markdown-it/blob/master/lib/rules_core/replacements.js
-      langPrefix:   'language-',
+      langPrefix: 'language-',
       highlight: function (str, lang) {
         if (lang && hljs.getLanguage(lang)) {
           try {
@@ -214,7 +255,7 @@
       }
     });
     document.querySelectorAll('.markdown-text').forEach(
-            text => text.innerHTML = md.render(htmlDecode(text.innerHTML))
+      text => text.innerHTML = md.render(htmlDecode(text.innerHTML))
     )
   </script>
   </body>
