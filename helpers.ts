@@ -13,6 +13,10 @@ registerHelper('ifEquals', function(this: any, arg1: string, arg2: string, optio
   return (arg1 === arg2) ? options.fn(this) : options.inverse(this);
 });
 
+registerHelper('ifNotEquals', function(this: any, arg1: string, arg2: string, options: HelperOptions) {
+  return (arg1 !== arg2) ? options.fn(this) : options.inverse(this);
+});
+
 registerHelper('nodes', (skills: Skill[]) => {
   return new SafeString(JSON.stringify(skills.map(skill => ({
     id: skill.slug,
