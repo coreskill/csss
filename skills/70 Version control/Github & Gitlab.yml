@@ -55,7 +55,14 @@ resources:
 skill: "Markdown"
 level: 4
 requires:
-  - "HTML // "
+  - "HTML // Body // <p>"
+  - "HTML // Body // <a>, #, paths for href"
+  - "HTML // Body // <h1> to <h6>"
+  - "HTML // Body // <img>, src, width, height, alt"
+  - "HTML // Body // <ul>, <ol>, <li>"
+  - "HTML // Body // <em>"
+  - "HTML // Body // <strong>"
+  - "HTML // Body // <br>"
 resources:
   - url: https://guides.github.com/features/mastering-markdown/
     desc: "Basic description + GitHub Flavored Markdown"
