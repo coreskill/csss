@@ -3,102 +3,160 @@ sort: 100
 
 ---
 skill: "jQuery overview"
+level: extra
+text: |
+  jQuery is a JavaScript library that had a huge impact on web and JavaScript. 
+  
+  It’s also a technology, that is used mostly on legacy projects and shouldn’t be used on a new projects in 2020s.
+  
+  As it was a dominant JS library at least for 10 years there are many websites still using it and you might be asked to do maintenance on a website that uses it and it may come handy to not be surprised.  
 requires:
   - "JavaScript // Basics // JavaScript overview"
 resources:
   - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/why-jquery
+    type: interactive course
+    lang: en
   - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/jquery-methods
+    type: interactive course
+    lang: en
   - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/jquery-library
+    type: interactive course
+    lang: en
   - url: https://jquery.com/
+    type: interactive course
+    lang: en
 
 ---
 skill: "Adding jQuery"
+level: extra
 requires:
   - "jQuery overview"
 resources:
   - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/adding-jquery
+    type: interactive course
+    lang: en
 
 ---
 skill: "Selecting elements"
+level: extra
 requires:
   - "jQuery overview"
 resources:
   - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/targeting-by-class
+    type: interactive course
+    lang: en
   - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/targeting-by-id
+    type: interactive course
+    lang: en
 
 ---
 skill: "jQuery object"
+level: extra
 requires:
   - "jQuery overview"
 resources:
   - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/jquery-objects
+    type: interactive course
+    lang: en
 
 ---
 skill: "Event Handlers"
+level: extra
 requires:
   - "jQuery overview"
 resources:
   - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-setup/exercises/event-handlers
+    type: interactive course
+    lang: en
 
 ---
 skill: "Effects"
+level: extra
 requires:
   - "jQuery overview"
 resources:
   - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-effects/exercises/effects-introduction
+    type: interactive course
+    lang: en
 
 ---
 skill: ".hide()"
+level: extra
 requires:
   - "Effects"
 resources:
   - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-effects/exercises/hide
+    type: interactive course
+    lang: en
 
 ---
 skill: ".show()"
+level: extra
 requires:
   - "Effects"
 resources:
   - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-effects/exercises/show
+    type: interactive course
+    lang: en
 
 ---
 skill: ".toggle()"
+level: extra
 requires:
   - "Effects"
 resources:
   - url: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-effects/exercises/toggle
+    type: interactive course
+    lang: en
 
 ---
 skill: ".addClass()"
+level: extra
 requires:
   - "Selecting elements"
-#resources:
-#  - url: 
-
+resources:
+  - url: https://api.jquery.com/addclass/
+    type: documentantion
+    lang: en
 ---
 skill: ".removeClass()"
+level: extra
 requires:
   - "Selecting elements"
-#resources:
-#  - url: 
-
+resources:
+  - url: https://api.jquery.com/removeclass/
+    type: documentantion
+    lang: en
 ---
 skill: ".toggleClass()"
+level: extra
 requires:
   - "Selecting elements"
-#resources:
-#  - url: 
-
+resources:
+  - url: https://api.jquery.com/toggleclass/
+    type: documentantion
+    lang: en
 ---
 skill: "Traversing DOM"
+level: extra
 requires:
   - "Selecting elements"
-text: |
-  - children
-  - parent
-  - siblings
-  - closest
-  - next
-  - find
-#resources:
-#  - url: 
+resources:
+  - url: https://api.jquery.com/children/
+    type: documentantion
+    lang: en
+  - url: https://api.jquery.com/parent/
+    type: documentantion
+    lang: en
+  - url: https://api.jquery.com/siblings/
+    type: documentantion
+    lang: en
+  - url: https://api.jquery.com/closest/
+    type: documentantion
+    lang: en
+  - url: https://api.jquery.com/next/
+    type: documentantion
+    lang: en
+  - url: https://api.jquery.com/find/
+    type: documentantion
+    lang: en
