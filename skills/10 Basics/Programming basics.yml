@@ -1,0 +1,65 @@
+---
+sort: 30
+
+---
+skill: "Intro to Blockly Games"
+text: |
+  Blockly Games is a no-code programming intro.
+
+  Learn to solve “real world” challenges with algorithms.
+level: 2
+resources:
+  - url: https://blockly.games/puzzle?lang=en
+    desc: "Learn how to use Blockly games"
+    type: interactive puzzle
+    lang: en
+
+---
+skill: "Maze"
+level: 2
+requires:
+  - "Intro to Blockly Games"
+resources:
+  - url: https://blockly.games/maze?lang=en
+    type: interactive puzzle
+    lang: en
+
+---
+skill: "Bird"
+level: 2
+requires:
+  - "Maze"
+resources:
+  - url: https://blockly.games/bird?lang=en
+    type: interactive puzzle
+    lang: en
+
+---
+skill: "Music"
+level: 2
+requires:
+  - "Bird"
+resources:
+  - url: https://blockly.games/music?lang=en
+    type: interactive puzzle
+    lang: en
+
+---
+skill: "Pond Tutor"
+level: 2
+requires:
+  - "Music"
+resources:
+  - url: https://blockly.games/pond-tutor?lang=en
+    type: interactive puzzle
+    lang: en
+
+---
+skill: "Pond"
+level: 2
+requires:
+  - "Pond Tutor"
+resources:
+  - url: https://blockly.games/pond-duck?lang=en
+    type: interactive puzzle
+    lang: en
