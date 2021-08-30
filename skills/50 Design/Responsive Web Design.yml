@@ -3,21 +3,27 @@ sort: 50
 
 ---
 skill: "Overview"
+level: 2
 resources:
   - url: https://alistapart.com/article/responsive-web-design
     desc: "The article that started it all."
+    lang: en
   - url: https://www.codecademy.com/learn/learn-responsive-design
     desc: "Interactive course at Codecademy."
+    lang: en
 
 ---
 skill: "Fluid web"
+level: 2
 requires:
   - "Overview"
 resources:
   - url: https://marksheet.io/css-the-flow.html
+    lang: en
 
 ---
 skill: "Mobile-first"
+level: 2
 requires:
   - "Fluid web"
 resources:
@@ -26,13 +32,16 @@ resources:
 
 ---
 skill: "Breakpoints (@media queries)"
+level: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@media
+    lang: en
 requires:
   - "Fluid web"
 
 ---
 skill: "Simple responsive images"
+level: 2
 requires:
   - "Overview"
 resources:
@@ -41,15 +50,18 @@ resources:
 
 ---
 skill: "Responsive images (srcset, sizes)"
+level: 3
 requires:
   - "Simple responsive images"
 resources:
   - url: https://cloudfour.com/thinks/responsive-images-the-simple-way/
+    lang: en
   - url: https://www.vzhurudolu.cz/blog/97-vdwd-ukazka
     lang: cs
 
 ---
 skill: "<picture>"
+level: 5
 requires:
   - "Responsive images (srcset, sizes)"
 resources:
@@ -58,8 +70,10 @@ resources:
 
 ---
 skill: "Responsive Images Generator"
+level: 3
 requires:
   - "Responsive images (srcset, sizes)"
 resources: 
   - url: https://www.responsivebreakpoints.com/
     type: tool
+    lang: en
