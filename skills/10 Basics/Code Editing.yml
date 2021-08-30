@@ -138,7 +138,7 @@ resources:
 ---
 skill: "Autoindent and/or Beautify"
 text: | 
-  Prettier or Beatify
+  Prettier or Beautify
 requires:
   - "Extensions/Plugins installation"
 resources:
