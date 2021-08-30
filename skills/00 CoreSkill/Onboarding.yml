@@ -1,11 +1,13 @@
 ---
 skill: "Agreement"
+level: 0
 text: |
   attendee: sign
   CoreSkill: sign
 
 ---
 skill: "Computer"
+level: 0
 text: |
   recommended: 
     - 16 GB RAM (8 GB minimum)
@@ -20,26 +22,31 @@ text: |
 
 ---
 skill: "Google Account"
+level: 0
 text: |
   provide or create if needed (for calendar and shared documents)
 
 ---
 skill: "Join folders on Google Drive"
+level: 0
 text: |
   Join
 
 ---
 skill: "Junior Guru Club Discord"
+level: 0
 text: |
   Join
 
 ---
 skill: "Code editor"
+level: 0
 text: |
   Install: Visual Studio Code or Webstorm
 
 ---
 skill: "Chrome"
+level: 0
 text: |
   Install English version
 resources:
@@ -47,6 +54,7 @@ resources:
 
 ---
 skill: "Firefox"
+level: 0
 text: |
   Install English version
 resources:
