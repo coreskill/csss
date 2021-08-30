@@ -3,9 +3,13 @@ sort: 15
   
 ---
 skill: "Code editing overview"
+level: 1
+text: |
+  Let’s talk in person.
 
 ---
 skill: "Working with text: clipboard operations, navigating, selecting, changing"
+level: 1
 requires:
   - "Code editing overview"
 resources:
@@ -14,6 +18,7 @@ resources:
 
 ---
 skill: "Code Editor Installation"
+level: 1
 requires:
   - "Code editing overview"
 resources:
@@ -23,6 +28,7 @@ resources:
 
 ---
 skill: "Projects and Workspaces"
+level: 1
 requires:
   - "Code Editor Installation"
 resources:
@@ -30,14 +36,19 @@ resources:
     lang: en
 
 ---
-skill: "Basic editing: copy + cut + paste lines, indenting (including difference between tabs and spaces)"
+skill: "Basic editing"
+level: 1
+text: |
+  - copy + cut + paste whole lines
+  - indent with <kbd>TAB</kbd> (including difference between tabs and spaces)
 requires:
   - "Code Editor Installation"
 
 ---
 skill: "Basic Text editing using keyboard"
+level: 1
 text: |
-  You should know how to do this using only keyboard
+  You should know how to do the following using only keyboard
   - copy
   - paste
   - cut
@@ -50,8 +61,7 @@ text: |
 
 ---
 skill: "Text Editor control using keyboard"
-requires:
-  - "Basic Text editing using keyboard"
+level: 1
 text: |
   You should learn how to do these with your keyboard.
   - Undo last action
@@ -59,11 +69,12 @@ text: |
   - Open file
   - Switch beetween opened files
   - Invoke search/replace
+requires:
+  - "Basic Text editing using keyboard"
 
 ---
 skill: "Working with text in a text editor"
-requires:
-  - "Basic Text editing using keyboard"
+level: 1
 text: |
   - Copy and cut whole line (usually standard shortcuts without selection)
   - Delete a line
@@ -74,9 +85,12 @@ text: |
   - Move line up or down
   
   Many of the above actions work even on multiple lines. For example indenting.
+requires:
+  - "Basic Text editing using keyboard"
 
 ---
 skill: "Multiple selections"
+level: 2
 requires:
   - "Code Editor Installation"
 resources:
@@ -85,6 +99,7 @@ resources:
     
 ---
 skill: "Intellisense"
+level: 1
 requires:
   - "Code Editor Installation"
 resources:
@@ -97,6 +112,7 @@ resources:
 
 ---
 skill: "Emmet"
+level: 1
 requires:
   - "Code Editor Installation"
 resources:
@@ -105,6 +121,7 @@ resources:
     
 ---
 skill: "Search and replace"
+level: 2
 requires:
   - "Code Editor Installation"
 resources:
@@ -113,6 +130,7 @@ resources:
     
 ---
 skill: "Extensions/Plugins installation"
+level: 1
 requires:
   - "Code Editor Installation"
 resources:
@@ -137,6 +155,7 @@ resources:
 
 ---
 skill: "Autoindent and/or Beautify"
+level: 2
 text: | 
   Prettier or Beautify
 requires:

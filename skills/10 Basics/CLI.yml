@@ -25,27 +25,22 @@ resources:
 ---
 skill: "Navigating the file system"
 level: 2
-requires:
-  - "CLI overview"
-  - "Files // Files and folders"
-resources:
-  - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/navigation/
-  - url: https://www.codecademy.com/learn/learn-the-command-line/modules/learn-the-command-line-navigation/cheatsheet
 text: |
   - ls
   - pwd
   - cd
   - mkdir
   - touch
+requires:
+  - "CLI overview"
+  - "Files // Files and folders"
+resources:
+  - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/navigation/
+  - url: https://www.codecademy.com/learn/learn-the-command-line/modules/learn-the-command-line-navigation/cheatsheet
 
 ---
 skill: "Viewing and changing the file system"
 level: 2
-requires:
-  - "Navigating the file system"
-resources:
-  - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/manipulation/
-  - url: https://www.codecademy.com/learn/learn-the-command-line/modules/learn-the-command-line-manipulation/cheatsheet
 text: |
   - ls -a
   - ls -l
@@ -53,10 +48,19 @@ text: |
   - cp
   - mv
   - rm
+requires:
+  - "Navigating the file system"
+resources:
+  - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/manipulation/
+  - url: https://www.codecademy.com/learn/learn-the-command-line/modules/learn-the-command-line-manipulation/cheatsheet
 
 ---
 skill: "Globs"
 level: 3
+text: |
+  - *,
+  - ** (globstar),
+  - {a,b}
 requires:
   - "Navigating the file system"
 resources:
@@ -68,19 +72,10 @@ resources:
   - url: https://globster.xyz/
     desc: Tool to check globs against a customizable file list
     type: tool
-text: |
-  - *,
-  - ** (globstar),
-  - {a,b}
 
 ---
 skill: "Redirecting input and output"
 level: 4
-requires:
-  - "Viewing and changing the file system"
-resources:
-  - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/redirection/
-  - url: https://www.codecademy.com/learn/learn-the-command-line/modules/learn-the-command-line-redirection/cheatsheet
 text: |
   - stdin, stdout, and stderr
   - Redirection
@@ -92,6 +87,11 @@ text: |
   - uniq
   - grep
   - sed
+requires:
+  - "Viewing and changing the file system"
+resources:
+  - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/redirection/
+  - url: https://www.codecademy.com/learn/learn-the-command-line/modules/learn-the-command-line-redirection/cheatsheet
 
 ---
 skill: "Configuring the Environment"
@@ -100,19 +100,33 @@ requires:
   - "CLI overview"
 resources:
   - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/environment/
+    type: interactive course
+    lang: en
   - url: https://www.codecademy.com/learn/learn-the-command-line/modules/learn-the-command-line-environment/cheatsheet
+    lang: en
 
 ---
 skill: "copy and paste in CLI"
 level: 2
+text: |
+  Copying and pasting in different environments can be a bit tricky. It’s not always behaving the way you expect it to.  
 requires:
   - "CLI overview"
+resources:
+  - url: https://itsfoss.com/copy-paste-linux-terminal/
+    desc: "Article describing options to copy and paste in Linux"
+    type: article
+    lang: en
 
 ---
 skill: "completion"
 level: 2
+text: |
+  - Completion prevents errors and makes using CLI much easier as you don’t have to type everything.
+  - Press <kbd>Tab</kbd> to autocomplete command or file name you started writing.
+  - If there are more choices it “does nothing” and you need to press <kbd>Tab</kbd> once more to see them. This works for empty input too.
 requires:
-  - "CLI overview"
+  - "Navigating the file system"
 
 ---
 skill: "history"
