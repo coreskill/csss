@@ -127,6 +127,10 @@ text: |
   - If there are more choices it “does nothing” and you need to press <kbd>Tab</kbd> once more to see them. This works for empty input too.
 requires:
   - "Navigating the file system"
+resources:
+  - url: https://www.abclinuxu.cz/ucebnice/zaklady/prikazova-radka/zadavani-prikazu
+    desc: "přečíst pod nadpisem Kouzelná klávesa TAB"
+    lang: cs
 
 ---
 skill: "history"
