@@ -3,6 +3,7 @@ sort: 10
 
 ---
 skill: "CPU, RAM, HDD, SSD, GPU"
+level: 4
 text: |
   Very basic explanation of these terms and how they interact with each other regarding to web development.
 resources: 
