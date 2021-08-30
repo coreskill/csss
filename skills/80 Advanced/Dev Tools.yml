@@ -3,55 +3,82 @@ sort: 10
 
 ---
 skill: "Dev Tools overview"
+level: 1
 requires:
   - Related // Networking // Web browser
 resources:
   - url: https://developers.google.com/web/tools/chrome-devtools
+    type: documentation
+    lang: en
 
 ---
 skill: "Elements (HTML, CSS)"
+level: 1
 requires:
   - "Dev Tools overview"
   - "CSS // General // Basic CSS Syntax"
   - "HTML // Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developers.google.com/web/tools/chrome-devtools/dom/
+    type: documentation
+    lang: en
   - url: https://developers.google.com/web/tools/chrome-devtools/css/
+    type: documentation
+    lang: en
+
+---
+skill: "Device mode"
+level: 2
+requires:
+  - "Dev Tools overview"
+resources:
+  - url: https://developers.google.com/web/tools/chrome-devtools/device-mode
+    type: documentation
+    lang: en
+
+---
+skill: "Sources"
+level: 3
+requires:
+  - "Dev Tools overview"
+resources:
+  - url: https://developers.google.com/web/tools/chrome-devtools/resources
+    type: documentation
+    lang: en
 
 ---
 skill: "Console"
+level: 3
 requires:
   - "Dev Tools overview"
   - "JavaScript // Basics // JavaScript overview"
 resources:
   - url: https://developers.google.com/web/tools/chrome-devtools/console
+    type: documentation
+    lang: en
   - url: https://developers.google.com/web/tools/chrome-devtools/console/log
+    type: documentation
+    lang: en
   - url: https://developers.google.com/web/tools/chrome-devtools/console/javascript
-
----
-skill: "Device mode"
-requires:
-  - "Dev Tools overview"
-resources:
-  - url: https://developers.google.com/web/tools/chrome-devtools/device-mode
+    type: documentation
+    lang: en
 
 ---
 skill: "Network"
+level: 4
 requires:
   - "Dev Tools overview"
 resources:
   - url: https://developers.google.com/web/tools/chrome-devtools/network
-
----
-skill: "Sources"
-requires:
-  - "Dev Tools overview"
-resources:
-  - url: https://developers.google.com/web/tools/chrome-devtools/resources
+    type: documentation
+    lang: en
 
 ---
 skill: "Command Menu"
+level: 5
 requires:
   - "Dev Tools overview"
 resources:
   - url: https://developers.google.com/web/tools/chrome-devtools/command-menu
+    type: documentation
+    lang: en
