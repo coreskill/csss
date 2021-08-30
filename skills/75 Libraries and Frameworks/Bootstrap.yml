@@ -3,6 +3,7 @@ sort: 20
 
 ---
 skill: "Bootstrap overview"
+level: 3
 text: |
   Pros and cons
 requires:
@@ -11,88 +12,138 @@ requires:
   - "CSS // Flexible Layout Module (Flexbox) // Flexbox concepts" 
 resources:
   - url: https://getbootstrap.com
+    desc: Bootstrap’s homepage
+    lang: en
 
 ---
 skill: "Basic usage (link to CDN, HTML structure)"
+level: 3
 requires:
   - "Bootstrap overview"
 resources:
-  - url: https://getbootstrap.com/docs/5.0/getting-started/introduction/
+  - url: https://getbootstrap.com/docs/5.1/getting-started/introduction/
+    desc: "Getting started: Introduction"
+    type: documentation
+    lang: en
 
 ---
 skill: "Grid"
+level: 3
 requires:
   - "Bootstrap overview"
 #  - Design // Grid
 resources:
-  - url: https://getbootstrap.com/docs/5.0/layout/grid/
+  - url: https://getbootstrap.com/docs/5.1/layout/grid/
+    desc: "Grid system"
+    type: documentation
+    lang: en
 
 ---
 skill: "Components: Nav"
+level: 3
 requires:
   - "Bootstrap overview"
 resources:
-  - url: https://getbootstrap.com/docs/5.0/components/navs-tabs/
+  - url: https://getbootstrap.com/docs/5.1/components/navs-tabs/
+    desc: "Navs and tabs"
+    type: documentation
+    lang: en
 
 ---
 skill: "Components: Navbar"
+level: 3
 requires:
   - "Bootstrap overview"
 resources:
-  - url: https://getbootstrap.com/docs/5.0/components/navbar/
+  - url: https://getbootstrap.com/docs/5.1/components/navbar/
+    desc: "Navbar"
+    type: documentation
+    lang: en
 
 ---
 skill: "Components: Card"
+level: 3
 requires:
   - "Bootstrap overview"
 resources:
-  - url: https://getbootstrap.com/docs/5.0/components/card/
+  - url: https://getbootstrap.com/docs/5.1/components/card/
+    desc: "Cards"
+    type: documentation
+    lang: en
 
 ---
 skill: "Customization: Utility classes"
+level: 4
 requires:
   - "Bootstrap overview"
 resources:
-  - url: https://getbootstrap.com/docs/5.0/utilities/
+  - url: https://getbootstrap.com/docs/5.1/utilities/
+    desc: "Utility API"
+    type: documentation
+    lang: en
 
 ---
 skill: "Customization: Variables"
+level: 4
 requires:
   - "Bootstrap overview"
   - "CSS // Sass // variables"
 resources:
-  - url: https://github.com/benabraham/bs5-static-site-starter/blob/master/src/scss/_1-customized-bootstrap-variables.scss
-  - url: https://github.com/benabraham/bs5-static-site-starter/blob/master/src/scss/_2-customized-bootstrap-variables.scss
-  - url: https://github.com/benabraham/bs5-static-site-starter/blob/master/src/scss/_3-customized-bootstrap-variables.scss
+  - url: https://github.com/benabraham/bs5-static-site-starter/blob/main/src/scss/_1-customized-bootstrap-variables.scss
+    desc: "Simple customization solution"
+    type: source code
+    lang: en
+  - url: https://github.com/benabraham/bs5-static-site-starter/blob/main/src/scss/_2-customized-bootstrap-variables.scss
+    desc: "More complex customization solution"
+    type: source code
+    lang: en
+  - url: https://github.com/benabraham/bs5-static-site-starter/blob/main/src/scss/_3-customized-bootstrap-variables.scss
+    desc: "Most complex customization solution"
+    type: source code
+    lang: en
 
 ---
 skill: "Customization: Own CSS"
+level: 4
 requires:
   - "Bootstrap overview"
   - "CSS // Sass // @import (also partials)"
 resources:
   - url: https://github.com/benabraham/bs5-static-site-starter/blob/main/src/scss/_custom-css.scss
+    desc: "Own CSS location"
+    type: source code
+    lang: en
 
 ---
 skill: "Customization: removing modules"
+level: 4
 requires:
   - "Bootstrap overview"
   - "CSS // Sass // @import (also partials)"
   - "CSS // Sass // //comments"
 resources:
-  - url: https://github.com/benabraham/bs5-static-site-starter/blob/master/src/scss/index.scss
+  - url: https://github.com/benabraham/bs5-static-site-starter/blob/main/src/scss/index.scss
+    desc: "Boilerplate for customizing Bootstrap"
+    type: source code
+    lang: en
 
 ---
 skill: "Bootstrap JavaScript (via data attributes)"
+level: 4
 requires:
   - "Bootstrap overview"
 resources:
-  - url: https://getbootstrap.com/docs/5.0/getting-started/javascript/
+  - url: https://getbootstrap.com/docs/5.1/getting-started/javascript/
+    type: documentation
+    lang: en
 
 ---
 skill: "Bootstrap JavaScript (via JS)"
+level: extra
 requires:
   - "Bootstrap overview"
 #  - JavaScript
 resources:
-  - url: https://getbootstrap.com/docs/5.0/getting-started/javascript/
+  - url: https://getbootstrap.com/docs/5.1/getting-started/javascript/
+    type: documentation
+    lang: en
