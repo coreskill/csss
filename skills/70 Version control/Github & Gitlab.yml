@@ -2,56 +2,65 @@
 sort: 20
 
 ---
-skill: Set up an account
+skill: "Set up an account"
 level: 1
 resources:
   - url: https://github.com/join
+    lang: en
 
 ---
-skill: Set up a repository
+skill: "Set up a repository"
 level: 2
 requires:
-  - Set up an account
+  - "Set up an account"
 resources:
   - url: https://guides.github.com/activities/hello-world/
+    lang: en
 
 ---
-skill: Merge (Pull) Request
+skill: "Merge (Pull) Request"
 level: 3
 requires:
-  - Set up a repository
-  - Git // clone
-  - Git // branch add
-  - Git // commit
-  - Git // push
-  - Git // merge
+  - "Set up a repository"
+  - "Git // clone"
+  - "Git // branch add"
+  - "Git // commit"
+  - "Git // push"
+  - "Git // merge"
 resources:
   - url: https://guides.github.com/introduction/flow/
-
+    lang: en
+    
 ---
-skill: Gist
+skill: "Gist"
 level: extra
 requires:
-  - Set up an account
+  - "Set up an account"
 resources:
   - url: https://gist.github.com/
+    lang: en
   - url: https://help.github.com/articles/about-gists/
+    lang: en
 
 ---
-skill: Markdown
+skill: "Markdown"
 level: 4
-#requires:
-#  - HTML // …
+requires:
+  - "HTML // "
 resources:
   - url: https://guides.github.com/features/mastering-markdown/
-    desc: Basic description + GitHub Flavored Markdown
+    desc: "Basic description + GitHub Flavored Markdown"
+    lang: en
   - url: https://en.wikipedia.org/wiki/Markdown
-    desc: General info about Markdown including history and flavors
+    desc: "General info about Markdown including history and flavors"
+    lang: en
+
 ---
-skill: README.md
+skill: "README.md"
 level: 5
 requires:
-  - Set up an account
-  - Markdown
+  - "Set up an account"
+  - "Markdown"
 resources:
   - url: https://www.makeareadme.com/
+    lang: en
