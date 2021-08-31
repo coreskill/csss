@@ -6,8 +6,8 @@
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="csss.css">
     <link rel="stylesheet" href="firebase.css">
     <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
@@ -18,9 +18,10 @@
   <body>
   <header class="navbar navbar-dark bg-dark justify-items-start sticky-top">
     <div class="container-fluid">
-      <a href="/" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS)</a>
+      <a href="/" class="navbar-brand mb-0 h1">CoreSkill Skill System (CSSS) <sup class="fw-bold text-warning">beta</sup></a>
       <div>
         <div class="filter-group ms-5">
+          <span class="text-white me-2">filters</span>
           <div class="btn-group bg-dark" role="group">
             <button type="button" class="filter-done btn px-4 btn-outline-light active">✔️</button>
             <button type="button" class="filter-star btn px-4 btn-outline-light active">⭐️</button>
@@ -40,13 +41,21 @@
     </div>
   </header>
 
-  <main class="container-fluid p-4">
+  <main class="container-fluid px-4">
     <header class="mb-4">
-      <h1 class="display-3 mb-0">CoreSkill Skill System (CSSS) <sup class="fw-bold text-danger">beta</sup></h1>
-      <ul class="d-flex flex-wrap p-0">
+      <ul class="d-flex flex-wrap align-items-center mt-2 pb-0 px-0">
         <li class="mx-3">Login with Google Account to enable checklist functionality.</li>
         <li class="mx-3">Items with 🚧️ have no detailed information</li>
-        <li class="mx-3">Numbers in blue indicate levels <span class="badge rounded-pill bg-primary">1</span> means everybody should know that. <span class="badge rounded-pill bg-primary">5</span> means not everyone needs it. <span class="badge rounded-pill bg-primary">extra</span> is nice to have if you’re interested.</li>
+        <li class="mx-3">
+          Numbers indicate skill levels:
+          <span class="mx-3"><span class="badge rounded-pill bg-light">0</span> formal</span>
+          <span class="me-3"><span class="badge rounded-pill bg-success">1</span> basic</span>
+          <span class="me-3"><span class="badge rounded-pill bg-cyan">2</span> advanced</span>
+          <span class="me-3"><span class="badge rounded-pill bg-info">3</span> start looking for a job</span>
+          <span class="me-3"><span class="badge rounded-pill bg-primary">4</span> can find job</span>
+          <span class="me-3"><span class="badge rounded-pill bg-dark">5</span> should find job</span>
+          <span class="me-3"><span class="badge rounded-pill bg-warning">extra</span> nice to have</span>
+        </li>
       </ul>
     </header>
     <div class="skill-sections">
@@ -86,7 +95,7 @@
                                       <span
                                         class="
                                           badge rounded-pill
-                                          bg-success
+                                          bg-light
                                           
                                           
                                           
@@ -131,7 +140,7 @@
                                       <span
                                         class="
                                           badge rounded-pill
-                                          bg-success
+                                          bg-light
                                           
                                           
                                           
@@ -176,7 +185,7 @@
                                       <span
                                         class="
                                           badge rounded-pill
-                                          bg-success
+                                          bg-light
                                           
                                           
                                           
@@ -221,7 +230,7 @@
                                       <span
                                         class="
                                           badge rounded-pill
-                                          bg-success
+                                          bg-light
                                           
                                           
                                           
@@ -266,7 +275,7 @@
                                       <span
                                         class="
                                           badge rounded-pill
-                                          bg-success
+                                          bg-light
                                           
                                           
                                           
@@ -311,7 +320,7 @@
                                       <span
                                         class="
                                           badge rounded-pill
-                                          bg-success
+                                          bg-light
                                           
                                           
                                           
@@ -356,7 +365,7 @@
                                       <span
                                         class="
                                           badge rounded-pill
-                                          bg-success
+                                          bg-light
                                           
                                           
                                           
@@ -401,7 +410,7 @@
                                       <span
                                         class="
                                           badge rounded-pill
-                                          bg-success
+                                          bg-light
                                           
                                           
                                           
@@ -551,7 +560,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -1361,7 +1370,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -1493,7 +1502,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -1581,7 +1590,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -1631,7 +1640,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -1676,7 +1685,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -1720,7 +1729,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -1764,7 +1773,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -1940,7 +1949,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -1984,7 +1993,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -2028,7 +2037,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -2497,7 +2506,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -2541,7 +2550,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -2899,7 +2908,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -2943,7 +2952,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -2987,7 +2996,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -3031,7 +3040,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -3075,7 +3084,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -3119,7 +3128,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -5017,7 +5026,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -5347,7 +5356,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -5437,7 +5446,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -5620,7 +5629,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -5664,7 +5673,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -5708,7 +5717,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -5752,7 +5761,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -5796,7 +5805,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -5840,7 +5849,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -7706,7 +7715,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -8102,7 +8111,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -8196,7 +8205,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -8240,7 +8249,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -9188,7 +9197,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -10673,7 +10682,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -11075,7 +11084,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -11829,7 +11838,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -12819,7 +12828,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -12864,7 +12873,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -12909,7 +12918,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -12954,7 +12963,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -12998,7 +13007,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -13042,7 +13051,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -14845,7 +14854,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -14889,7 +14898,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -14933,7 +14942,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -14977,7 +14986,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -15021,7 +15030,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -15065,7 +15074,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -15109,7 +15118,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -15159,7 +15168,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -15203,7 +15212,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -15247,7 +15256,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -15291,7 +15300,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -15341,7 +15350,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -15385,7 +15394,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -15429,7 +15438,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -15473,7 +15482,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -15517,7 +15526,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -15561,7 +15570,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -15605,7 +15614,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -15649,7 +15658,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -15693,7 +15702,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -15737,7 +15746,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -15781,7 +15790,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -15825,7 +15834,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -15869,7 +15878,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -15913,7 +15922,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -15957,7 +15966,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -16001,7 +16010,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -16051,7 +16060,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -16095,7 +16104,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -16139,7 +16148,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -16183,7 +16192,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -16227,7 +16236,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -16271,7 +16280,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -16315,7 +16324,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -16360,7 +16369,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -21519,7 +21528,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -21564,7 +21573,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -21608,7 +21617,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -21652,7 +21661,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -21696,7 +21705,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -22199,7 +22208,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -23262,7 +23271,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -23308,7 +23317,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -23353,7 +23362,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -23398,7 +23407,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -23443,7 +23452,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -23488,7 +23497,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -23533,7 +23542,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -23578,7 +23587,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -23623,7 +23632,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -23668,7 +23677,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -23713,7 +23722,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -23758,7 +23767,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -24707,7 +24716,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -26242,7 +26251,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -27599,7 +27608,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -27690,7 +27699,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -27736,7 +27745,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -29394,7 +29403,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -29574,7 +29583,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -29619,7 +29628,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
@@ -29664,7 +29673,7 @@
                                           badge rounded-pill
                                           
                                           
-                                          bg-info
+                                          bg-cyan
                                           
                                           
                                           
