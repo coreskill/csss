@@ -18,6 +18,8 @@
   --bs-success-rgb: 25, 135, 84;
   --bs-warning: rgb(233, 176, 0);
   --bs-warning-rgb: 233, 176, 0;
+
+  font-size: 0.875rem;
 }
 
 blockquote {
@@ -59,8 +61,8 @@ a.list-group-item {
 
   .skill-section {
     flex: 1 1 auto;
-    min-width: 26rem;
-    max-width: 36rem;
+    min-width: 23rem;
+    max-width: 33rem;
   }
 }
 
