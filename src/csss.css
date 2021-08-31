@@ -8,18 +8,24 @@
   --bs-dark-rgb: 70, 70, 70;
   --bs-info: rgb(75, 149, 255);
   --bs-info-rgb: 75, 149, 255;
-  --bs-light: rgb(248, 249, 250);
-  --bs-light-rgb: 248, 249, 250;
+  --bs-light: rgb(173, 181, 189);
+  --bs-light-rgb: 173, 181, 189;
   --bs-primary: rgb(13, 110, 253);
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary: rgb(67, 72, 86);
   --bs-secondary-rgb: 67, 72, 86;
-  --bs-success: rgb(25, 135, 84);
-  --bs-success-rgb: 25, 135, 84;
+  --bs-success: rgb(46, 153, 103);
+  --bs-success-rgb: 46, 153, 103;
   --bs-warning: rgb(233, 176, 0);
   --bs-warning-rgb: 233, 176, 0;
+  --bs-cyan: rgb(59, 170, 204);
 
   font-size: 0.875rem;
+}
+
+.bg-cyan {
+  --bs-bg-opacity: 1;
+  background-color: var(--bs-cyan);
 }
 
 blockquote {
@@ -67,8 +73,14 @@ a.list-group-item {
 }
 
 .badge {
-  font-weight: 400;
-  font-size: .85em;
+  font-weight: 500;
+  font-size: 0.857143em;
+  padding: 0.6666em 0.75em;
+  min-width: 2.3333em;
+}
+
+.badge.bg-warning {
+  color: var(--bs-body-color);
 }
 
 .markdown-text {
