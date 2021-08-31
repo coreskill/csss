@@ -18,24 +18,21 @@
   </head>
   <body>
   {{> header}}
-
   <main class="container-fluid px-4">
-    <header class="mb-4">
-      <ul class="d-flex flex-wrap align-items-center mt-2 pb-0 px-0">
-        <li class="mx-3">Login with Google Account to enable checklist functionality.</li>
-        <li class="mx-3">Items with 🚧️ have no detailed information</li>
-        <li class="mx-3">
-          Numbers indicate skill levels:
-          <span class="mx-3"><span class="badge rounded-pill bg-light">0</span> formal</span>
-          <span class="me-3"><span class="badge rounded-pill bg-success">1</span> basic</span>
-          <span class="me-3"><span class="badge rounded-pill bg-cyan">2</span> advanced</span>
-          <span class="me-3"><span class="badge rounded-pill bg-info">3</span> start looking for a job</span>
-          <span class="me-3"><span class="badge rounded-pill bg-primary">4</span> can find job</span>
-          <span class="me-3"><span class="badge rounded-pill bg-dark">5</span> should find job</span>
-          <span class="me-3"><span class="badge rounded-pill bg-warning">extra</span> nice to have</span>
-        </li>
-      </ul>
-    </header>
+    <ul class="d-flex flex-wrap align-items-center mt-2 mb-4 pb-0 px-0">
+      <li class="mx-3">Login with Google Account to enable checklist functionality.</li>
+      <li class="mx-3">Items with 🚧️ have no detailed information</li>
+      <li class="mx-3">
+        Numbers indicate skill levels:
+        <span class="mx-3"><span class="badge rounded-pill bg-light">0</span> formal</span>
+        <span class="me-3"><span class="badge rounded-pill bg-success">1</span> basic</span>
+        <span class="me-3"><span class="badge rounded-pill bg-cyan">2</span> advanced</span>
+        <span class="me-3"><span class="badge rounded-pill bg-info">3</span> start looking for a job</span>
+        <span class="me-3"><span class="badge rounded-pill bg-primary">4</span> can find job</span>
+        <span class="me-3"><span class="badge rounded-pill bg-dark">5</span> should find job</span>
+        <span class="me-3"><span class="badge rounded-pill bg-warning">extra</span> nice to have</span>
+      </li>
+    </ul>
     <div class="skill-sections">
       {{#each children}}
         {{> node-item}}
