@@ -9,6 +9,17 @@ requires:
   - "Design // Typography"
 
 ---
+skill: "Variable fonts"
+text: |
+  serif, sans-serif, monospaced etc.
+requires: 
+  - "Design // Typography"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
+    desc: "MDN Guide"
+    lang: en
+
+---
 skill: "Web Fonts Overview"
 requires:
   - "Font types"
@@ -16,7 +27,7 @@ requires:
 ---
 skill: "Linking and using from Google Fonts" 
 text: |
-  including extended character ranges
+  Link a font or more from [Google Fonts](https://fonts.google.com)
 requires:
   - "Web Fonts Overview"
 
