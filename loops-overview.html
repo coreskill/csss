@@ -26,11 +26,18 @@
         <div class="filter-group ms-5">
           <span class="text-white me-2">filters</span>
           <div class="btn-group bg-dark" role="group">
-            <button type="button" class="filter-done btn px-4 btn-outline-light active">✔️</button>
-            <button type="button" class="filter-star btn px-4 btn-outline-light active">⭐️</button>
-            <button type="button" class="filter-not-done btn px-4 btn-outline-light active">❔️</button>
+            <button type="button" class="btn px-4 btn-outline-light active filter-done">✔️</button>
+            <button type="button" class="btn px-4 btn-outline-light active filter-star">⭐️</button>
+            <button type="button" class="btn px-4 btn-outline-light active filter-not-done">❔️</button>
           </div>
-          <button type="button" class="filter-extra btn px-4 ms-3 btn-outline-light active">extra</button>
+          <div class="btn-group bg-dark ms-3" role="group">
+            <button type="button" class="btn px-3 btn-outline-light active filter-level-1">1</button>
+            <button type="button" class="btn px-3 btn-outline-light active filter-level-2">2</button>
+            <button type="button" class="btn px-3 btn-outline-light active filter-level-3">3</button>
+            <button type="button" class="btn px-3 btn-outline-light active filter-level-4">4</button>
+            <button type="button" class="btn px-3 btn-outline-light active filter-level-5">5</button>
+            <button type="button" class="btn px-3 btn-outline-light active filter-extra">extra</button>
+          </div>
         </div>
         <span class="filter-nothing-found alert alert-danger mt-4 d-none" role="alert">Nothing has been found.</span>
         <span class="filter-counter ms-3 text-white" role="alert"><span class="shown-skills"></span> of <span class="total-skills"></span> skills shown</span>
@@ -71,7 +78,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="variables-overview">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="variables-overview"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -118,7 +137,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="arrays-overview">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      is-level-2
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="arrays-overview"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -234,7 +265,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="scope-overview">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      is-level-2
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="scope-overview"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -281,7 +324,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="creating-variables-var">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="creating-variables-var"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -328,7 +383,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="creating-variables-const">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="creating-variables-const"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -375,7 +442,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="creating-variables-let">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="creating-variables-let"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -422,7 +501,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="undefined">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="undefined"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -469,7 +560,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="mathematical-assignment-operators">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="mathematical-assignment-operators"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -516,7 +619,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="string-concatenation-with-variables">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="string-concatenation-with-variables"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -563,7 +678,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="string-interpolation-es6-ie-foo-variable">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="string-interpolation-es6-ie-foo-variable"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -610,7 +737,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="typeof-operator">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="typeof-operator"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -657,7 +796,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="creating-arrays">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      is-level-2
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="creating-arrays"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -704,7 +855,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="iterators-overview">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      is-level-4
+                      
+                      
+                    "
+                    data-slug="iterators-overview"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -751,7 +914,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="looping-through-arrays">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      is-level-2
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="looping-through-arrays"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -802,7 +977,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="for">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      is-level-2
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="for"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>

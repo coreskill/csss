@@ -26,11 +26,18 @@
         <div class="filter-group ms-5">
           <span class="text-white me-2">filters</span>
           <div class="btn-group bg-dark" role="group">
-            <button type="button" class="filter-done btn px-4 btn-outline-light active">✔️</button>
-            <button type="button" class="filter-star btn px-4 btn-outline-light active">⭐️</button>
-            <button type="button" class="filter-not-done btn px-4 btn-outline-light active">❔️</button>
+            <button type="button" class="btn px-4 btn-outline-light active filter-done">✔️</button>
+            <button type="button" class="btn px-4 btn-outline-light active filter-star">⭐️</button>
+            <button type="button" class="btn px-4 btn-outline-light active filter-not-done">❔️</button>
           </div>
-          <button type="button" class="filter-extra btn px-4 ms-3 btn-outline-light active">extra</button>
+          <div class="btn-group bg-dark ms-3" role="group">
+            <button type="button" class="btn px-3 btn-outline-light active filter-level-1">1</button>
+            <button type="button" class="btn px-3 btn-outline-light active filter-level-2">2</button>
+            <button type="button" class="btn px-3 btn-outline-light active filter-level-3">3</button>
+            <button type="button" class="btn px-3 btn-outline-light active filter-level-4">4</button>
+            <button type="button" class="btn px-3 btn-outline-light active filter-level-5">5</button>
+            <button type="button" class="btn px-3 btn-outline-light active filter-extra">extra</button>
+          </div>
         </div>
         <span class="filter-nothing-found alert alert-danger mt-4 d-none" role="alert">Nothing has been found.</span>
         <span class="filter-counter ms-3 text-white" role="alert"><span class="shown-skills"></span> of <span class="total-skills"></span> skills shown</span>
@@ -71,7 +78,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="basic-css-syntax">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="basic-css-syntax"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -185,7 +204,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="overview">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      is-level-3
+                      
+                      
+                      
+                    "
+                    data-slug="overview"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -232,7 +263,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="width">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="width"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -276,7 +319,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="height">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="height"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -320,7 +375,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="border">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="border"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -364,7 +431,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="padding">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="padding"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -408,7 +487,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="margin">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="margin"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -452,7 +543,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="box-sizing">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="box-sizing"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -496,7 +599,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="overflow">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="overflow"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -540,7 +655,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="visibility">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="visibility"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -584,7 +711,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="outline">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      is-level-3
+                      
+                      
+                      
+                    "
+                    data-slug="outline"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -628,7 +767,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="display-block-display-inline-display-inline-block">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="display-block-display-inline-display-inline-block"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -672,7 +823,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="display-none">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="display-none"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -716,7 +879,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="background-color">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="background-color"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -763,7 +938,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="background-image-background-repeat-background-position">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      is-level-2
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="background-image-background-repeat-background-position"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -810,7 +997,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="opacity">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      is-level-3
+                      
+                      
+                      
+                    "
+                    data-slug="opacity"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -857,7 +1056,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="box-shadow">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      is-level-4
+                      
+                      
+                    "
+                    data-slug="box-shadow"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -904,7 +1115,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="css-grid-overview">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      is-level-3
+                      
+                      
+                      
+                    "
+                    data-slug="css-grid-overview"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -951,7 +1174,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="calc">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      is-level-4
+                      
+                      
+                    "
+                    data-slug="calc"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -998,7 +1233,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="max">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      is-level-4
+                      
+                      
+                    "
+                    data-slug="max"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1045,7 +1292,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="min">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      is-level-4
+                      
+                      
+                    "
+                    data-slug="min"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1092,7 +1351,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="clamp">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      is-level-4
+                      
+                      
+                    "
+                    data-slug="clamp"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1139,7 +1410,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="best-practices">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="best-practices"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1186,7 +1469,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="time-units-s-ms">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      is-level-4
+                      
+                      
+                    "
+                    data-slug="time-units-s-ms"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1233,7 +1528,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="angle-units-deg">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      is-level-5
+                      
+                    "
+                    data-slug="angle-units-deg"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1280,7 +1587,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="inherit">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      is-level-4
+                      
+                      
+                    "
+                    data-slug="inherit"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1327,7 +1646,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="initial">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      is-level-5
+                      
+                    "
+                    data-slug="initial"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1374,7 +1705,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="flexbox-concepts">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      is-level-3
+                      
+                      
+                      
+                    "
+                    data-slug="flexbox-concepts"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1422,7 +1765,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="float">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="float"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1469,7 +1824,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="clear">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="clear"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1516,7 +1883,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="flow-fluidity-ordering-and-stacking">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="flow-fluidity-ordering-and-stacking"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1563,7 +1942,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="inheritance">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="inheritance"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1610,7 +2001,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="cascade">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="cascade"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1657,7 +2060,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="css-reset-and-normalizecss-user-agent-styles">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      is-level-2
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="css-reset-and-normalizecss-user-agent-styles"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1704,7 +2119,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="connecting-with-html-linking">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="connecting-with-html-linking"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1752,7 +2179,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="style-tag">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      is-level-2
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="style-tag"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1800,7 +2239,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="inline-css-style-attribute">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      is-level-4
+                      
+                      
+                    "
+                    data-slug="inline-css-style-attribute"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1848,7 +2299,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="supports">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      is-level-3
+                      
+                      
+                      
+                    "
+                    data-slug="supports"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1895,7 +2358,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="content">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      is-level-2
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="content"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1942,7 +2417,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="custom-properties">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      is-level-5
+                      
+                    "
+                    data-slug="custom-properties"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1989,7 +2476,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="border-collapse">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      is-level-5
+                      
+                    "
+                    data-slug="border-collapse"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -2036,7 +2535,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="table-layout">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      is-level-5
+                      
+                    "
+                    data-slug="table-layout"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -2083,7 +2594,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="display-table-table-row-table-cell">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      is-level-5
+                      
+                    "
+                    data-slug="display-table-table-row-table-cell"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -2130,7 +2653,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="css-transitions">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      is-level-5
+                      
+                    "
+                    data-slug="css-transitions"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -2177,7 +2712,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="css-animations">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="css-animations"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -2224,7 +2771,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="cursor">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="cursor"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -2271,7 +2830,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="filter">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="filter"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -2318,7 +2889,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="position-relative-position-static">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="position-relative-position-static"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -2365,7 +2948,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="position-absolute">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="position-absolute"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -2412,7 +3007,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="position-fixed">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="position-fixed"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -2459,7 +3066,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="position-sticky">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="position-sticky"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -2506,7 +3125,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="z-index">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="z-index"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -2553,7 +3184,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="print-css-overview">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      is-level-4
+                      
+                      
+                    "
+                    data-slug="print-css-overview"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -2600,7 +3243,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="link-related-active-visited-hover-focus-link">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      is-level-2
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="link-related-active-visited-hover-focus-link"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -2647,7 +3302,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="first-child-last-child-only-child">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      is-level-3
+                      
+                      
+                      
+                    "
+                    data-slug="first-child-last-child-only-child"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -2694,7 +3361,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="first-of-type-last-of-type-only-of-type">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      is-level-3
+                      
+                      
+                      
+                    "
+                    data-slug="first-of-type-last-of-type-only-of-type"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -2741,7 +3420,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="nth-child-nth-last-child">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      is-level-3
+                      
+                      
+                      
+                    "
+                    data-slug="nth-child-nth-last-child"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -2788,7 +3479,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="nth-of-type-nth-last-of-type">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      is-level-3
+                      
+                      
+                      
+                    "
+                    data-slug="nth-of-type-nth-last-of-type"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -2835,7 +3538,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="not">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      is-level-4
+                      
+                      
+                    "
+                    data-slug="not"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -2882,7 +3597,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="root">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      is-level-5
+                      
+                    "
+                    data-slug="root"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -2929,7 +3656,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="lang">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      is-level-5
+                      
+                    "
+                    data-slug="lang"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -2976,7 +3715,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="forms-related-pseudo-classes-checked-required-valid-invalid-enabled-disabled">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      is-level-5
+                      
+                    "
+                    data-slug="forms-related-pseudo-classes-checked-required-valid-invalid-enabled-disabled"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -3023,7 +3774,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="target">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="target"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -3070,7 +3833,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="in-range-out-of-range">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="in-range-out-of-range"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -3117,7 +3892,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="read-only-read-write">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="read-only-read-write"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -3164,7 +3951,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="optional">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="optional"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -3211,7 +4010,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="default">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="default"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -3258,7 +4069,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="indeterminate">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="indeterminate"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -3305,7 +4128,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="empty">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="empty"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -3352,7 +4187,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="page-related-first-left-right">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="page-related-first-left-right"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -3399,7 +4246,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="basic-principles-sass-vs-scss">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      is-level-2
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="basic-principles-sass-vs-scss"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -3446,7 +4305,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="type-selectors">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="type-selectors"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -3493,7 +4364,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="color">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="color"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -3540,7 +4423,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="font-size">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="font-size"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -3587,7 +4482,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="font-style-italic-font-style-normal">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="font-style-italic-font-style-normal"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -3634,7 +4541,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="font-weight">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="font-weight"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -3681,7 +4600,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="font-family-including-fallbacks">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="font-family-including-fallbacks"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -3728,7 +4659,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="line-height">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="line-height"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -3775,7 +4718,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="vertical-align">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      is-level-3
+                      
+                      
+                      
+                    "
+                    data-slug="vertical-align"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -3822,7 +4777,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="text-align">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="text-align"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -3869,7 +4836,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="text-decoration">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="text-decoration"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -3916,7 +4895,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="text-transform">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      is-level-3
+                      
+                      
+                      
+                    "
+                    data-slug="text-transform"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -3963,7 +4954,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="font-variant-small-caps">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      is-level-4
+                      
+                      
+                    "
+                    data-slug="font-variant-small-caps"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -4010,7 +5013,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="list-style">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      is-level-4
+                      
+                      
+                    "
+                    data-slug="list-style"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -4057,7 +5072,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="text-shadow">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      is-level-4
+                      
+                      
+                    "
+                    data-slug="text-shadow"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -4104,7 +5131,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="font-display">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      is-level-5
+                      
+                    "
+                    data-slug="font-display"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -4151,7 +5190,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="text-indent">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      is-level-5
+                      
+                    "
+                    data-slug="text-indent"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -4198,7 +5249,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="white-space">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      is-level-5
+                      
+                    "
+                    data-slug="white-space"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -4245,7 +5308,19 @@ Notable values: `double` and `groove`
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="elements-html-css">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="elements-html-css"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>

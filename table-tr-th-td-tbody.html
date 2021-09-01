@@ -26,11 +26,18 @@
         <div class="filter-group ms-5">
           <span class="text-white me-2">filters</span>
           <div class="btn-group bg-dark" role="group">
-            <button type="button" class="filter-done btn px-4 btn-outline-light active">✔️</button>
-            <button type="button" class="filter-star btn px-4 btn-outline-light active">⭐️</button>
-            <button type="button" class="filter-not-done btn px-4 btn-outline-light active">❔️</button>
+            <button type="button" class="btn px-4 btn-outline-light active filter-done">✔️</button>
+            <button type="button" class="btn px-4 btn-outline-light active filter-star">⭐️</button>
+            <button type="button" class="btn px-4 btn-outline-light active filter-not-done">❔️</button>
           </div>
-          <button type="button" class="filter-extra btn px-4 ms-3 btn-outline-light active">extra</button>
+          <div class="btn-group bg-dark ms-3" role="group">
+            <button type="button" class="btn px-3 btn-outline-light active filter-level-1">1</button>
+            <button type="button" class="btn px-3 btn-outline-light active filter-level-2">2</button>
+            <button type="button" class="btn px-3 btn-outline-light active filter-level-3">3</button>
+            <button type="button" class="btn px-3 btn-outline-light active filter-level-4">4</button>
+            <button type="button" class="btn px-3 btn-outline-light active filter-level-5">5</button>
+            <button type="button" class="btn px-3 btn-outline-light active filter-extra">extra</button>
+          </div>
         </div>
         <span class="filter-nothing-found alert alert-danger mt-4 d-none" role="alert">Nothing has been found.</span>
         <span class="filter-counter ms-3 text-white" role="alert"><span class="shown-skills"></span> of <span class="total-skills"></span> skills shown</span>
@@ -71,7 +78,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="div-span">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="div-span"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -220,7 +239,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="ul-ol-li">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      is-level-1
+                      
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="ul-ol-li"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -264,7 +295,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="em">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      is-level-2
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="em"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -308,7 +351,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="i">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      is-level-2
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="i"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -352,7 +407,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="strong">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      is-level-2
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="strong"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -396,7 +463,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="b">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      is-level-2
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="b"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -440,7 +519,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="small">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      is-level-2
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="small"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -484,7 +575,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="br">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      is-level-2
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="br"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -528,7 +631,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="main">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      is-level-3
+                      
+                      
+                      
+                    "
+                    data-slug="main"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -572,7 +687,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="aside">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      is-level-3
+                      
+                      
+                      
+                    "
+                    data-slug="aside"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -616,7 +743,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="header">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      is-level-3
+                      
+                      
+                      
+                    "
+                    data-slug="header"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -660,7 +799,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="footer">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      is-level-3
+                      
+                      
+                      
+                    "
+                    data-slug="footer"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -704,7 +855,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="nav">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      is-level-3
+                      
+                      
+                      
+                    "
+                    data-slug="nav"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -748,7 +911,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="section">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      is-level-3
+                      
+                      
+                      
+                    "
+                    data-slug="section"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -792,7 +967,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="article">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      is-level-3
+                      
+                      
+                      
+                    "
+                    data-slug="article"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -836,7 +1023,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="form-input-textarea-label-select-option-button">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      is-level-4
+                      
+                      
+                    "
+                    data-slug="form-input-textarea-label-select-option-button"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -880,7 +1079,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="pre">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="pre"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -924,7 +1135,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="blockquote">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="blockquote"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -968,7 +1191,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="sub-sup">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="sub-sup"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1012,7 +1247,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="code">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="code"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1056,7 +1303,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="del">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="del"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1100,7 +1359,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="embed">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="embed"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1144,7 +1415,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="hr">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="hr"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1188,7 +1471,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="ins">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="ins"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1232,7 +1527,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="kbd">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="kbd"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1276,7 +1583,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="mark">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="mark"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1320,7 +1639,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="object-param">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="object-param"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1364,7 +1695,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="output">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="output"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1408,7 +1751,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="samp">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="samp"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1452,7 +1807,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="u">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="u"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1496,7 +1863,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="var">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="var"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1540,7 +1919,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="q">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="q"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1584,7 +1975,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="s">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="s"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1628,7 +2031,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="wbr">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="wbr"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1672,7 +2087,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="video-audio">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="video-audio"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1723,7 +2150,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 is-extra" data-slug="tfoot-thead-col-colgroup-caption">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      
+                      is-extra
+                    "
+                    data-slug="tfoot-thead-col-colgroup-caption"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
@@ -1767,7 +2206,19 @@
                   py-1 ps-0 pe-2
                 "
               >
-                  <span class="indicator indicator-list text-center p-1 " data-slug="border-collapse">
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      is-level-5
+                      
+                    "
+                    data-slug="border-collapse"
+                  >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
                     <span class="star">⭐️</span>
