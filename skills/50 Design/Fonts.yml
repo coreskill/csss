@@ -3,36 +3,56 @@ sort: 40
 
 ---
 skill: "Font types"
+level: 1
 text: |
   serif, sans-serif, monospaced etc.
-requires: 
-  - "Design // Typography"
-
----
-skill: "Variable fonts"
-text: |
-  serif, sans-serif, monospaced etc.
-requires: 
+requires:
   - "Design // Typography"
 resources:
-  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
-    desc: "MDN Guide"
+  - url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals#font_families
+    desc: "Font families: read only that part"
     lang: en
 
 ---
 skill: "Web Fonts Overview"
+level: 2
 requires:
   - "Font types"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts#web_fonts
+    desc: "Web fonts: read only that part"
+    lang: en
 
 ---
-skill: "Linking and using from Google Fonts" 
+skill: "Variable fonts"
+level: 2
+requires:
+  - "Design // Typography"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
+    desc: "Variable Fonts Guide"
+    lang: en
+
+---
+skill: "Using Google Fonts"
+level: 2
 text: |
   Link a font or more from [Google Fonts](https://fonts.google.com)
 requires:
   - "Web Fonts Overview"
+  - "Variable fonts"
+resources:
+  - url: https://developers.google.com/fonts/docs/css2
+    desc: "Current API documentation"
+    type: documentation
+    lang: en
 
 ---
-skill: "@font-face (custom solution with local fonts)" 
+skill: "@font-face (custom solution with local fonts)"
 level: extra
 requires:
   - "Web Fonts Overview"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts
+    desc: "Web Fonts Guide"
+    lang: en
