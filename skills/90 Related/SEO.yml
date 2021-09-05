@@ -3,88 +3,111 @@ sort: 40
 
 ---
 skill: "Overview: Goals, On and Off Page Factors"
-#requires: 
-# - HTML // todo: Dostatečná úroveň pro řešení
+level: 3
 resources:
   - url: https://mangools.com/blog/learn-seo/#part1
-    desc: simpler (just the SEO Basics part)
+    desc: "Simpler explanation (just the SEO Basics part)"
+    lang: en
   - url: https://moz.com/beginners-guide-to-seo
+    desc: "The Beginner's Guide to SEO"
+    lang: en
   - url: https://moz.com/beginners-guide-to-seo/why-search-engine-marketing-is-necessary
-    desc: more detailed
+    desc: "More detailed"
+    lang: en
 
 ---
-skill: How search engines work
-requires:
-  - "Overview: Goals, On and Off Page Factors"
+skill: "How search engines work"
+level: 3
 resources:
   - url: https://mangools.com/blog/learn-seo/#part2
-    desc: simpler (and enough)
+    desc: "Simpler (and enough)"
+    lang: en
   - url: https://moz.com/beginners-guide-to-seo/how-search-engines-operate
-    desc: more detailed
+    desc: "More detailed"
+    lang: en
   - url: https://support.google.com/webmasters/answer/70897?hl=en
-    desc: by Google
+    desc: "by Google"
+    lang: en
   - url: https://www.google.com/intl/en/search/howsearchworks/algorithms/
-    desc: Google search algorithms described
-
----
-skill: On-page and technical SEO
+    desc: "Google search algorithms described"
+    lang: en
 requires:
   - "Overview: Goals, On and Off Page Factors"
+
+---
+skill: "Sitemap.xml"
+level: 3
+resources:
+  - url: https://www.sitemaps.org/
+    desc: "Protocol official website"
+    lang: en
+requires:
+  - "How search engines work"
+
+---
+skill: "Robots.txt"
+level: 3
+resources:
+  - url: https://moz.com/learn/seo/robotstxt
+    desc: "What is a robots.txt file?"
+    lang: en
+  - url: https://www.robotstxt.org/
+    desc: "Official website"
+    lang: en
+requires:
+  - "How search engines work"
+
+---
+skill: "On-page and technical SEO"
+level: 4
 resources:
   - url: https://mangools.com/blog/learn-seo/#part3
-    desc: simpler
+    desc: "simpler"
+    lang: en
   - url: https://moz.com/beginners-guide-to-seo/on-page-seo
-    desc: more detailed about on-page SEO
+    desc: "more detailed about on-page SEO"
+    lang: en
   - url: https://moz.com/beginners-guide-to-seo/technical-seo
-    desc: more detailed about technical SEO
-
----
-skill: Rich snippets
+    desc: "more detailed about technical SEO"
+    lang: en
 requires:
   - "Overview: Goals, On and Off Page Factors"
-  - HTML // Basic structure // <!doctype>, <html>, <head>, <body>
+
+---
+skill: "Rich snippets"
+level: 5
 resources:
   - url: https://schema.org/
-    desc: Official website of the standard
+    desc: "Official website of the standard"
+    lang: en
   - url: https://mangools.com/blog/google-rich-snippets-guide/
-    desc: description what it is
+    desc: "description what it is"
+    lang: en
   - url: https://www.vzhurudolu.cz/prirucka/rich-snippets
-    desc: stručný popis
+    desc: "stručný popis"
     lang: cs
+requires:
+  - "Overview: Goals, On and Off Page Factors"
+  - "HTML // Basic structure // <!doctype>, <html>, <head>, <body>"
 
 ---
 skill: "Off page factors (link building)"
-requires:
-  - "Overview: Goals, On and Off Page Factors"
+level: 5
 resources:
   - url: https://mangools.com/blog/learn-seo/#part6
-    desc: simpler
+    desc: "simpler"
+    lang: en
   - url: https://moz.com/beginners-guide-to-seo/growing-popularity-and-links
-    desc: more detailed
-
----
-skill: Sitemap.xml
+    desc: "more detailed"
+    lang: en
 requires:
-  - On-page and technical SEO
-resources:
-  - url: https://www.sitemaps.org/
-    desc: Protocol official website
-
----
-skill: Robots.txt
-requires:
-  - On-page and technical SEO
-resources:
-  - url: https://moz.com/learn/seo/robotstxt
-    desc: 
-  - url: https://www.robotstxt.org/
-    desc: Official website
+  - "Overview: Goals, On and Off Page Factors"
 
 ---
 skill: "Advanced SEO"
 level: extra
 resources:
   - url: https://slideslive.com/38902701/navod-co-ma-umet-vyvojar-aby-mohl-sebrat-seo-specialistum-praci
-    desc: Přednáška „Co má umět vývojář, aby mohl sebrat SEO specialistům práci“
+    desc: "Přednáška „Co má umět vývojář, aby mohl sebrat SEO specialistům práci“"
     lang: cs
     type: video
