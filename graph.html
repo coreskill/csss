@@ -2295,18 +2295,8 @@
     "group": "variables1"
   },
   {
-    "id": "bmp",
-    "label": "BMP",
-    "group": "bitmaps"
-  },
-  {
-    "id": "gif",
-    "label": "GIF",
-    "group": "bitmaps"
-  },
-  {
-    "id": "gif-animated",
-    "label": "GIF (animated)",
+    "id": "bitmaps-overview",
+    "label": "Bitmaps overview",
     "group": "bitmaps"
   },
   {
@@ -2325,8 +2315,18 @@
     "group": "bitmaps"
   },
   {
+    "id": "gif",
+    "label": "GIF",
+    "group": "bitmaps"
+  },
+  {
     "id": "webp",
     "label": "WebP",
+    "group": "bitmaps"
+  },
+  {
+    "id": "avif",
+    "label": "AVIF",
     "group": "bitmaps"
   },
   {
@@ -2340,13 +2340,13 @@
     "group": "bitmaps"
   },
   {
-    "id": "bitmaps-size-optimization",
-    "label": "Bitmaps size optimization",
+    "id": "bitmap-resizing",
+    "label": "Bitmap resizing",
     "group": "bitmaps"
   },
   {
-    "id": "gif-size-optimization",
-    "label": "GIF size optimization",
+    "id": "bitmap-size-optimization",
+    "label": "Bitmap size optimization",
     "group": "bitmaps"
   },
   {
@@ -2360,8 +2360,8 @@
     "group": "bitmaps"
   },
   {
-    "id": "bitmap-image-resizing",
-    "label": "Bitmap image resizing",
+    "id": "gif-size-optimization",
+    "label": "GIF size optimization",
     "group": "bitmaps"
   },
   {
@@ -5782,17 +5782,7 @@
     "arrows": "to"
   },
   {
-    "from": "bmp",
-    "to": "gif",
-    "arrows": "to"
-  },
-  {
-    "from": "gif",
-    "to": "gif-animated",
-    "arrows": "to"
-  },
-  {
-    "from": "bmp",
+    "from": "bitmaps-overview",
     "to": "png",
     "arrows": "to"
   },
@@ -5802,7 +5792,7 @@
     "arrows": "to"
   },
   {
-    "from": "bmp",
+    "from": "bitmaps-overview",
     "to": "jpg",
     "arrows": "to"
   },
@@ -5822,6 +5812,11 @@
     "arrows": "to"
   },
   {
+    "from": "bitmaps-overview",
+    "to": "gif",
+    "arrows": "to"
+  },
+  {
     "from": "gif",
     "to": "webp",
     "arrows": "to"
@@ -5834,6 +5829,26 @@
   {
     "from": "jpg",
     "to": "webp",
+    "arrows": "to"
+  },
+  {
+    "from": "loosless-vs-lossy-compression",
+    "to": "webp",
+    "arrows": "to"
+  },
+  {
+    "from": "gif",
+    "to": "avif",
+    "arrows": "to"
+  },
+  {
+    "from": "png",
+    "to": "avif",
+    "arrows": "to"
+  },
+  {
+    "from": "jpg",
+    "to": "avif",
     "arrows": "to"
   },
   {
@@ -5857,7 +5872,12 @@
     "arrows": "to"
   },
   {
-    "from": "bmp",
+    "from": "avif",
+    "to": "other-formats",
+    "arrows": "to"
+  },
+  {
+    "from": "bitmaps-overview",
     "to": "favicons1",
     "arrows": "to"
   },
@@ -5867,13 +5887,13 @@
     "arrows": "to"
   },
   {
-    "from": "bmp",
-    "to": "bitmaps-size-optimization",
+    "from": "bitmaps-overview",
+    "to": "bitmap-resizing",
     "arrows": "to"
   },
   {
-    "from": "gif",
-    "to": "gif-size-optimization",
+    "from": "bitmaps-overview",
+    "to": "bitmap-size-optimization",
     "arrows": "to"
   },
   {
@@ -5887,8 +5907,8 @@
     "arrows": "to"
   },
   {
-    "from": "bmp",
-    "to": "bitmap-image-resizing",
+    "from": "gif",
+    "to": "gif-size-optimization",
     "arrows": "to"
   },
   {
