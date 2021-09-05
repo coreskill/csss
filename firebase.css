@@ -1,18 +1,14 @@
 .not-done,
 .done,
 .star,
-
 .indicator.is-done .not-done,
 .indicator.is-star .not-done,
-
 .logged-in .locked,
 .indicator.not-done .locked,
 .indicator.is-done .locked,
 .indicator.is-star .locked,
-
 .logged-in .note.note-empty,
 .logged-in .login,
-
 .logout,
 .filter-group,
 .filter-counter,
@@ -36,7 +32,6 @@
 .indicator {
   cursor: pointer;
   min-width: 3ch;
-
 }
 
 .indicator-list {
@@ -49,13 +44,28 @@
   background-color: #d4d4d4;
 }
 
-.admin .note.note-empty {
+.note.note-empty {
   background-color: transparent !important;
 }
 
+.skill-detail .note.note-empty {
+  padding: 0;
+}
+
+.admin .skill-detail .note.note-empty {
+  background-color: var(--bs-gray-200) !important;
+  transform: scale(1);
+  padding: 0.6666em 0.75em;
+}
+
+.admin .skill-detail .note.note-empty .note-changer,
 .admin .skill-item:hover .note.note-empty,
 .admin .skill-item:hover .note-changer {
   display: inline-block;
+}
+
+.note-changer {
+  cursor: pointer;
 }
 
 .note:hover .note-changer {
