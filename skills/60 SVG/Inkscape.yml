@@ -3,69 +3,162 @@ sort: 100
 
 ---
 skill: "Inkscape overview"
+level: 2
+text: |
+  Inkscape is a free and open-source vector graphics editor for Linux, Windows and Mac used to create vector images, primarily in SVG format.
+resources:
+  - url: https://inkscape.org/
+    desc: "Inkscape Homepage"
+    lang: en
+  - url: https://inkscape.org/doc/tutorials/basic/tutorial-basic.html
+    desc: "Basic Inkscape Tutorial"
+    type: tutorial
+    lang: en
+requires:
+  - "// Design // Computer Graphics // Bitmap vs. Vector"
 
 ---
 skill: "Inkscape SVG v. SVG"
+text: |
+  Inkscape’s native format for saving data is SVG. But this SVG is not ideal for using directly for your website because it contains data that are at the best not needed. In some cases they cause problems with displaying your SVG in browser correctly.
+  
+  You should always remove create a “clean” SVG with [SVGO](/svgo.html).
+level: 2
 requires:
   - "Inkscape overview"
 
 ---
 skill: "Moving, rotating and scaling objects (keyboard, mouse and number inputs)"
+level: 2
+resources:
+  - url: https://inkscape.org/doc/tutorials/basic/tutorial-basic.html
+    desc: "Basic Inkscape Tutorial"
+    type: tutorial
+    lang: en
 requires:
   - "Inkscape overview"
 
 ---
 skill: "Setting fills and outlines"
+level: 2
+resources:
+  - url: https://inkscape.org/doc/tutorials/basic/tutorial-basic.html
+    desc: "Basic Inkscape Tutorial"
+    type: tutorial
+    lang: en
 requires:
   - "Inkscape overview"
 
 ---
 skill: "Stacking order"
+level: 2
+resources:
+  - url: https://inkscape.org/doc/tutorials/basic/tutorial-basic.html
+    desc: "Basic Inkscape Tutorial"
+    type: tutorial
+    lang: en
 requires:
   - "Inkscape overview"
 
 ---
 skill: "Changing nodes (Bezier curves)"
+level: 2
+resources:
+  - url: https://inkscape.org/doc/tutorials/advanced/tutorial-advanced.html
+    desc: "Advanced Inkscape Tutorial"
+    lang: en
+  - url: https://www.youtube.com/watch?v=dVjJfx2oc5w
+    desc: "Editing Nodes, Paths & The Bezier Pen"
+    type: video
+    lang: en
 requires:
   - "Inkscape overview"
 
 ---
 skill: "Groups"
-requires:
-  - "Inkscape overview"
-
----
-skill: "Snaping (objects, grid)"
+level: 2
+resources:
+  - url: https://inkscape.org/doc/tutorials/basic/tutorial-basic.html
+    desc: "Basic Inkscape Tutorial"
+    type: tutorial
+    lang: en
 requires:
   - "Inkscape overview"
 
 ---
 skill: "Document setup"
-requires:
-  - "Inkscape overview"
-
----
-skill: "Paths vs. objects"
-requires:
-  - "Inkscape overview"
-
----
-skill: "Converting text to path"
-requires:
-  - "Inkscape overview"
-
----
-skill: "Duplicating objects"
+level: 2
 requires:
   - "Inkscape overview"
 
 ---
 skill: "Aligning"
+level: 2
+resources:
+  - url: https://inkscape.org/doc/tutorials/basic/tutorial-basic.html
+    desc: "Basic Inkscape Tutorial"
+    type: tutorial
+    lang: en
+requires:
+  - "Inkscape overview"
+
+---
+skill: "Using color picker"
+level: 3
+
+---
+skill: "Snaping"
+level: 3
+text: |
+  Know how to use snaping both to other objects and to the grid
+resources:
+  - url: https://www.tutorviacomputer.com/inkscape/inkscape-snapping/
+    desc: "Snapping explained"
+    type: article
+    lang: en
+  - url: https://www.youtube.com/watch?v=LLB627pwSeE
+    desc: "Snap objects to one another"
+    type: video
+    lang: en
+requires:
+  - "Inkscape overview"
+
+---
+skill: "Paths vs. objects"
+level: 3
+resources:
+  - url: https://inkscape.org/doc/tutorials/shapes/tutorial-shapes.html
+    desc: "Shapes Inkscape Tutorial"
+    lang: en
+requires:
+  - "Inkscape overview"
+
+---
+skill: "Converting text to path"
+level: 3
+resources:
+  - url: https://inkscape.org/doc/tutorials/advanced/tutorial-advanced.html
+    desc: "Advanced Inkscape Tutorial"
+    text: |
+      Read converting to path
+    lang: en
+requires:
+  - "Inkscape overview"
+
+---
+skill: "Duplicating objects"
+level: 4
+resources:
+  - url: https://inkscape.org/doc/tutorials/basic/tutorial-basic.html
+    desc: "Basic Inkscape Tutorial"
+    type: tutorial
+    lang: en
 requires:
   - "Inkscape overview"
 
 ---
 skill: "Keyboard shortcuts"
+level: 4
 text: |
   - Arrows
   - Page Up
@@ -78,12 +171,12 @@ requires:
   - "Inkscape overview"
 
 ---
-skill: "Layers"
+skill: "Vectorization"
+level: extra
+resources:
+  - url: https://inkscape.org/doc/tutorials/tracing/tutorial-tracing.html
+    desc: "Inkscape tutorial: Tracing bitmaps"
+    type: tutorial
+    lang: en
 requires:
   - "Inkscape overview"
-
----
-skill: "Using color picker"
-
----
-skill: "Vectorization"

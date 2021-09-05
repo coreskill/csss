@@ -2,16 +2,23 @@
 sort: 140
 
 ---
-skill: SVGO
+skill: "SVGO"
+level: 2
 requires:
-  - Container Elements // <svg>
+  - "Container Elements // <svg>"
 resources:
   - url: https://github.com/svg/svgo
+    desc: "SVGO homepage on GitHub"
+    lang: en
   - url: https://jakearchibald.github.io/svgomg/
-    desc: Online SVGO
+    desc: "Online (in browser) SVGO interface"
+    type: tool
+    lang: en
 ---
-skill: Optimizing SVGs
+skill: "Optimizing SVGs"
+level: 4
 requires:
-  - Container Elements // <svg>
+  - "Container Elements // <svg>"
 resources:
   - url: https://css-irl.info/optimising-svgs-for-the-web/
+    lang: en
