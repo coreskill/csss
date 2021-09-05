@@ -1,21 +1,32 @@
 ---
-
 sort: 10
 
 ---
-skill: Pixels
-
----
-skill: Bitmap vs. Vector
-
----
-skill: Antialiasing
-requires:
-  - Pixels
-
----
-skill: Font subpixel antialiasing
+skill: "Pixels"
+level: 1
 resources:
-  - https://www.smashingmagazine.com/2012/04/a-closer-look-at-font-rendering/
+  - url: https://www.techopedia.com/definition/24012/pixel
+    desc: Pixel definition from Techopedia
+    lang: en
+    status: replace
+
+---
+skill: "Bitmap vs. Vector"
+level: 1
+resources:
+  - url: https://etc.usf.edu/techease/win/images/what-is-the-difference-between-bitmap-and-vector-images/
+    desc: A basic explanation of the difference
+    lang: en
 requires:
-  - Antialiasing
+  - "Pixels"
+
+---
+skill: "Antialiasing and subpixel antialiasing"
+level: 1
+resources:
+  - url: https://www.smashingmagazine.com/2012/04/a-closer-look-at-font-rendering/
+    desc: A closer look at font rendering [Smashing Magazine]
+    type: article
+    lang: en
+requires:
+  - "Pixels"
