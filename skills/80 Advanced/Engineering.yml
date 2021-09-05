@@ -11,6 +11,7 @@ level: 2
 
 ---
 skill: "Checklists"
+level: 4
 resources: 
   - url: https://frontendchecklist.io/
   - url: https://humaan.com/checklist/
