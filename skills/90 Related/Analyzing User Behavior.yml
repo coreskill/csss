@@ -3,21 +3,23 @@ sort: 50
 
 ---
 skill: "Google Analytics: Ability to get info about used technology (browsers)"
+level: 3
 sublevel: 1
 
 ---
-skill: "Google Analytics: Understanding basic data (pageviews, visitors)"
+skill: "Google Analytics: Creating a website in GA and inserting basic code"
+level: 3
 sublevel: 2
 
 ---
-skill: "Google Analytics: Creating a website in GA and inserting basic code"
+skill: "Google Analytics: Understanding basic data (pageviews, visitors)"
+level: 4
 sublevel: 3
-
 ---
-skill: Click trackers
+skill: "Click trackers"
+level: 5
 sublevel: 4
-#requires:
-#  - JavaScript // Events
 
 ---
-skill: Google Search Console
+skill: "Google Search Console"
+level: 5
