@@ -101,14 +101,11 @@
                 <a href="{{this.url}}" class="list-group-item list-group-item-action flex-column align-items-start">
                   <div class="d-flex w-100 justify-content-between">
                     <h3 class="h5 mb-1">
-                      {{#if this.lang}}<span class="badge bg-info">{{this.lang}}</span> {{/if}}
+                      {{#if this.type}}<span class="badge bg-secondary">{{this.type}}</span> {{/if}}
+                      {{#if this.lang}}<span class="badge bg-light">{{this.lang}}</span> {{/if}}
                       {{#if this.desc}}<b>{{this.desc}}</b>{{else}}{{this.url}}{{/if}}
                     </h3>
                   </div>
-                  <p class="mb-1">
-                    {{#if this.type}}<span class="badge bg-secondary">{{this.type}}</span> {{/if}}
-                    {{#if this.desc}}{{this.url}}{{/if}}
-                  </p>
                   {{#if this.text}}
                     <div class="mt-4 markdown-text w-100">{{this.text}}</div>
                   {{/if}}
