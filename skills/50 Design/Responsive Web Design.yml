@@ -2,21 +2,21 @@
 sort: 50
 
 ---
-skill: "Overview"
+skill: "Responsive web design overview"
 level: 2
 resources:
   - url: https://alistapart.com/article/responsive-web-design
     desc: "The article that started it all."
     lang: en
   - url: https://www.codecademy.com/learn/learn-responsive-design
-    desc: "Interactive course at Codecademy."
+    desc: "Interactive course [Codecademy]"
     lang: en
 
 ---
 skill: "Fluid web"
 level: 2
 requires:
-  - "Overview"
+  - "Responsive web design overview"
 resources:
   - url: https://marksheet.io/css-the-flow.html
     lang: en
@@ -43,7 +43,7 @@ requires:
 skill: "Simple responsive images"
 level: 2
 requires:
-  - "Overview"
+  - "Responsive web design overview"
 resources:
   - url: https://www.vzhurudolu.cz/blog/97-vdwd-ukazka
     lang: cs
