@@ -2,30 +2,38 @@
 sort: 50
 
 ---
-skill: Overview
+skill: "Deployment overview"
+level: 2
 
 ---
-skill: surge.sh
+skill: "GitHub Pages"
+level: 2
 requires:
-  - Overview
-resources:
-  - url: surge.sh
-
----
-skill: FTP
-requires:
-  - Overview
-
----
-skill: GitHub Pages
-requires:
-  - Overview
+  - "Deployment overview"
 resources:
   - url: https://pages.github.com/
+    lang: en
 
 ---
-skill: Netlify
+skill: "surge.sh"
+level: 3
 requires:
-  - Overview
+  - "Deployment overview"
+resources:
+  - url: surge.sh
+    lang: en
+
+---
+skill: "Netlify"
+level: 4
+requires:
+  - "Deployment overview"
 resources:
   - url: https://www.netlify.com/
+    lang: en
+
+---
+skill: "FTP"
+level: extra
+requires:
+  - "Deployment overview"
