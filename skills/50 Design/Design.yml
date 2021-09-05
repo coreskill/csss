@@ -3,21 +3,27 @@ sort: 30
 
 ---
 skill: "Visual Design"
+level: 1
 resources:
   - url: https://ebooks.webflow.com/chapter/essential-visual-design-principles-for-web-designers
+    desc: "Essential visual design principles for web designers"
     type: article
     lang: en
   - url: https://ebooks.webflow.com/chapter/how-element-spacing-works
+    desc: "How element spacing works"
     type: article
     lang: en
   - url: https://www.usability.gov/what-and-why/visual-design.html
+    desc: "Visual Design Basics"
     lang: en
   - url: https://cantunsee.space/
+    desc: "Can’t Unsee"
     type: game
     lang: en
 
 ---
 skill: "Color Theory"
+level: 2
 resources:
   - url: https://ebooks.webflow.com/chapter/web-design-101-color-theory
     type: article
@@ -38,37 +44,8 @@ requires:
   - "Visual Design"
 
 ---
-skill: "Information architecture"
-resources:
-  - url: https://www.usability.gov/what-and-why/information-architecture.html
-    lang: en
-
----
-skill: "UX"
-resources:
-  - url: https://articles.uie.com/five_design_decision_styles/
-    desc: "5 Design Decision Styles"
-    lang: en
-    type: article
-  - url: https://www.usability.gov/what-and-why/user-experience.html
-    lang: en
-  - url: https://ebooks.webflow.com/chapter/9-essential-ui-design-tips
-    type: article
-    lang: en
-  - url: http://www.jjg.net/elements/pdf/elements_ch02.pdf
-    type: book
-    lang: en
-  - url: http://www.jjg.net/elements/pdf/elements.pdf
-    type: book
-    lang: en
-  - url: http://www.jjg.net/elements/pdf/elements_simpleplanes.pdf
-    type: book
-    lang: en
-text: |
-  Usability, Elements of User Experience
-
----
 skill: "Typography"
+level: 2
 requires:
   - "Visual Design"
 resources:
@@ -110,33 +87,109 @@ resources:
   - url: https://www.jakpsatweb.cz/interpunkce.html
     lang: cs
   - url: https://www.typography.com/blog/typographic-illusions
-    desc: "Bonus: read only if you want to see a small fraction of what type designers do." 
+    desc: "Bonus: read only if you want to see a small fraction of what type designers do."
     type: article
     lang: en
 
 ---
+skill: "Information architecture"
+level: 3
+resources:
+  - url: https://www.usability.gov/what-and-why/information-architecture.html
+    lang: en
+
+---
 skill: "Content"
+level: 3
 requires:
   - "Visual Design"
 resources:
   - url: https://ebooks.webflow.com/chapter/why-your-design-process-should-start-with-content
+    desc: "Why your design process should start with content"
+    type: article
     lang: en
 
 ---
+skill: "UX"
+level: 4
+resources:
+  - url: https://articles.uie.com/five_design_decision_styles/
+    desc: "5 Design Decision Styles"
+    lang: en
+    type: article
+  - url: https://www.usability.gov/what-and-why/user-experience.html
+    lang: en
+  - url: https://ebooks.webflow.com/chapter/9-essential-ui-design-tips
+    type: article
+    lang: en
+  - url: http://www.jjg.net/elements/pdf/elements_ch02.pdf
+    type: book
+    lang: en
+  - url: http://www.jjg.net/elements/pdf/elements.pdf
+    type: book
+    lang: en
+  - url: http://www.jjg.net/elements/pdf/elements_simpleplanes.pdf
+    type: book
+    lang: en
+text: |
+  Usability, Elements of User Experience
+
+---
+skill: "Animation"
+level: 5
+resources:
+  - url: https://en.wikipedia.org/wiki/12_basic_principles_of_animation
+    desc: "Twelve basic principles of animation"
+    lang: en
+  - url: https://vimeo.com/93206523
+    desc: "The illusion of life: 12 basic principles of animation"
+    type: video
+    lang: en
+  - url: https://ebooks.webflow.com/chapter/how-to-design-interactions-effectively
+    desc: "How to design interactions effectively"
+    lang: en
+requires:
+  - "Visual Design"
+
+---
 skill: "Corporate Identity"
+level: 5
+text: |
+  > In general, this amounts to a corporate title, logo (logotype and/or logogram) and supporting devices commonly assembled within a set of corporate guidelines. These guidelines govern how the identity is applied and usually include approved colour palettes, typefaces, page layouts, fonts, and others.
+  
+  _(Wikipedia)_
+resources:
+  - url: https://en.wikipedia.org/wiki/Corporate_identity
+    desc: "Wikipedia source for text above"
+    lang: en
+  - url: https://www.sscspace.com/wp-content/uploads/2018/03/SSC-Visual-Identity-Manual-1.pdf
+    desc: "Visual Identity Manual: Swedish Space Corporation"
+    type: example
+    lang: en
+  - url: https://extranet.3m.eu/mysafety/cs-cz/items/download/77644
+    desc: "Visual Identity Manual: 3M"
+    type: example
+    lang: en
+  - url: https://logo.skaut.cz/doc/SKAUT_manual.pdf 
+    desc: "Visual Identity Manual: Czech Scouting"
+    type: example
+    lang: cs
+  - url: https://zakazky.prg.aero/document_13887/78bba70e73df7f2bc06a024c466a3cc1-227006143_pr-g-graficky-manual_cz-pdf
+    desc: "Visual Identity Manual: Prague Airport"
+    type: example
+    lang: cs
 requires:
   - "Visual Design"
   - "Typography"
 
 ---
-skill: "Animation"
+skill: "Design Systems"
+level: 5
 resources:
-  - url: https://en.wikipedia.org/wiki/12_basic_principles_of_animation
+  - url: https://uxdesign.cc/everything-you-need-to-know-about-design-systems-54b109851969
+    desc: Everything you need to know about Design Systems
     lang: en
-  - url: https://ebooks.webflow.com/chapter/how-to-design-interactions-effectively
-    lang: en
-  - url: https://vimeo.com/93206523
-    type: video
-    lang: en
+    type: article
 requires:
   - "Visual Design"
+  - "Typography"
