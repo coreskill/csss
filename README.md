@@ -54,8 +54,12 @@ resources:
       Longer description explaining more about what is expected to do with this resource.
     type: reference
     lang: en
-    replace: y
+    status: replace
   - url: https://example.com/simplest-example
 ```
 
-“replace” means the resource should be replaced with a better one in the future
+Status values:
+- ok: we’re happy with the resource
+- check: resources should be checked if ok or needs changes
+- improvemeta: we’re happy with the resource itself but meta information should be improved
+- replace: the resource should be replaced with a better one in the future
