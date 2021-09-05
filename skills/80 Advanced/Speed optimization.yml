@@ -3,40 +3,60 @@ sort: 80
 
 ---
 skill: "Why"
-# requires: todo: add everything needed 
+level: 4
 resources:
   - url: https://developers.google.com/web/fundamentals/performance/why-performance-matters
-    desc: "Basic description by Google" 
+    desc: "Why does speed matter? [web.dev]" 
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Learn/Performance/why_web_performance
-    desc: "Basic description by MDN"
+    desc: "The “why” of web performance [MDN]"
+    lang: en
 
 ---
 skill: "Percieved vs. real speed"
+level: 4
 requires:
   - "Why"
 resources:
   - url: https://developers.google.com/web/fundamentals/performance/rail
+    desc: "Measure performance with the RAIL model [web.dev]"
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Learn/Performance/Perceived_performance
+    desc: "Perceived performance [MDN]"
+    lang: en
 
 ---
 skill: "Internet connection speeds"
+level: 4
 requires:
   - "Why"
 resources:
   - url: https://developers.google.com/web/fundamentals/performance/poor-connectivity
+    desc: "Understanding Low Bandwidth and High Latency [web.dev]"
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Learn/Performance/Understanding_latency
+    desc: "Understanding latency [MDN]"
+    lang: en
 
 ---
 skill: "HTTP file transfer"
+level: 4
 requires:
   - "Internet connection speeds"
 resources:
   - url: https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching
+    desc: "Prevent unnecessary network requests with the HTTP Cache [web.dev]"
+    lang: en
   - url: https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer
-  - url: https://developer.mozilla.org/en-US/docs/Learn/Performance/Populating_the_page:_how_browsers_work
+    desc: "Optimizing Encoding and Transfer Size of Text-Based Assets [web.dev]"
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work
+    desc: "Populating the page: how browsers work [MDN]"
+    lang: en
 
 ---
 skill: "Strategies"
+level: 4
 requires:
   - "Percieved vs. real speed"
   - "Internet connection speeds"
@@ -76,74 +96,111 @@ text: |
 
 ---
 skill: "Optimizing CSS"
+level: 4
 requires:
   - "Strategies"
 resources:
   - url: https://github.com/css/csso
+    desc: "CSSO"
+    lang: en
     type: tool 
   - url: https://cssnano.co/
+    desc: "cssnano"
+    lang: en
+    type: tool
+  - url: https://purgecss.com/
+    desc: "PurgeCSS"
+    lang: en
     type: tool
   - url: https://github.com/jakubpawlowicz/clean-css
+    desc: "clean-css"
+    lang: en
     type: tool
       
 ---
 skill: "Optimizing JavaScript"
+level: 5
 requires:
   - "Strategies"
 resources:
   - url: https://developers.google.com/web/fundamentals/performance/optimizing-javascript/tree-shaking
+    desc: "Reduce JavaScript Payloads with Tree Shaking [web.dev]"
+    lang: en
   - url: https://developers.google.com/web/fundamentals/performance/optimizing-javascript/code-splitting
+    desc: "Reduce JavaScript payloads with code splitting [web.dev]"
+    lang: en
 
 ---
 skill: "Optimizing SVG"
+level: 4
+text: |
+  More at [Optimizing SVGs](/optimizing-svgs.html).
 requires:
   - "Strategies"
-resources:
-  - url: https://github.com/svg/svgo
-    desc: "Optimizer is a Nodejs-based tool for optimizing SVG vector graphics files."
-    type: tool
-  - url: https://jakearchibald.github.io/svgomg/
-    desc: "SVGOMG is SVGO's Web GUI."
-    type: tool
+  - "// SVG // SVG Tools // Optimizing SVGs"
 
 ---
 skill: "Optimizing images"
+level: 4
+text: |
+  
 requires:
   - "Strategies"
+  - "// Design // Bitmaps // PNG size optimization"
+  - "// Design // Bitmaps // JPG size optimization"
+  - "// Design // Bitmaps // GIF size optimization"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/Performance/Multimedia
+    desc: "Performance: Multimedia: Images [MDN]"
+    lang: en
   - url: https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization
-  - url: https://squoosh.app/
-    type: tool
+    desc: "Optimize your images [web.dev]"
+    lang: en
 
 ---
 skill: "Blocking and non-blocking assets"
+level: 4
 requires:
   - "Strategies"
 resources:
   - url: https://developers.google.com/web/fundamentals/performance/critical-rendering-path/analyzing-crp/
+    desc: "Analyzing Critical Rendering Path Performance [web.dev]"
+    lang: en
   - url: https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/javascript-startup-optimization
+    desc: "JavaScript Start-up Optimization [web.dev]"
+    lang: en
 
 ---
 skill: "Lazy loading"
+level: 5
 requires:
   - "Percieved vs. real speed"
   - "Strategies"
   - "Blocking and non-blocking assets"
 resources:
   - url: https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video
+    desc: "Lazy-load images and video  [web.dev]"
+    lang: en
 
 ---
 skill: "Measuring speed"
+level: 5
 requires:
   - "Percieved vs. real speed"
   - "Strategies"
   - "Blocking and non-blocking assets"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/Performance/Measuring_performance
+    desc: "Measuring performance [MDN]"
+    lang: en
   - url: https://developers.google.com/web/tools/chrome-devtools/evaluate-performance
     desc: "Tools built in Chrome Dev tools"
+    lang: en
   - url: https://www.webpagetest.org/
+    desc: "WebPageTest"
     type: tool
+    lang: en
   - url: https://gtmetrix.com/
+    desc: "GTmetrix"
     type: tool
+    lang: en

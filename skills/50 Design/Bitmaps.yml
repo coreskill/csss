@@ -133,6 +133,7 @@ resources:
     type: tool
     lang: en
 requires:
+  - "Bitmap size optimization"
   - "PNG"
 
 ---
@@ -144,6 +145,7 @@ resources:
     type: tool
     lang: en
 requires:
+  - "Bitmap size optimization"
   - "JPG"
 
 ---
@@ -154,6 +156,7 @@ resources:
     desc: "Online tool to edit animated GIFs mostly focused on optimizing their size."
     type: tool
 requires:
+  - "Bitmap size optimization"
   - "GIF"
 
 ---

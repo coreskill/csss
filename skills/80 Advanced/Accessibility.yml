@@ -16,7 +16,7 @@ resources:
       Read everything on the page.
     lang: en
   - url: https://web.dev/accessible/
-    desc: "Accessible to all [Google Developers]"
+    desc: "Accessible to all [web.dev]"
     lang: en
   - url: https://www.w3.org/WAI/WCAG21/quickref/
     desc: "How to Meet WCAG"
