@@ -2,7 +2,10 @@
 sort: 30
 
 ---
-skill: What is Vue.js
+skill: "What is Vue.js"
+level: extra
 resources:
   - url: https://v3.vuejs.org/guide/introduction.html
     desc: Official documentation
+    type: documentation
+    lang: en
