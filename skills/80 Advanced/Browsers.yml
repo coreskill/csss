@@ -4,15 +4,24 @@ sort: 90
 ---
 skill: "How browser works"
 level: extra
+text: |
+  Also linked in General Computer Science, here just for completness
 requires:
   - "JavaScript // Node.js // Node.js overview"
 resources:
   - url: https://developers.google.com/web/updates/2018/09/inside-browser-part1
-    desc: "Also linked in General Computer Science, here just for completness"
+    desc: "Inside look at modern web browser (Part 1) [web.dev]"
     type: article
+    lang: en
   - url: https://developers.google.com/web/updates/2018/09/inside-browser-part2
+    desc: "Inside look at modern web browser (Part 2) [web.dev]"
     type: article
+    lang: en
   - url: https://developers.google.com/web/updates/2018/09/inside-browser-part3
+    desc: "Inside look at modern web browser (Part 3) [web.dev]"
     type: article
+    lang: en
   - url: https://developers.google.com/web/updates/2018/09/inside-browser-part4
+    desc: "Inside look at modern web browser (Part 4) [web.dev]"
     type: article
+    lang: en
