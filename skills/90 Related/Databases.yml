@@ -3,20 +3,66 @@ sort: 60
 
 ---
 skill: "Databases overview"
+level: 4
+text: |
+  > A database is a collection of information stored in a computer in a systematic way, such that a computer program can consult it to answer questions.
+  
+  _(Wikipedia)_
+resources:
+  - url: https://en.wikipedia.org/wiki/Database
+    desc: "Wikipedia source for text above"
+    lang: en
+  - url: https://levelup.gitconnected.com/a-beginners-primer-to-relational-vs-non-relational-databases-20665a83b07c
+    desc: "Differences between Relational vs. Non-Relational Databases (not 100% correct but close enough)."
+    type: article
+    lang: en
 
 ---
 skill: "Relational database"
+level: 4
 text: |
-  tables, rows and columns
+  Tables, rows and columns.
 requires:
   - "Databases overview"
+resources:
+  - url: https://www.databaseprimer.com/pages/tables/
+    desc: "Tables"
+    lang: en
+  - url: https://www.databaseprimer.com/pages/datatype/
+    desc: "Data Types"
+    lang: en
+  - url: https://www.databaseprimer.com/pages/table-relationships/
+    desc: "Table Relationships (extra)"
+    lang: en
+  - url: https://www.databaseprimer.com/pages/sql/
+    desc: "Table Relationships (FYI)"
+    lang: en
 
 ---
-skill: "CRUD via client (Adminer/PHPMyAdmin)"
+skill: "CRUD using a client"
+level: extra
+text: |
+  CRUD stands for _Create Read Update Delete_ and means you can edit database using a client like Adminer, phpMyAdmin or HeidiSQL. This is easier than working with SQL language directly.
+resources:
+  - url: https://www.phpmyadmin.net/
+    desc: "phpMyAdmin homepage (PHP SQL client)"
+    lang: en
+  - url: https://www.adminer.org/
+    desc: "Adminer homepage (PHP SQL client)"
+    lang: en
+  - url: https://www.heidisql.com/
+    desc: "HeidiSQL (Windows SQL client)"
+    lang: en
 requires:
   - "Relational database"
 
 ---
 skill: "noSQL"
+level: 4
 requires:
   - "Databases overview"
+resources:
+  - url: https://www.netwoven.com/2013/09/08/nosql-databases-a-primer/
+    desc: "NoSQL Databases – A Primer"
+    type: article
+    lang: en
