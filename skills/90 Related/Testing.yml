@@ -2,23 +2,48 @@
 sort: 20
 
 ---
-skill: Need for testing
+skill: "Need for testing"
+level: 2
 
 ---
-skill: Browser compatibility
-
----
-skill: Principles and manual testing
+skill: "Principles and manual testing"
+level: 2
 requires: 
-  - Need for testing
+  - "Need for testing"
 
 ---
-skill: Browserstack
+skill: "Bug reporting"
+level: 2
+text: |
+  A good bug report should comprise these three essential pieces of information: 
+  
+  1) steps to recreate the bugs (what did I do)
+  2) expected behavior (what should have happened)
+  3) actual behavior (what happened)
+  
+  For websites _steps to recreate_ should include operating system and browser information including their versions.
+  
+  _Actual behavior_ might take a form of text description, screenshot or video recording.
 
 ---
-skill: Bug reporting
+skill: "Browser compatibility"
+level: 2
+#text: |
+#  First thing before starting coding
+#  Levels of support and how to decide
 
 ---
-skill: Automated testing
+skill: "Browserstack"
+level: 3
+resources:
+  - url: https://www.browserstack.com/
+    desc: "Browserstack Homepage"
+    lang: en
+requires:
+  - "Browser compatibility"
+
+---
+skill: "Automated testing"
+level: 5
 requires: 
-  - Principles and manual testing
+  - "Principles and manual testing"
