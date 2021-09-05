@@ -2,38 +2,53 @@
 sort: 20
 
 ---
-skill: <title>
+skill: "<title>"
 level: 1
 sublevel: 2
 requires:
-  - Basic structure // <!doctype>, <html>, <head>, <body>
+  - "Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title
+    type: reference
+    lang: en
 
 ---
-skill: <link>
+skill: "<link>"
 level: 2
 requires:
-  - Basic structure // <!doctype>, <html>, <head>, <body>
+  - "Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link
+    type: reference
+    lang: en
 
 ---
-skill: <meta description>
+skill: "<meta description>"
 level: 2
 requires:
   - Basic structure // <!doctype>, <html>, <head>, <body>
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+    type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Adding_an_author_and_description
+    type: reference
+    lang: en
 
 ---
-skill: Favicons
+skill: "Favicons"
 level: 4
 requires:
   - <link>
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link
+    type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Adding_custom_icons_to_your_site
+    type: reference
+    lang: en
   - url: https://realfavicongenerator.net/
-    desc: Best tool to generate favicon set.
+    desc: "Best tool to generate favicon set."
+  - url: https://www.vzhurudolu.cz/prirucka/favicon
+    desc: "Favikony webu s RealFaviconGenerator [Vzhůru dolů]"
+    lang: cs

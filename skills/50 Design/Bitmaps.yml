@@ -2,42 +2,77 @@
 sort: 20
 
 ---
-skill: "BMP"
-text: |
-  an example of uncompressed basic bitmap format
-
----
-skill: "GIF"
-requires:
-  - "BMP"
-text: |
-  Palettes, etc.
-
----
-skill: "GIF (animated)"
-requires:
-  - "GIF"
+skill: "Bitmaps overview"
+level: 1
 
 ---
 skill: "PNG"
+level: 2
+resources:
+  - url: https://www.vzhurudolu.cz/prirucka/obrazky-formaty#png
+    desc: "Průvodce formáty obrázků pro web: PNG [Vzhůru dolů]"
+    lang: cs
 requires:
-  - "BMP"
+  - "Bitmaps overview"
   - "GIF"
 
 ---
 skill: "JPG"
+level: 2
+resources:
+  - url: https://www.vzhurudolu.cz/prirucka/obrazky-formaty#jpeg
+    desc: "Průvodce formáty obrázků pro web: JPEG [Vzhůru dolů]"
+    lang: cs
 requires:
-  - "BMP"
+  - "Bitmaps overview"
 
 ---
 skill: "loosless vs. lossy compression"
+level: 3
 requires:
   - "GIF"
   - "PNG"
   - "JPG"
 
 ---
+skill: "GIF"
+level: 4
+resources:
+  - url: https://www.vzhurudolu.cz/prirucka/obrazky-formaty#gif
+    desc: "Průvodce formáty obrázků pro web: GIF [Vzhůru dolů]"
+    lang: cs
+requires:
+  - "Bitmaps overview"
+
+---
 skill: "WebP"
+level: 4
+resources:
+  - url: https://developers.google.com/speed/webp
+    desc: "Google’s WebP description"
+    lang: en
+  - url: https://www.vzhurudolu.cz/prirucka/webp
+    desc: "WebP obrázky [Vzhůru dolů]"
+    lang: cs
+requires:
+  - "GIF"
+  - "PNG"
+  - "JPG"
+  - "loosless vs. lossy compression"
+
+---
+skill: "AVIF"
+level: 5
+resources:
+  - url: https://www.vzhurudolu.cz/prirucka/avif
+    desc: "AVIF [Vzhůru dolů]"
+    type: article
+    lang: cs
+  - url: https://www.freecodecamp.org/news/how-to-use-avif-images-on-your-website/
+    desc: "What is AVIF?"
+    type: article
+    lang: en
+    status: check
 requires:
   - "GIF"
   - "PNG"
@@ -45,51 +80,85 @@ requires:
 
 ---
 skill: "Other formats"
+level: 5
+text: |
+  In short: do not use them, they’re not supported in browsers enough.
 requires:
   - "GIF"
   - "PNG"
   - "JPG"
   - "WebP"
-text: |
-  (do not use)
+  - "AVIF"
 
 ---
 skill: "Favicons"
+level: 3
+text: |
+  Favicons use several different formats but the first (and still used) was a Windows ICO format made for desktop icons. It’s basically an uncompressed BMP.
+  
+  It has the ability to include several different sizes at once like 16×16, 24×24, 32×32 etc. It’s up to the software to choose the size it needs.
+  
+  Favicon generators create these for us so there’s no need for specialized software.
 requires:
-  - "BMP"
+  - "Bitmaps overview"
   - "PNG"
 
 ---
-skill: "Bitmaps size optimization"
+skill: "Bitmap resizing"
+level: 3
 requires:
-  - "BMP"
+  - "Bitmaps overview"
 
 ---
-skill: "GIF size optimization"
+skill: "Bitmap size optimization"
+level: 2
+text: |
+  Optimization is used to reduce file sizes.
+  
+  Main factors that make the difference between large and small file:
+  
+  - **file format**: some formats handle certain content in images better than others
+  - **dimensions**: more pixels ➡ more data
+  - **bit depth**: or simply number of colors: more colors ➡ more data
+  - **percieved quality**: same quality setting isn’t always percieved the same
 requires:
-  - "GIF"
-resources:
-  - url: https://ezgif.com/
-    desc: Online tool to edit animated GIFs mostly focused on optimizing their size.
-    type: tool
+  - "Bitmaps overview"
 
 ---
 skill: "PNG size optimization"
+level: 3
+resources:
+  - url: https://squoosh.app/
+    desc: "Squoosh: online app to optimize bitmap images"
+    type: tool
+    lang: en
 requires:
   - "PNG"
 
 ---
 skill: "JPG size optimization"
+level: 3
+resources:
+  - url: https://squoosh.app/
+    desc: "Squoosh: online app to optimize bitmap images"
+    type: tool
+    lang: en
 requires:
   - "JPG"
 
 ---
-skill: "Bitmap image resizing"
+skill: "GIF size optimization"
+level: 4
+resources:
+  - url: https://ezgif.com/
+    desc: "Online tool to edit animated GIFs mostly focused on optimizing their size."
+    type: tool
 requires:
-  - "BMP"
+  - "GIF"
 
 ---
 skill: "Making screenshots"
+level: 2
 text: |
   Ability to make screenshot in both operating system and in the browser (full page screenshots)
 requires:
