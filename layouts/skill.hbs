@@ -109,6 +109,9 @@
                     {{#if this.type}}<span class="badge bg-secondary">{{this.type}}</span> {{/if}}
                     {{#if this.desc}}{{this.url}}{{/if}}
                   </p>
+                  {{#if this.text}}
+                    <div class="mt-4 markdown-text w-100">{{this.text}}</div>
+                  {{/if}}
                 </a>
               {{/each}}
             </div>

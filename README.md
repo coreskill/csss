@@ -54,5 +54,8 @@ resources:
       Longer description explaining more about what is expected to do with this resource.
     type: reference
     lang: en
+    replace: y
   - url: https://example.com/simplest-example
 ```
+
+“replace” means the resource should be replaced with a better one in the future
