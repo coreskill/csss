@@ -2,53 +2,34 @@
 sort: 20
 
 ---
-skill: Overview
+skill: "Accessibility overview"
+level: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility
-    desc: "Read everything on the page and watch the video."
+    desc: "Accessibility [MDN]"
+    text: |
+      Read everything on the page and watch the video.
     lang: en
   - url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility
-    desc: "Read everything on the page."
+    desc: "What is accessibility? [MDN]"
+    text: |
+      Read everything on the page.
     lang: en
   - url: https://web.dev/accessible/
-    desc: "Basic why and how by Google Developers"
+    desc: "Accessible to all [Google Developers]"
     lang: en
   - url: https://www.w3.org/WAI/WCAG21/quickref/
-    desc: "A customizable quick reference to Web Content Accessibility Guidelines (WCAG) 2 requirements (success criteria) and techniques."
+    desc: "How to Meet WCAG"
+    text: |
+      A customizable quick reference to Web Content Accessibility Guidelines (WCAG) 2 requirements (success criteria) and techniques.
     type: reference
     lang: en
 
 ---
-skill: HTML accessibility best practices
-requires: 
-  - Overview
-resources:
-  - url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML
-    desc: "Read everything on the page."
-    lang: en
-
----
-skill: CSS and JavaScript accessibility best practices
-requires: 
-  - Overview
-resources:
-  - url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript
-    desc: "Read everything on the page."
-    lang: en
-
----
-skill: Accessible multimedia
-requires: 
-  - Overview
-resources:
-  - url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/Multimedia
-    desc: "Read everything on the page."
-    lang: en
-
----
-skill: Color Contrast
-requires: 
-  - Overview
+skill: "Color Contrast"
+level: 2
+requires:
+  - "Accessibility overview"
   - "// Design // Design // Color Theory"
 resources:
   - url: https://developer.chrome.com/docs/devtools/accessibility/reference/#contrast
@@ -56,11 +37,13 @@ resources:
     type: tool
     lang: en
   - url: https://color.review/
-    desc: "Visualize color contrast. You can also get a link with current color combination."
+    desc: "Visualize color contrast."
+    text: |
+      You can also get a link with current color combination.
     type: tool
     lang: en
   - url: https://contrast-grid.eightshapes.com/
-    desc: "When you have more colors and want to see which can be combined." 
+    desc: "When you have more colors and want to see which can be combined."
     type: tool
     lang: en
   - url: https://toolness.github.io/accessible-color-matrix/
@@ -69,13 +52,53 @@ resources:
     lang: en
 
 ---
-skill: WAI-ARIA roles overview
+skill: "WAI-ARIA roles overview"
+level: 3
 requires:
-  - HTML // Basic structure // <!doctype>, <html>, <head>, <body>
+  - "HTML // Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics
+    desc: "WAI-ARIA basics [MDN]"
     lang: en
   - url: https://www.vzhurudolu.cz/prirucka/html5-struktura
+    desc: "Jak definovat strukturu v HTML [Vzhůru dolů]"
     lang: cs
   - url: https://www.vzhurudolu.cz/prirucka/wai-aria
+    desc: "Orientační body WAI-ARIA pro přístupnější web [Vzhůru dolů]"
     lang: cs
+
+---
+skill: "HTML accessibility best practices"
+level: 3
+requires: 
+  - "Accessibility overview"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML
+    desc: "HTML: A good basis for accessibility [MDN]"
+    text: |
+      Read everything on the page.
+    lang: en
+
+---
+skill: "CSS and JavaScript accessibility best practices"
+level: 5
+requires: 
+  - "Accessibility overview"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript
+    desc: "HTML: A good basis for accessibility [MDN]"
+    text: |
+      Read everything on the page.
+    lang: en
+
+---
+skill: "Accessible multimedia"
+level: 5
+requires: 
+  - "Accessibility overview"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/Multimedia
+    desc: "Accessible multimedia"
+    text: |
+      Read everything on the page.
+    lang: en
