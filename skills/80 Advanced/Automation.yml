@@ -3,13 +3,17 @@ sort: 40
 
 ---
 skill: "npm scripts"
+level: 3
 requires:
   - "JavaScript // Node.js // Node.js overview"
 resources:
   - url: https://medium.freecodecamp.org/introduction-to-npm-scripts-1dbb2ae01633
-
+    desc: "Introduction to NPM Scripts"
+    lang: en
+    
 ---
 skill: "Browsersync"
+level: 3
 requires:
   - "npm scripts"
 text: |
@@ -19,20 +23,31 @@ text: |
   - proxy mode
 resources:
   - url: https://www.browsersync.io/
+    desc: "Browsersync Homepage"
+    lang: en
 
 ---
 skill: "Gulp"
+level: 3
 requires:
   - "npm scripts"
 resources:
   - url: https://gulpjs.com/
-
+    desc: "Gulp Homepage"
+    lang: en
+    
 ---
 skill: "PostCSS: autoprefixer"
+level: 3
 requires:
   - "npm scripts"
 resources:
   - url: https://github.com/postcss/autoprefixer
+    desc: "Autoprefixer Homepage"
+    lang: en
   - url: https://autoprefixer.github.io/
     desc: "Online demo"
+    lang: en
   - url: https://postcss.org/
+    desc: "PostCSS Homepage"
+    lang: en
