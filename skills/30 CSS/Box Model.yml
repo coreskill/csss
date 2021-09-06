@@ -77,9 +77,13 @@ resources:
     lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing
     desc: "Margin collapsing [MDN]"
+    text: |
+      Good explanation. Don’t miss the link to an detailed explanation of _Block formatting context_.
     lang: en
   - url: https://www.joshwcomeau.com/css/rules-of-margin-collapse/
     desc: "Margin collapsing"
+    text: |
+      Very nice article with 3D visualizations of the situation.
     type: article
     lang: en
 requires:
