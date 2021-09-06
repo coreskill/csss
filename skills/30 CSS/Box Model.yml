@@ -6,6 +6,9 @@ skill: "width"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/width
+    desc: "width [MDN]"
+    type: reference
+    lang: en
 requires:
   - "General // Basic CSS Syntax"
 
@@ -14,7 +17,13 @@ skill: "max-width, min-width"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/max-width
+    desc: "max-width [MDN]"
+    type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/min-width
+    desc: "min-width [MDN]"
+    type: reference
+    lang: en
 requires:
   - "width"
 
@@ -23,6 +32,9 @@ skill: "height"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/height
+    desc: "height [MDN]"
+    type: reference
+    lang: en
 requires:
   - "General // Basic CSS Syntax"
 
@@ -31,23 +43,21 @@ skill: "max-height, min-height"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/max-height
+    desc: "max-height [MDN]"
+    type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/min-height
+    desc: "min-height [MDN]"
+    type: reference
+    lang: en
 requires:
   - "height"
 
 ---
 skill: "border"
 level: 1
-resources:
-  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/border
-requires:
-  - "General // Basic CSS Syntax"
-
----
-skill: "border-style"
-level: 1
 text: |
-  Key values: 
+  Important values for `border-style`: 
   - `none`
   - `solid`
   - `dotted`
@@ -55,7 +65,22 @@ text: |
   
   Notable values: `double` and `groove`
 resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/border
+    desc: "border [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/border-width
+    desc: "border-width [MDN]"
+    type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/border-style
+    desc: "border-style [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/border-color
+    desc: "border-color [MDN]"
+    type: reference
+    lang: en
 requires:
   - "General // Basic CSS Syntax"
 
@@ -64,6 +89,9 @@ skill: "padding"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/padding
+    desc: "padding [MDN]"
+    type: reference
+    lang: en
 requires:
   - "General // Basic CSS Syntax"
 
@@ -72,13 +100,14 @@ skill: "margin"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/margin
-    desc: "Margin [MDN]"
+    desc: "margin [MDN]"
     type: reference
     lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing
     desc: "Margin collapsing [MDN]"
     text: |
       Good explanation. Don’t miss the link to an detailed explanation of _Block formatting context_.
+    type: reference
     lang: en
   - url: https://www.joshwcomeau.com/css/rules-of-margin-collapse/
     desc: "Margin collapsing"
@@ -94,6 +123,9 @@ skill: "box-sizing"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+    desc: "box-sizing [MDN]"
+    type: reference
+    lang: en
 requires:
   - "General // Basic CSS Syntax"
 
@@ -102,14 +134,21 @@ skill: "overflow"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/overflow
+    desc: "overflow [MDN]"
+    type: reference
+    lang: en
 requires:
-  - "General // Basic CSS Syntax"
+  - "width"
+  - "height"
 
 ---
 skill: "visibility"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/visibility
+    desc: "visibility [MDN]"
+    type: reference
+    lang: en
 requires:
   - "General // Basic CSS Syntax"
 
@@ -118,6 +157,9 @@ skill: "outline"
 level: 3
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/outline
+    desc: "outline [MDN]"
+    type: reference
+    lang: en
 requires:
   - "General // Basic CSS Syntax"
 
@@ -126,6 +168,9 @@ skill: "display: block, display: inline, display: inline-block"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/display
+    desc: "display [MDN]"
+    type: reference
+    lang: en
 requires:
   - "General // Basic CSS Syntax"
 
@@ -134,5 +179,8 @@ skill: "display: none"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/display
+    desc: "display [MDN]"
+    type: reference
+    lang: en
 requires:
   - "General // Basic CSS Syntax"
