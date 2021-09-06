@@ -83,7 +83,7 @@ resources:
   - url: https://www.joshwcomeau.com/css/rules-of-margin-collapse/
     desc: "Margin collapsing"
     text: |
-      Very nice article with 3D visualizations of the situation.
+      Very nice article with 3D visualizations.
     type: article
     lang: en
 requires:
