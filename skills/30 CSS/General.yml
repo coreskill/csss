@@ -60,12 +60,22 @@ requires:
 ---
 skill: "<style> tag"
 level: 2
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style
+    desc: "<style>: The Style Information element [MDN]"
+    type: reference
+    lang: en
 requires:
   - "Basic CSS Syntax"
 
 ---
 skill: "Inline CSS (style attribute)"
 level: 4
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style
+    desc: "Style attribute [MDN]"
+    type: reference
+    lang: en
 requires:
   - "Basic CSS Syntax"
 
