@@ -75,3 +75,14 @@ resources:
     desc: "1Password"
   - url: https://www.lastpass.com/
     desc: "LastPass"
+
+---
+skill: "Codepen.io account"
+level: extra
+text: |
+  Codepen is 
+resources:
+  - url: https://codepen.io/
+    desc: "Codepen Homepage"
+    type: tool
+    lang: en
