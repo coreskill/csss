@@ -5,6 +5,7 @@
   "description": "CoreSkill Skill System (CSSS)",
   "repository": "coreskill/csss",
   "scripts": {
+    "start": "npm run dev",
     "build": "ts-node index.ts",
     "browsersync": "browser-sync start --config bs-config.js",
     "watch": "chokidar \"skills/**/*.yml\" \"(partials|layouts)/**/*.hbs\" \"src/*.{js,css}\" --debounce 1000 --throttle 1000 --command \"npm run build\"",

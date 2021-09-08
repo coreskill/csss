@@ -23,6 +23,12 @@ Then, look into `build` folder.
 Watching, compiling and automatic reloading.
 
 ```sh
+npm start
+```
+
+It’s an alias for
+
+```sh
 npm run dev
 ```
 
