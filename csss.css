@@ -92,3 +92,9 @@ a.list-group-item {
   background-color: transparent;
   color: white;
 }
+
+body:not(.page-home) .filter-counter,
+body:not(.page-home) .filter-nothing-found,
+body:not(.page-home) .filter-group {
+  display: none;
+}
