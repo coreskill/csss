@@ -45,7 +45,7 @@
 }
 
 .logged-in .indicator-detail {
-  display: inline-block;
+  display: inline;
 }
 
 .indicator:hover,
