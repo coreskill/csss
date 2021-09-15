@@ -60,6 +60,7 @@ resources:
       Longer description explaining more about what is expected to do with this resource.
     type: reference
     lang: en
+    availability: "String that describes hurdles to obtain the resource (paywall, registration etc.)"
     status: replace
   - url: https://example.com/simplest-example
 ```
