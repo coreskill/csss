@@ -65,6 +65,41 @@
     <script>
       let nodes = [
   {
+    "id": "job-seeking-overview",
+    "label": "Job Seeking overview",
+    "group": "job-seeking"
+  },
+  {
+    "id": "interviews",
+    "label": "Interviews",
+    "group": "job-seeking"
+  },
+  {
+    "id": "where-to-find",
+    "label": "Where to find",
+    "group": "job-seeking"
+  },
+  {
+    "id": "cv",
+    "label": "CV",
+    "group": "job-seeking"
+  },
+  {
+    "id": "linkedin",
+    "label": "LinkedIn",
+    "group": "job-seeking"
+  },
+  {
+    "id": "github",
+    "label": "GitHub",
+    "group": "job-seeking"
+  },
+  {
+    "id": "stack-overflow",
+    "label": "Stack Overflow",
+    "group": "job-seeking"
+  },
+  {
     "id": "agreement",
     "label": "Agreement",
     "group": "onboarding"
@@ -116,68 +151,33 @@
   },
   {
     "id": "build-one-page-website",
-    "label": "Build one-page website.",
-    "group": "one-page"
+    "label": "Build one-page website",
+    "group": "projects"
   },
   {
-    "id": "build-generic-hipster-coffee-website",
-    "label": "Build Generic Hipster Coffee website",
-    "group": "multipage-website"
+    "id": "build-multipage-website-generic-hipster-coffee-website",
+    "label": "Build multipage website: Generic Hipster Coffee website",
+    "group": "projects"
   },
   {
     "id": "embed-a-google-map-using-google-maps-javascript-api",
     "label": "Embed a Google Map using Google Maps JavaScript API",
-    "group": "multipage-website"
+    "group": "projects"
   },
   {
-    "id": "on-classic-stack-fix-a-bug-or-code-a-new-feature",
-    "label": "On classic stack fix a bug or code a new feature.",
-    "group": "task-on-classic-stack"
+    "id": "fix-a-bug-or-create-new-feature",
+    "label": "Fix a bug or create new feature",
+    "group": "projects"
   },
   {
     "id": "build-a-small-javascript-application",
-    "label": "Build a small JavaScript application.",
-    "group": "javascript-application"
+    "label": "Build a small JavaScript application",
+    "group": "projects"
   },
   {
-    "id": "create-a-template-for-html-e-mail-used-for-mass-mailing",
-    "label": "Create a template for HTML e-mail used for mass mailing",
-    "group": "mailing"
-  },
-  {
-    "id": "job-seeking-overview",
-    "label": "Job Seeking overview",
-    "group": "job-seeking"
-  },
-  {
-    "id": "interviews",
-    "label": "Interviews",
-    "group": "job-seeking"
-  },
-  {
-    "id": "where-to-find",
-    "label": "Where to find",
-    "group": "job-seeking"
-  },
-  {
-    "id": "cv",
-    "label": "CV",
-    "group": "job-seeking"
-  },
-  {
-    "id": "linkedin",
-    "label": "LinkedIn",
-    "group": "job-seeking"
-  },
-  {
-    "id": "github",
-    "label": "GitHub",
-    "group": "job-seeking"
-  },
-  {
-    "id": "stack-overflow",
-    "label": "Stack Overflow",
-    "group": "job-seeking"
+    "id": "create-html-e-mail",
+    "label": "Create HTML e-mail",
+    "group": "projects"
   },
   {
     "id": "cli-overview",
@@ -3589,6 +3589,11 @@
   {
     "from": "job-seeking-overview",
     "to": "stack-overflow",
+    "arrows": "to"
+  },
+  {
+    "from": "build-one-page-website",
+    "to": "build-multipage-website-generic-hipster-coffee-website",
     "arrows": "to"
   },
   {
