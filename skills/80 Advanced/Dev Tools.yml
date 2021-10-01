@@ -7,7 +7,7 @@ level: 1
 requires:
   - Related // Networking // Web browser
 resources:
-  - url: https://developers.google.com/web/tools/chrome-devtools
+  - url: https://developer.chrome.com/docs/devtools/overview/
     type: documentation
     lang: en
 
@@ -19,10 +19,12 @@ requires:
   - "CSS // General // Basic CSS Syntax"
   - "HTML // Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
-  - url: https://developers.google.com/web/tools/chrome-devtools/dom/
+  - url: https://developer.chrome.com/docs/devtools/dom/
+    desc: "Get Started With Viewing And Changing The DOM"
     type: documentation
     lang: en
-  - url: https://developers.google.com/web/tools/chrome-devtools/css/
+  - url: https://developer.chrome.com/docs/devtools/css/
+    desc: "View and change CSS"
     type: documentation
     lang: en
 
@@ -32,7 +34,8 @@ level: 2
 requires:
   - "Dev Tools overview"
 resources:
-  - url: https://developers.google.com/web/tools/chrome-devtools/device-mode
+  - url: https://developer.chrome.com/docs/devtools/device-mode/
+    desc: "Simulate mobile devices with Device Mode"
     type: documentation
     lang: en
 
@@ -42,7 +45,8 @@ level: 3
 requires:
   - "Dev Tools overview"
 resources:
-  - url: https://developers.google.com/web/tools/chrome-devtools/resources
+  - url: https://developer.chrome.com/docs/devtools/resources/
+    desc: "Simulate mobile devices with Device Mode"
     type: documentation
     lang: en
 
@@ -53,13 +57,16 @@ requires:
   - "Dev Tools overview"
   - "JavaScript // Basics // JavaScript overview"
 resources:
-  - url: https://developers.google.com/web/tools/chrome-devtools/console
+  - url: https://developer.chrome.com/docs/devtools/console/
+    desc: "Simulate mobile devices with Device Mode"
     type: documentation
     lang: en
-  - url: https://developers.google.com/web/tools/chrome-devtools/console/log
+  - url: https://developer.chrome.com/docs/devtools/console/log/
+    desc: "Log messages in the Console"
     type: documentation
     lang: en
-  - url: https://developers.google.com/web/tools/chrome-devtools/console/javascript
+  - url: https://developer.chrome.com/docs/devtools/console/javascript/
+    desc: "Run JavaScript in the Console"
     type: documentation
     lang: en
 
@@ -69,7 +76,8 @@ level: 4
 requires:
   - "Dev Tools overview"
 resources:
-  - url: https://developers.google.com/web/tools/chrome-devtools/network
+  - url: https://developer.chrome.com/docs/devtools/network/
+    desc: "Inspect network activity"
     type: documentation
     lang: en
 
@@ -79,6 +87,7 @@ level: 5
 requires:
   - "Dev Tools overview"
 resources:
-  - url: https://developers.google.com/web/tools/chrome-devtools/command-menu
+  - url: https://developer.chrome.com/docs/devtools/command-menu/
+    desc: "Run commands in the Command Menu"
     type: documentation
     lang: en
