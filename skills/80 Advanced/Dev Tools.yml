@@ -8,6 +8,13 @@ requires:
   - Related // Networking // Web browser
 resources:
   - url: https://developer.chrome.com/docs/devtools/overview/
+    desc: "Official documentation"
+    text: |
+      Just skim through so you have an basic idea what Dev Tools can do. 
+    type: documentation
+    lang: en
+  - url: https://developer.chrome.com/docs/devtools/open/
+    desc: "Open Chrome DevTools"
     type: documentation
     lang: en
 
