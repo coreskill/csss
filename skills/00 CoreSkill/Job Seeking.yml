@@ -3,7 +3,21 @@ sort: 30
 
 ---
 skill: "Job Seeking overview"
-level: 5
+level: 4
+resources:
+  - url: https://github.com/readme/guides/first-job-in-tech
+    desc: "Get your first software developer job"
+    text: |
+      Tips, tricks, and general advice for how to get in the door in tech by Cassidy Williams, director of developer experience at Netlify.
+    type: articles
+    lang: en
+  - url: https://junior.guru/candidate-handbook/
+    desc: "Příručka o hledání první práce v IT"
+    text: |
+      Skvělá příručka Honzy Javorka o hledání práce. 
+    type: guide
+    lang: cz
+ 
 
 ---
 skill: "Interviews"
