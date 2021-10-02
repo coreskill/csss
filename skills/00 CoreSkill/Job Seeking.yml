@@ -16,8 +16,7 @@ resources:
     text: |
       Skvělá příručka Honzy Javorka o hledání práce. 
     type: guide
-    lang: cz
- 
+    lang: cs
 
 ---
 skill: "Interviews"
