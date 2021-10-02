@@ -53,7 +53,7 @@ requires:
   - "Dev Tools overview"
 resources:
   - url: https://developer.chrome.com/docs/devtools/resources/
-    desc: "Simulate mobile devices with Device Mode"
+    desc: "View page resources"
     type: documentation
     lang: en
 
@@ -65,7 +65,7 @@ requires:
   - "JavaScript // Basics // JavaScript overview"
 resources:
   - url: https://developer.chrome.com/docs/devtools/console/
-    desc: "Simulate mobile devices with Device Mode"
+    desc: "Console overview"
     type: documentation
     lang: en
   - url: https://developer.chrome.com/docs/devtools/console/log/
