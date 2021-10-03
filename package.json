@@ -26,9 +26,9 @@
     "@types/node": "^16.0.0",
     "@types/node-dir": "0.0.33",
     "@types/slug": "^5.0.0",
-    "browser-sync": "^2.27.4",
-    "chokidar-cli": "^2.1.0",
-    "concurrently": "^6.2.0",
+    "browser-sync": "^2.27.5",
+    "chokidar-cli": "^3.0.0",
+    "concurrently": "^6.3.0",
     "ts-node": "^10.0.0",
     "typescript": "3.4.5"
   }
