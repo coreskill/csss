@@ -22,6 +22,10 @@ text: |
   
   optional:
     - secondary 1920×1080+ display
+resources:
+  - url: https://hackmd.io/@benabraham/monitor-pro-frontend
+    desc: "Popis parametrů monitorů vhodných pro práci frontendistů"
+    lang: cs
 
 ---
 skill: "Google Account"
