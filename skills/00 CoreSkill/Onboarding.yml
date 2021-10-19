@@ -49,7 +49,14 @@ text: |
 skill: "Code editor"
 level: 0
 text: |
-  Install: Visual Studio Code or Webstorm
+  Install one of the following
+resources:
+  - url: https://code.visualstudio.com/
+    desc: "Visual Studio Code (VS Code for short)"
+    lang: en
+  - url: https://www.jetbrains.com/webstorm/
+    desc: "WebStorm"
+    lang: en
 
 ---
 skill: "Chrome"
