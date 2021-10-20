@@ -11,6 +11,10 @@ resources:
       You can also invalidate FB’s cache there.
     type: tool
     lang: en
+  - url: https://www.vzhurudolu.cz/prirucka/meta-open-graph
+    description: "Open Graph: meta značky pro sociální sítě"
+    type: article
+    lang: cs
 
 ---
 skill: "Twitter Cards"
