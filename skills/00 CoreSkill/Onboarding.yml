@@ -12,16 +12,16 @@ text: |
 skill: "Computer"
 level: 0
 text: |
-  recommended: 
+  required: 
     - 16 GB RAM (8 GB minimum)
-    - i5/i7/Ryzen/M1 CPU with 4+ cores 
+    - i5/i7/Ryzen CPU with 4+ cores (or M1) 
     - SSD with 20+ GB free space
-    - 1920×1080+ display
     - mouse
     - Windows, macOS or Linux
   
   optional:
-    - secondary 1920×1080+ display
+    - 1920×1080+ primary display 
+    - secondary display 1920×1080+
 resources:
   - url: https://hackmd.io/@benabraham/monitor-pro-frontend
     desc: "Popis parametrů monitorů vhodných pro práci frontendistů"
@@ -31,38 +31,63 @@ resources:
 skill: "Google Account"
 level: 0
 text: |
-  provide or create if needed (for calendar and shared documents)
+  We use this for calendar and shared documents.
+  
+  Provide or create if needed. 
 
 ---
 skill: "Join folders on Google Drive"
 level: 0
 text: |
-  Join
+  Join these folders:
+  - `00-coreskill-common` read only access to shared resources.
+  - A folder with a number and your name e.g. `99-john-doe` which your personal folder that contains everything specific for you. Minimal content is your agreement with CoreSkill and your timesheet. 
+resources:
+  - url: https://www.google.com/drive/download/
+    desc: "Install Google Drive desktop app (optional)"
+    text: |
+      It synchronizes your Google Drive files with a folder on your computer automatically.
+    lang: en
 
 ---
 skill: "Junior Guru Club Discord"
 level: 0
 text: |
-  Join
+  Join for free by a link provided by CoreSkill.
+
+resources:
+  - url: https://discord.com/
+    desc: "Install Discord desktop app"
+    lang: en
+  - url: https://play.google.com/store/apps/details?id=com.discord&hl=en&gl=US
+    desc: "Install Discord Android app (optional)"
+    lang: en
+  - url: https://apps.apple.com/us/app/discord-talk-chat-hangout/id985746746
+    desc: "Install Discord iOS app (optional)"
+    lang: en
 
 ---
 skill: "Code editor"
 level: 0
 text: |
-  Install one of the following
+  Install one of the following editors. VS Code is the default choice.
 resources:
   - url: https://code.visualstudio.com/
     desc: "Visual Studio Code (VS Code for short)"
+    text: | 
+      No charge, opensource, most frontend devs use it.
     lang: en
   - url: https://www.jetbrains.com/webstorm/
     desc: "WebStorm"
+    text: |
+      Paid, closed source, many frontend devs use it.
     lang: en
 
 ---
 skill: "Chrome"
 level: 0
 text: |
-  Install English version
+  Please make sure you install English version
 resources:
   - url: https://www.google.com/chrome/
 
@@ -70,15 +95,39 @@ resources:
 skill: "Firefox"
 level: 0
 text: |
-  Install English version
+  Please make sure you install English version
 resources:
   - url: https://www.mozilla.org
+
+---
+skill: "Codepen.io account"
+level: 0
+text: |
+  Codepen is an online HTML, CSS and JavaScript editor with live reload.
+
+  It’s great for quickly trying something or for sharing a problem or a solution with anyone on internet.
+
+  It can generate HTML, CSS and JavaScript from several other syntaxes like Markdown, SCSS or TypeScript to name a few.
+
+  You can enable Autoprefixer for CSS and easily add CSS or JS libraries.
+
+  It has code formatting, basic keyboard shortcuts and Emmet so you can work as effectively as in your main code editor.
+
+  ---
+
+  Note: what you see in the HTML pane is a content of `<body>` if you need to change something in your `<head>` or add a class to `<body>` use the ⚙ in the HTML pane.
+
+resources:
+  - url: https://codepen.io/
+    desc: "Codepen Homepage"
+    type: tool
+    lang: en
 
 ---
 skill: "Password manager"
 level: extra
 text: |
-  Install (voluntary)
+  Install one of these: they're voluntary but highly recommended.
 resources:
   - url: https://keepassxc.org/
     desc: "KeePassXC is free and Open Source password manager"
@@ -86,27 +135,3 @@ resources:
     desc: "1Password"
   - url: https://www.lastpass.com/
     desc: "LastPass"
-
----
-skill: "Codepen.io account"
-level: extra
-text: |
-  Codepen is an online HTML, CSS and JavaScript editor with live reload.
-  
-  It’s great for quickly trying something or for sharing a problem or a solution with anyone on internet.
-  
-  It can generate HTML, CSS and JavaScript from several other syntaxes like Markdown, SCSS or TypeScript to name a few.
-  
-  You can enable Autoprefixer for CSS and easily add CSS or JS libraries.
-  
-  It has code formatting, basic keyboard shortcuts and Emmet so you can work as effectively as in your main code editor.
-  
-  ---
-  
-  Note: what you see in the HTML pane is a content of `<body>` if you need to change something in your `<head>` or add a class to `<body>` use the ⚙ in the HTML pane.
-  
-resources:
-  - url: https://codepen.io/
-    desc: "Codepen Homepage"
-    type: tool
-    lang: en
