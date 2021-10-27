@@ -6,6 +6,7 @@ skill: "content"
 level: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/content
+    desc: "content [MDN]"
     type: reference
     lang: en
 requires:
@@ -20,11 +21,11 @@ resources:
     type: reference
     lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
-    desc: "Using CSS custom properties (variables)"
+    desc: "Using CSS custom properties (variables) [MDN]"
     type: reference
     lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/var()
-    desc: "var()"
+    desc: "var() [MDN]"
     type: reference
     lang: en
   - url: https://scrimba.com/learn/cssvariables
@@ -43,6 +44,7 @@ skill: "border-collapse"
 level: 5
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/border-collapse
+    desc: "border-collapse [MDN]"
     type: reference
     lang: en
 requires:
@@ -54,6 +56,7 @@ skill: "table-layout"
 level: 5
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/table-layout
+    desc: "table-layout [MDN]"
     type: reference
     lang: en
 requires:
@@ -64,6 +67,7 @@ skill: "display: table, table-row, table-cell, …"
 level: 5
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/display
+    desc: "display [MDN]"
     type: reference
     lang: en
 requires:
@@ -74,6 +78,7 @@ skill: "CSS transitions"
 level: 5
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/transition
+    desc: "transition [MDN]"
     type: reference
     lang: en
 requires:
@@ -85,6 +90,7 @@ skill: "CSS animations"
 level: extra
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
+    desc: "CSS_Animations/Using_CSS_animations [MDN]"
     type: reference
     lang: en
 requires:
@@ -95,6 +101,7 @@ skill: "cursor"
 level: extra
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
+    desc: "cursor [MDN]"
     type: reference
     lang: en
 requires:
@@ -105,6 +112,7 @@ skill: "filter"
 level: extra
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/filter
+    desc: "filter [MDN]"
     type: reference
     lang: en
 requires:

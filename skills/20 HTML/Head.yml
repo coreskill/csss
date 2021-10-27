@@ -9,6 +9,7 @@ requires:
   - "Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title
+    desc: "title [MDN]"
     type: reference
     lang: en
 
@@ -19,6 +20,7 @@ requires:
   - "Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link
+    desc: "link [MDN]"
     type: reference
     lang: en
 
@@ -29,9 +31,11 @@ requires:
   - Basic structure // <!doctype>, <html>, <head>, <body>
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+    desc: "meta [MDN]"
     type: reference
     lang: en
   - url: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Adding_an_author_and_description
+    desc: "Adding an author and description [MDN]"
     type: reference
     lang: en
 
@@ -42,9 +46,11 @@ requires:
   - <link>
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link
+    desc: "link [MDN]"
     type: reference
     lang: en
   - url: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Adding_custom_icons_to_your_site
+    desc: "Adding custom icons to your site [MDN]"
     type: reference
     lang: en
   - url: https://realfavicongenerator.net/

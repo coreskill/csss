@@ -15,7 +15,7 @@ text: |
   - aligning items
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
-    desc: "MDN’s Guide"
+    desc: "Basic Concepts of Flexbox [MDN]"
     lang: en
   - url: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
     desc: "Good visual reference"
@@ -38,11 +38,11 @@ resources:
     type: video
     lang: en
   - url: https://www.codecademy.com/paths/web-development/tracks/getting-more-advanced-with-design/modules/layout-with-flexbox/lessons/learn-flexbox-l/exercises/flexbox
-    desc: "Codecademy's take on flexbox"
+    desc: "Codecademy’s take on flexbox"
     type: interactive course
     lang: en
   - url: https://scrimba.com/g/gflexbox
-    desc: "Interactive screencasts"
+    desc: "Interactive screencasts about flexbox"
     type: interactive course
     lang: en
   - url: https://internetingishard.com/html-and-css/flexbox/
@@ -58,6 +58,7 @@ level: 3
 sublevel: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap
+    desc: "flex-wrap [MDN]"
     type: reference
     lang: en
 requires:
@@ -69,6 +70,7 @@ level: 3
 sublevel: 3
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction
+    desc: "flex-direction [MDN]"
     type: reference
     lang: en
 requires:
@@ -80,6 +82,7 @@ level: 3
 sublevel: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis
+    desc: "flex-basis [MDN]"
     type: reference
     lang: en
 requires:
@@ -91,6 +94,7 @@ level: 3
 sublevel: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow
+    desc: "flex-grow [MDN]"
     type: reference
     lang: en
 requires:
@@ -102,6 +106,7 @@ level: 3
 sublevel: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink
+    desc: "flex-shrink [MDN]"
     type: reference
     lang: en
 requires:
@@ -113,6 +118,7 @@ level: 3
 sublevel: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex
+    desc: "flex [MDN]"
     type: reference
     lang: en
 requires:
@@ -126,6 +132,7 @@ level: 3
 sublevel: 5
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/order
+    desc: "order [MDN]"
     type: reference
     lang: en
 requires:
@@ -136,6 +143,7 @@ skill: "flex-flow (shorthand)"
 level: extra
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-flow
+    desc: "flex-flow [MDN]"
     type: reference
     lang: en
 requires:
@@ -148,6 +156,7 @@ level: 3
 sublevel: 4
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
+    desc: "justify-content [MDN]"
     type: reference
     lang: en
 requires:
@@ -159,6 +168,7 @@ level: 3
 sublevel: 4
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/align-content
+    desc: "align-content [MDN]"
     type: reference
     lang: en
 requires:
@@ -170,6 +180,7 @@ level: 3
 sublevel: 4
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/align-items
+    desc: "align-items [MDN]"
     type: reference
     lang: en
 requires:
@@ -181,6 +192,7 @@ level: 3
 sublevel: 5
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/align-self
+    desc: "align-self [MDN]"
     type: reference
     lang: en
 requires:
@@ -192,6 +204,7 @@ level: 3
 sublevel: 5
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/justify-self
+    desc: "justify-self [MDN]"
     type: reference
     lang: en
 requires:

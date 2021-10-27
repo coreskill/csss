@@ -2,103 +2,114 @@
 sort: 20
 
 ---
-skill: Type selectors
+skill: "Type selectors"
 level: 1
 requires:
-  - General // Basic CSS Syntax
+  - "General // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors
+    desc: "Type selectors [MDN]"
     type: reference
   
 ---
-skill: Class selectors
+skill: "Class selectors"
 level: 2
 requires:
-  - Type selectors
+  - "Type selectors"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors
+    desc: "Class selectors [MDN]"
     type: reference
 
 ---
-skill: Id selectors
+skill: "Id selectors"
 level: 2
 requires:
-  - Type selectors
+  - "Type selectors"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors
+    desc: "ID selectors [MDN]"
     type: reference
 
 ---
-skill: Selector list (x, y)
+skill: "Selector list (x, y)"
 level: 2
 requires:
-  - Type selectors
+  - "Type selectors"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/Selector_list
+    desc: "Selector list [MDN]"
     type: reference
 
 ---
-skill: Descendant combinator (x y)
+skill: "Descendant combinator (x y)"
 level: 2
 requires:
-  - Type selectors
-  - Class selectors
+  - "Type selectors"
+  - "Class selectors"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator
+    desc: "Descendant combinator [MDN]"
     type: reference
 
 ---
-skill: Selector Specificity
+skill: "Selector Specificity"
 level: 2
 requires:
-  - Type selectors
-  - Class selectors
+  - "Type selectors"
+  - "Class selectors"
   - Id selectors
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+    desc: "Specificity [MDN]"
     type: reference
 
 ---
-skill: Universal selector (*)
+skill: "Universal selector (*)"
 level: 2
 requires:
-  - Type selectors
+  - "Type selectors"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors
+    desc: "Universal selectors [MDN]"
     type: reference
 
 ---
-skill: Child combinator (x>y)
+skill: "Child combinator (x>y)"
 level: 3
 requires:
-  - Descendant combinator (x y)
+  - "Descendant combinator (x y)"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator
+    desc: "Child combinator [MDN]"
     type: reference
 
 ---
-skill: Adjacent sibling combinator (x+y)
+skill: "Adjacent sibling combinator (x+y)"
 level: 4
 requires:
-  - Descendant combinator (x y)
+  - "Descendant combinator (x y)"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator
+    desc: "Adjacent sibling combinator [MDN]"
     type: reference
 
 ---
-skill: General sibling combinator (x~y)
+skill: "General sibling combinator (x~y)"
 level: 4
 requires:
-  - Descendant combinator (x y)
+  - "Descendant combinator (x y)"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator
+    desc: "General sibling combinator [MDN]"
     type: reference
 
 ---
-skill: Attribute selectors (a[href=x])
+skill: "Attribute selectors (a[href=x])"
 level: 4
 requires:
-  - Type selectors
+  - "Type selectors"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors
+    desc: "Attribute selectors [MDN]"
     type: reference

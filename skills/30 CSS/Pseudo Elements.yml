@@ -2,34 +2,74 @@
 sort: 140
 
 ---
-skill: ::after, ::before
+skill: "::after, ::before"
 level: 2
 requires:
-  - Other CSS Properties // content
+  - "Other CSS Properties // content"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/::after
+    desc: "::after [MDN]"
+    type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/::before
+    desc: "::before [MDN]"
+    type: reference
+    lang: en
 
 ---
-skill: ::placeholder
+skill: "::placeholder"
 level: 4
+requires:
+  - "// HTML // Body // <form>, <input>, <textarea>, <label>, <select>, <option>, <button>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder
+    desc: "::placeholder [MDN]"
+    type: reference
+    lang: en
 
 ---
-skill: ::selection
+skill: "::selection"
 level: 5
+requires:
+  - "General // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/::selection
+    desc: "::selection [MDN]"
+    type: reference
+    lang: en
 
 ---
-skill: ::first-letter
+skill: "::marker"
+level: 5
+requires:
+  - "// HTML // Body // <ul>, <ol>, <li>"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/::marker
+    desc: "::marker [MDN]"
+    type: reference
+    lang: en
+  - url: https://web.dev/learn/css/lists/
+    desc: "Lists [web.dev]"
+    lang: en
+
+---
+skill: "::first-letter"
 level: extra
+requires:
+  - "General // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter
+    desc: "::first-letter [MDN]"
+    type: reference
+    lang: en
 
 ---
-skill: ::first-line
+skill: "::first-line"
 level: extra
+requires:
+  - "General // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/::first-line
+    desc: "::first-line [MDN]"
+    type: reference
+    lang: en

@@ -11,5 +11,5 @@ resources:
     desc: "Entity references: Including special characters in HTML [MDN]"
     lang: en
   - url: https://developer.mozilla.org/en-US/docs/Glossary/Entity
-    desc: "Entity entry in MDN Glossary"
+    desc: "Entity [MDN Glossary]"
     lang: en

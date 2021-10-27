@@ -8,6 +8,7 @@ requires:
   - "General // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/inherit
+    desc: "inherit [MDN]"
     type: reference
     lang: en
 
@@ -18,6 +19,7 @@ requires:
   - "General // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/initial
+    desc: "initial [MDN]"
     type: reference
     lang: en
 
@@ -29,5 +31,6 @@ requires:
   - "initial"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/all
+    desc: "all [MDN]"
     type: reference
     lang: en

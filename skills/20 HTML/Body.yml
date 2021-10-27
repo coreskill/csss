@@ -8,7 +8,9 @@ requires:
   - "Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p
+    desc: "p [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<a>, #, paths for href"
@@ -17,7 +19,9 @@ requires:
   - "Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+    desc: "a [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<h1> to <h6>"
@@ -26,7 +30,9 @@ requires:
   - "Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
+    desc: "Heading Elements [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<div>, <span>"
@@ -35,9 +41,13 @@ requires:
   - "Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
+    desc: "div [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span
+    desc: "span [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<img>, src, width, height, alt"
@@ -46,7 +56,9 @@ requires:
   - "Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
+    desc: "img [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<ul>, <ol>, <li>"
@@ -55,11 +67,17 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul
+    desc: "ul [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol
+    desc: "ol [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li
+    desc: "li [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<em>"
@@ -68,7 +86,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em
+    desc: "em [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<i>"
@@ -77,7 +97,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i
+    desc: "i [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<strong>"
@@ -86,7 +108,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong
+    desc: "strong [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<b>"
@@ -95,7 +119,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b
+    desc: "b [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<small>"
@@ -104,7 +130,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small
+    desc: "small [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<br>"
@@ -113,7 +141,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br
+    desc: "br [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<main>"
@@ -122,7 +152,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main
+    desc: "main [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<aside>"
@@ -131,7 +163,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside
+    desc: "aside [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<header>"
@@ -140,7 +174,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header
+    desc: "header [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<footer>"
@@ -149,7 +185,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer
+    desc: "footer [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<nav>"
@@ -158,7 +196,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav
+    desc: "nav [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<section>"
@@ -167,7 +207,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section
+    desc: "section [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<article>"
@@ -176,7 +218,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article
+    desc: "article [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<iframe>"
@@ -185,7 +229,9 @@ requires:
   - "Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe
+    desc: "iframe [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<table>, <tr>, <th>, <td>, <tbody>"
@@ -194,15 +240,25 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table
+    desc: "table [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr
+    desc: "tr [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th
+    desc: "th [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td
+    desc: "td [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody
+    desc: "tbody [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<form>, <input>, <textarea>, <label>, <select>, <option>, <button>"
@@ -236,19 +292,33 @@ requires:
   - "<a>, #, paths for href"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+    desc: "form [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+    desc: "input [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea
+    desc: "textarea [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label
+    desc: "label [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select
+    desc: "select [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option
+    desc: "option [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
+    desc: "button [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "POST and GET methods"
@@ -268,11 +338,17 @@ requires:
   - "<form>, <input>, <textarea>, <label>, <select>, <option>, <button>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset
+    desc: "fieldset [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend
+    desc: "legend [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup
+    desc: "optgroup [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<a tabindex>"
@@ -281,7 +357,9 @@ requires:
   - "<a>, #, paths for href"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+    desc: "a [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<picture>, <source>"
@@ -290,9 +368,13 @@ requires:
   - "<img>, src, width, height, alt"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture
+    desc: "picture [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source
+    desc: "source [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<noscript>"
@@ -301,6 +383,9 @@ requires:
   - "Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript
+    desc: "noscript [MDN]"
+    type: reference
+    lang: en
 
 ---
 skill: "<tfoot>, <thead>, <col>, <colgroup>, <caption>"
@@ -309,15 +394,25 @@ requires:
   - "<table>, <tr>, <th>, <td>, <tbody>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot
+    desc: "tfoot [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead
+    desc: "thead [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col
+    desc: "col [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup
+    desc: "colgroup [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption
+    desc: "caption [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<map>, <img usemap>"
@@ -327,9 +422,13 @@ requires:
   - <img>, src, width, height, alt
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map
+    desc: "map [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
+    desc: "img [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<dl>, <dt>, <dd>"
@@ -338,11 +437,17 @@ requires:
   - "<ul>, <ol>, <li>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl
+    desc: "dl [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt
+    desc: "dt [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd
+    desc: "dd [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<hgroup>"
@@ -351,7 +456,9 @@ requires:
   - "<h1> to <h6>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup
+    desc: "hgroup [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<figcaption>, <figure>"
@@ -360,9 +467,13 @@ requires:
   - "<img>, src, width, height, alt"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption
+    desc: "figcaption [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure
+    desc: "figure [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<meter>"
@@ -371,7 +482,9 @@ requires:
   - "Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter
+    desc: "meter [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<progress>"
@@ -380,7 +493,9 @@ requires:
   - "Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress
+    desc: "progress [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<time>"
@@ -389,7 +504,9 @@ requires:
   - "Basic structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time
+    desc: "time [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<pre>"
@@ -398,7 +515,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre
+    desc: "pre [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<blockquote>"
@@ -407,7 +526,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote
+    desc: "blockquote [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<sub>, <sup>"
@@ -416,9 +537,13 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub
+    desc: "sub [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup
+    desc: "sup [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<code>"
@@ -427,7 +552,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code
+    desc: "code [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<del>"
@@ -436,7 +563,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del
+    desc: "del [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<embed>"
@@ -445,7 +574,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed
+    desc: "embed [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<hr>"
@@ -454,7 +585,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr
+    desc: "hr [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<ins>"
@@ -463,7 +596,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins
+    desc: "ins [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<kbd>"
@@ -472,7 +607,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd
+    desc: "kbd [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<mark>"
@@ -481,7 +618,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark
+    desc: "mark [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<object>, <param>"
@@ -490,9 +629,13 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object
+    desc: "object [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/param
+    desc: "param [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<output>"
@@ -501,7 +644,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output
+    desc: "output [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<samp>"
@@ -510,7 +655,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp
+    desc: "samp [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<u>"
@@ -519,7 +666,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u
+    desc: "u [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<var>"
@@ -528,7 +677,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var
+    desc: "var [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<q>"
@@ -537,7 +688,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q
+    desc: "q [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<s>"
@@ -546,7 +699,9 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s
+    desc: "s [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<wbr>"
@@ -556,7 +711,9 @@ requires:
   - "<br>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr
+    desc: "wbr [MDN]"
     type: reference
+    lang: en
 
 ---
 skill: "<video>, <audio>"
@@ -565,6 +722,10 @@ requires:
   - "<div>, <span>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video
+    desc: "video [MDN]"
     type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
+    desc: "audio [MDN]"
     type: reference
+    lang: en

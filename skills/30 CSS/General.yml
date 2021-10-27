@@ -18,6 +18,8 @@ skill: "inheritance"
 level: 1
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Cascade_and_inheritance
+    desc: "Cascade and inheritance"
+    lang: en
 requires:
   - "Basic CSS Syntax"
 
@@ -34,18 +36,18 @@ skill: "CSS reset and normalize.css (user agent styles)"
 level: 2
 resources:
   - url: https://css-tricks.com/reboot-resets-reasoning/
-    desc: Comparison of different approaches
+    desc: "Comparison of different approaches"
     type: article
     lang: en
   - url: https://marksheet.io/css-reset.html
-    desc: Marksheet description (outdated)
+    desc: "Marksheet description (outdated)"
     lang: en
   - url: https://necolas.github.io/normalize.css/
-    desc: Normalize.css is a traditional CSS doing a basic normalizing
+    desc: "Normalize.css is a traditional CSS doing a basic normalizing"
     type: documentation
     lang: en
   - url: https://getbootstrap.com/docs/5.1/content/reboot/
-    desc: Bootstrap’s normalize
+    desc: "Bootstrap’s normalize"
     type: documentation
     lang: en
 requires:

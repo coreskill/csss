@@ -22,6 +22,7 @@ requires:
   - "// Design // Responsive Web Design // Breakpoints (@media queries)"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@media#print
+    desc: "@media print [MDN]"
     type: reference
     lang: en
 
@@ -35,6 +36,7 @@ requires:
   - "CSS Units // cm, mm"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@page
+    desc: "@page [MDN]"
     type: reference
     lang: en
 
@@ -45,6 +47,7 @@ requires:
   - "Print CSS overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@page/size
+    desc: "@page/size [MDN]"
     type: reference
     lang: en
 
@@ -57,6 +60,7 @@ requires:
   - "Print CSS overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/break-inside
+    desc: "break-inside [MDN]"
     type: reference
     lang: en
 
@@ -69,9 +73,11 @@ requires:
   - "Print CSS overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/break-after
+    desc: "break-after [MDN]"
     type: reference
     lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/break-before
+    desc: "break-before [MDN]"
     type: reference
     lang: en
 
@@ -82,7 +88,9 @@ requires:
   - "Print CSS overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/content
-    desc: "See attr(x) value."
+    desc: "content [MDN]"
+    text: |
+      See attr(x) value.
     type: reference
     lang: en
 
@@ -93,6 +101,7 @@ requires:
   - "Print CSS overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/widows
+    desc: "widows [MDN]"
     type: reference
     lang: en
 
@@ -103,6 +112,7 @@ requires:
   - "Print CSS overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/orphans
+    desc: "orphans [MDN]"
     type: reference
     lang: en
 
@@ -113,12 +123,15 @@ requires:
   - "Print CSS overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:first
+    desc: ":first [MDN]"
     type: reference
     lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:left
+    desc: ":left [MDN]"
     type: reference
     lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:right
+    desc: ":right [MDN]"
     type: reference
     lang: en
 
@@ -129,6 +142,7 @@ requires:
   - "Print CSS overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@page/marks
+    desc: "marks [MDN]"
     type: reference
     lang: en
 
@@ -139,5 +153,6 @@ requires:
   - "Print CSS overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@page/bleed
+    desc: "bleed [MDN]"
     type: reference
     lang: en
