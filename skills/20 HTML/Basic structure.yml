@@ -24,4 +24,6 @@ resources:
     lang: en
   - url: https://htmlhead.dev/
     desc: "Practical guide to <head> content"
+    text: |
+      Best practices for both basic and complex content of `<head>`. 
     lang: en
