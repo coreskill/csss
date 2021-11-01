@@ -9,7 +9,13 @@ text: |
   - You’re able to navigate your computer’s filesystem.
 resources:
   - url: https://www.codecademy.com/courses/learn-the-command-line/lessons/navigation/exercises/filesystem
+    desc: "Learn the Command Line: Navigating the File System"
     type: interactive course
+    lang: en
+    availability: "Paid course"
+  - url: https://www.codecademy.com/learn/learn-the-command-line/modules/learn-the-command-line-navigation/cheatsheet
+    desc: "Free cheatsheet for Learn the Command Line course"
+    type: reference
     lang: en
 
 ---
@@ -19,10 +25,14 @@ requires:
   - "Files and folders"
 resources:
   - url: https://fileinfo.com/help/binary_vs_text_files
-    desc: "Read this"
+    desc: "What is the difference between binary and text files?"
+    text: |
+      Read this
     lang: en
   - url: https://onlineasciitools.com/convert-ascii-to-binary
-    desc: "Text to Binary converter so you can see how characters are saved in ones and zeros."
+    desc: "Text to Binary converter"
+    text: |
+      You can see how characters are saved in ones and zeros.
 
 ---
 skill: "special characters"
