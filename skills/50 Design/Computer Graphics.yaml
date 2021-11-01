@@ -26,6 +26,8 @@ level: 1
 resources:
   - url: https://www.smashingmagazine.com/2012/04/a-closer-look-at-font-rendering/
     desc: A closer look at font rendering [Smashing Magazine]
+    text: |
+      Don’t read _Current Implementations_ and further.
     type: article
     lang: en
 requires:
