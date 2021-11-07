@@ -221,7 +221,7 @@ resources:
     lang: en
 
 ---
-skill: "checkout (revert files to commited state)"
+skill: "checkout (to restore files to commited state)"
 text: |
    
 level: 3
