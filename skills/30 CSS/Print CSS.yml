@@ -19,7 +19,7 @@ skill: "media print"
 level: 4
 requires: 
   - "Print CSS overview"
-  - "// Design // Responsive Web Design // Breakpoints (@media queries)"
+  - "// Design related // Responsive Web Design // Breakpoints (@media queries)"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@media#print
     desc: "@media print [MDN]"

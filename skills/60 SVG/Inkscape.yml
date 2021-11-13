@@ -15,7 +15,7 @@ resources:
     type: tutorial
     lang: en
 requires:
-  - "// Design // Computer Graphics // Bitmap vs. Vector"
+  - "// Design related // Computer Graphics // Bitmap vs. Vector"
 
 ---
 skill: "Inkscape SVG v. SVG"

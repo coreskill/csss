@@ -30,7 +30,7 @@ skill: "Color Contrast"
 level: 2
 requires:
   - "Accessibility overview"
-  - "// Design // Design // Color Theory"
+  - "// Design related // Design // Color Theory"
 resources:
   - url: https://developer.chrome.com/docs/devtools/accessibility/reference/#contrast
     desc: "Color contrast tool built in Dev Tools"
