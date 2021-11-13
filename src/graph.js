@@ -33,7 +33,7 @@ graph.on("click", function (params) {
 graph.on("doubleClick", function (params) {
   let slug = this.getNodeAt(params.pointer.DOM);
   if (slug) {
-    window.location.href = `./${slug}.html`;
+    window.location.href = `./${slug}`;
   }
 });
 

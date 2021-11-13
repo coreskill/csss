@@ -28,7 +28,7 @@
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/">CSSS</a></li>
         {{#each categories}}
-          <li class="breadcrumb-item"><a href="{{slug}}.html">{{name}}</a></li>
+          <li class="breadcrumb-item"><a href="{{slug}}">{{name}}</a></li>
         {{/each}}
         <li class="breadcrumb-item active" aria-current="page">{{name}}</li>
       </ol>
@@ -80,7 +80,7 @@
           </h1>
 
           <p>
-            <small><a href="graph.html#{{slug}}">Show in dependency graph</a></small>
+            <small><a href="/graph#{{slug}}">Show in dependency graph</a></small>
           </p>
 
           <p class="lead skill-item skill-detail">

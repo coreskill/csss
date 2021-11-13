@@ -23,7 +23,12 @@ module.exports = {
   "watchOptions": {
     "ignoreInitial": true
   },
-  "server": "build",
+  "server": {
+    "baseDir": "build",
+    "serveStaticOptions": {
+      "extensions": ["html"]
+    }
+  },
   "proxy": false,
   "port": 7777,
   "middleware": false,
