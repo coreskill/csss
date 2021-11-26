@@ -9,12 +9,10 @@ resources:
     desc: "Essential visual design principles for web designers"
     type: article
     lang: en
-  - url: https://ebooks.webflow.com/chapter/how-element-spacing-works
-    desc: "How element spacing works"
-    type: article
-    lang: en
   - url: https://www.usability.gov/what-and-why/visual-design.html
     desc: "Visual Design Basics"
+    text: |
+      Very basic and dense explanation of some terms. 
     lang: en
   - url: https://cantunsee.space/
     desc: "Can’t Unsee"
