@@ -117,14 +117,26 @@ function saveFilters() {
     level5: levelFilter5.classList.contains("active"),
   };
 
+  let filtersKey = FILTERS_VALUE;
+  if (isAdmin) {
+    let userId = sessionStorage.getItem(SELECTED_USER_ID);
+    filtersKey = `${FILTERS_VALUE}__${userId}`;
+  }
+
   try {
-    localStorage.setItem(FILTERS_VALUE, JSON.stringify(filtersValue));
+    localStorage.setItem(filtersKey, JSON.stringify(filtersValue));
   } catch (e) {
   }
 }
 
 function loadFilters() {
-  let filters = localStorage.getItem(FILTERS_VALUE);
+  let filtersKey = FILTERS_VALUE;
+  if (isAdmin) {
+    let userId = sessionStorage.getItem(SELECTED_USER_ID);
+    filtersKey = `${FILTERS_VALUE}__${userId}`;
+  }
+
+  let filters = localStorage.getItem(filtersKey);
   if (filters) {
     try {
       filters = JSON.parse(filters);
@@ -153,3 +165,4 @@ function onFilterButtonClick(e) {
 loadFilters();
 INDICATOR_CHANGE_CALLBACKS.push(filterItems);
 USER_LOGGED_OUT_CALLBACKS.push(showAllItems);
+ADMIN_USER_SELECTED_CALLBACKS.push(loadFilters);
