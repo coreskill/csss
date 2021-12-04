@@ -13,6 +13,7 @@ firebase.firestore().settings({timestampsInSnapshots: true});
 const SELECTED_USER_ID = 'SELECTED_USER_ID';
 
 const USER_LOGGED_OUT_CALLBACKS = [];
+const ADMIN_USER_SELECTED_CALLBACKS = [];
 const INDICATOR_CHANGE_CALLBACKS = [];
 
 let removeFirebaseIndicatorListener = () => {
@@ -116,6 +117,8 @@ function saveUserData({uid, displayName, email, photoURL}) {
 let removeAdminListener = () => {
 };
 
+let isAdmin = false;
+
 function addAdminSelectbox() {
   return firebase.firestore()
     .collection("db").doc("v1")
@@ -132,6 +135,8 @@ function addAdminSelectbox() {
               resolve(data);
               fillAdminSelectbox(data);
               document.body.classList.add("admin");
+              isAdmin = true;
+              ADMIN_USER_SELECTED_CALLBACKS.forEach(cb => cb());
             }, error => {
               console.error(error);
               reject(error);
@@ -156,6 +161,7 @@ function fillAdminSelectbox(users) {
 
 adminSelect.addEventListener("change", () => {
   sessionStorage.setItem(SELECTED_USER_ID, adminSelect.value);
+  ADMIN_USER_SELECTED_CALLBACKS.forEach(cb => cb());
   removeFirebaseIndicatorListener();
   removeFirebaseNoteListener();
   addFirebaseIndicatorListener();
@@ -174,6 +180,7 @@ firebase.auth().onAuthStateChanged(user => {
       .then(() => document.body.classList.add("logged-in"));
   } else {
     document.body.classList.remove("logged-in", "admin");
+    isAdmin = false;
     removeFirebaseIndicatorListener();
     removeFirebaseNoteListener();
     removeAdminListener();
