@@ -4,35 +4,44 @@ sort: 100
 ---
 skill: "CSS Grid Overview"
 level: 3
+requires:
+  - "General // Basic CSS Syntax"
 text: |
   display: grid
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
-    desc: "Introduction to CSS Grid"
+    desc: "Introduction to CSS Grid [MDN]"
+    type: guide
     lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
-    desc: "Basic Concepts of grid layout"
+    desc: "Basic Concepts of grid layout [MDN]"
+    type: guide
     lang: en
   - url: https://mozilladevelopers.github.io/playground/css-grid
     desc: "Another introduction to CSS Grid"
+    text: |
+      By Mozilla developers
+    lang: en
   - url: https://css-tricks.com/snippets/css/complete-guide-grid/
-    desc: "Yet another introduction to CSS Grid and a handy reference"
-requires:
-  - "General // Basic CSS Syntax"
+    desc: "A Complete Guide to Grid [CSS Tricks]"
+    text: | 
+      Yet another introduction to CSS Grid and a handy reference
+    lang: en
 
 ---
 skill: "grid-template-rows, grid-template-columns"
 level: 3
+requires:
+  - "CSS Grid Overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows
+    desc: "grid-template-rows [MDN]"
     type: reference
     lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns
+    desc: "grid-template-columns [MDN]"
     type: reference
     lang: en
-    
-requires:
-  - "CSS Grid Overview"
 
 ---
 skill: "fr units"
@@ -41,6 +50,7 @@ requires:
   - "CSS Grid Overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex_value
+    desc: "<flex> value [MDN]"
     type: reference
     lang: en
 
@@ -51,14 +61,28 @@ requires:
   - "CSS Grid Overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/repeat
+    desc: "repeat [MDN]"
     type: reference
     lang: en
 
 ---
-skill: "max-content, min-content"
+skill: "max-content, min-content, fit-content"
 level: 3
 requires:
   - "CSS Grid Overview"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/max-content
+    desc: "max-content [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/min-content
+    desc: "min-content [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/fit-content
+    desc: "fit-content [MDN]"
+    type: reference
+    lang: en
 
 ---
 skill: "minmax()"
@@ -67,6 +91,7 @@ requires:
   - "CSS Grid Overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/minmax
+    desc: "minmax [MDN]"
     type: reference
     lang: en
 
@@ -77,6 +102,7 @@ requires:
   - "CSS Grid Overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/fit-content
+    desc: "fit-content [MDN]"
     type: reference
     lang: en
 
@@ -85,126 +111,151 @@ skill: "span"
 level: 3
 requires:
   - "CSS Grid Overview"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column#:~:text=span%20%26%26%20%5B%20%3Cinteger%3E%20%7C%7C%20%3Ccustom,0%20are%20invalid.
+    desc: "span keyword explanation [MDN]"
+    text: | 
+      tip: look for highlighted text
+    type: reference
+    lang: en
 
 ---
 skill: "grid-template-areas"
 level: 3
-resources:
-  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas
-    type: reference
-    lang: en
 requires:
   - "grid-template-rows, grid-template-columns"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas
+    desc: "grid-template-areas [MDN]"
+    type: reference
+    lang: en
 
 ---
 skill: "grid-template (shorthand)"
 level: 4
-resources:
-  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template
-    type: reference
-    lang: en
 requires:
   - "grid-template-areas"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template
+    desc: "grid-template [MDN]"
+    type: reference
+    lang: en
 
 ---
 skill: "row-gap, column-gap, gap"
 level: 3
+requires:
+  - "grid-template-rows, grid-template-columns"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/row-gap
+    desc: "row-gap [MDN]"
     type: reference
     lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/column-gap
+    desc: "column-gap [MDN]"
     type: reference
     lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/gap
+    desc: "gap [MDN]"
+    text: |
+      Shorthand
     type: reference
     lang: en
-    desc: "Shorthand"
-requires:
-  - "grid-template-rows, grid-template-columns"
 
 ---
 skill: "grid-row-start, grid-row-end, grid-column-start, grid-column-end"
 level: 3
+requires:
+  - "grid-template-rows, grid-template-columns"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row-start
+    desc: "grid-row-start [MDN]"
     type: reference
     lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row-end
+    desc: "grid-row-end [MDN]"
     type: reference
     lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-start
+    desc: "grid-column-start [MDN]"
     type: reference
     lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-end
+    desc: "grid-column-end [MDN]"
     type: reference
     lang: en
-requires:
-  - "grid-template-rows, grid-template-columns"
 
 ---
 skill: "grid-auto-flow"
 level: 3
-resources:
-  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow
-    type: reference
-    lang: en
 requires:
   - "grid-template-rows, grid-template-columns"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow
+    desc: "grid-auto-flow [MDN]"
+    type: reference
+    lang: en
 
 ---
 skill: "grid-auto-rows, grid-auto-columns"
 level: 3
+requires:
+  - "grid-template-rows, grid-template-columns"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-rows
+    desc: "grid-auto-rows [MDN]"
     type: reference
     lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-columns
+    desc: "grid-auto-columns [MDN]"
     type: reference
     lang: en
-requires:
-  - "grid-template-rows, grid-template-columns"
 
 ---
 skill: "grid-row, grid-column (shorthands)"
 level: 4
+requires:
+  - "grid-row-start, grid-row-end, grid-column-start, grid-column-end"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row
+    desc: "grid-row [MDN]"
     type: reference
     lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column
+    desc: "grid-column [MDN]"
     type: reference
     lang: en
-requires:
-  - "grid-row-start, grid-row-end, grid-column-start, grid-column-end"
 
 ---
 skill: "grid-area (shorthand)"
 level: 4
-resources:
-  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-area
-    type: reference
-    lang: en
 requires:
   - "grid-row-start, grid-row-end, grid-column-start, grid-column-end"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-area
+    desc: "grid-area [MDN]"
+    type: reference
+    lang: en
 
 ---
 skill: "grid (shorhand)"
 level: 4
-resources:
-  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid
-    type: reference
-    lang: en
 requires:
   - "grid-template-rows, grid-template-columns"
   - "grid-template-areas"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid
+    desc: "grid [MDN]"
+    type: reference
+    lang: en
 
 ---
 skill: "justify-items"
 level: 3
-resources:
-  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/justify-items
-    type: reference
-    lang: en
 requires:
   - "CSS Grid Overview" 
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/justify-items
+    desc: "justify-items [MDN]"
+    type: reference
+    lang: en

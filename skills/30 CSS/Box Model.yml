@@ -4,17 +4,19 @@ sort: 40
 ---
 skill: "width"
 level: 1
+requires:
+  - "General // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/width
     desc: "width [MDN]"
     type: reference
     lang: en
-requires:
-  - "General // Basic CSS Syntax"
 
 ---
 skill: "max-width, min-width"
 level: 1
+requires:
+  - "width"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/max-width
     desc: "max-width [MDN]"
@@ -24,23 +26,23 @@ resources:
     desc: "min-width [MDN]"
     type: reference
     lang: en
-requires:
-  - "width"
 
 ---
 skill: "height"
 level: 1
+requires:
+  - "General // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/height
     desc: "height [MDN]"
     type: reference
     lang: en
-requires:
-  - "General // Basic CSS Syntax"
 
 ---
 skill: "max-height, min-height"
 level: 1
+requires:
+  - "height"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/max-height
     desc: "max-height [MDN]"
@@ -50,8 +52,6 @@ resources:
     desc: "min-height [MDN]"
     type: reference
     lang: en
-requires:
-  - "height"
 
 ---
 skill: "border"
@@ -64,6 +64,8 @@ text: |
   - `dashed`
   
   Notable values: `double` and `groove`
+requires:
+  - "General // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/border
     desc: "border [MDN]"
@@ -81,23 +83,23 @@ resources:
     desc: "border-color [MDN]"
     type: reference
     lang: en
-requires:
-  - "General // Basic CSS Syntax"
 
 ---
 skill: "padding"
 level: 1
+requires:
+  - "General // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/padding
     desc: "padding [MDN]"
     type: reference
     lang: en
-requires:
-  - "General // Basic CSS Syntax"
 
 ---
 skill: "margin"
 level: 1
+requires:
+  - "General // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/margin
     desc: "margin [MDN]"
@@ -115,72 +117,70 @@ resources:
       Very nice article with 3D visualizations.
     type: article
     lang: en
-requires:
-  - "General // Basic CSS Syntax"
 
 ---
 skill: "box-sizing"
 level: 1
+requires:
+  - "General // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
     desc: "box-sizing [MDN]"
     type: reference
     lang: en
-requires:
-  - "General // Basic CSS Syntax"
 
 ---
 skill: "overflow"
 level: 1
+requires:
+  - "width"
+  - "height"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/overflow
     desc: "overflow [MDN]"
     type: reference
     lang: en
-requires:
-  - "width"
-  - "height"
 
 ---
 skill: "visibility"
 level: 1
+requires:
+  - "General // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/visibility
     desc: "visibility [MDN]"
     type: reference
     lang: en
-requires:
-  - "General // Basic CSS Syntax"
 
 ---
 skill: "outline"
 level: 3
+requires:
+  - "General // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/outline
     desc: "outline [MDN]"
     type: reference
     lang: en
-requires:
-  - "General // Basic CSS Syntax"
 
 ---
 skill: "display: block, display: inline, display: inline-block"
 level: 1
+requires:
+  - "General // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/display
     desc: "display [MDN]"
     type: reference
     lang: en
-requires:
-  - "General // Basic CSS Syntax"
 
 ---
 skill: "display: none"
 level: 1
+requires:
+  - "General // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/display
     desc: "display [MDN]"
     type: reference
     lang: en
-requires:
-  - "General // Basic CSS Syntax"
