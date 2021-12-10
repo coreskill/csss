@@ -65,6 +65,17 @@ requires:
   - "General // Basic CSS Syntax"
 
 ---
+skill: "border-radius"
+level: 4
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius
+    desc: "border-radius [MDN]"
+    type: reference
+    lang: en
+requires:
+  - "General // Basic CSS Syntax"
+
+---
 skill: "Multiple Backgrounds"
 level: 5
 resources:
