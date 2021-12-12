@@ -2,7 +2,7 @@
   "name": "@coreskill/csss",
   "private": true,
   "author": "Kate Miháliková <kate@katemihalikova.cz>",
-  "description": "CoreSkill Skill System (CSSS)",
+  "description": "CoreSkill Roadmap",
   "repository": "coreskill/csss",
   "scripts": {
     "start": "npm run dev",
