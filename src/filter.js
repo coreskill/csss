@@ -165,4 +165,4 @@ function onFilterButtonClick(e) {
 loadFilters();
 INDICATOR_CHANGE_CALLBACKS.push(filterItems);
 USER_LOGGED_OUT_CALLBACKS.push(showAllItems);
-ADMIN_USER_SELECTED_CALLBACKS.push(loadFilters);
+ADMIN_USER_SELECTED_CALLBACKS.push(loadFilters, filterItems);
