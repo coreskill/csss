@@ -22,6 +22,7 @@ resources:
     desc: "How to Meet WCAG"
     text: |
       A customizable quick reference to Web Content Accessibility Guidelines (WCAG) 2 requirements (success criteria) and techniques.
+      **Just for information** 
     type: reference
     lang: en
 
