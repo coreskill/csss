@@ -2730,16 +2730,6 @@
     "group": "git"
   },
   {
-    "id": "clone",
-    "label": "clone",
-    "group": "git"
-  },
-  {
-    "id": "pull",
-    "label": "pull",
-    "group": "git"
-  },
-  {
     "id": "status",
     "label": "status",
     "group": "git"
@@ -2770,13 +2760,13 @@
     "group": "git"
   },
   {
-    "id": "push1",
-    "label": "push",
+    "id": "gitignore",
+    "label": ".gitignore",
     "group": "git"
   },
   {
-    "id": "gitignore",
-    "label": ".gitignore",
+    "id": "checkout-to-restore-files-to-commited-state",
+    "label": "checkout (to restore files to commited state)",
     "group": "git"
   },
   {
@@ -2785,8 +2775,18 @@
     "group": "git"
   },
   {
-    "id": "checkout-to-restore-files-to-commited-state",
-    "label": "checkout (to restore files to commited state)",
+    "id": "pull",
+    "label": "pull",
+    "group": "git"
+  },
+  {
+    "id": "push1",
+    "label": "push",
+    "group": "git"
+  },
+  {
+    "id": "clone",
+    "label": "clone",
     "group": "git"
   },
   {
@@ -6272,38 +6272,13 @@
     "arrows": "to"
   },
   {
-    "from": "git-overview",
-    "to": "clone",
-    "arrows": "to"
-  },
-  {
-    "from": "git-overview",
-    "to": "pull",
-    "arrows": "to"
-  },
-  {
-    "from": "clone",
-    "to": "status",
-    "arrows": "to"
-  },
-  {
     "from": "init",
     "to": "status",
     "arrows": "to"
   },
   {
-    "from": "clone",
-    "to": "diff",
-    "arrows": "to"
-  },
-  {
     "from": "init",
     "to": "diff",
-    "arrows": "to"
-  },
-  {
-    "from": "clone",
-    "to": "add",
     "arrows": "to"
   },
   {
@@ -6317,11 +6292,6 @@
     "arrows": "to"
   },
   {
-    "from": "clone",
-    "to": "commit",
-    "arrows": "to"
-  },
-  {
     "from": "init",
     "to": "commit",
     "arrows": "to"
@@ -6337,8 +6307,43 @@
     "arrows": "to"
   },
   {
-    "from": "clone",
-    "to": "push1",
+    "from": "status",
+    "to": "gitignore",
+    "arrows": "to"
+  },
+  {
+    "from": "status",
+    "to": "checkout-to-restore-files-to-commited-state",
+    "arrows": "to"
+  },
+  {
+    "from": "add",
+    "to": "checkout-to-restore-files-to-commited-state",
+    "arrows": "to"
+  },
+  {
+    "from": "commit",
+    "to": "checkout-to-restore-files-to-commited-state",
+    "arrows": "to"
+  },
+  {
+    "from": "status",
+    "to": "restore",
+    "arrows": "to"
+  },
+  {
+    "from": "add",
+    "to": "restore",
+    "arrows": "to"
+  },
+  {
+    "from": "commit",
+    "to": "restore",
+    "arrows": "to"
+  },
+  {
+    "from": "git-overview",
+    "to": "pull",
     "arrows": "to"
   },
   {
@@ -6352,38 +6357,8 @@
     "arrows": "to"
   },
   {
-    "from": "status",
-    "to": "gitignore",
-    "arrows": "to"
-  },
-  {
-    "from": "status",
-    "to": "restore",
-    "arrows": "to"
-  },
-  {
-    "from": "add",
-    "to": "restore",
-    "arrows": "to"
-  },
-  {
-    "from": "commit",
-    "to": "restore",
-    "arrows": "to"
-  },
-  {
-    "from": "status",
-    "to": "checkout-to-restore-files-to-commited-state",
-    "arrows": "to"
-  },
-  {
-    "from": "add",
-    "to": "checkout-to-restore-files-to-commited-state",
-    "arrows": "to"
-  },
-  {
-    "from": "commit",
-    "to": "checkout-to-restore-files-to-commited-state",
+    "from": "git-overview",
+    "to": "clone",
     "arrows": "to"
   },
   {
