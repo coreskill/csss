@@ -135,9 +135,6 @@ resources:
   - url: https://marketplace.visualstudio.com/
     desc: "Extensions for VS Code"
     lang: en
-  - url: https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag
-    desc: "Auto Rename Tag: Automatically rename paired HTML/XML tag"
-    lang: en
   - url: https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
     desc: "GitLens: extension for git"
     lang: en
