@@ -4,7 +4,6 @@ sort: 10
 ---
 skill: "Git overview"
 level: 2
-sublevel: 1
 resources:
   - url: https://guides.github.com/introduction/git-handbook/
     desc: "Git Handbook by GitHub (stop reading at Basic Git commands)"
@@ -22,7 +21,6 @@ resources:
 ---
 skill: "Installation"
 level: 2
-sublevel: 1
 requires:
   - "Git overview"
 resources:
@@ -37,7 +35,6 @@ resources:
 ---
 skill: "init"
 level: 2
-sublevel: 1
 requires:
   - "Git overview"
 resources:
@@ -52,39 +49,9 @@ resources:
     lang: en
 
 ---
-skill: "clone"
-level: 2
-sublevel: 1
-requires:
-  - "Git overview"
-resources:
-  - url: https://guides.github.com/introduction/git-handbook/#basic-git
-    type: tutorial
-    lang: en
-  - url: https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone
-    type: tutorial
-    lang: en
-
----
-skill: "pull"
-level: 2
-sublevel: 1
-requires:
-  - "Git overview"
-resources:
-  - url: https://guides.github.com/introduction/git-handbook/#basic-git
-    type: tutorial
-    lang: en
-  - url: https://www.atlassian.com/git/tutorials/syncing/git-pull
-    type: tutorial
-    lang: en
-
----
 skill: "status"
 level: 2
-sublevel: 2
 requires:
-  - "clone"
   - "init"
 resources:
   - url: https://guides.github.com/introduction/git-handbook/#basic-git
@@ -101,9 +68,7 @@ resources:
 ---
 skill: "diff"
 level: 2
-sublevel: 2
 requires:
-  - "clone"
   - "init"
 resources:
   - url: https://www.atlassian.com/git/tutorials/saving-changes/git-diff
@@ -113,9 +78,7 @@ resources:
 ---
 skill: "add"
 level: 2
-sublevel: 2
 requires:
-  - "clone"
   - "init"
 resources:
   - url: https://guides.github.com/introduction/git-handbook/#basic-git
@@ -128,7 +91,6 @@ resources:
 ---
 skill: "reset"
 level: 2
-sublevel: 2
 requires:
   - "add"
 resources:
@@ -143,9 +105,7 @@ resources:
 ---
 skill: "commit"
 level: 2
-sublevel: 2
 requires:
-  - "clone"
   - "init"
 resources:
   - url: https://guides.github.com/introduction/git-handbook/#basic-git
@@ -158,7 +118,6 @@ resources:
 ---
 skill: "log"
 level: 2
-sublevel: 2
 requires:
   - "commit"
   - "init"
@@ -171,25 +130,8 @@ resources:
     lang: en
 
 ---
-skill: "push"
-level: 2
-sublevel: 2
-requires:
-  - "clone"
-  - "init"
-  - "pull"
-resources:
-  - url: https://guides.github.com/introduction/git-handbook/#basic-git
-    type: tutorial
-    lang: en
-  - url: https://www.atlassian.com/git/tutorials/syncing/git-push
-    type: tutorial
-    lang: en
-
----
 skill: ".gitignore"
 level: 3
-sublevel: 3
 requires:
   - "status"
 resources:
@@ -202,30 +144,10 @@ resources:
     lang: en
 
 ---
-skill: "restore"
-level: 3
-sublevel: 4
-requires:
-  - "status"
-  - "add"
-  - "commit"
-resources:
-  - url: https://git-scm.com/docs/git-restore
-    type: documentation
-    lang: en
-  - url: https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
-    type: tutorial
-    lang: en
-  - url: https://www.codecademy.com/courses/learn-git/lessons/git-backtracking/exercises/git-checkout-1
-    type: interactive course
-    lang: en
-
----
 skill: "checkout (to restore files to commited state)"
 text: |
-   
+
 level: 3
-sublevel: 4
 requires:
   - "status"
   - "add"
@@ -242,9 +164,66 @@ resources:
     lang: en
 
 ---
+skill: "restore"
+level: 3
+requires:
+  - "status"
+  - "add"
+  - "commit"
+resources:
+  - url: https://git-scm.com/docs/git-restore
+    type: documentation
+    lang: en
+  - url: https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
+    type: tutorial
+    lang: en
+  - url: https://www.codecademy.com/courses/learn-git/lessons/git-backtracking/exercises/git-checkout-1
+    type: interactive course
+    lang: en
+
+---
+skill: "pull"
+level: 3
+requires:
+  - "Git overview"
+resources:
+  - url: https://guides.github.com/introduction/git-handbook/#basic-git
+    type: tutorial
+    lang: en
+  - url: https://www.atlassian.com/git/tutorials/syncing/git-pull
+    type: tutorial
+    lang: en
+
+---
+skill: "push"
+level: 3
+requires:
+  - "init"
+  - "pull"
+resources:
+  - url: https://guides.github.com/introduction/git-handbook/#basic-git
+    type: tutorial
+    lang: en
+  - url: https://www.atlassian.com/git/tutorials/syncing/git-push
+    type: tutorial
+    lang: en
+
+---
+skill: "clone"
+level: 3
+requires:
+  - "Git overview"
+resources:
+  - url: https://guides.github.com/introduction/git-handbook/#basic-git
+    type: tutorial
+    lang: en
+  - url: https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone
+    type: tutorial
+    lang: en
+
+---
 skill: "branch add"
 level: 3
-sublevel: 5
 requires:
   - "commit"
   - "status"
@@ -256,7 +235,6 @@ resources:
 ---
 skill: "branch list"
 level: 3
-sublevel: 5
 requires:
   - "commit"
   - "status"
@@ -268,7 +246,6 @@ resources:
 ---
 skill: "switch"
 level: 3
-sublevel: 5
 requires:
   - "commit"
   - "status"
@@ -280,7 +257,6 @@ resources:
 ---
 skill: "checkout"
 level: 3
-sublevel: 5
 requires:
   - "commit"
   - "switch"
@@ -293,7 +269,6 @@ resources:
 ---
 skill: "merge"
 level: 3
-sublevel: 6
 requires:
   - "commit"
   - "branch add"
@@ -306,7 +281,6 @@ resources:
 ---
 skill: "branch -d"
 level: 3
-sublevel: 6
 requires:
   - "branch add"
   - "branch list"
@@ -319,7 +293,6 @@ resources:
 ---
 skill: "branching strategies (GitFlow)"
 level: 3
-sublevel: 6
 requires:
   - "branch add"
   - "branch list"
@@ -335,7 +308,6 @@ resources:
 ---
 skill: "stash"
 level: 3
-sublevel: 7
 requires:
   - "commit"
   - "checkout"
@@ -347,7 +319,6 @@ resources:
 ---
 skill: "conflicts"
 level: 3
-sublevel: 7
 requires:
   - "merge"
   - "stash"
@@ -363,7 +334,6 @@ resources:
 ---
 skill: "rebase"
 level: 4
-sublevel: 9
 requires:
   - "merge"
 resources:
@@ -377,7 +347,6 @@ resources:
 ---
 skill: "rebase -i (interactive)"
 level: 4
-sublevel: 10
 requires:
   - "rebase"
 resources:
@@ -388,7 +357,6 @@ resources:
 ---
 skill: "config"
 level: 5
-sublevel: 10
 requires:
   - "Git overview"
 resources:
@@ -399,7 +367,6 @@ resources:
 ---
 skill: "revert"
 level: extra
-sublevel: 10
 requires:
   - "commit"
 resources:
@@ -413,7 +380,6 @@ resources:
 ---
 skill: "aliases"
 level: 5
-sublevel: 10
 requires:
   - "Git overview"
 resources:
