@@ -50,6 +50,12 @@ resources:
     lang: en
 
 ---
+skill: "Google Calendar"
+level: 0
+resources:
+  - url: https://calendar.google.com/
+
+---
 skill: "Junior Guru Club Discord"
 level: 0
 text: |
