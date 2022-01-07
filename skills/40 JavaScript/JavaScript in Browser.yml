@@ -1,0 +1,308 @@
+---
+sort: -300
+
+---
+skill: "<script> tag"
+level: 2
+requires:
+  - "// HTML // Head // <link>"
+  - "Basics // JavaScript overview"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script
+    desc: "script [MDN]"
+    type: reference
+    lang: en
+  - url: https://www.codecademy.com/courses/build-interactive-websites/lessons/script-element/exercises/script-element-intro
+    desc: "Building Interactive JavaScript Websites - <script> element (Codecademy PRO)"
+    type: interactive course
+    lang: en
+  - url: https://www.codecademy.com/learn/build-interactive-websites/modules/web-dev-interactive-websites/cheatsheet
+    desc: "Building Interactive JavaScript Websites - Cheatsheet (Codecademy Free)"
+    type: cheatsheet
+    lang: en
+
+---
+skill: "<script defer>, <script async>"
+level: 3
+requires:
+  - "<script> tag"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script
+    desc: "script [MDN]"
+    type: reference
+    lang: en
+  - url: https://www.codecademy.com/courses/build-interactive-websites/lessons/script-element/exercises/script-element-load
+    desc: "Building Interactive JavaScript Websites - How are scripts loaded? (Codecademy PRO)"
+    type: interactive course
+    lang: en
+  - url: https://www.codecademy.com/learn/build-interactive-websites/modules/web-dev-interactive-websites/cheatsheet
+    desc: "Building Interactive JavaScript Websites - Cheatsheet (Codecademy Free)"
+    type: cheatsheet
+    lang: en
+
+---
+skill: "DOM overview"
+level: 4
+requires:
+  - "// HTML // Basic structure // <!doctype>, <html>, <head>, <body>"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+    desc: "Introduction to the DOM [MDN]"
+    type: guide
+    lang: en
+  - url: https://www.codecademy.com/courses/build-interactive-websites/lessons/intro-dom/exercises/what-is-the-dom
+    desc: "Building Interactive JavaScript Websites - What is the DOM? (Codecademy PRO)"
+    type: interactive course
+    lang: en
+  - url: https://www.codecademy.com/learn/build-interactive-websites/modules/web-dev-interactive-websites/cheatsheet
+    desc: "Building Interactive JavaScript Websites - Cheatsheet (Codecademy Free)"
+    type: cheatsheet
+    lang: en
+  - url: https://chrome.google.com/webstore/detail/html-tree-generator/dlbbmhhaadfnbbdnjalilhdakfmiffeg
+    desc: "HTML Tree Generator (display any website as a DOM tree)"
+    type: extension
+    lang: en
+
+---
+skill: "Accessing DOM using document"
+level: 4
+requires:
+  - "DOM overview"
+  - "Objects // Objects overview"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Document
+    desc: "Document [MDN]"
+    type: reference
+    lang: en
+  - url: https://www.codecademy.com/courses/build-interactive-websites/lessons/javascript-dom/exercises/document
+    desc: "Building Interactive JavaScript Websites - The document keyword (Codecademy PRO)"
+    type: interactive course
+    lang: en
+
+---
+skill: "Changing element content"
+level: 4
+requires:
+  - "<script> tag"
+  - "Accessing DOM using document"
+  - "Objects // Nested Objects"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML
+    desc: "Element.innerHTML [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/innerText
+    desc: "HTMLElement.innerText [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
+    desc: "Node.textContent [MDN]"
+    type: reference
+    lang: en
+  - url: https://www.codecademy.com/courses/build-interactive-websites/lessons/javascript-dom/exercises/tweak-element
+    desc: "Building Interactive JavaScript Websites - Tweak an Element (Codecademy PRO)"
+    type: interactive course
+    lang: en
+  - url: https://www.codecademy.com/learn/build-interactive-websites/modules/web-dev-interactive-websites/cheatsheet
+    desc: "Building Interactive JavaScript Websites - Cheatsheet (Codecademy Free)"
+    type: cheatsheet
+    lang: en
+
+---
+skill: "Selecting one element"
+level: 4
+requires:
+  - "Changing element content"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+    desc: "Document.querySelector() [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+    desc: "Document.getElementById() [MDN]"
+    type: reference
+    lang: en
+  - url: https://www.codecademy.com/courses/build-interactive-websites/lessons/javascript-dom/exercises/select-element
+    desc: "Building Interactive JavaScript Websites - Select and Modify Elements (Codecademy PRO)"
+    type: interactive course
+    lang: en
+  - url: https://www.codecademy.com/learn/build-interactive-websites/modules/web-dev-interactive-websites/cheatsheet
+    desc: "Building Interactive JavaScript Websites - Cheatsheet (Codecademy Free)"
+    type: cheatsheet
+    lang: en
+
+---
+skill: "Creating and inserting elements"
+level: 4
+requires:
+  - "Selecting one element"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
+    desc: "Document.createElement() [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
+    desc: "Node.appendChild() [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Element/append
+    desc: "Element.append() [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Element/before
+    desc: "Element.before() [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Element/after
+    desc: "Element.after() [MDN]"
+    type: reference
+    lang: en
+  - url: https://www.codecademy.com/courses/build-interactive-websites/lessons/javascript-dom/exercises/create-element
+    desc: "Building Interactive JavaScript Websites - Create and Insert Elements (Codecademy PRO)"
+    type: interactive course
+    lang: en
+  - url: https://www.codecademy.com/learn/build-interactive-websites/modules/web-dev-interactive-websites/cheatsheet
+    desc: "Building Interactive JavaScript Websites - Cheatsheet (Codecademy Free)"
+    type: cheatsheet
+    lang: en
+
+---
+skill: "Removing elements"
+level: 4
+requires:
+  - "Selecting one element"
+  - "Creating and inserting elements"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild
+    desc: "Node.removeChild() [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/hidden
+    desc: "HTMLElement.hidden [MDN]"
+    type: reference
+    lang: en
+  - url: https://www.codecademy.com/courses/build-interactive-websites/lessons/javascript-dom/exercises/remove-element
+    desc: "Building Interactive JavaScript Websites - Remove an Element (Codecademy PRO)"
+    type: interactive course
+    lang: en
+
+---
+skill: "Traversing DOM"
+level: 4
+requires:
+  - "Selecting one element"
+  - "Arrays // Accessing elements"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Node/parentNode
+    desc: "Node.parentNode [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Element/children
+    desc: "Element.children [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Node/firstChild
+    desc: "Node.firstChild [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector
+    desc: "Element.querySelector() [MDN]"
+    type: reference
+    lang: en
+  - url: https://www.codecademy.com/courses/build-interactive-websites/lessons/javascript-dom/exercises/traverse-dom
+    desc: "Building Interactive JavaScript Websites - Traversing the DOM (Codecademy PRO)"
+    type: interactive course
+    lang: en
+
+---
+skill: "Selecting multiple elements"
+level: 5
+requires:
+  - "Selecting one element"
+  - "Arrays // Accessing elements"
+  - "Loops // Looping through Arrays"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll
+    desc: "Document.querySelectorAll() [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelectorAll
+    desc: "Element.querySelectorAll() [MDN]"
+    type: reference
+    lang: en
+
+---
+skill: "Manipulating element classes"
+level: 4
+requires:
+  - "Selecting one element"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+    desc: "Element.classList [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/contains
+    desc: "DOMTokenList.contains() [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/add
+    desc: "DOMTokenList.add() [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/remove
+    desc: "DOMTokenList.remove() [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/toggle
+    desc: "DOMTokenList.toggle() [MDN]"
+    type: reference
+    lang: en
+  - url: https://blog.teamtreehouse.com/manipulating-classes-using-classlist-api
+    desc: "Manipulating Classes Using The classList API"
+    type: guide
+    lang: en
+
+---
+skill: "Manipulating element attributes"
+level: extra
+requires:
+  - "Selecting one element"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttribute
+    desc: "Element.hasAttribute() [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute
+    desc: "Element.getAttribute() [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute
+    desc: "Element.setAttribute() [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute
+    desc: "Element.removeAttribute() [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Element/toggleAttribute
+    desc: "Element.toggleAttribute() [MDN]"
+    type: reference
+    lang: en
+
+
+
+
+
+# @TODO DOM Events
+
+---
+skill: "DOM Events overview"
+level: 4
+requires:
+  - "DOM overview"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Events
+    lang: en
+  - url: https://domevents.dev/
+    desc: "Learn about the DOM Event system through exploration"
+    lang: en
