@@ -56,8 +56,8 @@
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/">Roadmap</a></li>
-          <li class="breadcrumb-item"><a href="libraries-and-frameworks">Libraries and Frameworks</a></li>
-          <li class="breadcrumb-item"><a href="jquery">jQuery</a></li>
+          <li class="breadcrumb-item"><a href="javascript">JavaScript</a></li>
+          <li class="breadcrumb-item"><a href="javascript-in-browser">JavaScript in Browser</a></li>
         <li class="breadcrumb-item active" aria-current="page">Traversing DOM</li>
       </ol>
     </nav>
@@ -66,7 +66,7 @@
       <div class="col-3">
           <h2 class="mt-3">Prerequisites</h2>
           <div class="list-group list-group-flush">
-              <a href="selecting-elements1"
+              <a href="selecting-one-element"
                  class="
                   skill-item
                   
@@ -85,11 +85,11 @@
                       
                       
                       
+                      is-level-4
                       
                       
-                      is-extra
                     "
-                    data-slug="selecting-elements1"
+                    data-slug="selecting-one-element"
                   >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
@@ -98,7 +98,7 @@
                   </span>
               
                 <span>
-                  Selecting elements
+                  Selecting one element
                 </span>
               
                   <span class="ms-auto ps-3 text-end">
@@ -109,14 +109,73 @@
                           
                           
                           
+                          bg-primary
                           
                           
-                          bg-warning
                         "
-                      >extra</span>
+                      >4</span>
                       <!--
                       -->
-                    <span class="note note-empty badge bg-dark" data-slug="selecting-elements1">
+                    <span class="note note-empty badge bg-dark" data-slug="selecting-one-element">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="accessing-elements"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      is-level-2
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="accessing-elements"
+                  >
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                    <span class="text-muted">
+                      JavaScript » Arrays » 
+                    </span>
+                  Accessing elements
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <span
+                        class="
+                          badge rounded-pill
+                          
+                          
+                          bg-cyan
+                          
+                          
+                          
+                          
+                        "
+                      >2</span>
+                      <!--
+                      -->
+                    <span class="note note-empty badge bg-dark" data-slug="accessing-elements">
                       <span class="note-value"></span>
                       <span tabindex="0" class="note-changer fw-normal">✏️</span>
                     </span>
@@ -146,12 +205,12 @@
                     
                     
                     
+                    bg-primary
                     
                     
-                    bg-warning
                   "
                 >
-                  extra level
+                  level 4
                 </span>
               </span>
           </h1>
@@ -170,63 +229,53 @@
 
             <h2 class="mt-5">Resources</h2>
             <div class="list-group list-group-flush">
-                <a href="https://api.jquery.com/children/" class="list-group-item list-group-item-action flex-column align-items-start">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/parentNode" class="list-group-item list-group-item-action flex-column align-items-start">
                   <div class="d-flex w-100 justify-content-between">
                     <h3 class="h5 mb-1">
-                      <span class="badge bg-secondary">documentantion</span>
+                      <span class="badge bg-secondary">reference</span>
                       <span class="badge bg-light">en</span>
                       
-                      https://api.jquery.com/children/
+                      <b>Node.parentNode [MDN]</b>
                     </h3>
                   </div>
                 </a>
-                <a href="https://api.jquery.com/parent/" class="list-group-item list-group-item-action flex-column align-items-start">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/children" class="list-group-item list-group-item-action flex-column align-items-start">
                   <div class="d-flex w-100 justify-content-between">
                     <h3 class="h5 mb-1">
-                      <span class="badge bg-secondary">documentantion</span>
+                      <span class="badge bg-secondary">reference</span>
                       <span class="badge bg-light">en</span>
                       
-                      https://api.jquery.com/parent/
+                      <b>Element.children [MDN]</b>
                     </h3>
                   </div>
                 </a>
-                <a href="https://api.jquery.com/siblings/" class="list-group-item list-group-item-action flex-column align-items-start">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/firstChild" class="list-group-item list-group-item-action flex-column align-items-start">
                   <div class="d-flex w-100 justify-content-between">
                     <h3 class="h5 mb-1">
-                      <span class="badge bg-secondary">documentantion</span>
+                      <span class="badge bg-secondary">reference</span>
                       <span class="badge bg-light">en</span>
                       
-                      https://api.jquery.com/siblings/
+                      <b>Node.firstChild [MDN]</b>
                     </h3>
                   </div>
                 </a>
-                <a href="https://api.jquery.com/closest/" class="list-group-item list-group-item-action flex-column align-items-start">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector" class="list-group-item list-group-item-action flex-column align-items-start">
                   <div class="d-flex w-100 justify-content-between">
                     <h3 class="h5 mb-1">
-                      <span class="badge bg-secondary">documentantion</span>
+                      <span class="badge bg-secondary">reference</span>
                       <span class="badge bg-light">en</span>
                       
-                      https://api.jquery.com/closest/
+                      <b>Element.querySelector() [MDN]</b>
                     </h3>
                   </div>
                 </a>
-                <a href="https://api.jquery.com/next/" class="list-group-item list-group-item-action flex-column align-items-start">
+                <a href="https://www.codecademy.com/courses/build-interactive-websites/lessons/javascript-dom/exercises/traverse-dom" class="list-group-item list-group-item-action flex-column align-items-start">
                   <div class="d-flex w-100 justify-content-between">
                     <h3 class="h5 mb-1">
-                      <span class="badge bg-secondary">documentantion</span>
+                      <span class="badge bg-secondary">interactive course</span>
                       <span class="badge bg-light">en</span>
                       
-                      https://api.jquery.com/next/
-                    </h3>
-                  </div>
-                </a>
-                <a href="https://api.jquery.com/find/" class="list-group-item list-group-item-action flex-column align-items-start">
-                  <div class="d-flex w-100 justify-content-between">
-                    <h3 class="h5 mb-1">
-                      <span class="badge bg-secondary">documentantion</span>
-                      <span class="badge bg-light">en</span>
-                      
-                      https://api.jquery.com/find/
+                      <b>Building Interactive JavaScript Websites - Traversing the DOM (Codecademy PRO)</b>
                     </h3>
                   </div>
                 </a>
@@ -235,7 +284,7 @@
 
           <h2 class="mt-5">Also learn these skills</h2>
           <div class="list-group list-group-flush">
-              <a href="addclass"
+              <a href="creating-and-inserting-elements"
                  class="
                   skill-item
                   
@@ -254,11 +303,11 @@
                       
                       
                       
+                      is-level-4
                       
                       
-                      is-extra
                     "
-                    data-slug="addclass"
+                    data-slug="creating-and-inserting-elements"
                   >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
@@ -267,7 +316,7 @@
                   </span>
               
                 <span>
-                  .addClass()
+                  Creating and inserting elements
                 </span>
               
                   <span class="ms-auto ps-3 text-end">
@@ -278,20 +327,20 @@
                           
                           
                           
+                          bg-primary
                           
                           
-                          bg-warning
                         "
-                      >extra</span>
+                      >4</span>
                       <!--
                       -->
-                    <span class="note note-empty badge bg-dark" data-slug="addclass">
+                    <span class="note note-empty badge bg-dark" data-slug="creating-and-inserting-elements">
                       <span class="note-value"></span>
                       <span tabindex="0" class="note-changer fw-normal">✏️</span>
                     </span>
                 </span>
               </a>
-              <a href="removeclass"
+              <a href="removing-elements"
                  class="
                   skill-item
                   
@@ -310,11 +359,11 @@
                       
                       
                       
+                      is-level-4
                       
                       
-                      is-extra
                     "
-                    data-slug="removeclass"
+                    data-slug="removing-elements"
                   >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
@@ -323,7 +372,7 @@
                   </span>
               
                 <span>
-                  .removeClass()
+                  Removing elements
                 </span>
               
                   <span class="ms-auto ps-3 text-end">
@@ -334,20 +383,132 @@
                           
                           
                           
+                          bg-primary
                           
                           
-                          bg-warning
                         "
-                      >extra</span>
+                      >4</span>
                       <!--
                       -->
-                    <span class="note note-empty badge bg-dark" data-slug="removeclass">
+                    <span class="note note-empty badge bg-dark" data-slug="removing-elements">
                       <span class="note-value"></span>
                       <span tabindex="0" class="note-changer fw-normal">✏️</span>
                     </span>
                 </span>
               </a>
-              <a href="toggleclass"
+              <a href="selecting-multiple-elements"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      
+                      is-level-5
+                      
+                    "
+                    data-slug="selecting-multiple-elements"
+                  >
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  Selecting multiple elements
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <span
+                        class="
+                          badge rounded-pill
+                          
+                          
+                          
+                          
+                          
+                          bg-dark
+                          
+                        "
+                      >5</span>
+                      <!--
+                      -->
+                    <span class="note note-empty badge bg-dark" data-slug="selecting-multiple-elements">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="manipulating-element-classes"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      
+                      
+                      is-level-4
+                      
+                      
+                    "
+                    data-slug="manipulating-element-classes"
+                  >
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                  Manipulating element classes
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <span
+                        class="
+                          badge rounded-pill
+                          
+                          
+                          
+                          
+                          bg-primary
+                          
+                          
+                        "
+                      >4</span>
+                      <!--
+                      -->
+                    <span class="note note-empty badge bg-dark" data-slug="manipulating-element-classes">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="manipulating-element-attributes"
                  class="
                   skill-item
                   
@@ -370,7 +531,7 @@
                       
                       is-extra
                     "
-                    data-slug="toggleclass"
+                    data-slug="manipulating-element-attributes"
                   >
                     <span class="locked">🔒️</span>
                     <span class="done">✔️</span>
@@ -379,7 +540,7 @@
                   </span>
               
                 <span>
-                  .toggleClass()
+                  Manipulating element attributes
                 </span>
               
                   <span class="ms-auto ps-3 text-end">
@@ -397,7 +558,66 @@
                       >extra</span>
                       <!--
                       -->
-                    <span class="note note-empty badge bg-dark" data-slug="toggleclass">
+                    <span class="note note-empty badge bg-dark" data-slug="manipulating-element-attributes">
+                      <span class="note-value"></span>
+                      <span tabindex="0" class="note-changer fw-normal">✏️</span>
+                    </span>
+                </span>
+              </a>
+              <a href="updating-elements"
+                 class="
+                  skill-item
+                  
+                  list-group-item
+                  list-group-item-action
+                  d-flex
+                  justify-content-start
+                  align-items-baseline
+                  py-1 ps-0 pe-2
+                "
+              >
+                  <span
+                    class="
+                      indicator indicator-list text-center p-1
+                      
+                      
+                      is-level-2
+                      
+                      
+                      
+                      
+                    "
+                    data-slug="updating-elements"
+                  >
+                    <span class="locked">🔒️</span>
+                    <span class="done">✔️</span>
+                    <span class="star">⭐️</span>
+                    <span class="not-done">❔️</span>
+                  </span>
+              
+                <span>
+                    <span class="text-muted">
+                      JavaScript » Arrays » 
+                    </span>
+                  Updating elements
+                </span>
+              
+                  <span class="ms-auto ps-3 text-end">
+                      <span
+                        class="
+                          badge rounded-pill
+                          
+                          
+                          bg-cyan
+                          
+                          
+                          
+                          
+                        "
+                      >2</span>
+                      <!--
+                      -->
+                    <span class="note note-empty badge bg-dark" data-slug="updating-elements">
                       <span class="note-value"></span>
                       <span tabindex="0" class="note-changer fw-normal">✏️</span>
                     </span>

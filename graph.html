@@ -1910,31 +1910,6 @@
     "group": "conditionals"
   },
   {
-    "id": "dom-events-overview",
-    "label": "DOM Events overview",
-    "group": "dom-events"
-  },
-  {
-    "id": "dom-overview",
-    "label": "DOM overview",
-    "group": "dom"
-  },
-  {
-    "id": "selecting-elements",
-    "label": "Selecting elements",
-    "group": "dom"
-  },
-  {
-    "id": "getting-attributes",
-    "label": "Getting attributes",
-    "group": "dom"
-  },
-  {
-    "id": "changing-attributes",
-    "label": "Changing attributes",
-    "group": "dom"
-  },
-  {
     "id": "principles",
     "label": "Principles",
     "group": "functions"
@@ -2008,6 +1983,71 @@
     "id": "overview-of-other-methods-eg-findindex-some-every-reduce",
     "label": "overview of other methods e.g. .findIndex(), .some(), .every(), .reduce()",
     "group": "iterators"
+  },
+  {
+    "id": "script-tag",
+    "label": "<script> tag",
+    "group": "javascript-in-browser"
+  },
+  {
+    "id": "script-defer-script-async",
+    "label": "<script defer>, <script async>",
+    "group": "javascript-in-browser"
+  },
+  {
+    "id": "dom-overview",
+    "label": "DOM overview",
+    "group": "javascript-in-browser"
+  },
+  {
+    "id": "accessing-dom-using-document",
+    "label": "Accessing DOM using document",
+    "group": "javascript-in-browser"
+  },
+  {
+    "id": "changing-element-content",
+    "label": "Changing element content",
+    "group": "javascript-in-browser"
+  },
+  {
+    "id": "selecting-one-element",
+    "label": "Selecting one element",
+    "group": "javascript-in-browser"
+  },
+  {
+    "id": "creating-and-inserting-elements",
+    "label": "Creating and inserting elements",
+    "group": "javascript-in-browser"
+  },
+  {
+    "id": "removing-elements",
+    "label": "Removing elements",
+    "group": "javascript-in-browser"
+  },
+  {
+    "id": "traversing-dom",
+    "label": "Traversing DOM",
+    "group": "javascript-in-browser"
+  },
+  {
+    "id": "selecting-multiple-elements",
+    "label": "Selecting multiple elements",
+    "group": "javascript-in-browser"
+  },
+  {
+    "id": "manipulating-element-classes",
+    "label": "Manipulating element classes",
+    "group": "javascript-in-browser"
+  },
+  {
+    "id": "manipulating-element-attributes",
+    "label": "Manipulating element attributes",
+    "group": "javascript-in-browser"
+  },
+  {
+    "id": "dom-events-overview",
+    "label": "DOM Events overview",
+    "group": "javascript-in-browser"
   },
   {
     "id": "loops-overview",
@@ -2980,7 +3020,7 @@
     "group": "jquery"
   },
   {
-    "id": "selecting-elements1",
+    "id": "selecting-elements",
     "label": "Selecting elements",
     "group": "jquery"
   },
@@ -3030,7 +3070,7 @@
     "group": "jquery"
   },
   {
-    "id": "traversing-dom",
+    "id": "traversing-dom1",
     "label": "Traversing DOM",
     "group": "jquery"
   },
@@ -5377,31 +5417,6 @@
     "arrows": "to"
   },
   {
-    "from": "dom-overview",
-    "to": "dom-events-overview",
-    "arrows": "to"
-  },
-  {
-    "from": "nested-objects",
-    "to": "dom-overview",
-    "arrows": "to"
-  },
-  {
-    "from": "dom-overview",
-    "to": "selecting-elements",
-    "arrows": "to"
-  },
-  {
-    "from": "selecting-elements",
-    "to": "getting-attributes",
-    "arrows": "to"
-  },
-  {
-    "from": "getting-attributes",
-    "to": "changing-attributes",
-    "arrows": "to"
-  },
-  {
     "from": "javascript-overview",
     "to": "principles",
     "arrows": "to"
@@ -5474,6 +5489,111 @@
   {
     "from": "iterators-overview",
     "to": "overview-of-other-methods-eg-findindex-some-every-reduce",
+    "arrows": "to"
+  },
+  {
+    "from": "link",
+    "to": "script-tag",
+    "arrows": "to"
+  },
+  {
+    "from": "javascript-overview",
+    "to": "script-tag",
+    "arrows": "to"
+  },
+  {
+    "from": "script-tag",
+    "to": "script-defer-script-async",
+    "arrows": "to"
+  },
+  {
+    "from": "doctype-html-head-body",
+    "to": "dom-overview",
+    "arrows": "to"
+  },
+  {
+    "from": "dom-overview",
+    "to": "accessing-dom-using-document",
+    "arrows": "to"
+  },
+  {
+    "from": "objects-overview",
+    "to": "accessing-dom-using-document",
+    "arrows": "to"
+  },
+  {
+    "from": "script-tag",
+    "to": "changing-element-content",
+    "arrows": "to"
+  },
+  {
+    "from": "accessing-dom-using-document",
+    "to": "changing-element-content",
+    "arrows": "to"
+  },
+  {
+    "from": "nested-objects",
+    "to": "changing-element-content",
+    "arrows": "to"
+  },
+  {
+    "from": "changing-element-content",
+    "to": "selecting-one-element",
+    "arrows": "to"
+  },
+  {
+    "from": "selecting-one-element",
+    "to": "creating-and-inserting-elements",
+    "arrows": "to"
+  },
+  {
+    "from": "selecting-one-element",
+    "to": "removing-elements",
+    "arrows": "to"
+  },
+  {
+    "from": "creating-and-inserting-elements",
+    "to": "removing-elements",
+    "arrows": "to"
+  },
+  {
+    "from": "selecting-one-element",
+    "to": "traversing-dom",
+    "arrows": "to"
+  },
+  {
+    "from": "accessing-elements",
+    "to": "traversing-dom",
+    "arrows": "to"
+  },
+  {
+    "from": "selecting-one-element",
+    "to": "selecting-multiple-elements",
+    "arrows": "to"
+  },
+  {
+    "from": "accessing-elements",
+    "to": "selecting-multiple-elements",
+    "arrows": "to"
+  },
+  {
+    "from": "looping-through-arrays",
+    "to": "selecting-multiple-elements",
+    "arrows": "to"
+  },
+  {
+    "from": "selecting-one-element",
+    "to": "manipulating-element-classes",
+    "arrows": "to"
+  },
+  {
+    "from": "selecting-one-element",
+    "to": "manipulating-element-attributes",
+    "arrows": "to"
+  },
+  {
+    "from": "dom-overview",
+    "to": "dom-events-overview",
     "arrows": "to"
   },
   {
@@ -6713,7 +6833,7 @@
   },
   {
     "from": "jquery-overview",
-    "to": "selecting-elements1",
+    "to": "selecting-elements",
     "arrows": "to"
   },
   {
@@ -6747,23 +6867,23 @@
     "arrows": "to"
   },
   {
-    "from": "selecting-elements1",
+    "from": "selecting-elements",
     "to": "addclass",
     "arrows": "to"
   },
   {
-    "from": "selecting-elements1",
+    "from": "selecting-elements",
     "to": "removeclass",
     "arrows": "to"
   },
   {
-    "from": "selecting-elements1",
+    "from": "selecting-elements",
     "to": "toggleclass",
     "arrows": "to"
   },
   {
-    "from": "selecting-elements1",
-    "to": "traversing-dom",
+    "from": "selecting-elements",
+    "to": "traversing-dom1",
     "arrows": "to"
   },
   {
