@@ -10,7 +10,7 @@ resources:
     type: reference
     lang: en
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 
 ---
 skill: "background-image, background-repeat, background-position"
@@ -29,7 +29,7 @@ resources:
     type: reference
     lang: en
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 
 ---
 skill: "background-size"
@@ -51,7 +51,7 @@ resources:
     type: reference
     lang: en
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 
 ---
 skill: "box-shadow"
@@ -62,7 +62,7 @@ resources:
     type: reference
     lang: en
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 
 ---
 skill: "border-radius"
@@ -73,7 +73,7 @@ resources:
     type: reference
     lang: en
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 
 ---
 skill: "Multiple Backgrounds"

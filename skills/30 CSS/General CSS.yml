@@ -4,12 +4,23 @@ sort: 10
 ---
 skill: "Basic CSS Syntax"
 level: 1
+resources:
+  - url: https://marksheet.io/css-syntax.html
+    desc: "CSS Syntax [MarkSheet]"
+    lang: en
+requires:
+  - "// HTML // Head // <link>"
+  - "// HTML // Basic Structure // <!doctype>, <html>, <head>, <body>"
+  - "// HTML // Body // <p>"
+  - "// HTML // Body // <div>, <span>"
+
 
 ---
 skill: "Flow: Fluidity, Ordering and Stacking"
 level: 1
 resources:
   - url: https://marksheet.io/css-the-flow.html
+    desc: "Flow [MarkSheet]"
 requires:
   - "Basic CSS Syntax"
 
@@ -56,6 +67,11 @@ requires:
 ---
 skill: "Connecting with HTML (linking)"
 level: 1
+resources:
+  - url: https://marksheet.io/why-css-exists.html#where-do-i-write-css
+    desc: "Where do I write CSS? [MarkSheet]"
+    type: documentation
+    lang: en
 requires:
   - "Basic CSS Syntax"
 

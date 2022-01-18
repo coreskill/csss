@@ -44,7 +44,7 @@ resources:
 skill: "DOM overview"
 level: 4
 requires:
-  - "// HTML // Basic structure // <!doctype>, <html>, <head>, <body>"
+  - "// HTML // Basic Structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
     desc: "Introduction to the DOM [MDN]"

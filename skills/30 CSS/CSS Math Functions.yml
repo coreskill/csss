@@ -5,7 +5,7 @@ sort: 75
 skill: "calc()"
 level: 4
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/calc()
     type: reference
@@ -15,7 +15,7 @@ resources:
 skill: "max()"
 level: 4
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/max()
     type: reference
@@ -25,7 +25,7 @@ resources:
 skill: "min()"
 level: 4
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/min()
     type: reference
@@ -35,7 +35,7 @@ resources:
 skill: "clamp()"
 level: 4
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/clamp()
     type: reference

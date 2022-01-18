@@ -23,8 +23,8 @@ skill: "Elements (HTML, CSS)"
 level: 1
 requires:
   - "Dev Tools overview"
-  - "CSS // General // Basic CSS Syntax"
-  - "HTML // Basic structure // <!doctype>, <html>, <head>, <body>"
+  - "CSS // General CSS // Basic CSS Syntax"
+  - "HTML // Basic Structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.chrome.com/docs/devtools/dom/
     desc: "Get Started With Viewing And Changing The DOM"

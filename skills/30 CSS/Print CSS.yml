@@ -7,7 +7,7 @@ level: 4
 text: |
   Special print features, typical print CSS (colors, removing stuff)…
 requires: 
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/Guide/Printing
     desc: "Read the first section"

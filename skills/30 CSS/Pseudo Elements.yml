@@ -31,7 +31,7 @@ resources:
 skill: "::selection"
 level: 5
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/::selection
     desc: "::selection [MDN]"
@@ -56,7 +56,7 @@ resources:
 skill: "::first-letter"
 level: extra
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter
     desc: "::first-letter [MDN]"
@@ -67,7 +67,7 @@ resources:
 skill: "::first-line"
 level: extra
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/::first-line
     desc: "::first-line [MDN]"

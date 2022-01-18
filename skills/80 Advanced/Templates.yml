@@ -5,7 +5,7 @@ sort: 30
 skill: "Templates overview"
 level: 3
 requires:
-  - "HTML // Basic structure // <!doctype>, <html>, <head>, <body>"
+  - "HTML // Basic Structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://mozilla.github.io/nunjucks/
     desc: "Nunjucks homepage"

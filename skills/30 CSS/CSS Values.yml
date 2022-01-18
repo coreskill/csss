@@ -5,7 +5,7 @@ sort: 70
 skill: "inherit"
 level: 4
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/inherit
     desc: "inherit [MDN]"
@@ -16,7 +16,7 @@ resources:
 skill: "initial"
 level: 5
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/initial
     desc: "initial [MDN]"

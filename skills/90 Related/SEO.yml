@@ -88,7 +88,7 @@ resources:
     lang: cs
 requires:
   - "Overview: Goals, On and Off Page Factors"
-  - "HTML // Basic structure // <!doctype>, <html>, <head>, <body>"
+  - "HTML // Basic Structure // <!doctype>, <html>, <head>, <body>"
 
 ---
 skill: "Off page factors (link building)"

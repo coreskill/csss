@@ -5,7 +5,7 @@ sort: 30
 skill: "color"
 level: 1
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/color
     desc: "color [MDN]"
@@ -16,7 +16,7 @@ resources:
 skill: "font-size"
 level: 1
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/font-size
     desc: "font-size [MDN]"
@@ -27,7 +27,7 @@ resources:
 skill: "font-style: italic, font-style: normal"
 level: 1
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/font-style
     desc: "font-style [MDN]"
@@ -38,7 +38,7 @@ resources:
 skill: "font-weight"
 level: 1
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight
     desc: "font-weight [MDN]"
@@ -49,7 +49,7 @@ resources:
 skill: "font-family (including fallbacks)"
 level: 1
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/font-family
     desc: "font-family [MDN]"
@@ -60,7 +60,7 @@ resources:
 skill: "line-height"
 level: 1
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
     desc: "line-height [MDN]"
@@ -71,7 +71,7 @@ resources:
 skill: "vertical-align"
 level: 3
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align
     desc: "vertical-align [MDN]"
@@ -82,7 +82,7 @@ resources:
 skill: "text-align"
 level: 1
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
     desc: "text-align [MDN]"
@@ -93,7 +93,7 @@ resources:
 skill: "text-decoration"
 level: 1
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration
     desc: "text-decoration [MDN]"
@@ -104,7 +104,7 @@ resources:
 skill: "text-transform"
 level: 3
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform
     desc: "text-transform [MDN]"
@@ -115,7 +115,7 @@ resources:
 skill: "font-variant: small-caps"
 level: 4
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant
     desc: "font-variant [MDN]"
@@ -128,7 +128,7 @@ resources:
 skill: "list-style"
 level: 4
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/list-style
     desc: "list-style [MDN]"
@@ -139,7 +139,7 @@ resources:
 skill: "text-shadow"
 level: 4
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
     desc: "text-shadow [MDN]"
@@ -150,7 +150,7 @@ resources:
 skill: "font-display"
 level: 5
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display
     desc: "font-display [MDN]"
@@ -161,7 +161,7 @@ resources:
 skill: "text-indent"
 level: 5
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/text-indent
     desc: "text-indent [MDN]"
@@ -172,7 +172,7 @@ resources:
 skill: "white-space"
 level: 5
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/white-space
     desc: "white-space [MDN]"

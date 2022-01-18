@@ -5,7 +5,7 @@ sort: 50
 skill: "Best practices"
 level: 1
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://www.vzhurudolu.cz/prirucka/jednotky
     lang: cs
@@ -142,7 +142,7 @@ resources:
 skill: "Time units (s, ms)"
 level: 4
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/time
     type: reference
@@ -152,7 +152,7 @@ resources:
 skill: "Angle units (deg)"
 level: 5
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 text: |
   Deg is the most used unit.
 resources:

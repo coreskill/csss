@@ -5,7 +5,7 @@ sort: 50
 skill: "HTML Entities"
 level: 2
 requires:
-  - "Basic structure // <!doctype>, <html>, <head>, <body>"
+  - "Basic Structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#entity_references_including_special_characters_in_html
     desc: "Entity references: Including special characters in HTML [MDN]"

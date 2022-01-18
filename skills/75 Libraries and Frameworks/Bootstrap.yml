@@ -7,7 +7,7 @@ level: 3
 text: |
   Pros and cons
 requires:
-  - "HTML // Basic structure // <!doctype>, <html>, <head>, <body>"
+  - "HTML // Basic Structure // <!doctype>, <html>, <head>, <body>"
   - "CSS // Selectors // Class selectors" 
   - "CSS // Flexible Layout Module (Flexbox) // Flexbox concepts" 
 resources:

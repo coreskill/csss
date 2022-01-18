@@ -5,7 +5,7 @@ sort: 130
 skill: "link related: :active, :visited, :hover, :focus, :link"
 level: 2
 requires: 
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:active
     desc: ":active [MDN]"
@@ -32,7 +32,7 @@ resources:
 skill: ":first-child, :last-child, :only-child"
 level: 3
 requires: 
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:first-child
     desc: ":first-child [MDN]"
@@ -51,7 +51,7 @@ resources:
 skill: ":first-of-type, :last-of-type, :only-of-type"
 level: 3
 requires: 
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:first-of-type
     desc: ":first-of-type [MDN]"
@@ -70,7 +70,7 @@ resources:
 skill: ":nth-child(), :nth-last-child()"
 level: 3
 requires: 
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child
     desc: ":nth-child [MDN]"
@@ -85,7 +85,7 @@ resources:
 skill: ":nth-of-type(), :nth-last-of-type()"
 level: 3
 requires: 
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type
     desc: ":nth-of-type [MDN]"
@@ -100,7 +100,7 @@ resources:
 skill: ":not()"
 level: 4
 requires: 
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:not
     desc: ":not [MDN]"
@@ -111,7 +111,7 @@ resources:
 skill: ":root"
 level: 5
 requires: 
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:root
     desc: ":root [MDN]"
@@ -122,7 +122,7 @@ resources:
 skill: ":lang()"
 level: 5
 requires: 
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:lang
     desc: ":lang [MDN]"
@@ -133,7 +133,7 @@ resources:
 skill: "Forms related pseudo classes (:checked, :required, :valid + :invalid, :enabled + :disabled)"
 level: 5
 requires: 
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:checked
     desc: ":checked [MDN]"
@@ -165,7 +165,7 @@ resources:
 skill: ":target"
 level: extra
 requires: 
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:target
     desc: ":target [MDN]"
@@ -176,7 +176,7 @@ resources:
 skill: ":in-range, :out-of-range"
 level: extra
 requires: 
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:in-range
     desc: ":in-range [MDN]"
@@ -191,7 +191,7 @@ resources:
 skill: ":read-only, :read-write"
 level: extra
 requires: 
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:read-only 
     desc: ":read-only [MDN]"
@@ -206,7 +206,7 @@ resources:
 skill: ":optional"
 level: extra
 requires: 
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:optional
     desc: ":optional [MDN]"
@@ -217,7 +217,7 @@ resources:
 skill: ":default"
 level: extra
 requires: 
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:default
     desc: ":default [MDN]"
@@ -228,7 +228,7 @@ resources:
 skill: ":indeterminate"
 level: extra
 requires: 
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:indeterminate
     desc: ":indeterminate [MDN]"
@@ -239,7 +239,7 @@ resources:
 skill: ":empty"
 level: extra
 requires: 
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:empty
     desc: ":empty [MDN]"
@@ -250,7 +250,7 @@ resources:
 skill: "@page related: :first, :left, :right"
 level: extra
 requires: 
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
   - "Print CSS // Print CSS overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:first

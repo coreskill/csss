@@ -5,7 +5,7 @@ sort: 160
 skill: "CSS architecture overview"
 level: 3
 requires:
-  - General // Basic CSS Syntax
+  - General CSS // Basic CSS Syntax
 resources: 
   - url: https://www.vzhurudolu.cz/prirucka/css-metodiky
     lang: cs

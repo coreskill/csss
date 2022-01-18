@@ -5,7 +5,7 @@ sort: 170
 skill: "Basic principles, Sass vs. scss"
 level: 2
 requires: 
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://marksheet.io/sass.html
 

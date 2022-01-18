@@ -6,7 +6,7 @@ skill: "<title>"
 level: 1
 sublevel: 2
 requires:
-  - "Basic structure // <!doctype>, <html>, <head>, <body>"
+  - "Basic Structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title
     desc: "title [MDN]"
@@ -15,9 +15,9 @@ resources:
 
 ---
 skill: "<link>"
-level: 2
+level: 1
 requires:
-  - "Basic structure // <!doctype>, <html>, <head>, <body>"
+  - "Basic Structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link
     desc: "link [MDN]"
@@ -28,7 +28,7 @@ resources:
 skill: "<meta description>"
 level: 2
 requires:
-  - Basic structure // <!doctype>, <html>, <head>, <body>
+  - Basic Structure // <!doctype>, <html>, <head>, <body>
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
     desc: "meta [MDN]"

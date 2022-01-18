@@ -5,7 +5,7 @@ sort: 40
 skill: "width"
 level: 1
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/width
     desc: "width [MDN]"
@@ -31,7 +31,7 @@ resources:
 skill: "height"
 level: 1
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/height
     desc: "height [MDN]"
@@ -65,7 +65,7 @@ text: |
   
   Notable values: `double` and `groove`
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/border
     desc: "border [MDN]"
@@ -88,7 +88,7 @@ resources:
 skill: "padding"
 level: 1
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/padding
     desc: "padding [MDN]"
@@ -99,7 +99,7 @@ resources:
 skill: "margin"
 level: 1
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/margin
     desc: "margin [MDN]"
@@ -122,7 +122,7 @@ resources:
 skill: "box-sizing"
 level: 1
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
     desc: "box-sizing [MDN]"
@@ -145,7 +145,7 @@ resources:
 skill: "visibility"
 level: 1
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/visibility
     desc: "visibility [MDN]"
@@ -156,7 +156,7 @@ resources:
 skill: "outline"
 level: 3
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/outline
     desc: "outline [MDN]"
@@ -167,7 +167,7 @@ resources:
 skill: "display: block, display: inline, display: inline-block"
 level: 1
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/display
     desc: "display [MDN]"
@@ -178,7 +178,7 @@ resources:
 skill: "display: none"
 level: 1
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/display
     desc: "display [MDN]"

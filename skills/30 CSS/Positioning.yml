@@ -10,7 +10,7 @@ resources:
     type: reference
     lang: en
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 
 ---
 skill: "position: absolute"
@@ -21,7 +21,7 @@ resources:
     type: reference
     lang: en
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 
 ---
 skill: "position: fixed"
@@ -32,7 +32,7 @@ resources:
     type: reference
     lang: en
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 
 ---
 skill: "position: sticky"
@@ -43,7 +43,7 @@ resources:
     type: reference
     lang: en
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 
 ---
 skill: "z-index"
@@ -54,7 +54,7 @@ resources:
     type: reference
     lang: en
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 
 ---
 skill: "top, bottom, left, right"

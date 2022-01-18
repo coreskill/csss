@@ -56,7 +56,7 @@ resources:
 skill: "WAI-ARIA roles overview"
 level: 3
 requires:
-  - "HTML // Basic structure // <!doctype>, <html>, <head>, <body>"
+  - "HTML // Basic Structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics
     desc: "WAI-ARIA basics [MDN]"

@@ -5,7 +5,7 @@ sort: 30
 skill: "<p>"
 level: 1
 requires:
-  - "Basic structure // <!doctype>, <html>, <head>, <body>"
+  - "Basic Structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p
     desc: "p [MDN]"
@@ -16,7 +16,7 @@ resources:
 skill: "<a>, #, paths for href"
 level: 1
 requires:
-  - "Basic structure // <!doctype>, <html>, <head>, <body>"
+  - "Basic Structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
     desc: "a [MDN]"
@@ -27,7 +27,7 @@ resources:
 skill: "<h1> to <h6>"
 level: 1
 requires:
-  - "Basic structure // <!doctype>, <html>, <head>, <body>"
+  - "Basic Structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
     desc: "Heading Elements [MDN]"
@@ -38,7 +38,7 @@ resources:
 skill: "<div>, <span>"
 level: 1
 requires:
-  - "Basic structure // <!doctype>, <html>, <head>, <body>"
+  - "Basic Structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div
     desc: "div [MDN]"
@@ -53,7 +53,7 @@ resources:
 skill: "<img>, src, width, height, alt"
 level: 1
 requires:
-  - "Basic structure // <!doctype>, <html>, <head>, <body>"
+  - "Basic Structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
     desc: "img [MDN]"
@@ -226,7 +226,7 @@ resources:
 skill: "<iframe>"
 level: 4
 requires:
-  - "Basic structure // <!doctype>, <html>, <head>, <body>"
+  - "Basic Structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe
     desc: "iframe [MDN]"
@@ -380,7 +380,7 @@ resources:
 skill: "<noscript>"
 level: 5
 requires:
-  - "Basic structure // <!doctype>, <html>, <head>, <body>"
+  - "Basic Structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript
     desc: "noscript [MDN]"
@@ -479,7 +479,7 @@ resources:
 skill: "<meter>"
 level: extra
 requires:
-  - "Basic structure // <!doctype>, <html>, <head>, <body>"
+  - "Basic Structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter
     desc: "meter [MDN]"
@@ -490,7 +490,7 @@ resources:
 skill: "<progress>"
 level: extra
 requires:
-  - "Basic structure // <!doctype>, <html>, <head>, <body>"
+  - "Basic Structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress
     desc: "progress [MDN]"
@@ -501,7 +501,7 @@ resources:
 skill: "<time>"
 level: extra
 requires:
-  - "Basic structure // <!doctype>, <html>, <head>, <body>"
+  - "Basic Structure // <!doctype>, <html>, <head>, <body>"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time
     desc: "time [MDN]"

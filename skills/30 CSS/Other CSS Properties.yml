@@ -10,7 +10,7 @@ resources:
     type: reference
     lang: en
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 
 ---
 skill: "Custom properties"
@@ -37,7 +37,7 @@ resources:
     type: article
     lang: en
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 
 ---
 skill: "border-collapse"
@@ -48,7 +48,7 @@ resources:
     type: reference
     lang: en
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
   - "HTML // Body // <table>, <tr>, <th>, <td>, <tbody>"
 
 ---
@@ -60,7 +60,7 @@ resources:
     type: reference
     lang: en
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 
 ---
 skill: "display: table, table-row, table-cell, …"
@@ -71,7 +71,7 @@ resources:
     type: reference
     lang: en
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 
 ---
 skill: "CSS transitions"
@@ -82,7 +82,7 @@ resources:
     type: reference
     lang: en
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
   - "CSS Units // Angle units (deg)"
 
 ---
@@ -94,7 +94,7 @@ resources:
     type: reference
     lang: en
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 
 ---
 skill: "cursor"
@@ -105,7 +105,7 @@ resources:
     type: reference
     lang: en
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 
 ---
 skill: "filter"
@@ -116,4 +116,4 @@ resources:
     type: reference
     lang: en
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"

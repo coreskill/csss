@@ -5,7 +5,7 @@ sort: 20
 skill: "Type selectors"
 level: 1
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors
     desc: "Type selectors [MDN]"

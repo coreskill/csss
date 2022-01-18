@@ -43,10 +43,14 @@ requires:
   - "text vs. binary files"
 resources:
   - url: https://en.wikipedia.org/wiki/Control_character
-    desc: "Wikipedia page contains a lot of information if you’re intested but is not necessary to read it."
+    desc: "Control character [Wikipedia]"
+    text: |
+      Read only if you’re interested.
     lang: en
   - url: https://en.wikipedia.org/wiki/Whitespace_character
-    desc: "Wikipedia page contains a lot of information if you’re intested but is not necessary to read it."
+    desc: "Whitespace character [Wikipedia]"
+    text: |
+      Read only if you’re interested.
     lang: en
 
 ---
@@ -59,7 +63,9 @@ requires:
   - "special characters"
 resources:
   - url: https://en.wikipedia.org/wiki/Newline
-    desc: "Read just the introduction before table of contents"
+    desc: "Newline [Wikipedia]"
+    text: | 
+      Read just the introduction before the table of contents.
     lang: en
 
 ---
@@ -86,10 +92,14 @@ requires:
   - "text vs. binary files"
 resources:
   - url: https://en.wikipedia.org/wiki/Character_encoding
-    desc: "Check the punch tape image. The rest of the page contains a lot of information if you’re intested but is not necessary to read it."
+    desc: "Character encoding [Wikipedia]"
+    text: | 
+      Check the punch tape image. Read the rest only if you’re interested.
     lang: en
   - url: https://en.wikipedia.org/wiki/UTF-8
-    desc: "Wikipedia page contains a lot of information if you’re intested but is not necessary to read it."
+    desc: "UTF-8 [Wikipedia]"
+    text: |
+      Read only if you’re interested.
     lang: en
 
 ---

@@ -5,7 +5,7 @@ sort: 100
 skill: "CSS Grid Overview"
 level: 3
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 text: |
   display: grid
 resources:

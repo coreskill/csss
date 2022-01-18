@@ -5,7 +5,7 @@ sort: 85
 skill: "float"
 level: 3
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/float
     desc: "float [MDN]"
@@ -14,7 +14,7 @@ resources:
 skill: "clear"
 level: 3
 requires:
-  - "General // Basic CSS Syntax"
+  - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/clear
     desc: "clear [MDN]"
