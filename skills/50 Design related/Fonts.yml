@@ -20,7 +20,7 @@ requires:
   - "Font types"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts#web_fonts
-    desc: "Web fonts: read only that part"
+    desc: "Web fonts: read only that part (stop at Active learning…)"
     lang: en
 
 ---
