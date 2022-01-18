@@ -6,12 +6,15 @@ skill: "Code editing overview"
 level: 1
 
 ---
-skill: "Working with text: clipboard operations, navigating, selecting, changing"
+skill: "Working with text: clipboard operations, navigating, selecting, deleting"
 level: 1
 requires:
   - "Code editing overview"
 resources:
   - url: https://dusan.pc-slany.cz/klavesnice/pocitacovy_text.htm
+    desc: "Práce se textem na počítači"
+    text: |
+      Návod hlavně pro Windows. Od „Horké klávesy“ už nečíst.
     lang: cs
 
 ---
@@ -25,12 +28,14 @@ resources:
     lang: en
 
 ---
-skill: "Projects and Workspaces"
-level: 1
+skill: "Workspaces"
+level: 2
 requires:
   - "Code Editor Installation"
 resources:
   - url: https://code.visualstudio.com/docs/editor/workspaces
+    desc: "Workspaces [VS Code documentation]"
+    type: documentation
     lang: en
 
 ---
@@ -87,15 +92,6 @@ requires:
   - "Basic Text editing using keyboard"
 
 ---
-skill: "Multiple selections"
-level: 2
-requires:
-  - "Code Editor Installation"
-resources:
-  - url: https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor
-    lang: en
-    
----
 skill: "Intellisense"
 level: 1
 requires:
@@ -128,6 +124,18 @@ resources:
     desc: "Emmet: project homepage"
     lang: en
     
+
+---
+skill: "Multiple selections"
+level: 2
+requires:
+  - "Code Editor Installation"
+resources:
+  - url: https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor
+    desc: "Multiple selections [VS Code documentation]"
+    type: documentation
+    lang: en
+
 ---
 skill: "Search and replace"
 level: 2
@@ -135,7 +143,7 @@ requires:
   - "Code Editor Installation"
 resources:
   - url: https://code.visualstudio.com/docs/editor/codebasics#_find-and-replace
-    desc: "Search and replace in VS Code documentation"
+    desc: "Search and replace [VS Code documentation]"
     type: documentation
     lang: en
     
@@ -169,9 +177,12 @@ text: |
 requires:
   - "Extensions/Plugins installation"
 resources:
+  - url: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+    desc: "Prettier extension (recommended)"
+    lang: en
+  - url: https://prettier.io/
+    desc: "Prettier homepage"
+    lang: en
   - url: https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify
     desc: "Beautify extension"
-    lang: en
-  - url: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
-    desc: "Prettier extension"
     lang: en
