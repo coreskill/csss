@@ -3,7 +3,7 @@ sort: 20
 
 ---
 skill: "Set up an account"
-level: 1
+level: 2
 resources:
   - url: https://github.com/join
     lang: en
