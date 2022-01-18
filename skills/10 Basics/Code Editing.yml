@@ -102,10 +102,16 @@ requires:
   - "Code Editor Installation"
 resources:
   - url: https://code.visualstudio.com/docs/editor/intellisense
+    desc: "Intellisense [VS Code documentation]"
+    type: documentation
     lang: en
-  - url: https://code.visualstudio.com/docs/languages/html
+  - url: https://code.visualstudio.com/docs/languages/html#:~:text=IntelliSense%23,suggest.html5%22%3A%20true
+    desc: "Intellisense for HTML [VS Code documentation]"
+    type: documentation
     lang: en
-  - url: https://code.visualstudio.com/docs/languages/css
+  - url: https://code.visualstudio.com/docs/languages/css#:~:text=IntelliSense%23,use%20Ctrl%2BSpace.
+    desc: "Intellisense for CSS [VS Code documentation]"
+    type: documentation
     lang: en
 
 ---
@@ -115,6 +121,11 @@ requires:
   - "Code Editor Installation"
 resources:
   - url: https://code.visualstudio.com/docs/editor/emmet
+    desc: "Emmet [VS Code documentation]"
+    type: documentation
+    lang: en
+  - url: https://emmet.io/
+    desc: "Emmet: project homepage"
     lang: en
     
 ---
@@ -130,7 +141,7 @@ resources:
     
 ---
 skill: "Extensions/Plugins installation"
-level: 1
+level: 2
 requires:
   - "Code Editor Installation"
 resources:
@@ -151,14 +162,16 @@ resources:
     lang: en
 
 ---
-skill: "Autoindent and/or Beautify"
+skill: "Code formatters"
 level: 2
 text: | 
-  Prettier or Beautify
+  You can use Prettier (recommended) or Beautify.
 requires:
   - "Extensions/Plugins installation"
 resources:
   - url: https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify
+    desc: "Beautify extension"
     lang: en
   - url: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+    desc: "Prettier extension"
     lang: en
