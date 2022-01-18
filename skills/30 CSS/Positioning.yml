@@ -3,7 +3,7 @@ sort: 80
 
 ---
 skill: "position: relative, position: static"
-level: 1
+level: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/position
     desc: "position [MDN]"
@@ -14,7 +14,7 @@ requires:
 
 ---
 skill: "position: absolute"
-level: 1
+level: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/position
     desc: "position [MDN]"
@@ -25,7 +25,7 @@ requires:
 
 ---
 skill: "position: fixed"
-level: 1
+level: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/position
     desc: "position [MDN]"
@@ -36,7 +36,7 @@ requires:
 
 ---
 skill: "position: sticky"
-level: 1
+level: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/position
     desc: "position [MDN]"
@@ -47,7 +47,7 @@ requires:
 
 ---
 skill: "z-index"
-level: 1
+level: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
     desc: "z-index [MDN]"
@@ -58,7 +58,7 @@ requires:
 
 ---
 skill: "top, bottom, left, right"
-level: 1
+level: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/top
     desc: "top [MDN]"
