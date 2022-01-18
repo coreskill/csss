@@ -124,7 +124,7 @@ requires:
   - "Code Editor Installation"
 resources:
   - url: https://code.visualstudio.com/docs/editor/codebasics#_find-and-replace
-    text: "Search and replace in VS Code documentation"
+    desc: "Search and replace in VS Code documentation"
     type: documentation
     lang: en
     
