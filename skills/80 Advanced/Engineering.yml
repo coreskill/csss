@@ -68,10 +68,6 @@ skill: "Ethics"
 level: 5
 
 ---
-skill: "Server-client architecture"
-level: 1
-
----
 skill: "Hashes"
 level: 5
 text: |
