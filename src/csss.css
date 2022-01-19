@@ -65,6 +65,13 @@ a.list-group-item {
   color: var(--bs-body-color);
 }
 
+@media (prefers-color-scheme: dark) {
+  .badge.bg-warning {
+    color: var(--bs-dark);
+  }
+}
+
+
 .markdown-text {
   max-width: 65ch;
 }
