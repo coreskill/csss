@@ -6,18 +6,6 @@ skill: "Code editing overview"
 level: 1
 
 ---
-skill: "Working with text: clipboard operations, navigating, selecting, deleting"
-level: 1
-requires:
-  - "Code editing overview"
-resources:
-  - url: https://dusan.pc-slany.cz/klavesnice/pocitacovy_text.htm
-    desc: "Práce se textem na počítači"
-    text: |
-      Návod hlavně pro Windows. Od „Horké klávesy“ už nečíst.
-    lang: cs
-
----
 skill: "Code Editor Installation"
 level: 1
 requires:
