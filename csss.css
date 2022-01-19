@@ -87,3 +87,7 @@ body:not(.page-home) .filter-nothing-found,
 body:not(.page-home) .filter-group {
   display: none;
 }
+
+kbd {
+  white-space: nowrap;
+}
