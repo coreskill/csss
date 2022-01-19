@@ -12,24 +12,23 @@
     "dev": "npm run build && concurrently --kill-others --names \"BSync,watch\" --prefix-colors \"yellow,green\" \"npm run browsersync\" \"npm run watch\""
   },
   "dependencies": {
-    "js-yaml": "^4.1.0",
-    "jstransformer-handlebars": "^1.1.0",
-    "metalsmith": "^2.3.0",
-    "metalsmith-discover-partials": "^0.1.2",
-    "metalsmith-layouts": "^2.3.1",
-    "node-dir": "^0.1.17",
-    "slug": "^5.1.0"
+    "js-yaml": "4.1.0",
+    "jstransformer-handlebars": "^1.2.0",
+    "metalsmith": "2.3.0",
+    "metalsmith-discover-partials": "0.1.2",
+    "metalsmith-layouts": "2.3.1",
+    "node-dir": "0.1.17",
+    "slug": "^5.2.0"
   },
   "devDependencies": {
-    "@types/handlebars": "^4.1.0",
-    "@types/js-yaml": "^4.0.1",
-    "@types/node": "^16.0.0",
-    "@types/node-dir": "0.0.33",
-    "@types/slug": "^5.0.0",
-    "browser-sync": "^2.27.5",
+    "@types/js-yaml": "4.0.1",
+    "@types/node": "16.0.0",
+    "@types/node-dir": "^0.0.34",
+    "@types/slug": "^5.0.3",
+    "browser-sync": "^2.27.7",
     "chokidar-cli": "^3.0.0",
-    "concurrently": "^6.3.0",
-    "ts-node": "^10.0.0",
+    "concurrently": "^7.0.0",
+    "ts-node": "^10.4.0",
     "typescript": "3.4.5"
   }
 }
