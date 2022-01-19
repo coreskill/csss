@@ -29,7 +29,7 @@ resources:
 
 ---
 skill: "Workspaces"
-level: 2
+level: 1
 requires:
   - "Code Editor Installation"
 resources:
@@ -39,57 +39,105 @@ resources:
     lang: en
 
 ---
-skill: "Basic editing"
+skill: "Basic Text editing using a keyboard"
 level: 1
 text: |
-  - copy + cut + paste whole lines
-  - indent with <kbd>TAB</kbd> (including difference between tabs and spaces)
-requires:
-  - "Code Editor Installation"
+  These are the basic text editing skills that work almost everywhere you work with text.
+  
+  Learn how to do these with your keyboard only:
+  
+  ## Clipboard
+  
+  copy <kbd>Ctrl + C</kbd> (macOS: <kbd>⌘ + C</kbd>)
+  
+  paste <kbd>Ctrl + V</kbd> (macOS: <kbd>⌘ + V</kbd>)
+  
+  cut <kbd>Ctrl + X</kbd> (macOS: <kbd>⌘ + X</kbd>)
+  
+  ## Move text cursor
+  one character right/left <kbd>▶&#xFE0E;</kbd> / <kbd>◀&#xFE0E;</kbd>
+  
+  one line up/down <kbd>🔼&#xFE0E;</kbd> / <kbd>🔽&#xFE0E;</kbd>
+  
+  one word forward/backward
+  <kbd>Ctrl + ▶&#xFE0E;</kbd> / <kbd>Ctrl + ◀&#xFE0E;</kbd> (macOS: <kbd>⌥ + ▶&#xFE0E;</kbd> /  <kbd>⌥ + ◀&#xFE0E;</kbd>)
+  
+  one page/screen up/down
+  <kbd>Page Up</kbd> / <kbd>Page Down</kbd> (macOS: <kbd>Fn + 🔼&#xFE0E;</kbd> / <kbd>Fn + 🔽&#xFE0E;</kbd>)
+  
+  to the start/end of the line
+  <kbd>Home</kbd> / <kbd>End</kbd> (macOS: <kbd>⌘ + ◀&#xFE0E;</kbd> / <kbd>⌘ + ▶&#xFE0E;</kbd>)
+  
+  to the start/end of the document
+  <kbd>Ctrl + Home</kbd> / <kbd>Ctrl + End</kbd> (macOS: <kbd>⌘ + ◀&#xFE0E;</kbd> / <kbd>⌘ + ▶&#xFE0E;</kbd>)
+  
+  ## Selecting
+  Use the cursor movements to select with <kbd>Shift</kbd>
+  
+  Select all <kbd>Ctrl + A</kbd> (macOS: <kbd>⌘ + A</kbd>)
 
 ---
-skill: "Basic Text editing using keyboard"
+skill: "Selecting text using a mouse"
 level: 1
 text: |
-  You should know how to do the following using only keyboard
-  - copy
-  - paste
-  - cut
-  - move text cursor
-  - to the start/end of the line
-  - to the start/end of the document
-  - one word forward and backwards
-  - use the same cursor movements to also select a text
-  - select all
+  These are the basic text editing skills that work almost everywhere you work with text.
+  
+  - select a word (double click)
+  - select a paragraph (triple click)  
 
 ---
 skill: "Text Editor control using keyboard"
 level: 1
 text: |
-  You should learn how to do these with your keyboard.
-  - Undo last action
+  Learn how to do these basic actions using only keyboard.
   - Save file
+    <kbd>Ctrl + S</kbd> (macOS: <kbd>⌘ + S</kbd>)
   - Open file
+    <kbd>Ctrl + O</kbd> (macOS: <kbd>⌘ + O</kbd>)
+  - Undo last action
+    <kbd>Ctrl + Z</kbd> (macOS: <kbd>⌘ + Z</kbd>)
   - Switch beetween opened files
-  - Invoke search/replace
+    <kbd>Ctrl + Tab</kbd> (macOS: <kbd>^ + Tab</kbd>)
+  - Invoke search
+    <kbd>Ctrl + F</kbd> (macOS: <kbd>^ + F</kbd>)
+  - Invoke replace
+    <kbd>Ctrl + H</kbd> (macOS: <kbd>^ + H</kbd>)
 requires:
-  - "Basic Text editing using keyboard"
+  - "Basic Text editing using a keyboard"
+resources:
+  - url: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+    type: cheatsheet
+    desc: "Keyboard shortcuts for Windows (PDF)"
+    text: |
+      Contains also other shortcuts and might be handy to have it printed.
+    lang: en
+  - url: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
+    type: cheatsheet
+    desc: "Keyboard shortcuts for macOS (PDF)"
+    text: |
+      Contains also other shortcuts and might be handy to have it printed.
+    lang: en
 
 ---
-skill: "Working with text in a text editor"
+skill: "Text editor keyboard shortcuts"
 level: 1
 text: |
-  - Copy and cut whole line (usually standard shortcuts without selection)
-  - Delete a line
-  - Duplicate a line
-  - Auto-indent (or even auto format) code
-  - Manually increase or decrease an indent (usually <kbd>Tab</kbd> key and unindent is Tab with some modifier).
-  - Comment out and delete comment either selection or a line
-  - Move line up or down
+  - Show Command Palette (run any command) 
+    <kbd>Ctrl + Shift + P</kbd> (macOS: <kbd>Shift + ⌘ + P</kbd>) or <kbd>F1</kbd>.
+    Then type what you need (any letters from the command it's a fuzzy search) choose with arrows and press <kbd>Enter</kbd>.
+  - Copy and cut whole line: standard shortcuts without selection
+  - Indent/outdent line with the current indent character (tab or spaces)
+    with <kbd>Tab</kbd> / <kbd>Shift + Tab</kbd> 
+    or <kbd>Ctrl + ]</kbd> / <kbd>Ctrl + [</kbd> (macOS: <kbd>⌘ + ]</kbd> / <kbd>⌘ + [</kbd>) this one has an advantage: no need to position cursor “correctly”.
+  - Toggle line comment <kbd>Ctrl + /</kbd> (macOS: <kbd>⌘ + /</kbd>)
+  - Toggle block comment <kbd>Shift + Alt + A</kbd> (macOS:  <kbd>Shift + ⌥ + A</kbd>)
+  - Move line up/down <kbd>Alt + 🔼&#xFE0E;</kbd> / <kbd>Alt + 🔽&#xFE0E;</kbd> (macOS: <kbd>⌥ + 🔼&#xFE0E;</kbd> / <kbd>⌥ + 🔽&#xFE0E;</kbd>)
+  - Delete a line <kbd>Ctrl + Shift + K</kbd> (macOS: <kbd>Shift + ⌘ + K</kbd>
+  - Duplicate a line <kbd>Shift + Alt + 🔽&#xFE0E;</kbd> (macOS: <kbd>Shift + ⌥ + 🔽&#xFE0E;</kbd>) 
   
-  Many of the above actions work even on multiple lines. For example indenting.
+  Many of the above actions work even on multiple lines e.g. indenting.
 requires:
-  - "Basic Text editing using keyboard"
+  - "Basic Text editing using a keyboard"
 
 ---
 skill: "Intellisense"
