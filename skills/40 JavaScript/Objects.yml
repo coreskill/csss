@@ -59,7 +59,7 @@ resources:
 
 ---
 skill: "Nested Objects"
-level: 4
+level: 3
 requires:
   - "Objects overview"
 resources:
@@ -68,7 +68,7 @@ resources:
 
 ---
 skill: "Pass By Reference"
-level: 4
+level: 3
 requires:
   - "Objects overview"
 resources:
@@ -77,7 +77,7 @@ resources:
 
 ---
 skill: "Looping Through Objects"
-level: 4
+level: 3
 requires:
   - "Objects overview"
 resources:
