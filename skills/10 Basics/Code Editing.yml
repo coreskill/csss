@@ -57,7 +57,7 @@ text: |
   <kbd>Home</kbd> / <kbd>End</kbd> (macOS: <kbd>⌘ + ◀&#xFE0E;</kbd> / <kbd>⌘ + ▶&#xFE0E;</kbd>)
   
   to the start/end of the document
-  <kbd>Ctrl + Home</kbd> / <kbd>Ctrl + End</kbd> (macOS: <kbd>⌘ + ◀&#xFE0E;</kbd> / <kbd>⌘ + ▶&#xFE0E;</kbd>)
+  <kbd>Ctrl + Home</kbd> / <kbd>Ctrl + End</kbd> (macOS: <kbd>⌘ + 🔼&#xFE0E;</kbd> / <kbd>⌘ + 🔽&#xFE0E;</kbd>)
   
   ## Selecting
   Use the cursor movements to select with <kbd>Shift</kbd>
