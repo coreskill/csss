@@ -80,6 +80,14 @@ resources:
     desc: ":nth-last-child [MDN]"
     type: reference
     lang: en
+  - url: https://www.topdesignagencies.com/nth-test/
+    desc: "A simple tool to visualize nth notation."
+    type: tool
+    lang: en
+  - url: https://css-tricks.com/examples/nth-child-tester/
+    desc: "More complex tool to visualize nth notation."
+    type: tool
+    lang: en
 
 ---
 skill: ":nth-of-type(), :nth-last-of-type()"
@@ -94,6 +102,14 @@ resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-last-of-type
     desc: ":nth-last-of-type [MDN]"
     type: reference
+    lang: en
+  - url: https://www.topdesignagencies.com/nth-test/
+    desc: "A simple tool to visualize nth notation."
+    type: tool
+    lang: en
+  - url: https://css-tricks.com/examples/nth-child-tester/
+    desc: "More complex tool to visualize nth notation."
+    type: tool
     lang: en
 
 ---
