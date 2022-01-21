@@ -26,6 +26,7 @@ strong {
 }
 
 a.list-group-item {
+  padding-top: 0.8rem;
   /* These are technically the same, but use both */
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -36,6 +37,8 @@ a.list-group-item {
   word-break: break-word;
 
   hyphens: auto;
+
+
 }
 
 .filter-group .btn:not(.active) {
