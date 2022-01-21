@@ -37,8 +37,6 @@ a.list-group-item {
   word-break: break-word;
 
   hyphens: auto;
-
-
 }
 
 .filter-group .btn:not(.active) {
