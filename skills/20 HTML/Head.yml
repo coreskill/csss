@@ -26,7 +26,7 @@ resources:
 
 ---
 skill: "<meta description>"
-level: 2
+level: 1
 requires:
   - Basic Structure // <!doctype>, <html>, <head>, <body>
 resources:
@@ -41,7 +41,7 @@ resources:
 
 ---
 skill: "Favicons"
-level: 4
+level: 3
 requires:
   - <link>
 resources:
