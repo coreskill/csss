@@ -91,3 +91,15 @@ body:not(.page-home) .filter-group {
 kbd {
   white-space: nowrap;
 }
+
+h2,
+h3,
+h4 {
+  margin-top: 2.5rem;
+}
+
+h2:first-child,
+h2 + h3,
+h3 + h4 {
+  margin-top: 0;
+}

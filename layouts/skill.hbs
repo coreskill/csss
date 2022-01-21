@@ -96,24 +96,26 @@
           {{/if}}
 
           {{#if resources.length}}
-            <h2 class="mt-5">Resources</h2>
-            <div class="list-group list-group-flush">
-              {{#each resources}}
-                <a href="{{this.url}}" class="list-group-item list-group-item-action flex-column align-items-start">
-                  <div class="d-flex w-100 justify-content-between">
-                    <h3 class="h5 mb-1">
-                      {{#if this.type}}<span class="badge bg-secondary">{{this.type}}</span>{{/if}}
-                      {{#if this.lang}}<span class="badge bg-light">{{this.lang}}</span>{{/if}}
-                      {{#if this.availability}}<span class="badge bg-warning">{{this.availability}}</span>{{/if}}
-                      {{#if this.desc}}<b>{{this.desc}}</b>{{else}}{{this.url}}{{/if}}
-                    </h3>
-                  </div>
-                  {{#if this.text}}
-                    <div class="mt-2 markdown-text w-100"><span class="lead">ℹ️</span> {{this.text}}</div>
-                  {{/if}}
-                </a>
-              {{/each}}
-            </div>
+            <section class="p-3 mt-5 bg-light bg-opacity-25">
+              <h2 class="">Resources</h2>
+              <div class="list-group list-group-flush">
+                {{#each resources}}
+                  <a href="{{this.url}}" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h3 class="h5 mb-1">
+                        {{#if this.type}}<span class="badge bg-secondary">{{this.type}}</span>{{/if}}
+                        {{#if this.lang}}<span class="badge bg-light">{{this.lang}}</span>{{/if}}
+                        {{#if this.availability}}<span class="badge bg-warning">{{this.availability}}</span>{{/if}}
+                        {{#if this.desc}}<b>{{this.desc}}</b>{{else}}{{this.url}}{{/if}}
+                      </h3>
+                    </div>
+                    {{#if this.text}}
+                      <div class="mt-2 markdown-text w-100"><span class="lead">ℹ️</span> {{this.text}}</div>
+                    {{/if}}
+                  </a>
+                {{/each}}
+              </div>
+            </section>
           {{/if}}
         </div>
 
