@@ -76,6 +76,10 @@ a.list-group-item {
   max-width: 65ch;
 }
 
+.markdown-text > :last-child {
+  margin-bottom: 0;
+}
+
 .btn-outline-light:focus:not(.active),
 .btn-outline-light:hover:not(.active) {
   background-color: transparent;
