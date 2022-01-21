@@ -120,7 +120,7 @@ resources:
     lang: en
 
 ---
-skill: "Text editing in text editor using a keyboard"
+skill: "Text editing in a text editor using a keyboard"
 level: 1
 text: |
   Learn how to do these basic actions using only keyboard.
