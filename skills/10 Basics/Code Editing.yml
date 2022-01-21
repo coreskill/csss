@@ -2,32 +2,7 @@
 sort: 15 
   
 ---
-skill: "Code editing overview"
-level: 1
-
----
-skill: "Code Editor Installation"
-level: 1
-requires:
-  - "Code editing overview"
-resources:
-  - url: https://code.visualstudio.com/
-    desc: "Download Visual Studio Code"
-    lang: en
-
----
-skill: "Workspaces"
-level: 1
-requires:
-  - "Code Editor Installation"
-resources:
-  - url: https://code.visualstudio.com/docs/editor/workspaces
-    desc: "Workspaces [VS Code documentation]"
-    type: documentation
-    lang: en
-
----
-skill: "Basic Text editing using a keyboard"
+skill: "Basic text editing using a keyboard"
 level: 1
 text: |
   These are the basic text editing skills that work almost everywhere you work with text.
@@ -63,6 +38,38 @@ text: |
   Use the cursor movements to select with <kbd>Shift</kbd>
   
   Select all <kbd>Ctrl + A</kbd> (macOS: <kbd>⌘ + A</kbd>)
+resources:
+  - url: https://coreskill.tech/downloads/klavesnice-cz-en.pdf
+    desc: "US and CZ keyboard layout highlighting special characters (A4 PDF)"
+    type: cheatsheet
+    lang: en
+  - url: https://coreskill.tech/downloads/klavesnice-cz-en.svg
+    desc: "US and CZ keyboard layout highlighting special characters (SVG)"
+    type: cheatsheet
+    lang: en
+  - url: https://coreskill.tech/downloads/klavesnice-cz-en.png
+    desc: "US and CZ keyboard layout highlighting special characters (PNG)"
+    type: cheatsheet
+    lang: en
+
+---
+skill: "Code editor installation"
+level: 1
+resources:
+  - url: https://code.visualstudio.com/
+    desc: "Download Visual Studio Code"
+    lang: en
+
+---
+skill: "Workspaces"
+level: 1
+requires:
+  - "Code editor installation"
+resources:
+  - url: https://code.visualstudio.com/docs/editor/workspaces
+    desc: "Workspaces [VS Code documentation]"
+    type: documentation
+    lang: en
 
 ---
 skill: "Selecting text using a mouse"
@@ -71,15 +78,18 @@ text: |
   These are the basic text editing skills that work almost everywhere you work with text.
   
   - select a word (double click)
-  - select a paragraph (triple click)  
+  - select a paragraph (triple click)
+  - click where you want to start selection and then click holding <kbd>Shift</kbd> where you want to end selection
 
 ---
-skill: "Text Editor control using keyboard"
+skill: "Text editor control using keyboard"
 level: 1
 text: |
   Learn how to do these basic actions using only keyboard.
   - Save file
     <kbd>Ctrl + S</kbd> (macOS: <kbd>⌘ + S</kbd>)
+  - Save all files
+    <kbd>Ctrl + K then S</kbd> (macOS: <kbd>⌥ + ⌘ + S</kbd>)
   - Open file
     <kbd>Ctrl + O</kbd> (macOS: <kbd>⌘ + O</kbd>)
   - Undo last action
@@ -90,8 +100,11 @@ text: |
     <kbd>Ctrl + F</kbd> (macOS: <kbd>^ + F</kbd>)
   - Invoke replace
     <kbd>Ctrl + H</kbd> (macOS: <kbd>^ + H</kbd>)
+  - Show Command Palette (run any command) 
+    <kbd>Ctrl + Shift + P</kbd> (macOS: <kbd>Shift + ⌘ + P</kbd>) or <kbd>F1</kbd>.
+    Then type what you need (any letters from the command it's a fuzzy search) choose with arrows and press <kbd>Enter</kbd>.
 requires:
-  - "Basic Text editing using a keyboard"
+  - "Basic text editing using a keyboard"
 resources:
   - url: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
     type: cheatsheet
@@ -107,12 +120,10 @@ resources:
     lang: en
 
 ---
-skill: "Text editor keyboard shortcuts"
+skill: "Text editing in text editor using a keyboard"
 level: 1
 text: |
-  - Show Command Palette (run any command) 
-    <kbd>Ctrl + Shift + P</kbd> (macOS: <kbd>Shift + ⌘ + P</kbd>) or <kbd>F1</kbd>.
-    Then type what you need (any letters from the command it's a fuzzy search) choose with arrows and press <kbd>Enter</kbd>.
+  Learn how to do these basic actions using only keyboard.
   - Copy and cut whole line: standard shortcuts without selection
   - Indent/outdent line with the current indent character (tab or spaces)
     with <kbd>Tab</kbd> / <kbd>Shift + Tab</kbd> 
@@ -125,13 +136,13 @@ text: |
   
   Many of the above actions work even on multiple lines e.g. indenting.
 requires:
-  - "Basic Text editing using a keyboard"
+  - "Basic text editing using a keyboard"
 
 ---
 skill: "Intellisense"
 level: 1
 requires:
-  - "Code Editor Installation"
+  - "Code editor installation"
 resources:
   - url: https://code.visualstudio.com/docs/editor/intellisense
     desc: "Intellisense [VS Code documentation]"
@@ -150,7 +161,7 @@ resources:
 skill: "Emmet"
 level: 1
 requires:
-  - "Code Editor Installation"
+  - "Code editor installation"
 resources:
   - url: https://code.visualstudio.com/docs/editor/emmet
     desc: "Emmet [VS Code documentation]"
@@ -159,13 +170,12 @@ resources:
   - url: https://emmet.io/
     desc: "Emmet: project homepage"
     lang: en
-    
 
 ---
 skill: "Multiple selections"
 level: 2
 requires:
-  - "Code Editor Installation"
+  - "Code editor installation"
 resources:
   - url: https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor
     desc: "Multiple selections [VS Code documentation]"
@@ -176,7 +186,7 @@ resources:
 skill: "Search and replace"
 level: 2
 requires:
-  - "Code Editor Installation"
+  - "Code editor installation"
 resources:
   - url: https://code.visualstudio.com/docs/editor/codebasics#_find-and-replace
     desc: "Search and replace [VS Code documentation]"
@@ -187,7 +197,7 @@ resources:
 skill: "Extensions/Plugins installation"
 level: 2
 requires:
-  - "Code Editor Installation"
+  - "Code editor installation"
 resources:
   - url: https://marketplace.visualstudio.com/
     desc: "Extensions for VS Code"

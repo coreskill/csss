@@ -5,7 +5,7 @@ sort: 70
 skill: "Basic regular expressions"
 level: 3
 requires:
-  - "// Basics // Code Editing // Code Editor Installation"
+  - "// Basics // Code Editing // Code editor installation"
 resources:
   - url: https://regexone.com/
     type: interactive tutorial
