@@ -42,7 +42,7 @@ resources:
 
 ---
 skill: "DOM overview"
-level: 4
+level: 3
 requires:
   - "// HTML // Basic Structure // <!doctype>, <html>, <head>, <body>"
 resources:
@@ -65,7 +65,7 @@ resources:
 
 ---
 skill: "Accessing DOM using document"
-level: 4
+level: 3
 requires:
   - "DOM overview"
   - "Objects // Objects overview"
@@ -81,7 +81,7 @@ resources:
 
 ---
 skill: "Changing element content"
-level: 4
+level: 3
 requires:
   - "<script> tag"
   - "Accessing DOM using document"
@@ -110,7 +110,7 @@ resources:
 
 ---
 skill: "Selecting one element"
-level: 4
+level: 3
 requires:
   - "Changing element content"
 resources:
@@ -133,7 +133,7 @@ resources:
 
 ---
 skill: "Creating and inserting elements"
-level: 4
+level: 3
 requires:
   - "Selecting one element"
 resources:
@@ -168,7 +168,7 @@ resources:
 
 ---
 skill: "Removing elements"
-level: 4
+level: 3
 requires:
   - "Selecting one element"
   - "Creating and inserting elements"
@@ -188,7 +188,7 @@ resources:
 
 ---
 skill: "Traversing DOM"
-level: 4
+level: 3
 requires:
   - "Selecting one element"
   - "Arrays // Accessing elements"
@@ -216,7 +216,7 @@ resources:
 
 ---
 skill: "Selecting multiple elements"
-level: 5
+level: 3
 requires:
   - "Selecting one element"
   - "Arrays // Accessing elements"
@@ -233,7 +233,7 @@ resources:
 
 ---
 skill: "Manipulating element classes"
-level: 4
+level: 3
 requires:
   - "Selecting one element"
 resources:
@@ -264,7 +264,7 @@ resources:
 
 ---
 skill: "Manipulating element attributes"
-level: extra
+level: 5
 requires:
   - "Selecting one element"
 resources:
@@ -297,7 +297,7 @@ resources:
 
 ---
 skill: "DOM Events overview"
-level: 4
+level: 3
 requires:
   - "DOM overview"
 resources:
