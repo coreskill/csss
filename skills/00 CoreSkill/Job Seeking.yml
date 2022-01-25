@@ -3,7 +3,7 @@ sort: 30
 
 ---
 skill: "Job Seeking overview"
-level: 4
+level: 3
 resources:
   - url: https://github.com/readme/guides/first-job-in-tech
     desc: "Get your first software developer job"
@@ -19,31 +19,31 @@ resources:
     lang: cs
 
 ---
-skill: "Interviews"
-level: 5
-requires:
-  - "Job Seeking overview"
-
----
-skill: "Where to find"
-level: 5
-requires:
-  - "Job Seeking overview"
-
----
 skill: "CV"
-level: 5
+level: 4
 requires:
   - "Job Seeking overview"
 
 ---
 skill: "LinkedIn"
-level: 5
+level: 4
 requires:
   - "Job Seeking overview"
 
 ---
 skill: "GitHub"
+level: 4
+requires:
+  - "Job Seeking overview"
+
+---
+skill: "Where to find"
+level: 4
+requires:
+  - "Job Seeking overview"
+
+---
+skill: "Interviews"
 level: 5
 requires:
   - "Job Seeking overview"
