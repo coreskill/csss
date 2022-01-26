@@ -15,7 +15,7 @@ resources:
 
 ---
 skill: "Web Fonts Overview"
-level: 2
+level: 3
 requires:
   - "Font types"
 resources:
@@ -25,7 +25,7 @@ resources:
 
 ---
 skill: "Variable fonts"
-level: 2
+level: 3
 requires:
   - "Design // Typography"
 resources:
@@ -35,7 +35,7 @@ resources:
 
 ---
 skill: "Using Google Fonts"
-level: 2
+level: 3
 text: |
   Link a font or more from [Google Fonts](https://fonts.google.com)
 requires:
