@@ -2761,6 +2761,11 @@
     "group": "git"
   },
   {
+    "id": "config",
+    "label": "config",
+    "group": "git"
+  },
+  {
     "id": "init",
     "label": "init",
     "group": "git"
@@ -2801,13 +2806,8 @@
     "group": "git"
   },
   {
-    "id": "checkout-to-restore-files-to-commited-state",
-    "label": "checkout (to restore files to commited state)",
-    "group": "git"
-  },
-  {
-    "id": "restore",
-    "label": "restore",
+    "id": "restore-files-to-commited-state-restore-or-checkout",
+    "label": "restore files to commited state (restore or checkout)",
     "group": "git"
   },
   {
@@ -2836,13 +2836,8 @@
     "group": "git"
   },
   {
-    "id": "switch1",
-    "label": "switch",
-    "group": "git"
-  },
-  {
-    "id": "checkout",
-    "label": "checkout",
+    "id": "switching-branches-switch-or-checkout",
+    "label": "switching branches (switch or checkout)",
     "group": "git"
   },
   {
@@ -2851,8 +2846,8 @@
     "group": "git"
   },
   {
-    "id": "branch-d",
-    "label": "branch -d",
+    "id": "delete-a-branch-d-or-d",
+    "label": "delete a branch (-d or -D)",
     "group": "git"
   },
   {
@@ -2878,11 +2873,6 @@
   {
     "id": "rebase-i-interactive",
     "label": "rebase -i (interactive)",
-    "group": "git"
-  },
-  {
-    "id": "config",
-    "label": "config",
     "group": "git"
   },
   {
@@ -6384,6 +6374,11 @@
   },
   {
     "from": "git-overview",
+    "to": "config",
+    "arrows": "to"
+  },
+  {
+    "from": "git-overview",
     "to": "init",
     "arrows": "to"
   },
@@ -6429,32 +6424,17 @@
   },
   {
     "from": "status",
-    "to": "checkout-to-restore-files-to-commited-state",
+    "to": "restore-files-to-commited-state-restore-or-checkout",
     "arrows": "to"
   },
   {
     "from": "add",
-    "to": "checkout-to-restore-files-to-commited-state",
+    "to": "restore-files-to-commited-state-restore-or-checkout",
     "arrows": "to"
   },
   {
     "from": "commit",
-    "to": "checkout-to-restore-files-to-commited-state",
-    "arrows": "to"
-  },
-  {
-    "from": "status",
-    "to": "restore",
-    "arrows": "to"
-  },
-  {
-    "from": "add",
-    "to": "restore",
-    "arrows": "to"
-  },
-  {
-    "from": "commit",
-    "to": "restore",
+    "to": "restore-files-to-commited-state-restore-or-checkout",
     "arrows": "to"
   },
   {
@@ -6499,27 +6479,12 @@
   },
   {
     "from": "commit",
-    "to": "switch1",
+    "to": "switching-branches-switch-or-checkout",
     "arrows": "to"
   },
   {
     "from": "status",
-    "to": "switch1",
-    "arrows": "to"
-  },
-  {
-    "from": "commit",
-    "to": "checkout",
-    "arrows": "to"
-  },
-  {
-    "from": "switch1",
-    "to": "checkout",
-    "arrows": "to"
-  },
-  {
-    "from": "status",
-    "to": "checkout",
+    "to": "switching-branches-switch-or-checkout",
     "arrows": "to"
   },
   {
@@ -6533,23 +6498,23 @@
     "arrows": "to"
   },
   {
-    "from": "checkout",
+    "from": "switching-branches-switch-or-checkout",
     "to": "merge",
     "arrows": "to"
   },
   {
     "from": "branch-add",
-    "to": "branch-d",
+    "to": "delete-a-branch-d-or-d",
     "arrows": "to"
   },
   {
     "from": "branch-list",
-    "to": "branch-d",
+    "to": "delete-a-branch-d-or-d",
     "arrows": "to"
   },
   {
-    "from": "checkout",
-    "to": "branch-d",
+    "from": "switching-branches-switch-or-checkout",
+    "to": "delete-a-branch-d-or-d",
     "arrows": "to"
   },
   {
@@ -6563,7 +6528,7 @@
     "arrows": "to"
   },
   {
-    "from": "checkout",
+    "from": "switching-branches-switch-or-checkout",
     "to": "branching-strategies-gitflow",
     "arrows": "to"
   },
@@ -6573,7 +6538,7 @@
     "arrows": "to"
   },
   {
-    "from": "checkout",
+    "from": "switching-branches-switch-or-checkout",
     "to": "stash",
     "arrows": "to"
   },
@@ -6595,11 +6560,6 @@
   {
     "from": "rebase",
     "to": "rebase-i-interactive",
-    "arrows": "to"
-  },
-  {
-    "from": "git-overview",
-    "to": "config",
     "arrows": "to"
   },
   {
