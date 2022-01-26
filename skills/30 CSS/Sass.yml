@@ -10,6 +10,19 @@ resources:
   - url: https://marksheet.io/sass.html
 
 ---
+skill: "Sassmeister"
+level: 3
+requires: 
+  - "Basic principles, Sass vs. scss"
+resources:
+  - url: https://www.sassmeister.com/
+    desc: Sassmeister website
+    text: |
+      Sassmeister is a tool that allows you to quickly see CSS generated from your Sass code.
+    type: tool
+    lang: en
+
+---
 skill: "@import (also partials)"
 level: 3
 requires: 
