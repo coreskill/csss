@@ -3,7 +3,7 @@ sort: 140
 
 ---
 skill: "SVGO"
-level: 2
+level: 3
 requires:
   - "Container Elements // <svg>"
 resources:
@@ -16,7 +16,7 @@ resources:
     lang: en
 ---
 skill: "Optimizing SVGs"
-level: 4
+level: 3
 requires:
   - "Container Elements // <svg>"
 resources:
