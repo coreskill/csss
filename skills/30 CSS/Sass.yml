@@ -3,7 +3,7 @@ sort: 170
 
 ---
 skill: "Basic principles, Sass vs. scss"
-level: 2
+level: 3
 requires: 
   - "General CSS // Basic CSS Syntax"
 resources:
@@ -11,26 +11,26 @@ resources:
 
 ---
 skill: "@import (also partials)"
-level: 2
+level: 3
 requires: 
   - "Basic principles, Sass vs. scss"
 
 ---
 skill: "//comments"
-level: 2
+level: 3
 requires: 
   - "Basic principles, Sass vs. scss"
 
 ---
 skill: "@media queries"
-level: 2
+level: 3
 requires: 
   - "Basic principles, Sass vs. scss"
   #- "Media queries" 
 
 ---
 skill: "variables"
-level: 2
+level: 3
 requires: 
   - "Basic principles, Sass vs. scss"
 resources:
@@ -38,7 +38,7 @@ resources:
 
 ---
 skill: "nesting + parent reference (&)"
-level: 2
+level: 3
 requires: 
   - "Basic principles, Sass vs. scss"
 resources:
@@ -46,37 +46,37 @@ resources:
 
 ---
 skill: "SassScript (calculations)"
-level: 3
+level: 4
 requires: 
   - "Basic principles, Sass vs. scss"
 
 ---
 skill: "sourcemaps"
-level: 3
+level: 4
 requires: 
   - "Basic principles, Sass vs. scss"
 
 ---
 skill: "built-in functions (mainly color)"
-level: 3
+level: 4
 requires: 
   - "Basic principles, Sass vs. scss"
 
 ---
 skill: "!default"
-level: 3
+level: 4
 requires: 
   - "Basic principles, Sass vs. scss"
 
 ---
 skill: "!global"
-level: 4
+level: 5
 requires: 
   - "!default"
 
 ---
 skill: "datatypes: basic"
-level: 3
+level: 4
 text: |
   - Null
   - Booleans
@@ -91,19 +91,19 @@ resources:
 
 ---
 skill: "datatypes: lists"
-level: 4
+level: 5
 requires: 
   - "datatypes: basic"
 
 ---
 skill: "datatypes: maps"
-level: 3
+level: 4
 requires: 
   - "datatypes: basic"
 
 ---
 skill: "Using mixins" 
-level: 3
+level: 4
 requires: 
   - "Basic principles, Sass vs. scss"
 resources:
