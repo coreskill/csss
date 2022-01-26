@@ -51,6 +51,14 @@ resources:
     desc: "When you have more colors and want to see which can be combined."
     type: tool
     lang: en
+  - url: https://www.myndex.com/APCA/
+    desc: "Tool for the new contrast algorithm: APCA (2 colors)"
+    type: tool
+    lang: en
+  - url: https://huetone.ardov.me/
+    desc: "Tool for the new contrast algorithm: APCA (for creating color palettes)"
+    type: tool
+    lang: en
 
 ---
 skill: "WAI-ARIA roles overview"
