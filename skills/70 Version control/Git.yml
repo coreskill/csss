@@ -33,6 +33,16 @@ resources:
     lang: en
 
 ---
+skill: "config"
+level: 2
+requires:
+  - "Git overview"
+resources:
+  - url: https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config
+    type: tutorial
+    lang: en
+
+---
 skill: "init"
 level: 2
 requires:
@@ -131,7 +141,7 @@ resources:
 
 ---
 skill: ".gitignore"
-level: 3
+level: 2
 requires:
   - "status"
 resources:
@@ -144,15 +154,16 @@ resources:
     lang: en
 
 ---
-skill: "checkout (to restore files to commited state)"
-text: |
-
-level: 3
+skill: "restore files to commited state (restore or checkout)"
+level: 2
 requires:
   - "status"
   - "add"
   - "commit"
 resources:
+  - url: https://git-scm.com/docs/git-restore
+    type: documentation
+    lang: en
   - url: https://www.atlassian.com/git/tutorials/undoing-changes
     type: tutorial
     lang: en
@@ -164,26 +175,8 @@ resources:
     lang: en
 
 ---
-skill: "restore"
-level: 3
-requires:
-  - "status"
-  - "add"
-  - "commit"
-resources:
-  - url: https://git-scm.com/docs/git-restore
-    type: documentation
-    lang: en
-  - url: https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
-    type: tutorial
-    lang: en
-  - url: https://www.codecademy.com/courses/learn-git/lessons/git-backtracking/exercises/git-checkout-1
-    type: interactive course
-    lang: en
-
----
 skill: "pull"
-level: 3
+level: 2
 requires:
   - "Git overview"
 resources:
@@ -196,7 +189,7 @@ resources:
 
 ---
 skill: "push"
-level: 3
+level: 2
 requires:
   - "init"
   - "pull"
@@ -244,7 +237,7 @@ resources:
     lang: en
 
 ---
-skill: "switch"
+skill: "switching branches (switch or checkout)"
 level: 3
 requires:
   - "commit"
@@ -253,15 +246,6 @@ resources:
   - url: https://git-scm.com/docs/git-switch
     type: documentation
     lang: en
-
----
-skill: "checkout"
-level: 3
-requires:
-  - "commit"
-  - "switch"
-  - "status"
-resources:
   - url: https://www.atlassian.com/git/tutorials/using-branches/git-checkout
     type: tutorial
     lang: en
@@ -272,19 +256,19 @@ level: 3
 requires:
   - "commit"
   - "branch add"
-  - "checkout"
+  - "switching branches (switch or checkout)"
 resources:
   - url: https://www.atlassian.com/git/tutorials/using-branches/git-merge
     type: tutorial
     lang: en
 
 ---
-skill: "branch -d"
+skill: "delete a branch (-d or -D)"
 level: 3
 requires:
   - "branch add"
   - "branch list"
-  - "checkout"
+  - "switching branches (switch or checkout)"
 resources:
   - url: https://www.atlassian.com/git/tutorials/using-branches
     type: tutorial
@@ -296,7 +280,7 @@ level: 3
 requires:
   - "branch add"
   - "branch list"
-  - "checkout"
+  - "switching branches (switch or checkout)"
 resources:
   - url: https://www.atlassian.com/git/tutorials/comparing-workflows
     type: tutorial
@@ -310,7 +294,7 @@ skill: "stash"
 level: 3
 requires:
   - "commit"
-  - "checkout"
+  - "switching branches (switch or checkout)"
 resources:
   - url: https://www.atlassian.com/git/tutorials/saving-changes/git-stash
     type: tutorial
@@ -351,16 +335,6 @@ requires:
   - "rebase"
 resources:
   - url: https://www.atlassian.com/git/tutorials/rewriting-history#git-rebase-i
-    type: tutorial
-    lang: en
-
----
-skill: "config"
-level: 5
-requires:
-  - "Git overview"
-resources:
-  - url: https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config
     type: tutorial
     lang: en
 
