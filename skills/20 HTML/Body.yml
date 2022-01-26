@@ -147,7 +147,7 @@ resources:
 
 ---
 skill: "<main>"
-level: 3
+level: 2
 requires:
   - "<div>, <span>"
 resources:
@@ -158,7 +158,7 @@ resources:
 
 ---
 skill: "<aside>"
-level: 3
+level: 2
 requires:
   - "<div>, <span>"
 resources:
@@ -169,7 +169,7 @@ resources:
 
 ---
 skill: "<header>"
-level: 3
+level: 2
 requires:
   - "<div>, <span>"
 resources:
@@ -180,7 +180,7 @@ resources:
 
 ---
 skill: "<footer>"
-level: 3
+level: 2
 requires:
   - "<div>, <span>"
 resources:
@@ -191,7 +191,7 @@ resources:
 
 ---
 skill: "<nav>"
-level: 3
+level: 2
 requires:
   - "<div>, <span>"
 resources:
@@ -202,7 +202,7 @@ resources:
 
 ---
 skill: "<section>"
-level: 3
+level: 2
 requires:
   - "<div>, <span>"
 resources:
@@ -213,7 +213,7 @@ resources:
 
 ---
 skill: "<article>"
-level: 3
+level: 2
 requires:
   - "<div>, <span>"
 resources:
@@ -230,33 +230,6 @@ requires:
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe
     desc: "iframe [MDN]"
-    type: reference
-    lang: en
-
----
-skill: "<table>, <tr>, <th>, <td>, <tbody>"
-level: 4
-requires:
-  - "<div>, <span>"
-resources:
-  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table
-    desc: "table [MDN]"
-    type: reference
-    lang: en
-  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr
-    desc: "tr [MDN]"
-    type: reference
-    lang: en
-  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th
-    desc: "th [MDN]"
-    type: reference
-    lang: en
-  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td
-    desc: "td [MDN]"
-    type: reference
-    lang: en
-  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody
-    desc: "tbody [MDN]"
     type: reference
     lang: en
 
@@ -384,6 +357,33 @@ requires:
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript
     desc: "noscript [MDN]"
+    type: reference
+    lang: en
+
+---
+skill: "<table>, <tr>, <th>, <td>, <tbody>"
+level: 5
+requires:
+  - "<div>, <span>"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table
+    desc: "table [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr
+    desc: "tr [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th
+    desc: "th [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td
+    desc: "td [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody
+    desc: "tbody [MDN]"
     type: reference
     lang: en
 
