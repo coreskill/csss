@@ -146,9 +146,7 @@ text: |
   
 requires:
   - "Strategies"
-  - "// Design related // Bitmaps // PNG size optimization"
-  - "// Design related // Bitmaps // JPG size optimization"
-  - "// Design related // Bitmaps // GIF size optimization"
+  - "// Design related // Bitmaps // Bitmap size optimization"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/Performance/Multimedia
     desc: "Performance: Multimedia: Images [MDN]"

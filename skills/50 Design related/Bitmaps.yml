@@ -134,38 +134,13 @@ text: |
   - Lossy compression removes some of the information from the image so the image is not exactly the same as it was before it was compressed.
 requires:
   - "Bitmaps overview"
-
----
-skill: "PNG size optimization"
-level: 3
-resources:
-  - url: https://squoosh.app/
-    desc: "Squoosh: online app to optimize bitmap images"
-    type: tool
-    lang: en
-requires:
-  - "Bitmap size optimization"
-  - "PNG"
-
----
-skill: "JPG size optimization"
-level: 3
-resources:
-  - url: https://squoosh.app/
-    desc: "Squoosh: online app to optimize bitmap images"
-    type: tool
-    lang: en
-requires:
-  - "Bitmap size optimization"
   - "JPG"
-
----
-skill: "GIF size optimization"
-level: 5
+  - "PNG"
 resources:
+  - url: https://squoosh.app/
+    desc: "Squoosh: online app to optimize bitmap images"
+    type: tool
+    lang: en
   - url: https://ezgif.com/
     desc: "Online tool to edit animated GIFs mostly focused on optimizing their size."
     type: tool
-requires:
-  - "Bitmap size optimization"
-  - "GIF"
