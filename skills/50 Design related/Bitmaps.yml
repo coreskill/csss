@@ -6,6 +6,27 @@ skill: "Bitmaps overview"
 level: 1
 
 ---
+skill: "Making screenshots"
+level: 2
+text: |
+  Ability to make screenshot in both operating system and in the browser (full page screenshots)
+resources:
+  - url: https://support.microsoft.com/en-us/windows/open-snipping-tool-and-take-a-screenshot-a35ac9ff-4a58-24c9-3253-f12bac9f9d44
+    desc: "Take a screenshot on Windows [microsoft.com]"
+    lang: en
+  - url: https://support.apple.com/en-gb/HT201361
+    desc: "Take a screenshot on macOS [apple.com]"
+    lang: en
+requires:
+  - "Bitmaps overview"
+
+---
+skill: "Bitmap resizing"
+level: 2
+requires:
+  - "Bitmaps overview"
+
+---
 skill: "PNG"
 level: 2
 resources:
@@ -27,16 +48,8 @@ requires:
   - "Bitmaps overview"
 
 ---
-skill: "loosless vs. lossy compression"
-level: 3
-requires:
-  - "GIF"
-  - "PNG"
-  - "JPG"
-
----
 skill: "GIF"
-level: 4
+level: 2
 resources:
   - url: https://www.vzhurudolu.cz/prirucka/obrazky-formaty#gif
     desc: "Průvodce formáty obrázků pro web: GIF [Vzhůru dolů]"
@@ -46,7 +59,7 @@ requires:
 
 ---
 skill: "WebP"
-level: 4
+level: 3
 resources:
   - url: https://developers.google.com/speed/webp
     desc: "Google’s WebP description"
@@ -58,7 +71,6 @@ requires:
   - "GIF"
   - "PNG"
   - "JPG"
-  - "loosless vs. lossy compression"
 
 ---
 skill: "AVIF"
@@ -104,12 +116,6 @@ requires:
   - "PNG"
 
 ---
-skill: "Bitmap resizing"
-level: 3
-requires:
-  - "Bitmaps overview"
-
----
 skill: "Bitmap size optimization"
 level: 2
 text: |
@@ -121,6 +127,11 @@ text: |
   - **dimensions**: more pixels ➡ more data
   - **bit depth**: or simply number of colors: more colors ➡ more data
   - **percieved quality**: same quality setting isn’t always percieved the same
+  
+  Most bitmap image formats have some kind of compression in place.  
+  
+  - Lossless compression is a type of compression that doesn't discard any data from the original image. It means the pixels after decompression are exactly the same as they were before compression.
+  - Lossy compression removes some of the information from the image so the image is not exactly the same as it was before it was compressed.
 requires:
   - "Bitmaps overview"
 
@@ -150,7 +161,7 @@ requires:
 
 ---
 skill: "GIF size optimization"
-level: 4
+level: 5
 resources:
   - url: https://ezgif.com/
     desc: "Online tool to edit animated GIFs mostly focused on optimizing their size."
@@ -158,17 +169,3 @@ resources:
 requires:
   - "Bitmap size optimization"
   - "GIF"
-
----
-skill: "Making screenshots"
-level: 2
-text: |
-  Ability to make screenshot in both operating system and in the browser (full page screenshots)
-resources:
-  - url: https://support.apple.com/en-gb/HT201361
-    desc: "Take a screenshot on your Mac [apple.com]"
-    lang: en
-requires:
-  - "PNG"
-  - "JPG"
-  - "Advanced // Dev Tools // Command Menu"
