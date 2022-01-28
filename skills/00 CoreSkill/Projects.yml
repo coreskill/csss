@@ -46,7 +46,7 @@ resources:
     
 ---
 skill: "Build a small JavaScript application"
-level: 5
+level: 4
 text: |
   E.g. coffee calculator, form validation etc. 
 

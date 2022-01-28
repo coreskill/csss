@@ -1,9 +1,9 @@
 ---
-sort: 40 
+sort: 40
 
 ---
 skill: "Client and Server"
-level: 2
+level: 1
 resources:
   - url: https://marksheet.io/internet.html#client-and-server
 
@@ -30,13 +30,13 @@ resources:
 
 ---
 skill: "IP Address"
-level: 2
+level: 3
 resources:
   - url: https://marksheet.io/internet.html#ip-address
 
 ---
 skill: "Domains"
-level: 2
+level: 3
 resources:
   - url: https://marksheet.io/internet.html#domains
     desc: "Minimalistic explanation"
@@ -45,7 +45,7 @@ resources:
 
 ---
 skill: "DNS"
-level: 2
+level: 3
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Glossary/DNS
 text: |
