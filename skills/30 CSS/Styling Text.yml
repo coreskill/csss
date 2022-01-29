@@ -68,17 +68,6 @@ resources:
     lang: en
 
 ---
-skill: "vertical-align"
-level: 3
-requires:
-  - "General CSS // Basic CSS Syntax"
-resources:
-  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align
-    desc: "vertical-align [MDN]"
-    type: reference
-    lang: en
-
----
 skill: "text-align"
 level: 1
 requires:
@@ -102,12 +91,23 @@ resources:
 
 ---
 skill: "text-transform"
-level: 3
+level: 2
 requires:
   - "General CSS // Basic CSS Syntax"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform
     desc: "text-transform [MDN]"
+    type: reference
+    lang: en
+
+---
+skill: "vertical-align"
+level: 3
+requires:
+  - "General CSS // Basic CSS Syntax"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align
+    desc: "vertical-align [MDN]"
     type: reference
     lang: en
 

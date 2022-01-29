@@ -73,7 +73,7 @@ resources:
 
 ---
 skill: "Customization: Utility classes"
-level: 4
+level: 3
 requires:
   - "Bootstrap overview"
 resources:
@@ -84,7 +84,7 @@ resources:
 
 ---
 skill: "Customization: Variables"
-level: 4
+level: 3
 requires:
   - "Bootstrap overview"
   - "CSS // Sass // variables"
@@ -104,7 +104,7 @@ resources:
 
 ---
 skill: "Customization: Own CSS"
-level: 4
+level: 3 
 requires:
   - "Bootstrap overview"
   - "CSS // Sass // @import (also partials)"

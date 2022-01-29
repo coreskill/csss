@@ -3,7 +3,7 @@ sort: 80
 
 ---
 skill: "Higher Order Functions overview"
-level: 3
+level: 2
 requires:
   - "Basics // JavaScript overview"
 resources:
@@ -12,7 +12,7 @@ resources:
 
 ---
 skill: "Functions as Data"
-level: 3
+level: 2
 requires:
   - "Higher Order Functions overview"
 resources:
@@ -21,7 +21,7 @@ resources:
 
 ---
 skill: "Functions as Parameters"
-level: 3
+level: 2
 requires:
   - "Higher Order Functions overview"
 resources:

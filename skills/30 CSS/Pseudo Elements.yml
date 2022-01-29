@@ -17,6 +17,20 @@ resources:
     lang: en
 
 ---
+skill: "::marker"
+level: 2
+requires:
+  - "// HTML // Body // <ul>, <ol>, <li>"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/::marker
+    desc: "::marker [MDN]"
+    type: reference
+    lang: en
+  - url: https://web.dev/learn/css/lists/
+    desc: "Lists [web.dev]"
+    lang: en
+
+---
 skill: "::placeholder"
 level: 4
 requires:
@@ -36,20 +50,6 @@ resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/::selection
     desc: "::selection [MDN]"
     type: reference
-    lang: en
-
----
-skill: "::marker"
-level: 5
-requires:
-  - "// HTML // Body // <ul>, <ol>, <li>"
-resources:
-  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/::marker
-    desc: "::marker [MDN]"
-    type: reference
-    lang: en
-  - url: https://web.dev/learn/css/lists/
-    desc: "Lists [web.dev]"
     lang: en
 
 ---

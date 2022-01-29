@@ -3,7 +3,7 @@ sort: 75
 
 ---
 skill: "calc()"
-level: 4
+level: 3
 requires:
   - "General CSS // Basic CSS Syntax"
 resources:
@@ -13,7 +13,7 @@ resources:
     
 ---
 skill: "max()"
-level: 4
+level: 3
 requires:
   - "General CSS // Basic CSS Syntax"
 resources:
@@ -23,7 +23,7 @@ resources:
     
 ---
 skill: "min()"
-level: 4
+level: 3
 requires:
   - "General CSS // Basic CSS Syntax"
 resources:
@@ -33,7 +33,7 @@ resources:
     
 ---
 skill: "clamp()"
-level: 4
+level: 3
 requires:
   - "General CSS // Basic CSS Syntax"
 resources:

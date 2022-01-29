@@ -59,13 +59,13 @@ resources:
 
 ---
 skill: "SassScript (calculations)"
-level: 4
+level: 3
 requires: 
   - "Basic principles, Sass vs. scss"
 
 ---
 skill: "sourcemaps"
-level: 4
+level: 3
 requires: 
   - "Basic principles, Sass vs. scss"
 
@@ -89,7 +89,7 @@ requires:
 
 ---
 skill: "datatypes: basic"
-level: 4
+level: 3
 text: |
   - Null
   - Booleans
@@ -103,13 +103,13 @@ resources:
   - url: https://www.sitepoint.com/data-types-in-sass/
 
 ---
-skill: "datatypes: lists"
-level: 5
+skill: "datatypes: maps"
+level: 3
 requires: 
   - "datatypes: basic"
 
 ---
-skill: "datatypes: maps"
+skill: "datatypes: lists"
 level: 4
 requires: 
   - "datatypes: basic"

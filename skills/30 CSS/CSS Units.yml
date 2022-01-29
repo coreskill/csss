@@ -2,8 +2,8 @@
 sort: 50
 
 ---
-skill: "Best practices"
-level: 1
+skill: "Best practice"
+level: 2
 requires:
   - "General CSS // Basic CSS Syntax"
 resources:
@@ -17,7 +17,7 @@ resources:
 skill: "Length units"
 level: 1
 requires:
-  - "Best practices"
+  - "Best practice"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#lengths
     type: explanation
@@ -66,7 +66,7 @@ resources:
 skill: "unitless (number)"
 level: 1
 requires:
-  - "Best practices"
+  - "Best practice"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#numbers
     type: explanation
@@ -79,7 +79,7 @@ resources:
 skill: "unitless (integer)"
 level: 3
 requires:
-  - "Best practices"
+  - "Best practice"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/integer
     type: reference
@@ -99,6 +99,18 @@ resources:
     lang: en
 
 ---
+skill: "ch"
+level: 3
+requires:
+  - "em, rem"
+text: |
+  The advance measure (width) of the glyph “0” of the element’s font.
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/length#ch
+    type: reference
+    lang: en
+
+---
 skill: "vmin, vmax"
 level: 4
 requires:
@@ -112,20 +124,8 @@ resources:
     lang: en
 
 ---
-skill: "ch"
-level: 3
-requires:
-  - "em, rem"
-text: |
-  The advance measure (width) of the glyph “0” of the element’s font.
-resources:
-  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/length#ch
-    type: reference
-    lang: en
-
----
 skill: "cm, mm"
-level: 3
+level: 4
 requires:
   - "Length units"
 text: |
@@ -164,7 +164,7 @@ resources:
 skill: "color values: keywords"
 level: 1
 requires:
-  - "Best practices"
+  - "Best practice"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#color_keywords 
     type: explanation
@@ -174,7 +174,7 @@ resources:
 skill: "color values: hex (RRGGBBAA)"
 level: 1
 requires:
-  - "Best practices"
+  - "Best practice"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#hexadecimal_rgb_values
     type: explanation
@@ -184,7 +184,7 @@ resources:
 skill: "color values: rgb(), rgba()"
 level: 1
 requires:
-  - "Best practices"
+  - "Best practice"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#rgb_and_rgba_values
     type: explanation
@@ -194,7 +194,7 @@ resources:
 skill: "color values: hsl(), hsla()"
 level: 2
 requires:
-  - "Best practices"
+  - "Best practice"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#hsl_and_hsla_values
     type: explanation

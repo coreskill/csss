@@ -3,7 +3,7 @@ sort: 90
 
 ---
 skill: "Flexbox concepts"
-level: 3
+level: 2
 sublevel: 1
 text: |
   concepts of flexbox:
@@ -54,7 +54,7 @@ requires:
 
 ---
 skill: "flex-wrap" 
-level: 3
+level: 2
 sublevel: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap
@@ -66,8 +66,8 @@ requires:
 
 ---
 skill: "flex-direction" 
-level: 3
-sublevel: 3
+level: 2
+sublevel: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction
     desc: "flex-direction [MDN]"
@@ -78,7 +78,7 @@ requires:
 
 ---
 skill: "flex-basis" 
-level: 3
+level: 2
 sublevel: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis
@@ -90,7 +90,7 @@ requires:
 
 ---
 skill: "flex-grow" 
-level: 3
+level: 2
 sublevel: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow
@@ -102,7 +102,7 @@ requires:
 
 ---
 skill: "flex-shrink" 
-level: 3
+level: 2
 sublevel: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink
@@ -114,7 +114,7 @@ requires:
 
 ---
 skill: "flex (shorthand)"
-level: 3
+level: 2
 sublevel: 2
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex
@@ -128,7 +128,7 @@ requires:
 
 ---
 skill: "order" 
-level: 3
+level: 2
 sublevel: 5
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/order
@@ -152,7 +152,7 @@ requires:
 
 ---
 skill: "justify-content"
-level: 3
+level: 2
 sublevel: 4
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
@@ -164,7 +164,7 @@ requires:
 
 ---
 skill: "align-content"
-level: 3
+level: 2
 sublevel: 4
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/align-content
@@ -176,7 +176,7 @@ requires:
 
 ---
 skill: "align-items"
-level: 3
+level: 2
 sublevel: 4
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/align-items
@@ -188,7 +188,7 @@ requires:
 
 ---
 skill: "align-self"
-level: 3
+level: 2
 sublevel: 5
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/align-self
@@ -200,7 +200,7 @@ requires:
 
 ---
 skill: "justify-self"
-level: 3
+level: 2
 sublevel: 5
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/justify-self

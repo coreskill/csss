@@ -3,7 +3,7 @@ sort: 100
 
 ---
 skill: "Objects overview"
-level: 3
+level: 2
 requires:
   - "Basics // JavaScript overview"
 resources:
@@ -14,7 +14,7 @@ resources:
 
 ---
 skill: "Creating Object Literals"
-level: 3
+level: 2
 requires:
   - "Objects overview"
 resources:
@@ -23,7 +23,7 @@ resources:
 
 ---
 skill: "Accessing Properties (Dot Notation)"
-level: 3
+level: 2
 requires:
   - "Objects overview"
 resources:
@@ -32,7 +32,7 @@ resources:
 
 ---
 skill: "Accessing Properties (Bracket Notation)"
-level: 3
+level: 2
 requires:
   - "Objects overview"
 resources:
@@ -41,7 +41,7 @@ resources:
 
 ---
 skill: "Property Assignment"
-level: 3
+level: 2
 requires:
   - "Objects overview"
 resources:
@@ -50,7 +50,7 @@ resources:
 
 ---
 skill: "Methods"
-level: 3
+level: 2
 requires:
   - "Objects overview"
 resources:
@@ -59,7 +59,7 @@ resources:
 
 ---
 skill: "Nested Objects"
-level: 3
+level: 2
 requires:
   - "Objects overview"
 resources:
@@ -68,7 +68,7 @@ resources:
 
 ---
 skill: "Pass By Reference"
-level: 3
+level: 2
 requires:
   - "Objects overview"
 resources:
@@ -77,7 +77,7 @@ resources:
 
 ---
 skill: "Looping Through Objects"
-level: 3
+level: 2
 requires:
   - "Objects overview"
 resources:
@@ -86,7 +86,7 @@ resources:
 
 ---
 skill: "The this Keyword"
-level: 4
+level: 3
 requires:
   - "Objects overview"
 resources:
@@ -95,7 +95,7 @@ resources:
 
 ---
 skill: "Arrow Functions and this"
-level: 4
+level: 3
 requires:
   - "Objects overview"
 resources:
@@ -104,7 +104,7 @@ resources:
 
 ---
 skill: "Privacy"
-level: 4
+level: 3
 requires:
   - "Objects overview"
 resources:
@@ -113,7 +113,7 @@ resources:
 
 ---
 skill: "Getters"
-level: 4
+level: 3
 requires:
   - "Objects overview"
 resources:
@@ -122,7 +122,7 @@ resources:
 
 ---
 skill: "Setters"
-level: 4
+level: 3
 requires:
   - "Objects overview"
 resources:
@@ -131,7 +131,7 @@ resources:
 
 ---
 skill: "Factory Functions"
-level: 5
+level: 4
 requires:
   - "Objects overview"
 resources:
@@ -140,7 +140,7 @@ resources:
 
 ---
 skill: "Property Value Shorthand"
-level: 5
+level: 4
 requires:
   - "Objects overview"
 resources:
@@ -149,7 +149,7 @@ resources:
 
 ---
 skill: "Destructured Assignment"
-level: 5
+level: 4
 requires:
   - "Objects overview"
 resources:
@@ -158,7 +158,7 @@ resources:
 
 ---
 skill: "Built-in Object Methods"
-level: 5
+level: 4
 requires:
   - "Objects overview"
 resources:

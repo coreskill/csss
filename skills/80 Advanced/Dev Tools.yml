@@ -47,19 +47,8 @@ resources:
     lang: en
 
 ---
-skill: "Sources"
-level: 3
-requires:
-  - "Dev Tools overview"
-resources:
-  - url: https://developer.chrome.com/docs/devtools/resources/
-    desc: "View page resources"
-    type: documentation
-    lang: en
-
----
 skill: "Console"
-level: 3
+level: 2
 requires:
   - "Dev Tools overview"
   - "JavaScript // Basics // JavaScript overview"
@@ -78,6 +67,17 @@ resources:
     lang: en
 
 ---
+skill: "Sources"
+level: 3
+requires:
+  - "Dev Tools overview"
+resources:
+  - url: https://developer.chrome.com/docs/devtools/resources/
+    desc: "View page resources"
+    type: documentation
+    lang: en
+
+---
 skill: "Network"
 level: 4
 requires:
@@ -90,7 +90,7 @@ resources:
 
 ---
 skill: "Command Menu"
-level: 5
+level: 3
 requires:
   - "Dev Tools overview"
 resources:

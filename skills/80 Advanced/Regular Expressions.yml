@@ -38,9 +38,9 @@ resources:
 
 ---
 skill: "Finding & Replacing"
-level: 4
+level: 3
 text: |
-  ^(.+.*)[^a-z0-9]?\n$
+  Know what this `^(.+.*)[^a-z0-9]?\n$` and this as a replacement `$0-$1\n` means.
 requires:
   - "Basic regular expressions"
 

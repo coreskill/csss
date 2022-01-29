@@ -3,7 +3,7 @@ sort: 120
 
 ---
 skill: "Browser Compatibility and Transpilation overview"
-level: 3
+level: 4
 requires:
   - "Basics // JavaScript overview"
 resources:
@@ -16,7 +16,7 @@ resources:
     
 ---
 skill: caniuse.com for JavaScript
-level: 3
+level: 4
 requires:
   - "Browser Compatibility and Transpilation overview"
 resources:

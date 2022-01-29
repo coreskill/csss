@@ -14,7 +14,7 @@ requires:
 
 ---
 skill: "Custom properties"
-level: 5
+level: 3
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/--*
     desc: "Custom properties (--*): CSS variables"
@@ -75,7 +75,7 @@ requires:
 
 ---
 skill: "CSS transitions"
-level: 5
+level: 4
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/transition
     desc: "transition [MDN]"

@@ -52,7 +52,7 @@ resources:
 
 ---
 skill: "Named Exports"
-level: extra
+level: 5
 requires:
   - "Modules overview"
 #resources:
@@ -60,7 +60,7 @@ requires:
 
 ---
 skill: "Named Imports"
-level: extra
+level: 5
 requires:
   - "Modules overview"
 #resources:
@@ -68,7 +68,7 @@ requires:
 
 ---
 skill: "Export Named Exports"
-level: extra
+level: 5
 requires:
   - "Modules overview"
 #resources:
@@ -76,7 +76,7 @@ requires:
 
 ---
 skill: "Import Named Imports"
-level: extra
+level: 5
 requires:
   - "Modules overview"
 #resources:
@@ -84,7 +84,7 @@ requires:
 
 ---
 skill: "Export as"
-level: extra
+level: 5
 requires:
   - "Modules overview"
 #resources:
@@ -92,7 +92,7 @@ requires:
 
 ---
 skill: "Import as"
-level: extra
+level: 5
 requires:
   - "Modules overview"
 #resources:
@@ -100,7 +100,7 @@ requires:
 
 ---
 skill: "Combining Export Statements"
-level: extra
+level: 5
 requires:
   - "Modules overview"
 #resources:

@@ -43,28 +43,6 @@ requires:
   - "Basic CSS Syntax"
 
 ---
-skill: "CSS reset and normalize.css (user agent styles)"
-level: 2
-resources:
-  - url: https://css-tricks.com/reboot-resets-reasoning/
-    desc: "Comparison of different approaches"
-    type: article
-    lang: en
-  - url: https://marksheet.io/css-reset.html
-    desc: "Marksheet description (outdated)"
-    lang: en
-  - url: https://necolas.github.io/normalize.css/
-    desc: "Normalize.css is a traditional CSS doing a basic normalizing"
-    type: documentation
-    lang: en
-  - url: https://getbootstrap.com/docs/5.1/content/reboot/
-    desc: "Bootstrap’s normalize"
-    type: documentation
-    lang: en
-requires:
-  - "Basic CSS Syntax"
-
----
 skill: "Connecting with HTML (linking)"
 level: 1
 resources:
@@ -88,7 +66,7 @@ requires:
 
 ---
 skill: "Inline CSS (style attribute)"
-level: 4
+level: 3
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style
     desc: "Style attribute [MDN]"
@@ -98,8 +76,30 @@ requires:
   - "Basic CSS Syntax"
 
 ---
+skill: "CSS reset and normalize.css (user agent styles)"
+level: 2
+resources:
+  - url: https://css-tricks.com/reboot-resets-reasoning/
+    desc: "Comparison of different approaches"
+    type: article
+    lang: en
+  - url: https://marksheet.io/css-reset.html
+    desc: "Marksheet description (outdated)"
+    lang: en
+  - url: https://necolas.github.io/normalize.css/
+    desc: "Normalize.css is a traditional CSS doing a basic normalizing"
+    type: documentation
+    lang: en
+  - url: https://getbootstrap.com/docs/5.1/content/reboot/
+    desc: "Bootstrap’s normalize"
+    type: documentation
+    lang: en
+requires:
+  - "Basic CSS Syntax"
+
+---
 skill: "@supports"
-level: 3
+level: 4
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@supports
 requires:

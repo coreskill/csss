@@ -264,7 +264,7 @@ resources:
 
 ---
 skill: "Manipulating element attributes"
-level: 5
+level: 3
 requires:
   - "Selecting one element"
 resources:

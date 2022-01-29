@@ -3,7 +3,7 @@ sort: 90
 
 ---
 skill: "Iterators overview"
-level: 4
+level: 3
 requires:
   - "Arrays // Arrays overview"
 resources:
@@ -14,7 +14,7 @@ resources:
 
 ---
 skill: ".forEach()"
-level: 4
+level: 3
 requires:
   - "Iterators overview"
 resources:
@@ -23,7 +23,7 @@ resources:
 
 ---
 skill: ".map()"
-level: 4
+level: 3
 requires:
   - "Iterators overview"
 resources:
@@ -32,7 +32,7 @@ resources:
 
 ---
 skill: ".filter()"
-level: 4
+level: 3
 requires:
   - ".map()"
 resources:
@@ -41,7 +41,7 @@ resources:
 
 ---
 skill: "overview of other methods e.g. .findIndex(), .some(), .every(), .reduce()"
-level: 4
+level: 3
 requires:
   - "Iterators overview"
 resources:
