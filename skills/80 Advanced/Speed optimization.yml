@@ -131,15 +131,6 @@ resources:
     lang: en
 
 ---
-skill: "Optimizing SVG"
-level: 4
-text: |
-  More at [Optimizing SVGs](/optimizing-svgs.html).
-requires:
-  - "Strategies"
-  - "// SVG // SVG Tools // Optimizing SVGs"
-
----
 skill: "Optimizing images"
 level: 4
 text: |
