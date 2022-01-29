@@ -937,8 +937,8 @@
     "group": "css-math-functions"
   },
   {
-    "id": "best-practices",
-    "label": "Best practices",
+    "id": "best-practice",
+    "label": "Best practice",
     "group": "css-units"
   },
   {
@@ -977,13 +977,13 @@
     "group": "css-units"
   },
   {
-    "id": "vmin-vmax",
-    "label": "vmin, vmax",
+    "id": "ch",
+    "label": "ch",
     "group": "css-units"
   },
   {
-    "id": "ch",
-    "label": "ch",
+    "id": "vmin-vmax",
+    "label": "vmin, vmax",
     "group": "css-units"
   },
   {
@@ -1142,11 +1142,6 @@
     "group": "general-css"
   },
   {
-    "id": "css-reset-and-normalizecss-user-agent-styles",
-    "label": "CSS reset and normalize.css (user agent styles)",
-    "group": "general-css"
-  },
-  {
     "id": "connecting-with-html-linking",
     "label": "Connecting with HTML (linking)",
     "group": "general-css"
@@ -1159,6 +1154,11 @@
   {
     "id": "inline-css-style-attribute",
     "label": "Inline CSS (style attribute)",
+    "group": "general-css"
+  },
+  {
+    "id": "css-reset-and-normalizecss-user-agent-styles",
+    "label": "CSS reset and normalize.css (user agent styles)",
     "group": "general-css"
   },
   {
@@ -1397,6 +1397,11 @@
     "group": "pseudo-elements"
   },
   {
+    "id": "marker",
+    "label": "::marker",
+    "group": "pseudo-elements"
+  },
+  {
     "id": "placeholder",
     "label": "::placeholder",
     "group": "pseudo-elements"
@@ -1404,11 +1409,6 @@
   {
     "id": "selection",
     "label": "::selection",
-    "group": "pseudo-elements"
-  },
-  {
-    "id": "marker",
-    "label": "::marker",
     "group": "pseudo-elements"
   },
   {
@@ -1487,13 +1487,13 @@
     "group": "sass"
   },
   {
-    "id": "datatypes-lists",
-    "label": "datatypes: lists",
+    "id": "datatypes-maps",
+    "label": "datatypes: maps",
     "group": "sass"
   },
   {
-    "id": "datatypes-maps",
-    "label": "datatypes: maps",
+    "id": "datatypes-lists",
+    "label": "datatypes: lists",
     "group": "sass"
   },
   {
@@ -1612,11 +1612,6 @@
     "group": "styling-text"
   },
   {
-    "id": "vertical-align",
-    "label": "vertical-align",
-    "group": "styling-text"
-  },
-  {
     "id": "text-align",
     "label": "text-align",
     "group": "styling-text"
@@ -1629,6 +1624,11 @@
   {
     "id": "text-transform",
     "label": "text-transform",
+    "group": "styling-text"
+  },
+  {
+    "id": "vertical-align",
+    "label": "vertical-align",
     "group": "styling-text"
   },
   {
@@ -2977,71 +2977,6 @@
     "group": "bootstrap"
   },
   {
-    "id": "jquery-overview",
-    "label": "jQuery overview",
-    "group": "jquery"
-  },
-  {
-    "id": "adding-jquery",
-    "label": "Adding jQuery",
-    "group": "jquery"
-  },
-  {
-    "id": "selecting-elements",
-    "label": "Selecting elements",
-    "group": "jquery"
-  },
-  {
-    "id": "jquery-object",
-    "label": "jQuery object",
-    "group": "jquery"
-  },
-  {
-    "id": "event-handlers",
-    "label": "Event Handlers",
-    "group": "jquery"
-  },
-  {
-    "id": "effects",
-    "label": "Effects",
-    "group": "jquery"
-  },
-  {
-    "id": "hide",
-    "label": ".hide()",
-    "group": "jquery"
-  },
-  {
-    "id": "show",
-    "label": ".show()",
-    "group": "jquery"
-  },
-  {
-    "id": "toggle",
-    "label": ".toggle()",
-    "group": "jquery"
-  },
-  {
-    "id": "addclass",
-    "label": ".addClass()",
-    "group": "jquery"
-  },
-  {
-    "id": "removeclass",
-    "label": ".removeClass()",
-    "group": "jquery"
-  },
-  {
-    "id": "toggleclass",
-    "label": ".toggleClass()",
-    "group": "jquery"
-  },
-  {
-    "id": "traversing-dom1",
-    "label": "Traversing DOM",
-    "group": "jquery"
-  },
-  {
     "id": "accessibility-overview",
     "label": "Accessibility overview",
     "group": "accessibility"
@@ -3137,13 +3072,13 @@
     "group": "dev-tools"
   },
   {
-    "id": "sources",
-    "label": "Sources",
+    "id": "console",
+    "label": "Console",
     "group": "dev-tools"
   },
   {
-    "id": "console",
-    "label": "Console",
+    "id": "sources",
+    "label": "Sources",
     "group": "dev-tools"
   },
   {
@@ -4325,11 +4260,11 @@
   },
   {
     "from": "basic-css-syntax",
-    "to": "best-practices",
+    "to": "best-practice",
     "arrows": "to"
   },
   {
-    "from": "best-practices",
+    "from": "best-practice",
     "to": "length-units",
     "arrows": "to"
   },
@@ -4349,12 +4284,12 @@
     "arrows": "to"
   },
   {
-    "from": "best-practices",
+    "from": "best-practice",
     "to": "unitless-number",
     "arrows": "to"
   },
   {
-    "from": "best-practices",
+    "from": "best-practice",
     "to": "unitless-integer",
     "arrows": "to"
   },
@@ -4364,13 +4299,13 @@
     "arrows": "to"
   },
   {
-    "from": "vh-vw",
-    "to": "vmin-vmax",
+    "from": "em-rem",
+    "to": "ch",
     "arrows": "to"
   },
   {
-    "from": "em-rem",
-    "to": "ch",
+    "from": "vh-vw",
+    "to": "vmin-vmax",
     "arrows": "to"
   },
   {
@@ -4389,22 +4324,22 @@
     "arrows": "to"
   },
   {
-    "from": "best-practices",
+    "from": "best-practice",
     "to": "color-values-keywords",
     "arrows": "to"
   },
   {
-    "from": "best-practices",
+    "from": "best-practice",
     "to": "color-values-hex-rrggbbaa",
     "arrows": "to"
   },
   {
-    "from": "best-practices",
+    "from": "best-practice",
     "to": "color-values-rgb-rgba",
     "arrows": "to"
   },
   {
-    "from": "best-practices",
+    "from": "best-practice",
     "to": "color-values-hsl-hsla",
     "arrows": "to"
   },
@@ -4565,11 +4500,6 @@
   },
   {
     "from": "basic-css-syntax",
-    "to": "css-reset-and-normalizecss-user-agent-styles",
-    "arrows": "to"
-  },
-  {
-    "from": "basic-css-syntax",
     "to": "connecting-with-html-linking",
     "arrows": "to"
   },
@@ -4581,6 +4511,11 @@
   {
     "from": "basic-css-syntax",
     "to": "inline-css-style-attribute",
+    "arrows": "to"
+  },
+  {
+    "from": "basic-css-syntax",
+    "to": "css-reset-and-normalizecss-user-agent-styles",
     "arrows": "to"
   },
   {
@@ -4849,6 +4784,11 @@
     "arrows": "to"
   },
   {
+    "from": "ul-ol-li",
+    "to": "marker",
+    "arrows": "to"
+  },
+  {
     "from": "form-input-textarea-label-select-option-button",
     "to": "placeholder",
     "arrows": "to"
@@ -4856,11 +4796,6 @@
   {
     "from": "basic-css-syntax",
     "to": "selection",
-    "arrows": "to"
-  },
-  {
-    "from": "ul-ol-li",
-    "to": "marker",
     "arrows": "to"
   },
   {
@@ -4940,12 +4875,12 @@
   },
   {
     "from": "datatypes-basic",
-    "to": "datatypes-lists",
+    "to": "datatypes-maps",
     "arrows": "to"
   },
   {
     "from": "datatypes-basic",
-    "to": "datatypes-maps",
+    "to": "datatypes-lists",
     "arrows": "to"
   },
   {
@@ -5080,11 +5015,6 @@
   },
   {
     "from": "basic-css-syntax",
-    "to": "vertical-align",
-    "arrows": "to"
-  },
-  {
-    "from": "basic-css-syntax",
     "to": "text-align",
     "arrows": "to"
   },
@@ -5096,6 +5026,11 @@
   {
     "from": "basic-css-syntax",
     "to": "text-transform",
+    "arrows": "to"
+  },
+  {
+    "from": "basic-css-syntax",
+    "to": "vertical-align",
     "arrows": "to"
   },
   {
@@ -6709,71 +6644,6 @@
     "arrows": "to"
   },
   {
-    "from": "javascript-overview",
-    "to": "jquery-overview",
-    "arrows": "to"
-  },
-  {
-    "from": "jquery-overview",
-    "to": "adding-jquery",
-    "arrows": "to"
-  },
-  {
-    "from": "jquery-overview",
-    "to": "selecting-elements",
-    "arrows": "to"
-  },
-  {
-    "from": "jquery-overview",
-    "to": "jquery-object",
-    "arrows": "to"
-  },
-  {
-    "from": "jquery-overview",
-    "to": "event-handlers",
-    "arrows": "to"
-  },
-  {
-    "from": "jquery-overview",
-    "to": "effects",
-    "arrows": "to"
-  },
-  {
-    "from": "effects",
-    "to": "hide",
-    "arrows": "to"
-  },
-  {
-    "from": "effects",
-    "to": "show",
-    "arrows": "to"
-  },
-  {
-    "from": "effects",
-    "to": "toggle",
-    "arrows": "to"
-  },
-  {
-    "from": "selecting-elements",
-    "to": "addclass",
-    "arrows": "to"
-  },
-  {
-    "from": "selecting-elements",
-    "to": "removeclass",
-    "arrows": "to"
-  },
-  {
-    "from": "selecting-elements",
-    "to": "toggleclass",
-    "arrows": "to"
-  },
-  {
-    "from": "selecting-elements",
-    "to": "traversing-dom1",
-    "arrows": "to"
-  },
-  {
     "from": "accessibility-overview",
     "to": "color-contrast",
     "arrows": "to"
@@ -6875,17 +6745,17 @@
   },
   {
     "from": "dev-tools-overview",
-    "to": "sources",
-    "arrows": "to"
-  },
-  {
-    "from": "dev-tools-overview",
     "to": "console",
     "arrows": "to"
   },
   {
     "from": "javascript-overview",
     "to": "console",
+    "arrows": "to"
+  },
+  {
+    "from": "dev-tools-overview",
+    "to": "sources",
     "arrows": "to"
   },
   {
