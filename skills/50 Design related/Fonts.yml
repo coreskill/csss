@@ -22,6 +22,13 @@ resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts#web_fonts
     desc: "Web fonts: read only that part (stop at Active learning…)"
     lang: en
+  - url: https://fonts.google.com/knowledge
+    desc: "Fonts Knowledge [Google Fonts]"
+    text: | 
+      A library of original guides to the world of typography, which the Google Fonts team is producing in collaboration with typographic experts from around the world.
+      
+      **Feel free to explore but you don’t have to.**
+    lang: en
 
 ---
 skill: "Variable fonts"

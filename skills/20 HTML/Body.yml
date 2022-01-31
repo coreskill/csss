@@ -33,6 +33,12 @@ resources:
     desc: "Heading Elements [MDN]"
     type: reference
     lang: en
+  - url: https://www.a11yproject.com/posts/how-to-accessible-heading-structure/
+    desc: "Accessible heading structure"
+    text: |
+      Accessibility focused article about headings.
+    type: article
+    lang: en
 
 ---
 skill: "<div>, <span>"
