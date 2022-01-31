@@ -47,9 +47,3 @@ skill: "Interviews"
 level: 5
 requires:
   - "Job Seeking overview"
-
----
-skill: "Stack Overflow"
-level: extra
-requires:
-  - "Job Seeking overview"
