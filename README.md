@@ -54,6 +54,7 @@ requires:
   - "Example section // Example from the same section"
   - "// Another example section // Example from the different section (Absolute path)"
 resources:
+  - url: https://example.com/simplest-example
   - url: https://example.com/
     desc: "Only url is required for resources, all others are optional"
     text: |
@@ -62,7 +63,6 @@ resources:
     lang: en
     availability: "String that describes hurdles to obtain the resource (paywall, registration etc.)"
     status: replace
-  - url: https://example.com/simplest-example
 ```
 
 Status values:
