@@ -4,6 +4,13 @@ sort: 5
 ---
 skill: "Copyright law as an author"
 level: 5
+resources:
+  - url: https://choosealicense.com/
+  desc: "Choose an open source license"
+  text: |
+    A tool to easily choose an open source license for your project and add it to your GitHub repository.  
+  type: tool
+  lang: en
 
 ---
 skill: "Copyright law as an user"
