@@ -28,7 +28,7 @@
     "browser-sync": "^2.27.7",
     "chokidar-cli": "^3.0.0",
     "concurrently": "^7.0.0",
-    "ts-node": "^10.4.0",
+    "ts-node": "^10.5.0",
     "typescript": "3.4.5"
   }
 }
