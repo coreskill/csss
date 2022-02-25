@@ -119,10 +119,25 @@ resources:
     lang: en
 
 ---
+skill: "display: flow-root"
+level: 1
+requires:
+  - "margin"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/display
+    desc: "display [MDN]"
+    type: reference
+    lang: en
+
+---
 skill: "box-sizing"
 level: 1
 requires:
-  - "General CSS // Basic CSS Syntax"
+  - "width"
+  - "height"
+  - "border"
+  - "margin"
+  - "padding"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
     desc: "box-sizing [MDN]"
