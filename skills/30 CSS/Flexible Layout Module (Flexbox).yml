@@ -197,15 +197,3 @@ resources:
     lang: en
 requires:
   - "align-items"
-
----
-skill: "justify-self"
-level: 2
-sublevel: 5
-resources:
-  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/justify-self
-    desc: "justify-self [MDN]"
-    type: reference
-    lang: en
-requires:
-  - "justify-content"
