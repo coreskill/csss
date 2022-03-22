@@ -137,10 +137,10 @@ skill: "Animation"
 level: 5
 resources:
   - url: https://en.wikipedia.org/wiki/12_basic_principles_of_animation
-    desc: "Twelve basic principles of animation"
+    desc: "Twelve basic principles of animation [Wikipedia]"
     lang: en
-  - url: https://vimeo.com/93206523
-    desc: "The illusion of life: 12 basic principles of animation"
+  - url: https://www.youtube.com/watch?v=yiGY0qiy8fY
+    desc: "The illusion of life: 12 basic principles of animation [YouTube]"
     type: video
     lang: en
   - url: https://ebooks.webflow.com/chapter/how-to-design-interactions-effectively
