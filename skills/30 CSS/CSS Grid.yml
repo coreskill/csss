@@ -262,8 +262,7 @@ resources:
 
 ---
 skill: "justify-self"
-level: 2
-sublevel: 5
+level: 3
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/justify-self
     desc: "justify-self [MDN]"
