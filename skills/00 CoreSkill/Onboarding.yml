@@ -9,19 +9,19 @@ text: |
   CoreSkill: sign
 
 ---
-skill: "Computer"
+skill: "Computer and monitor"
 level: 0
 text: |
   required: 
     - 16 GB RAM (8 GB minimum)
     - i5/i7/Ryzen CPU with 4+ cores (or M1) 
-    - SSD with 20+ GB free space
-    - mouse
+    - SSD with 10+ GB free space
+    - a mouse or equivalent device
     - Windows, macOS or Linux
   
   optional:
-    - 1920×1080+ primary display 
-    - secondary display 1920×1080+
+    - 1920×1080 or larger primary display 
+    - secondary display 24" 1920×1080 or larger
 resources:
   - url: https://hackmd.io/@benabraham/monitor-pro-frontend
     desc: "Popis parametrů monitorů vhodných pro práci frontendistů"
