@@ -20,6 +20,12 @@ new Metalsmith(__dirname)
       layout: 'index.hbs',
     };
 
+    files[`admin.html`] = {
+      root,
+      contents: '',
+      layout: 'admin.hbs',
+    };
+
     files[`graph.html`] = {
       skills,
       contents: '',
