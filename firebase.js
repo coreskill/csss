@@ -41,6 +41,7 @@ function setStateOfAllIndicators(data) {
   indicators.forEach(indicator => {
     indicator.classList.toggle("is-done", data[indicator.dataset.slug] === true);
     indicator.classList.toggle("is-star", data[indicator.dataset.slug] === 'star');
+    indicator.classList.toggle("is-maybe", data[indicator.dataset.slug] === 'maybe');
   });
 }
 
@@ -49,7 +50,28 @@ function indicatorListener(event) {
 
   let isDone = this.classList.contains("is-done");
   let isStar = this.classList.contains("is-star");
-  let newValue = isDone ? false : isStar ? true : 'star';
+  let isMaybe = this.classList.contains("is-maybe");
+
+  let newValue;
+
+  if (userFlags.intro) {
+    // maybe → not-done
+    // any other → maybe
+    newValue = isMaybe ? "not-done" : "maybe";
+  } else if (event.shiftKey) {
+    // anything → maybe
+    newValue = "maybe";
+  } else {
+    // star → done
+    // done → not-done
+    // not-done or maybe → star
+    newValue = isStar ? "done" : isDone ? "not-done" : "star";
+  }
+
+  // convert original values to boolean to preserve backward compatibility
+  if (newValue === "done") newValue = true;
+  if (newValue === "not-done") newValue = false;
+
   firebase.firestore().collection("db").doc("v1")
     .collection("users").doc(sessionStorage.getItem(SELECTED_USER_ID))
     .set({[this.dataset.slug]: newValue}, {merge: true})
@@ -114,6 +136,28 @@ function saveUserData({uid, displayName, email, photoURL}) {
     .catch(error => console.error(error));
 }
 
+let removeFirebaseFlagsListener = () => {
+};
+
+let userFlags = {};
+
+function addFirebaseFlagsListener() {
+  return new Promise((resolve, reject) => {
+    removeFirebaseFlagsListener = firebase.firestore()
+      .collection("db").doc("v1")
+      .collection("users").doc(sessionStorage.getItem(SELECTED_USER_ID))
+      .collection("metadata").doc("flags")
+      .onSnapshot(snapshot => {
+        resolve();
+        userFlags = snapshot.data() || {};
+      }, error => {
+        console.error(error);
+        userFlags = {};
+        reject(error);
+      });
+  });
+}
+
 let removeAdminListener = () => {
 };
 
@@ -164,8 +208,10 @@ adminSelect.addEventListener("change", () => {
   ADMIN_USER_SELECTED_CALLBACKS.forEach(cb => cb());
   removeFirebaseIndicatorListener();
   removeFirebaseNoteListener();
+  removeFirebaseFlagsListener();
   addFirebaseIndicatorListener();
   addFirebaseNoteListener();
+  addFirebaseFlagsListener();
 }, false);
 
 firebase.auth().onAuthStateChanged(user => {
@@ -176,6 +222,7 @@ firebase.auth().onAuthStateChanged(user => {
     saveUserData(user)
       .then(() => addFirebaseIndicatorListener())
       .then(() => addFirebaseNoteListener())
+      .then(() => addFirebaseFlagsListener())
       .then(() => addAdminSelectbox())
       .then(() => document.body.classList.add("logged-in"));
   } else {
@@ -183,6 +230,7 @@ firebase.auth().onAuthStateChanged(user => {
     isAdmin = false;
     removeFirebaseIndicatorListener();
     removeFirebaseNoteListener();
+    removeFirebaseFlagsListener();
     removeAdminListener();
     sessionStorage.removeItem(SELECTED_USER_ID);
     USER_LOGGED_OUT_CALLBACKS.forEach(cb => cb());
