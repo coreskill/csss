@@ -62,7 +62,7 @@ function fillUserList(users) {
         <td>${user.email || ""}</td>
         <td><code>${user.uid}</code></td>
         <td data-uid="${user.uid}">
-          ${displayedFlags.map(flag => `<input type="checkbox" ${flags[flag] ? "checked" : ""} class="flag" data-flag="${flag}"> <code>${flag}</code><br>`)}
+          ${displayedFlags.map(flag => `<div class="form-check"><label class="form-check-label"><input type="checkbox" ${flags[flag] ? "checked" : ""} class="flag form-check-input" data-flag="${flag}">${flag}</label></div>`)}
         </td>
       `;
       userList.append(tr);
