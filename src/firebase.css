@@ -17,7 +17,8 @@
 .filter-counter,
 .note,
 .note-changer,
-.user-select {
+.user-select,
+.administration {
   display: none;
 }
 
@@ -29,10 +30,10 @@
 .logged-in .logout,
 .logged-in .filter-group,
 .logged-in .filter-counter,
-.admin .user-select {
+.admin .user-select,
+.admin .administration {
   display: inline-block;
 }
-
 
 .indicator {
   cursor: pointer;
