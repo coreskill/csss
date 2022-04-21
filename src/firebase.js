@@ -41,6 +41,7 @@ function setStateOfAllIndicators(data) {
   indicators.forEach(indicator => {
     indicator.classList.toggle("is-done", data[indicator.dataset.slug] === true);
     indicator.classList.toggle("is-star", data[indicator.dataset.slug] === 'star');
+    indicator.classList.toggle("is-maybe", data[indicator.dataset.slug] === 'maybe');
   });
 }
 
@@ -49,7 +50,28 @@ function indicatorListener(event) {
 
   let isDone = this.classList.contains("is-done");
   let isStar = this.classList.contains("is-star");
-  let newValue = isDone ? false : isStar ? true : 'star';
+  let isMaybe = this.classList.contains("is-maybe");
+
+  let newValue;
+
+  if (userFlags.intro) {
+    // maybe → not-done
+    // any other → maybe
+    newValue = isMaybe ? "not-done" : "maybe";
+  } else if (event.shiftKey) {
+    // anything → maybe
+    newValue = "maybe";
+  } else {
+    // star → done
+    // done → not-done
+    // not-done or maybe → star
+    newValue = isStar ? "done" : isDone ? "not-done" : "star";
+  }
+
+  // convert original values to boolean to preserve backward compatibility
+  if (newValue === "done") newValue = true;
+  if (newValue === "not-done") newValue = false;
+
   firebase.firestore().collection("db").doc("v1")
     .collection("users").doc(sessionStorage.getItem(SELECTED_USER_ID))
     .set({[this.dataset.slug]: newValue}, {merge: true})

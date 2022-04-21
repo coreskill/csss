@@ -5,7 +5,7 @@ const nothingFound = document.querySelector(".filter-nothing-found");
 
 const doneFilter = document.querySelector(".filter-done");
 const starFilter = document.querySelector(".filter-star");
-const notDoneFilter = document.querySelector(".filter-not-done");
+const notDoneOrMaybeFilter = document.querySelector(".filter-not-done-or-maybe");
 const extraFilter = document.querySelector(".filter-extra");
 
 const levelFilter1 = document.querySelector(".filter-level-1");
@@ -27,7 +27,7 @@ function filterItems() {
   let filtersValue = {
     done: doneFilter.classList.contains("active"),
     star: starFilter.classList.contains("active"),
-    notDone: notDoneFilter.classList.contains("active"),
+    notDoneOrMaybe: notDoneOrMaybeFilter.classList.contains("active"),
     extra: extraFilter.classList.contains("active"),
     level1: levelFilter1.classList.contains("active"),
     level2: levelFilter2.classList.contains("active"),
@@ -38,9 +38,9 @@ function filterItems() {
 
   allItems.forEach(el => {
     let indicator = el.querySelector(".indicator");
-    let type = indicator.classList.contains("is-done")
-      ? "done" : indicator.classList.contains("is-star")
-        ? "star" : "notDone";
+    let type = indicator.classList.contains("is-done") ? "done"
+      : indicator.classList.contains("is-star") ? "star"
+      : "notDoneOrMaybe";
     let isExtra = indicator.classList.contains("is-extra");
     let isLevel1 = indicator.classList.contains("is-level-1");
     let isLevel2 = indicator.classList.contains("is-level-2");
@@ -61,7 +61,7 @@ function filterItems() {
   });
 
   allGroups.forEach(el => {
-    let addOrRemove = el.querySelectorAll(".skill-item.d-flex").length === 0 && (filtersValue.done || filtersValue.star || filtersValue.notDone);
+    let addOrRemove = el.querySelectorAll(".skill-item.d-flex").length === 0 && (filtersValue.done || filtersValue.star || filtersValue.notDoneOrMaybe);
     el.classList.toggle("d-none", addOrRemove);
     el.previousElementSibling.classList.toggle("d-none", addOrRemove);
   });
@@ -71,7 +71,7 @@ function filterItems() {
     el.classList.toggle("d-none", addOrRemove);
   });
 
-  let nothingWasFound = document.querySelectorAll(".skill-item.d-flex").length === 0 && (filtersValue.done || filtersValue.star || filtersValue.notDone);
+  let nothingWasFound = document.querySelectorAll(".skill-item.d-flex").length === 0 && (filtersValue.done || filtersValue.star || filtersValue.notDoneOrMaybe);
   nothingFound.classList.toggle("d-none", !nothingWasFound);
 
   let shownSkillsCount = document.querySelectorAll(".skill-item.d-flex").length;
@@ -105,10 +105,10 @@ function showAllItems() {
 }
 
 function saveFilters() {
-  let filtersValue = {
+  let filtersStateToSave = {
     done: doneFilter.classList.contains("active"),
     star: starFilter.classList.contains("active"),
-    notDone: notDoneFilter.classList.contains("active"),
+    notDone: notDoneOrMaybeFilter.classList.contains("active"),
     extra: extraFilter.classList.contains("active"),
     level1: levelFilter1.classList.contains("active"),
     level2: levelFilter2.classList.contains("active"),
@@ -124,7 +124,7 @@ function saveFilters() {
   }
 
   try {
-    localStorage.setItem(filtersKey, JSON.stringify(filtersValue));
+    localStorage.setItem(filtersKey, JSON.stringify(filtersStateToSave));
   } catch (e) {
   }
 }
@@ -136,19 +136,19 @@ function loadFilters() {
     filtersKey = `${FILTERS_VALUE}__${userId}`;
   }
 
-  let filters = localStorage.getItem(filtersKey);
-  if (filters) {
+  let filtersStateToLoad = localStorage.getItem(filtersKey);
+  if (filtersStateToLoad) {
     try {
-      filters = JSON.parse(filters);
-      doneFilter.classList.toggle("active", filters.done);
-      starFilter.classList.toggle("active", filters.star);
-      notDoneFilter.classList.toggle("active", filters.notDone);
-      extraFilter.classList.toggle("active", filters.extra);
-      levelFilter1.classList.toggle("active", filters.level1);
-      levelFilter2.classList.toggle("active", filters.level2);
-      levelFilter3.classList.toggle("active", filters.level3);
-      levelFilter4.classList.toggle("active", filters.level4);
-      levelFilter5.classList.toggle("active", filters.level5);
+      filtersStateToLoad = JSON.parse(filtersStateToLoad);
+      doneFilter.classList.toggle("active", filtersStateToLoad.done);
+      starFilter.classList.toggle("active", filtersStateToLoad.star);
+      notDoneOrMaybeFilter.classList.toggle("active", filtersStateToLoad.notDone);
+      extraFilter.classList.toggle("active", filtersStateToLoad.extra);
+      levelFilter1.classList.toggle("active", filtersStateToLoad.level1);
+      levelFilter2.classList.toggle("active", filtersStateToLoad.level2);
+      levelFilter3.classList.toggle("active", filtersStateToLoad.level3);
+      levelFilter4.classList.toggle("active", filtersStateToLoad.level4);
+      levelFilter5.classList.toggle("active", filtersStateToLoad.level5);
     } catch (e) {
     }
   }
@@ -160,7 +160,7 @@ function onFilterButtonClick(e) {
   filterItems();
 }
 
-[doneFilter, starFilter, notDoneFilter, extraFilter, levelFilter1, levelFilter2, levelFilter3, levelFilter4, levelFilter5]
+[doneFilter, starFilter, notDoneOrMaybeFilter, extraFilter, levelFilter1, levelFilter2, levelFilter3, levelFilter4, levelFilter5]
   .forEach(el => el.addEventListener("click", onFilterButtonClick));
 loadFilters();
 INDICATOR_CHANGE_CALLBACKS.push(filterItems);
