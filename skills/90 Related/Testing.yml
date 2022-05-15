@@ -44,7 +44,7 @@ requires:
 skill: "Types of testing"
 level: 3
 requires:
-  - "Need for testing"
+  - "Testing overview"
 resources:
   - url: https://css-tricks.com/front-end-testing-is-for-everyone/
     desc: "Front-End Testing is For Everyone [CSS Tricks]"
