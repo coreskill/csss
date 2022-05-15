@@ -51,3 +51,8 @@ resources:
   - url: https://postcss.org/
     desc: "PostCSS Homepage"
     lang: en
+  - url: https://frontend.garden/clanky/browserslist-uzitecny-nastroj-ktery-funguje-jinak-nez-jste-si-mozna-mysleli/
+    desc: "Browserslist: užitečný nástroj, který funguje jinak, než jste si možná mysleli"
+    text: |
+      Poměrně detailní článek Adama Kudrny.
+    lang: cs
