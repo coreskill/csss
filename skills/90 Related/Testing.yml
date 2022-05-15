@@ -2,14 +2,8 @@
 sort: 20
 
 ---
-skill: "Need for testing"
+skill: "Testing overview"
 level: 2
-
----
-skill: "Principles and manual testing"
-level: 2
-requires: 
-  - "Need for testing"
 
 ---
 skill: "Bug reporting"
@@ -47,7 +41,11 @@ requires:
   - "Browser compatibility"
 
 ---
-skill: "Automated testing"
-level: 5
-requires: 
-  - "Principles and manual testing"
+skill: "Types of testing"
+level: 3
+requires:
+  - "Need for testing"
+resources:
+  - url: https://css-tricks.com/front-end-testing-is-for-everyone/
+    desc: "Front-End Testing is For Everyone [CSS Tricks]"
+    lang: en
