@@ -6,36 +6,61 @@ skill: "Visual Design"
 level: 1
 resources:
   - url: https://ebooks.webflow.com/chapter/essential-visual-design-principles-for-web-designers
-    desc: "Essential visual design principles for web designers"
-    type: article
+    desc: "Essential visual design principles for web designers [Web design 101 ebook]"
+    text: |
+      Chapter 1 from Webflow’s ebook.
+      
+      Information they ask you can be fake including e-mail. You will still get to the content.
+      
+      Alternatively use the link below to download a PDF version.
+    type: ebook
+    lang: en
+  - url: https://assets-global.website-files.com/6220f3e30d60ec3ef9a240d3/622117ceeec3876175952546_Web%20design%20101%20-%20Webflow%20Ebook.pdf
+    desc: "Web design 101 (second edition) the whole ebook in PDF"
+    type: ebook
     lang: en
   - url: https://www.usability.gov/what-and-why/visual-design.html
     desc: "Visual Design Basics"
     text: |
-      Very basic and dense explanation of some terms. 
+      Very basic and dense explanation of some terms.
+      
+      Read if you’re in a hurry.
     lang: en
   - url: https://cantunsee.space/
     desc: "Can’t Unsee"
+    text: |
+      Select the design that is most correct.
     type: game
     lang: en
 
 ---
 skill: "Color Theory"
 level: 2
+text: |
+  Read the ebook or take the Codecademy course.
 resources:
-  - url: https://ebooks.webflow.com/chapter/web-design-101-color-theory
-    type: article
+  - url: https://ebooks.webflow.com/chapter/color-theory
+    desc: "Color theory [Web design 101 ebook]"
+    text: |
+      Chapter 2 from Webflow’s ebook.
+    type: ebook
     lang: en
   - url: https://www.codecademy.com/courses/learn-color-design/lessons/learn-color-theory/exercises/intro
-    desc: "Free, but the following chapters are in paid version."
+    desc: "Learn Color Design [Codecademy]"
+    text: |
+      Information part is free but the exercises are in PRO version.
     type: interactive course
     lang: en
   - url: https://color.method.ac/
-    desc: "color – a color matching game"
+    desc: "A color matching game"
+    text: |
+      Play if you want.
     type: game
     lang: en
   - url: https://ciechanow.ski/lights-and-shadows/
-    desc: "interesting article (not required)"
+    desc: "Lights and Shadows"
+    text: |
+      A very interesting interactive article about light and color but not required at all.
     type: article
     lang: en
 requires:
@@ -44,11 +69,39 @@ requires:
 ---
 skill: "Typography"
 level: 2
+text: |
+  Most of websites consist mostly of text. So typography is a very important part of what we do.
+  
+  The first two resources should be enough for basics but feel free to dive deeper into others later.
 requires:
   - "Visual Design"
 resources:
+  - url: https://ebooks.webflow.com/chapter/web-typography-101
+    desc: "Web typography 101 [Web design 101 ebook]"
+    text: |
+      Chapter 3 from Webflow’s ebook.
+      
+      Please ignore recommendation for using pixels as font-size unit.
+    type: ebook
+    lang: en
+  - url: https://iamsteve.me/blog/entry/type-scale-line-height-lengths
+    desc: "Typography for beginners: type scale, line height & lengths"
+    text: |
+      A Short article about type scale
+    lang: en
+  - url: https://type-scale.com/
+    desc: "Type Scale - A Visual Calculator"
+    text: |
+      Tool for testing different scales and fonts
+    type: tool
+    lang: en
+  - url: https://www.pierrickcalvez.com/journal/a-five-minutes-guide-to-better-typography
+    desc: "A Five-Minute Guide to Better Typography"
+    lang: en
   - url: https://www.youtube.com/watch?v=agbh1wbfJt8
-    desc: "Covers various topics"
+    desc: "Typography for Developers"
+    text: |
+      A 2-hour video that covers various topics.
     type: video
     lang: en
   - url: https://practicaltypography.com/
@@ -63,17 +116,6 @@ resources:
     desc: "Professional Web Typography"
     type: online book
     lang: en
-  - url: https://iamsteve.me/blog/entry/type-scale-line-height-lengths
-    desc: "Short article about type scale"
-    lang: en
-  - url: https://type-scale.com/
-    desc: "Tool for testing different scales and fonts"
-    type: tool
-    lang: en
-  - url: https://ebooks.webflow.com/chapter/web-typography-101
-    lang: en
-  - url: https://www.pierrickcalvez.com/journal/a-five-minutes-guide-to-better-typography
-    lang: en
   - url: https://type.method.ac/
     desc: "Kerntype (fix kerning)"
     type: game
@@ -83,9 +125,12 @@ resources:
     type: game
     lang: en
   - url: https://www.jakpsatweb.cz/interpunkce.html
+    desc: "Interpunkce na webu: jak psát uvozovky, závorky, tečky a pomlčky"
     lang: cs
   - url: https://www.typography.com/blog/typographic-illusions
-    desc: "Bonus: read only if you want to see a small fraction of what type designers do."
+    desc: "Typographic Illusions: A collection of free tools for demonstrating typographic phenomena, for anyone teaching or studying typeface design."
+    text: | 
+      Bonus: read only if you want to see a small fraction of what type designers do.
     type: article
     lang: en
 
@@ -94,6 +139,7 @@ skill: "Information architecture"
 level: 3
 resources:
   - url: https://www.usability.gov/what-and-why/information-architecture.html
+    desc: "Information Architecture Basics [usability.gov]"
     lang: en
 
 ---
@@ -103,8 +149,10 @@ requires:
   - "Visual Design"
 resources:
   - url: https://ebooks.webflow.com/chapter/why-your-design-process-should-start-with-content
-    desc: "Why your design process should start with content"
-    type: article
+    desc: "Why your design process should start with content [Web design 101 ebook]"
+    text: |
+      Chapter 10 from Webflow’s ebook.
+    type: ebook
     lang: en
 
 ---
@@ -116,17 +164,20 @@ resources:
     lang: en
     type: article
   - url: https://www.usability.gov/what-and-why/user-experience.html
+    desc: "User Experience Basics [usability.gov]"
     lang: en
-  - url: https://ebooks.webflow.com/chapter/9-essential-ui-design-tips
-    type: article
+  - url: https://ebooks.webflow.com/chapter/ui-design-essentials
+    desc: "UI design essentials [Web design 101 ebook]"
+    text: |
+      Chapter 5 from Webflow’s ebook.
+    type: ebook
     lang: en
-  - url: http://www.jjg.net/elements/pdf/elements_ch02.pdf
+  - url: /downloads/elements_ch02.pdf
+    desc: "The Elements of User Experience: chapter 2 (PDF)"
     type: book
     lang: en
-  - url: http://www.jjg.net/elements/pdf/elements.pdf
-    type: book
-    lang: en
-  - url: http://www.jjg.net/elements/pdf/elements_simpleplanes.pdf
+  - url: /downloads/elements.pdf
+    desc: "The Elements of User Experience: a poster explaining everything on one page (PDF)"
     type: book
     lang: en
 text: |
@@ -144,7 +195,10 @@ resources:
     type: video
     lang: en
   - url: https://ebooks.webflow.com/chapter/how-to-design-interactions-effectively
-    desc: "How to design interactions effectively"
+    desc: "How to design interactions effectively  [Web design 101 ebook]"
+    text: |
+      Chapter 7 from Webflow’s ebook.
+    type: ebook
     lang: en
 requires:
   - "Visual Design"
@@ -161,19 +215,19 @@ resources:
     desc: "Wikipedia source for text above"
     lang: en
   - url: https://www.sscspace.com/wp-content/uploads/2018/03/SSC-Visual-Identity-Manual-1.pdf
-    desc: "Visual Identity Manual: Swedish Space Corporation"
+    desc: "Visual Identity Manual: Swedish Space Corporation (PDF)"
     type: example
     lang: en
   - url: https://extranet.3m.eu/mysafety/cs-cz/items/download/77644
-    desc: "Visual Identity Manual: 3M"
+    desc: "Visual Identity Manual: 3M (PDF)"
     type: example
     lang: en
   - url: https://logo.skaut.cz/doc/SKAUT_manual.pdf 
-    desc: "Visual Identity Manual: Czech Scouting"
+    desc: "Visual Identity Manual: Czech Scouting (PDF)"
     type: example
     lang: cs
   - url: https://zakazky.prg.aero/document_13887/78bba70e73df7f2bc06a024c466a3cc1-227006143_pr-g-graficky-manual_cz-pdf
-    desc: "Visual Identity Manual: Prague Airport"
+    desc: "Visual Identity Manual: Prague Airport (PDF)"
     type: example
     lang: cs
 requires:
