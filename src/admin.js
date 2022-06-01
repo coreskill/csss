@@ -70,7 +70,7 @@ function fillUserList(users) {
 }
 
 userList.addEventListener("change", event => {
-  let userId = event.target.parentElement.dataset.uid;
+  let userId = event.target.closest("td").dataset.uid;
   let flag = event.target.dataset.flag;
   let newValue = event.target.checked;
 
