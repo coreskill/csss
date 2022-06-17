@@ -60,40 +60,36 @@ text: |
   3. Click on “New Project”.
   4. Replace contents with the following script:
   ```js
-  const coreskillEvents = () => {
-    const startOffsetDays = 0 // 0 start now, 1 start from tomorrow etc.
-    const endOffsetDays = 7 // at least 1 day, number of days from start to check
-    const myEmail = "youremail@gmail.com"
-    const csCalendar = "lakf4486bu4f7ksk3l5vogk960@group.calendar.google.com"
-  
-    let startDateTime = new Date() // set start date and time to right now
-    startDateTime.setDate(startDateTime.getDate() + startOffsetDays) // add days to it
-    let endDateTime = new Date(startDateTime) // set end date and time to the same value as start
-    endDateTime.setDate(endDateTime.getDate() + endOffsetDays) // add days to it
-  
-    CalendarApp.getCalendarById(myEmail)
-      .getEvents(startDateTime, endDateTime) // get an array of all events happening between start and end
-      .forEach( // for each event
-        event => { // run a function
-          if (event.getOriginalCalendarId() === csCalendar) { // check if event is coming from CoreSkill Calendar
-            console.log(event.getTitle(), event.getStartTime()) // just print what is processed
-            // set your response to event as Yes. 
-            // Other options https://developers.google.com/apps-script/reference/calendar/guest-status
-            event.setMyStatus(CalendarApp.GuestStatus.YES)
-  
-            if (event.getTitle().includes('kdokoli')) { // check event title if it contains provided string
-              event.setColor(CalendarApp.EventColor.PALE_GREEN) // set event color
-            } else { // if not (rest of events)
-              event.setColor(CalendarApp.EventColor.GREEN) // set another event color
-            }
-            // other color options
-            // https://developers.google.com/apps-script/reference/calendar/event-color
+  const confirmCoreskillEvents = () => {
+  const startOffsetDays = 0 // 0 start now, 1 start from tomorrow etc.
+  const endOffsetDays = 7 // at least 1 day, number of days from start to check
+  const myEmail = "YOUREMAIL@GMAIL.COM"
+  const csCalendar = "lakf4486bu4f7ksk3l5vogk960@group.calendar.google.com"
+
+  let startDateTime = new Date() // set start date and time to right now
+  startDateTime.setDate(startDateTime.getDate() + startOffsetDays) // add days to it
+  let endDateTime = new Date(startDateTime) // set end date and time to the same value as start
+  endDateTime.setDate(endDateTime.getDate() + endOffsetDays) // add days to it
+
+  CalendarApp.getCalendarById(myEmail)
+    .getEvents(startDateTime, endDateTime) // get an array of all events happening between start and end
+    .forEach( // for each event
+      event => { // run a function
+        if (event.getOriginalCalendarId() === csCalendar) { // check if event is coming from CoreSkill Calendar
+          console.log(event.getTitle(), event.getStartTime()) // just print what is processed
+          if (event.getGuestByEmail(myEmail).getStatus() === "invited") { // only respond to events you have not yet responded
+            event.setMyStatus(CalendarApp.GuestStatus.YES) // set your response to event as Yes. 
+            event.setColor(CalendarApp.EventColor.GREEN) // set event color to green. 
+            // All possible colors here https://developers.google.com/apps-script/reference/calendar/event-color
+            // event.addPopupReminder(0) // add reminder at the time of event
+            // event.addPopupReminder(5) // add reminder 5 minutes before event
           }
         }
-      )
+      }
+    )
   }
   ```
-  5. Replace “youremail@gmail.com” with your email.
+  5. Replace “YOUREMAIL@GMAIL.COM” with your email.
   6. Rename _Untitled Project_ to something more meaningful like “CoreSkill Calendar Script”. 
   7. Click “Save” (floppy disk icon).
   8. Click “Run”.
@@ -107,7 +103,9 @@ text: |
   4. Click “CoreSkill Calendar Script (unsafe)” (or the name you gave it)
   5. Click “Allow”
   
-  Google will complain about security, but it’s your script you’re allowing… 
+  Google will complain about security, but it’s your script you’re allowing…
+  
+  If you uncomment lines starting with `// event.addPopupReminder` it will add reminders (notifications).
 
 resources:
   - url: https://calendar.google.com/
