@@ -40,6 +40,29 @@ requires:
   - "General CSS // Basic CSS Syntax"
 
 ---
+skill: "object-fit"
+level: 4
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
+    desc: "object-fit [MDN]"
+    type: reference
+    lang: en
+requires:
+  - "General CSS // Basic CSS Syntax"
+  - "HTML // Body // <img>, src, width, height, alt"
+
+---
+skill: "object-position"
+level: 5
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/object-position
+    desc: "object-position [MDN]"
+    type: reference
+    lang: en
+requires:
+  - "object-fit"
+
+---
 skill: "border-collapse"
 level: 5
 resources:
