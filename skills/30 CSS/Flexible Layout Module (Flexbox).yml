@@ -18,35 +18,31 @@ resources:
     desc: "Basic Concepts of Flexbox [MDN]"
     lang: en
   - url: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-    desc: "Good visual reference"
+    desc: "Good visual reference [CSS Tricks]"
     type: reference
     lang: en
   - url: https://flexbox.malven.co/
     desc: "Dense visual reference"
     type: reference
     lang: en
-  - url: https://flexboxfroggy.com/
-    desc: "Flexbox Froggy helps to learn part of the basics"
-    type: game
-    lang: en
-  - url: https://www.flexboxdefense.com/
-    desc: "Second part of Flexbox Froggy game to learn more about flex"
-    type: game
-    lang: en
-  - url: https://flexbox.io/
-    desc: "Free video course by Wes Bos"
-    type: video
-    lang: en
+#  - url: https://flexboxfroggy.com/
+#    desc: "Flexbox Froggy helps you to learn part of the basics"
+#    type: game
+#    lang: en
   - url: https://www.codecademy.com/paths/web-development/tracks/getting-more-advanced-with-design/modules/layout-with-flexbox/lessons/learn-flexbox-l/exercises/flexbox
-    desc: "Codecademy’s take on flexbox"
+    desc: "Learn Flexbox [Codecademy]"
     type: interactive course
     lang: en
+  - url: https://flexbox.io/
+    desc: "Free video course [Wes Bos]"
+    type: video
+    lang: en
   - url: https://scrimba.com/g/gflexbox
-    desc: "Interactive screencasts about flexbox"
+    desc: "Interactive screencasts about flexbox [Scrimba]"
     type: interactive course
     lang: en
   - url: https://internetingishard.com/html-and-css/flexbox/
-    desc: "Older but good tutorial"
+    desc: "Older but good tutorial [Interneting Is Hard]"
     type: tutorial
     lang: en
 requires:
