@@ -6,10 +6,10 @@ skill: "npm scripts"
 level: 3
 requires:
   - "JavaScript // Node.js // Node.js overview"
-resources:
-  - url: https://medium.freecodecamp.org/introduction-to-npm-scripts-1dbb2ae01633
-    desc: "Introduction to NPM Scripts"
-    lang: en
+#resources:
+#  - url: https://medium.freecodecamp.org/introduction-to-npm-scripts-1dbb2ae01633
+#    desc: "Introduction to NPM Scripts"
+#    lang: en
     
 ---
 skill: "Browsersync"
