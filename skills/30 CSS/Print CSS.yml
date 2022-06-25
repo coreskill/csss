@@ -145,14 +145,3 @@ resources:
     desc: "marks [MDN]"
     type: reference
     lang: en
-
----
-skill: "bleed"
-level: extra
-requires: 
-  - "Print CSS overview"
-resources:
-  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@page/bleed
-    desc: "bleed [MDN]"
-    type: reference
-    lang: en
