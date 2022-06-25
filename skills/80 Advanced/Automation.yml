@@ -52,7 +52,7 @@ resources:
     desc: "PostCSS Homepage"
     lang: en
   - url: https://frontend.garden/clanky/browserslist-uzitecny-nastroj-ktery-funguje-jinak-nez-jste-si-mozna-mysleli/
-    desc: "Browserslist: užitečný nástroj, který funguje jinak, než jste si možná mysleli"
+    desc: "Browserslist: užitečný nástroj, který funguje jinak, než jste si možná mysleli [Frontend Garden]"
     text: |
-      Poměrně detailní článek Adama Kudrny.
+      Poměrně detailní článek Adama Kudrny o Browserslistu, který je využívaný právě autoprefixerem.
     lang: cs
