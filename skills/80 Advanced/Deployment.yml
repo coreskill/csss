@@ -12,6 +12,7 @@ requires:
   - "Deployment overview"
 resources:
   - url: https://pages.github.com/
+    desc: "GitHub Pages"
     lang: en
 
 ---
@@ -20,7 +21,8 @@ level: 3
 requires:
   - "Deployment overview"
 resources:
-  - url: surge.sh
+  - url: https://surge.sh
+    desc: "Surge.sh"
     lang: en
 
 ---
@@ -30,6 +32,7 @@ requires:
   - "Deployment overview"
 resources:
   - url: https://www.netlify.com/
+    desc: "Netlify"
     lang: en
 
 ---

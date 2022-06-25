@@ -134,14 +134,3 @@ resources:
     desc: ":right [MDN]"
     type: reference
     lang: en
-
----
-skill: "marks"
-level: extra
-requires: 
-  - "Print CSS overview"
-resources:
-  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@page/marks
-    desc: "marks [MDN]"
-    type: reference
-    lang: en
