@@ -7,9 +7,9 @@ level: 4
 requires:
   - "Basics // JavaScript overview"
 resources:
-  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/intermediate-javascript-modules/cheatsheet
+  - url: https://www.codecademy.com/learn/learn-intermediate-javascript/modules/intermediate-javascript-modules/cheatsheet
     desc: "Overview (TBD)"
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/modules/exercises/hello-modules
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/modules/exercises/hello-modules
     type: interactive course
 
 ---
@@ -18,9 +18,9 @@ level: 5
 requires:
   - "Modules overview"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/modules/exercises/module-exports
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/modules/exercises/module-exports
     type: interactive course
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/modules/exercises/module-exports-ii
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/modules/exercises/module-exports-ii
     type: interactive course
 
 ---
@@ -29,7 +29,7 @@ level: 5
 requires:
   - "Modules overview"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/modules/exercises/require
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/modules/exercises/require
     type: interactive course
 
 ---
@@ -38,7 +38,7 @@ level: 5
 requires:
   - "Modules overview"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/modules/exercises/export-default
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/modules/exercises/export-default
     type: interactive course
 
 ---
@@ -47,7 +47,7 @@ level: 5
 requires:
   - "Modules overview"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/modules/exercises/import
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/modules/exercises/import
     type: interactive course
 
 ---

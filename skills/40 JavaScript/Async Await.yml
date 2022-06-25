@@ -7,9 +7,9 @@ level: 5
 requires:
   - "Promises // Promises overview"
 resources:
-  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/asynch-js/cheatsheet
+  - url: https://www.codecademy.com/learn/learn-intermediate-javascript/modules/asynch-js/cheatsheet
     desc: "Overview"
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/async-await/exercises/introduction
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/async-await/exercises/introduction
     type: interactive course
 
 ---
@@ -18,7 +18,7 @@ level: 5
 requires:
   - "Async Await overview"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/async-await/exercises/async-function
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/async-await/exercises/async-function
     type: interactive course
 
 ---
@@ -27,7 +27,7 @@ level: 5
 requires:
   - "Async Await overview"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/async-await/exercises/await-operator
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/async-await/exercises/await-operator
     type: interactive course
 
 ---
@@ -36,7 +36,7 @@ level: 5
 requires:
   - "Async Await overview"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/async-await/exercises/writing-async-functions
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/async-await/exercises/writing-async-functions
     type: interactive course
 
 ---
@@ -45,7 +45,7 @@ level: 5
 requires:
   - "Async Await overview"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/async-await/exercises/multiple-awaits
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/async-await/exercises/multiple-awaits
     type: interactive course
 
 ---
@@ -54,7 +54,7 @@ level: 5
 requires:
   - "Async Await overview"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/async-await/exercises/error-handling
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/async-await/exercises/error-handling
     type: interactive course
 
 ---
@@ -63,7 +63,7 @@ level: 5
 requires:
   - "Async Await overview"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/async-await/exercises/concurrency
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/async-await/exercises/concurrency
     type: interactive course
 
 ---
@@ -72,5 +72,5 @@ level: 5
 requires:
   - "Async Await overview"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/async-await/exercises/await-promise-all
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/async-await/exercises/await-promise-all
     type: interactive course

@@ -7,11 +7,11 @@ level: 5
 requires:
   - "Basics // JavaScript overview"
 resources:
-  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/javascript-promises/cheatsheet
+  - url: https://www.codecademy.com/learn/learn-intermediate-javascript/modules/javascript-promises/cheatsheet
     desc: "Overview"
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/introduction
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/promises/exercises/introduction
     type: interactive course
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/understanding-promises
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/promises/exercises/understanding-promises
     type: interactive course
 
 ---
@@ -20,7 +20,7 @@ level: 5
 requires:
   - "Promises overview"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/constructing-promises
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/promises/exercises/constructing-promises
     type: interactive course
 
 ---
@@ -31,7 +31,7 @@ requires:
 resources:
   - url:
     desc: "Overview"
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/settimeout
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/promises/exercises/settimeout
     type: interactive course
 
 ---
@@ -40,7 +40,7 @@ level: 5
 requires:
   - "Promises overview"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/then 
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/promises/exercises/then 
     type: interactive course
 
 ---
@@ -49,7 +49,7 @@ level: 5
 requires:
   - "Promises overview"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/onfulfilled-onrejected
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/promises/exercises/onfulfilled-onrejected
     type: interactive course
 
 ---
@@ -58,7 +58,7 @@ level: 5
 requires:
   - "Promises overview"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/catch
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/promises/exercises/catch
     type: interactive course
 
 ---
@@ -67,7 +67,7 @@ level: 5
 requires:
   - "Promises overview"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/chaining-promises
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/promises/exercises/chaining-promises
     type: interactive course
 
 ---
@@ -76,7 +76,7 @@ level: 5
 requires:
   - "Promises overview"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/avoiding-common-mistakes
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/promises/exercises/avoiding-common-mistakes
     type: interactive course
 
 ---
@@ -85,5 +85,9 @@ level: 5
 requires:
   - "Promises overview"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/promises/exercises/promise-all
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/promises/exercises/promise-all
     type: interactive course
+
+# introduction
+# https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/promises/exercises/understanding-promises
+# https://www.codecademy.com/courses/learn-intermediate-javascript/quizzes/js-promises

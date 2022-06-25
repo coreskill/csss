@@ -7,9 +7,9 @@ level: 4
 requires:
   - "Requests overview"
 resources:
-  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/intermediate-javascript-requests/cheatsheet
+  - url: https://www.codecademy.com/learn/learn-intermediate-javascript/modules/intermediate-javascript-requests/cheatsheet
     desc: "Overview"
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/requests-intro-i
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-i/exercises/requests-intro-i
     type: interactive course
 
 ---
@@ -18,7 +18,7 @@ level: 4
 requires:
   - "Requests overview"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/http-requests
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-i/exercises/http-requests
     type: interactive course
 
 ---
@@ -27,13 +27,13 @@ level: 4
 requires:
   - "HTTP Requests"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/xhr-get-requests-i
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-i/exercises/xhr-get-requests-i
     type: interactive course
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/xhr-get-requests-ii
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-i/exercises/xhr-get-requests-ii
     type: interactive course
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/xhr-get-requests-iii
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-i/exercises/xhr-get-requests-iii
     type: interactive course
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/xhr-get-requests-iv
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-i/exercises/xhr-get-requests-iv
     type: interactive course
 
 ---
@@ -42,11 +42,11 @@ level: 4
 requires:
   - "HTTP Requests"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/xhr-post-requests-i
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-i/exercises/xhr-post-requests-i
     type: interactive course
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/xhr-post-requests-ii
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-i/exercises/xhr-post-requests-ii
     type: interactive course
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-i/exercises/xhr-post-requests-iii
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-i/exercises/xhr-post-requests-iii
     type: interactive course
 
 ---
@@ -55,13 +55,13 @@ level: 4
 requires:
   - "XHR GET Requests"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/fetch-get-requests-i
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-ii/exercises/fetch-get-requests-i
     type: interactive course
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/fetch-get-requests-ii
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-ii/exercises/fetch-get-requests-ii
     type: interactive course
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/fetch-get-requests-iii
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-ii/exercises/fetch-get-requests-iii
     type: interactive course
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/fetch-get-requests-iv
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-ii/exercises/fetch-get-requests-iv
     type: interactive course
 
 ---
@@ -70,15 +70,15 @@ level: 4
 requires:
   - "XHR POST Requests"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/fetch-post-requests-i
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-ii/exercises/fetch-post-requests-i
     type: interactive course
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/fetch-post-requests-ii
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-ii/exercises/fetch-post-requests-ii
     type: interactive course
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/fetch-post-requests-iii
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-ii/exercises/fetch-post-requests-iii
     type: interactive course
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/fetch-post-requests-iv
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-ii/exercises/fetch-post-requests-iv
     type: interactive course
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/fetch-post-requests-v
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-ii/exercises/fetch-post-requests-v
     type: interactive course
 
 ---
@@ -87,11 +87,11 @@ level: 5
 requires:
   - "fetch() GET Requests"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/async-get-requests-i
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-ii/exercises/async-get-requests-i
     type: interactive course
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/async-get-requests-ii
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-ii/exercises/async-get-requests-ii
     type: interactive course
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/async-get-requests-iii
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-ii/exercises/async-get-requests-iii
     type: interactive course
 
 ---
@@ -100,9 +100,9 @@ level: 5
 requires:
   - "fetch() POST Requests"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/async-post-requests-i
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-ii/exercises/async-post-requests-i
     type: interactive course
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/async-post-requests-ii
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-ii/exercises/async-post-requests-ii
     type: interactive course
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/requests-ii/exercises/async-post-requests-iii
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-ii/exercises/async-post-requests-iii
     type: interactive course

@@ -7,9 +7,9 @@ level: 4
 requires:
   - "Objects // Objects overview"
 resources:
-  - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-classes/cheatsheet
+  - url: https://www.codecademy.com/learn/learn-intermediate-javascript/modules/learn-javascript-classes/cheatsheet
     desc: "Overview"
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/classes/exercises/introduction
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/classes/exercises/introduction
     type: interactive course
 
 ---
@@ -18,7 +18,7 @@ level: 4
 requires:
   - "Classes overview"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/classes/exercises/constructor-method
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/classes/exercises/constructor-method
     type: interactive course
 
 ---
@@ -27,7 +27,7 @@ level: 4
 requires:
   - "Classes overview"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/classes/exercises/instance
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/classes/exercises/instance
     type: interactive course
 
 ---
@@ -36,7 +36,7 @@ level: 4
 requires:
   - "Classes overview"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/classes/exercises/methods
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/classes/exercises/methods
     type: interactive course
 
 ---
@@ -45,7 +45,7 @@ level: 4
 requires:
   - "Classes overview"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/classes/exercises/method-calls
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/classes/exercises/method-calls
     type: interactive course
 
 ---
@@ -54,15 +54,15 @@ level: 4
 requires:
   - "Classes overview"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/classes/exercises/inheritance-i
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/classes/exercises/inheritance-i
     type: interactive course
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/classes/exercises/inheritance-ii
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/classes/exercises/inheritance-ii
     type: interactive course
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/classes/exercises/inheritance-iii
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/classes/exercises/inheritance-iii
     type: interactive course
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/classes/exercises/inheritance-iv
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/classes/exercises/inheritance-iv
     type: interactive course
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/classes/exercises/inheritance-v
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/classes/exercises/inheritance-v
     type: interactive course
 
 ---
@@ -71,5 +71,5 @@ level: 4
 requires:
   - "Classes overview"
 resources:
-  - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/classes/exercises/static-methods
+  - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/classes/exercises/static-methods
     type: interactive course
