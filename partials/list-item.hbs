@@ -12,23 +12,12 @@
 >
   {{#if skill}}
     <span
-      class="
-        indicator indicator-list text-center p-1
-        {{#ifEquals level 0 }}is-level-0{{/ifEquals}}
-        {{#ifEquals level 1 }}is-level-1{{/ifEquals}}
-        {{#ifEquals level 2 }}is-level-2{{/ifEquals}}
-        {{#ifEquals level 3 }}is-level-3{{/ifEquals}}
-        {{#ifEquals level 4 }}is-level-4{{/ifEquals}}
-        {{#ifEquals level 5 }}is-level-5{{/ifEquals}}
-        {{#ifEquals level "extra" }}is-extra{{/ifEquals}}
-      "
+      class="indicator indicator-list text-center p-1"
       data-slug="{{slug}}"
+      data-level="{{level}}"
     >
       <span class="locked">🔒️</span>
-      <span class="done">✅️</span>
-      <span class="star">⭐️</span>
-      <span class="maybe">❓</span>
-      <span class="not-done">❔️</span>
+      <span class="indicator-icon"></span>
     </span>
     {{#unless resources}}
       {{#unless text}}

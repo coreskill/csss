@@ -1,15 +1,5 @@
-.not-done,
-.maybe,
-.done,
-.star,
-.indicator.is-done .not-done,
-.indicator.is-star .not-done,
-.indicator.is-maybe .not-done,
+.indicator-icon,
 .logged-in .locked,
-.indicator.not-done .locked,
-.indicator.is-done .locked,
-.indicator.is-star .locked,
-.indicator.is-maybe .locked,
 .logged-in .note.note-empty,
 .logged-in .login,
 .logout,
@@ -22,10 +12,7 @@
   display: none;
 }
 
-.indicator.is-done .done,
-.indicator.is-star .star,
-.indicator.is-maybe .maybe,
-.logged-in .not-done,
+.logged-in .indicator-icon,
 .logged-in .note,
 .logged-in .logout,
 .logged-in .filter-group,
