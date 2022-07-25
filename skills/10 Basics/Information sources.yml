@@ -8,25 +8,25 @@ resources:
   - url: https://w3.org
     desc: "W3C"
     text: |
-      Organisation developing web standards."
+      Organisation developing web standards.
   - url: https://w3schools.com
     desc: "W3Schools"
     text: |
-      Do not use. Contains errors and bad practices."
+      Do not use. Contains errors and bad practices.
   - url: https://developer.mozilla.org/
     desc: "MDN (Mozilla Developer Network)"
     text: |
-      Best reference. Very complete. HTML, CSS, JavaScript, SVG, …"
+      Best reference. Very complete. HTML, CSS, JavaScript, SVG, …
     type: reference
   - url: https://htmlreference.io
     desc: "htmlreference.io"
     type: reference
     text: |
-      Good HTML reference for beginners but not complete."
+      Good HTML reference for beginners but not complete.
   - url: https://cssreference.io
     desc: "cssreference.io"
     text: |
-      Good CSS reference for beginners but not complete."
+      Good CSS reference for beginners but not complete.
     type: reference
   - url: https://24ways.org/2018/researching-a-property-in-the-css-specifications/
     desc: "Researching a Property in the CSS Specifications"
