@@ -18,7 +18,8 @@
 .note,
 .note-changer,
 .user-select,
-.administration {
+.administration,
+.logged-in .hidden-when-logged-in {
   display: none;
 }
 
