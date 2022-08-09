@@ -26,6 +26,18 @@ resources:
       
       Read if you’re in a hurry.
     lang: en
+  - url: https://www.designui.cz/lekce/jak-si-ulehcit-navrhovani-ui-aneb-nastavte-si-mantinely
+    desc: "Jak si ulehčit navrhování UI aneb nastavte si mantinely [Designui]"
+    text: |
+      Jak uvažuje designér UI.
+    type: article
+    lang: cs
+  - url: https://www.designui.cz/lekce/zacnete-navrhovat-ui-v-cernobile
+    desc: "Začněte navrhovat UI v černobílé [Designui]"
+    text: |
+      Jak uvažuje designér UI.
+    type: article
+    lang: cs
   - url: https://cantunsee.space/
     desc: "Can’t Unsee"
     text: |
@@ -98,6 +110,12 @@ resources:
   - url: https://www.pierrickcalvez.com/journal/a-five-minutes-guide-to-better-typography
     desc: "A Five-Minute Guide to Better Typography"
     lang: en
+  - url: https://www.designui.cz/lekce/na-typografii-v-ui-nezalezi-nebo-ano
+    desc: "Na typografii v UI nezáleží. Nebo ano? [Designui]"
+    text: |
+      Článek od designera o práci s písmy.
+    type: article
+    lang: cs
   - url: https://www.youtube.com/watch?v=agbh1wbfJt8
     desc: "Typography for Developers"
     text: |
