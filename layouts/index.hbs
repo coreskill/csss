@@ -20,8 +20,15 @@
   <body class="page-home">
   {{> header}}
   <main class="container-fluid px-4">
+    <div class="hidden-when-logged-in my-4 alert alert-info" role="alert">
+      <p class="fw-bold fs-2">This tool was created for clients of <a href="https://coreskill.tech">CoreSkill mentoring programme</a>.</p>
+      <p class="fw-bold fs-2">Feel free to use it for yourself.</p>
+      <p class="fs-4 mb-0">
+        Login with Google Account to enable checklist functionality.
+        <br>CoreSkill will be able to see the e-mail and the name you filled for that account.
+      </p>
+    </div>
     <ul class="d-flex flex-wrap align-items-center mt-2 mb-4 pb-0 px-0">
-      <li class="mx-3 hidden-when-logged-in">Login with Google Account to enable checklist functionality.</li>
       <li class="mx-3">Skills with 📞️ have no detailed information and will be explained individually.</li>
       <li class="mx-3">
         Numbers indicate skill levels:
