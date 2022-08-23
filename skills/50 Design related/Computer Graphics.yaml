@@ -24,10 +24,10 @@ requires:
 skill: "Antialiasing and subpixel antialiasing"
 level: 1
 resources:
-  - url: https://www.smashingmagazine.com/2012/04/a-closer-look-at-font-rendering/
+  - url: https://www.smashingmagazine.com/2012/04/a-closer-look-at-font-rendering/#:~:text=A%20Closer%20Look,text%20becomes%20crisper.
     desc: A closer look at font rendering [Smashing Magazine]
     text: |
-      Don’t read _Current Implementations_ and further.
+      Read highlighted section.
     type: article
     lang: en
 requires:
