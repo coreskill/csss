@@ -735,3 +735,14 @@ resources:
     desc: "audio [MDN]"
     type: reference
     lang: en
+
+---
+skill: "<address>"
+level: extra
+requires:
+  - "Basic Structure // <!doctype>, <html>, <head>, <body>"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address
+    desc: "address [MDN]"
+    type: reference
+    lang: en
