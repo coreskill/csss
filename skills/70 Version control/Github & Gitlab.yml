@@ -79,4 +79,8 @@ requires:
   - "Markdown"
 resources:
   - url: https://www.makeareadme.com/
+    desc: "A website about READMEs"
+    lang: en
+  - url: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes
+    desc: "GitHub's tips and info about creating READMEs"
     lang: en
