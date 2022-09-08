@@ -3,7 +3,7 @@ sort: 100
 
 ---
 skill: "CSS Grid Overview"
-level: 3
+level: 4
 requires:
   - "General CSS // Basic CSS Syntax"
 text: |
@@ -30,7 +30,7 @@ resources:
 
 ---
 skill: "grid-template-rows, grid-template-columns"
-level: 3
+level: 4
 requires:
   - "CSS Grid Overview"
 resources:
@@ -45,7 +45,7 @@ resources:
 
 ---
 skill: "fr units"
-level: 3
+level: 4
 requires:
   - "CSS Grid Overview"
 resources:
@@ -56,7 +56,7 @@ resources:
 
 ---
 skill: "repeat()"
-level: 3
+level: 4
 requires:
   - "CSS Grid Overview"
 resources:
@@ -67,7 +67,7 @@ resources:
 
 ---
 skill: "max-content, min-content, fit-content"
-level: 3
+level: 4
 requires:
   - "CSS Grid Overview"
 resources:
@@ -86,7 +86,7 @@ resources:
 
 ---
 skill: "minmax()"
-level: 3
+level: 4
 requires:
   - "CSS Grid Overview"
 resources:
@@ -97,7 +97,7 @@ resources:
 
 ---
 skill: "fit-content()"
-level: 3
+level: 4
 requires:
   - "CSS Grid Overview"
 resources:
@@ -108,7 +108,7 @@ resources:
 
 ---
 skill: "span"
-level: 3
+level: 4
 requires:
   - "CSS Grid Overview"
 resources:
@@ -121,7 +121,7 @@ resources:
 
 ---
 skill: "grid-template-areas"
-level: 3
+level: 4
 requires:
   - "grid-template-rows, grid-template-columns"
 resources:
@@ -132,7 +132,7 @@ resources:
 
 ---
 skill: "grid-template (shorthand)"
-level: 4
+level: 5
 requires:
   - "grid-template-areas"
 resources:
@@ -143,7 +143,7 @@ resources:
 
 ---
 skill: "row-gap, column-gap, gap"
-level: 3
+level: 4
 requires:
   - "grid-template-rows, grid-template-columns"
 resources:
@@ -164,7 +164,7 @@ resources:
 
 ---
 skill: "grid-row-start, grid-row-end, grid-column-start, grid-column-end"
-level: 3
+level: 4
 requires:
   - "grid-template-rows, grid-template-columns"
 resources:
@@ -187,7 +187,7 @@ resources:
 
 ---
 skill: "grid-auto-flow"
-level: 3
+level: 4
 requires:
   - "grid-template-rows, grid-template-columns"
 resources:
@@ -198,7 +198,7 @@ resources:
 
 ---
 skill: "grid-auto-rows, grid-auto-columns"
-level: 3
+level: 4
 requires:
   - "grid-template-rows, grid-template-columns"
 resources:
@@ -213,7 +213,7 @@ resources:
 
 ---
 skill: "grid-row, grid-column (shorthands)"
-level: 4
+level: 5
 requires:
   - "grid-row-start, grid-row-end, grid-column-start, grid-column-end"
 resources:
@@ -228,7 +228,7 @@ resources:
 
 ---
 skill: "grid-area (shorthand)"
-level: 4
+level: 5
 requires:
   - "grid-row-start, grid-row-end, grid-column-start, grid-column-end"
 resources:
@@ -239,7 +239,7 @@ resources:
 
 ---
 skill: "grid (shorhand)"
-level: 4
+level: 5
 requires:
   - "grid-template-rows, grid-template-columns"
   - "grid-template-areas"
@@ -251,7 +251,7 @@ resources:
 
 ---
 skill: "justify-items"
-level: 3
+level: 4
 requires:
   - "CSS Grid Overview" 
 resources:
@@ -262,7 +262,7 @@ resources:
 
 ---
 skill: "justify-self"
-level: 3
+level: 4
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/justify-self
     desc: "justify-self [MDN]"
