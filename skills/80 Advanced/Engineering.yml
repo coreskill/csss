@@ -19,7 +19,133 @@ resources:
     lang: en
   - url: https://www.vzhurudolu.cz/checklist
     lang: cs
+text : |
+  # Czech checklist from vzhurudolu.cz ready to be uses as GitHub issues:
+  ```
+  Zkontrolovat: Obsah a HTML
 
+  Obsah je král a HTML je jeho trůn. Tímhle musíme začít.
+
+  - [ ] **Správný `<meta viewport>` ★★★**  
+    „Meta viewport“ zařídí správné zobrazování responzivního webu v mobilních prohlížečích. Více: [Meta viewport na Vzhůru dolů](https://www.vzhurudolu.cz/prirucka/viewport-meta). Důležité je [nezakazovat zoomování](https://www.vzhurudolu.cz/blog/48-znicit-mobilistu-2).
+  - [ ] **Správný `<title>` a `<meta description>` ★★★**  
+    Mají vliv na umístění ve vyhledávačích, hlavně `<title>`. Jsou také potřeba pro náhled stránky ve výsledcích vyhledávání nebo na sociálních sítích. Více: [Pavel Ungr o title](https://www.pavelungr.cz/jak-napsat-titulek/), [Moz.com o meta description](https://moz.com/learn/seo/meta-description).
+  - [ ] **Osnova nadpisů je v pořádku ★★☆**  
+    Stromová struktura (outline) nadpisů `<h1>`, `<h2>` atd. má odrážet strukturu dokumentu. Usnadní indexaci vyhledávači a prohlížení stránky zrakově postiženými. Prohlédněte si DOM, využijte [HTML5 outliner](https://gsnedders.html5.org/outliner/). Více: [Vzhůru dolů: Lze mít více `<h1>`?](https://www.vzhurudolu.cz/blog/25-vice-h1).
+  - [ ] **Náhledy pro sociální sítě a chaty ★★☆**  
+    Doplňte meta značky pro Facebook Open Graph, Twitter Cards a další. Mají potenciál zvýšit návštěvnost webu, protože vytvářejí hezký náhled webu na sociálních sítích. Důležitý je hlavně obrázek. Více: [Open Graph na Vzhůru dolů](https://www.vzhurudolu.cz/prirucka/meta-open-graph). Nástroje pro kontrolu: [Facebook Debugger](https://developers.facebook.com/tools/debug/), [Twitter Validator](https://cards-dev.twitter.com/validator), [MetaTags.io](https://metatags.io/)
+  - [ ] **Strukturovaná data pro Google ★★☆**  
+    „Rich Snippets“ usnadňují nahrání informací, například o struktuře produktů e-shopu a vylepší náhled webu ve výsledcích vyhledávání. Je to podstatné hlavně u e-shopů a webů, které obsahují recenze nebo události. Více: [Strukturovaná data (aneb Rich Snippets) na Vzhůru dolů](https://www.vzhurudolu.cz/prirucka/rich-snippets). Tester [Google Structured Data Testing Tool](https://developers.google.com/structured-data/testing-tool/).
+  - [ ] **Odkazy z webu ven jsou platné ★★☆**  
+    Vyhněte se chybám 404 při procházení vašeho webu. Pro kontrolu jednotlivých stránek použijte třeba [Dead Link Checker](https://www.deadlinkchecker.com/) nebo [Xenu](https://home.snafu.de/tilman/xenulink.html).
+  - [ ] **Ikony webu a favikony ★★☆**  
+    Favikony identifikují web v bookmarcích nebo v seznamu aplikací na mobilech i desktopu. Více: [Favikony na Vzhůru dolů](https://www.vzhurudolu.cz/prirucka/favicon). Generátor: [RealFaviconGenerator.net](https://realfavicongenerator.net/).
+  - [ ] **Validní HTML ★☆☆**  
+    Hlídejte si validitu kvůli potenciálním chybám v indexaci vyhledávači. Lpí na tom i někteří klienti, tak proč si kazit renomé. Více:[Validita na JeČas](https://jecas.cz/validita). Nástroj: [W3 validátor](https://validator.w3.org/nu).
+  - [ ] **Obsah bez typografických chyb ★☆☆**  
+    Text bez chyb zajistí lepší čitelnost obsahu. Profíci jsou na to citliví. Dohlédněte alespoň na ty nejpodstatnější. Více: [Typografické rady na Wikipedii](https://cs.wikipedia.org/wiki/Wikipedie:Typografick%C3%A9_rady). Nástroj pro odstraňování chyb: [Typopo.org](https://app.typopo.org/).
+
+  Zkontrolovat: Přístupnost
+
+  Obsah už máme královsky vyladěný. Pojďme teď odstranit překážky, které jsme mohli nechtěně vytvořit uživatelům, a to ne jen těm hendikepovaným. Přístupnost se týká všech. V obecné rovině je ošetřena normou WCAG. Projděte proto web a hledejte možné chyby podle standardu [„Web Content Accessibility Guidelines“ ve verzi 2.1](http://blindfriendly.cz/wcag20checklist/). Nastavte si střední přísnost, [úroveň AA](http://www.pristupnost.cz/jak-tvorit-pristupny-web/pravidla-pristupnosti/wcag/). Kontrolujte nástrojem [WAVE - Web Accessibility Evaluation Tool](https://wave.webaim.org/).
+
+  - [ ] **Struktura dokumentu: WAI-ARIA oblasti a HTML5 elementy ★★★**  
+    Správná struktura umožní zrakově postiženým strukturované procházení, což jim šetří čas. Stačí přidat „role“ pro navigaci, obsah a třeba vyhledávání. Více: [WAI-ARIA](https://www.vzhurudolu.cz/prirucka/wai-aria) a [HTML5 elementy](https://www.vzhurudolu.cz/prirucka/html5-struktura) na Vzhůru dolů.
+  - [ ] **Procházení stránky tabulátorem ★★☆**  
+    Zkuste sekvenční procházení stránky tabulátorem a jinými klávesami. Kromě zrakově postižených to ocení i pokročilí uživatelé, využívající klávesnici. Více: [Přístupnost z klávesnice na Zdrojáku](https://zdrojak.cz/clanky/pristupnost-ria-strukturovani-dokumentu-a-pristupnost-z-klavesnice/), [Zvýrazňujte odkazy na Poslepu](https://poslepu.blogspot.cz/2010/06/zvyraznujete-odkazy-pri-ovladani-webu-z.html), [CSS layout a přístupnost na Vzhůru dolů](https://www.vzhurudolu.cz/prirucka/css-layout-pristupnost).
+  - [ ] **Hlavní obsah a navigace jsou dostupné i bez JavaScriptu ★★☆**  
+    Většina robotů nezvládne indexovat obsah vytvořený JavaScriptem. Googlebot jej do jisté míry zvládá, ale je lepší na to nespoléhat. Testujte to vypnutím JavaScriptu v Developer Tools. Více: [SEO a JavaScipt na JeČas](https://jecas.cz/seo-javascript)
+  - [ ] **Správné typy inputů ve formulářích ★★☆**  
+    `<input type="email">` a nové typy formulářů usnadňují zadávání obsahu na mobilních zařízeních. Je to užitečné naprosto pro všechny uživatele. Více: [Formuláře v HTML5 na Zdrojáku](https://www.zdrojak.cz/clanky/formulare-html5-nove-inputy/).
+  - [ ] **Barevný kontrast je dostatečný ★★☆**  
+    Ocení nejen zrakově postižení, ale také majitelé horších displejů. Prakticky každý při horších světelných podmínkách na mobilech. Článek [o kontrastu](https://www.vzhurudolu.cz/prirucka/kontrast).
+  - [ ] **Multimédia mají textovou alternativu ★★☆**  
+    Obrázkům doplňte smysluplný popisek do atributu `alt`, používejte [značku `<figure>`](https://www.vzhurudolu.cz/prirucka/figure-figcaption). Více [Textové alternativy obrázků na Zdrojáku](https://zdrojak.cz/clanky/pristupnost-html5-textove-alternativy-obrazku-1-2-teorie/).
+
+  Detailnější instrukce k otestování přístupnosti své stránky najdete také v článku Radka Pavlíčka [Jak na jednoduchý audit přístupnosti – otestujte si bezbariérovost svého webu](https://poslepu.cz/jak-na-jednoduchy-audit-pristupnosti-otestujte-si-bezbarierovost-sveho-webu/).
+
+  Zkontrolovat: Design webu
+
+  Tuhle oblast mají obvykle na starosti naši kolegové designéři. Pojďme ale zkontrolovat to nejdůležitější z technických aspektů designu.
+
+  - [ ] **Požadovaná rychlost webu ★★★**  
+    Jděte na [PageSpeed.cz](https://pagespeed.cz), změřte si konkurenci a snažte se být rychlejší než ona. Testujte všechny důležité vstupní šablony. Sledujte hlavně metriky [Web Vitals](https://www.vzhurudolu.cz/prirucka/web-vitals) od uživatelů. Dále: [Page Experience](https://www.vzhurudolu.cz/prirucka/google-page-experience), [jak zrychlit web?](https://www.vzhurudolu.cz/prirucka/jak-zrychlit-web), [checklist rychlosti](https://pagespeed.cz/blog/checklist-2021), [videa o rychlosti](https://www.vzhurudolu.cz/video).
+  - [ ] **Web je přátelský k mobilním uživatelům ★★★**  
+    Pomůže test [Mobile Friendly](https://search.google.com/test/mobile-friendly) od Googlu. Vyčerpávající informace [o responzivní designu](https://www.vzhurudolu.cz/responzivni-design) jsou v knížce [Vzhůru do (responzivního) webdesignu](https://www.vzhurudolu.cz/kniha-responzivni-design/).
+  - [ ] **Grafika podporuje HD displeje typu Retina ★★★**  
+    Obyčejná grafika nebude na vysokokapacitních displejích vypadat dobře. Trochu teorie [o problému v článku](https://www.vzhurudolu.cz/prirucka/css-pixel). V praxi potřebujete [SVG](https://www.vzhurudolu.cz/prirucka/svg), případně také [atribut srcset](https://www.vzhurudolu.cz/prirucka/srcset-sizes).
+  - [ ] **Šablony pro chybové stránky 404 a 50x ★★★**  
+    Navrhněte a implementujte vlastní. Výchozí chybovky serverových frameworků nebo serverů návštěvníkovi nepomohou. Pár [tipů v článku na Interval.cz](https://www.interval.cz/clanky/pet-nezbytnych-prvku-uspesne-chybove-stranky-404/).
+
+  Věnujte pozornost také [UX checklistu pro e-shopy od Ondřeje Ilinčeva](https://www.ilincev.com/ux-checklist-eshop) nebo [UX checklistu Lukáše Dubiny](https://www.lukasdubina.cz/uxdesign-checklist).
+
+  Zkontrolovat: Prohlížeče a kompatibilita
+
+  Zobrazuje se váš obsah ve všech prohlížečích, které podporujete? Dá se vytisknout? A mohla bych jej vidět se zapnutým AdBlockem?
+
+  - [ ] **Plné zobrazení napříč prohlížeči a zařízeními ★★★**  
+    [Internet Explorer](https://www.vzhurudolu.cz/prirucka/msie) už snad podporovat nemusíte a mezi moderními [prohlížeči](https://www.vzhurudolu.cz/prirucka/prohlizece) tolik rozdílů není. I tak pomohou nástroje jako [Browserstack](https://www.browserstack.com/). Viz také článek [Jak testovat responzivní weby](https://www.vzhurudolu.cz/prirucka/jak-testovat-responzivni-weby). Nezapomeňte ošetřit [i chytré hodinky](https://www.vzhurudolu.cz/prirucka/weby-watchos).
+  - [ ] **Tisková verze stránky ★★☆**  
+    Je potřeba hlavně zajistit nezobrazování částí nezajímavých pro tisk jako jsou ovládací prvky webu. [Článek na Je čas](https://jecas.cz/tisk).
+  - [ ] **Zobrazení s blokovači reklamy ★★☆**  
+    Testujte se zapnutými blokovači. Neblokuje Adblock i nevinné třídy z vašeho CSS? Otestujte web se zapnutým AdBlockem. [Tweet](https://twitter.com/machal/status/1084773644331597824).
+  - [ ] **Dostupnost hlavního obsahu ve starších prohlížečích ★☆☆**  
+    Záleží to na projektu a cílové skupině. Ve starších prohlížečích web nemusí vypadat jako z reklamy, důležitá je ale čitelnost hlavního obsahu a dostupnost navigace.
+  - [ ] **Stránka je v pořádku bez CSS ★☆☆**  
+    Verze pro čtečky a další kontexty, které nepoužívají vaše CSS. [Článek Weby bez CSS](https://www.vzhurudolu.cz/prirucka/weby-bez-css).
+
+  Co všechno je potřeba testovat ukazuje také text [A Comprehensive Checklist For Front-End Testing](https://www.lambdatest.com/blog/front-end-testing-checklist/) od LambdaTesting.
+
+  Zkontrolovat: Kvalita kódu: dokumentace a testy
+
+  Konvence, linting, testování a odchyt chyb. Tohle uživatelé nevidí, ale nedostatky v téhle oblasti mohou web pořádně rozbít.
+
+  - [ ] **Kód dodržuje konvenci ★★☆**  
+    Konvence usnadňuje sdílení nebo předávání kódu. Více: [JavaScript coding standards na Googlu](https://www.google.com/search?q=JavaScript+coding+standards). V CSS můžete vyjít ze [zásad psaní respektujícího CSS](https://www.vzhurudolu.cz/prirucka/rcss-zasady).
+  - [ ] **Kvalita kódu v požadované úrovni ★★☆**  
+    Automatická kontrola častých chyb nebo problematických konstrukcí kódu. Lze využít například [ESLint](https://eslint.org/) v CSS pak [Stylelint](https://www.vzhurudolu.cz/prirucka/stylelint). Ve všech jazycích autoformátovač [Prettier](https://prettier.io/).
+  - [ ] **Javascriptový kód je pokrytý testy ★★☆**  
+    Javascript není CSS a tak se nějaké ty testy hodí. Více se dozvíte na videích [Píšeme testy](https://www.vzhurudolu.cz/video/webinar-js-testy) a [Nástroje pro testování](https://www.vzhurudolu.cz/video/webinar-js-testy-nastroje).
+  - [ ] **Měření runtime chyb v JS kódu ★★☆**  
+    Ujistěte se, že víte o chybách, které uživatelům vrací váš frontendový kód. Zamezte tomu, aby prohlížeč do konzole vypisoval chyby. Z možností sledování vybíráme např. [Technical Dashboard v Google Analytics](https://www.vzhurudolu.cz/prirucka/google-analytics-vyvojari) nebo [Sentry](https://sentry.io/).
+  - [ ] **Funkční testování ★★☆**  
+    Fungují kritické části webu i když ho necháte běžet? Pomůže třeba [Selenium](https://www.seleniumhq.org/) nebo nástroje vycházející ze standardu [Webdriver](https://www.w3.org/TR/webdriver/). Více [o testech v podcastu](https://www.vzhurudolu.cz/podcast/139-podcast-testovani).
+  - [ ] **Kód je v produkční kvalitě ★★☆**  
+    Je minifikovaný a neobsahuje zbytečná data.
+  - [ ] **README.md ★☆☆**  
+    V tomto souboru je v repozitáři popsána instalace, buildování atd.
+
+  Další možnosti uvidíte ve [Frontend Code Review checklist](https://gist.github.com/bigsergey/aef64f68c22b3107ccbc439025ebba12).
+
+  Zkontrolovat: Spuštění webu
+
+  Už máme web hotový. Jdeme zmáčknout tlačítko pro zveřejnění? Raději ještě počkejme, právě tady můžeme nasekat fatální chyby.
+
+  - [ ] **Web běží na HTTPS ★★★**  
+    Bez bezpečného protokolu se s vámi už nikdo (myšleno vyhledávače) nebude chtít kamarádit. [Více o HTTPS](https://www.vzhurudolu.cz/prirucka/https).
+  - [ ] **Web běží na HTTP/2 ★★★**  
+    HTTP/2 pozitivně ovlivňuje rychlost, zvažte také nejnovější HTTP/3. Více: [HTTP/2](https://www.vzhurudolu.cz/prirucka/http-2) a [HTTP/3](https://www.vzhurudolu.cz/prirucka/http-3).
+  - [ ] **Není zakázaná indexace vyhledávači ★★★**  
+    Mrkněte se do robots.txt nebo na `<meta name="robots">`. Obvykle indexaci při spuštění webu zakazovat nechcete, ale často se na to zapomíná. Více je [v dokumentaci od Googlu](https://support.google.com/webmasters/answer/93710?hl=cs).
+  - [ ] **Vývojářské soubory nejsou na produkci ★★★**  
+    Hlavně adresáře typu `.git/`, `node_modules/,` zapomenutý ZIP s obsahem databáze nebo třeba veřejně přístupný [Adminer](https://www.adminer.org/cs/) či [phpMyAdmin](https://www.phpmyadmin.net/).
+  - [ ] **Přesměrování ze starých adres ★★★**  
+    Pokud se mění URL, musíte přesměrovat ze starých na nová. Jakmile by stará URL vracela chybu 404, vyhledávače na ta nová nepředají tzv. „link juice“ hodnocení adresy získané z dřívějška. Na staré adrese vracejte kód 301 a přesměrujte na novou. [Možnosti na JakPsátWeb.cz](https://www.jakpsatweb.cz/presmerovani.html), [dokumentace od Seznam.cz](https://napoveda.seznam.cz/cz/fulltext-hledani-v-internetu/presmerovani-webu/).
+  - [ ] **Přidání a konfigurace Google Analytics ★★★**  
+    Obchodní výkonnost webu všechny zajímá, nezapomněli jste [nastavit měření](https://www.vzhurudolu.cz/prirucka/google-analytics-pridani)? Alternativně přidejte kód [Google Tag Managera](https://www.vzhurudolu.cz/prirucka/google-tag-manager), marketéři si přes potřebné kódy přidají.
+  - [ ] **Registrace v nástrojích pro webmastery ★★☆**  
+    Pravidelně upozorní na časté chyby z pohledu vyhledávačů. Nejdůležitější je [Google Search Console](https://www.vzhurudolu.cz/prirucka/google-search-console): [Přidejte tam web](https://www.google.com/webmasters/tools/) hned po spuštění. A pak samozřejmě [Seznam Webmaster](https://reporter.seznam.cz/wm/). Pro zahraniční weby také například [Bing Webmaster Tools](https://www.bing.com/toolbox/webmaster).
+  - [ ] **Správně nastavené hlavičky ze serveru ★★☆**  
+    [REDbot.org](https://redbot.org/) vysvětluje nastavení vašeho serveru: gzipování, kešovací hlavičky… Hodí se hlavně zkontrolovat na hostingu, který neprovozujete sami.
+  - [ ] **Správně nastavené bezpečnostní hlavičky ★★☆**  
+    [SecurityHeaders.io](https://securityheaders.io/) udělá alespoň základní audit té části serverové hlavičky, kterou můžete usnadňovat různé typy útoků. Např. `X-Frame-Options` nebo `Content-Security-Policy`.
+  - [ ] **Přidali jsme `robots.txt`, `humans.txt` a `security.txt` ★★☆**  
+    [Roboty](https://www.jakpsatweb.cz/robots-txt.html), jen pokud potřebujete výslovně změnit něco kolem indexování. [Lidi](https://humanstxt.org/CZ) hlavně pro radost. [Security](https://www.michalspacek.cz/k-cemu-je-soubor-security.txt) jako kontakt pro hlášení průšvihů, než jsou z nich megaprůšvihy.
+  - [ ] **Máme `sitemap.xml` ★★☆**  
+    Usnadňuje indexování vyhledávači. Hlavně pro větší weby nebo weby s komplikovanou strukturou.
+  - [ ] **Máme zapnuté SEO ★★★**  
+    To byl vtip, omlouvám se. Problematika SEO je komplexní, takže vás odkážu na [checklist Lukáše Pitry](https://www.lukaspitra.cz/checklist-kontroly-pred-spustenim-webu/) nebo [checklist technického SEO](https://trello.com/b/t8Q9EzwZ/technick%C3%A9-seo-checklist-pavel-ungr-a-jaroslav-hlavinka) od pánů [Ungra a Hlavinky](https://www.pavelungr.cz/skoleni/technicke-seo-nejen-pro-vyvojare/).
+  ```
 ---
 skill: "DRY v. Overengineering (KISS)"
 level: 2
