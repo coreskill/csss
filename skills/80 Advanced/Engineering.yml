@@ -20,7 +20,7 @@ resources:
   - url: https://www.vzhurudolu.cz/checklist
     lang: cs
 text : |
-  # Czech checklist from vzhurudolu.cz ready to be uses as GitHub issues:
+  # Czech checklist from vzhurudolu.cz ready to be used as GitHub issues:
   ```
   Zkontrolovat: Obsah a HTML
 
