@@ -11,8 +11,11 @@ level: 2
 requires:
   - "Deployment overview"
 resources:
+  - url: https://github.com/benabraham/github-pages-demo
+    desc: "Demo of the simplest deployment of a static web"
+    lang: en
   - url: https://pages.github.com/
-    desc: "GitHub Pages"
+    desc: "GitHub Pages documentation"
     lang: en
 
 ---
