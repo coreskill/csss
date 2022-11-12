@@ -176,7 +176,7 @@ resources:
 
 ---
 skill: "pull"
-level: 2
+level: 3
 requires:
   - "Git overview"
 resources:
@@ -189,7 +189,7 @@ resources:
 
 ---
 skill: "push"
-level: 2
+level: 3
 requires:
   - "init"
   - "pull"
