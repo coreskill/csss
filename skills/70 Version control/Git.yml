@@ -4,6 +4,8 @@ sort: 10
 ---
 skill: "Git overview"
 level: 2
+requires:
+  - "// Basics // CLI // CLI overview"
 resources:
   - url: https://guides.github.com/introduction/git-handbook/
     desc: "Git Handbook by GitHub (stop reading at Basic Git commands)"

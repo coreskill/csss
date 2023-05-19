@@ -48,6 +48,7 @@ text: |
 requires:
   - "Web Fonts Overview"
   - "Variable fonts"
+  - "// CSS // Styling Text // font-family (including fallbacks)"
 resources:
   - url: https://developers.google.com/fonts/docs/css2
     desc: "Current API documentation"
@@ -59,6 +60,7 @@ skill: "@font-face (custom solution with local fonts)"
 level: extra
 requires:
   - "Web Fonts Overview"
+  - "// CSS // Styling Text // font-family (including fallbacks)"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts
     desc: "Web Fonts Guide"
