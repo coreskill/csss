@@ -5,7 +5,10 @@ sort: 150
 skill: "Requests overview"
 level: 4
 requires:
-  - "Requests overview"
+  - "// Related // Networking // Client and Server"
+  - "// Related // Networking // URL"
+  - "// Related // Networking // Protocols"
+  - "// Related // Networking // Web browser"
 resources:
   - url: https://www.codecademy.com/learn/learn-intermediate-javascript/modules/intermediate-javascript-requests/cheatsheet
     desc: "Overview"
@@ -86,6 +89,8 @@ skill: "async GET Requests"
 level: 5
 requires:
   - "fetch() GET Requests"
+  - "Async Await // The await Operator"
+  - "Async Await // Handling Errors"
 resources:
   - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-ii/exercises/async-get-requests-i
     type: interactive course
@@ -99,6 +104,8 @@ skill: "async POST Requests"
 level: 5
 requires:
   - "fetch() POST Requests"
+  - "Async Await // The await Operator"
+  - "Async Await // Handling Errors"
 resources:
   - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/requests-ii/exercises/async-post-requests-i
     type: interactive course
