@@ -24,7 +24,7 @@ level: 4
 requires:
   - "Job Seeking overview"
 resources:
-  - url: https://docs.google.com/document/d/19drFgnT1_9V3G7Ccp3cOsTdEoOUIt23NKc31dGNyiIg
+  - url: https://bit.ly/cv-sablona-pro-switchery
     desc: "Šablona CV pro switchery do IT"
     text: |
       Použij tuto šablonu jako základ tvého CV. Proškrtání uděláme už společně.
