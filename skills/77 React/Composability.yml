@@ -1,0 +1,62 @@
+---
+sort: 20
+
+---
+skill: "Custom components"
+level: 3
+text: |
+  One of the most important features of React
+requires:
+  - "Basics // Practice: building a simple page, quiz"
+resources:
+  - url: https://scrimba.com/learn/learnreact/custom-components-co31545c6bee41d3b65bed126
+    desc: "Custom Components"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/custom-components-quiz-cob7948d9a666f6e17b17aff2
+    desc: "Custom Components Quiz"
+    text: |
+      Practice what you've learned
+    type: interactive course
+    lang: en
+    status: ok
+
+---
+skill: "Nesting elements"
+level: 3
+requires:
+  - "Custom components"
+  - "// HTML // Body // <header>"
+  - "// HTML // Body // <footer>"
+  - "// HTML // Body // <small>"
+resources:
+  - url: https://scrimba.com/learn/learnreact/custom-components-part-2-co3234be9b545e66abba43b55
+    desc: "Custom Components part 2"
+    text: |
+      Nesting: worse way (just to show you)
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/parent-child-components-coa384cc0b7aaa06b76b168b8
+    desc: "Parent/Child Components"
+    text: |
+      Nesting: better way
+    type: interactive course
+    lang: en
+    status: ok
+
+---
+skill: "Components in separate files"
+level: 4
+text: |
+  One component per file
+requires:
+  - "Nesting elements"
+  - "// JavaScript // Modules // export default"
+resources:
+  - url: https://scrimba.com/learn/learnreact/organize-components-coce046849cdbb0430854ed56
+    desc: "Organize components"
+    type: interactive course
+    lang: en
+    status: ok

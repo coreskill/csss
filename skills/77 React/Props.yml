@@ -1,0 +1,88 @@
+---
+sort: 40
+
+---
+skill: "Props introduction"
+level: 4
+text: |
+  Custom attributes (properties) that can be implemented in custom components
+requires:
+  - "Composability // Components in separate files"
+  - "HTML vs. JSX // className"
+resources:
+  - url: https://scrimba.com/learn/learnreact/problem-not-reusable-cob264f4bb014a74ab76c765a
+    desc: "Problem - not reusable"
+    type: video
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/props-part-1-understanding-the-concept-cobb149518dfd52b07a8cd547
+    desc: "Props Part 1: Understanding the Concept"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/props-part-2-reusable-components-co6ee4d91a75aa67d28b43740
+    desc: "Props Part 2: Reusable Components"
+    type: video
+    lang: en
+    status: ok
+
+---
+skill: "Props passing to a component"
+level: 4
+requires:
+  - "Props introduction"
+resources:
+  - url: https://scrimba.com/learn/learnreact/aside-js-inside-jsx-coc9f43c3b6078c0c298ce219
+    desc: "Aside: JS inside JSX"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/props-part-3-create-a-contact-component-coe1744ae81515a4369f2b32d
+    desc: "Props part 3: Create a contact component"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/props-part-4-receiving-props-in-a-component-co88c4bfa84d99b466b78e914
+    desc: "Props part 4: receiving props in a component"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/prop-quiz-get-it--co3c8431aa046a5730388c8ae
+    desc: "Prop quiz! (Get it?? 😆)"
+    text: |
+      Practice what you've learned
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/props-practice-co06f4fa2bd9cf954179925f1
+    desc: "Props practice"
+    text: |
+      Mini project - Practice what you've learned
+    type: interactive course
+    lang: en
+    status: ok
+
+---
+skill: "Destructuring props"
+level: 4
+requires:
+  - "Props passing to a component"
+  - "// JavaScript // Objects // Destructured Assignment"
+resources:
+  - url: https://scrimba.com/learn/learnreact/destructuring-props-co7e54a6f9d075ae292a4f3ae
+    desc: "Destructuring props"
+    type: interactive course
+    lang: en
+    status: ok
+
+---
+skill: "Non-string props"
+level: 4
+requires:
+  - "Destructuring props"
+resources:
+  - url: https://scrimba.com/learn/learnreact/passing-in-non-string-props-coefd4c1ca935bef026e4f6db
+    desc: "Passing in non-string props"
+    type: interactive course
+    lang: en
+    status: ok
