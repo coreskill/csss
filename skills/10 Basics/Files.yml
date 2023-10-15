@@ -96,6 +96,11 @@ resources:
     text: | 
       Check the punch tape image. Read the rest only if you’re interested.
     lang: en
+  - url: https://tonsky.me/blog/unicode/
+    desc: "The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 (Still No Excuses!)"
+    text: |
+      Read only if you’re interested.
+    lang: en
   - url: https://en.wikipedia.org/wiki/UTF-8
     desc: "UTF-8 [Wikipedia]"
     text: |
