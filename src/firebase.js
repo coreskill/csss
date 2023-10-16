@@ -39,38 +39,27 @@ let indicators = document.querySelectorAll(".indicator");
 
 function setStateOfAllIndicators(data) {
   indicators.forEach(indicator => {
-    indicator.classList.toggle("is-done", data[indicator.dataset.slug] === true);
-    indicator.classList.toggle("is-star", data[indicator.dataset.slug] === 'star');
-    indicator.classList.toggle("is-maybe", data[indicator.dataset.slug] === 'maybe');
+    let currentIndicator = convertIndicatorForBackwardCompatibility(data[indicator.dataset.slug]) || DEFAULT_INDICATOR;
+    indicator.dataset.currentIndicator = currentIndicator;
+    indicator.querySelector(".indicator-icon").textContent = INDICATOR_ICONS[currentIndicator];
   });
 }
 
 function indicatorListener(event) {
   event.preventDefault();
 
-  let isDone = this.classList.contains("is-done");
-  let isStar = this.classList.contains("is-star");
-  let isMaybe = this.classList.contains("is-maybe");
-
-  let newValue;
-
-  if (userFlags.intro) {
-    // maybe → not-done
-    // any other → maybe
-    newValue = isMaybe ? "not-done" : "maybe";
-  } else if (event.shiftKey) {
-    // anything → maybe
-    newValue = "maybe";
-  } else {
-    // star → done
-    // done → not-done
-    // not-done or maybe → star
-    newValue = isStar ? "done" : isDone ? "not-done" : "star";
-  }
-
-  // convert original values to boolean to preserve backward compatibility
-  if (newValue === "done") newValue = true;
-  if (newValue === "not-done") newValue = false;
+  let newValue = Object.entries(INDICATOR_TRANSITIONS)
+    .find(([indicator]) => this.dataset.currentIndicator === indicator)[1]({
+      userFlags,
+      shift: event.shiftKey,
+      ctrl: event.ctrlKey,
+      alt: event.altKey,
+      altGr: event.ctrlKey && event.altKey,
+      meta: event.metaKey,
+      left: event.button === 0,
+      middle: event.button === 1,
+      right: event.button === 2,
+    });
 
   firebase.firestore().collection("db").doc("v1")
     .collection("users").doc(sessionStorage.getItem(SELECTED_USER_ID))
@@ -80,6 +69,8 @@ function indicatorListener(event) {
 
 indicators.forEach(indicator => {
   indicator.addEventListener("click", indicatorListener, false);
+  indicator.addEventListener("auxclick", indicatorListener, false);
+  indicator.addEventListener("contextmenu", e => e.preventDefault(), false);
 });
 
 let removeFirebaseNoteListener = () => {
