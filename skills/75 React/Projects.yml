@@ -519,7 +519,7 @@ text: |
 requires:
   - "Tenzies game part 1"
   - "State // Parent-child component interaction"
-  - "// JavaScript // Basics // Built-in Objects"
+  - "// JavaScript // JavaScript basics // Built-in Objects"
   - "// JavaScript // Arrays // .push()"
   - "// CSS // Styling Text // color"
   - "// CSS // Styling Text // font-family (including fallbacks)"

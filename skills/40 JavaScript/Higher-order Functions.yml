@@ -5,7 +5,7 @@ sort: 80
 skill: "Higher Order Functions overview"
 level: 2
 requires:
-  - "Basics // JavaScript overview"
+  - "JavaScript basics // JavaScript overview"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/higher-order-functions/exercises/introduction
     type: interactive course

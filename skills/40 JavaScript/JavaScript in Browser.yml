@@ -6,7 +6,7 @@ skill: "<script> tag"
 level: 2
 requires:
   - "// HTML // Head // <link>"
-  - "Basics // JavaScript overview"
+  - "JavaScript basics // JavaScript overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script
     desc: "script [MDN]"

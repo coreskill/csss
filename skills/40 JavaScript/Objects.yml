@@ -5,7 +5,7 @@ sort: 100
 skill: "Objects overview"
 level: 2
 requires:
-  - "Basics // JavaScript overview"
+  - "JavaScript basics // JavaScript overview"
 resources:
   - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-objects/cheatsheet
     desc: "Overview"

@@ -5,7 +5,7 @@ sort: 20
 skill: "Variables overview"
 level: 1
 requires:
-  - "Basics // JavaScript overview"
+  - "JavaScript basics // JavaScript overview"
 resources:
   - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet
     desc: "The bottom part contains list of what you need to know about variables."

@@ -6,7 +6,7 @@ skill: "Node.js overview"
 level: 3
 requires:
   - "// Basics // CLI // CLI overview"
-  - "Basics // JavaScript overview"
+  - "JavaScript basics // JavaScript overview"
 
 ---
 skill: "Installation"

@@ -5,7 +5,7 @@ sort: 120
 skill: "Browser Compatibility and Transpilation overview"
 level: 4
 requires:
-  - "Basics // JavaScript overview"
+  - "JavaScript basics // JavaScript overview"
 resources:
   - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-transpilation/cheatsheet
     desc: "Overview"
@@ -30,7 +30,7 @@ skill: Transpilation with Babel
 level: 4
 requires:
   - "Browser Compatibility and Transpilation overview"
-  - "Advanced // Automation // npm scripts"
+  - "Other // Automation // npm scripts"
 resources:
   - url: https://www.codecademy.com/courses/introduction-to-javascript/lessons/browser-compatibility-and-transpilation/exercises/transpilation-with-babel
     type: interactive course

@@ -5,7 +5,7 @@ sort: 40
 skill: "Principles"
 level: 2
 requires:
-  - "Basics // JavaScript overview"
+  - "JavaScript basics // JavaScript overview"
 resources:
   - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-functions/cheatsheet
     desc: "Overview"

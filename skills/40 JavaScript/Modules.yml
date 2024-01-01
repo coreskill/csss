@@ -5,7 +5,7 @@ sort: 130
 skill: "Modules overview"
 level: 4
 requires:
-  - "Basics // JavaScript overview"
+  - "JavaScript basics // JavaScript overview"
 resources:
   - url: https://www.codecademy.com/learn/learn-intermediate-javascript/modules/intermediate-javascript-modules/cheatsheet
     desc: "Overview (TBD)"

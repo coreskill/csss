@@ -5,7 +5,7 @@ sort: 60
 skill: "Arrays overview"
 level: 2
 requires:
-  - "Basics // JavaScript overview"
+  - "JavaScript basics // JavaScript overview"
 resources:
   - url: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-arrays/cheatsheet
     desc: "Overview"

@@ -7,7 +7,7 @@ level: 3
 text: |
   One of the most important features of React
 requires:
-  - "Basics // Practice: building a simple page, quiz"
+  - "React basics // Practice: building a simple page, quiz"
 resources:
   - url: https://scrimba.com/learn/learnreact/custom-components-co31545c6bee41d3b65bed126
     desc: "Custom Components"

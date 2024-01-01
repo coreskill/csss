@@ -51,7 +51,7 @@ skill: "Console"
 level: 2
 requires:
   - "Dev Tools overview"
-  - "JavaScript // Basics // JavaScript overview"
+  - "// JavaScript // JavaScript basics // JavaScript overview"
 resources:
   - url: https://developer.chrome.com/docs/devtools/console/
     desc: "Console overview"

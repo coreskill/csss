@@ -7,7 +7,7 @@ level: 3
 text: |
   Running React in Visual Studio
 requires:
-  - "Basics // Linking, ReactDOM.render"
+  - "React basics // Linking, ReactDOM.render"
 resources:
   - url: https://scrimba.com/learn/learnreact/local-setup-the-quick-way-co38a4834950b81f65b4187b7
     desc: "Local setup (the quick way)"
@@ -36,9 +36,9 @@ level: 4
 text: |
   Deploying React project with Netlify
 requires:
-  - "Basics // import React & ReactDOM"
+  - "React basics // import React & ReactDOM"
   - "// JavaScript // Node.js // npm install"
-  - "// Advanced // Deployment // Netlify"
+  - "// Other // Deployment // Netlify"
 resources:
   - url: https://scrimba.com/learn/learnreact/drag-and-drop-deploy-with-netlify-co0cc43c19137835bc361427d
     desc: "Drag and Drop Deploy with Netlify"
