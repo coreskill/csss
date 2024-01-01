@@ -18,5 +18,18 @@
     --bs-warning-rgb: 233, 176, 0;
     --bs-cyan: rgb(59, 170, 204);
   }
+}
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bs-dark: rgb(60, 60, 60);
+    --bs-dark-rgb: 60, 60, 60;
+    --bs-info: rgb(75, 149, 255);
+    --bs-info-rgb: 75, 149, 255;
+    --bs-light: rgb(91, 102, 113);
+    --bs-light-rgb: 91, 102, 113;
+    --bs-warning: rgb(156, 117, 0);
+    --bs-warning-rgb: 156, 117, 0;
+    --bs-cyan: rgb(59, 170, 204);
+  }
 }
