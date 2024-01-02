@@ -47,20 +47,20 @@ resources:
     type: interactive course
     lang: en
     status: ok
-  - url: https://scrimba.com/learn/learnreact/prop-quiz-get-it--co3c8431aa046a5730388c8ae
-    desc: "Prop quiz! (Get it?? 😆)"
-    text: |
-      Practice what you've learned
-    type: interactive course
-    lang: en
-    status: ok
-  - url: https://scrimba.com/learn/learnreact/props-practice-co06f4fa2bd9cf954179925f1
-    desc: "Props practice"
-    text: |
-      Mini project - Practice what you've learned
-    type: interactive course
-    lang: en
-    status: ok
+#  - url: https://scrimba.com/learn/learnreact/prop-quiz-get-it--co3c8431aa046a5730388c8ae
+#    desc: "Prop quiz! (Get it?? 😆)"
+#    text: |
+#      Practice what you've learned
+#    type: interactive course
+#    lang: en
+#    status: ok
+#  - url: https://scrimba.com/learn/learnreact/props-practice-co06f4fa2bd9cf954179925f1
+#    desc: "Props practice"
+#    text: |
+#      Mini project - Practice what you've learned
+#    type: interactive course
+#    lang: en
+#    status: ok
 
 ---
 skill: "Destructuring props"

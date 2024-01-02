@@ -3,7 +3,7 @@ sort: 90
 
 ---
 skill: "Side effects introduction"
-level: 4
+level: 5
 requires:
   - "State // Arrays and objects"
   - "// HTML // Body // <pre>"
@@ -36,13 +36,13 @@ resources:
     type: interactive course
     lang: en
     status: ok
-  - url: https://scrimba.com/learn/learnreact/useeffect-quiz-cob5747c8b19a658c6240e8a1
-    desc: "useEffect quiz!"
-    text: |
-      Practice what you've learned
-    type: interactive course
-    lang: en
-    status: ok
+#  - url: https://scrimba.com/learn/learnreact/useeffect-quiz-cob5747c8b19a658c6240e8a1
+#    desc: "useEffect quiz!"
+#    text: |
+#      Practice what you've learned
+#    type: interactive course
+#    lang: en
+#    status: ok
 
 ---
 skill: "useEffect & fetching data"

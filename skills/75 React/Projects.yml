@@ -300,7 +300,8 @@ text: |
   Create a meme generator, follow the interactive course.
 requires:
   - "Meme generator part 4"
-  - "Forms // Practice: quiz, sign up form"
+#  - "Forms // Practice: quiz, sign up form"
+  - "Forms // Submitting the form"
 resources:
   - url: https://scrimba.com/learn/learnreact/project-add-text-to-image-co9dd4288bcdb0c0cfe7a2d9c
     desc: "Project: Add text to image"
@@ -372,8 +373,10 @@ level: 4
 text: |
   Upgrade the existing note-taking app, add requested features to it. Follow the interactive course.
 requires:
-  - "State // Practice: boxes challenge"
-  - "Conditional rendering // Practice: quiz"
+  #  - "State // Practice: boxes challenge"
+  - "State // Parent-child component interaction"
+  #  - "Conditional rendering // Practice: quiz"
+  - "Conditional rendering // ternary"
 resources:
   - url: https://coreskill.github.io/scrimba-react-project-notes-app/
     desc: "Project preview"
@@ -548,8 +551,10 @@ text: |
   Create a game called Tenzies, follow the interactive course.
 requires:
   - "Tenzies game part 2"
-  - "State // Practice: boxes challenge"
-  - "Conditional rendering // Practice: quiz"
+  #  - "State // Practice: boxes challenge"
+  - "State // Parent-child component interaction"
+  #  - "Conditional rendering // Practice: quiz"
+  - "Conditional rendering // ternary"
 resources:
   - url: https://scrimba.com/learn/learnreact/tenzies-change-dice-to-objects-cBqReJTz
     desc: "Tenzies: Change dice to objects"

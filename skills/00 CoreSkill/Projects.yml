@@ -51,6 +51,12 @@ text: |
   E.g. coffee calculator, form validation etc. 
 
 ---
+skill: "Build a small React application"
+level: 4
+text: |
+  E.g. coffee calculator, form validation, a game etc. 
+
+---
 skill: "Create HTML e-mail"
 level: extra
 text: |

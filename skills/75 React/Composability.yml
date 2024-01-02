@@ -7,20 +7,20 @@ level: 3
 text: |
   One of the most important features of React
 requires:
-  - "React basics // Practice: building a simple page, quiz"
+  - "React basics // import React & ReactDOM"
 resources:
   - url: https://scrimba.com/learn/learnreact/custom-components-co31545c6bee41d3b65bed126
     desc: "Custom Components"
     type: interactive course
     lang: en
     status: ok
-  - url: https://scrimba.com/learn/learnreact/custom-components-quiz-cob7948d9a666f6e17b17aff2
-    desc: "Custom Components Quiz"
-    text: |
-      Practice what you've learned
-    type: interactive course
-    lang: en
-    status: ok
+#  - url: https://scrimba.com/learn/learnreact/custom-components-quiz-cob7948d9a666f6e17b17aff2
+#    desc: "Custom Components Quiz"
+#    text: |
+#      Practice what you've learned
+#    type: interactive course
+#    lang: en
+#    status: ok
 
 ---
 skill: "Nesting elements"

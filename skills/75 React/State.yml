@@ -32,13 +32,13 @@ resources:
     type: interactive course
     lang: en
     status: ok
-  - url: https://scrimba.com/learn/learnreact/props-vs-state-quiz-coccb4f309e3305ece69fbc14
-    desc: "Props vs. State Quiz!"
-    text: |
-      Practice what you've learned
-    type: interactive course
-    lang: en
-    status: ok
+#  - url: https://scrimba.com/learn/learnreact/props-vs-state-quiz-coccb4f309e3305ece69fbc14
+#    desc: "Props vs. State Quiz!"
+#    text: |
+#      Practice what you've learned
+#    type: interactive course
+#    lang: en
+#    status: ok
 
 ---
 skill: "useState"
@@ -63,25 +63,25 @@ resources:
     type: interactive course
     lang: en
     status: ok
-  - url: https://scrimba.com/learn/learnreact/usestate-counter-practice-co1f54adba032538022373b97
-    desc: "useState - Counter practice"
-    text: |
-      Practice what you've learned
-    type: interactive course
-    lang: en
-    status: ok
+#  - url: https://scrimba.com/learn/learnreact/usestate-counter-practice-co1f54adba032538022373b97
+#    desc: "useState - Counter practice"
+#    text: |
+#      Practice what you've learned
+#    type: interactive course
+#    lang: en
+#    status: ok
   - url: https://scrimba.com/learn/learnreact/usestate-changing-state-with-a-callback-function-cof9245f4a914e8aaf080c783
     desc: "useState - Changing state with a callback function"
     type: interactive course
     lang: en
     status: ok
-  - url: https://scrimba.com/learn/learnreact/changing-state-quiz-co83142b1a97f4e79128e48fa
-    desc: "Changing state quiz!"
-    text: |
-      Practice what you've learned
-    type: interactive course
-    lang: en
-    status: ok
+#  - url: https://scrimba.com/learn/learnreact/changing-state-quiz-co83142b1a97f4e79128e48fa
+#    desc: "Changing state quiz!"
+#    text: |
+#      Practice what you've learned
+#    type: interactive course
+#    lang: en
+#    status: ok
 
 ---
 skill: "useState & ternary operator"
@@ -90,13 +90,13 @@ requires:
   - "useState"
   - "// JavaScript // Conditionals // Ternary operator"
 resources:
-  - url: https://scrimba.com/learn/learnreact/challenge-ternary-practice-co36143f0ba77648bc362c31d
-    desc: "Challenge: ternary practice"
-    text: |
-      Practice what you've learned (in JavaScript)
-    type: interactive course
-    lang: en
-    status: ok
+#  - url: https://scrimba.com/learn/learnreact/challenge-ternary-practice-co36143f0ba77648bc362c31d
+#    desc: "Challenge: ternary practice"
+#    text: |
+#      Practice what you've learned (in JavaScript)
+#    type: interactive course
+#    lang: en
+#    status: ok
   - url: https://scrimba.com/learn/learnreact/challenge-flipping-state-back-and-forth-co4674229b54cd8335c75e54d
     desc: "Challenge: flipping state back and forth"
     text: |
@@ -151,49 +151,49 @@ resources:
     lang: en
     status: ok
 
----
-skill: "Practice: boxes challenge"
-level: 4
-requires:
-  - "Parent-child component interaction"
-  - "// CSS // General CSS // Inline CSS (style attribute)"
-  - "// CSS // Selectors // Universal selector (*)"
-  - "// CSS // Box Model // box-sizing"
-  - "// CSS // Box Model // display: block, display: inline, display: inline-block"
-  - "// CSS // Box Styling // background-color"
-resources:
-  - url: https://scrimba.com/learn/learnreact/boxes-challenge-part-1-co4ff4b9f8504c9a03077bf2c
-    desc: "Boxes challenge part 1"
-    type: interactive course
-    lang: en
-    status: ok
-  - url: https://scrimba.com/learn/learnreact/dynamic-styles-co57845e4a49eb86d4414b0fd
-    desc: "Dynamic styles"
-    type: interactive course
-    lang: en
-    status: ok
-  - url: https://scrimba.com/learn/learnreact/boxes-challenge-part-2-cobb94ca9aed421681cf67b3c
-    desc: "Boxes challenge part 2"
-    type: interactive course
-    lang: en
-    status: ok
-  - url: https://scrimba.com/learn/learnreact/boxes-challenge-part-31-local-state-co0264ad6929a556e38a6a10f
-    desc: "Boxes challenge part 3.1 - local state"
-    type: interactive course
-    lang: en
-    status: ok
-  - url: https://scrimba.com/learn/learnreact/boxes-challenge-part-32-unified-state-coc544380b8da728809b4b5f2
-    desc: "Boxes challenge part 3.2 - unified state"
-    type: interactive course
-    lang: en
-    status: ok
-  - url: https://scrimba.com/learn/learnreact/boxes-challenge-part-4-co2ee48359ffd4cb63f392139
-    desc: "Boxes challenge part 4"
-    type: interactive course
-    lang: en
-    status: ok
-  - url: https://scrimba.com/learn/learnreact/boxes-challenge-part-5-cobdb4d3e907fa304af4b9958
-    desc: "Boxes challenge part 5"
-    type: interactive course
-    lang: en
-    status: ok
+#---
+#skill: "Practice: boxes challenge"
+#level: 4
+#requires:
+#  - "Parent-child component interaction"
+#  - "// CSS // General CSS // Inline CSS (style attribute)"
+#  - "// CSS // Selectors // Universal selector (*)"
+#  - "// CSS // Box Model // box-sizing"
+#  - "// CSS // Box Model // display: block, display: inline, display: inline-block"
+#  - "// CSS // Box Styling // background-color"
+#resources:
+#  - url: https://scrimba.com/learn/learnreact/boxes-challenge-part-1-co4ff4b9f8504c9a03077bf2c
+#    desc: "Boxes challenge part 1"
+#    type: interactive course
+#    lang: en
+#    status: ok
+#  - url: https://scrimba.com/learn/learnreact/dynamic-styles-co57845e4a49eb86d4414b0fd
+#    desc: "Dynamic styles"
+#    type: interactive course
+#    lang: en
+#    status: ok
+#  - url: https://scrimba.com/learn/learnreact/boxes-challenge-part-2-cobb94ca9aed421681cf67b3c
+#    desc: "Boxes challenge part 2"
+#    type: interactive course
+#    lang: en
+#    status: ok
+#  - url: https://scrimba.com/learn/learnreact/boxes-challenge-part-31-local-state-co0264ad6929a556e38a6a10f
+#    desc: "Boxes challenge part 3.1 - local state"
+#    type: interactive course
+#    lang: en
+#    status: ok
+#  - url: https://scrimba.com/learn/learnreact/boxes-challenge-part-32-unified-state-coc544380b8da728809b4b5f2
+#    desc: "Boxes challenge part 3.2 - unified state"
+#    type: interactive course
+#    lang: en
+#    status: ok
+#  - url: https://scrimba.com/learn/learnreact/boxes-challenge-part-4-co2ee48359ffd4cb63f392139
+#    desc: "Boxes challenge part 4"
+#    type: interactive course
+#    lang: en
+#    status: ok
+#  - url: https://scrimba.com/learn/learnreact/boxes-challenge-part-5-cobdb4d3e907fa304af4b9958
+#    desc: "Boxes challenge part 5"
+#    type: interactive course
+#    lang: en
+#    status: ok

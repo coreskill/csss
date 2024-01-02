@@ -25,13 +25,13 @@ resources:
     type: interactive course
     lang: en
     status: ok
-  - url: https://scrimba.com/learn/learnreact/map-quiz-coe9846508d586a605352f235
-    desc: "Map quiz!"
-    text: |
-      Practice what you've learned
-    type: interactive course
-    lang: en
-    status: ok
+#  - url: https://scrimba.com/learn/learnreact/map-quiz-coe9846508d586a605352f235
+#    desc: "Map quiz!"
+#    text: |
+#      Practice what you've learned
+#    type: interactive course
+#    lang: en
+#    status: ok
   - url: https://scrimba.com/learn/learnreact/loading-images-from-map-coe6c4822bbdc0a0360bd1961
     desc: "Loading images from .map()"
     text: |

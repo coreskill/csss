@@ -3,7 +3,7 @@ sort: 140
 
 ---
 skill: "Promises overview"
-level: 5
+level: 4
 requires:
   - "JavaScript basics // JavaScript overview"
 resources:
@@ -16,7 +16,7 @@ resources:
 
 ---
 skill: "Constructing a Promise Object"
-level: 5
+level: 4
 requires:
   - "Promises overview"
 resources:
@@ -25,7 +25,7 @@ resources:
 
 ---
 skill: "The Node setTimeout() Function"
-level: 5
+level: 4
 requires:
   - "Promises overview"
 resources:
@@ -36,7 +36,7 @@ resources:
 
 ---
 skill: "Consuming Promises"
-level: 5
+level: 4
 requires:
   - "Promises overview"
 resources:
@@ -45,7 +45,7 @@ resources:
 
 ---
 skill: "The onFulfilled and onRejected Functions"
-level: 5
+level: 4
 requires:
   - "Promises overview"
 resources:
@@ -54,7 +54,7 @@ resources:
 
 ---
 skill: "Using catch() with Promises"
-level: 5
+level: 4
 requires:
   - "Promises overview"
 resources:
@@ -63,7 +63,7 @@ resources:
 
 ---
 skill: "Chaining Multiple Promises"
-level: 5
+level: 4
 requires:
   - "Promises overview"
 resources:
@@ -72,7 +72,7 @@ resources:
 
 ---
 skill: "Avoiding Common Mistakes"
-level: 5
+level: 4
 requires:
   - "Promises overview"
 resources:
@@ -81,7 +81,7 @@ resources:
 
 ---
 skill: "Using Promise.all()"
-level: 5
+level: 4
 requires:
   - "Promises overview"
 resources:

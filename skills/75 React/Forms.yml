@@ -5,7 +5,8 @@ sort: 80
 skill: "Forms introduction"
 level: 5
 requires:
-  - "State // Practice: boxes challenge"
+#  - "State // Practice: boxes challenge"
+  - "State // Parent-child component interaction"
   - "// HTML // Body // <form>, <input>, <textarea>, <label>, <select>, <option>, <button>"
 resources:
   - url: https://scrimba.com/learn/learnreact/react-forms-intro-co2774b5e9623a1cad018bc49
@@ -18,13 +19,13 @@ resources:
     type: interactive course
     lang: en
     status: ok
-  - url: https://scrimba.com/learn/learnreact/form-inputs-practice-co5014a2691f7e17ada7501af
-    desc: "Form inputs practice"
-    text: |
-      Practice what you've learned
-    type: interactive course
-    lang: en
-    status: ok
+#  - url: https://scrimba.com/learn/learnreact/form-inputs-practice-co5014a2691f7e17ada7501af
+#    desc: "Form inputs practice"
+#    text: |
+#      Practice what you've learned
+#    type: interactive course
+#    lang: en
+#    status: ok
 
 ---
 skill: "Forms state object"
@@ -37,13 +38,13 @@ resources:
     type: interactive course
     lang: en
     status: ok
-  - url: https://scrimba.com/learn/learnreact/form-state-object-practice-cob444ddabb8e498d051b98cb
-    desc: "Form state object practice"
-    text: |
-      Practice what you've learned
-    type: interactive course
-    lang: en
-    status: ok
+#  - url: https://scrimba.com/learn/learnreact/form-state-object-practice-cob444ddabb8e498d051b98cb
+#    desc: "Form state object practice"
+#    text: |
+#      Practice what you've learned
+#    type: interactive course
+#    lang: en
+#    status: ok
 
 ---
 skill: "Controlled inputs"
@@ -76,7 +77,8 @@ skill: "Checkbox"
 level: 5
 requires:
   - "Textarea"
-  - "Conditional rendering // Practice: quiz"
+  #  - "Conditional rendering // Practice: quiz"
+  - "Conditional rendering // ternary"
 resources:
   - url: https://scrimba.com/learn/learnreact/forms-in-react-checkbox-co6da4637a27cca33be7cb1d7
     desc: "Forms in React: Checkbox"
@@ -121,23 +123,23 @@ resources:
     lang: en
     status: ok
 
----
-skill: "Practice: quiz, sign up form"
-level: 5
-requires:
-  - "Submitting the form"
-resources:
-  - url: https://scrimba.com/learn/learnreact/forms-quiz-coe3546b99ba848ab627ef5a3
-    desc: "Forms quiz!"
-    text: |
-      Practice what you've learned
-    type: interactive course
-    lang: en
-    status: ok
-  - url: https://scrimba.com/learn/learnreact/sign-up-form-practice-co30d477b8025a70873e8cb6a
-    desc: "Sign up form practice"
-    text: |
-      Practice what you've learned
-    type: interactive course
-    lang: en
-    status: ok
+#---
+#skill: "Practice: quiz, sign up form"
+#level: 5
+#requires:
+#  - "Submitting the form"
+#resources:
+#  - url: https://scrimba.com/learn/learnreact/forms-quiz-coe3546b99ba848ab627ef5a3
+#    desc: "Forms quiz!"
+#    text: |
+#      Practice what you've learned
+#    type: interactive course
+#    lang: en
+#    status: ok
+#  - url: https://scrimba.com/learn/learnreact/sign-up-form-practice-co30d477b8025a70873e8cb6a
+#    desc: "Sign up form practice"
+#    text: |
+#      Practice what you've learned
+#    type: interactive course
+#    lang: en
+#    status: ok

@@ -3,18 +3,16 @@ sort: 130
 
 ---
 skill: "Modules overview"
-level: 4
+level: 3
 requires:
   - "JavaScript basics // JavaScript overview"
 resources:
-  - url: https://www.codecademy.com/learn/learn-intermediate-javascript/modules/intermediate-javascript-modules/cheatsheet
-    desc: "Overview (TBD)"
   - url: https://www.codecademy.com/courses/learn-intermediate-javascript/lessons/modules/exercises/hello-modules
     type: interactive course
 
 ---
 skill: "exports"
-level: 5
+level: 3
 requires:
   - "Modules overview"
 resources:
@@ -25,7 +23,7 @@ resources:
 
 ---
 skill: "require"
-level: 5
+level: 3
 requires:
   - "Modules overview"
 resources:
@@ -34,7 +32,7 @@ resources:
 
 ---
 skill: "export default"
-level: 5
+level: 3
 requires:
   - "Modules overview"
 resources:
@@ -43,7 +41,7 @@ resources:
 
 ---
 skill: "import"
-level: 5
+level: 3
 requires:
   - "Modules overview"
 resources:
@@ -52,7 +50,7 @@ resources:
 
 ---
 skill: "Named Exports"
-level: 5
+level: 3
 requires:
   - "Modules overview"
 #resources:
@@ -60,7 +58,7 @@ requires:
 
 ---
 skill: "Named Imports"
-level: 5
+level: 3
 requires:
   - "Modules overview"
 #resources:
@@ -68,7 +66,7 @@ requires:
 
 ---
 skill: "Export Named Exports"
-level: 5
+level: 3
 requires:
   - "Modules overview"
 #resources:
@@ -76,7 +74,7 @@ requires:
 
 ---
 skill: "Import Named Imports"
-level: 5
+level: 3
 requires:
   - "Modules overview"
 #resources:
@@ -84,7 +82,7 @@ requires:
 
 ---
 skill: "Export as"
-level: 5
+level: 3
 requires:
   - "Modules overview"
 #resources:
@@ -92,7 +90,7 @@ requires:
 
 ---
 skill: "Import as"
-level: 5
+level: 3
 requires:
   - "Modules overview"
 #resources:

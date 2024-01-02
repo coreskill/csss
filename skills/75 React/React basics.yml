@@ -15,21 +15,21 @@ resources:
   - url: https://scrimba.com/learn/learnreact
     desc: "Scrimba - Learn React"
     text: |
-      Please register here
+      One option where to learn React.
     type: interactive course
     lang: en
     availability: "Registration"
     status: ok
-  - url: https://scrimba.com/learn/learnreact/welcome-to-an-introduction-to-react-coaaf455789c2a9addc20dd24
-    desc: "Learn to learn here"
-    type: video
-    lang: en
-    status: ok
-  - url: https://scrimba.com/learn/learnreact/what-well-learn-cofad4846b7d0d0744b7ae944
-    desc: "What you'll learn?"
-    type: video
-    lang: en
-    status: ok
+#  - url: https://scrimba.com/learn/learnreact/welcome-to-an-introduction-to-react-coaaf455789c2a9addc20dd24
+#    desc: "Learn to learn here"
+#    type: video
+#    lang: en
+#    status: ok
+#  - url: https://scrimba.com/learn/learnreact/what-well-learn-cofad4846b7d0d0744b7ae944
+#    desc: "What you'll learn?"
+#    type: video
+#    lang: en
+#    status: ok
 
 ---
 skill: "Linking, ReactDOM.render"
@@ -43,24 +43,24 @@ requires:
 resources:
   - url: https://scrimba.com/learn/learnreact/first-react-coc0845dcb1a26cb0769a2fea
     desc: "First React"
-    text: |
-      You can maximize and minimize the video presentation - when it's minimized, you can look at the code. Note that Bob will magically co-write code with you during the video :)
+#    text: |
+#      You can maximize and minimize the video presentation - when it's minimized, you can look at the code. Note that Bob will magically co-write code with you during the video :)
     type: interactive course
     lang: en
     status: ok
-  - url: https://scrimba.com/learn/learnreact/first-react-practice-codb545d191c6488eb4d30204
-    desc: "First React Practice"
-    text: |
-      Practice what you've learned
-    type: interactive course
-    lang: en
-    status: ok
+#  - url: https://scrimba.com/learn/learnreact/first-react-practice-codb545d191c6488eb4d30204
+#    desc: "First React Practice"
+#    text: |
+#      Practice what you've learned
+#    type: interactive course
+#    lang: en
+#    status: ok
 
 ---
 skill: "Composability concept"
 level: 3
-text: |
-  Custom components introduction
+#text: |
+#  Custom components introduction
 requires:
   - "Linking, ReactDOM.render"
 resources:
@@ -73,8 +73,8 @@ resources:
 ---
 skill: "Declarative programming"
 level: 3
-text: |
-  Imperative vs. declarative programming
+#text: |
+#  Imperative vs. declarative programming
 requires:
   - "Composability concept"
 resources:
@@ -87,9 +87,9 @@ resources:
 ---
 skill: "JSX"
 level: 3
-text: |
-  JavaScript XML
-  HTML-like code used in JavaScript
+#text: |
+#  JavaScript XML
+#  HTML-like code used in JavaScript
 requires:
   - "Declarative programming"
   - "// HTML // Body // <nav>"
@@ -127,24 +127,6 @@ resources:
     status: ok
   - url: https://scrimba.com/learn/learnreact/update-new-react-18-createroot-api-co76b46f2a8c2c72363173f9a
     desc: "UPDATE: New React 18 createRoot API"
-    type: interactive course
-    lang: en
-    status: ok
-
----
-skill: "Practice: building a simple page, quiz"
-level: 3
-requires:
-  - "import React & ReactDOM"
-  - "// HTML // Body // <img>, src, width, height, alt"
-resources:
-  - url: https://scrimba.com/learn/learnreact/project-part-1-markup-coc7e4be18a0fe000d0e29e32
-    desc: "Project part 1 - markup"
-    type: interactive course
-    lang: en
-    status: ok
-  - url: https://scrimba.com/learn/learnreact/pop-quiz-co81940cf8093beef73d32de3
-    desc: "Pop quiz!"
     type: interactive course
     lang: en
     status: ok
