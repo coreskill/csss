@@ -51,6 +51,10 @@ resources:
     desc: "US and CZ keyboard layout highlighting special characters (PNG)"
     type: cheatsheet
     lang: en
+  - url: https://klavesnice.czechitas-podklady.cz/
+    desc: "US and CZ keyboard layout for both Mac and Windows highlighting special characters (web app that is printable)"
+    type: cheatsheet
+    lang: cs
 
 ---
 skill: "Code editor installation"
