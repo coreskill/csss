@@ -80,10 +80,6 @@ resources:
     desc: ":nth-last-child [MDN]"
     type: reference
     lang: en
-  - url: https://www.topdesignagencies.com/nth-test/
-    desc: "A simple tool to visualize nth notation."
-    type: tool
-    lang: en
   - url: https://css-tricks.com/examples/nth-child-tester/
     desc: "More complex tool to visualize nth notation."
     type: tool
