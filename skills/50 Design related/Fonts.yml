@@ -39,6 +39,9 @@ resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
     desc: "Variable Fonts Guide"
     lang: en
+  - url: https://developers.google.com/fonts/docs/css2#axis_ranges
+    desc: "Using variable Fonts with Google Fonts API"
+    lang: en
 
 ---
 skill: "Using Google Fonts"
