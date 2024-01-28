@@ -44,7 +44,7 @@ resources:
 skill: "Using Google Fonts"
 level: 3
 text: |
-  Link a font or more from [Google Fonts](https://fonts.google.com)
+  Link a font or more from [Google Fonts](https://fonts.google.com).
 requires:
   - "Web Fonts Overview"
   - "Variable fonts"
@@ -53,6 +53,10 @@ resources:
   - url: https://developers.google.com/fonts/docs/css2
     desc: "Current API documentation"
     type: documentation
+    lang: en
+  - url: https://fonts.bunny.net
+    desc: "GDPR compliant drop-in replacement for Google Fonts"
+    type: service
     lang: en
 
 ---
