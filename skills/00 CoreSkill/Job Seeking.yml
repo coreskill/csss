@@ -39,7 +39,7 @@ requires:
   - "Job Seeking overview"
 
 ---
-skill: "GitHub"
+skill: "GitHub Profile"
 level: 4
 requires:
   - "Job Seeking overview"
