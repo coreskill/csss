@@ -10,5 +10,5 @@ requires:
   - "// Design related // Responsive Web Design // Breakpoints (@media queries)"
 
 resources:
-  - url: http://www.responsivelogos.co.uk/
+  - url: https://www.responsivelogos.co.uk/
     desc: Gallery of responsive SVG logos
