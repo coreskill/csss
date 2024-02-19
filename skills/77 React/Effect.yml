@@ -1,0 +1,94 @@
+---
+sort: 90
+
+---
+skill: "Side effects introduction"
+level: 4
+requires:
+  - "State // Arrays and objects"
+  - "// HTML // Body // <pre>"
+  - "// JavaScript // Requests // fetch() GET Requests"
+resources:
+  - url: https://scrimba.com/learn/learnreact/making-api-calls-co9544abfb8036eb9ac767bb2
+    desc: "Making API calls"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/intro-to-useeffect-co1fd46e5be9b41273ebe14da
+    desc: "Intro to useEffect"
+    type: video
+    lang: en
+    status: ok
+
+---
+skill: "useEffect"
+level: 5
+requires:
+  - "Side effects introduction"
+resources:
+  - url: https://scrimba.com/learn/learnreact/useeffect-syntax-and-default-behavior-cob274c08aeef0c6f307b8333
+    desc: "useEffect() syntax and default behavior"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/useeffect-dependencies-array-co4fc423992f2d9737eaa55f2
+    desc: "useEffect dependencies array"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/useeffect-quiz-cob5747c8b19a658c6240e8a1
+    desc: "useEffect quiz!"
+    text: |
+      Practice what you've learned
+    type: interactive course
+    lang: en
+    status: ok
+
+---
+skill: "useEffect & fetching data"
+level: 5
+requires:
+  - "useEffect"
+resources:
+  - url: https://scrimba.com/learn/learnreact/useeffect-for-fetching-data-cof924a3f92d4ca7648780a8d
+    desc: "useEffect for fetching data"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/useeffect-when-to-use-dependencies-co87f48fc9c487d958ddeca4a
+    desc: "useEffect: when to use dependencies"
+    type: interactive course
+    lang: en
+    status: ok
+
+---
+skill: "useEffect cleanup"
+level: 5
+requires:
+  - "useEffect & fetching data"
+resources:
+  - url: https://scrimba.com/learn/learnreact/state-and-effect-practices-co3d647f0b559d6e65b6a2762
+    desc: "State and Effect practices"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/useeffect-cleanup-function-coa6a4c9985b4339f164fe0ab
+    desc: "useEffect cleanup function"
+    type: interactive course
+    lang: en
+    status: ok
+
+---
+skill: "useEffect & async function"
+level: extra
+text: |
+  Watch only if you are interested and have completed the meme project.
+requires:
+  - "useEffect cleanup"
+  - "Projects // Meme generator part 6"
+resources:
+  - url: https://scrimba.com/learn/learnreact/using-an-async-function-inside-useeffect-cw73rRud
+    desc: "Using an async function inside useEffect"
+    type: interactive course
+    lang: en
+    status: ok

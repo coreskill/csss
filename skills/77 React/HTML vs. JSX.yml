@@ -1,0 +1,35 @@
+---
+sort: 30
+
+---
+skill: "className"
+level: 3
+requires:
+  - "Composability // Nesting elements"
+  - "// CSS // Selectors // Class selectors"
+  - "// CSS // Selectors // Child combinator (x>y)"
+  - "// CSS // Styling Text // list-style"
+  - "// CSS // Box Model // width"
+  - "// CSS // Box Model // padding"
+  - "// CSS // Flexible Layout Module (Flexbox) // justify-content"
+  - "// CSS // Flexible Layout Module (Flexbox) // align-items"
+resources:
+  - url: https://scrimba.com/learn/learnreact/styling-with-classes-co9a8472da55bf26d30d348ba
+    desc: "Styling with Classes"
+    type: interactive course
+    lang: en
+    status: ok
+
+---
+skill: "onClick"
+level: 4
+requires:
+  - "className"
+  - "Composability // Components in separate files"
+  - "// JavaScript // JavaScript in Browser // DOM Events overview"
+resources:
+  - url: https://scrimba.com/learn/learnreact/event-listeners-co45a4eba8c0ba3e8ba7df31b
+    desc: "Event Listeners"
+    type: interactive course
+    lang: en
+    status: ok
