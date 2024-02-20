@@ -20,7 +20,7 @@ text: |
   1. Run PowerShell **as Administrator** (right click on PowerShell, choose _Run as Administrator_).
   2. Copy and paste the following command `dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart` and press <kbd>Enter</kbd>.
   3. Restart computer.
-  4. wsl --set-default-version 1
+  4. wsl --set-default-version 2
   5. Install [Ubuntu from Microsoft Store](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6#activetab=pivot:overviewtab).
 
 requires:
