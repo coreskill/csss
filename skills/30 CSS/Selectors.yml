@@ -85,23 +85,23 @@ resources:
     type: reference
 
 ---
-skill: "Adjacent sibling combinator (x+y)"
+skill: "Next-sibling combinator (x+y)"
 level: 4
 requires:
   - "Descendant combinator (x y)"
 resources:
-  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator
-    desc: "Adjacent sibling combinator [MDN]"
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/Next-sibling_combinator
+    desc: "Next-sibling combinator [MDN]"
     type: reference
 
 ---
-skill: "General sibling combinator (x~y)"
+skill: "Subsequent-sibling combinator (x~y)"
 level: 4
 requires:
   - "Descendant combinator (x y)"
 resources:
-  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator
-    desc: "General sibling combinator [MDN]"
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/Subsequent-sibling_combinator
+    desc: "Subsequent-sibling combinator [MDN]"
     type: reference
 
 ---
