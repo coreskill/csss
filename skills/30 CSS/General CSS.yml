@@ -87,12 +87,18 @@ resources:
     desc: "Marksheet description (outdated)"
     lang: en
   - url: https://necolas.github.io/normalize.css/
-    desc: "Normalize.css is a traditional CSS doing a basic normalizing"
+    desc: "Normalize.css is a traditional (old) CSS doing a basic normalizing"
     type: documentation
     lang: en
   - url: https://getbootstrap.com/docs/5.1/content/reboot/
     desc: "Bootstrap’s normalize"
     type: documentation
+    lang: en
+  - url: https://piccalil.li/blog/a-more-modern-css-reset/
+    desc: "A (more) Modern CSS Reset"
+    text: |
+      Andy Bell’s article from September 2023
+    type: article
     lang: en
 requires:
   - "Basic CSS Syntax"
