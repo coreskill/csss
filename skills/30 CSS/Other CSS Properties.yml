@@ -32,8 +32,10 @@ resources:
     desc: "Learn CSS Variables (Free) at Scrimba"
     type: interactive course
     lang: en
-  - url: https://piccalil.li/tutorial/getting-started-with-css-custom-properties
+  - url: https://andy-bell.co.uk/getting-started-with-css-custom-properties/
     desc: "Getting started with CSS Custom Properties"
+    text: |
+      “This short guide will get you up to speed with how they work and how to use them.”
     type: article
     lang: en
 requires:
