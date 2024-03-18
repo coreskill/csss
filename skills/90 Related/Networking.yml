@@ -42,6 +42,10 @@ resources:
     desc: "Minimalistic explanation"
   - url: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name
     desc: "More detailed explanation"
+  - url: https://url-parts.glitch.me/?url=https://cats.example.org.au:1234/stripes/fur.html?pattern=tabby#claws
+    desc: "A tool to describe parts of an url"
+    type: tool
+    lang: en
 
 ---
 skill: "DNS"
