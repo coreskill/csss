@@ -1,10 +1,5 @@
 let config = {
-  apiKey: "AIzaSyDmgQKTA1sxF-BPCy6xS7gMpgeCRb-B51M",
-  authDomain: "csss-33b79.firebaseapp.com",
-  databaseURL: "https://csss-33b79.firebaseio.com",
-  projectId: "csss-33b79",
-  storageBucket: "csss-33b79.appspot.com",
-  messagingSenderId: "955173911077"
+  apiKey: "AIzaSyDmgQKTA1sxF-BPCy6xS7gMpgeCRb-B51M", authDomain: "csss-33b79.firebaseapp.com", databaseURL: "https://csss-33b79.firebaseio.com", projectId: "csss-33b79", storageBucket: "csss-33b79.appspot.com", messagingSenderId: "955173911077"
 };
 
 firebase.initializeApp(config);
@@ -194,12 +189,56 @@ let adminSelect = document.querySelector(".user-select select");
 
 function fillAdminSelectbox(users) {
   adminSelect.innerHTML = "";
-  users
-    .filter(user => user.__user && user.__user.uid)
-    .map(user => [user.__user.displayName || user.__user.email || user.__user.uid, user.__user.uid])
-    .sort(([a], [b]) => a < b ? -1 : a > b ? 1 : 0)
-    .map(([label, uid]) => new Option(label, uid))
-    .forEach(option => adminSelect.add(option));
+
+  // Group users by clientStatus or "Web Collected"
+  const groupedUsers = {};
+  users.forEach(user => {
+    if (user.__user && user.__user.uid) {
+      const status = user.__user.clientStatus || "unknown";
+      if (!groupedUsers[status]) {
+        groupedUsers[status] = [];
+      }
+      let formattedName = user.__user.displayName;
+      const displayNameParts = user.__user.displayName.split(' ');
+      if (displayNameParts.length > 1) {
+        const lastNameInitial = displayNameParts.pop().charAt(0) + '.';
+        formattedName = `${displayNameParts.join(' ')} ${lastNameInitial}`;
+      }
+      groupedUsers[status].push([formattedName || user.__user.email || user.__user.uid, user.__user.uid]);
+    }
+  });
+
+  // Ensure "current" option is always first
+  const currentOption = groupedUsers["current"];
+  delete groupedUsers["current"]; // Remove "current" from groupedUsers object
+
+  // Create and append optgroup and options to the select element
+  if (currentOption) {
+    const optgroup = document.createElement('optgroup');
+    optgroup.label = "current";
+    currentOption.forEach(([label, uid]) => {
+      const option = new Option(label, uid);
+      optgroup.appendChild(option);
+    });
+    adminSelect.appendChild(optgroup);
+  }
+
+  // Sort and append remaining optgroups
+  const sortedStatuses = Object.keys(groupedUsers).sort();
+  sortedStatuses.forEach(status => {
+    const optgroup = document.createElement('optgroup');
+    optgroup.label = status;
+
+    // Sort users within each group
+    groupedUsers[status].sort(([a], [b]) => a.localeCompare(b));
+
+    groupedUsers[status].forEach(([label, uid]) => {
+      const option = new Option(label, uid);
+      optgroup.appendChild(option);
+    });
+    adminSelect.appendChild(optgroup);
+  });
+
   adminSelect.value = sessionStorage.getItem(SELECTED_USER_ID);
 }
 
