@@ -2,7 +2,7 @@
   <html lang="en" data-bs-theme="auto">
     <head>
       <meta charset="utf-8">
-      <title>Float « CoreSkill Roadmap</title>
+      <title>Float Layout « CoreSkill Roadmap</title>
       <meta name="robots" content="noindex">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="preconnect" href="https://fonts.bunny.net/">
@@ -14,6 +14,10 @@
       <script src="/firebase-app.js"></script>
       <script src="/firebase-auth.js"></script>
       <script src="/firebase-firestore.js"></script>
+      <script src="/markdown-it.min.js"></script>
+      <link rel="stylesheet" href="/highlightjs-github-dark.min.css" media="(prefers-color-scheme: dark)">
+      <link rel="stylesheet" href="/highlightjs-github.min.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+      <script src="/highlight.min.js"></script>
       <link rel="shortcut icon" href="/favicon.ico">
     </head>
     <body>
@@ -56,12 +60,19 @@
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">Roadmap</a></li>
                 <li class="breadcrumb-item"><a href="css">CSS</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Float</li>
+              <li class="breadcrumb-item active" aria-current="page">Float Layout</li>
           </ol>
         </nav>
 
-        <h1 class="display-3">Float</h1>
+        <h1 class="display-3">Float Layout</h1>
 
+          <div class="mb-5 lead markdown-text">Float layouts were the main tool of making layouts since 2001 to 2017 when [Flexbox](/flexible-layout-module-flexbox) started to be widely supported in browsers.
+
+There are two reasons to learn float layout:
+
+1. It’s the only layout mode that can flow text around an element. However it’s not that common so it’s ok to just know that float exists and what it does. 
+2. When you need to work on a legacy website it may have a lot of floats. 
+</div>
 
           <!--<h2 class="mt-5">Skills in this category</h2>-->
           <div class="list-group list-group-flush">
@@ -83,9 +94,9 @@
                       
                       
                       
-                      is-level-3
                       
                       
+                      is-level-5
                       
                     "
                     data-slug="float"
@@ -108,12 +119,12 @@
                           
                           
                           
-                          bg-info
                           
                           
+                          bg-dark
                           
                         "
-                      >3</span>
+                      >5</span>
                       <!--
                       -->
                     <span class="note note-empty badge bg-dark" data-slug="float">
@@ -140,9 +151,9 @@
                       
                       
                       
-                      is-level-3
                       
                       
+                      is-level-5
                       
                     "
                     data-slug="clear"
@@ -165,12 +176,12 @@
                           
                           
                           
-                          bg-info
                           
                           
+                          bg-dark
                           
                         "
-                      >3</span>
+                      >5</span>
                       <!--
                       -->
                     <span class="note note-empty badge bg-dark" data-slug="clear">
@@ -197,9 +208,9 @@
                       
                       
                       
-                      is-level-3
                       
                       
+                      is-level-5
                       
                     "
                     data-slug="clearfix"
@@ -222,12 +233,12 @@
                           
                           
                           
-                          bg-info
                           
                           
+                          bg-dark
                           
                         "
-                      >3</span>
+                      >5</span>
                       <!--
                       -->
                     <span class="note note-empty badge bg-dark" data-slug="clearfix">
@@ -240,5 +251,33 @@
       </main>
       <script src="/dark-mode.js"></script>
       <script src="/firebase.js"></script>
+      <script>
+        function htmlDecode(input) {
+          var e = document.createElement('textarea');
+          e.innerHTML = input;
+          // handle case of empty input
+          return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
+        }
+
+        md = new markdownit({
+          html: true, // Enable HTML tags in source
+          breaks: true, // Convert '\n' in paragraphs into <br>
+          linkify: true, // Autoconvert URL-like text to links
+          typographer: true, // Enable some language-neutral replacement + quotes beautification  For the full list of replacements, see https://github.com/markdown-it/markdown-it/blob/master/lib/rules_core/replacements.js
+          langPrefix: 'language-',
+          highlight: function (str, lang) {
+            if (lang && hljs.getLanguage(lang)) {
+              try {
+                return hljs.highlight(str, {language: lang}).value;
+              } catch (__) {
+              }
+            }
+            return ''; // use external default escaping
+          }
+        });
+        document.querySelectorAll('.markdown-text').forEach(
+          text => text.innerHTML = md.render(htmlDecode(text.innerHTML))
+        )
+      </script>
     </body>
   </html>

@@ -14,6 +14,10 @@
       <script src="/firebase-app.js"></script>
       <script src="/firebase-auth.js"></script>
       <script src="/firebase-firestore.js"></script>
+      <script src="/markdown-it.min.js"></script>
+      <link rel="stylesheet" href="/highlightjs-github-dark.min.css" media="(prefers-color-scheme: dark)">
+      <link rel="stylesheet" href="/highlightjs-github.min.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
+      <script src="/highlight.min.js"></script>
       <link rel="shortcut icon" href="/favicon.ico">
     </head>
     <body>
@@ -184,5 +188,33 @@
       </main>
       <script src="/dark-mode.js"></script>
       <script src="/firebase.js"></script>
+      <script>
+        function htmlDecode(input) {
+          var e = document.createElement('textarea');
+          e.innerHTML = input;
+          // handle case of empty input
+          return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
+        }
+
+        md = new markdownit({
+          html: true, // Enable HTML tags in source
+          breaks: true, // Convert '\n' in paragraphs into <br>
+          linkify: true, // Autoconvert URL-like text to links
+          typographer: true, // Enable some language-neutral replacement + quotes beautification  For the full list of replacements, see https://github.com/markdown-it/markdown-it/blob/master/lib/rules_core/replacements.js
+          langPrefix: 'language-',
+          highlight: function (str, lang) {
+            if (lang && hljs.getLanguage(lang)) {
+              try {
+                return hljs.highlight(str, {language: lang}).value;
+              } catch (__) {
+              }
+            }
+            return ''; // use external default escaping
+          }
+        });
+        document.querySelectorAll('.markdown-text').forEach(
+          text => text.innerHTML = md.render(htmlDecode(text.innerHTML))
+        )
+      </script>
     </body>
   </html>

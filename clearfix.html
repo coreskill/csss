@@ -60,7 +60,7 @@
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/">Roadmap</a></li>
           <li class="breadcrumb-item"><a href="css">CSS</a></li>
-          <li class="breadcrumb-item"><a href="float1">Float</a></li>
+          <li class="breadcrumb-item"><a href="float-layout">Float Layout</a></li>
         <li class="breadcrumb-item active" aria-current="page">clearfix</li>
       </ol>
     </nav>
@@ -88,13 +88,13 @@
                     
                     
                     
-                    bg-info
                     
                     
+                    bg-dark
                     
                   "
                 >
-                  level 3
+                  level 5
                 </span>
               </span>
           </h1>
@@ -110,21 +110,25 @@
             </span>
           </p>
 
+            <div class="m-0 lead markdown-text">The clearfix is a CSS technique used to fix issues that arise when element(s) floated inside a container and the container itself does not encompass the floated elements properly.
+
+To solve this issue, you can apply the clearfix technique to the container.
+
+Applying &#x60;display: flow-root&#x60; is a modern way to solve then need for clearfix.
+</div>
 
             <section class="p-3 mt-5 bg-light bg-opacity-25">
               <h2 class="">Resources</h2>
               <div class="list-group list-group-flush">
-                  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/clear" rel="noopener" class="list-group-item list-group-item-action flex-column align-items-start">
+                  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display#flow-root" rel="noopener" class="list-group-item list-group-item-action flex-column align-items-start">
                     <div class="d-flex w-100 justify-content-between">
                       <h3 class="h5 mb-1">
+                        <span class="badge bg-secondary">reference</span>
                         
                         
-                        
-                        <b>clear [MDN]</b>
+                        <b>display: flow-root [MDN]</b>
                       </h3>
                     </div>
-                      <div class="mt-2 markdown-text w-100"><span class="lead">ℹ️</span> Also contains information about clearfix
-</div>
                   </a>
                   <a href="https://css-tricks.com/clearfix-a-lesson-in-web-development-evolution/" rel="noopener" class="list-group-item list-group-item-action flex-column align-items-start">
                     <div class="d-flex w-100 justify-content-between">
@@ -132,9 +136,11 @@
                         <span class="badge bg-secondary">article</span>
                         
                         
-                        <b>History of clearfixes</b>
+                        <b>History of clearfixes [CSS Tricks]</b>
                       </h3>
                     </div>
+                      <div class="mt-2 markdown-text w-100"><span class="lead">ℹ️</span> The article explaining the problem and older solutions that you might encounter on older websites.
+</div>
                   </a>
               </div>
             </section>
