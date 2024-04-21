@@ -17,6 +17,12 @@ resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
     desc: "Basic Concepts of Flexbox [MDN]"
     lang: en
+  - url: https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
+    desc: "An Interactive Guide to Flexbox [Josh Comeau]"
+    text: |
+      Great interactive article explaining flexbox concepts.
+    type: guide
+    lang: en
   - url: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
     desc: "Good visual reference [CSS Tricks]"
     type: reference
@@ -25,20 +31,11 @@ resources:
     desc: "Dense visual reference"
     type: reference
     lang: en
-#  - url: https://flexboxfroggy.com/
-#    desc: "Flexbox Froggy helps you to learn part of the basics"
-#    type: game
-#    lang: en
-  - url: https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
-    desc: "An Interactive Guide to Flexbox [Josh W. Comeau]"
-    text: |
-      Great interactive article explaining flexbox concepts.
-    type: article
-    lang: en
   - url: https://www.codecademy.com/paths/web-development/tracks/getting-more-advanced-with-design/modules/layout-with-flexbox/lessons/learn-flexbox-l/exercises/flexbox
     desc: "Learn Flexbox [Codecademy]"
     type: interactive course
     lang: en
+    availability: "PRO (paid)"
   - url: https://flexbox.io/
     desc: "Free video course [Wes Bos]"
     type: video
@@ -46,10 +43,6 @@ resources:
   - url: https://scrimba.com/g/gflexbox
     desc: "Interactive screencasts about flexbox [Scrimba]"
     type: interactive course
-    lang: en
-  - url: https://internetingishard.com/html-and-css/flexbox/
-    desc: "Older but good tutorial [Interneting Is Hard]"
-    type: tutorial
     lang: en
 requires:
   - "General CSS // Basic CSS Syntax"

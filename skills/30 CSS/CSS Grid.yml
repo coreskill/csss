@@ -13,6 +13,12 @@ resources:
     desc: "Introduction to CSS Grid [MDN]"
     type: guide
     lang: en
+  - url: https://www.joshwcomeau.com/css/interactive-guide-to-grid/
+    desc: "An Interactive Guide to CSS Grid [Josh Comeau]"
+    text: |
+      Great interactive article explaining flexbox concepts.
+    type: guide
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
     desc: "Basic Concepts of grid layout [MDN]"
     type: guide
@@ -24,7 +30,7 @@ resources:
     lang: en
   - url: https://css-tricks.com/snippets/css/complete-guide-grid/
     desc: "A Complete Guide to Grid [CSS Tricks]"
-    text: | 
+    text: |
       Yet another introduction to CSS Grid and a handy reference
     lang: en
 
@@ -114,7 +120,7 @@ requires:
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column#:~:text=span%20%26%26%20%5B%20%3Cinteger%3E%20%7C%7C%20%3Ccustom,0%20are%20invalid.
     desc: "span keyword explanation [MDN]"
-    text: | 
+    text: |
       tip: look for highlighted text
     type: reference
     lang: en
@@ -253,7 +259,7 @@ resources:
 skill: "justify-items"
 level: 4
 requires:
-  - "CSS Grid Overview" 
+  - "CSS Grid Overview"
 resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/justify-items
     desc: "justify-items [MDN]"

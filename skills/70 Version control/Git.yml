@@ -16,9 +16,10 @@ resources:
     type: tutorial
     lang: en
   - url: https://www.codecademy.com/courses/learn-git/lessons/git-workflow/
-    desc: "Start of Codecademy interactive course (paid)"
+    desc: "Start of Codecademy interactive course"
     type: interactive course
     lang: en
+    availability: "PRO (paid)"
 
 ---
 skill: "Installation"
