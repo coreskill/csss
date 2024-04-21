@@ -1,0 +1,54 @@
+---
+sort: 85
+text: |
+  Float layouts were the main tool of making layouts since 2001 to 2017 when [Flexbox](/flexible-layout-module-flexbox) started to be widely supported in browsers.
+  
+  There are two reasons to learn float layout:
+  
+  1. It’s the only layout mode that can flow text around an element. However it’s not that common so it’s ok to just know that float exists and what it does. 
+  2. When you need to work on a legacy website it may have a lot of floats. 
+  
+---
+skill: "float"
+level: 5
+requires:
+  - "General CSS // Basic CSS Syntax"
+resources:
+  - url: https://marksheet.io/css-float-clear.html
+    desc: "CSS float [Marksheet.io]"
+    text: |
+      Short intro to float. 
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/float
+    desc: "float [MDN]"
+    type: reference
+
+---
+skill: "clear"
+level: 5
+requires:
+  - "General CSS // Basic CSS Syntax"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/clear
+    desc: "clear [MDN]"
+    type: reference
+
+---
+skill: "clearfix"
+level: 5
+text: |
+  The clearfix is a CSS technique used to fix issues that arise when element(s) floated inside a container and the container itself does not encompass the floated elements properly.
+  
+  To solve this issue, you can apply the clearfix technique to the container.
+  
+  Applying `display: flow-root` is a modern way to solve then need for clearfix.
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/display#flow-root
+    desc: "display: flow-root [MDN]"
+    type: reference
+  - url: https://css-tricks.com/clearfix-a-lesson-in-web-development-evolution/
+    desc: "History of clearfixes [CSS Tricks]"
+    text: |
+      The article explaining the problem and older solutions that you might encounter on older websites.
+    type: article
+requires:
+  - "clear"
