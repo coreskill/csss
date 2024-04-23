@@ -53,7 +53,7 @@ let userList = document.querySelector(".user-list tbody");
 function fillUserList(users) {
   userList.innerHTML = "";
   users
-    .map(userData => [userData.user.displayName || userData.user.email || userData.user.uid || userData.user.clientStatus || userData.user.uiTheme, userData])
+    .map(userData => [userData.user.displayName || userData.user.email || userData.user.uid, userData])
     .sort(([a], [b]) => a < b ? -1 : a > b ? 1 : 0)
     .forEach(([, {user, flags}]) => {
       let tr = document.createElement("tr");
