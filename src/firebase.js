@@ -153,6 +153,29 @@ function addFirebaseFlagsListener() {
   });
 }
 
+let removeFirebaseDarkModeListener = () => {
+};
+
+function addFirebaseDarkModeListener() {
+  return new Promise((resolve, reject) => {
+    let removeListener = firebase.firestore()
+      .collection("db").doc("v1")
+      .collection("users").doc(firebase.auth().currentUser.uid)
+      .onSnapshot(snapshot => {
+        resolve();
+        setUiTheme(snapshot.data()?.__user?.uiTheme ?? "auto");
+      }, error => {
+        console.error(error);
+        reject(error);
+      });
+
+    removeFirebaseDarkModeListener = () => {
+      removeListener();
+      setUiTheme("auto");
+    };
+  });
+}
+
 let removeAdminListener = () => {
 };
 
@@ -262,6 +285,7 @@ firebase.auth().onAuthStateChanged(user => {
       .then(() => addFirebaseIndicatorListener())
       .then(() => addFirebaseNoteListener())
       .then(() => addFirebaseFlagsListener())
+      .then(() => addFirebaseDarkModeListener())
       .then(() => addAdminSelectbox())
       .then(() => document.body.classList.add("logged-in"));
   } else {
@@ -270,6 +294,7 @@ firebase.auth().onAuthStateChanged(user => {
     removeFirebaseIndicatorListener();
     removeFirebaseNoteListener();
     removeFirebaseFlagsListener();
+    removeFirebaseDarkModeListener();
     removeAdminListener();
     sessionStorage.removeItem(SELECTED_USER_ID);
     USER_LOGGED_OUT_CALLBACKS.forEach(cb => cb());
