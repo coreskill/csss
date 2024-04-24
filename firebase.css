@@ -19,7 +19,8 @@
 .note-changer,
 .user-select,
 .administration,
-.logged-in .hidden-when-logged-in {
+.logged-in .hidden-when-logged-in,
+.ui-theme {
   display: none;
 }
 
@@ -34,6 +35,10 @@
 .admin .user-select,
 .admin .administration {
   display: inline-block;
+}
+
+.logged-in .ui-theme {
+  display: flex;
 }
 
 .indicator {

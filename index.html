@@ -18,7 +18,7 @@
   </head>
   <body class="page-home">
   <header class="navbar navbar-dark bg-dark justify-items-start sticky-top border-bottom border-light">
-    <div class="container-fluid">
+    <div class="container-fluid row-gap-3 column-gap-2">
       <a href="/" class="navbar-brand mb-0 h1">CoreSkill Roadmap <sup class="fw-bold text-warning">beta</sup></a>
       <div>
         <div class="filter-group ms-5">
@@ -39,9 +39,15 @@
         </div>
         <span class="filter-nothing-found alert alert-danger mt-4 d-none" role="alert">Nothing has been found.</span>
         <span class="filter-counter ms-3 text-white" role="alert"><span class="shown-skills"></span> of <span class="total-skills"></span> skills shown</span>
-        <a href="/graph" class="text-white-50 ms-5">Show dependency graph</a>
+        <a href="/graph" class="text-white-50 d-inline-block ms-4">Dependency graph</a>
       </div>
-      <form class="form-inline ms-auto">
+      <div class="btn-group bg-dark ui-theme ms-auto me-3" role="group">
+        <button type="button" class="btn btn-outline-info px-2 ui-theme-auto active">Auto</button>
+        <button type="button" class="btn btn-outline-info px-2 ui-theme-dark">Dark</button>
+        <button type="button" class="btn btn-outline-info px-2 ui-theme-light">Light</button>
+      </div>
+  
+      <form class="form-inline">
         <span class="user-select"><select class="form-control me-3"></select></span>
         <button type="button" class="btn btn-outline-light my-2 my-sm-0 login">Sign in with Google</button>
         <button type="button" class="btn btn-outline-danger my-2 my-sm-0 logout">Sign out</button>
