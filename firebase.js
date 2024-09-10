@@ -153,29 +153,6 @@ function addFirebaseFlagsListener() {
   });
 }
 
-let removeFirebaseDarkModeListener = () => {
-};
-
-function addFirebaseDarkModeListener() {
-  return new Promise((resolve, reject) => {
-    let removeListener = firebase.firestore()
-      .collection("db").doc("v1")
-      .collection("users").doc(firebase.auth().currentUser.uid)
-      .onSnapshot(snapshot => {
-        resolve();
-        setUiTheme(snapshot.data()?.__user?.uiTheme ?? "auto");
-      }, error => {
-        console.error(error);
-        reject(error);
-      });
-
-    removeFirebaseDarkModeListener = () => {
-      removeListener();
-      setUiTheme("auto");
-    };
-  });
-}
-
 let removeAdminListener = () => {
 };
 
@@ -213,11 +190,11 @@ let adminSelect = document.querySelector(".user-select select");
 function fillAdminSelectbox(users) {
   adminSelect.innerHTML = "";
 
-  // Group users by clientStatus or "Web Collected"
+  // Group users by userGroup or "Web Collected"
   const groupedUsers = {};
   users.forEach(user => {
     if (user.__user && user.__user.uid) {
-      const status = user.__user.clientStatus || "unknown";
+      const status = user.__user.userGroup || "none";
       if (!groupedUsers[status]) {
         groupedUsers[status] = [];
       }
@@ -285,7 +262,6 @@ firebase.auth().onAuthStateChanged(user => {
       .then(() => addFirebaseIndicatorListener())
       .then(() => addFirebaseNoteListener())
       .then(() => addFirebaseFlagsListener())
-      .then(() => addFirebaseDarkModeListener())
       .then(() => addAdminSelectbox())
       .then(() => document.body.classList.add("logged-in"));
   } else {
@@ -294,7 +270,6 @@ firebase.auth().onAuthStateChanged(user => {
     removeFirebaseIndicatorListener();
     removeFirebaseNoteListener();
     removeFirebaseFlagsListener();
-    removeFirebaseDarkModeListener();
     removeAdminListener();
     sessionStorage.removeItem(SELECTED_USER_ID);
     USER_LOGGED_OUT_CALLBACKS.forEach(cb => cb());

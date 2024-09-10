@@ -53,7 +53,7 @@ let userList = document.querySelector(".user-list tbody");
 function fillUserList(users) {
   userList.innerHTML = "";
   users
-    .map(userData => [userData.user.displayName || userData.user.email || userData.user.uid, userData])
+    .map(userData => [userData.user.displayName || userData.user.email || userData.user.uid || userData.user.userGroup || userData.user.uiTheme, userData])
     .sort(([a], [b]) => a < b ? -1 : a > b ? 1 : 0)
     .forEach(([, {user, flags}]) => {
       let tr = document.createElement("tr");
@@ -64,14 +64,14 @@ function fillUserList(users) {
         <td data-uid="${user.uid}">
           ${displayedFlags.map(flag => `<div class="form-check"><label class="form-check-label"><input type="checkbox" ${flags[flag] ? "checked" : ""} class="flag form-check-input" data-flag="${flag}">${flag}</label></div>`)}
         </td>
-        <td>${user.clientStatus || ""}</td>
+        <td>${user.userGroup || ""}</td>
         <td>${user.uiTheme || ""}</td>
       `;
       if (user.isAdmin) {
         tr.classList.add('table-danger');
-      } else if (user.clientStatus === 'current') {
+      } else if (user.userGroup === 'current') {
         tr.classList.add('table-warning');
-      } else if (user.clientStatus === 'former') {
+      } else if (user.userGroup === 'former') {
         tr.classList.add('table-success');
       } else {
         tr.classList.add('table-secondary');
