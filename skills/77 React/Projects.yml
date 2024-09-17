@@ -1,0 +1,632 @@
+---
+sort: 120
+
+---
+skill: "React info site"
+level: 4
+text: |
+  Create a React info site, follow the interactive course.
+requires:
+  - "Composability // Components in separate files"
+  - "HTML vs. JSX // className"
+  - "// CSS // Selectors // Selector list (x, y)"
+  - "// CSS // Selectors // Universal selector (*)"
+  - "// CSS // Styling Text // color"
+  - "// CSS // Styling Text // font-size"
+  - "// CSS // Styling Text // font-style: italic, font-style: normal"
+  - "// CSS // Styling Text // font-weight"
+  - "// CSS // Styling Text // font-family (including fallbacks)"
+  - "// CSS // Styling Text // line-height"
+  - "// CSS // Box Model // max-width, min-width"
+  - "// CSS // Box Model // box-sizing"
+  - "// CSS // Box Styling // background-color"
+  - "// CSS // Box Styling // background-image, background-repeat, background-position"
+  - "// CSS // Pseudo Elements // ::marker"
+resources:
+  - url: https://coreskill.github.io/scrimba-react-project-react-info-site/
+    desc: "Project preview"
+    text: |
+      This is how the finished project should look like. Don't look for GitHub repository yet.
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/quick-mental-outline-of-project-co25b4851980efb41f5ae45cc
+    desc: "Quick mental outline of project"
+    type: video
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/project-setup-co2104c96a93e1b2ab03254ba
+    desc: "Project setup"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/quick-figma-walkthrough-cob144fc38f432d088b0f20ab
+    desc: "Quick Figma Walkthrough"
+    text: |
+      Using Figma is optional
+    type: video
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/navbar-styling-co6b241c280719be40956bba1
+    desc: "Navbar & Styling"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/main-section-co48340cd80b68fccc25166ce
+    desc: "Main Section"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/color-the-bullets-co181436dabcfe4183c944026
+    desc: "Color the bullets"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/add-background-logo-coa6145f3a9c7e1cbc40f5f6a
+    desc: "Add background logo"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/react-section-1-recap-coe9c48b4bb10c9885a20151a
+    desc: "React Section 1 Recap"
+    text: |
+      You don't have to join the Discord server at the end, feel free to ignore it.
+    type: video
+    lang: en
+    status: ok
+  - url: https://github.com/coreskill/scrimba-react-project-react-info-site
+    desc: "React info site on GitHub"
+    text: |
+      We recommend to open it only after you have completed the project, or if you are stuck on something for a long time and don't know what to do.
+    type: repository
+    lang: en
+    status: ok
+
+---
+skill: "AirBnb clone part 1"
+level: 4
+text: |
+  Create an AirBnb Experiences clone, follow the interactive course.
+requires:
+  - "Composability // Components in separate files"
+  - "HTML vs. JSX // className"
+  - "// CSS // Selectors // Universal selector (*)"
+  - "// CSS // Styling Text // color"
+  - "// CSS // Styling Text // font-size"
+  - "// CSS // Styling Text // font-weight"
+  - "// CSS // Styling Text // font-family (including fallbacks)"
+  - "// CSS // Box Model // max-width, min-width"
+  - "// CSS // Box Model // box-sizing"
+  - "// CSS // Box Styling // box-shadow"
+  - "// CSS // Box Styling // border-radius"
+  - "// CSS // Flexible Layout Module (Flexbox) // flex-direction"
+  - "// CSS // Flexible Layout Module (Flexbox) // align-self"
+resources:
+  - url: https://coreskill.github.io/scrimba-react-project-airbnb-clone/
+    desc: "Project preview"
+    text: |
+      This is how the finished project should look like. Don't look for GitHub repository yet.
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/section-intro-figma-file-co359499e9b60a56d617d5307
+    desc: "Section intro & Figma file"
+    text: |
+      Using Figma is optional, but recommended at this point.
+    type: video
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/project-setup-navbar-cob544349a4494c348ab844f0
+    desc: "Project setup: Navbar"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/project-setup-hero-co90845d2aecdbb1a1c84a3ad
+    desc: "Project setup: Hero"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/project-card-component-co1954a349a2aaba7383a6cbe
+    desc: "Project: Card Component"
+    type: interactive course
+    lang: en
+    status: ok
+
+---
+skill: "AirBnb clone part 2"
+level: 4
+text: |
+  Create an AirBnb Experiences clone, follow the interactive course.
+requires:
+  - "AirBnb clone part 1"
+  - "Props // Non-string props"
+resources:
+  - url: https://scrimba.com/learn/learnreact/project-pass-props-to-card-component-co2094669b9fe6bf481f857ae
+    desc: "Project: pass props to card component"
+    type: interactive course
+    lang: en
+    status: ok
+
+---
+skill: "AirBnb clone part 3"
+level: 4
+text: |
+  Create an AirBnb Experiences clone, follow the interactive course.
+requires:
+  - "AirBnb clone part 2"
+  - "Array rendering // Mapping"
+  - "// CSS // Box Styling // background-color"
+  - "// CSS // Positioning // position: relative, position: static"
+  - "// CSS // Positioning // position: absolute"
+resources:
+  - url: https://scrimba.com/learn/learnreact/project-map-experiences-data-into-components-co0704006bcf75aae48fb04c3
+    desc: "Project: Map experiences data into components"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/project-key-prop-cod824954b2c1feecf545bc49
+    desc: "Project: key prop"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/project-sold-out-badge-cod6a41078bdec8db3c39513b
+    desc: "Project: Sold Out Badge"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/project-pass-object-as-props-cod6f4e56bca6a67caca77684
+    desc: "Project: Pass object as props"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/project-spread-object-as-props-cobc143b6a3172ef8cfd398f2
+    desc: "Project: Spread object as props"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/react-section-2-recap-co2a74b21bbb7fef31887674b
+    desc: "React Section 2 Recap"
+    text: |
+      You don't have to join the Discord server at the end, feel free to ignore it.
+    type: video
+    lang: en
+    status: ok
+  - url: https://github.com/coreskill/scrimba-react-project-airbnb-clone
+    desc: "AirBnb clone on GitHub"
+    text: |
+      We recommend to open it only after you have completed the project, or if you are stuck on something for a long time and don't know what to do.
+    type: repository
+    lang: en
+    status: ok
+
+---
+skill: "Meme generator part 1"
+level: 4
+text: |
+  Create a meme generator, follow the interactive course.
+requires:
+  - "Composability // Components in separate files"
+  - "HTML vs. JSX // className"
+  - "// HTML // Body // <form>, <input>, <textarea>, <label>, <select>, <option>, <button>"
+  - "// CSS // Selectors // Universal selector (*)"
+  - "// CSS // Styling Text // color"
+  - "// CSS // Styling Text // font-size"
+  - "// CSS // Styling Text // font-weight"
+  - "// CSS // Styling Text // font-family (including fallbacks)"
+  - "// CSS // Styling Text // text-indent"
+  - "// CSS // Box Model // border"
+  - "// CSS // Box Model // box-sizing"
+  - "// CSS // Box Styling // border-radius"
+  - "// CSS // Box Styling // Generated Images (Gradients)"
+  - "// CSS // Other CSS Properties // cursor"
+resources:
+  - url: https://coreskill.github.io/scrimba-react-project-meme-generator/
+    desc: "Project preview"
+    text: |
+      This is how the finished project should look like. Don't look for GitHub repository yet.
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/section-intro-figma-file-coeca4c67b87cf73d3fb64da5
+    desc: "Section Intro & Figma file"
+    text: |
+      Using Figma is optional, but recommended at this point.
+    type: video
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/meme-generator-header-cocf84c4c9121d91a0095f3e9
+    desc: "Meme Generator: Header"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/meme-generator-form-co2614ad9acf3a1840aef597b
+    desc: "Meme Generator: Form"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/project-analysis-cocf44997b3d2993a32081ad5
+    desc: "Project analysis"
+    type: video
+    lang: en
+    status: ok
+
+---
+skill: "Meme generator part 2"
+level: 4
+text: |
+  Create a meme generator, follow the interactive course.
+requires:
+  - "Meme generator part 1"
+  - "HTML vs. JSX // onClick"
+  - "Props // Destructuring props"
+resources:
+  - url: https://scrimba.com/learn/learnreact/project-get-random-meme-co0d240b0b92838697b8749a1
+    desc: "Project: Get random meme"
+    type: interactive course
+    lang: en
+    status: ok
+
+---
+skill: "Meme generator part 3"
+level: 4
+text: |
+  Create a meme generator, follow the interactive course.
+requires:
+  - "Meme generator part 2"
+  - "State // useState"
+resources:
+  - url: https://scrimba.com/learn/learnreact/project-add-images-to-the-meme-generator-co2e04f5499f85d20fecbdf22
+    desc: "Project: Add images to the meme generator"
+    type: interactive course
+    lang: en
+    status: ok
+
+---
+skill: "Meme generator part 4"
+level: 4
+text: |
+  Create a meme generator, follow the interactive course.
+requires:
+  - "Meme generator part 3"
+  - "State // Arrays and objects"
+resources:
+  - url: https://scrimba.com/learn/learnreact/project-refactor-state-coaf8489fbc3d70a207f29713
+    desc: "Project: Refactor state"
+    type: interactive course
+    lang: en
+    status: ok
+
+---
+skill: "Meme generator part 5"
+level: 5
+text: |
+  Create a meme generator, follow the interactive course.
+requires:
+  - "Meme generator part 4"
+  - "Forms // Practice: quiz, sign up form"
+resources:
+  - url: https://scrimba.com/learn/learnreact/project-add-text-to-image-co9dd4288bcdb0c0cfe7a2d9c
+    desc: "Project: Add text to image"
+    type: interactive course
+    lang: en
+    status: ok
+
+---
+skill: "Meme generator part 6"
+level: 5
+text: |
+  Create a meme generator, follow the interactive course.
+requires:
+  - "Meme generator part 5"
+  - "Effect // useEffect & fetching data"
+  - "// JavaScript // Requests // async GET Requests"
+resources:
+  - url: https://scrimba.com/learn/learnreact/project-get-memes-from-api-coe9a494f854435f2630f2ce4
+    desc: "Project: Get Memes from API"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/react-section-3-recap-co5f14456bbe0f15f99e69ae1
+    desc: "React Section 3 Recap"
+    text: |
+      You don't have to join the Discord server at the end, feel free to ignore it.
+    type: video
+    lang: en
+    status: ok
+  - url: https://github.com/coreskill/scrimba-react-project-meme-generator
+    desc: "Meme generator on GitHub"
+    text: |
+      We recommend to open it only after you have completed the project, or if you are stuck on something for a long time and don't know what to do.
+    type: repository
+    lang: en
+    status: ok
+
+---
+skill: "React info site upgrade"
+level: 4
+text: |
+  Upgrade the React info site to allow switching between light and dark modes.
+requires:
+  - "React info site"
+  - "State // Parent-child component interaction"
+resources:
+  - url: https://coreskill.github.io/scrimba-react-project-react-info-site-upgrade/
+    desc: "Project preview"
+    text: |
+      This is how the finished project should look like. Don't look for GitHub repository yet.
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/warm-up-add-dark-light-modes-to-reactfacts-site-co5924409bb476cc78b0d818a
+    desc: "Warm-up: Add Dark/Light modes to ReactFacts site"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://github.com/coreskill/scrimba-react-project-react-info-site-upgrade
+    desc: "React info site upgrade on GitHub"
+    text: |
+      We recommend to open it only after you have completed the project, or if you are stuck on something for a long time and don't know what to do.
+    type: repository
+    lang: en
+    status: ok
+
+---
+skill: "Notes App: intro"
+level: 4
+text: |
+  Upgrade the existing note-taking app, add requested features to it. Follow the interactive course.
+requires:
+  - "State // Practice: boxes challenge"
+  - "Conditional rendering // Practice: quiz"
+resources:
+  - url: https://coreskill.github.io/scrimba-react-project-notes-app/
+    desc: "Project preview"
+    text: |
+      This is how the finished project should look like. Don't look for GitHub repository yet.
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/notes-app-intro-coea14f76b39cf1bfb7c86de4
+    desc: "Notes App: Intro"
+    text: |
+      Make sure you understand the source code of the app
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/notes-app-features-to-add-coaaa4569b9b2bbad23681d93
+    desc: "Notes App: Features to add"
+    text: |
+      You'll be working on these features
+    type: video
+    lang: en
+    status: ok
+
+---
+skill: "Notes App: localStorage sync"
+level: 5
+text: |
+  Upgrade the existing note-taking app, add requested features to it. Follow the interactive course.
+requires:
+  - "Notes App: intro"
+  - "Effect // useEffect"
+resources:
+  - url: https://scrimba.com/learn/learnreact/notes-app-sync-notes-with-localstorage-co3c5495b8d7949e81b79988a
+    desc: "Notes App: Sync notes with localStorage"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/lazy-state-initialization-cod784faab248ffe738e900a2
+    desc: "Lazy State Initialization"
+    text: |
+      Useful for optimization
+    type: interactive course
+    lang: en
+    status: ok
+
+---
+skill: "Notes App: note summary title"
+level: 5
+text: |
+  Upgrade the existing note-taking app, add requested features to it. Follow the interactive course.
+requires:
+  - "Notes App: localStorage sync"
+resources:
+  - url: https://scrimba.com/learn/learnreact/notes-app-note-summary-title-co79d4c77b58e6e0f83ac0227
+    desc: "Notes App: Note summary title"
+    type: interactive course
+    lang: en
+    status: ok
+
+---
+skill: "Notes App: move note to the top"
+level: 5
+text: |
+  Upgrade the existing note-taking app, add requested features to it. Follow the interactive course.
+requires:
+  - "Notes App: note summary title"
+  - "// JavaScript // Arrays // .push()"
+  - "// JavaScript // Arrays // .unshift()"
+resources:
+  - url: https://scrimba.com/learn/learnreact/notes-app-bump-recent-note-to-the-top-co3094396ae8a6fba32c9d71c
+    desc: "Notes App: Bump recent note to the top"
+    type: interactive course
+    lang: en
+    status: ok
+
+---
+skill: "Notes App: delete note"
+level: 5
+text: |
+  Upgrade the existing note-taking app, add requested features to it. Follow the interactive course.
+requires:
+  - "Notes App: move note to the top"
+  - "// JavaScript // Iterators // .filter()"
+resources:
+  - url: https://scrimba.com/learn/learnreact/notes-app-delete-note-cg8gPwc6
+    desc: "Notes App: Delete note"
+    text: |
+      You can ignore Firebase mentioned at the end.
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://github.com/coreskill/scrimba-react-project-notes-app
+    desc: "Notes App on GitHub"
+    text: |
+      We recommend to open it only after you have completed the project, or if you are stuck on something for a long time and don't know what to do.
+    type: repository
+    lang: en
+    status: ok
+
+---
+skill: "Tenzies game part 1"
+level: 4
+text: |
+  Create a game called Tenzies, follow the interactive course.
+requires:
+  - "Props // Props passing to a component"
+  - "// CSS // Selectors // Universal selector (*)"
+  - "// CSS // Styling Text // font-size"
+  - "// CSS // Box Model // max-width, min-width"
+  - "// CSS // Box Model // box-sizing"
+  - "// CSS // Box Styling // background-color"
+  - "// CSS // Box Styling // box-shadow"
+  - "// CSS // Box Styling // border-radius"
+  - "// CSS // Flexible Layout Module (Flexbox) // flex-direction"
+  - "// CSS // Other CSS Properties // cursor"
+resources:
+  - url: https://coreskill.github.io/scrimba-react-project-tenzies-game/
+    desc: "Project preview"
+    text: |
+      This is how the finished project should look like. Don't look for GitHub repository yet.
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/tenzies-project-intro-cof0d44bfad1fb88293fdc9d1
+    desc: "Tenzies Project Intro"
+    type: video
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/tenzies-setup-co0a9459ea14580c07f072cfd
+    desc: "Tenzies: Setup"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/tenzies-die-components-co38647cca41846b5b884e953
+    desc: "Tenzies: Die components"
+    type: interactive course
+    lang: en
+    status: ok
+
+---
+skill: "Tenzies game part 2"
+level: 4
+text: |
+  Create a game called Tenzies, follow the interactive course.
+requires:
+  - "Tenzies game part 1"
+  - "State // Parent-child component interaction"
+  - "// JavaScript // Basics // Built-in Objects"
+  - "// JavaScript // Arrays // .push()"
+  - "// CSS // Styling Text // color"
+  - "// CSS // Styling Text // font-family (including fallbacks)"
+  - "// CSS // Pseudo Classes // link related: :active, :visited, :hover, :focus, :link"
+resources:
+  - url: https://scrimba.com/learn/learnreact/tenzies-generate-array-of-10-random-numbers-cod40451b92865f80528ed9e7
+    desc: "Tenzies: Generate array of 10 random numbers"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/tenzies-map-array-to-die-components-co68a43f78661a7a3f8411dd0
+    desc: "Tenzies: Map array to Die components"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/tenzies-roll-dice-button-co0a84282a4902d4d2324b7fd
+    desc: "Tenzies: Roll dice button"
+    type: interactive course
+    lang: en
+    status: ok
+
+---
+skill: "Tenzies game part 3"
+level: 4
+text: |
+  Create a game called Tenzies, follow the interactive course.
+requires:
+  - "Tenzies game part 2"
+  - "State // Practice: boxes challenge"
+  - "Conditional rendering // Practice: quiz"
+resources:
+  - url: https://scrimba.com/learn/learnreact/tenzies-change-dice-to-objects-cBqReJTz
+    desc: "Tenzies: Change dice to objects"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/tenzies-styling-held-dice-co95f459e817fd41c6bf0f54d
+    desc: "Tenzies: Styling held dice"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/tenzies-hold-dice-part-1-co29e4e94aec702f97ffb9ce4
+    desc: "Tenzies: Hold dice part 1"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/tenzies-hold-dice-part-2-cof4842fcb65b330ef2bf07f3
+    desc: "Tenzies: Hold dice part 2"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/tenzies-hold-dice-part-3-co14645439b478cc8343d4ffe
+    desc: "Tenzies: Hold dice part 3"
+    type: interactive course
+    lang: en
+    status: ok
+
+---
+skill: "Tenzies game part 4"
+level: 5
+text: |
+  Create a game called Tenzies, follow the interactive course.
+requires:
+  - "Tenzies game part 3"
+  - "Effect // useEffect"
+  - "// JavaScript // Iterators // overview of other methods e.g. .findIndex(), .some(), .every(), .reduce()"
+resources:
+  - url: https://scrimba.com/learn/learnreact/tenzies-end-game-part-1-co86d4dd2862c6bda5b935d4f
+    desc: "Tenzies: End game part 1"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/tenzies-end-game-part-2-coda448ae89bf4c2861487e00
+    desc: "Tenzies: End game part 2"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/tenzies-end-game-part-3-co80c434696f1de23fe3a276f
+    desc: "Tenzies: End game part 3"
+    type: interactive course
+    lang: en
+    status: ok
+
+---
+skill: "Tenzies game part 5"
+level: 5
+text: |
+  Create a game called Tenzies, follow the interactive course.
+requires:
+  - "Tenzies game part 4"
+resources:
+  - url: https://scrimba.com/learn/learnreact/tenzies-new-game-co5fd4991acd2a6ded9358bb4
+    desc: "Tenzies: New Game"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/tenzies-extra-credit-ideas-co82b48eab99c792f6b884857
+    desc: "Tenzies: Extra Credit Ideas"
+    text: |
+      Try adding more features to the game on your own!
+    type: video
+    lang: en
+    status: ok
+  - url: https://github.com/coreskill/scrimba-react-project-tenzies-game
+    desc: "Tenzies game on GitHub"
+    text: |
+      We recommend to open it only after you have completed the project, or if you are stuck on something for a long time and don't know what to do.
+    type: repository
+    lang: en
+    status: ok

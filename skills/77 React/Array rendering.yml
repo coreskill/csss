@@ -1,0 +1,41 @@
+---
+sort: 50
+
+---
+skill: "Mapping"
+level: 4
+requires:
+  - "Props // Non-string props"
+  - "// JavaScript // Iterators // .map()"
+resources:
+  - url: https://scrimba.com/learn/learnreact/review-array-map-co4f44cfb9e4575776dc759eb
+    desc: "Review - array .map()"
+    text: |
+      Make sure you know how to work with this
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/react-renders-arrays-co3dc4d16838dd05ca4667cb9
+    desc: "React renders arrays"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/mapping-components-co20249b69609b9df5473acc7
+    desc: "Mapping components"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/map-quiz-coe9846508d586a605352f235
+    desc: "Map quiz!"
+    text: |
+      Practice what you've learned
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/loading-images-from-map-coe6c4822bbdc0a0360bd1961
+    desc: "Loading images from .map()"
+    text: |
+      Just in case the images don't load correctly
+    type: video
+    lang: en
+    status: ok

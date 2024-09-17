@@ -1,0 +1,59 @@
+---
+sort: 70
+
+---
+skill: "&&"
+level: 4
+text: |
+  Render something or render nothing.
+requires:
+  - "State // Arrays and objects"
+  - "// JavaScript // Conditionals // Logical operators"
+resources:
+  - url: https://scrimba.com/learn/learnreact/conditional-rendering--co00d4a3c9a328b5ff96f418e
+    desc: "Conditional rendering: &&"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/conditional-rendering-practice-co7a3413c9530c3e2804c4916
+    desc: "Conditional rendering: && practice"
+    text: |
+      Practice what you've learned
+    type: interactive course
+    lang: en
+    status: ok
+
+---
+skill: "ternary"
+level: 4
+text: |
+  Render the first or second option.
+requires:
+  - "&&"
+resources:
+  - url: https://scrimba.com/learn/learnreact/conditional-rendering-ternary-codf54303b0d1934718a0bf5b
+    desc: "Conditional rendering: ternary"
+    type: interactive course
+    lang: en
+    status: ok
+  - url: https://scrimba.com/learn/learnreact/conditional-rendering-practice-co6c14590bfc4e8abe0ef2b40
+    desc: "Conditional rendering practice"
+    text: |
+      Practice what you've learned
+    type: interactive course
+    lang: en
+    status: ok
+
+---
+skill: "Practice: quiz"
+level: 4
+requires:
+  - "ternary"
+resources:
+  - url: https://scrimba.com/learn/learnreact/conditional-rendering-quiz-coeaf48b69510213fee26c35d
+    desc: "Conditional rendering quiz!"
+    text: |
+      Practice what you've learned
+    type: interactive course
+    lang: en
+    status: ok
