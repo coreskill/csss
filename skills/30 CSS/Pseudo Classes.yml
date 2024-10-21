@@ -142,7 +142,7 @@ resources:
     lang: en
 
 ---
-skill: "Forms related pseudo classes (:checked, :required, :valid + :invalid, :enabled + :disabled)"
+skill: "Forms related pseudo classes"
 level: 5
 requires: 
   - "General CSS // Basic CSS Syntax"
@@ -159,8 +159,16 @@ resources:
     desc: ":valid [MDN]"
     type: reference
     lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:user-valid
+    desc: ":user-valid [MDN]"
+    type: reference
+    lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:invalid
     desc: ":invalid [MDN]"
+    type: reference
+    lang: en
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:user-invalid
+    desc: ":user-invalid [MDN]"
     type: reference
     lang: en
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:enabled
@@ -170,6 +178,10 @@ resources:
   - url: https://developer.mozilla.org/en-US/docs/Web/CSS/:disabled
     desc: ":disabled [MDN]"
     type: reference
+    lang: en
+  - url: https://www.youtube.com/watch?v=awNYtIAu6pI
+    desc: "Very small CSS tweaks for better forms (Kevin Powell)"
+    type: video
     lang: en
  # - HTML \\ Forms
 
