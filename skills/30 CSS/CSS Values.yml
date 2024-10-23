@@ -22,15 +22,3 @@ resources:
     desc: "initial [MDN]"
     type: reference
     lang: en
-
----
-skill: "all"
-level: 5
-requires:
-  - "inherit"
-  - "initial"
-resources:
-  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/all
-    desc: "all [MDN]"
-    type: reference
-    lang: en

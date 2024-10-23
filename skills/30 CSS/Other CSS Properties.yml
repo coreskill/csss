@@ -111,6 +111,18 @@ requires:
   - "CSS Units // Angle units (deg)"
 
 ---
+skill: "all"
+level: 5
+requires:
+  - "inherit"
+  - "initial"
+resources:
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/all
+    desc: "all [MDN]"
+    type: reference
+    lang: en
+
+---
 skill: "CSS animations"
 level: extra
 resources:
