@@ -42,6 +42,10 @@ resources:
     desc: "position [MDN]"
     type: reference
     lang: en
+  - url: https://polypane.app/blog/getting-stuck-all-the-ways-position-sticky-can-fail/
+    desc: "Getting stuck: all the ways position:sticky can fail"
+    type: article
+    lang: en
 requires:
   - "General CSS // Basic CSS Syntax"
 
