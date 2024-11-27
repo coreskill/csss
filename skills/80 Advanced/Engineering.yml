@@ -160,6 +160,11 @@ level: 3
 resources:
   - url: https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement
     lang: en
+  - url: https://www.joshwcomeau.com/css/browser-support/
+    desc: "A Framework for Evaluating Browser Support"
+    type: article
+    lang: en
+    status: ok
 
 ---
 skill: "Feature detection"
