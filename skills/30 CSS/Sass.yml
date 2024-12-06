@@ -15,12 +15,6 @@ level: 3
 requires: 
   - "Basic principles, Sass vs. scss"
 resources:
-  - url: https://www.sassmeister.com/
-    desc: Sassmeister website
-    text: |
-      Sassmeister is a tool that allows you to quickly see CSS generated from your Sass code.
-    type: tool
-    lang: en
   - url: https://sass-lang.com/playground/
     desc: Playground at official Sass website
     text: |
