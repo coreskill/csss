@@ -7,7 +7,7 @@ level: 2
 requires:
   - "Basic Structure // <!doctype>, <html>, <head>, <body>"
 resources:
-  - url: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#entity_references_including_special_characters_in_html
+  - url: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax#character_references_including_special_characters_in_html:~:text=are%0A//%20%20%20%20%20%20%20%20silly.%22-,Character%20references%3A%20including%20special%20characters%20in%20HTML,as%20your%20HTML%27s%20character%20encoding%20is%20set%20to%20UTF%2D8.
     desc: "Entity references: Including special characters in HTML [MDN]"
     type: guide
     lang: en
